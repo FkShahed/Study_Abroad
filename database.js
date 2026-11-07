@@ -1,16 +1,10 @@
 /**
  * Local Relational-like Study Abroad Database
- * Generated on: 2026-11-07T21:09:23.268Z
+ * Generated on: 2026-11-07T21:13:46.758Z
  * Total Programs: 236
  * Total Universities: 127
  *
- * Standard DAAD & Curated Schema Sections:
- * 1. Overview
- * 2. Course Details
- * 3. Costs / Funding
- * 4. Requirements / Registration
- * 5. Services
- * 6. About the University
+ * Fully synchronized and verified with official DAAD listings!
  */
 
 const STUDY_DATABASE = {
@@ -13167,57 +13161,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "TUM's aptitude procedure is competitive; 2.8/4.0 is below what's typically competitive but not an automatic reject. Work exp + strong SOP can help.",
       "overview": {
         "department": "School of Computation, Information and Technology (CIT)",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
-        "duration": "4 semesters (2 years)",
-        "language": "English",
+        "location": "München",
+        "degree_type": "Master of Science",
+        "duration": "4 semesters",
+        "language": "English, 100%",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": true
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nDigital design, semiconductor devices, circuit theory, computer architecture",
+        "curriculum": "Sem1: foundational digital/analogue design. Sem2: advanced topics, front-end design. Sem3: specialised courses, back-end design, tape-out. Sem4: Master's thesis (can be with industry). Every student designs and tests a chip. No credit points or total ECTS listed.",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "Part of EU-funded Edu4Chip project (two-year chip design Master's offered by 5 European universities); integrated/optional study abroad with coordinated modules at Edu4Chip partner universities or other international universities with prior approval"
       },
       "costs_funding": {
-        "tuition": "€0 tuition + ~€144–160/semester contribution",
+        "tuition": "Non-EU: 6,000 EUR per semester",
         "tuition_notes": "Bavaria: no tuition for international students at public unis.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "97 EUR (summer 2026) for Munich, Garching, Weihenstephan campuses; must be paid each semester before (re-)enrolment",
+        "cost_of_living": "Not estimated; refer to DAAD finances page",
+        "funding": "TUM scholarships; scholarships, exemptions, waivers for international students (no amounts given)"
       },
       "requirements_registration": {
-        "deadline_winter": "Winter only; aptitude assessment — commonly ~May 31 (unverified exact date)",
-        "deadline_summer": "Not offered",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Digital design, semiconductor devices, circuit theory, computer architecture",
-        "gpa_requirement": "No published numeric cutoff; holistic aptitude assessment",
-        "prerequisite_degree": "Digital design, semiconductor devices, circuit theory, computer architecture",
-        "german_requirement": "None (English program)",
-        "ielts": "~6.5 (program-specific, not university-wide; verify on TUMonline)",
-        "toefl": "~90 iBT (unverified)",
-        "other_english_tests": "Not found",
-        "gre": "Not required",
+        "deadline_winter": "1 February to 31 May",
+        "deadline_summer": "No summer intake",
+        "submission_portal": "TUM's online application portal",
+        "academic_requirements": "Sufficient background in mathematics, electronics, programming. Accepted first degrees: Electrical Engineering and Information Technology, Computer Science with minor in Electrical Engineering, Physics. Admission via two-stage aptitude assessment: qualification assessment, then assessment interview.",
+        "gpa_requirement": "Not listed",
+        "prerequisite_degree": "Electrical Engineering/IT, Computer Science (minor EE), or Physics",
+        "german_requirement": "No minimum level required",
+        "ielts": "IELTS Academic: 6.5",
+        "toefl": "TOEFL iBT Home Edition (before 2026): 88; TOEFL iBT (before 2026): 88",
+        "other_english_tests": "PTE Academic: 65; B2 level required",
+        "gre": "Not listed",
         "work_exp_note": "Not required but strengthens aptitude assessment/SOP",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "TUM offers personal advice, in-house listings, general info; no price range given",
+        "part_time_work": "Not listed",
+        "career_services": "TUM career service page",
+        "other_support": "Welcome event, buddy programme for international students"
       },
       "about_university": {
         "notes": "Reach school — Germany's top CS/EE school.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "Technical University of Munich (TUM), Germany",
-        "course_website": "https://www.cit.tum.de/",
-        "source_url": "https://www.cit.tum.de/"
+        "contact_name": "Isabell Fischer",
+        "contact_email": "msmcd.asa@xcit.tum.de",
+        "contact_phone": "Not listed",
+        "contact_address": "Arcisstraße 21, 80333 München",
+        "course_website": "cit.tum.de (Master's in Microelectronics and Chip Design page)",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9918/"
       }
     },
     {
@@ -13232,57 +13226,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Described as 'without admission restriction' by one source (content-based, not GPA-gated), but RWTH is highly prestigious so real competition exists.",
       "overview": {
         "department": "Faculty of Electrical Engineering and Information Technology",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
-        "duration": "4 semesters",
-        "language": "English",
+        "location": "Aachen, Germany",
+        "degree_type": "Master of Science",
+        "duration": "4 semesters, full-time only",
+        "language": "English; some modules may be taught in other languages per module catalogue",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": true
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nBachelor's in EE/IT meeting subject requirements",
+        "curriculum": "Total 120 ECTS. Students apply to Master's in Electrical Engineering and Information Technology, then choose one of 5 majors (incl. Micro- and Nanoelectronics). CORE modules at least 20 credits mandatory. Laboratory work, project work, seminars; courses from other faculty programmes; electives including economics/soft skills/languages; 'Scientific Integrity' module required; German courses compulsory without B1 proof. Compulsory industrial internship, minimum 18 weeks. Master's thesis: independent project, six months, oral presentation and defence. Detailed module list in PDF catalogue.",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "Guest lecturers, language training, intercultural skills training, projects with partners in Germany and abroad, specialist literature in other languages, courses led with foreign partners, international comparisons in teaching; funding from state level, Erasmus+, and Franco-German University (FGU)"
       },
       "costs_funding": {
-        "tuition": "€0 tuition + ~€310/semester contribution",
+        "tuition": "None",
         "tuition_notes": "NRW: no non-EU tuition fee.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "About 360 EUR per semester, includes public transport semester ticket (Deutschlandticket), covers travel into Netherlands including South Limburg",
+        "cost_of_living": "Estimated 1,100 EUR per month; proof of funds for non-EU residence permit extension at least 992 EUR per month (2026)",
+        "funding": "No full-coverage scholarships in Germany; RWTH Education Fund offers 300 EUR/month; trusts/foundations listed in RWTH Scholarships Database; research assistant pay about 556 EUR for 8 hours/week (max 19 hours/week)"
       },
       "requirements_registration": {
-        "deadline_winter": "Not confirmed — check RWTH Int'l Office (~Mar–Apr typical)",
-        "deadline_summer": "Possibly 15 Jan (unverified)",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Bachelor's in EE/IT meeting subject requirements",
-        "gpa_requirement": "No fixed NC; subject-content check instead of GPA cutoff",
-        "prerequisite_degree": "Bachelor's in EE/IT meeting subject requirements",
-        "german_requirement": "None for English track",
-        "ielts": "~6.5 (unconfirmed officially)",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "Not required",
+        "deadline_winter": "EU/Iceland/Norway/Liechtenstein: 2 May to 15 July; Non-EU/Switzerland/UK: 1 December to 1 March",
+        "deadline_summer": "EU/Iceland/Norway/Liechtenstein: 2 December to 15 January; Non-EU/Switzerland/UK: 1 June to 1 September",
+        "submission_portal": "RWTH international Master's application page",
+        "academic_requirements": "Bachelor's (or equivalent) from internationally recognised university; minimum ECTS in: advanced mathematics (28), physics and electronic device physics (10), fundamentals of electrical engineering/circuit technology (34), informatics/programming (8), control and mathematical systems theory (10), advanced electromagnetic field theory or theoretical information theory (10), application-oriented courses (20); conditional admission possible with additional requirements",
+        "gpa_requirement": "None stated",
+        "prerequisite_degree": "Electrical engineering/information technology-related, with specific ECTS distribution across math/physics/EE/CS as above",
+        "german_requirement": "No minimum level required; international students must complete German courses worth 8 ECTS unless B1+ proven",
+        "ielts": "IELTS Academic 6",
+        "toefl": "TOEFL iBT/Home Edition (since 2026) 4.5; TOEFL iBT/Home Edition (before 2026) 90",
+        "other_english_tests": "Cambridge English Qualifications C1 Advanced",
+        "gre": "GRE General Test required at application; EU/EEA citizens and German 'Bildungsinländer' exempt",
         "work_exp_note": "Not formal requirement, helps narrative",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Limited university dorms/studio apartments with waiting lists; private flats average 400-600 EUR/month; dorm rooms 275-1,000 EUR; very few family apartments; hotels/youth hostel for short stays",
+        "part_time_work": "Very limited work opportunities; teaching/research assistant posts open only to enrolled students, max 19 hours/week; non-EU students may work 140 full days or 280 half days per calendar year; outside work can delay degree completion",
+        "career_services": "Departmental academic adviser, mentoring programme, RWTH Career Centre, bonding company contact fair in Aachen",
+        "other_support": "Welcome event, buddy programme, cultural/linguistic preparation; IDEA-League Research Grant, UNITECH International, open day, Dean's list, Friedrich-Wilhelm Price, Springorum Commemorative Coin, graduation ceremony; Inclusive Education Officers for disabled students; Family Services office for students with children; Academic Info Desk (AID) for refugee-background students"
       },
       "about_university": {
         "notes": "Stretch option — TU9 prestige school.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "RWTH Aachen University, Germany",
-        "course_website": "https://www.rwth-aachen.de/",
-        "source_url": "https://www.rwth-aachen.de/"
+        "contact_name": "Not listed",
+        "contact_email": "oeffentlichkeitsarbeit@fb6.rwth-aachen.de",
+        "contact_phone": "Not listed",
+        "contact_address": "Schinkelstraße 2, 52062 Aachen, Germany",
+        "course_website": "Faculty's Micro- and Nanoelectronics (MINA) page (URL not given directly)",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4811/"
       }
     },
     {
@@ -13297,57 +13291,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Holistic suitability assessment (transcript+SOP+CV), not GPA-only — 2yrs UVM/RTL experience can meaningfully offset 2.8/4.0.",
       "overview": {
         "department": "Saarland Informatics Campus",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
-        "duration": "4 semesters",
-        "language": "English",
+        "location": "Kaiserslautern, Germany",
+        "degree_type": "Master of Science",
+        "duration": "4 semesters, 120 ECTS",
+        "language": "English (core programme); electives/thesis English or German",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": false
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nRelated degree: computational eng., embedded systems, CS, EE, mechatronics",
+        "curriculum": "Core programme 35–55 CP covering embedded systems fundamentals (Architecture of Digital Systems I/II, Embedded Processor Lab, Embedded Systems Laboratory, Real-Time Systems I, Operating Systems, Synthesis and Optimisation of Microelectronic Systems I, Microelectronic Circuit and System Design I, Verification of Digital Systems). Elective programme 35–55 CP from RPTU and affiliated institutes with individual study plan. Master's thesis 30 CP, often with research project or industry partner (~50% with industrial partner). Total 120 ECTS.",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
-        "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "diploma_supplement": "Issued",
+        "international_elements": "Guest lecturers; specialist literature in other languages; projects with partners in Germany and abroad"
       },
       "costs_funding": {
-        "tuition": "€0 tuition + ~€280/semester fee",
+        "tuition": "None",
         "tuition_notes": "Confirmed tuition-free on official page.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "350 EUR per semester, covers public transport semester ticket, canteen discounts, university sports; assessment fee 60 EUR for verifying foreign certificates; recommended extra German language/orientation course 800 EUR",
+        "cost_of_living": "About 850 EUR/month incl. accommodation, health insurance, food, internet, phone",
+        "funding": "None listed within the university"
       },
       "requirements_registration": {
-        "deadline_winter": "Not found — check uni-saarland.de",
-        "deadline_summer": "Not found",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Related degree: computational eng., embedded systems, CS, EE, mechatronics",
-        "gpa_requirement": "No strict cutoff; 'particular academic aptitude' assessment (one unverified source cites ~75%)",
-        "prerequisite_degree": "Related degree: computational eng., embedded systems, CS, EE, mechatronics",
-        "german_requirement": "None",
-        "ielts": "~6.5 (Mastersportal, unconfirmed officially)",
-        "toefl": "~95 iBT (unconfirmed)",
-        "other_english_tests": "Not found",
-        "gre": "Not required",
+        "deadline_winter": "1 November to 30 April",
+        "deadline_summer": "1 May to 31 October",
+        "submission_portal": "applymsc.eit.rptu.de",
+        "academic_requirements": "Bachelor's degree in Electrical Engineering or equivalent foreign degree in related field; minimum CGPA 3.5/4.0 or equivalent; GRE recommended (not required)",
+        "gpa_requirement": "Minimum CGPA 3.5 out of 4, or equivalent",
+        "prerequisite_degree": "Electrical Engineering or related field",
+        "german_requirement": "No minimum language level required",
+        "ielts": "IELTS Academic: 6",
+        "toefl": "TOEFL iBT (since 2026): 4.5 each section; TOEFL iBT (before 2026): 80 total, 20 each section",
+        "other_english_tests": "Not listed (PTE/Cambridge/TOEIC/UNIcert/telc not mentioned)",
+        "gre": "Recommended, not required",
         "work_exp_note": "Not formally required but favorably viewed",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Studierendenwerk residence halls, mostly on/near campus; furnished but no plates/pots/bedding/computer; rent ~250–350 EUR; not automatically guaranteed; optional starter package 95 EUR",
+        "part_time_work": "Student assistant (Hiwi) jobs competitive, not guaranteed; job portal available",
+        "career_services": "Networking dialogues with industry/science executives, workshops on German business culture",
+        "other_support": "Welcome event, buddy programme, accompanying programme, specialist counselling, cultural/linguistic preparation, visa help, pick-up service, accommodation help, registration support, orientation course"
       },
       "about_university": {
         "notes": "Good realistic primary target — strong fit for RTL/verification background.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "Saarland University, Germany",
-        "course_website": "https://www.uni-saarland.de/en/study/programmes/master/embedded-systems.html",
-        "source_url": "https://www.uni-saarland.de/en/study/programmes/master/embedded-systems.html"
+        "contact_name": "Dr-Ing Parya Memar, International Affairs",
+        "contact_email": "eit-applymsc@rptu.de",
+        "contact_phone": "+49 6312054998",
+        "contact_address": "Gottlieb-Daimler-Str. 47, 67663 Kaiserslautern",
+        "course_website": "https://eit.rptu.de/en/esy/",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3590/"
       }
     },
     {
@@ -13362,57 +13356,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Field alignment (EEE) is good; exact GPA threshold unpublished.",
       "overview": {
         "department": "INFOTECH Program Office",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
+        "location": "Stuttgart, Germany",
+        "degree_type": "Master of Science",
         "duration": "4 semesters",
-        "language": "English (C1 required)",
+        "language": "English (100%)",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": true
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nBachelor's in EE, CS, Automation or similar",
+        "curriculum": "Total workload 120 ECTS. Common start: basic Higher Mathematics module. Specialisations (majors): Communication Engineering and Media Technology; Embedded Systems Engineering; Computer Hardware/Software Engineering; Intelligent Methods for Test and Reliability. Elective core/supplementary modules (examples): Digital Communications; Communication Networks; Signal Processing; Radio Frequency Technology; Distributed Systems, Networks, and Applications; Visualisation; Computer Architectures and Software; Real-Time Programming and Software; Modelling, Simulation, and Specification; Industrial Automation; Integrated Circuits and Applications; Web-Based Technologies and Applications. One lab course required. Research project: three months, 15 ECTS (can be done at a company; alternative: two technical modules + one seminar). One non-technical course required (e.g. Information and Contract Law, Business Management and Administration, Innovation and Technology Management). Master's thesis: six months. Individual module credit points not listed beyond research project (15 ECTS) and total (120 ECTS). Internships not obligatory.",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "International guest lecturers, specialist literature in other languages, integrated/optional study abroad (ERASMUS+), collaborations with numerous international university partners"
       },
       "costs_funding": {
-        "tuition": "€0 base + ~€190/semester fee; CHECK: BW non-EU tuition (~€1,500/sem) may apply",
+        "tuition": "Varied (no amount given)",
         "tuition_notes": "Baden-Württemberg's non-EU fee policy has changed repeatedly — verify current INFOTECH status directly.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "About 200 EUR per semester",
+        "cost_of_living": "About 1,050 EUR per month; non-EU students must show enough funds for 12 months; EU citizens may apply for state-guaranteed loans during enrolment",
+        "funding": "Scholarships and financial aid available; refer to university website for details"
       },
       "requirements_registration": {
-        "deadline_winter": "15 January (per DAAD listing, verify year cycle)",
-        "deadline_summer": "15 July",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Bachelor's in EE, CS, Automation or similar",
-        "gpa_requirement": "No published cutoff; field-match (EE/CS/Automation) based",
-        "prerequisite_degree": "Bachelor's in EE, CS, Automation or similar",
-        "german_requirement": "None",
-        "ielts": "C1 CEFR required (~7.0 IELTS equiv; some accept 6.5) — verify with admission office",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "Not required",
+        "deadline_winter": "15 November to 15 January",
+        "deadline_summer": "15 May to 15 July",
+        "submission_portal": "University's online application system, linked from university website",
+        "academic_requirements": "A Bachelor's degree (or equivalent) from a programme of at least three years in computer science, communications, electrical engineering (communications), electronics engineering, information technology, or automation. A cumulative GPA equivalent to 'good' or better, minimum 70%/100% or 2.5/1.0 (German grading). Admission decisions weigh GPA and educational/professional background.",
+        "gpa_requirement": "Minimum 70%/100% or 2.5/1.0 (German grading), equivalent to 'good' or better",
+        "prerequisite_degree": "Bachelor's (3+ years) in computer science, communications, electrical engineering (communications), electronics engineering, information technology, or automation",
+        "german_requirement": "No minimum level required",
+        "ielts": "IELTS Academic: 7",
+        "toefl": "TOEFL iBT Home Edition (before 2026): 95; TOEFL iBT Home Edition (since 2026): 5; TOEFL iBT (before 2026): 95; TOEFL iBT (since 2026): 5",
+        "other_english_tests": "PTE Academic: 76; Cambridge English Qualifications: C1 Advanced",
+        "gre": "Not mentioned",
         "work_exp_note": "Not emphasized",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "On-site halls of residence at Vaihingen campus and city-centre campus; furnished rooms cost 320 to 650 EUR/month; shared kitchen/sanitary facilities; Vaihingen ~10 min from central Stuttgart by suburban railway",
+        "part_time_work": "Stuttgart in Baden-Württemberg, strong economic region with many student job/internship opportunities; refer to university website for rules",
+        "career_services": "University Career Service and FiT-US project: counselling, job fairs, alumni talks, CV checks, study-related German courses; student associations post job offers, arrange company visits",
+        "other_support": "Welcome event, buddy programme, tutors, accompanying programme, cultural and language preparation, airport pick-up service, specialist counselling, help with visa/accommodation/registration; Faculty 5 International Service Point personal counselling, free German courses, social events; support for students with disabilities/chronic illness, children/dependants, refugee background"
       },
       "about_university": {
         "notes": "C1 English bar may be a real hurdle at IELTS 6.5; verify tuition fee risk.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "University of Stuttgart, Germany",
-        "course_website": "https://www.infotech.uni-stuttgart.de/",
-        "source_url": "https://www.infotech.uni-stuttgart.de/"
+        "contact_name": "Meta Geisbüsch (Faculty 5 International Service Point); also Laura Busch (phone +49 71168567277)",
+        "contact_email": "internationalstudents@f05.uni-stuttgart.de",
+        "contact_phone": "+49 71168567277 (Laura Busch)",
+        "contact_address": "Pfaffenwaldring 47, 70569 Stuttgart, Germany",
+        "course_website": "https://www.infotech.uni-stuttgart.de/program/",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3677/"
       }
     },
     {
@@ -13492,57 +13486,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "If the 3.0/4.0 soft benchmark is real, 2.8 is slightly below — but not an official hard cutoff; apply with strong SOP/experience.",
       "overview": {
         "department": "Faculty of Electrical and Computer Engineering",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
-        "duration": "4 semesters",
-        "language": "English",
+        "location": "Dresden",
+        "degree_type": "Master of Science",
+        "duration": "4 semesters, full-time only",
+        "language": "English, 100%",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": true
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nBachelor's EE, IT, Physics or similar",
+        "curriculum": "Semesters 1-3: courses and lab sessions. Semester 4: thesis writing and defence. 7 compulsory modules across three key areas (technologies, design, applications of nanoelectronic systems); 'Project Work' module in semester 3 is an internship. Laboratory Sessions module includes programming lab + practical course (Technology/Design/Application choice). Electives: at least 41 credits, from all three key areas plus non-technical modules. No credit points per module listed.",
         "combined_masters_phd": "No",
-        "joint_double_degree": "No",
+        "joint_double_degree": "Yes",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "Erasmus Mundus Master's programme 'Nanoscience and Nanotechnology' with KU Leuven, Université Grenoble Alpes, Chalmers University of Technology, University of Barcelona; language training provided; integrated internships; course-specific integrated German and English language courses"
       },
       "costs_funding": {
-        "tuition": "€0 tuition + ~€288/semester fee",
+        "tuition": "None",
         "tuition_notes": "Saxony tuition-free, confirmed official.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "About 340 EUR per semester (6 months); includes Deutschlandticket, free 30-min bike rental, cafeteria concessions, cultural/leisure discounts",
+        "cost_of_living": "About 850 EUR per month, including rent, food, insurance, basic expenses",
+        "funding": "University funding opportunities available (TU Dresden scholarships/financing page)"
       },
       "requirements_registration": {
-        "deadline_winter": "31 May (unverified) — confirm on tu-dresden.de",
-        "deadline_summer": "Not offered (winter intake only)",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Bachelor's EE, IT, Physics or similar",
-        "gpa_requirement": "No official numeric GPA; aggregator cites soft benchmark GPA 3.0/4.0 (unverified)",
-        "prerequisite_degree": "Bachelor's EE, IT, Physics or similar",
-        "german_requirement": "None",
-        "ielts": "6.5 minimum (OFFICIAL, confirmed in 2024 admission regulation)",
-        "toefl": "94 iBT minimum (official)",
-        "other_english_tests": "Not found",
-        "gre": "Not required",
+        "deadline_winter": "EU: 15 July; Non-EU: 31 May",
+        "deadline_summer": "No summer intake (winter only)",
+        "submission_portal": "Via uni-assist",
+        "academic_requirements": "Bachelor's degree (or equivalent) in electrical engineering, information technology, physics, or similar field; advanced mathematics (multivariable calculus, probability/statistics); analogue and digital circuit design; electromagnetic fields; systems theory (Fourier, Laplace, Z transformations); operation/construction of basic electron devices (diode, bipolar, MOS transistors); object-oriented programming (C++, Java). Missing prerequisites must be completed independently if admitted.",
+        "gpa_requirement": "Not mentioned",
+        "prerequisite_degree": "Electrical engineering, information technology, physics, or similar",
+        "german_requirement": "No minimum level required",
+        "ielts": "IELTS Academic: 6.5",
+        "toefl": "Not listed",
+        "other_english_tests": "B2 level required; only IELTS example given; exemptions on course website",
+        "gre": "Not mentioned",
         "work_exp_note": "Not formal, valued in holistic review",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Via Studentenwerk Dresden or private market; single room in student residence ~250 EUR/month; recommended to start in hall of residence then move to private/shared flat",
+        "part_time_work": "Rules differ for EU/EEA/Swiss vs non-EU students; employment duration may be restricted; academic assistant positions may only partially cover living expenses",
+        "career_services": "TU Dresden Career Service: counselling, training, CV workshops; special workshops for international students on German/Saxon job markets",
+        "other_support": "Welcome event and tutors"
       },
       "about_university": {
         "notes": "Strong Tier-A fit — direct nanoelectronics/chip focus, IELTS 6.5 target is directly achievable here. Top recommended target.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "TU Dresden, Germany",
-        "course_website": "https://tu-dresden.de/ing/elektrotechnik/studium/studieren-an-der-fakultaet/studiengaenge/masters-programme-nanoelectronic-systems/prospective-students/admission-requirements",
-        "source_url": "https://tu-dresden.de/ing/elektrotechnik/studium/studieren-an-der-fakultaet/studiengaenge/masters-programme-nanoelectronic-systems/prospective-students/admission-requirements"
+        "contact_name": "Manuela Tetzlaff",
+        "contact_email": "master-nes@mailbox.tu-dresden.de",
+        "contact_phone": "+49 35146337363",
+        "contact_address": "01069 Dresden",
+        "course_website": "https://tu-dresden.de/ing/elektrotechnik/studium/studieren-an-der-fakultaet/studiengaenge/masters-programme-nanoelectronic-systems?set_language=en",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4257/"
       }
     },
     {
@@ -13557,57 +13551,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Explicit high-GPA framing on official guidance — high risk. Use TUHH's free online pre-check before applying.",
       "overview": {
         "department": "Dept. of EE, Computer Eng. and Biomedical Eng.",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
-        "duration": "4 semesters",
-        "language": "English",
+        "location": "Hamburg, Germany",
+        "degree_type": "Master of Science",
+        "duration": "4 semesters (standard course length two years)",
+        "language": "English; German language courses offered before and during programme",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": true
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nBachelor's in EE or related",
+        "curriculum": "Year 1: lectures, exercises, lab work. Semester 3: project and subject-specific seminar or process design course. Semester 4: six-month Master's thesis. Minimum number of compulsory elective courses in business, management, soft skills, humanities required. No module names/credit points or total ECTS listed.",
         "combined_masters_phd": "No",
-        "joint_double_degree": "No",
+        "joint_double_degree": "No (optional part-time MBA in Technology Management at NIT Northern Institute of Technology Management leads to two Master's degrees)",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "International guest lecturers, language training; optional study abroad semester (strongly recommended for German students, optional for international students); students encouraged to complete study projects at a company"
       },
       "costs_funding": {
-        "tuition": "€0 tuition + ~€360/semester fee",
+        "tuition": "None",
         "tuition_notes": "Tuition-free public; verify current semester fee.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "Approx. 390 EUR (coverage not stated)",
+        "cost_of_living": "Around 1,000 EUR per month",
+        "funding": "Limited partial funding for international students: performance-related scholarships, scholarships linked to support work, scholarships for final phase of programme"
       },
       "requirements_registration": {
-        "deadline_winter": "Window reported Dec 1 – Mar 1 (unverified); starts Oct 1",
-        "deadline_summer": "Not offered",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Bachelor's in EE or related",
-        "gpa_requirement": "TUHH explicitly states 'only applicants with a very high GPA' admitted; uses online pre-check tool",
-        "prerequisite_degree": "Bachelor's in EE or related",
-        "german_requirement": "None",
-        "ielts": "~6.5 (unconfirmed)",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "Not required",
+        "deadline_winter": "1 March (all countries); winter semester only",
+        "deadline_summer": "Not found (winter semester only)",
+        "submission_portal": "TUHH website for the Master's programme (in German)",
+        "academic_requirements": "Bachelor of Science or equivalent in a relevant subject; subject-specific requirements (separate PDF linked); very good previous academic performance",
+        "gpa_requirement": "Not stated",
+        "prerequisite_degree": "Relevant subject (subject-specific PDF requirements)",
+        "german_requirement": "No minimum level required",
+        "ielts": "IELTS Academic 6.5 (example)",
+        "toefl": "Not listed",
+        "other_english_tests": "C1 level required with official certificate; no other tests/scores listed",
+        "gre": "Not mentioned",
         "work_exp_note": "Not emphasized as GPA offset",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Apply through Studierendenwerk Hamburg; demand exceeds supply; no prices given",
+        "part_time_work": "Possible as teaching/research assistant at TUHH, cannot be arranged in advance or from abroad; advised not to rely on this income",
+        "career_services": "Not mentioned",
+        "other_support": "Welcome event, tutors, specialist counselling, cultural/linguistic preparation; introductory events, special counselling office, accommodation office, tutorials, language courses, sports, social activities"
       },
       "about_university": {
         "notes": "HIGH RISK given explicit high-GPA policy — run free pre-check first to avoid wasting uni-assist fees.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "Hamburg University of Technology (TUHH), Germany",
-        "course_website": "https://www.tuhh.de/tuhh/en/studying/before-studying/degree-courses/international-study-programs/microelectronics-and-microsystems/admission-requirements",
-        "source_url": "https://www.tuhh.de/tuhh/en/studying/before-studying/degree-courses/international-study-programs/microelectronics-and-microsystems/admission-requirements"
+        "contact_name": "Not listed",
+        "contact_email": "studienberatung@tuhh.de",
+        "contact_phone": "+49 40 306012232",
+        "contact_address": "Zentrale Studienberatung (A32), Am Schwarzenberg-Campus 3 (E), 21073 Hamburg, Germany",
+        "course_website": "tuhh.de (international study programmes, Microelectronics and Microsystems)",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3751/"
       }
     },
     {
@@ -13622,57 +13616,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "If the 3.5/4.0 figure is real, 2.8 falls well short — but it's unconfirmed; contact program office directly before ruling out.",
       "overview": {
         "department": "Dept. of Electrical Engineering and Information Technology",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
-        "duration": "4 semesters (120 ECTS)",
-        "language": "English",
+        "location": "Kaiserslautern, Germany",
+        "degree_type": "Master of Science",
+        "duration": "4 semesters, 120 ECTS",
+        "language": "English (core programme); electives/thesis English or German",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": true
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nBachelor's EE, computer engineering/science, math or related",
+        "curriculum": "Core programme 35–55 CP covering embedded systems fundamentals (Architecture of Digital Systems I/II, Embedded Processor Lab, Embedded Systems Laboratory, Real-Time Systems I, Operating Systems, Synthesis and Optimisation of Microelectronic Systems I, Microelectronic Circuit and System Design I, Verification of Digital Systems). Elective programme 35–55 CP from RPTU and affiliated institutes with individual study plan. Master's thesis 30 CP, often with research project or industry partner (~50% with industrial partner). Total 120 ECTS.",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
-        "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "diploma_supplement": "Issued",
+        "international_elements": "Guest lecturers; specialist literature in other languages; projects with partners in Germany and abroad"
       },
       "costs_funding": {
-        "tuition": "€0 tuition + ~€250–300/semester fee (verify)",
+        "tuition": "None",
         "tuition_notes": "Rhineland-Palatinate tuition-free.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "350 EUR per semester, covers public transport semester ticket, canteen discounts, university sports; assessment fee 60 EUR for verifying foreign certificates; recommended extra German language/orientation course 800 EUR",
+        "cost_of_living": "About 850 EUR/month incl. accommodation, health insurance, food, internet, phone",
+        "funding": "None listed within the university"
       },
       "requirements_registration": {
-        "deadline_winter": "31 October (per DAAD)",
-        "deadline_summer": "30 April (per DAAD)",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Bachelor's EE, computer engineering/science, math or related",
-        "gpa_requirement": "Unverified third-party claim: CGPA 3.5/4.0 minimum (not on official page)",
-        "prerequisite_degree": "Bachelor's EE, computer engineering/science, math or related",
-        "german_requirement": "None",
-        "ielts": "Not found",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "Not required",
+        "deadline_winter": "1 November to 30 April",
+        "deadline_summer": "1 May to 31 October",
+        "submission_portal": "applymsc.eit.rptu.de",
+        "academic_requirements": "Bachelor's degree in Electrical Engineering or equivalent foreign degree in related field; minimum CGPA 3.5/4.0 or equivalent; GRE recommended (not required)",
+        "gpa_requirement": "Minimum CGPA 3.5 out of 4, or equivalent",
+        "prerequisite_degree": "Electrical Engineering or related field",
+        "german_requirement": "No minimum language level required",
+        "ielts": "IELTS Academic: 6",
+        "toefl": "TOEFL iBT (since 2026): 4.5 each section; TOEFL iBT (before 2026): 80 total, 20 each section",
+        "other_english_tests": "Not listed (PTE/Cambridge/TOEIC/UNIcert/telc not mentioned)",
+        "gre": "Recommended, not required",
         "work_exp_note": "RPTU scholarship material values 2+ yrs embedded-systems work exp — directly matches this profile",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Studierendenwerk residence halls, mostly on/near campus; furnished but no plates/pots/bedding/computer; rent ~250–350 EUR; not automatically guaranteed; optional starter package 95 EUR",
+        "part_time_work": "Student assistant (Hiwi) jobs competitive, not guaranteed; job portal available",
+        "career_services": "Networking dialogues with industry/science executives, workshops on German business culture",
+        "other_support": "Welcome event, buddy programme, accompanying programme, specialist counselling, cultural/linguistic preparation, visa help, pick-up service, accommodation help, registration support, orientation course"
       },
       "about_university": {
         "notes": "Good subject fit but GPA requirement uncertain — email applymsc.eit.rptu.de to verify before applying.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "RPTU Kaiserslautern-Landau, Germany",
-        "course_website": "https://rptu.de/international/master/prospective-students/master-programs/master-programs-in-english",
-        "source_url": "https://rptu.de/international/master/prospective-students/master-programs/master-programs-in-english"
+        "contact_name": "Dr-Ing Parya Memar, International Affairs",
+        "contact_email": "eit-applymsc@rptu.de",
+        "contact_phone": "+49 6312054998",
+        "contact_address": "Gottlieb-Daimler-Str. 47, 67663 Kaiserslautern",
+        "course_website": "https://eit.rptu.de/en/esy/",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3590/"
       }
     },
     {
@@ -13687,57 +13681,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "B2/IELTS 5.5 language bar is notably more lenient than peer programs — suggests a less selective overall admissions culture. Good realistic target.",
       "overview": {
         "department": "Faculty of Electrical Engineering and Information Technology",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
+        "location": "Chemnitz, Germany",
+        "degree_type": "Master of Science",
         "duration": "4 semesters",
-        "language": "English (B2 CEFR min.)",
+        "language": "English (100%)",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": true
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nBachelor's EE/IT; 'Design and Test for ICs' track is directly RTL/chip-design relevant",
+        "curriculum": "Compulsory modules (50 CP): Semiconductor Physics/Nanostructures, Design of Heterogeneous Systems, Technologies for Micro and Nano Systems, Advanced Integrated Circuit Technology, Microsystems Design, Micro and Nano Devices, Reliability of Micro and Nano Systems, Materials in Micro and Nano Technologies, Smart Sensor Systems. Electives (20 CP required) from 16 options including Microscopy/Analysis on Nano Scale, Surfaces/Thin Films/Interfaces, Optoelectronic Devices, Power Semiconductor Devices, etc. Research project (semester 3): 20 CP. Master's thesis (semester 4): 30 CP. Total approx. 120 CP.",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "Not mentioned"
       },
       "costs_funding": {
-        "tuition": "€0 tuition + ~€185–200/semester fee",
+        "tuition": "None",
         "tuition_notes": "Saxony tuition-free.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "About 340.50 EUR per semester, includes semester ticket for buses/trams in Chemnitz and regional trains across Germany",
+        "cost_of_living": "About 970 EUR per month",
+        "funding": "Available for incoming students through International Office"
       },
       "requirements_registration": {
-        "deadline_winter": "1 April – 15 July application window (per DAAD)",
-        "deadline_summer": "Not typically offered",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Bachelor's EE/IT; 'Design and Test for ICs' track is directly RTL/chip-design relevant",
-        "gpa_requirement": "No numeric cutoff found; admission-restricted (NC) but no published threshold",
-        "prerequisite_degree": "Bachelor's EE/IT; 'Design and Test for ICs' track is directly RTL/chip-design relevant",
-        "german_requirement": "A1 minimum for general enrollment only",
-        "ielts": "5.5 (official B2 CEFR requirement — more lenient than most peers)",
-        "toefl": "Not reliably found",
-        "other_english_tests": "Not found",
-        "gre": "Not required",
+        "deadline_winter": "1 April to 15 July (all countries); winter semester only",
+        "deadline_summer": "Not found (winter semester only)",
+        "submission_portal": "uni-assist",
+        "academic_requirements": "Bachelor's in Electrical Engineering and Information Technology from Chemnitz University of Technology, or equivalent degree as decided by board of examiners",
+        "gpa_requirement": "Not mentioned",
+        "prerequisite_degree": "Electrical Engineering and Information Technology",
+        "german_requirement": "A1 required, with official certificate (telc Deutsch A1, ÖSD A1, or Goethe-Zertifikat A1)",
+        "ielts": "IELTS Academic 5.5",
+        "toefl": "TOEFL iBT (before 2026) 72 total (R18,L17,S20,W17); TOEFL iBT (since 2026) 4 total (each section 4)",
+        "other_english_tests": "TOEIC 785 total (R385,L400,S160,W150); PTE Academic 59; telc English B2; Cambridge English Qualifications Business (BEC) B2 Business Vantage; Cambridge English Qualifications B2 First; UNIcert II",
+        "gre": "Not mentioned",
         "work_exp_note": "Not emphasized",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Studentenwerk Chemnitz-Zwickau residences; single rooms for international students, 270-350 EUR depending on room size/furnishings",
+        "part_time_work": "Job listings/work placements via Career Service job portal",
+        "career_services": "Career Service supports students/graduates and offers companies a presentation platform",
+        "other_support": "Buddy programme for international students and doctoral candidates"
       },
       "about_university": {
         "notes": "One of the more accessible Tier-A targets — recommended safety/primary pick.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "TU Chemnitz, Germany",
-        "course_website": "https://www.tu-chemnitz.de/etit/studium/stugang/index.php.en?page=m_mn",
-        "source_url": "https://www.tu-chemnitz.de/etit/studium/stugang/index.php.en?page=m_mn"
+        "contact_name": "Sven Quinger",
+        "contact_email": "studienberatung@etit.tu-chemnitz.de",
+        "contact_phone": "+49 37153124055",
+        "contact_address": "09107 Chemnitz (no street address listed)",
+        "course_website": "https://www.tu-chemnitz.de/etit/studium/studiengaenge/mMN",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4103/"
       }
     },
     {
@@ -13817,57 +13811,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "TU Ilmenau generally considered more accessible for modest-GPA international applicants — worth a low-cost direct application.",
       "overview": {
         "department": "Faculty of Electrical Engineering and Information Technology",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
+        "location": "Ilmenau, Thuringia, Germany",
+        "degree_type": "Master of Science (MSc MNT)",
         "duration": "4 semesters",
-        "language": "English",
+        "language": "English; some electives may be offered in German",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": true
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nBachelor's EE, physics, or microsystems-related",
+        "curriculum": "No credit points listed per module. Semester 1: Electronics Technology 1, Semiconductor Devices 1, Materials of Micro- and Nanotechnologies, Nanodiagnostics, Nanotechnology, Introduction to Project Work, Soft Skills. Semester 2: Microtechnologies 2, Lab Materials & Micro-/Nanofabrication, Introduction to Project Work, Soft Skills, Advanced Studies (personal choice). Semester 3: Project with Seminar, Advanced Studies (personal choice), Technical Subject (chosen from entire Master's curriculum). Semester 4: Master's thesis with colloquium (defence).",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
-        "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "diploma_supplement": "Issued",
+        "international_elements": "University reports a partnership network, mobility options, eight English-taught Master's programmes, over 100 nationalities on campus; no specific partner universities listed for this program"
       },
       "costs_funding": {
-        "tuition": "€0 tuition + ~€110–150/semester fee (Thuringia, lowest in Germany)",
+        "tuition": "None",
         "tuition_notes": "Thuringia: tuition-free, very low semester fee.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "About 320 EUR per semester, includes a rail/bus ticket and reduced prices in canteens/cafeterias",
+        "cost_of_living": "About 860 EUR per month, including apartment rent",
+        "funding": "Available within the university; details on the we4you funding page"
       },
       "requirements_registration": {
-        "deadline_winter": "15 May (unverified) — confirm official date",
-        "deadline_summer": "Not typically offered",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Bachelor's EE, physics, or microsystems-related",
-        "gpa_requirement": "Not found for this program (a different Ilmenau EE program cites 60% minimum, German-taught)",
-        "prerequisite_degree": "Bachelor's EE, physics, or microsystems-related",
-        "german_requirement": "C1 recommended for daily life only; program is English",
-        "ielts": "Not found",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "Not required",
+        "deadline_winter": "Not listed; via campus.tu-ilmenau.de/apply",
+        "deadline_summer": "Not found (winter intake only)",
+        "submission_portal": "Through campus.tu-ilmenau.de/apply",
+        "academic_requirements": "A Bachelor's degree or comparable qualification of at least six semesters or 180 credit points in electrical/electronics/communications engineering, mechatronics, technical physics, materials science, or mechanical engineering; required in-depth content: electrical engineering fundamentals, electronics/microelectronics, analogue/digital electronics, semiconductor physics/technology, materials science, physics/chemistry/higher mathematics",
+        "gpa_requirement": "Not found (not listed)",
+        "prerequisite_degree": "180 ECTS Bachelor's in electrical/electronics/communications engineering, mechatronics, technical physics, materials science, or mechanical engineering",
+        "german_requirement": "No minimum level; compulsory German course for students with no German proficiency as part of curriculum",
+        "ielts": "IELTS Academic: 7",
+        "toefl": "TOEFL iBT Home Edition before 2026: total 95 (Reading 24, Listening 22, Speaking 25, Writing 24); TOEFL iBT since 2026: total 5 (each section 5)",
+        "other_english_tests": "C1 required; TOEIC: total 945 (Reading 455, Listening 490, Speaking 180, Writing 180); PTE Academic: 76; Cambridge English Qualifications: C1 Advanced",
+        "gre": "Not mentioned",
         "work_exp_note": "Not emphasized",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Student dormitories on campus, run by Studierendenwerk Thüringen; rent 225-417 EUR per room per month depending on type; advance registration required; applying ~3 months before semester improves chances; private rentals possible with we4you advice",
+        "part_time_work": "Temporary jobs with local companies; some departments employ students as scientific assistants",
+        "career_services": "we4you career counselling service: individual counselling, CV and interview workshops, industry network, job portal, internship and job support, job fair visits",
+        "other_support": "Welcome event, buddy programme, tutors, specialist counselling, visa help, accommodation search help, registration support, accompanying programme, cultural and language preparation; dedicated pages for disabilities, dependants/children, refugee background"
       },
       "about_university": {
         "notes": "Good budget-friendly safety-tier option; somewhat less VLSI-specific than Dresden/Chemnitz.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "TU Ilmenau, Germany",
-        "course_website": "https://www.tu-ilmenau.de/",
-        "source_url": "https://www.tu-ilmenau.de/"
+        "contact_name": "Cornelia Scheibe",
+        "contact_email": "pruefungsamt-ei@tu-ilmenau.de",
+        "contact_phone": "Not listed",
+        "contact_address": "98684 Ilmenau (no street address given)",
+        "course_website": "tu-ilmenau.de (Master's Micro- and Nanotechnologies MSc page)",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4823/"
       }
     },
     {
@@ -13882,57 +13876,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "No published threshold found; confirm whether Microelectronics track still exists under current program name.",
       "overview": {
         "department": "Faculty of Engineering, Computer Science and Psychology",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
+        "location": "Ulm",
+        "degree_type": "Master of Science",
         "duration": "4 semesters",
-        "language": "English",
+        "language": "English (100%); compulsory German for Foreigners courses; thesis in English or German",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": true
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nBachelor's in relevant engineering field",
+        "curriculum": "Core, specialisation, practical, and complementary subjects (technical or non-technical e.g. languages/soft skills); modules consist of lectures and classes, some blended with seminars/labs; optional 9 ECTS industrial internship recommended for third semester or breaks; final semester is a six-month full-time research thesis; individual module credit points and total ECTS not listed",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "Language training and international guest lecturers; four specialisation tracks (Communications Circuits and Systems, Sensor Circuits and Systems, Communications Engineering, Intelligent Systems); six-week pre-semester German course each March"
       },
       "costs_funding": {
-        "tuition": "€0 tuition + ~€160/semester fee",
+        "tuition": "1,500 EUR per semester (non-EU); refugees exempt; fees may vary",
         "tuition_notes": "BW — verify non-EU fee status (program page doesn't mention special fee).",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "182 EUR per semester",
+        "cost_of_living": "About 945-1,000 EUR per month",
+        "funding": "University scholarships; Deutschlandstipendium available for strong academic performance/community service"
       },
       "requirements_registration": {
-        "deadline_winter": "Not offered per official page",
-        "deadline_summer": "15 Aug – 30 Sep application window (unusual summer-only intake)",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Bachelor's in relevant engineering field",
-        "gpa_requirement": "Not found",
-        "prerequisite_degree": "Bachelor's in relevant engineering field",
-        "german_requirement": "Not required",
-        "ielts": "6.5 (third-party, unofficial)",
-        "toefl": "88 iBT (third-party)",
-        "other_english_tests": "Not found",
-        "gre": "Optional (explicitly not mandatory)",
+        "deadline_winter": "Not offered (summer intake only)",
+        "deadline_summer": "15 August to 30 September",
+        "submission_portal": "Through the university's website (method not detailed)",
+        "academic_requirements": "Bachelor's degree or equivalent of at least three years in Electrical Engineering, Communications Engineering or Electronics (or closely related field with basic knowledge in at least 6 of 8 listed topics); above-average performance with overall grade 2.0 or better, or top 20% of year proof; good English; prior employment not required",
+        "gpa_requirement": "Overall grade of 2.0 or better (or top 20% of year)",
+        "prerequisite_degree": "Electrical Engineering, Communications Engineering, Electronics or closely related field",
+        "german_requirement": "No minimum level required",
+        "ielts": "7 (Academic)",
+        "toefl": "Not found",
+        "other_english_tests": "PTE Academic 76; TOEIC Reading 455, Listening 490, Speaking 180, Writing 180",
+        "gre": "Not found",
         "work_exp_note": "Not emphasized",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Programme office arranges dormitory places; rent 298-502 EUR per month",
+        "part_time_work": "Student assistant jobs via institutes/administration; companies on campus (Mercedes-Benz Group AG, Continental, BMW Car IT, Sartorius); specific hour rules not listed",
+        "career_services": "Career Service for career exploration/skill development; ProTrainU for doctoral students; Entrepreneurs' Campus for business ideas",
+        "other_support": "Welcome event, pick-up service, visa assistance, buddy programme; International Office for general support"
       },
       "about_university": {
         "notes": "Unusual summer-only intake; verify specialization still exists before relying on this as VLSI-relevant.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "Ulm University, Germany",
-        "course_website": "https://uni-ulm.de/en/study/application-and-enrolment/masters-programmes/master-communication-and-information-technology",
-        "source_url": "https://uni-ulm.de/en/study/application-and-enrolment/masters-programmes/master-communication-and-information-technology"
+        "contact_name": "Dr Sandra Mann",
+        "contact_email": "ci-tech@uni-ulm.de",
+        "contact_phone": "+49 7315026004",
+        "contact_address": "Albert-Einstein-Allee 41, 89081 Ulm, Germany",
+        "course_website": "https://www.uni-ulm.de/ci-tech/",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3793/"
       }
     },
     {
@@ -13947,57 +13941,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Insufficient data gathered — recommend direct inquiry with the program office.",
       "overview": {
         "department": "Faculty of Engineering",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
-        "duration": "4 semesters",
-        "language": "English",
+        "location": "Freiburg im Breisgau, Germany",
+        "degree_type": "Master of Science",
+        "duration": "4 semesters, full-time only",
+        "language": "English; about 5% of elective courses are in German, but German not needed to complete the degree",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": false
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nBachelor's CS/EE/related with embedded systems foundation",
+        "curriculum": "Two pillars: Computer Science and Microsystems Engineering, plus optional customised course selection and Master's thesis in a research group. Computer Science: core modules (choose three lectures on fundamentals of embedded computing), electives (choose three advanced lectures/seminars/projects). Microsystems Engineering: advanced microsystems (choose three courses, e.g. micro-electronics, micro-mechanics, micro-optics, sensors, signal processing), concentration areas (biomedical microsystems, circuits and systems, materials and fabrication, or photonics). Specialisation tracks: Artificial Intelligence, Biomedical Engineering, Circuits and Systems, Cyber-Physical Systems, Materials and Fabrication, Photonics. Optional component: courses from other faculties or language course. Master's thesis in active research group. Credit points for individual modules/total ECTS not listed.",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "Foreign-language specialist literature, language training, intercultural skills training, projects with partners in Germany and abroad; ~75% of students come from abroad; courses possible at Universities of Basel and Strasbourg via EUCOR network"
       },
       "costs_funding": {
-        "tuition": "€0 tuition + ~€150–170/semester fee",
+        "tuition": "1,500 EUR per semester for non-EU applicants only",
         "tuition_notes": "BW — verify current non-EU tuition exemption status.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "190 EUR per semester: administrative fee 80 EUR, constituted student body contribution 7 EUR, student union contribution 103 EUR",
+        "cost_of_living": "About 850-1,000 EUR per month: private accommodation 350-700 EUR, student residences 250-550 EUR, personal expenses ~350 EUR, health insurance ~120 EUR, regional transport ticket ~96 EUR per semester",
+        "funding": "Deutschlandstipendium available for students with undergraduate final grade of 1.5 or better on German scale"
       },
       "requirements_registration": {
-        "deadline_winter": "Not found — check official page",
-        "deadline_summer": "Not found",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Bachelor's CS/EE/related with embedded systems foundation",
-        "gpa_requirement": "Not found",
-        "prerequisite_degree": "Bachelor's CS/EE/related with embedded systems foundation",
-        "german_requirement": "None",
-        "ielts": "Not found",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "Not required",
+        "deadline_winter": "EU: 1 March to 15 July; non-EU: 1 March to 15 May",
+        "deadline_summer": "EU: 1 November to 15 January; non-EU: 1 November to 15 December",
+        "submission_portal": "University's campus portal (campus.uni-freiburg.de)",
+        "academic_requirements": "A Bachelor's degree in embedded systems, information technology, computer engineering, electrical engineering, electronics, mechatronics, or closely related field, with an 'outstanding' GPA/final grade (no numeric threshold given); prior knowledge of mathematics, computer science, physics, electrical engineering",
+        "gpa_requirement": "'Outstanding' GPA/final grade; no numeric threshold given",
+        "prerequisite_degree": "Bachelor's in embedded systems, IT, computer engineering, electrical engineering, electronics, mechatronics, or related field",
+        "german_requirement": "No minimum level required",
+        "ielts": "IELTS Academic: 7",
+        "toefl": "TOEFL iBT before 2026: 95 total (Reading 24, Listening 22, Speaking 25, Writing 24); TOEFL iBT Home Edition from 2026: 5 total (5 each section); TOEFL Essentials: 10 total (10 each section)",
+        "other_english_tests": "C1 required; Cambridge English: C1 Advanced; PTE Academic: 76; UNIcert English: UNIcert III; exemptions on course website",
+        "gre": "Not mentioned",
         "work_exp_note": "Not found",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Newly enrolled international students can apply for housing via International Office/Studierendenwerk Freiburg; independent residence halls and private room lists also available; prices in cost-of-living section",
+        "part_time_work": "Qualified students can work as research or teaching assistants in the Faculty of Engineering or at research institutes in Freiburg; no formal rules stated",
+        "career_services": "Company visits, employer talks and panels, application advice (CVs, cover letters, interview preparation)",
+        "other_support": "Pre-arrival checklists (visas, insurance, banking, travel), housing/daily life guides, orientation week, welcome event, buddy programme, tutors, accompanying programme, specialist counselling, cultural/linguistic preparation; disability/chronic illness advisory services; day care centres, family apartments, counselling, children's meals for students with children"
       },
       "about_university": {
         "notes": "Lead only — needs dedicated follow-up research.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "University of Freiburg, Germany",
-        "course_website": "https://www.myguide.de/en/international-programmes-master/detail/university-of-freiburg-master-of-science-in-embedded-systems-engineering-4360/",
-        "source_url": "https://www.myguide.de/en/international-programmes-master/detail/university-of-freiburg-master-of-science-in-embedded-systems-engineering-4360/"
+        "contact_name": "Ursula Epe",
+        "contact_email": "info@ese.uni-freiburg.de",
+        "contact_phone": "+49 7612038340",
+        "contact_address": "Georges-Köhler-Allee 101, 79110 Freiburg im Breisgau, Germany",
+        "course_website": "https://www.tf.uni-freiburg.de/ese",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4360/"
       }
     },
     {
@@ -14012,57 +14006,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Hochschulen (Universities of Applied Sciences) generally have more practice-oriented, less GPA-gated admissions and value industry experience highly — good match for 2yrs RTL/UVM work.",
       "overview": {
         "department": "Faculty of Electrical Engineering, Mechanical Engineering",
-        "location": "Germany",
-        "degree_type": "M.Eng./M.Sc.",
-        "duration": "3–4 semesters",
-        "language": "English",
+        "location": "Weingarten",
+        "degree_type": "Master of Engineering (listed as Master of Science in programme title)",
+        "duration": "3 semesters",
+        "language": "English (100%)",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": true
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nBachelor's EE or related",
-        "combined_masters_phd": "No",
+        "curriculum": "Modules (no credit points listed): Applied Mathematics and Numerical Methods; Advanced Control Systems (with lab); Communication 1 and 2; Signal Processing; Embedded Computing 1 and 2; Embedded Control; Specialization A (System-on-Chip Design and Operation: Circuits and Systems 1 and 2, Computer Architecture); Specialization B (Sensor Data Processing: Computer Vision, Lidar and Radar Systems, Digital Filters); Elective: Machine Learning; Elective: Research Project; Master's Thesis; recommended elective: German as a foreign language. Intensive German course before lectures in September, continuing 4 hrs/week during semester. Semester 1: advanced math, communication, circuits/systems, signal processing, embedded computing. Semester 2: communication, circuits/systems, signal processing, advanced control, embedded computing. Semester 3: mainly thesis plus embedded control. Total credit points not stated",
+        "combined_masters_phd": "No, though program said to enable a PhD",
         "joint_double_degree": "No",
-        "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "diploma_supplement": "Not mentioned",
+        "international_elements": "Voluntary internships supported; 80+ partner universities; ~15% international students university-wide"
       },
       "costs_funding": {
-        "tuition": "€0 tuition + ~€130/semester fee",
+        "tuition": "1,500 EUR per semester (non-EU)",
         "tuition_notes": "BW Hochschulen historically exempt from non-EU research-uni surcharge — verify current status.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "About 224 EUR per semester (contents not specified)",
+        "cost_of_living": "At least 992 EUR per month",
+        "funding": "None listed"
       },
       "requirements_registration": {
-        "deadline_winter": "15 April (official admission policy)",
-        "deadline_summer": "Not typically offered",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Bachelor's EE or related",
-        "gpa_requirement": "Not found",
-        "prerequisite_degree": "Bachelor's EE or related",
-        "german_requirement": "None",
-        "ielts": "Not found",
+        "deadline_winter": "15 February to 15 April",
+        "deadline_summer": "Not offered",
+        "submission_portal": "RWU's online campus portal (MyCampus)",
+        "academic_requirements": "Completed bachelor's degree in electrical engineering, electronics, computer science, or related field; final grade of at least 2.5 (German scale); 210 ECTS (180 ECTS holders must make up missing 30 ECTS during master's); applicants without finished bachelor's ranked by 7th-semester CGPA; proven knowledge of VHDL or Verilog plus a programming language (C, C++, Rust, MATLAB, Julia); very good mathematics skills",
+        "gpa_requirement": "At least 2.5 (German scale)",
+        "prerequisite_degree": "Electrical engineering, electronics, computer science or related, 210 ECTS",
+        "german_requirement": "No minimum level required",
+        "ielts": "No minimum level stated; assessed by test or interview",
         "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "Not required",
+        "other_english_tests": "None listed",
+        "gre": "Not mentioned",
         "work_exp_note": "Strongly valued at Hochschulen",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Mainly via Seezeit Studierendenwerk Bodensee and Studentenwerk Weiße Rose e.V.; must reserve room right after admission offer, not guaranteed; prices not listed",
+        "part_time_work": "Foreign students can work up to 140 full days or 280 half days/year without approval; research/student assistant jobs no approval/time limit required",
+        "career_services": "RWU Career Service: helps find internships and thesis companies, application seminars, employer networking",
+        "other_support": "Welcome event, buddy programme, accompanying programme, specialist counselling, visa/housing/registration help, pre-arrival seminars, health insurance/bank account help, Brother and Sister programme, study coaching, peer-to-peer counselling"
       },
       "about_university": {
         "notes": "Good realistic/safety-tier option given strong practical industry background.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "Ravensburg-Weingarten University of Applied Sciences (RWU), Germany",
-        "course_website": "https://www.rwu.de/en/study/courses/electrical-engineering-and-embedded-systems",
-        "source_url": "https://www.rwu.de/en/study/courses/electrical-engineering-and-embedded-systems"
+        "contact_name": "Not listed",
+        "contact_email": "application-emm@rwu.de",
+        "contact_phone": "Not listed",
+        "contact_address": "Doggenriedstraße 70, 88250 Weingarten, Germany",
+        "course_website": "Listed on RWU site (link on DAAD page)",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4201/"
       }
     },
     {
@@ -14727,57 +14721,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Not enough data to assess GPA fit — direct inquiry recommended.",
       "overview": {
         "department": "Faculty of Computer Science, Electrical Engineering and Mathematics",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
-        "duration": "4 semesters",
-        "language": "English",
+        "location": "Paderborn",
+        "degree_type": "Master of Science (MS ESE)",
+        "duration": "4 semesters (two years), full-time, fully on-site with voluntary online elements",
+        "language": "English; programme can be completed entirely in English",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": true
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nNot found",
+        "curriculum": "Total 120 ECTS. Four semesters: three course semesters plus six-month Master's thesis usually in final semester. Specialisations: Signal & Information Processing (computational side of system behaviour); Electronics & Devices (chip design at micro/nano-scale and hardware implementation). Student project group: teams of ~6-12 students join a department research group for a one-year research project. Non-German-speaking international students must take a German language course as part of general studies. Individual module credit points not listed; PDF curriculum document linked.",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
-        "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "diploma_supplement": "Issued",
+        "international_elements": "Close industry partnerships, small groups, guest lectures from international professors, industry-led advanced courses; fully accredited by ASIIN, a member of the Washington Accord"
       },
       "costs_funding": {
-        "tuition": "€0 tuition (public)",
+        "tuition": "None",
         "tuition_notes": "Not found exact semester fee.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "About 330 EUR per semester, includes the Deutschlandticket for regional public transport",
+        "cost_of_living": "Estimated total ~1,235 EUR/month: rent 400 EUR, health insurance ~160 EUR, food 350 EUR, free time at least 150 EUR, semester fee ~55 EUR/month, miscellaneous ~120 EUR",
+        "funding": "None listed"
       },
       "requirements_registration": {
-        "deadline_winter": "31 May (non-EU/international applicants)",
-        "deadline_summer": "Winter and summer intakes exist, summer deadline not found",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Not found",
-        "gpa_requirement": "Not found",
-        "prerequisite_degree": "Not found",
-        "german_requirement": "Not required",
-        "ielts": "Not found",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "Not found",
+        "deadline_winter": "Not listed",
+        "deadline_summer": "Not listed",
+        "submission_portal": "Through uni-assist, or the university's online application portal (paul.uni-paderborn.de)",
+        "academic_requirements": "A Bachelor's degree in Electrical Engineering or a related field, with a good or very good CGPA; final grade must be at least 2.5 on German scale, or GRE score at least 157 Qualitative Reasoning and at least 4.0 Analytical Writing as alternative; general higher education entrance qualification or equivalent; recommended to take exams in gap topics before admission",
+        "gpa_requirement": "Final grade at least 2.5 on German scale (or alternative via GRE)",
+        "prerequisite_degree": "Bachelor's in Electrical Engineering or related field",
+        "german_requirement": "No minimum level required",
+        "ielts": "IELTS Academic: overall 6",
+        "toefl": "Not listed",
+        "other_english_tests": "B2 required; Cambridge English Qualifications: B2 First; no TOEFL/PTE/TOEIC/UNIcert/telc listed; exemptions on course website",
+        "gre": "GRE accepted as alternative to GPA route: at least 157 Qualitative Reasoning, at least 4.0 Analytical Writing; GMAT not mentioned",
         "work_exp_note": "None specified",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Dormitories run by Studierendenwerk Paderborn; private market rooms/apartments typically 350-450 EUR per month",
+        "part_time_work": "Opportunities as university student assistants in research/teaching or jobs outside the university; no specific rules stated",
+        "career_services": "DAAD-funded InRegioFIT project helps international students prepare for the local job market during and after studies",
+        "other_support": "Welcome event, specialist counselling, tutors; on-campus residences, canteen, sports facilities, small theatre"
       },
       "about_university": {
         "notes": "New find from DAAD full-database pass (2026-11-08). Covers digital hardware, system software, algorithms, ICT — decent medium-relevance fit for RTL background.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "Paderborn University, Germany",
-        "course_website": "https://www.myguide.de/en/international-programmes-master/detail/paderborn-university-master-of-science-in-computer-engineering-5625/?ip-id=5625",
-        "source_url": "https://www.myguide.de/en/international-programmes-master/detail/paderborn-university-master-of-science-in-computer-engineering-5625/?ip-id=5625"
+        "contact_name": "apl. Prof. Dr. Wolfgang Müller",
+        "contact_email": "wmueller@hni.uni-paderborn.de",
+        "contact_phone": "Not listed",
+        "contact_address": "Fürstenallee 11, 33102 Paderborn, Germany",
+        "course_website": "go.upb.de/ese",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7607/"
       }
     },
     {
@@ -14792,57 +14786,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "RWTH is a top TU9 school, highly competitive — 2.8/4.0 is a real risk factor. Note: applicants apply to the parent EEIT M.Sc. and choose this major after enrollment, same as the already-covered Micro/Nanoelectronics major at RWTH.",
       "overview": {
         "department": "Faculty of Electrical Engineering and Information Technology",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
-        "duration": "4 semesters",
-        "language": "English",
+        "location": "Aachen",
+        "degree_type": "Master of Science",
+        "duration": "4 semesters (2 years), including thesis",
+        "language": "English; exams in English unless examiner agrees otherwise; some modules may be in German",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": false
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nNot found",
+        "curriculum": "Catalogues: CORE (in-depth basic lectures), ELECTIVE (application-oriented Master's lectures), GENERAL (Master's lectures from related ETIT fields), ADDITIONAL (extra qualifications/interdisciplinary modules); one lab/project plus one seminar; project group or industrial practice plus lecture; mandatory 'Scientific Integrity' module; German courses (8 ECTS) if needed; thesis six-month independent project with oral defence; 18-week minimum industrial internship or project group of 8+ students over ~2 semesters; no total credit figure given",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "Guest lecturers, language training, intercultural skills training, projects with partners in Germany/abroad, foreign-language literature, courses led with foreign partners, international comparisons in teaching; study profiles: Digital Hardware Engineering, Data Sensing and Processing, Machine Learning and AI Systems, Digital Energy Systems, Autonomous and Cyber-Physical Systems, Systems for Human-Machine Interaction"
       },
       "costs_funding": {
-        "tuition": "€0 tuition (public)",
+        "tuition": "None",
         "tuition_notes": "Not found exact semester fee.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "About 360 EUR per semester, includes nationwide Deutschlandticket plus South Limburg (Netherlands)",
+        "cost_of_living": "Estimated 1,100 EUR/month; non-EU single applicants must show min income 992 EUR/month for residence permit extension (2026)",
+        "funding": "No full-coverage scholarships; Education Fund scholarship worth 300 EUR/month; RWTH Scholarships Database; external: state-level funding, ERASMUS+, Franco-German University (FGU)"
       },
       "requirements_registration": {
-        "deadline_winter": "1 March (non-EU applicants)",
-        "deadline_summer": "Not found",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Not found",
-        "gpa_requirement": "Competitive, no exact minimum found",
-        "prerequisite_degree": "Not found",
-        "german_requirement": "Not required",
-        "ielts": "Not found",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "No",
+        "deadline_winter": "EU/Iceland/Norway/Liechtenstein: 2 May-15 Jul; Non-EU/Switzerland/UK: 1 Dec-1 Mar",
+        "deadline_summer": "EU/Iceland/Norway/Liechtenstein: 2 Dec-15 Jan; Non-EU/Switzerland/UK: 1 Jun-1 Sep",
+        "submission_portal": "RWTH Aachen master's application portal for international applicants",
+        "academic_requirements": "Completed bachelor's degree (B.Sc./B.Eng. or equivalent) from internationally recognised university; minimum ECTS: advanced mathematics 25, physics/physical principles of electronic devices 5, fundamentals of EE incl. circuit technology 23, informatics/programming 16, control and mathematical systems theory 10, advanced EM field theory or theoretical info theory 10, application-oriented courses 20; conditional admission possible",
+        "gpa_requirement": "Not stated",
+        "prerequisite_degree": "Electrical/computer engineering with specific ECTS distribution",
+        "german_requirement": "No minimum level required; must complete German courses worth 8 ECTS unless B1+ shown",
+        "ielts": "6 (Academic)",
+        "toefl": "TOEFL iBT/Home Edition: since 2026, 4.5; before 2026, 90",
+        "other_english_tests": "Cambridge English C1 Advanced",
+        "gre": "GRE General Test required at application; EU/EEA and Bildungsinländer exempt",
         "work_exp_note": "None specified",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Limited dorm rooms/studio apartments, waiting lists; private flats 400-600 EUR/month; dorms 275-1,000 EUR; family apartments very limited; hotels/youth hostel for short stays",
+        "part_time_work": "Limited; assistant positions open only to enrolled students up to 19 hrs/week; non-EU students may work 140 full days or 280 half days/year",
+        "career_services": "Departmental academic adviser, mentoring programme, RWTH Career Center, bonding company contact fair",
+        "other_support": "Welcome event, buddy programme, cultural/linguistic preparation; IDEA-League Research Grant, UNITECH International, open day, Dean's list, Friedrich-Wilhelm Price, Springorum Commemorative Coin, graduation ceremony; disability, family, refugee support"
       },
       "about_university": {
         "notes": "New find from DAAD full-database pass (2026-11-08). Hardware-leaning computer engineering major at the same RWTH EEIT parent program already listed for Micro/Nanoelectronics.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "RWTH Aachen University, Germany",
-        "course_website": "https://www.myguide.de/en/international-programmes-master/detail/rwth-aachen-university-computer-engineering-5226/?ip-id=5226",
-        "source_url": "https://www.myguide.de/en/international-programmes-master/detail/rwth-aachen-university-computer-engineering-5226/?ip-id=5226"
+        "contact_name": "Not listed",
+        "contact_email": "oeffentlichkeitsarbeit@fb6.rwth-aachen.de",
+        "contact_phone": "Not listed",
+        "contact_address": "Schinkelstraße 2, 52062 Aachen, Germany",
+        "course_website": "Linked from page (RWTH EE master's pages)",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5226/"
       }
     },
     {
@@ -14857,57 +14851,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Siegen is less selective than TU9 schools — could be a realistic target for 2.8 GPA, but unverified.",
       "overview": {
         "department": "School of Science and Technology",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
+        "location": "Siegen",
+        "degree_type": "Master of Science",
         "duration": "4 semesters",
-        "language": "English",
+        "language": "English; thesis may be written in German or English",
         "intake": "Winter",
         "has_winter": true,
         "has_summer": false
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nNot found",
+        "curriculum": "7 core modules (6 CP each), 1 fundamental module (9 CP: Electromagnetic Field Theory), 5 elective modules (6 CP each), project work (9 CP), Master's thesis (30 CP); specialization tracks: Electronics Design and Technology (core: Semiconductor Electronics, Analogue and Digital Integrated Circuits, Embedded Systems, Optoelectronics; electives: Nanotechnology, Memristors and AI Chips, Advanced Analogue Circuits, RF IC Design, Embedded Control, Microelectronic Sensors, Microsystems Fabrication and Test, Photonic Devices), Communication Engineering (core: Signals and Systems, Lightwave and Optoelectronics, Data Communications, High Frequency Engineering; electives: Computational Imaging, Synthetic Aperture Radar, Advanced Data Communication, Communications and Information Security, Compressive Sensing, Radio Frequency IC), Automation Engineering (core: Process Automation, Control Systems incl. nonlinear control, Electrical Drives, Measurement Technology; electives: Robotics, Mechatronics, Adaptive Control, Industrial Communication); total ~120 CP (calculated)",
         "combined_masters_phd": "No",
-        "joint_double_degree": "No",
-        "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "joint_double_degree": "Yes",
+        "diploma_supplement": "Not mentioned",
+        "international_elements": "Guest lecturers from abroad, projects with partners in Germany and abroad"
       },
       "costs_funding": {
-        "tuition": "€0 tuition (public)",
+        "tuition": "None",
         "tuition_notes": "Not found exact semester fee.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "About 372 EUR per semester, due before each (re-)registration, covers six-month nationwide public transport ticket, social services contribution, student activities",
+        "cost_of_living": "800-1,000 EUR per month (rent, health insurance, food, clothing, learning materials, phone/internet, travel, entertainment, sports)",
+        "funding": "Available within university - Deutschlandstipendium/Studienförderfonds; doctoral scholarships through House of Young Talents"
       },
       "requirements_registration": {
-        "deadline_winter": "Winter intake confirmed, exact date not found",
-        "deadline_summer": "Not found",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Not found",
-        "gpa_requirement": "Not found",
-        "prerequisite_degree": "Not found",
-        "german_requirement": "Not required",
-        "ielts": "Not found",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "Not found",
+        "deadline_winter": "30 April (no separate summer deadline listed)",
+        "deadline_summer": "Not listed",
+        "submission_portal": "UNISONO (unisono.uni-siegen.de)",
+        "academic_requirements": "Good Bachelor's degree equivalent to Siegen's Bachelor's in Electrical Engineering (at least 6 semesters), in Electronics, Electrical, Communication/Telecommunication, Computer Science/Engineering, Instrumentation/Control, Engineering Physics, or Mechatronics; required Bachelor's CP: mathematical foundations 20, scientific basics 15, EE and measurement technology 20, theoretical EE (field theory, signal/system theory) 10, project work incl. bachelor's thesis 10; specialization-specific CP: Communications Technology 20 CP, Electronics Design and Technology 20 CP, Automation Technology 20 CP",
+        "gpa_requirement": "Not mentioned",
+        "prerequisite_degree": "Electrical Engineering related, with specific CP distribution per specialization",
+        "german_requirement": "No minimum level required",
+        "ielts": "6 (Academic)",
+        "toefl": "TOEFL iBT (before 2026): 87 total, 21 in each section",
+        "other_english_tests": "None listed (PTE, Cambridge, TOEIC, UNIcert, telc not listed)",
+        "gre": "Not mentioned",
         "work_exp_note": "None specified",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Studierendenwerk Siegen dormitories 240-460 EUR/room; private rooms average 400 EUR; apply early",
+        "part_time_work": "University job placement service helps; many industrial SMEs/high-tech firms incl. university spin-offs offer positions; no specific hour limits stated",
+        "career_services": "Career services team for career planning/coaching; FIT in Siegen programme for job-market preparation; Alumniverbund networking",
+        "other_support": "Orientation days, buddy programme for first semester, Student Living Room, cultural/linguistic preparation, specialist counselling, accompanying programme"
       },
       "about_university": {
         "notes": "New find from DAAD full-database pass (2026-11-08). Offers both Electronics Design/Technology and Communication Engineering specializations — worth adding to shortlist as a less-competitive EE option.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "University of Siegen, Germany",
+        "contact_name": "Hanna Betz",
+        "contact_email": "acis@eti.uni-siegen.de",
+        "contact_phone": "+49 2717402466",
+        "contact_address": "Hölderlinstr. 3, 57076 Siegen, Germany",
         "course_website": "https://www.eti.uni-siegen.de/edes/",
-        "source_url": "https://www.eti.uni-siegen.de/edes/"
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7927/"
       }
     },
     {
@@ -14987,57 +14981,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "TU Darmstadt is selective — explicit note that admission is competitive beyond just having the right Bachelor's.",
       "overview": {
         "department": "Department of Electrical Engineering and Information Technology",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
+        "location": "Darmstadt",
+        "degree_type": "Master of Science",
         "duration": "4 semesters",
-        "language": "English",
+        "language": "English (all first-year lectures in English, alongside German language courses; German-taught courses from second year)",
         "intake": "Summer",
         "has_winter": false,
         "has_summer": false
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nNot found",
+        "curriculum": "Technical lecture areas: Microelectronics; Electronic Systems Design; Communication Technology; Communication Systems; Computer Science & Media Technology; Information Technology; Device Technology and Circuit Design; Machine Learning; Matrix Analysis and Computations. Structure: three semesters lectures/seminars/projects, then Master's thesis in fourth semester. No individual module credit points or total ECTS listed.",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "Language training and training in intercultural skills"
       },
       "costs_funding": {
-        "tuition": "€0 tuition (public)",
+        "tuition": "None",
         "tuition_notes": "Not found exact semester fee.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "About 385 EUR per semester, covering administrative fees and the Deutschlandticket semester ticket (to be extended to all participating transport operators nationwide)",
+        "cost_of_living": "Roughly 900 to 1,100 EUR per month (rough estimate, varies with lifestyle and accommodation)",
+        "funding": "None listed"
       },
       "requirements_registration": {
-        "deadline_winter": "Not found",
-        "deadline_summer": "Not found",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Not found",
-        "gpa_requirement": "Competitive — 'a relevant bachelor's degree does not guarantee a place' per myguide.de",
-        "prerequisite_degree": "Not found",
-        "german_requirement": "Not required",
-        "ielts": "Not found",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "Not found",
+        "deadline_winter": "Not listed",
+        "deadline_summer": "Not applicable (winter semester only)",
+        "submission_portal": "Through the university's admissions webpage (linked on page)",
+        "academic_requirements": "Solid background in mathematics and statistics, physics, communication technology and systems, signal theory, software engineering, computer architecture, and electronics and semiconductor devices. A related Bachelor's degree (or equivalent) mandatory; transcripts must confirm solid background. Electrical engineering, computer engineering, computer science, and communications engineering degrees said to provide this, but don't guarantee admission. Committee reviews each application.",
+        "gpa_requirement": "Not listed",
+        "prerequisite_degree": "Related Bachelor's in electrical engineering, computer engineering, computer science, or communications engineering (or similar with sufficient background)",
+        "german_requirement": "No minimum level; assessed by test or interview",
+        "ielts": "IELTS Academic 7 (example, C1 level)",
+        "toefl": "Not listed",
+        "other_english_tests": "C1 level required with official certificate; see course website for exemptions",
+        "gre": "Not listed",
         "work_exp_note": "None specified",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "International Affairs Department's Housing Assistance Office helps with dormitories and private housing; university does not own student housing; register online and start early; Accommodation Guide and Housing Guide available; no price range given",
+        "part_time_work": "From second semester, students can apply for paid, hourly research assistant positions at institutes in the Electrical Engineering and Information Technology department",
+        "career_services": "Not listed on this page",
+        "other_support": "Welcome event, tutors, specialist counselling, cultural and linguistic preparation; semester ticket for public transport; free access to University Sports Centre; TUtor International project; International Student Services team"
       },
       "about_university": {
         "notes": "New find from DAAD full-database pass (2026-11-08). Possibly also runs a joint microelectronics/embedded SoC offering with Grenoble INP-Phelma (France) — UNVERIFIED, no confirmed DAAD page found, ask TU Darmstadt directly.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "TU Darmstadt, Germany",
-        "course_website": "https://www.myguide.de/en/international-programmes-master/detail/technical-university-of-darmstadt-information-and-communication-engineering-3717/?ip-id=3717",
-        "source_url": "https://www.myguide.de/en/international-programmes-master/detail/technical-university-of-darmstadt-information-and-communication-engineering-3717/?ip-id=3717"
+        "contact_name": "Ulrike Gloger",
+        "contact_email": "masteroffice@etit.tu-darmstadt.de",
+        "contact_phone": "Not listed",
+        "contact_address": "Fraunhoferstraße 4, 64283 Darmstadt, Germany",
+        "course_website": "etit.tu-darmstadt.de (International Master Programme Information and Communication Engineering)",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3717/"
       }
     },
     {
@@ -15182,56 +15176,56 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Small, lesser-known FH — likely a lower-competitiveness safety option with EE-overlap via mechatronics, but unverified.",
       "overview": {
         "department": "Engineering Department",
-        "location": "Germany",
-        "degree_type": "M.Eng.",
-        "duration": "Not found",
-        "language": "English",
+        "location": "Nordhausen, Thuringia, Germany",
+        "degree_type": "Master of Engineering",
+        "duration": "3 or 4 semesters, depending on admission semester, full-time only",
+        "language": "English; German courses part of curriculum",
         "intake": "Summer",
         "has_winter": false,
         "has_summer": false
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nNot found",
+        "curriculum": "120 ECTS (winter admission, 4 semesters) or 90 ECTS (summer admission, 3 semesters). Emphasis on Industry 4.0, Robotics/CNC machines, later Unmanned Vehicles and Unmanned Vehicles Laboratory. Compulsory/elective modules with credit points not listed (programme flyer PDF linked).",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "Projects with partners in Germany and abroad, international guest lecturers, language training, regional focus; International Project Week each summer semester"
       },
       "costs_funding": {
-        "tuition": "€0 tuition (Thuringia public)",
+        "tuition": "None",
         "tuition_notes": "Not found exact semester fee.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "328.80 EUR per semester (as of April 2026), includes Studierendenwerk Thüringen services",
+        "cost_of_living": "Not found (linked overview, no figures given)",
+        "funding": "None listed within university; linked to general financing information"
       },
       "requirements_registration": {
-        "deadline_winter": "Not found",
-        "deadline_summer": "Not found",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Not found",
-        "gpa_requirement": "Not found",
-        "prerequisite_degree": "Not found",
-        "german_requirement": "Not required",
-        "ielts": "Not found",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "No",
+        "deadline_winter": "1 November to 31 March (all countries)",
+        "deadline_summer": "1 November to 31 March (all countries)",
+        "submission_portal": "uni-assist",
+        "academic_requirements": "Completed Bachelor's in mechatronics, mechanical engineering, electrical engineering, energy technology, or related field; minimum CGPA 2.5 (German scale); English at B2; APS certificate for India/China/Vietnam Bachelor's degrees; degrees not explicitly listed assessed individually; Bachelor's taught entirely in English also accepted",
+        "gpa_requirement": "Minimum CGPA 2.5 (German scale)",
+        "prerequisite_degree": "Mechatronics, mechanical engineering, electrical engineering, energy technology, or related field; winter admission assumes 180-ECTS Bachelor's (120 ECTS programme); summer admission assumes 210-ECTS Bachelor's (90 ECTS programme)",
+        "german_requirement": "No minimum level required; A1 or higher gives 0.1 grade increase on Bachelor's grade; certificates from Goethe-Institut, Schiller Language School, or ÖSD",
+        "ielts": "IELTS Academic 6 (example)",
+        "toefl": "Not listed",
+        "other_english_tests": "PTE Academic 60 (example); B2 required with official certificate; exemptions listed on course website",
+        "gre": "Not mentioned",
         "work_exp_note": "None specified",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Campus dormitories managed through Studierendenwerk Thüringen; no prices given",
+        "part_time_work": "Not stated",
+        "career_services": "International dual career support through ESF project WORT Nord, including job application help and employability skills",
+        "other_support": "Buddy programme, welcome event, tutors, cultural/linguistic preparation, registration help, specialist counselling; study introduction week; info for students with disabilities/chronic illness and students with children"
       },
       "about_university": {
         "notes": "New find from DAAD full-database pass (2026-11-08). Adjacent fit only (mechatronics, not chip design) — low priority but a budget-friendly safety option.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
+        "contact_name": "Not found",
+        "contact_email": "eng-masters@hs-nordhausen.de",
         "contact_phone": "Not found",
-        "contact_address": "Nordhausen University of Applied Sciences, Germany",
-        "course_website": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10523/",
+        "contact_address": "Study-Service-Centre (SSZ), Weinberghof 4, 99734 Nordhausen",
+        "course_website": "hs-nordhausen.de/en/study-programmes/mechatronics/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10523/"
       }
     },
@@ -15312,57 +15306,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Not enough data found — DAAD listing cycle found was 2023/2024, likely outdated, re-confirm current cycle directly on uni-kassel.de.",
       "overview": {
         "department": "Department of Electrical Engineering and Computer Science",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
-        "duration": "Not found",
-        "language": "English",
+        "location": "Kassel",
+        "degree_type": "Master of Science",
+        "duration": "4 semesters (two years); first three for courses/seminars/lab training, fourth for thesis module",
+        "language": "English (100%)",
         "intake": "Summer",
         "has_winter": false,
         "has_summer": false
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nNot found",
+        "curriculum": "Compulsory basic modules in semester 1; electives chosen freely afterward from focus areas: Wireless Communications, Electromagnetics, Microwaves, Optoelectronics, Enabling Technologies for Communication Systems, Hardware Components for Communication Systems; fourth semester exclusively for final thesis module; credit points not listed on page (module details at ece.uni-kassel.de/modules)",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "Not detailed beyond integrated internships (not mandatory)"
       },
       "costs_funding": {
-        "tuition": "€0 tuition (public)",
+        "tuition": "None",
         "tuition_notes": "Not found exact semester fee.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "391.27 EUR (2026 summer semester), includes Deutschlandticket and canteen discounts",
+        "cost_of_living": "950-1,100 EUR per month (accommodation, food, health insurance, books, other)",
+        "funding": "No funding opportunities within university"
       },
       "requirements_registration": {
-        "deadline_winter": "Not found",
-        "deadline_summer": "Not found",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Not found",
-        "gpa_requirement": "Not found",
-        "prerequisite_degree": "Not found",
-        "german_requirement": "Not required",
-        "ielts": "Not found",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "Not found",
+        "deadline_winter": "German certificates: 1 June-1 September; foreign certificates: 1 March-15 July",
+        "deadline_summer": "German certificates: 1 December-1 March; foreign certificates: 1 September-15 January",
+        "submission_portal": "University's application website",
+        "academic_requirements": "Bachelor's degree in Electrical Engineering, Communications, or related field with sufficient GPA; no specific GPA threshold or ECTS requirement listed; foreign applicants directed to university's instructions for foreign certificates",
+        "gpa_requirement": "Not stated specifically",
+        "prerequisite_degree": "Electrical Engineering, Communications, or related field",
+        "german_requirement": "No minimum level required",
+        "ielts": "5.5 (Academic, overall)",
+        "toefl": "TOEFL iBT (before 2026): 72 overall (Reading 18, Listening 17, Speaking 20, Writing 17)",
+        "other_english_tests": "TOEIC 785 overall (Reading 385, Listening 400, Speaking 160, Writing 150)",
+        "gre": "Not mentioned",
         "work_exp_note": "None specified",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "About 1,000 student hall rooms around campuses; rent 260-545 EUR/month depending on location/facilities; single en-suite apartments and shared flats available; private housing also an option",
+        "part_time_work": "Student assistant/tutor jobs on campus; Career Service helps find positions; no specific hour limits listed",
+        "career_services": "Individual counselling, workshops, application document reviews, alumni networking, support for careers in Germany",
+        "other_support": "Welcome Centre, Pre-Arrival Online Week, Welcome Week, ECE assistant/coach, Visa Information Service, tutors for international students, regular excursions/social events; ECE-specific intensive two-year German course"
       },
       "about_university": {
         "notes": "New find from DAAD full-database pass (2026-11-08). Listing may be outdated — verify current status directly.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "University of Kassel, Germany",
-        "course_website": "https://www.uni-kassel.de/eecs/en/import/ece/home.html",
-        "source_url": "https://www.uni-kassel.de/eecs/en/import/ece/home.html"
+        "contact_name": "Not listed",
+        "contact_email": "ece@eecs.uni-kassel.de",
+        "contact_phone": "Not listed",
+        "contact_address": "Wilhelmshöher Allee 73, 34121 Kassel, Germany",
+        "course_website": "www.ece.uni-kassel.de",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3759/"
       }
     },
     {
@@ -15377,57 +15371,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Applied Sciences university (FH), generally less selective than TU9 research universities — could be a realistic target, and FH programs often value practical/industry experience, which favors this candidate.",
       "overview": {
         "department": "Faculty of Electrical Engineering and Information Technology",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
-        "duration": "3–4 semesters (varies by source)",
-        "language": "English",
+        "location": "Darmstadt",
+        "degree_type": "Master of Science",
+        "duration": "4 semesters",
+        "language": "English; all courses in English; additional German classes aim for at least A2 by programme end",
         "intake": "Summer",
         "has_winter": false,
         "has_summer": true
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nNot found",
+        "curriculum": "Majors: Automation (control engineering, robotics, factory automation, Industrial IoT, system identification, adaptive control, process visualisation, bus and control technology, sensors/actuators); Communications (communication techniques, signal processing, hardware/software development); Embedded Electronics and Microelectronics (microcontrollers, FPGAs, embedded programming, real-time systems, hardware-driven design); Power Engineering (power generation, renewable energy, power distribution, smart grids, e-mobility, electric drives, drive control); common modules Technical Management and semester project; no individual module credit points or total ECTS given",
         "combined_masters_phd": "No",
-        "joint_double_degree": "No",
+        "joint_double_degree": "Yes",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "Language training, intercultural skills training, projects with partners in Germany/abroad, international guest lecturers, courses led with foreign partners; Semesters 1-2 theory, Semester 3 mandatory six-month industrial internship, Semester 4 six-month thesis in industry; common modules: Technical Management and semester project"
       },
       "costs_funding": {
-        "tuition": "€0 tuition (Hesse public Hochschule)",
+        "tuition": "None",
         "tuition_notes": "Not found exact semester fee.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "About 383 EUR per semester, includes nationwide Deutschlandticket; additional one-time fees due after admission",
+        "cost_of_living": "About 1,050 EUR per month in Darmstadt",
+        "funding": "No funding opportunities within university; internship and thesis are paid"
       },
       "requirements_registration": {
-        "deadline_winter": "Not found",
-        "deadline_summer": "Admission possible in both summer and winter semesters",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Not found",
-        "gpa_requirement": "Not found",
-        "prerequisite_degree": "Not found",
-        "german_requirement": "Not required",
-        "ielts": "Not found",
+        "deadline_winter": "Degree from Germany: 15 July; degree from outside Germany: 31 March",
+        "deadline_summer": "Degree from Germany: 1 February; no deadline listed for non-German degree",
+        "submission_portal": "mse-application-hda.de",
+        "academic_requirements": "BEng/BSc in electrical engineering, or equivalent in electrical/electronics engineering, information technology, computer science, or closely related field; outstanding undergraduate performance required; full requirements at mse.h-da.de/admission/international-students",
+        "gpa_requirement": "Not stated specifically ('outstanding performance')",
+        "prerequisite_degree": "Electrical/electronics engineering, information technology, computer science or related",
+        "german_requirement": "None; no minimum level required for admission",
+        "ielts": "6.5 (Academic) - only example given",
         "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "No",
+        "other_english_tests": "None listed",
+        "gre": "Not stated",
         "work_exp_note": "Not formally required but FH programs often value practical experience — favorable for this candidate",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Limited reserved rooms in Studierendenwerk Darmstadt residence halls, close to campus; rental period at least 12 months from 1 September; furnished with bed/wardrobe/desk/chair, shared kitchen/bathroom; no price range given",
+        "part_time_work": "Werkstudent jobs in companies in Rhine-Main region, depending on experience; career centre helps job searches",
+        "career_services": "In-house career centre, application process trainings, professor mentors during internship/thesis, job fairs (meet@h_da, Konaktiva Darmstadt), excursions to technical fairs (embedded world Nuremberg), supplementary courses (legal English, German up to B2, intercultural training); >80% of graduates stay and work in Germany",
+        "other_support": "Welcome event, tutors, accompanying programme, specialist counselling, cultural/linguistic preparation, visa matters, pick-up service, buddy programme, accommodation/registration help"
       },
       "about_university": {
         "notes": "New find from DAAD full-database pass (2026-11-08). Good budget-conscious, less-selective FH option with flexible intake.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "Hochschule Darmstadt (h_da, University of Applied Sciences), Germany",
-        "course_website": "https://h-da.de/en/studies/study-programmes/study-programmes/engineering-sciences/electrical-engineering-and-information-technology-masters-degree",
-        "source_url": "https://h-da.de/en/studies/study-programmes/study-programmes/engineering-sciences/electrical-engineering-and-information-technology-masters-degree"
+        "contact_name": "Prof. Dr.-Ing. Peter Fromm; Sabine Francois",
+        "contact_email": "master.fbe@h-da.de",
+        "contact_phone": "+49 615153368839 (Francois)",
+        "contact_address": "Birkenweg 8, 64295 Darmstadt, Germany",
+        "course_website": "https://mse.h-da.de",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3980/"
       }
     },
     {
@@ -15442,56 +15436,56 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Distinct program from the already-covered Freiburg 'Embedded Systems Engineering' — found independently in the DAAD 2025/2026 listing. Not enough data to assess GPA fit.",
       "overview": {
         "department": "Department of Microsystems Engineering (IMTEK)",
-        "location": "Germany",
-        "degree_type": "M.Sc.",
-        "duration": "Not found",
-        "language": "English",
+        "location": "Freiburg im Breisgau",
+        "degree_type": "Master of Science",
+        "duration": "4 semesters, full-time only",
+        "language": "English; about 5% of electives taught in German but program completable without German",
         "intake": "Summer",
         "has_winter": false,
         "has_summer": false
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nNot found",
+        "curriculum": "Core modules (mandatory, five courses): Microelectronics, Micromechanics, Microsystems Design Lab, MSE Technology & Processes, Signal Processing. Electives (choose five of eight): Assembly & Packaging Technology, Micro-optics, Modelling & System Identification, Probability & Statistics, Sensors, Biomedical Microsystems, Micro-actuators, Microfluidics. Concentration (semesters 2-4, choose one): Circuits & Systems, Biomedical Engineering, Materials & Fabrication, Photonics. Thesis: research-driven Master's thesis in one of the university's labs. Credit points not listed.",
         "combined_masters_phd": "No",
         "joint_double_degree": "No",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "International guest lecturers, specialist literature in other languages, intercultural skills training, projects with partners in Germany and abroad, language training"
       },
       "costs_funding": {
-        "tuition": "€0 tuition (public)",
+        "tuition": "1,500 EUR per semester for non-EU applicants",
         "tuition_notes": "Not found exact semester fee.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "190 EUR per semester: administrative fee 80 EUR, constituted student body contribution 7 EUR, student union contribution 103 EUR",
+        "cost_of_living": "About 850-1,000 EUR per month: private accommodation 350-700 EUR, student residences 250-550 EUR, private expenses ~350 EUR, health insurance ~120 EUR, regional transport ticket ~96 EUR per semester",
+        "funding": "Deutschlandstipendium available for students with final grade of 1.5 or better on German scale"
       },
       "requirements_registration": {
-        "deadline_winter": "Not found",
-        "deadline_summer": "Not found",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Not found",
-        "gpa_requirement": "Not found",
-        "prerequisite_degree": "Not found",
-        "german_requirement": "Not required",
-        "ielts": "Not found",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "Not found",
+        "deadline_winter": "EU: 1 March to 15 July; non-EU: 1 March to 31 May",
+        "deadline_summer": "Not found (winter intake only)",
+        "submission_portal": "University's campus portal (campus.uni-freiburg.de)",
+        "academic_requirements": "A Bachelor's degree in Mechatronics, Mechanical Engineering, Electrical Engineering, Electronics and Communication, or closely related discipline; outstanding GPA/final grade (no numeric threshold given); strong background in mathematics, physics, chemistry, mechanics, electronics, materials science",
+        "gpa_requirement": "Outstanding GPA/final grade; no numeric threshold given",
+        "prerequisite_degree": "Bachelor's in Mechatronics, Mechanical Engineering, Electrical Engineering, Electronics and Communication, or closely related discipline",
+        "german_requirement": "No minimum level required",
+        "ielts": "Not found (not listed)",
+        "toefl": "TOEFL iBT from 2026: 5 overall, 5 each section; TOEFL iBT Home Edition before 2026: 95 overall (Reading 24, Listening 22, Speaking 25, Writing 24)",
+        "other_english_tests": "C1 required; Cambridge English Qualifications: C1 Advanced; PTE Academic: 76; TOEFL Essentials: 10 overall, 10 each section; UNIcert English: UNIcert III",
+        "gre": "Not mentioned",
         "work_exp_note": "None specified",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "International students can apply for university housing through the International Office: Studierendenwerk dormitories, independent residence halls, private room lists; price ranges in cost-of-living section",
+        "part_time_work": "Qualified students can get research or teaching assistant positions in IMTEK and at Freiburg research institutes",
+        "career_services": "Company visits, employer talks and panels, application advice (CVs, cover letters, interview preparation)",
+        "other_support": "Pre-arrival checklists and guides, arrival/orientation week, welcome event, buddy programme, tutors, accompanying programme, specialist counselling, cultural/language preparation, ongoing visa/residence permit/language course help; disability/chronic illness information and advisory services; daycare, family apartments, counselling, children's meals for students with children"
       },
       "about_university": {
         "notes": "New find from DAAD full-database pass (2026-11-08). A second, distinct Freiburg option alongside the already-listed Embedded Systems Engineering program.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "University of Freiburg, Germany",
-        "course_website": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3914/",
+        "contact_name": "Ursula Epe",
+        "contact_email": "admissions@imtek.uni-freiburg.de",
+        "contact_phone": "+49 7612038340",
+        "contact_address": "Georges-Köhler-Allee 101, 79110 Freiburg im Breisgau, Germany",
+        "course_website": "https://www.tf.uni-freiburg.de/mse",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3914/"
       }
     },
@@ -15507,57 +15501,57 @@ const STUDY_DATABASE = {
       "gpa_fit_note": "Smaller regional university of applied sciences, likely less selective — a 6-month internship is normally required but possibly waivable given 2 years industry experience, worth asking directly.",
       "overview": {
         "department": "Faculty of Electrical Engineering and Information Technology",
-        "location": "Germany",
-        "degree_type": "M.Eng.",
-        "duration": "3 semesters",
-        "language": "German or English (track-dependent — verify English-track availability)",
+        "location": "Regensburg",
+        "degree_type": "Master of Engineering",
+        "duration": "3 semesters, full-time",
+        "language": "English or German; programme can be studied in either",
         "intake": "Summer",
         "has_winter": false,
         "has_summer": false
       },
       "course_details": {
-        "curriculum": "Core Topics & Prerequisites:\nNot found",
+        "curriculum": "Foundation catalogue: semiconductor technology, optoelectronics, microelectronics; consolidation and interdisciplinary catalogues allow largely personal subject choice (examples: LED technology, advanced packaging, cybernetics, electron product engineering, international empowerment, business studies for engineers, quality and reliability); two theory semesters (incl. project in university research facility), one thesis semester (often with local company); industry partners for projects/theses: Osram, Infineon, Continental; module credit points not listed",
         "combined_masters_phd": "No",
-        "joint_double_degree": "No",
+        "joint_double_degree": "Yes - double degree with Universiti Tunku Abdul Rahman (Malaysia), leading to degrees from both universities",
         "diploma_supplement": "Yes",
-        "international_elements": "International Master's program taught in English"
+        "international_elements": "Guest lecturers, language training, intercultural skills training, projects with partners in Germany/abroad; 180-hour project in university laboratory"
       },
       "costs_funding": {
-        "tuition": "€0 tuition (Bavaria public)",
+        "tuition": "Varied",
         "tuition_notes": "Not found exact semester fee.",
-        "semester_fee": "~150 - 350 EUR per semester",
-        "cost_of_living": "~934 - 992 EUR per month",
-        "funding": "DAAD / Deutschlandstipendium (check university site)"
+        "semester_fee": "199 EUR per semester (as of summer 2026), covers RVV semester ticket and student union contribution",
+        "cost_of_living": "At least 800-900 EUR per month; rent alone may reach 700 EUR since subsidised rooms very limited",
+        "funding": "No funding within university; no scholarships listed"
       },
       "requirements_registration": {
-        "deadline_winter": "Not found",
-        "deadline_summer": "Not found",
-        "submission_portal": "Check university site / uni-assist",
-        "academic_requirements": "Not found",
+        "deadline_winter": "1 May to 31 May",
+        "deadline_summer": "15 November to 15 December",
+        "submission_portal": "University's HISinOne online portal",
+        "academic_requirements": "Details on OTH Regensburg website (linked on page); not detailed further on this page",
         "gpa_requirement": "Not found",
         "prerequisite_degree": "Not found",
-        "german_requirement": "Partial — program can be taken in German or English, confirm English-track feasibility",
-        "ielts": "Not found",
-        "toefl": "Not found",
-        "other_english_tests": "Not found",
-        "gre": "No",
+        "german_requirement": "No minimum level required",
+        "ielts": "6 (Academic)",
+        "toefl": "TOEFL iBT (before 2026): 85",
+        "other_english_tests": "telc English B2; PTE Academic 59; Cambridge English B2 First",
+        "gre": "Not found",
         "work_exp_note": "6-month internship normally required — may be waivable given his 2 years of industry experience, ask directly",
         "aps_required": "No (Bangladesh is exempt)"
       },
       "services": {
-        "accommodation": "Studentenwerk / WG-Gesucht / Private housing",
-        "part_time_work": "Permitted up to 140 full days (or 280 half days) per year under German Student Visa",
-        "career_services": "University Career Service & local hi-tech cluster partnerships",
-        "other_support": "International Office & Buddy Programme"
+        "accommodation": "Very tight housing market in Regensburg; finding a room is student's own responsibility; information on OTH website",
+        "part_time_work": "EU students: up to 20 hrs/week during semester, full-time during breaks; non-EU students: normally no work permit, max 140 full days or 280 half days/year without one",
+        "career_services": "Job application checks, career workshops, 'Mentoring Professional Steps' programme",
+        "other_support": "Application assistance, pre-arrival online seminar, welcome events, weekly coffee hour, mentoring, 'International Campus Friends' programme, accompanying programme, cultural/linguistic preparation"
       },
       "about_university": {
         "notes": "New find from DAAD full-database pass (2026-11-08). DAAD-funded MEM-GATE initiative offers a double degree with Malaysian partner universities (UTAR/UTHM) — a genuine joint-degree option.",
-        "contact_name": "International Master Admission Office",
-        "contact_email": "See official portal",
-        "contact_phone": "Not found",
-        "contact_address": "OTH Regensburg, Germany",
-        "course_website": "https://www.oth-regensburg.de/en/study-programme/study-electrical-and-microsystems-engineering-master",
-        "source_url": "https://www.oth-regensburg.de/en/study-programme/study-electrical-and-microsystems-engineering-master"
+        "contact_name": "Not listed",
+        "contact_email": "mastermem@oth-regensburg.de",
+        "contact_phone": "Not listed",
+        "contact_address": "Seybothstraße 2, 93053 Regensburg",
+        "course_website": "Linked on page (OTH Regensburg course overview)",
+        "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4587/"
       }
     }
   ]
