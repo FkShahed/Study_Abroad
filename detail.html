@@ -91,13 +91,92 @@ const root = document.getElementById('root');
 
 function nf(v){ return (v===undefined || v===null || v==="" || v==="Not found") ? "<span style='color:var(--muted);font-style:italic;'>Not found</span>" : v; }
 
-// Resolve program from STUDY_DATABASE
+// Resolve program from STUDY_DATABASE, or fallback to DAAD_FULL / DATA
 let prog = null;
-if (typeof STUDY_DATABASE !== 'undefined' && STUDY_DATABASE.programs) {
-  if (source === 'daad') {
-    prog = STUDY_DATABASE.programs.find(p => p.source_type === 'daad' && p.original_id == paramIdx) || STUDY_DATABASE.programs.find(p => p.id === "daad_" + paramIdx);
-  } else {
-    prog = STUDY_DATABASE.programs.find(p => p.source_type === 'curated' && p.original_id == "c_" + paramIdx) || STUDY_DATABASE.programs[paramIdx];
+if (source === 'daad') {
+  if (typeof DAAD_FULL !== 'undefined' && DAAD_FULL[paramIdx]) {
+    const d = DAAD_FULL[paramIdx];
+    // Find matching in STUDY_DATABASE or wrap DAAD_FULL[paramIdx]
+    if (typeof STUDY_DATABASE !== 'undefined' && STUDY_DATABASE.programs) {
+      prog = STUDY_DATABASE.programs.find(p => p.source_type === 'daad' && p.original_id == d.id) ||
+             STUDY_DATABASE.programs.find(p => p.id === "daad_" + d.id);
+    }
+    if (!prog) {
+      prog = {
+        title: d.title,
+        university_name: d.university,
+        tier: "D",
+        gpa_fit: "unknown",
+        overview: {
+          department: d.department, location: d.location, degree_type: d.degree_type,
+          duration: d.duration, language: d.language, intake: d.deadline_winter,
+          has_winter: true, has_summer: Boolean(d.deadline_summer)
+        },
+        course_details: {
+          curriculum: d.curriculum, combined_masters_phd: d.combined_masters_phd,
+          joint_double_degree: d.joint_double_degree, diploma_supplement: d.diploma_supplement,
+          international_elements: d.international_elements
+        },
+        costs_funding: {
+          tuition: d.tuition, semester_fee: d.semester_fee, cost_of_living: d.cost_of_living, funding: d.funding
+        },
+        requirements_registration: {
+          deadline_winter: d.deadline_winter, deadline_summer: d.deadline_summer,
+          submission_portal: d.submission_portal, academic_requirements: d.academic_requirements,
+          gpa_requirement: d.gpa_requirement, prerequisite_degree: d.prerequisite_degree,
+          german_requirement: d.german_requirement, ielts: d.ielts, toefl: d.toefl,
+          other_english_tests: d.other_english_tests, gre: d.gre, aps_required: "No (Bangladesh is exempt)"
+        },
+        services: {
+          accommodation: d.accommodation, part_time_work: d.part_time_work,
+          career_services: d.career_services, other_support: d.other_support
+        },
+        about_university: {
+          notes: d.notes, contact_name: d.contact_name, contact_email: d.contact_email,
+          contact_phone: d.contact_phone, contact_address: d.contact_address,
+          course_website: d.course_website, source_url: d.source_url
+        }
+      };
+    }
+  }
+} else {
+  // Curated index
+  if (typeof STUDY_DATABASE !== 'undefined' && STUDY_DATABASE.programs) {
+    prog = STUDY_DATABASE.programs.find(p => p.source_type === 'curated' && p.original_id == "c_" + paramIdx) ||
+           STUDY_DATABASE.programs.find(p => p.id === "curated_" + paramIdx);
+  }
+  if (!prog && typeof DATA !== 'undefined' && DATA.programs && DATA.programs[paramIdx]) {
+    const p = DATA.programs[paramIdx];
+    prog = {
+      title: p.program_name,
+      university_name: p.university,
+      tier: p.tier || "B",
+      gpa_fit: p.gpa_fit || "moderate",
+      gpa_fit_note: p.gpa_fit_note,
+      overview: {
+        department: p.department, location: "Germany", degree_type: p.degree_type,
+        duration: p.duration, language: p.language, intake: "Winter", has_winter: true, has_summer: false
+      },
+      course_details: {
+        curriculum: p.prereqs || p.note, combined_masters_phd: "No", joint_double_degree: "No",
+        diploma_supplement: "Yes", international_elements: "English taught"
+      },
+      costs_funding: {
+        tuition: p.tuition, tuition_notes: p.tuition_notes, semester_fee: "~150-350 EUR", cost_of_living: "~934-992 EUR/month"
+      },
+      requirements_registration: {
+        deadline_winter: p.deadline_winter, deadline_summer: p.deadline_summer,
+        academic_requirements: p.prereqs, gpa_requirement: p.min_gpa, ielts: p.ielts, toefl: p.toefl,
+        german_requirement: p.german_req, gre: p.gre, work_exp_note: p.work_exp, aps_required: "No (Bangladesh is exempt)"
+      },
+      services: {
+        accommodation: "Studentenwerk / WG", part_time_work: "140 full days / year permitted",
+        career_services: "University Career Service", other_support: "International Office"
+      },
+      about_university: {
+        notes: p.note, course_website: p.source, source_url: p.source
+      }
+    };
   }
 }
 
