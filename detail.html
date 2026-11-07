@@ -562,7 +562,18 @@ if (!prog) {
       </div>
       ` : ""}
 
-      <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap;">
+      ${prog.official_website_data.verification ? `
+      <div style="margin-top:16px;background:rgba(255,200,87,.06);border:1px solid rgba(255,200,87,.3);border-radius:10px;padding:14px;">
+        <div style="font-weight:700;font-size:.85rem;margin-bottom:8px;">Independent re-verification (${prog.official_website_data.verification.verified_on}) - status: ${prog.official_website_data.verification.status}</div>
+        ${(prog.official_website_data.verification.discrepancies||[]).length ? `
+        <ul style="padding-left:18px;margin:0 0 10px;font-size:.84rem;line-height:1.7;">
+          ${prog.official_website_data.verification.discrepancies.map(d => '<li><b>' + d.field + ':</b> ' + d.corrected_value + ' <span style="color:var(--muted);">(previously: ' + d.old_value + ')</span></li>').join('')}
+        </ul>` : ''}
+        ${prog.official_website_data.verification.additional_info_found ? `<div style="font-size:.84rem;line-height:1.7;margin-bottom:8px;"><b>Additional info found:</b> ${prog.official_website_data.verification.additional_info_found}</div>` : ''}
+        ${prog.official_website_data.verification.notes ? `<div style="font-size:.8rem;color:var(--muted);line-height:1.6;">${prog.official_website_data.verification.notes}</div>` : ''}
+      </div>
+      ` : ""}
+<div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap;">
         <a class="quick-btn" href="${prog.official_website_data.official_source_url}" target="_blank" rel="noopener">🌐 বিশ্ববিদ্যালয়ের মূল প্রোগ্রাম পেজ ↗</a>
         ${prog.official_website_data.official_spo_pdf ? `<a class="quick-btn" href="${prog.official_website_data.official_spo_pdf}" target="_blank" rel="noopener">📄 অফিশিয়াল পরীক্ষা নীতিমালা (SPO PDF) ↗</a>` : ""}
       </div>

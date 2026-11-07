@@ -179,6 +179,44 @@ const DATABASE = {
           "gpa_verdict": "Risky / Hard Benchmark",
           "gpa_analysis": "The official examination regulation (§ 2) strictly benchmarks a German GPA of 2.0 or better (~3.4+ US scale). A 2.8 CGPA (~2.8-3.0 German scale) is mathematically below the standard threshold. Admission without an official GPA waiver is high risk unless a special case review or equivalence certificate is granted.",
           "actionable_recommendation": "If applying to TH Rosenheim, contact the program director (Silke Kroneck: industrialengineering@th-rosenheim.de) beforehand to ask whether your 2 years of engineering experience and strong mathematics/hardware foundation can be reviewed via aptitude evaluation or probationary admission."
+        },
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "some_corrections",
+          "discrepancies": [
+            {
+              "field": "minimum_gpa_cutoff",
+              "old_value": "German GPA 2.0 or better required by official SPO (§2)",
+              "corrected_value": "CONFIRMED - page states: first degree equivalent to a German bachelor's with an overall grade of \"2,0\" or better",
+              "evidence": "\"A first degree equivalent to a German bachelor's with an overall grade of 2,0 or better\""
+            },
+            {
+              "field": "undergraduate_ects",
+              "old_value": "180 to 210 ECTS, missing 30 ECTS made up via bridge modules",
+              "corrected_value": "CONFIRMED - under 180 ECTS not admitted; 180-<210 admitted with condition that total of 300 ECTS (incl. master) must be proven",
+              "evidence": "Page explicitly states the 180-210 ECTS tiers and bridging requirement"
+            },
+            {
+              "field": "language_requirements (IELTS/TOEFL/TOEIC/PTE/Cambridge)",
+              "old_value": "IELTS 6.0, TOEFL 72, TOEIC 785, PTE 60, Cambridge FCE C (160+)",
+              "corrected_value": "CONFIRMED - all figures match current official page exactly",
+              "evidence": "Page lists identical thresholds for TOEFL iBT 72, TOEIC 785, IELTS 6.0, Cambridge FCE C (160+)/CAE B2(160+), PTE 60"
+            },
+            {
+              "field": "tuition_non_eu",
+              "old_value": "500 EUR/semester effective starting 2025/2026",
+              "corrected_value": "UNVERIFIABLE exact amount - page only states tuition fees apply to non-EU students starting from summer semester 2026 (not 2025/2026), no EUR figure given on page itself",
+              "evidence": "\"Tuition fees apply to non-EU international students from summer semester 2026. The page gives no amount.\""
+            },
+            {
+              "field": "winter_deadline_non_eu / winter_deadline_eu",
+              "old_value": "Non-EU: 15-30 April; EU: 15 April-15 July",
+              "corrected_value": "UNVERIFIABLE separate EU/non-EU windows - page lists a single deadline 15-30 April (shown as 2027 cycle) without explicitly splitting EU vs non-EU; foreign qualification applicants apply via uni-assist only",
+              "evidence": "\"Application deadline: 15-30 April each year... Foreign qualification: apply via uni-assist only\""
+            }
+          ],
+          "additional_info_found": "Page clarifies strict ECTS tiering: below 180 ECTS = not admitted at all (current_data did not mention this hard floor). University entrance qualification (Abitur-equivalent) explicitly required in addition to the bachelor's degree. Other accepted English proofs not fully listed in current_data: Trinity ISE II+ (ISE Digital 80+), TELC B2, KMK III, UNIcert II, or 4+ ECTS English module from a German-taught degree.",
+          "notes": "Core admission figures (GPA, ECTS tiers, English test scores) are well confirmed. Tuition fee amount and exact EU/non-EU deadline split could not be verified from the current page content alone - the page notes fees start summer 2026, contradicting current_data's 2025/2026 start claim."
         }
       },
       "university_deep_info": {
@@ -357,6 +395,44 @@ const DATABASE = {
           "gpa_verdict": "Good / High Feasibility",
           "gpa_analysis": "TU Chemnitz does NOT eliminate applicants by numerical GPA cutoff. Since your CGPA is 2.8, this program is a major strategic advantage! Admission depends strictly on matching the 6 prerequisite ECTS areas. Your NSU EEE transcript covers Mathematics, Data Processing, Metrology/Control, and Engineering Basics. You only need to verify that your syllabus covers basic material science (EEE 154 or equivalent) and acquire a German A1 certificate before September.",
           "actionable_recommendation": "Target this program as a strong safety/match! Prepare German A1 (Goethe/telc) and apply via EduApplication by July 15."
+        },
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "some_corrections",
+          "discrepancies": [
+            {
+              "field": "subject_prerequisites (ECTS breakdown)",
+              "old_value": "Math ≥18, Data processing ≥12, Metrology/control ≥8, New materials ≥8, Engineering basics ≥12, Resource-efficient manufacturing ≥8",
+              "corrected_value": "CONFIRMED - 2026 study regulation confirms these same minimum ECTS thresholds per subject area",
+              "evidence": "Search of official AM_study_regulation_2026.pdf summary: \"at least 18 ECTS in specialized engineering mathematics, at least 12 ECTS in data processing, at least 8 ECTS each in metrology and in new materials... at least 8 ECTS in resource-efficient manufacturing\""
+            },
+            {
+              "field": "semester_contribution_fee",
+              "old_value": "Approx. 340.50 EUR per semester",
+              "corrected_value": "CORRECTED - roughly 270 EUR per semester per current sources (figure may have since changed; verify directly as semester fees are revised periodically)",
+              "evidence": "Search result: \"there is a semester contribution of roughly 270 EUR\""
+            },
+            {
+              "field": "application portal fee",
+              "old_value": "Application fee approx. 49.95 EUR via EduApplication",
+              "corrected_value": "CORRECTED - approx. 39 EUR application fee to EduApplication per more recent info",
+              "evidence": "Search result: \"There is also a 39 EUR application fee payable to EduApplication\""
+            },
+            {
+              "field": "winter_deadline (opening date)",
+              "old_value": "1 April to 15 July",
+              "corrected_value": "CORRECTED - opens 31 March (per university page), closes 15 July; another listing says opens 1 June - official page should be treated as authoritative but opening date is slightly earlier than current_data's 1 April",
+              "evidence": "\"the university page says the application opens on March 31st and closes on July 15th\""
+            },
+            {
+              "field": "german_language",
+              "old_value": "German A1 required upon enrollment; conditional admission if submitted by late September",
+              "corrected_value": "CONFIRMED - application can be submitted without A1 certificate; A1 must be shown at enrolment, consistent with current_data",
+              "evidence": "\"The university's own admission page says the application can be submitted without the German A1 certificate, but that certificate must be shown at enrolment\""
+            }
+          ],
+          "additional_info_found": "The live tu-chemnitz.de/mb/am/studiengang/ landing page itself is mostly a navigation shell with no admission data inline; actual admission figures live in the 2026 study regulation PDF (AM_study_regulation_2026.pdf) and amendment PDFs (AM_amendment_2022.pdf, AM_amendment_2024.pdf) linked from the site - these should be treated as the authoritative source going forward.",
+          "notes": "Could not fetch the official_spo_pdf directly; relied on search-indexed summaries of the 2026 regulation and 2024 amendment. Minor numeric figures (semester fee, application fee, deadline start date) appear to have drifted slightly from current_data's values - may reflect program updates since the AI-collected data was gathered."
         }
       },
       "university_deep_info": {
@@ -436,7 +512,7 @@ const DATABASE = {
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5403/"
       },
       "official_website_data": {
-        "official_source_url": "https://tu-freiberg.de/en/study/master/advanced-materials-analysis",
+        "official_source_url": "https://tu-freiberg.de/en/master-advanced-materials-analysis",
         "official_spo_pdf": "https://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-werkstoffwissenschaft-und-werkstofftechnologie-5/Dokumente/AMA_PO.pdf",
         "degree_awarded": "Master of Science (M.Sc.)",
         "total_ects": 120,
@@ -531,6 +607,44 @@ const DATABASE = {
           "gpa_verdict": "Good / High Potential via Aptitude Test",
           "gpa_analysis": "Because Freiberg replaces a hard GPA cutoff with a mandatory Online Aptitude Test in Mathematics and Physics, your 2.8 CGPA is NOT an automatic disqualification! As an NSU EEE graduate with solid engineering math and physics coursework, you can secure admission by scoring well on the online test. Track B (Semiconductor Technology and Devices) aligns closely with semiconductor fabrication, thin-film devices, and solid-state electronics.",
           "actionable_recommendation": "Apply early between January and March directly on the Freiberg portal. Prepare thoroughly for the online Math & Physics test (calculus, linear algebra, basic mechanics & electromagnetism)."
+        },
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "some_corrections",
+          "discrepancies": [
+            {
+              "field": "official_source_url",
+              "old_value": "https://tu-freiberg.de/en/study/master/advanced-materials-analysis",
+              "corrected_value": "https://tu-freiberg.de/en/master-advanced-materials-analysis (original URL returned HTTP 404)",
+              "evidence": "Direct fetch of original URL returned \"HTTP 404 Not Found\"; found working URL via web search"
+            },
+            {
+              "field": "ielts",
+              "old_value": "Minimum band score 6.0 overall (6.5 recommended)",
+              "corrected_value": "CORRECTED - official current page sets IELTS minimum at 6.5 (not just 'recommended' - it is the stated requirement); older third-party listings show the outdated 6.0 figure",
+              "evidence": "\"The official page sets TOEFL with a minimum score of ...90 (internet-based test) or IELTS with a minimum score of 6.5... Collegedunia's older listing shows IELTS 6.0 and TOEFL 87, so treat those figures as outdated\""
+            },
+            {
+              "field": "toefl_ibt",
+              "old_value": "Minimum 90 points overall (Reading 23, Listening 23, Speaking 22, Writing 22)",
+              "corrected_value": "CONFIRMED - 90 overall on official page (subscores not independently verifiable from search summary)",
+              "evidence": "Official page TOEFL iBT minimum of 90 confirmed"
+            },
+            {
+              "field": "semester_contribution_fee",
+              "old_value": "Approx. 107 EUR per semester",
+              "corrected_value": "CORRECTED - approx. 94 EUR per semester per current third-party aggregator (Expatrio) citing the university; verify directly as this may have changed since collection",
+              "evidence": "\"Expatrio lists a separate semester fee of about 94 EUR\""
+            },
+            {
+              "field": "aptitude_test_gre",
+              "old_value": "Mandatory online aptitude test in Math and Physics, test can only be attempted once",
+              "corrected_value": "CONFIRMED - mandatory online math/physics test required for qualification assessment; one source notes this requirement is being phased in/confirmed 'from 2026 onwards'",
+              "evidence": "\"Applicants have to pass an online test... includes questions from the fields of maths and physics... planned to be required for admission from 2026 onwards\""
+            }
+          ],
+          "additional_info_found": "No tuition fee confirmed (0 EUR) consistent with current_data. Program aimed at bachelor's graduates in physics, materials science, electrical engineering, or chemistry - consistent with current_data's qualifying_degree field. Winter intake application window of 1 January to 15 April confirmed.",
+          "notes": "Original official_source_url is dead (404) - use the corrected URL found via search. Could not directly WebFetch the SPO PDF; relied on search-aggregated official figures. IELTS requirement appears stricter (6.5, not 6.0) than current_data suggested."
         }
       },
       "university_deep_info": {
@@ -610,7 +724,7 @@ const DATABASE = {
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10712/"
       },
       "official_website_data": {
-        "official_source_url": "https://www.ovgu.de/en/study/degree-programmes/master-programmes/ai-and-engineering-for-medical-applications",
+        "official_source_url": "https://www.ovgu.de/en/-p-143803",
         "official_spo_pdf": "https://www.ovgu.de/unimagdeburg_media/Studium/Ordnungen+und+Satzungen/Studien_und+Pruefungsordnungen/FEIT/Master/AI_EMA_SPO.pdf",
         "degree_awarded": "Master of Science (M.Sc.)",
         "total_ects": 120,
@@ -706,6 +820,38 @@ const DATABASE = {
           "gpa_verdict": "Borderline / Tuition & Prerequisite Dependent",
           "gpa_analysis": "Your 2 years of engineering experience perfectly satisfies the 1-year mandatory professional experience requirement! Furthermore, your NSU EEE background provides strong credits in Math (20 ECTS) and Electronics/Circuit Technology (20 ECTS). However, note two factors: (1) Continuing education tuition is ~4,165-5,950 EUR/semester; (2) You will have a 5 ECTS deficiency in Anatomy/Physiology (which is permitted as long as total missing credits are ≤25 ECTS).",
           "actionable_recommendation": "Only choose this program if you are specifically interested in Medical Hardware/Circuits (CT/MRI RF design) and comfortable with the tuition fee (~4,165 EUR/sem)."
+        },
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "major_discrepancies",
+          "discrepancies": [
+            {
+              "field": "official_source_url",
+              "old_value": "https://www.ovgu.de/en/study/degree-programmes/master-programmes/ai-and-engineering-for-medical-applications",
+              "corrected_value": "https://www.ovgu.de/en/-p-143803 (original URL returned HTTP 404)",
+              "evidence": "Direct fetch returned HTTP 404 Not Found; replacement found via web search"
+            },
+            {
+              "field": "tuition_non_eu / tuition_eu",
+              "old_value": "Continuing education tuition approx. 4,165-5,950 EUR per semester (~23,800 EUR total)",
+              "corrected_value": "UNVERIFIABLE/CONFLICTING - could not confirm this exact figure from the official page. Sources conflict: some describe it as a 'weiterbildender Masterstudiengang' (continuing-education program, typically fee-based), while at least one third-party agency describes it as tuition-free. The program's official regulation (May 2025) confirms it is run as continuing education in cooperation with Steinbeis, which supports (but does not confirm the exact amount of) a tuition fee.",
+              "evidence": "\"OVGU's official regulation describes it as a weiterbildenden Masterstudiengang... often carries fees... I'd treat 'tuition-free' as unverified until you confirm with the OVGU International Office\""
+            },
+            {
+              "field": "minimum_gpa_cutoff",
+              "old_value": "No rigid numerical GPA cutoff",
+              "corrected_value": "CONFIRMED - no GPA threshold found for this specific program (other OVGU programs do have cutoffs, but not this one)",
+              "evidence": "\"I found no GPA threshold for this program... those are different programs\""
+            },
+            {
+              "field": "subject_prerequisites (ECTS breakdown)",
+              "old_value": "Math 20 (max 5 missing), Physics/Medical Physics 15 (max 10 missing), EE/Electronics/IT 20 (max 5 missing), CS/Programming 10 (max 5 missing), Anatomy/Physiology 5 (max 5 missing), total missing ≤25 ECTS",
+              "corrected_value": "PARTIALLY CONFIRMED - official program page confirms Physics 15 ECTS (max 10 missing) and EE/IT/Electronics 20 ECTS (max 5 missing); the full breakdown including Math/CS/Anatomy figures matches a partner-agency listing but was not independently verified against the official page text itself",
+              "evidence": "\"OVGU's own program page lists... ECTS minimums in physics (15) and electrical engineering/IT/electronics (20), with allowances for... max 10 ECTS missing for physics and max 5 ECTS missing for electrical engineering\""
+            }
+          ],
+          "additional_info_found": "Program is officially titled as a 'weiterbildender Masterstudiengang' (continuing education master's) per the official May 2025 examination regulations (Studien- und Prüfungsordnung), run jointly with Steinbeis School of Next Practices - this institutional structure detail is useful context not fully spelled out in current_data. There is a separate but similarly-named 'Medical Systems Engineering' M.Sc. at OVGU (different, non-continuing-education program) that should not be confused with this one.",
+          "notes": "Original URL is dead; corrected URL found. Given the continuing-education / Steinbeis structure and conflicting fee claims, the tuition figure in current_data should be treated with caution until confirmed directly via ovgu.de/en/-p-143803 or the OVGU International Office."
         }
       },
       "university_deep_info": {
@@ -875,6 +1021,38 @@ const DATABASE = {
           "gpa_verdict": "Good / High Realism",
           "gpa_analysis": "THI does NOT have an arbitrary GPA elimination bar; admission is determined by curriculum suitability in programming, mathematics, and systems engineering. Your NSU EEE transcript plus 2 years of RTL/UVM hardware experience gives you a distinct advantage in edge computing and embedded architectures. Non-EU tuition is very moderate (1,200 EUR/sem). Both Winter and Summer admissions are available.",
           "actionable_recommendation": "Target THI as a prime candidate! Prepare your uni-assist VPD early and highlight your RTL, FPGA, and C++/Python hardware skills in your motivation letter."
+        },
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "some_corrections",
+          "discrepancies": [
+            {
+              "field": "aptitude_test_gre",
+              "old_value": "GRE NOT required; evaluation is document-based through faculty selection committee (no mention of formal aptitude test)",
+              "corrected_value": "CORRECTED - THI's official examination/aptitude-test statute (SPO, amended 2024) DOES require applicants to pass a formal aptitude test (Eignungsverfahren) assessing bachelor's-level skills in subject areas including theory, modelling/simulation, electronics, and microcomputer technology (max. 10 points)",
+              "evidence": "\"you must pass an aptitude test to assess your skills acquired in your Bachelor's programme... subject areas such as theory, modelling and simulation, electronics, and microcomputer technology\" (from THI statute excerpts)"
+            },
+            {
+              "field": "minimum_gpa_cutoff",
+              "old_value": "No hard numerical GPA cutoff; evaluated via Aptitude Assessment Process",
+              "corrected_value": "CONFIRMED - no official minimum GPA found; only GPA-related figures found relate to merit-based tuition waivers, not admission",
+              "evidence": "\"I found no official THI statement on a minimum GPA for admission. The only GPA figures I found relate to merit-based tuition waivers\""
+            },
+            {
+              "field": "winter_deadline / summer_deadline",
+              "old_value": "Winter: 1 April-15 July; Summer: 15 October-15 January",
+              "corrected_value": "UNVERIFIABLE/POSSIBLY OUTDATED - Hochschulkompass lists different windows (15 Nov 2025-28 Feb 2026, and 2 May 2026-31 Aug 2026) which do not match current_data's stated windows; could not confirm either set directly against the live THI page, which does not list deadlines inline",
+              "evidence": "\"Hochschulkompass lists a non-EU deadline of 15.11.2025-28.02.2026 and a separate window of 02.05.2026-31.08.2026 for this programme\""
+            },
+            {
+              "field": "undergraduate_ects",
+              "old_value": "210 ECTS standard; 180 ECTS conditional with 30 ECTS bridge requirement",
+              "corrected_value": "UNVERIFIABLE from official regulation text directly - third-party site corroborates 210 ECTS total but exact official breakdown not independently confirmed",
+              "evidence": "\"A third-party site says admission is based on a bachelor's degree... totalling 210 ECTS. I did not find the exact ECTS breakdown in the official regulations\""
+            }
+          ],
+          "additional_info_found": "The live THI program page itself (fetched directly) only states: course language English, start of studies Summer & Winter, dual study format - it does not list GPA, ECTS, tuition, or deadlines inline; all such details require consulting the SPO PDFs (hosted at konvens2023.thi.de/fileadmin/.../SPOs_Fakultaet_E/...) or the PRIMUSS application portal and help.thi.de FAQ pages, which current_data's official_spo_pdf link should be re-verified against as the filename/path appears to have moved (now under a 'konvens2023.thi.de' mirror rather than the original thi.de path given in current_data).",
+          "notes": "URL is reachable (not dead) but content-sparse. Biggest discrepancy: current_data claims admission is purely 'document-based' with no formal test, but official THI regulations clearly mandate an aptitude test (Eignungsverfahren) - this is a meaningful correction for applicant planning purposes."
         }
       },
       "university_deep_info": {
@@ -989,7 +1167,45 @@ const DATABASE = {
         "exact_admission_regulations": "Bachelor in Engineering or closely related (180 ECTS). Specific ECTS requirements: Math ≥15 ECTS, Technical Mechanics ≥15 ECTS, Electrical Engineering/Drive Tech ≥20 ECTS, Measurement/Control ≥10 ECTS.",
         "gpa_conversion_benchmark": "No GPA elimination barrier; evaluated strictly on credit check of the above subject areas.",
         "language_requirements_verified": "English C1 required: IELTS 7.0 / TOEFL iBT 95 / PTE 76 / telc C1.",
-        "special_notes_for_bangladesh": "Tuition-free public university (TU9 member). Notice: English requirement is C1 (IELTS 7.0 required instead of 6.5). Technical mechanics credits need careful mapping from NSU physics/engineering coursework."
+        "special_notes_for_bangladesh": "Tuition-free public university (TU9 member). Notice: English requirement is C1 (IELTS 7.0 required instead of 6.5). Technical mechanics credits need careful mapping from NSU physics/engineering coursework.",
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "mostly_confirmed",
+          "discrepancies": [
+            {
+              "field": "exact_admission_regulations (ECTS breakdown)",
+              "old_value": "Math ≥15, Technical Mechanics ≥15, EE/Drive Tech ≥20, Measurement/Control ≥10",
+              "corrected_value": "CONFIRMED - exact match to live page figures",
+              "evidence": "\"Required prior ECTS: 15 in Mathematics; 15 in Technical Mechanics; 20 in Electrical Engineering/Drive Technology; 10 in Measurement/Control Technology\""
+            },
+            {
+              "field": "gpa_conversion_benchmark",
+              "old_value": "No GPA elimination barrier; evaluated strictly on credit check",
+              "corrected_value": "CONFIRMED - page states admission is free of restriction, with no GPA figure stated",
+              "evidence": "\"GPA/grade cutoff: Not stated... Admission is free of restriction\""
+            },
+            {
+              "field": "language_requirements_verified",
+              "old_value": "English C1 required: IELTS 7.0/TOEFL iBT 95/PTE 76/telc C1",
+              "corrected_value": "PARTIALLY CONFIRMED - page confirms C1 level requirement but does NOT list specific IELTS/TOEFL/PTE numeric scores inline; it links out to the university's general accepted-certificate list. The specific numbers (7.0/95/76) could not be independently verified from this page.",
+              "evidence": "\"Valid English certificate at C1 level. The page lists no IELTS or TOEFL scores... It links to the university's list of accepted certificates.\""
+            },
+            {
+              "field": "total_ects / standard_duration",
+              "old_value": "120 ECTS, 4 semesters",
+              "corrected_value": "CONFIRMED",
+              "evidence": "\"Total ECTS: 120. Duration: 4 semesters (standard period of study)\""
+            },
+            {
+              "field": "tuition",
+              "old_value": "Not stated in current_data",
+              "corrected_value": "No tuition fees; low semester fee includes a public transport ticket",
+              "evidence": "\"Tuition fees: None. There is a low semester fee that includes a public transport ticket.\""
+            }
+          ],
+          "additional_info_found": "Application deadlines not present in current_data were found on the live page: Germany/EU online applicants - 15 July (winter) / 15 January (summer); Non-EU via uni-assist - 31 May (winter) / 30 November (summer). Decisions usually communicated by end of June (winter) or end of January (summer). Students apply under the general 'Mechatronics and Robotics' program and are then assigned to the AI-driven track. Curriculum includes a mandatory 12-week industrial or specialized internship, and both Winter and Summer intake are available (current_data only implicitly assumed standard timing without stating deadlines or dual intake).",
+          "notes": "Strong match overall. The one soft spot is the specific numeric English test scores (IELTS 7.0 etc.) which the live page does not display directly - these should be double-checked against the university's linked certificate-acceptance list before relying on them."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Institute of Mechatronic Systems (ims) & Institute of Automatic Control",
@@ -1314,7 +1530,7 @@ const DATABASE = {
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3961/"
       },
       "official_website_data": {
-        "official_source_url": "https://www.th-koeln.de/en/academics/automation--it-master_7322.php",
+        "official_source_url": "https://www.th-koeln.de/en/academics/automation--it-master--how-to-apply_6812.php",
         "total_ects": 120,
         "standard_duration": "4 semesters full-time",
         "faculty_institute": "Faculty of Computer Science and Engineering Systems (Gummersbach Campus)",
@@ -1349,7 +1565,39 @@ const DATABASE = {
         "exact_admission_regulations": "Bachelor degree in EE, Automation, Computer Science, or Mechatronics. Admission is zulassungsfrei (open/non-restricted) for all who fulfill formal qualifications. Mandatory requirement: 2-page detailed English letter of motivation. Bridge modules up to 30 ECTS possible.",
         "gpa_conversion_benchmark": "German GPA 2.5 or better standard. Candidates with lower GPA are eligible if they demonstrate ≥2 years relevant engineering experience or pass interview.",
         "language_requirements_verified": "IELTS 6.0 / TOEFL iBT 80.",
-        "special_notes_for_bangladesh": "Tuition-free public institution. Your 2 years of engineering experience directly overcomes the GPA 2.5 threshold according to official TH Köln admission guidelines!"
+        "special_notes_for_bangladesh": "Tuition-free public institution. Your 2 years of engineering experience directly overcomes the GPA 2.5 threshold according to official TH Köln admission guidelines!",
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "mostly_confirmed",
+          "discrepancies": [
+            {
+              "field": "official_source_url",
+              "old_value": "https://www.th-koeln.de/en/academics/automation--it-master_7322.php",
+              "corrected_value": "Original URL returned HTTP 404; a working related page was found at .../automation--it-master--how-to-apply_6812.php (main landing page may have been restructured - full main overview URL not conclusively re-identified)",
+              "evidence": "Direct WebFetch returned HTTP 404 Not Found"
+            },
+            {
+              "field": "gpa_conversion_benchmark",
+              "old_value": "German GPA 2.5 or better standard; lower GPA eligible with ≥2 years experience or interview",
+              "corrected_value": "CONFIRMED (grade threshold) - DAAD's official listing confirms applicants need an overall grade of at least 'good', i.e. up to 2.5 on the German scale. The '2 years experience/interview' exception clause was not independently verified in the sources found.",
+              "evidence": "\"DAAD's listing says applicants need a relevant Diplom or Bachelor's degree with an overall grade of at least 'good,' meaning up to 2.5\""
+            },
+            {
+              "field": "language_requirements_verified (IELTS)",
+              "old_value": "IELTS 6.0 / TOEFL iBT 80",
+              "corrected_value": "CONFIRMED - TH Köln's own page and enrollment documents list IELTS minimum 6.0; an older 2009 regulation cited 6.5 but that is outdated. TOEFL figures found: 550 (paper-based) / 213 (computer-based) / 80 (internet-based) - the 80 iBT figure matches current_data.",
+              "evidence": "\"TH Köln's own page lists IELTS with a minimum score of 6.0... TOEFL minimums are 550 points... 213 points... or 80 points on the internet-based test\""
+            },
+            {
+              "field": "exact_admission_regulations (zulassungsfrei / NC status)",
+              "old_value": "Admission is zulassungsfrei (open/non-restricted)",
+              "corrected_value": "CONFIRMED - no admission restriction found in official/DAAD sources for this program",
+              "evidence": "No conflicting NC information found in search results for this specific program"
+            }
+          ],
+          "additional_info_found": "Degree field requirement specified as electrical engineering or related fields specifically (current_data broadened this to include Automation, Computer Science, Mechatronics as well - the official DAAD wording leans more narrowly toward EE/related, worth double-checking exact program-specific wording). A dedicated part-time variant of the program exists (\"Automation & IT (Master's Program) - How to Apply (part-time)\") not mentioned in current_data.",
+          "notes": "Original official_source_url is dead (404); TH Köln appears to have restructured its site/URLs for this program. The GPA and IELTS figures in current_data check out against DAAD and university documentation found via search, but the exact live overview page could not be directly re-fetched - recommend using the apply sub-page found or searching th-koeln.de for the current canonical URL."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Campus Gummersbach Department of Automation",
@@ -1463,7 +1711,33 @@ const DATABASE = {
         "exact_admission_regulations": "Bachelor in EE, Mechanical Engineering, CS, or related discipline. Prerequisite competencies in mathematics and computer systems checked strictly against Dortmund curriculum order (§3). Non-academic work experience cannot substitute missing credits.",
         "gpa_conversion_benchmark": "No minimum cutoff number listed, but highly selective based on mathematics and computer systems syllabus depth.",
         "language_requirements_verified": "English C1 required: IELTS 7.0 / TOEFL iBT 95 / Cambridge C1 Advanced.",
-        "special_notes_for_bangladesh": "Tuition-free public university. Note: Requires English C1 (IELTS 7.0). Strong EEE mathematics foundation helps clear prerequisite checks."
+        "special_notes_for_bangladesh": "Tuition-free public university. Note: Requires English C1 (IELTS 7.0). Strong EEE mathematics foundation helps clear prerequisite checks.",
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "mostly_confirmed",
+          "discrepancies": [
+            {
+              "field": "language_requirements_verified",
+              "old_value": "English C1 required: IELTS 7.0 / TOEFL iBT 95 / Cambridge C1 Advanced",
+              "corrected_value": "CONFIRMED - official TU Dortmund program page and 2019 examination regulations both confirm C1 level with IELTS 7 / TOEFL iBT 95 (also listed as TOEFL paper 590 / computer 230, though the 2020 regulation PDF lists computer-based as 243 - a minor internal inconsistency on TU Dortmund's own documents, not a current_data error)",
+              "evidence": "\"The English requirement is consistent across most sources: C1 level... IELTS 7 (academic) or TOEFL iBT 95... The 2020 regulations give a TOEFL computer-based minimum of 243, while the official program page says 230\""
+            },
+            {
+              "field": "gpa_conversion_benchmark",
+              "old_value": "No minimum cutoff number listed, but highly selective based on mathematics and computer systems syllabus depth",
+              "corrected_value": "CONFIRMED - official page states the bachelor's performance/grade is the sole admission criterion (no separate numeric GPA cutoff), and the program is officially admission-free (no NC)",
+              "evidence": "\"bachelor's performance is the sole admission criterion. The program is admission-free (no NC)\""
+            },
+            {
+              "field": "exact_admission_regulations",
+              "old_value": "Prerequisite competencies in mathematics and computer systems checked strictly against Dortmund curriculum order (§3)",
+              "corrected_value": "CONFIRMED and refined - official page specifies at least 12 ECTS in computer science as a specific checked prerequisite (current_data did not give this specific number)",
+              "evidence": "\"It also requires at least 12 ECTS in computer science\""
+            }
+          ],
+          "additional_info_found": "Contact email for program-specific questions: AutomationRobotics@tu-dortmund.de. Official resources include a Module Book (2026 edition) and the Examination Regulations (MPO), both as downloadable PDFs linked from the program page, plus a dedicated page section 'Neue Zulassungskriterien' (new admission criteria) and 'Handhabung der APS-Anforderungen' (handling of APS requirements) for international applicants - useful for Bangladeshi applicants since APS handling specifics are referenced but not detailed on the surface page.",
+          "notes": "The direct WebFetch of the official_source_url returned only navigational content (not a 404), so admission figures were cross-verified via web search of the official TU Dortmund examination regulations and a related overview page (tu-dortmund.de/en/automation-and-robotics-695/), both confirming current_data's core numbers."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Process Automation Systems (Prof. Dr. Sebastian Engell) & Robotics Research Institute",
@@ -1542,7 +1816,7 @@ const DATABASE = {
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11170/"
       },
       "official_website_data": {
-        "official_source_url": "https://www.tu-chemnitz.de/etit/studium/studiengaenge/mAT",
+        "official_source_url": "https://www.tu-chemnitz.de/etit/studium/stugang/index.php.en?page=m_at",
         "total_ects": 120,
         "standard_duration": "4 semesters full-time",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology (ETIT)",
@@ -1586,7 +1860,39 @@ const DATABASE = {
         "exact_admission_regulations": "Bachelor in EE & IT, Digital Engineering, or equivalent engineering degree. German A1 certificate required.",
         "gpa_conversion_benchmark": "No minimum GPA gate; board of examiners evaluates transcript course coverage.",
         "language_requirements_verified": "English B2 (IELTS 5.5 / TOEFL 72) + German A1.",
-        "special_notes_for_bangladesh": "Tuition-free public university. Silicon Saxony technology proximity. Very approachable English requirement (IELTS 5.5)."
+        "special_notes_for_bangladesh": "Tuition-free public university. Silicon Saxony technology proximity. Very approachable English requirement (IELTS 5.5).",
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "some_corrections",
+          "discrepancies": [
+            {
+              "field": "language_requirements_verified (IELTS specific score)",
+              "old_value": "English B2 (IELTS 5.5 / TOEFL 72) + German A1",
+              "corrected_value": "PARTIALLY CORRECTED - the official TU Chemnitz program page states the English requirement only as 'B2 or equivalent' without giving a specific IELTS numeric score inline; the IELTS 5.5 figure appears only on third-party aggregator sites and should be treated as unofficial/unverified rather than a confirmed official figure",
+              "evidence": "\"the official page names only 'B2 or equivalent' and does not give an IELTS score... Treat those as unofficial, and confirm the IELTS threshold with the university's admissions office\""
+            },
+            {
+              "field": "german_language",
+              "old_value": "German A1 certificate required",
+              "corrected_value": "CONFIRMED (with nuance) - A1 required for regular admission and enrollment, A2 recommended; applicants CAN apply without an A1 certificate and still be evaluated, receiving conditional admission pending proof of A1 before enrollment",
+              "evidence": "\"German: A1 required for regular admission and enrolment, A2 recommended. The same page says you can apply without an A1 certificate... conditional admission\""
+            },
+            {
+              "field": "exact_admission_regulations (NC / open admission status)",
+              "old_value": "No minimum GPA gate; board of examiners evaluates transcript course coverage (implies unrestricted/open admission)",
+              "corrected_value": "UNVERIFIABLE/CONFLICTING - sources disagree: DAAD lists 'without admission restriction' and a university press article says 'no admission requirements' (likely referring to no NC), but at least one other third-party listing describes it as having restricted admission (NC). Could not resolve definitively from search alone.",
+              "evidence": "\"The DAAD listing shows Admission modus: Without admission restriction, and a Silicon Saxony article says the programme has no admission requirements... Another listing says the programme has restricted admission (NC)\""
+            },
+            {
+              "field": "application deadline",
+              "old_value": "Not specified with an exact date in current_data",
+              "corrected_value": "A 2026 cycle deadline of 15 July 2026 was reported (Silicon Saxony press article), while a DAAD listing shows January/February 2027 for a later intake - current_data's lack of a specific deadline could not be filled with full confidence",
+              "evidence": "\"The 2026 deadline reported by Silicon Saxony was July 15, 2026. The DAAD listing shows January 2027 for non-EU applicants and February 2027\""
+            }
+          ],
+          "additional_info_found": "Program experienced high application volume ('Ansturm'/'rush') per a TU Chemnitz press release about the new English-language program - may indicate growing competitiveness not reflected in current_data's framing of 'no minimum GPA gate.' Degree-field pathway: the most direct admission route is a TU Chemnitz Bachelor's in Digital Engineering or in Electrical Engineering and Information Technology; other academic backgrounds are assessed case-by-case by the examination board (this nuance was generalized in current_data).",
+          "notes": "The direct URL fetch returned sparse navigational content (not 404), so verification relied on search-aggregated official and semi-official sources. The specific IELTS 5.5 figure in current_data is the main point of caution - it is not confirmed on the official page itself, only on third-party sites."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Chair of Control and System Theory & Chair of Robotics",
@@ -3433,7 +3739,33 @@ const DATABASE = {
         "exact_admission_regulations": "Bachelor in Electrical Engineering, Microelectronics, Mechatronics, or related STEM discipline (min 180 ECTS). Evaluated based on subject prerequisite credits in digital logic, circuit design, and mathematics.",
         "gpa_conversion_benchmark": "German GPA 2.5 or better benchmark. Strong practical or thesis background in digital logic / RTL design heavily considered by selection committee.",
         "language_requirements_verified": "English B2 (IELTS 6.0 / TOEFL 80). German language module included in semester 1.",
-        "special_notes_for_bangladesh": "Tuition-free public university. Directly targets VLSI, Integrated Circuits, and Digital Systems Design — perfectly aligned with your RTL/UVM background!"
+        "special_notes_for_bangladesh": "Tuition-free public university. Directly targets VLSI, Integrated Circuits, and Digital Systems Design — perfectly aligned with your RTL/UVM background!",
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "some_corrections",
+          "discrepancies": [
+            {
+              "field": "application_deadline",
+              "old_value": "not specified in current_data",
+              "corrected_value": "15 October (new students, summer-semester start) / 15 July (advanced entry into 2nd semester)",
+              "evidence": "Page lists these two deadlines explicitly"
+            },
+            {
+              "field": "language_requirements_verified",
+              "old_value": "English B2 (IELTS 6.0/TOEFL 80)",
+              "corrected_value": "Page states English at C1 level required (no IELTS/TOEFL numeric scores given on page)",
+              "evidence": "Page text requires C1 English, no specific test scores listed"
+            },
+            {
+              "field": "gpa_conversion_benchmark",
+              "old_value": "German GPA 2.5 or better benchmark",
+              "corrected_value": "UNVERIFIABLE - not stated on current page (likely in SPO/admission regulation PDF not linked)",
+              "evidence": "Page gives no GPA cutoff"
+            }
+          ],
+          "additional_info_found": "Contacts: Study advisor Prof. Dr. Johanna Myrzik (NW1 Room M1070, +49 421 218-62442) for module/credit recognition questions; general Study Center for application queries; Faculty 1 office +49 421 218-62700, Otto-Hahn-Allee 1, 28359 Bremen. Full module descriptions are in a separate module handbook PDF not reproduced on the main page.",
+          "notes": "Total ECTS (120) and 4-semester duration confirmed. Tuition fee not stated on page (only semester contribution/semester ticket referenced, no amount). Detailed module list and GPA cutoff likely live in a linked SPO PDF that was not provided/accessible; current_data's module breakdown could not be verified line-by-line against page content (page only gives thematic areas, not full module table)."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Institute for Microsensors, Actuators and Systems (IMSAS) & ITEM",
@@ -3892,7 +4224,27 @@ const DATABASE = {
         "exact_admission_regulations": "Bachelor in Electrical Engineering, Control Engineering, Mechatronics, or Physics (180 ECTS). Erasmus Mundus consortium merit competition.",
         "gpa_conversion_benchmark": "Highly competitive GPA requirement (~3.5/4.0 scale) for full Erasmus Mundus scholarships; self-funded spots also consider engineering experience.",
         "language_requirements_verified": "IELTS 6.5 / TOEFL iBT 90 (B2+/C1 level).",
-        "special_notes_for_bangladesh": "Consortium participation fee applies for self-funded students. Cleanroom & Wide-Bandgap Semiconductor focus at Kiel University."
+        "special_notes_for_bangladesh": "Consortium participation fee applies for self-funded students. Cleanroom & Wide-Bandgap Semiconductor focus at Kiel University.",
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "major_discrepancies",
+          "discrepancies": [
+            {
+              "field": "total_ects/duration/curriculum_structure/gpa/language/modules",
+              "old_value": "Detailed figures claimed in current_data (120 ECTS, 4 semesters, specific module lists, IELTS 6.5/TOEFL 90, GPA ~3.5/4.0)",
+              "corrected_value": "UNVERIFIABLE - homepage does not contain any of these figures; they are likely on subpages (Admission, Programme, Partners) not fetched",
+              "evidence": "Homepage only shows consortium partners, application opening date, and contact info"
+            },
+            {
+              "field": "consortium_partners",
+              "old_value": "current_data implies Centrale Nantes + Kiel + 'Partner University'",
+              "corrected_value": "Five confirmed partners: École Centrale de Nantes (France, coordinator), Kiel University (Germany), Università degli Studi dell'Aquila (Italy), National University of Science and Technology Politehnica Bucharest (Romania), and CINVESTAV (Mexico)",
+              "evidence": "Partners section of homepage lists these five institutions"
+            }
+          ],
+          "additional_info_found": "Application portal opening announced for 1 November 2026 (per site banner). Contact: E-PiCo+ Management Office, École Centrale de Nantes, 1 rue de la Noë, 44321 Nantes Cedex 3, France; email epico@ec-nantes.fr. Page last updated 17 August 2026 — program appears to be renamed/relaunched as 'E-PiCo+'.",
+          "notes": "IMPORTANT: current_data's detailed module/ECTS/GPA/language claims could not be confirmed because the homepage is a landing page only; the program has apparently been renewed as 'E-PiCo+' (name change noted via banner/site branding), so some of current_data's specifics (tied to the older E-PiCo cohort) may be outdated. Recommend fetching the site's Admission and Programme subpages directly for authoritative figures before trusting current_data's numbers."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Chair of Power Electronics (Prof. Dr. Marco Liserre), Kiel University",
@@ -3971,7 +4323,7 @@ const DATABASE = {
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8357/"
       },
       "official_website_data": {
-        "official_source_url": "https://www.hs-anhalt.de/en/study/orient/courses-on-offer/detail/electrical-and-computer-engineering-master-of-engineering.html",
+        "official_source_url": "https://www.hs-anhalt.de/en/study/orientation/degree-programs/detail/electrical-and-computer-engineering-master-of-engineering.html",
         "total_ects": 90,
         "standard_duration": "3 semesters full-time",
         "faculty_institute": "Department of Electrical Engineering, Mechanical Engineering and Industrial Engineering (Köthen Campus)",
@@ -4013,7 +4365,14 @@ const DATABASE = {
         "exact_admission_regulations": "Bachelor in Electrical Engineering, Computer Engineering, or related engineering degree (210 ECTS standard; 180 ECTS graduates take bridge semester/modules).",
         "gpa_conversion_benchmark": "German GPA 2.5 or better.",
         "language_requirements_verified": "IELTS 6.0 / TOEFL iBT 79 (B2 Level).",
-        "special_notes_for_bangladesh": "Tuition-free public university. 90 ECTS program allows fast completion in 1.5 years."
+        "special_notes_for_bangladesh": "Tuition-free public university. 90 ECTS program allows fast completion in 1.5 years.",
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "unreachable",
+          "discrepancies": [],
+          "additional_info_found": "Via web search of third-party aggregators (not fully official, so treat cautiously): admission open to bachelor's holders in biomedical engineering, electrical and computer engineering, media technology, or comparable field; English C1 required; aptitude test required; application deadlines possibly 15 January (summer semester) / 15 July (winter semester) per MyGuide listing; program duration reported as 3 semesters in most sources (one aggregator inconsistently also states 1.5-3.5 years).",
+          "notes": "Original URL in the record (.../orient/courses-on-offer/detail/...) returned HTTP 404 — the site has restructured its URL path to '.../orientation/degree-programs/detail/...'. Corrected URL found via search but was not independently fetched/confirmed in this session (WebFetch on the old URL failed; recommend re-verifying the new URL directly). All GPA/tuition/IELTS specifics in current_data remain UNVERIFIABLE against a live official fetch."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Department of Electrical Engineering, Köthen",
@@ -4092,7 +4451,7 @@ const DATABASE = {
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4587/"
       },
       "official_website_data": {
-        "official_source_url": "https://www.oth-regensburg.de/fakultaeten/elektro-und-informationstechnik/studiengaenge/master-electrical-and-microsystems-engineering",
+        "official_source_url": "https://www.oth-regensburg.de/studiengang/electrical-and-microsystems-engineering-studieren",
         "total_ects": 90,
         "standard_duration": "3 semesters full-time (dual study available)",
         "faculty_institute": "Faculty of Applied Natural Sciences (ANK) & Faculty of Electrical Engineering and Information Technology (EI)",
@@ -4126,7 +4485,33 @@ const DATABASE = {
         "exact_admission_regulations": "Bachelor in Electrical Engineering, Microsystems Engineering, Physics, or Mechatronics (210 ECTS standard, 180 ECTS holders can clear missing credits during program).",
         "gpa_conversion_benchmark": "German GPA 2.5 or better required by SPO.",
         "language_requirements_verified": "English B2 (IELTS 6.0 / TOEFL 80). Program offers fully English-taught study tracks.",
-        "special_notes_for_bangladesh": "Tuition-free public university in Bavaria. Regensburg is home to Infineon Technologies (major chip fabrication fab), OSRAM Opto Semiconductors, and Continental Automotive/Vitesco."
+        "special_notes_for_bangladesh": "Tuition-free public university in Bavaria. Regensburg is home to Infineon Technologies (major chip fabrication fab), OSRAM Opto Semiconductors, and Continental Automotive/Vitesco.",
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "some_corrections",
+          "discrepancies": [
+            {
+              "field": "gpa_conversion_benchmark",
+              "old_value": "German GPA 2.5 or better required by SPO",
+              "corrected_value": "CONFIRMED (directionally) - an older official info sheet (2021) states minimum grade 'good' (2.5) or better plus at least 180 ECTS credits; however official SPO 2023 (binding) should be checked for current exact wording",
+              "evidence": "OTH Regensburg MEM info sheet: 'achieving the minimum grade good (2,5) or better and at least 180 ECTS Credit Points'"
+            },
+            {
+              "field": "standard_duration",
+              "old_value": "3 semesters full-time (dual study available)",
+              "corrected_value": "CONFIRMED as 3 semesters standard; a 4-semester option with in-company training also exists per official programme page (not necessarily same as 'dual study' framing in current_data)",
+              "evidence": "Official programme page mentions both a 3-semester standard track and a 4-semester option with in-company training"
+            },
+            {
+              "field": "internship_requirement",
+              "old_value": "not mentioned",
+              "corrected_value": "UNCLEAR/CONFLICTING - a 2024 FAQ mentions a mandatory 20-week internship in semesters 1-2, while the current FAQ says no internship is mandatory",
+              "evidence": "Two official FAQ PDFs disagree on this point"
+            }
+          ],
+          "additional_info_found": "Contact for admissions: mastermem@oth-regensburg.de. Admission requires passing an aptitude test in addition to the GPA/ECTS threshold. Program only runs if enough qualified applicants apply (minimum enrollment threshold).",
+          "notes": "Original URL (.../fakultaeten/elektro-und-informationstechnik/studiengaenge/master-electrical-and-microsystems-engineering) returned HTTP 404; corrected URL found via search is https://www.oth-regensburg.de/studiengang/electrical-and-microsystems-engineering-studieren (English: https://www.oth-regensburg.de/en/study-programme/study-electrical-and-microsystems-engineering-master), but this was not independently re-fetched in this session to confirm all fields live — recommend direct fetch of SPO MEM 2023-04-28 PDF for authoritative, current admission regulation text. Tuition fee and IELTS/TOEFL specifics in current_data remain UNVERIFIABLE."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Joint Directorate: Faculty of Applied Natural Sciences & Faculty of Electrical Engineering",
@@ -4615,7 +5000,7 @@ const DATABASE = {
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7927/"
       },
       "official_website_data": {
-        "official_source_url": "https://www.eti.uni-siegen.de/edes/",
+        "official_source_url": "https://www.uni-siegen.de (search for current Electrical Engineering master program; eti.uni-siegen.de/edes/ page is being retired)",
         "total_ects": 120,
         "standard_duration": "4 semesters full-time",
         "faculty_institute": "Department of Electrical Engineering and Computer Science (Faculty IV)",
@@ -4650,7 +5035,27 @@ const DATABASE = {
         "exact_admission_regulations": "Bachelor degree in Electrical Engineering or closely related discipline (180 ECTS). Curriculum must demonstrate solid foundations in circuit theory, electronics, and mathematics.",
         "gpa_conversion_benchmark": "German GPA 2.5 or better benchmark. Strong practical background in digital/analog electronics heavily considered.",
         "language_requirements_verified": "English B2 (IELTS 6.0 / TOEFL iBT 80).",
-        "special_notes_for_bangladesh": "Tuition-free public university. Zero tuition fees. Has dedicated European double-degree partner track (ATHENA). Elite IC design curriculum."
+        "special_notes_for_bangladesh": "Tuition-free public university. Zero tuition fees. Has dedicated European double-degree partner track (ATHENA). Elite IC design curriculum.",
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "major_discrepancies",
+          "discrepancies": [
+            {
+              "field": "page_status",
+              "old_value": "current_data treats page as current/authoritative",
+              "corrected_value": "Page explicitly states it is being replaced and 'wird nicht mehr aktualisiert' (is no longer updated); current info is on the university's new website at www.uni-siegen.de",
+              "evidence": "Page footer/notice states the content is outdated and redirects to the new site"
+            },
+            {
+              "field": "gpa/tuition/ielts/deadlines",
+              "old_value": "GPA 2.5, IELTS 6.0/TOEFL 80, tuition-free claims in current_data",
+              "corrected_value": "UNVERIFIABLE on this specific page (admission criteria mentioned only as being on linked subpages not fetched)",
+              "evidence": "Page confirms 120 ECTS / 2-year duration and general module themes only"
+            }
+          ],
+          "additional_info_found": "Program structure confirmed: 120 ECTS, 2-year (4-semester) program, English-taught, consisting of lectures, seminars, lab courses, a research group project, and a thesis. ATHENA double-degree partnership referenced via a ZEW/ATHENA event link.",
+          "notes": "This is the most concerning entry: the source page itself warns it is outdated/being replaced, meaning current_data (allegedly sourced from this very page) may have been built from a stale or soon-to-be-removed page. Strongly recommend finding and re-verifying against the university's current (uni-siegen.de) replacement page for this program before relying on any of current_data's specific figures (GPA cutoff, tuition-free status, English test scores, module names)."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Institute of Microelectronics and Analogue Circuit Design & Chair of Computer Engineering",
@@ -4729,7 +5134,7 @@ const DATABASE = {
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4201/"
       },
       "official_website_data": {
-        "official_source_url": "https://www.rwu.de/en/study/degree-programs/electrical-engineering-and-embedded-systems",
+        "official_source_url": "https://www.rwu.de/en/study/courses/electrical-engineering-and-embedded-systems",
         "total_ects": 90,
         "standard_duration": "3 semesters full-time",
         "faculty_institute": "Faculty of Electrical Engineering and Computer Science",
@@ -4764,7 +5169,39 @@ const DATABASE = {
         "exact_admission_regulations": "Bachelor degree in Electrical Engineering, Computer Engineering, or Mechatronics (210 ECTS standard; 180 ECTS holders admit with bridging condition).",
         "gpa_conversion_benchmark": "German GPA 2.5 or better benchmark.",
         "language_requirements_verified": "English B2 (IELTS 6.0 / TOEFL iBT 80).",
-        "special_notes_for_bangladesh": "Located in Baden-Württemberg (standard state tuition 1,500 EUR/sem applies for non-EU students). Located near Lake Constance (Bodensee) technology belt (ZF Friedrichshafen, Rolls-Royce Power Systems)."
+        "special_notes_for_bangladesh": "Located in Baden-Württemberg (standard state tuition 1,500 EUR/sem applies for non-EU students). Located near Lake Constance (Bodensee) technology belt (ZF Friedrichshafen, Rolls-Royce Power Systems).",
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "some_corrections",
+          "discrepancies": [
+            {
+              "field": "gpa_conversion_benchmark",
+              "old_value": "German GPA 2.5 or better benchmark",
+              "corrected_value": "CONFIRMED directionally but source is a 2019 flyer (dated): 'final grade of at least 2,5 (German grading)' for Bachelor in Electrical Engineering, Communications Engineering, Automation or Power Engineering — recommend checking the current 2023/2024 Zulassungs-/Auswahlsatzung (admission statute) for exact current wording",
+              "evidence": "RWU 2019 program flyer PDF states grade threshold of 2.5"
+            },
+            {
+              "field": "application_deadline",
+              "old_value": "not specified in current_data",
+              "corrected_value": "15 April for winter-semester intake (program only starts in winter, beginning of September)",
+              "evidence": "RWU official page on study regulations/admission statute"
+            },
+            {
+              "field": "special_notes_for_bangladesh (APS)",
+              "old_value": "not mentioned",
+              "corrected_value": "Applicants from India, China, or Vietnam additionally require an APS certificate (not applicable to Bangladesh per this source, but notable omission)",
+              "evidence": "RWU admissions checklist"
+            },
+            {
+              "field": "total_ects/standard_duration",
+              "old_value": "90 ECTS, 3 semesters full-time",
+              "corrected_value": "CONFIRMED - official page lists regular period of 3 semesters leading to M.Eng., winter-intake only, 30 places",
+              "evidence": "Official RWU program page"
+            }
+          ],
+          "additional_info_found": "Admission documents required include a motivation letter/statement of purpose and passport copy. One (unconfirmed, third-party) aggregator claims proof of VHDL/Verilog knowledge may be required if not shown in transcripts — could not confirm on an official RWU page, flag as possibly relevant but unverified.",
+          "notes": "Tuition fee note in current_data (Baden-Württemberg non-EU fee ~1,500 EUR/semester) is plausible given the state's known non-EU tuition policy but was not directly re-confirmed on the fetched pages in this session (original URL returned 404; a working URL was found via search but not independently re-fetched for exhaustive field-by-field confirmation)."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Department of Electrical Engineering, Weingarten",
@@ -4959,7 +5396,39 @@ const DATABASE = {
         "exact_admission_regulations": "Bachelor in Electrical Engineering, Information Technology, or closely related field (180 or 210 ECTS).",
         "gpa_conversion_benchmark": "German GPA 2.5 or better standard.",
         "language_requirements_verified": "English B2 (IELTS 6.0 / TOEFL iBT 80).",
-        "special_notes_for_bangladesh": "Tuition-free public university in Hessen. Zero tuition fees. Darmstadt is known as the \"City of Science\" located inside the Frankfurt Rhine-Main metropolitan area."
+        "special_notes_for_bangladesh": "Tuition-free public university in Hessen. Zero tuition fees. Darmstadt is known as the \"City of Science\" located inside the Frankfurt Rhine-Main metropolitan area.",
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "some_corrections",
+          "discrepancies": [
+            {
+              "field": "total_ects",
+              "old_value": "120",
+              "corrected_value": "UNVERIFIABLE - not explicitly stated on the live page content fetched",
+              "evidence": "Page text did not state ECTS total directly"
+            },
+            {
+              "field": "standard_duration",
+              "old_value": "4 semesters full-time (international track with internship)",
+              "corrected_value": "Likely CONFIRMED (4 semesters) - inferred only from an accreditation certificate filename containing '4-sem'; not explicitly stated in visible body text",
+              "evidence": "Linked accreditation PDF filename suggests 4-sem program"
+            },
+            {
+              "field": "application_deadline",
+              "old_value": "not specified",
+              "corrected_value": "Page states 'Apply in December for the winter semester 2027/2028' - no exact day given",
+              "evidence": "Direct page text"
+            },
+            {
+              "field": "curriculum_majors",
+              "old_value": "current_data frames this as EMIC-focused only",
+              "corrected_value": "CORRECTED - page lists FOUR majors available: Automation, Communication, Embedded, and Power (EMIC/Embedded is just one of four tracks, not the sole focus)",
+              "evidence": "Page explicitly lists four majors"
+            }
+          ],
+          "additional_info_found": "Program is noted as ~50% industry-based (internship + master thesis conducted in industry), with >80% student completion/success rate cited on the page. Contact: Department of Electrical Engineering, Birkenweg 8, 64295 Darmstadt; email master.fbe@h-da.de; central phone +49.6151.533-5000; Student Service Center +49.6151.533-5551. A separate 'Tuition & Fees' page is linked but was not independently fetched.",
+          "notes": "current_data's detailed module breakdown (CMOS Analog Circuits, Mixed-Signal IC Design, etc.) appears to represent only the 'Embedded/EMIC' major out of four available majors — this is a potentially misleading framing since applicants could also choose Automation, Communication, or Power tracks. GPA and IELTS/TOEFL figures in current_data remain UNVERIFIABLE from the fetched content."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "MSE Steering Committee, Department of Electrical Engineering",
@@ -5143,7 +5612,33 @@ const DATABASE = {
         "exact_admission_regulations": "Bachelor in Electrical Engineering, Computer Engineering, or related discipline (180 ECTS). GRE General Test recommended but not mandatory. 2 recommendation letters required.",
         "gpa_conversion_benchmark": "Department guidelines state GPA benchmark of 3.5/4.0, but candidates with relevant hardware/SoC experience and solid recommendation letters are reviewed holistically.",
         "language_requirements_verified": "English B2 (IELTS 6.0 / TOEFL iBT 80).",
-        "special_notes_for_bangladesh": "Tuition-free public research university. Kaiserslautern hosts the German Research Center for Artificial Intelligence (DFKI) and Fraunhofer ITWM."
+        "special_notes_for_bangladesh": "Tuition-free public research university. Kaiserslautern hosts the German Research Center for Artificial Intelligence (DFKI) and Fraunhofer ITWM.",
+        "verification": {
+          "verified_on": "2026-11-07",
+          "status": "some_corrections",
+          "discrepancies": [
+            {
+              "field": "gpa_conversion_benchmark",
+              "old_value": "Department guidelines state GPA benchmark of 3.5/4.0, but candidates reviewed holistically",
+              "corrected_value": "CONFIRMED - official admission subpage states: 'The bachelor grade shall be not lower than a CGPA of 3.5/4 or equivalent.'",
+              "evidence": "eit.rptu.de/en/esy/admission page text"
+            },
+            {
+              "field": "gre_requirement",
+              "old_value": "GRE General Test recommended but not mandatory",
+              "corrected_value": "UNVERIFIABLE - GRE not mentioned at all on the admission subpage fetched",
+              "evidence": "Admission page text contains no reference to GRE"
+            },
+            {
+              "field": "language_requirements_verified / application_deadline / tuition",
+              "old_value": "IELTS 6.0/TOEFL 80 etc.",
+              "corrected_value": "UNVERIFIABLE - not present on the admission subpage fetched (likely on separate 'Curriculum' or 'International Applicants' pages)",
+              "evidence": "Page only confirmed the GPA cutoff; no English test or deadline info present"
+            }
+          ],
+          "additional_info_found": "Program advisor: Prof. Dr. Wolfgang Kunz. Site structure includes separate Program overview, Teaching staff, Curriculum, and Teaching areas pages, plus an 'Advice & Contact' section, none of which were directly fetched for full module/deadline detail in this pass.",
+          "notes": "The GPA cutoff of 3.5/4.0 (roughly equivalent to German 2.5-ish or stricter, depending on conversion scale) is now CONFIRMED directly from the official admission page, which is a meaningful validation of current_data's figure. However, GRE/recommendation-letter claims could not be confirmed or denied from the pages fetched and should be treated as unverified rather than disproven."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Design of Cyber-Physical Systems (Prof. Dr. Christoph Grimm) & Electronic Design Automation (Prof. Dr. Wolfgang Kunz)",
