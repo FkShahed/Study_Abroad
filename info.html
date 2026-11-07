@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APS · GPA · Funding Info</title>
+<style>
+:root{
+  --bg:#0f1420; --panel:#161d2e; --panel2:#1d2639; --border:#2a3550;
+  --text:#e8ecf5; --muted:#9aa7c2; --accent:#5b8cff;
+  --radius:14px;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --bg:#f4f6fb; --panel:#ffffff; --panel2:#eef1f8; --border:#dde3f0;
+    --text:#1b2333; --muted:#5b6782; --accent:#355fd6;
+  }
+}
+:root[data-theme="light"]{
+  --bg:#f4f6fb; --panel:#ffffff; --panel2:#eef1f8; --border:#dde3f0;
+  --text:#1b2333; --muted:#5b6782; --accent:#355fd6;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;}
+.container{max-width:760px;margin:0 auto;padding:26px 20px 60px;}
+.back{color:var(--accent);text-decoration:none;font-size:.88rem;}
+h1{font-size:1.4rem;margin:16px 0;}
+.section{margin-top:32px;}
+.section h2{font-size:1.1rem;border-bottom:1px solid var(--border);padding-bottom:8px;}
+.info-card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;margin-bottom:12px;font-size:.88rem;line-height:1.65;}
+.info-card b{color:var(--accent);}
+.fund-row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:9px 0;border-bottom:1px solid var(--border);}
+.fund-row:last-child{border-bottom:none;}
+.relevance{font-size:.72rem;padding:3px 9px;border-radius:10px;background:var(--panel2);white-space:nowrap;}
+.themebtn{position:fixed;top:16px;right:16px;background:var(--panel);border:1px solid var(--border);color:var(--text);padding:6px 12px;border-radius:20px;font-size:.78rem;cursor:pointer;}
+</style>
+</head>
+<body>
+<button class="themebtn" onclick="toggleTheme()">🌓</button>
+<div class="container">
+  <a class="back" href="index.html">← প্রোগ্রাম লিস্টে ফিরে যাও</a>
+  <h1>📄 APS, GPA Conversion, uni-assist, ফান্ডিং — বিস্তারিত তথ্য</h1>
+
+  <div class="section">
+    <h2>APS Certificate (ডকুমেন্ট ভেরিফিকেশন)</h2>
+    <div class="info-card" id="apsBox"></div>
+  </div>
+
+  <div class="section">
+    <h2>🎓 তোমার CGPA 2.8/4.0 নিয়ে বিশ্লেষণ</h2>
+    <div class="info-card" id="gpaBox"></div>
+  </div>
+
+  <div class="section">
+    <h2>🧾 uni-assist — অ্যাপ্লিকেশন প্রসেসিং পোর্টাল</h2>
+    <div class="info-card" id="uniAssistBox"></div>
+  </div>
+
+  <div class="section">
+    <h2>💰 ফান্ডিং / স্কলারশিপ অপশন</h2>
+    <div class="info-card" id="fundingBox"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+function toggleTheme(){
+  const html=document.documentElement;
+  html.setAttribute('data-theme', html.getAttribute('data-theme')==='light'?'dark':'light');
+}
+const a = DATA.aps_info;
+document.getElementById('apsBox').innerHTML = `
+  <p>${a.overview}</p>
+  <p><b>বাংলাদেশের জন্য স্ট্যাটাস:</b> ${a.bangladesh_status}</p>
+  <p><b>⚠️ Action দরকার:</b> ${a.recommendation}</p>
+  <p><b>NSU accreditation:</b> ${a.nsu_accreditation}</p>
+  <p><b>খরচ (যদি লাগে):</b> ${a.cost_estimate}</p>
+`;
+const g = DATA.gpa_conversion_info;
+document.getElementById('gpaBox').innerHTML = `
+  <p><b>তোমার CGPA:</b> ${g.candidate_gpa}</p>
+  <p><b>জার্মান স্কেলে:</b> ${g.german_scale_approx}</p>
+  <p><b>Pattern:</b> ${g.pattern}</p>
+  <p><b>More lenient pathways:</b> ${g.more_lenient_paths}</p>
+  <p><b>সবচেয়ে কম সম্ভাবনা:</b> ${g.weakest_fit}</p>
+  <p><b>🎯 স্ট্র্যাটেজি:</b> ${g.strategic_recommendation}</p>
+`;
+const u = DATA.uni_assist_info;
+document.getElementById('uniAssistBox').innerHTML = `
+  <p>${u.what}</p>
+  <p><b>ফি:</b> ${u.fee}</p>
+  <p><b>প্রসেস:</b> ${u.process}</p>
+  <p><b>নোট:</b> ${u.not_universal}</p>
+`;
+document.getElementById('fundingBox').innerHTML = DATA.funding_options.map(f=>`
+  <div class="fund-row">
+    <div><b>${f.name}</b><br><span style="color:var(--muted);font-size:.84rem;">${f.note}</span></div>
+    <div class="relevance">${f.relevance}</div>
+  </div>
+`).join("");
+</script>
+</body>
+</html>

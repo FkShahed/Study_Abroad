@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Program Details</title>
+<style>
+:root{
+  --bg:#0f1420; --panel:#161d2e; --panel2:#1d2639; --border:#2a3550;
+  --text:#e8ecf5; --muted:#9aa7c2; --accent:#5b8cff;
+  --good:#7ee3b8; --warn:#f5b942; --bad:#f06464;
+  --radius:14px;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --bg:#f4f6fb; --panel:#ffffff; --panel2:#eef1f8; --border:#dde3f0;
+    --text:#1b2333; --muted:#5b6782; --accent:#355fd6;
+  }
+}
+:root[data-theme="light"]{
+  --bg:#f4f6fb; --panel:#ffffff; --panel2:#eef1f8; --border:#dde3f0;
+  --text:#1b2333; --muted:#5b6782; --accent:#355fd6;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;}
+.container{max-width:760px;margin:0 auto;padding:26px 20px 60px;}
+.back{color:var(--accent);text-decoration:none;font-size:.88rem;}
+.uni{color:var(--accent);font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:.02em;margin-top:18px;}
+h1{font-size:1.4rem;margin:4px 0 14px;}
+.tags{display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap;}
+.tag{font-size:.72rem;padding:4px 11px;border-radius:12px;font-weight:700;}
+.tier-A{background:rgba(126,227,184,.15);color:var(--good);}
+.tier-B{background:rgba(245,185,66,.15);color:var(--warn);}
+.tier-C{background:rgba(154,167,194,.15);color:var(--muted);}
+.fit-good{background:rgba(126,227,184,.18);color:var(--good);}
+.fit-moderate,.fit-borderline{background:rgba(245,185,66,.18);color:var(--warn);}
+.fit-risky,.fit-weak{background:rgba(240,100,100,.18);color:var(--bad);}
+.fit-unknown,.fit-unclear{background:rgba(154,167,194,.18);color:var(--muted);}
+.grid-info{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:20px;}
+.info-item{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:10px 12px;}
+.info-item b{display:block;color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:3px;font-weight:700;}
+.note{background:var(--panel2);border-left:3px solid var(--accent);padding:12px 14px;border-radius:8px;font-size:.88rem;line-height:1.6;margin-bottom:14px;}
+.note.fit{border-left-color:var(--warn);}
+.note b{color:var(--accent);}
+.src{font-size:.82rem;margin-top:16px;word-break:break-all;}
+.src a{color:var(--accent);}
+.themebtn{position:fixed;top:16px;right:16px;background:var(--panel);border:1px solid var(--border);color:var(--text);padding:6px 12px;border-radius:20px;font-size:.78rem;cursor:pointer;}
+</style>
+</head>
+<body>
+<button class="themebtn" onclick="toggleTheme()">🌓</button>
+<div class="container" id="root">লোড হচ্ছে...</div>
+
+<script src="data.js"></script>
+<script>
+function toggleTheme(){
+  const html=document.documentElement;
+  html.setAttribute('data-theme', html.getAttribute('data-theme')==='light'?'dark':'light');
+}
+const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate",borderline:"🟡 Borderline",risky:"🟠 Risky",weak:"🔴 Weak fit",unknown:"⚪ অজানা",unclear:"⚪ Unclear"};
+
+const params = new URLSearchParams(location.search);
+const idx = parseInt(params.get('i'), 10);
+const p = DATA.programs[idx];
+
+if(!p){
+  document.getElementById('root').innerHTML = `<a class="back" href="index.html">← লিস্টে ফিরে যাও</a><p>প্রোগ্রাম পাওয়া যায়নি।</p>`;
+} else {
+  const fit = p.gpa_fit || "unknown";
+  document.getElementById('root').innerHTML = `
+    <a class="back" href="index.html">← লিস্টে ফিরে যাও</a>
+    <div class="uni">${p.university}</div>
+    <h1>${p.program_name}</h1>
+    <div class="tags">
+      <span class="tag tier-${p.tier}">Tier ${p.tier}</span>
+      <span class="tag fit-${fit}">${fitLabel[fit]||fit}</span>
+    </div>
+    <div class="grid-info">
+      <div class="info-item"><b>Degree</b>${p.degree_type} · ${p.duration}</div>
+      <div class="info-item"><b>ভাষা</b>${p.language}</div>
+      <div class="info-item"><b>টিউশন</b>${p.tuition}</div>
+      <div class="info-item"><b>Winter Deadline</b>${p.deadline_winter}</div>
+      <div class="info-item"><b>Summer Deadline</b>${p.deadline_summer}</div>
+      <div class="info-item"><b>IELTS</b>${p.ielts}</div>
+      <div class="info-item"><b>TOEFL</b>${p.toefl}</div>
+      <div class="info-item"><b>GRE/GMAT</b>${p.gre}</div>
+      <div class="info-item"><b>German ভাষা দরকার?</b>${p.german_req}</div>
+      <div class="info-item"><b>APS দরকার?</b>${p.aps}</div>
+      <div class="info-item"><b>Min GPA</b>${p.min_gpa}</div>
+      <div class="info-item"><b>Work Exp</b>${p.work_exp}</div>
+      <div class="info-item"><b>Department</b>${p.department}</div>
+    </div>
+    <div class="note fit"><b>GPA Fit নোট:</b> ${p.gpa_fit_note}</div>
+    <div class="note"><b>সামারি:</b> ${p.note}</div>
+    <div class="note"><b>Prerequisites:</b> ${p.prereqs}</div>
+    <div class="note"><b>Tuition notes:</b> ${p.tuition_notes}</div>
+    <div class="src">🔗 <a href="${p.source}" target="_blank" rel="noopener">${p.source}</a></div>
+  `;
+}
+</script>
+</body>
+</html>
