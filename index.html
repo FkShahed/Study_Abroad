@@ -107,6 +107,21 @@ footer{text-align:center;color:var(--muted);font-size:.76rem;padding:26px 20px;}
       </select>
     </div>
     <div class="field">
+      <label>Subject</label>
+      <select id="subjectFilter">
+        <option value="">সব Subject</option>
+        <option value="vlsi">VLSI / Microelectronics / Chip Design</option>
+        <option value="embedded">Embedded Systems</option>
+        <option value="eeit">Electrical Engineering (general)</option>
+        <option value="computer">Computer Engineering</option>
+        <option value="comms">Communications / Signal Processing</option>
+        <option value="mechatronics">Mechatronics / Robotics / Automation</option>
+        <option value="energy">Energy / Power Systems</option>
+        <option value="management">Engineering & Management / Business</option>
+        <option value="other">Other / Adjacent</option>
+      </select>
+    </div>
+    <div class="field">
       <label>ভাষা</label>
       <select id="langFilter">
         <option value="">সব</option>
@@ -214,6 +229,18 @@ function langCategory(p){
   if(l.includes("mix") || l.includes("german")) return "mixed";
   return "english";
 }
+function subjectCategory(p){
+  const t=((p.program_name||"")+" "+(p.department||"")).toLowerCase();
+  if(/vlsi|microelectronic|nanoelectronic|chip design|integrated circuit|semiconductor|nanosystem|nanotech/.test(t)) return "vlsi";
+  if(/embedded/.test(t)) return "embedded";
+  if(/computer engineering/.test(t)) return "computer";
+  if(/communication|signal processing|photonics|optoelectronic/.test(t)) return "comms";
+  if(/mechatronic|robot|automation|autonomous/.test(t)) return "mechatronics";
+  if(/energy|power (engineering|electronics|systems)|renewable|battery|electric(al)? (vehicle|propulsion)/.test(t)) return "energy";
+  if(/management|business|mba|administration|logistics/.test(t)) return "management";
+  if(/electrical engineering|information technology|electronics/.test(t)) return "eeit";
+  return "other";
+}
 const fitRank = {good:0,moderate:1,borderline:1,risky:2,weak:3,unknown:4,unclear:4};
 const tierRank = {A:0,B:1,C:2,D:3};
 
@@ -222,6 +249,7 @@ function applyFilters(){
   const tier = document.getElementById('tierFilter').value;
   const fit = document.getElementById('fitFilter').value;
   const tuition = document.getElementById('tuitionFilter').value;
+  const subject = document.getElementById('subjectFilter').value;
   const lang = document.getElementById('langFilter').value;
   const intake = document.getElementById('intakeFilter').value;
   const sortBy = document.getElementById('sortBy').value;
@@ -231,6 +259,7 @@ function applyFilters(){
       if(tier && p.tier!==tier) return false;
       if(fit && p.gpa_fit!==fit) return false;
       if(tuition && tuitionCategory(p)!==tuition) return false;
+      if(subject && subjectCategory(p)!==subject) return false;
       if(lang && langCategory(p)!==lang) return false;
       if(intake==="winter" && !/winter/i.test(p.deadline_winter||"")) return false;
       if(intake==="summer" && !/summer/i.test(p.deadline_winter+" "+(p.deadline_summer||""))) return false;
@@ -245,7 +274,7 @@ function applyFilters(){
   document.getElementById('resultCount').textContent = `${items.length} / ${ALL_ITEMS.length} প্রোগ্রাম (${DATA.programs.length}টা কিউরেটেড + ${DAAD_FULL.length}টা DAAD raw)`;
 }
 
-['searchBox','tierFilter','fitFilter','tuitionFilter','langFilter','intakeFilter','sortBy'].forEach(id=>{
+['searchBox','tierFilter','fitFilter','tuitionFilter','subjectFilter','langFilter','intakeFilter','sortBy'].forEach(id=>{
   document.getElementById(id).addEventListener('input', applyFilters);
   document.getElementById(id).addEventListener('change', applyFilters);
 });
