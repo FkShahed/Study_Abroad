@@ -380,7 +380,7 @@ const DATABASE = {
       "location": "Freiberg",
       "tier": "C",
       "gpa_fit": "good",
-      "gpa_fit_note": "✅ STRONG SEMICONDUCTOR/MATERIALS FIT: EEE solid-state physics foundation matches the Semiconductor Technology track. Admission test replaces strict GPA elimination.",
+      "gpa_fit_note": "✅ STRONG MATCH / ADMISSION VIA TEST: No rigid GPA barrier; admission granted via online Math & Physics test. Semiconductor Technology track directly connects to Silicon Saxony!",
       "overview": {
         "degree_type": "Master of Science",
         "duration": "4 semesters (minimum), full-time",
@@ -399,21 +399,21 @@ const DATABASE = {
         "international_elements": "Not stated on the page"
       },
       "costs_funding": {
-        "tuition": "None",
+        "tuition": "0 EUR (Tuition-free public university)",
         "tuition_notes": "",
-        "semester_fee": "107 EUR (coverage not listed)",
+        "semester_fee": "107 EUR per semester (Lowest in Germany)",
         "cost_of_living": "650 to 950 EUR per month depending on lifestyle; average student hall rent 290 EUR/month",
         "funding": "Deutschlandstipendium: 300 EUR/month for one year for above-average students (also social/family circumstances considered); Study completion grant: 300 EUR/month for three months"
       },
       "requirements_registration": {
-        "deadline_winter": "1 January to 15 April (all countries)",
+        "deadline_winter": "1 January – 15 April (Non-EU)",
         "deadline_summer": "Not found",
-        "submission_portal": "University's online campus portal",
+        "submission_portal": "TU Bergakademie Freiberg Online Portal (Direct Application)",
         "academic_requirements": "Bachelor in Materials Science, Physics, Chemistry, Electrical Engineering, or Engineering Sciences with focus on Materials (min 6 semesters / 180 ECTS). Requires coursework in solid-state physics or solid-state chemistry + successful completion of online Math and Physics test.",
-        "gpa_requirement": "Evaluated via transcript examination and mandatory Online Qualification Test in Math & Physics.",
+        "gpa_requirement": "No rigid numerical cutoff; determined by mandatory online Mathematics and Physics Aptitude Test.",
         "prerequisite_degree": "Materials science, physics, chemistry, electrical engineering, or related engineering",
-        "german_requirement": "No minimum level required",
-        "ielts": "IELTS 6.5 (or TOEFL iBT 90).",
+        "german_requirement": "No German required for admission; free German course integrated in semester 1.",
+        "ielts": "IELTS 6.0 - 6.5 / TOEFL iBT 90 (Reading 23, Listening 23, Speaking 22, Writing 22)",
         "toefl": "TOEFL iBT (before 2026): 90 total (Reading 23, Listening 23, Speaking 22, Writing 22)",
         "other_english_tests": "Not listed (IELTS, PTE, Cambridge not specified). B2 level required overall.",
         "gre": "Not required",
@@ -436,42 +436,102 @@ const DATABASE = {
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5403/"
       },
       "official_website_data": {
-        "official_source_url": "https://tu-freiberg.de/en/ama/first-year",
+        "official_source_url": "https://tu-freiberg.de/en/study/master/advanced-materials-analysis",
+        "official_spo_pdf": "https://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-werkstoffwissenschaft-und-werkstofftechnologie-5/Dokumente/AMA_PO.pdf",
+        "degree_awarded": "Master of Science (M.Sc.)",
         "total_ects": 120,
         "standard_duration": "4 semesters full-time",
-        "faculty_institute": "Faculty of Materials Science and Technology & Institute of Applied Physics",
-        "curriculum_structure": "Core Foundation (Sem 1) -> Specialization Stream A/B (Sem 2-3) -> Research Project (Sem 3) -> Master Thesis (Sem 4, 30 ECTS)",
-        "official_modules_breakdown": [
-          {
-            "category": "Foundation (Sem 1)",
-            "modules": [
-              "Atomic and Solid State Physics",
-              "Quantum Theory I",
-              "Functional Nanomaterials",
-              "Materials Characterization Basics"
-            ]
-          },
-          {
-            "category": "Semiconductor Technology Track (Sem 2-3)",
-            "modules": [
-              "Semiconductor Process Technology & Fabrication",
-              "Device Physics of Electronic & Optoelectronic Components",
-              "Electrical & Optical Characterization of Semiconductors"
-            ]
-          },
-          {
-            "category": "Solid State Analytics Track",
-            "modules": [
-              "Electron Microscopy & Microanalysis",
-              "Synchrotron Radiation & Diffraction Techniques",
-              "Spectroscopic Analysis"
-            ]
-          }
-        ],
-        "exact_admission_regulations": "Bachelor in Materials Science, Physics, Chemistry, Electrical Engineering, or related discipline with solid-state focus. Includes an online subject qualification test in Mathematics and Physics.",
-        "gpa_conversion_benchmark": "No explicit GPA cutoff mentioned; admission is determined by online aptitude test and transcript course alignment.",
-        "language_requirements_verified": "TOEFL iBT 90 or IELTS 6.5 (CEFR B2+ level).",
-        "special_notes_for_bangladesh": "No APS required. Freiberg is situated in the heart of Silicon Saxony (between Dresden and Chemnitz), making it an elite semiconductor materials launchpad."
+        "intake_semester": "Winter semester (Summer semester only possible for applicants with German C1 proficiency)",
+        "teaching_language": "100% English",
+        "faculty_institute": "Faculty of Materials Science and Technology & Institute of Applied Physics, TU Bergakademie Freiberg",
+        "admission_eligibility": {
+          "qualifying_degree": "Bachelor of Science or Bachelor of Engineering (at least 6 semesters / 180 ECTS equivalent) in Physics, Materials Science, Chemistry, Electrical Engineering, or related engineering discipline with solid-state focus.",
+          "undergraduate_ects": "Minimum 180 ECTS from undergraduate studies.",
+          "minimum_gpa_cutoff": "NO HARD NUMERICAL GPA CUTOFF. Admission is determined through the official Qualification Assessment Procedure (Qualifikationsfeststellungsverfahren) via an online entrance test.",
+          "subject_prerequisites": "Core background in hard condensed matter physics, solid-state physics, or electronic materials chemistry. Electrical engineering graduates are explicitly recognized.",
+          "work_experience": "Not mandatory; scientific research projects integrated in semester 3 and 4.",
+          "aptitude_test_gre": "MANDATORY ONLINE APTITUDE TEST: All international applicants whose preliminary check is valid must take an online exam in Mathematics and Physics. The test can only be attempted once. Passing this test advances your file to the faculty selection committee; scores determine if bridging modules are needed."
+        },
+        "language_requirements": {
+          "level": "CEFR B2 Level in English",
+          "ielts": "Minimum band score 6.0 overall (6.5 recommended)",
+          "toefl_ibt": "Minimum 90 points overall (Reading 23, Listening 23, Speaking 22, Writing 22)",
+          "pte_academic": "Accepted (equivalent B2 level, approx. 60+)",
+          "cambridge": "Cambridge English B2 First or C1 Advanced",
+          "moi_exemption": "Graduates from fully English-taught bachelor programs from recognized universities can apply for MOI exemption.",
+          "german_language": "No German language certificate required for admission! Integrated German language courses are provided in the first semester for international students."
+        },
+        "application_process": {
+          "portal": "Direct application through TU Bergakademie Freiberg Online Campus Portal (no uni-assist required).",
+          "winter_deadline_non_eu": "1 January to 15 April (strict deadline for international applicants).",
+          "winter_deadline_eu": "1 January to 15 July.",
+          "summer_deadline": "1 January to 15 January (only for applicants with German C1 certificate).",
+          "required_documents": [
+            "Bachelor Degree Certificate & Academic Transcript with Grading Scale",
+            "Proof of English proficiency (TOEFL iBT / IELTS / Cambridge)",
+            "Tabular Curriculum Vitae (CV)",
+            "Letter of Motivation",
+            "Online Aptitude Test completion confirmation (invitation issued upon portal registration)",
+            "Passport copy"
+          ],
+          "aps_certificate": "No APS required for Bangladeshi applicants."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "0 EUR (TU Bergakademie Freiberg is a tuition-free public university in Saxony; no tuition fees for non-EU students).",
+          "tuition_eu": "0 EUR.",
+          "semester_contribution_fee": "Approx. 107 EUR per semester (one of the most economical student union fees in Germany).",
+          "total_cost_per_semester": "107 EUR per semester.",
+          "estimated_cost_of_living": "Approx. 650 to 850 EUR per month (Freiberg is exceptionally affordable; average student hall dormitory rent is ~290 EUR/month including utilities)."
+        },
+        "curriculum_details": {
+          "curriculum_overview": "120 ECTS 4-semester international Master program. Semester 1 establishes interdisciplinary solid-state foundations. In Semester 2, students choose between two high-tech specialization tracks: (A) Solid State Analytics or (B) Semiconductor Technology and Devices. Semester 3 is focused on research projects and advanced modules. Semester 4 is the Master Thesis (30 ECTS).",
+          "module_catalog": [
+            {
+              "pillar": "Semester 1: Mandatory Core Foundations (30 ECTS)",
+              "modules": [
+                "Atomic and Solid State Physics",
+                "Quantum Theory I & Electronic Structure",
+                "Functional Nanomaterials & Optoelectronics",
+                "Basics of Materials Characterization",
+                "Integrated German Language & Intercultural Competence"
+              ]
+            },
+            {
+              "pillar": "Track B: Semiconductor Technology and Devices (Semesters 2 & 3)",
+              "modules": [
+                "Semiconductor Process Technology (Thin-film deposition, lithography, wafer fabrication)",
+                "Device Physics of Electronic and Optoelectronic Components",
+                "Electrical and Optical Characterization of Semiconductors",
+                "Photovoltaic and Power Electronic Device Technologies"
+              ]
+            },
+            {
+              "pillar": "Track A: Solid State Analytics (Semesters 2 & 3)",
+              "modules": [
+                "High-Resolution Transmission Electron Microscopy (HR-TEM) & SEM",
+                "X-Ray Diffraction (XRD) & Synchrotron Radiation Analytics",
+                "Spectroscopic and Microstructural Analysis of Solid Interfaces"
+              ]
+            },
+            {
+              "pillar": "Applied Research & Master Thesis Phase (Semesters 3 & 4)",
+              "modules": [
+                "Research Project Module (10 ECTS) — conducted in cleanroom or physics institutes",
+                "Master Thesis & Defense (30 ECTS) — independent scientific research in collaboration with semiconductor fabs"
+              ]
+            }
+          ]
+        },
+        "practical_ecosystem": {
+          "labs_available": "Institute of Applied Physics Cleanroom, Electron Microscopy Center (TEM/SEM), XRD Diffraction Lab, Thin-Film Deposition & Lithography Facility.",
+          "industry_connections": "Direct bridge into Silicon Saxony wafer fabrication and materials manufacturing: Siltronic AG (Freiberg wafer fab), Freiberger Compound Materials (GaAs/InP wafers), Infineon Dresden, GlobalFoundries, Bosch Semiconductor.",
+          "part_time_work": "Research student (HiWi) positions inside the university materials and physics labs; student jobs in local tech enterprises."
+        },
+        "bangladesh_applicant_fit": {
+          "gpa_verdict": "Good / High Potential via Aptitude Test",
+          "gpa_analysis": "Because Freiberg replaces a hard GPA cutoff with a mandatory Online Aptitude Test in Mathematics and Physics, your 2.8 CGPA is NOT an automatic disqualification! As an NSU EEE graduate with solid engineering math and physics coursework, you can secure admission by scoring well on the online test. Track B (Semiconductor Technology and Devices) aligns closely with semiconductor fabrication, thin-film devices, and solid-state electronics.",
+          "actionable_recommendation": "Apply early between January and March directly on the Freiberg portal. Prepare thoroughly for the online Math & Physics test (calculus, linear algebra, basic mechanics & electromagnetism)."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Institute of Applied Physics & Institute of Materials Science",
