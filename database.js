@@ -217,6 +217,33 @@ const DATABASE = {
           ],
           "additional_info_found": "Page clarifies strict ECTS tiering: below 180 ECTS = not admitted at all (current_data did not mention this hard floor). University entrance qualification (Abitur-equivalent) explicitly required in addition to the bachelor's degree. Other accepted English proofs not fully listed in current_data: Trinity ISE II+ (ISE Digital 80+), TELC B2, KMK III, UNIcert II, or 4+ ECTS English module from a German-taught degree.",
           "notes": "Core admission figures (GPA, ECTS tiers, English test scores) are well confirmed. Tuition fee amount and exact EU/non-EU deadline split could not be verified from the current page content alone - the page notes fees start summer 2026, contradicting current_data's 2025/2026 start claim."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.th-rosenheim.de/en/studies-and-further-education/courses-of-study/masters-degree-programmes/advanced-industrial-engineering",
+            "https://www.th-rosenheim.de/en/studies-and-further-education/before-your-studies/application-admission-and-enrolment-for-a-degree-programme/application-for-a-degree-programme-step-by-step-explained",
+            "https://www.uni-assist.de/en/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned explicitly as 'VPD' on these pages, but uni-assist is mandatory for all applicants with foreign qualifications ('Apply only via uni-assist'); uni-assist's standard process issues a VPD as part of this, so it is implicitly required though the term itself does not appear on TH Rosenheim's own pages.",
+          "application_portal_detail": "International (non-German) qualification holders apply ONLY via uni-assist; German-qualification holders use TH Rosenheim's own HISinOne portal.",
+          "gpa_requirement_verified": "Bachelor's degree equivalent to German grade 2.0 or better; applicants under 180 ECTS not admitted at all; 180-209 ECTS admitted conditionally (must reach 300 ECTS total incl. master's).",
+          "language_requirements_verified": "B2 English: TOEFL iBT/Home Edition 72+, TOEIC 785+, IELTS 6.0+, Cambridge FCE grade C (160+) or CAE B2(160+), TELC B2/B2-C1 University, PTE Academic 60+, Trinity ISE II+ or ISE Digital 80+, KMK III, UNIcert II+, or 4+ ECTS English module in a prior German-taught degree, or Abitur/English-medium degree.",
+          "tuition_and_fees_verified": "Non-EU tuition fees apply starting summer semester 2026 (not confirmed start 2025/26 as in current_data); exact EUR amount not stated on the page itself.",
+          "deadlines_verified": "15-30 April (shown for the 2027 cycle) for winter intake; page does not explicitly split EU vs non-EU deadlines as current_data claimed.",
+          "curriculum_summary": "Not independently re-verified this pass beyond current_data's existing module catalog; no contradicting info found.",
+          "required_documents": "University entrance qualification certificate, Bachelor's degree certificate, transcript/diploma supplement proving ECTS, English B2 proof; applicants with 180-209 ECTS must prove path to 300 total ECTS.",
+          "contact_info": "industrialengineering@th-rosenheim.de (program); studienberatung@th-rosenheim.de (central advisory); Dean of Studies Prof. Dr.-Ing. Andreas Straube; phone +49 8031 805-0.",
+          "newly_found_info": "Confirmed hard floor: under 180 ECTS = not admitted at all. Additional accepted English certificates not in current_data: Trinity ISE II/ISE Digital 80+, TELC B2, KMK III, UNIcert II.",
+          "corrections": [
+            {
+              "field": "tuition_non_eu start date",
+              "old": "effective 2025/2026",
+              "corrected": "effective starting summer semester 2026",
+              "evidence": "Page: 'Tuition fees apply to international students from non-EU countries starting summer semester 2026'"
+            }
+          ],
+          "notes": "VPD term itself not used by TH Rosenheim; uni-assist is mandatory for all foreign-qualification applicants which functionally requires the VPD process."
         }
       },
       "university_deep_info": {
@@ -433,6 +460,38 @@ const DATABASE = {
           ],
           "additional_info_found": "The live tu-chemnitz.de/mb/am/studiengang/ landing page itself is mostly a navigation shell with no admission data inline; actual admission figures live in the 2026 study regulation PDF (AM_study_regulation_2026.pdf) and amendment PDFs (AM_amendment_2022.pdf, AM_amendment_2024.pdf) linked from the site - these should be treated as the authoritative source going forward.",
           "notes": "Could not fetch the official_spo_pdf directly; relied on search-indexed summaries of the 2026 regulation and 2024 amendment. Minor numeric figures (semester fee, application fee, deadline start date) appear to have drifted slightly from current_data's values - may reflect program updates since the AI-collected data was gathered."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.tu-chemnitz.de/mb/am/studiengang/",
+            "https://www.tu-chemnitz.de/mb/am/studiengang/aprocess/aprocess.php"
+          ],
+          "vpd_uni_assist_required": "No. Explicitly NOT via uni-assist: page states 'It is no longer possible to apply for Advanced Manufacturing of TU Chemnitz through Uni-assist.' Application goes through EduApplication (eduapplication.de) instead, so no VPD is involved.",
+          "application_portal_detail": "EduApplication portal (eduapplication.de), application fee 49.95 EUR paid to EduApplication (not uni-assist). Account creation opens 31 March; application window 1 April-15 July.",
+          "gpa_requirement_verified": "No GPA/grade cutoff; admission based on subject-specific minimum ECTS credits (Math 18, Data processing 12, Metrology/control 8, New materials 8, Engineering basics 12, Resource-efficient manufacturing 8).",
+          "language_requirements_verified": "English B2: IELTS 5.5, TOEFL iBT 72 or ITP 543, PTE Academic 59, TOEIC (785 L/R, 160 Speaking, 150 Writing), telc B2, Cambridge PET/FCE B-C, BEC Vantage, ILEC, ICFE, IGCSE B2, UNIcert II, or English-medium degree. German A1 required (Goethe/ÖSD/telc only) - can be submitted later but must be shown at enrollment; A2 required by end of 3rd semester.",
+          "tuition_and_fees_verified": "No tuition fee (public Saxony university); EduApplication application fee 49.95 EUR confirmed (not 39 EUR as one earlier source guessed); separate TUC semester fee amount not stated on this page.",
+          "deadlines_verified": "Account creation opens 31 March; application period 1 April-15 July; winter semester only; evaluation takes ~4 weeks.",
+          "curriculum_summary": "Consistent with current_data's module catalog; no changes found.",
+          "required_documents": "English B2 and German A1 proof explicitly named; a broader 'checklist' is referenced but not itemized on page.",
+          "contact_info": "Academic advisory Mrs. Jutta Göderle (jutta.goederle@...); Reichenhainer Straße 70, Room C24.108, 09126 Chemnitz.",
+          "newly_found_info": "Confirmed explicitly that uni-assist is NO LONGER used for this program - a meaningful correction, since current_data's portal field mentioned only EduApplication without clarifying uni-assist was formerly used/now excluded.",
+          "corrections": [
+            {
+              "field": "application fee",
+              "old": "approx. 49.95 EUR (or 39 EUR per one source)",
+              "corrected": "confirmed 49.95 EUR to EduApplication",
+              "evidence": "Official aprocess page states the fee explicitly as 49,95 EUR"
+            },
+            {
+              "field": "uni-assist usage",
+              "old": "ambiguous/unstated",
+              "corrected": "explicitly NOT usable anymore for this program",
+              "evidence": "'It is no longer possible to apply for Advanced Manufacturing of TU Chemnitz through Uni-assist.'"
+            }
+          ],
+          "notes": "No VPD applicable since uni-assist is excluded for this specific program."
         }
       },
       "university_deep_info": {
@@ -645,6 +704,32 @@ const DATABASE = {
           ],
           "additional_info_found": "No tuition fee confirmed (0 EUR) consistent with current_data. Program aimed at bachelor's graduates in physics, materials science, electrical engineering, or chemistry - consistent with current_data's qualifying_degree field. Winter intake application window of 1 January to 15 April confirmed.",
           "notes": "Original official_source_url is dead (404) - use the corrected URL found via search. Could not directly WebFetch the SPO PDF; relied on search-aggregated official figures. IELTS requirement appears stricter (6.5, not 6.0) than current_data suggested."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://tu-freiberg.de/en/master-advanced-materials-analysis",
+            "https://tu-freiberg.de/en/studies/application-admission"
+          ],
+          "vpd_uni_assist_required": "No mention of uni-assist or VPD for master's applicants on either page; uni-assist is stated to be used only for Bachelor's/Diplom programs. Master's (including this English-language program) appears to use TU Freiberg's own online portal directly.",
+          "application_portal_detail": "Direct online application via TU Freiberg campus portal (campus.tu-freiberg.de); plus a mandatory online qualification assessment test in Mathematics and Physics administered by the university itself (not uni-assist).",
+          "gpa_requirement_verified": "No numeric GPA cutoff stated; admission via qualifications assessment including the online math/physics test.",
+          "language_requirements_verified": "Page shows conflicting TOEFL figures - one section lists an apparent typo 'TOEFL min 4.5/90', another lists TOEFL min 90 (iBT); IELTS minimum 6.5 (not 6.0 as current_data claimed) confirmed consistently in both sections.",
+          "tuition_and_fees_verified": "No tuition for non-EU (confirmed free, Saxony public university); exact semester fee amount not found on these pages (current_data's 107 EUR vs third-party 94 EUR remains unresolved).",
+          "deadlines_verified": "Applications online 1 January-15 April for winter semester (confirmed, matches current_data).",
+          "curriculum_summary": "No new info found beyond current_data's existing track breakdown.",
+          "required_documents": "Bachelor's certificate and transcript (or current transcript if not yet complete), proof of English, qualifications assessment test completion.",
+          "contact_info": "Central Student Advisory: studienberatung@tu-freiberg.de, +49 3731 39-3469; Dr. Dirk Renker (program advice) Dirk.Renker@tu-freiberg.de, +49 3731 39-2443; Dean of Studies Prof. Dr. David Rafaja, rafaja@ww.tu-freiberg.de, +49 3731 39-2299; Admissions Office admission@tu-freiberg.de, +49 3731 39-3912; International Office manuela.junghans@iuz.tu-freiberg.de, +49 3731 39-3241.",
+          "newly_found_info": "Confirmed uni-assist is used ONLY for Bachelor's/Diplom programs at TU Freiberg, not for this (or other) English-taught master's programs - directly relevant since this contradicts an assumption that all German universities funnel international master's applicants through uni-assist/VPD.",
+          "corrections": [
+            {
+              "field": "ielts",
+              "old": "6.0 (recommended 6.5)",
+              "corrected": "6.5 is the stated minimum in both admission sections of the official page",
+              "evidence": "Both 'Admission requirement' and 'Requirements' sections list IELTS 6.5"
+            }
+          ],
+          "notes": "No VPD required for this program; uni-assist is explicitly not used for TUBAF master's programs per the official application-admission page."
         }
       },
       "university_deep_info": {
@@ -852,6 +937,38 @@ const DATABASE = {
           ],
           "additional_info_found": "Program is officially titled as a 'weiterbildender Masterstudiengang' (continuing education master's) per the official May 2025 examination regulations (Studien- und Prüfungsordnung), run jointly with Steinbeis School of Next Practices - this institutional structure detail is useful context not fully spelled out in current_data. There is a separate but similarly-named 'Medical Systems Engineering' M.Sc. at OVGU (different, non-continuing-education program) that should not be confused with this one.",
           "notes": "Original URL is dead; corrected URL found. Given the continuing-education / Steinbeis structure and conflicting fee claims, the tuition figure in current_data should be treated with caution until confirmed directly via ovgu.de/en/-p-143803 or the OVGU International Office."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.ovgu.de/en/-p-143803",
+            "https://www.steinbeis-next.de/master-ai-medical-technologies/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on either the OVGU program page or the Steinbeis-Next application page. The program is run as continuing education via Steinbeis School of Next Practices with its own direct application process ('Apply now' external portal), not via uni-assist.",
+          "application_portal_detail": "Direct application through Steinbeis-Next portal (steinbeis-next.de/de/apply-now-dach), not via uni-assist or OVGU's standard student portal.",
+          "gpa_requirement_verified": "No GPA threshold stated; only degree-field and ECTS-area prerequisites (Math 20/missing≤5, Physics 15/missing≤10, EE-IT-Electronics 20/missing≤5, CS/Programming 10/missing≤5, Anatomy/Physiology 5/missing≤5, total missing ≤25 ECTS) plus mandatory aptitude test by FEIT faculty.",
+          "language_requirements_verified": "Steinbeis-Next page lists DIFFERENT, lower English scores than current_data: IELTS 6.0, PTE 56, TOEFL 80, Duolingo 100, LanguageCert 65, Cambridge Advanced/Proficiency (no score given) - these are lower than current_data's IELTS 6.0-6.5/TOEFL 85.",
+          "tuition_and_fees_verified": "Total tuition confirmed at exactly €23,800 with a 30% scholarship bringing it to €16,660 - matches high end of current_data's range but gives an exact figure rather than a range.",
+          "deadlines_verified": "Conflicting info on the Steinbeis page itself: academic intake October 2026; one scholarship deadline says 30 May 2026, FAQ says 15 October; no single clear deadline confirmed.",
+          "curriculum_summary": "Format is hybrid with first-semester online option; 4 semesters, 120 ECTS; foundation modules listed include Mathematical Foundations, Anatomy for Engineering Students, Basics of Medical Image Science, Intro to Programming, Clinical Aspects in Imaging/Radiation Therapy, Digital Information Processing, Medical Instrumentation, Circuit Technology, Ethics of Medical Applications; no full semester-by-semester breakdown given.",
+          "required_documents": "Updated CV, official copy of university certificate, academic transcript; 1 year professional experience recommended (not strictly required per this page, contradicting current_data's 'mandatory').",
+          "contact_info": "Steinbeis-Next: studentadvisory@steinbeis-next.de, +49 32 221 095 074, partnerships@steinbeis-next.de, Rudower Chaussee 28, 12489 Berlin. OVGU main: +49 391 67-01, Infopoint +49 391 67-12214, Universitätsplatz 2, 39106 Magdeburg.",
+          "newly_found_info": "Exact tuition figures (€23,800 full / €16,660 with 30% scholarship) confirmed. Lower/different English test scores found on Steinbeis page than current_data's figures - a real discrepancy. Work experience appears to be 'recommended' not 'mandatory' per Steinbeis page wording.",
+          "corrections": [
+            {
+              "field": "language_requirements (ielts/toefl/pte)",
+              "old": "IELTS 6.0-6.5, TOEFL 85, PTE 59-65",
+              "corrected": "IELTS 6.0, TOEFL 80, PTE 56 (Steinbeis-Next page); plus Duolingo 100 and LanguageCert 65 not previously listed",
+              "evidence": "Steinbeis-Next master-ai-medical-technologies page explicit score table"
+            },
+            {
+              "field": "work_experience",
+              "old": "MANDATORY minimum 1 year",
+              "corrected": "Recommended, not clearly stated as mandatory on the Steinbeis page",
+              "evidence": "Page 'recommends at least one year of professional experience but does not require it'"
+            }
+          ],
+          "notes": "No VPD/uni-assist found for this program across either source; application is fully through the Steinbeis-Next portal."
         }
       },
       "university_deep_info": {
@@ -1053,6 +1170,33 @@ const DATABASE = {
           ],
           "additional_info_found": "The live THI program page itself (fetched directly) only states: course language English, start of studies Summer & Winter, dual study format - it does not list GPA, ECTS, tuition, or deadlines inline; all such details require consulting the SPO PDFs (hosted at konvens2023.thi.de/fileadmin/.../SPOs_Fakultaet_E/...) or the PRIMUSS application portal and help.thi.de FAQ pages, which current_data's official_spo_pdf link should be re-verified against as the filename/path appears to have moved (now under a 'konvens2023.thi.de' mirror rather than the original thi.de path given in current_data).",
           "notes": "URL is reachable (not dead) but content-sparse. Biggest discrepancy: current_data claims admission is purely 'document-based' with no formal test, but official THI regulations clearly mandate an aptitude test (Eignungsverfahren) - this is a meaningful correction for applicant planning purposes."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.thi.de/en/studies/degree-programmes/ai-engineering-of-autonomous-systems-meng/",
+            "https://help.thi.de/help/de-de/48-masterbewerbung/279-ai",
+            "https://thi.de/en/studies/application/masterapplication-from-abroad"
+          ],
+          "vpd_uni_assist_required": "YES - CONFIRMED EXPLICITLY. THI's own help portal (help.thi.de) states: uni-assist VPD is required if the Bachelor's degree was not obtained in Germany. Applicant submits documents to uni-assist, which issues the VPD, which is then uploaded to the THI PRIMUSS application portal. This directly confirms the type of gap the user flagged for a different Dortmund program and shows THI also requires VPD.",
+          "application_portal_detail": "Always apply online via PRIMUSS portal. For foreign degrees: uni-assist issues VPD first, then VPD is uploaded to PRIMUSS along with proof of English, ECTS documentation, and (for non-EU/EEA) a selection questionnaire.",
+          "gpa_requirement_verified": "No explicit GPA stated on the help page itself, but current_data's citation of the SPO naming a 'good' (2.5) grade threshold via the aptitude test statute appears consistent with THI's general practice; not independently re-confirmed this pass beyond prior verification.",
+          "language_requirements_verified": "English B2 (CEFR) required; accepted test list is linked but no minimum scores stated on the help page (differs from current_data's specific score claims of IELTS 5.5/TOEFL 72, which could not be re-confirmed this pass - treat with some caution).",
+          "tuition_and_fees_verified": "Confirmed: semester fee €82 (all students); non-EU/EEA tuition €1,200/semester (both exactly matching current_data).",
+          "deadlines_verified": "CORRECTED/DETAILED: Summer term - uni-assist recommended by Dec 5, VPD due at THI by Jan 15, online application Oct 15-Jan 15. Winter term - uni-assist recommended by Jun 1, VPD due at THI by Jul 15, online application Apr 1-Jul 15. This is more precise than current_data's single-date ranges and clarifies the uni-assist/VPD-specific sub-deadlines within the main application window.",
+          "curriculum_summary": "Not re-verified this pass; no contradicting info found.",
+          "required_documents": "VPD (if foreign degree), proof of English B2, proof of 210 ECTS or ECTS-shortfall documentation, selection questionnaire (non-EU/EEA). Indian applicants in certain fields need Digital Master Test (dMAT, €150) unless already registered for APS before a cutoff date. Chinese/Indian/Vietnamese applicants need APS before uni-assist.",
+          "contact_info": "General: +49 841 9348-0, info@thi.de, Esplanade 10, 85049 Ingolstadt.",
+          "newly_found_info": "THIS IS THE KEY CONFIRMATION FOR THE USER'S CONCERN: THI's help portal explicitly and unambiguously requires a uni-assist VPD for all non-German-degree applicants to this exact program, with specific sub-deadlines for VPD submission distinct from the main application deadline. Also newly found: APS/dMAT requirements for Chinese/Indian/Vietnamese applicants not in current_data.",
+          "corrections": [
+            {
+              "field": "vpd_requirement clarity",
+              "old": "Mentioned VPD in required_documents list but without clear deadline structure",
+              "corrected": "VPD has its own earlier sub-deadline (e.g., Jul 15 for winter) distinct from online application window (Apr 1-Jul 15), and uni-assist submission is recommended even earlier (Jun 1)",
+              "evidence": "help.thi.de deadline table"
+            }
+          ],
+          "notes": "Strong, explicit confirmation of VPD/uni-assist requirement for this program - directly validates the kind of gap the user is concerned about for other programs."
         }
       },
       "university_deep_info": {
@@ -1205,6 +1349,24 @@ const DATABASE = {
           ],
           "additional_info_found": "Application deadlines not present in current_data were found on the live page: Germany/EU online applicants - 15 July (winter) / 15 January (summer); Non-EU via uni-assist - 31 May (winter) / 30 November (summer). Decisions usually communicated by end of June (winter) or end of January (summer). Students apply under the general 'Mechatronics and Robotics' program and are then assigned to the AI-driven track. Curriculum includes a mandatory 12-week industrial or specialized internship, and both Winter and Summer intake are available (current_data only implicitly assumed standard timing without stating deadlines or dual intake).",
           "notes": "Strong match overall. The one soft spot is the specific numeric English test scores (IELTS 7.0 etc.) which the live page does not display directly - these should be double-checked against the university's linked certificate-acceptance list before relying on them."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.maschinenbau.uni-hannover.de/en/study/degree-programmes/master-programmes/ai-driven-mechatronics-and-robotics (previously verified in current_data)"
+          ],
+          "vpd_uni_assist_required": "Not re-confirmed this pass with a fresh fetch (budget prioritized to new/unverified entries); current_data's own prior verification pass found the live page states non-EU applicants apply via uni-assist by 31 May (winter)/30 November (summer) while EU/Germany applicants use the university's own online system by 15 July (winter)/15 January (summer); VPD specifically was not confirmed as explicitly named on the page in the prior pass.",
+          "application_portal_detail": "Germany/EU: direct online university portal, deadlines 15 July (winter)/15 January (summer). Non-EU: via uni-assist, deadlines 31 May (winter)/30 November (summer) per prior verification pass (this text was cut off before full confirmation).",
+          "gpa_requirement_verified": "No GPA cutoff; admission is credit-based only (Math ≥15 ECTS, Technical Mechanics ≥15 ECTS, EE/Drive Tech ≥20 ECTS, Measurement/Control ≥10 ECTS) - confirmed in prior pass.",
+          "language_requirements_verified": "C1 level required per page, but specific IELTS/TOEFL/PTE numeric scores (7.0/95/76 in current_data) could NOT be confirmed on the official page, which just links out to a general accepted-certificates list.",
+          "tuition_and_fees_verified": "No tuition fees; low semester fee including public transport ticket.",
+          "deadlines_verified": "Germany/EU: 15 July (winter) / 15 January (summer). Non-EU via uni-assist: 31 May (winter) / 30 November (summer) - newly found in prior verification pass, not in original current_data.",
+          "curriculum_summary": "Compulsory: Data-/AI-driven Methods in Engineering, Data-/Learning-Based Control, Robotics I, integrated German language course. Electives: Robotics II, AI I&II, Electrical Machines/Drives, Biomedical Engineering II. Plus 12-week internship + Master Thesis (30 ECTS).",
+          "required_documents": "Not itemized beyond ECTS-area proof.",
+          "contact_info": "Not captured in this pass.",
+          "newly_found_info": "This entry was already deeply verified in a prior pass (visible in current_data's own embedded verification block); no new subpage fetch was performed this round due to redundancy - flagging for the record rather than re-spending budget.",
+          "corrections": [],
+          "notes": "This entry's current_data already contains an embedded prior deep-verification pass with its own discrepancy list; this round did not duplicate that work given time constraints. Recommend a fresh VPD-specific check of the uni-assist non-EU deadline page if the exact VPD requirement needs separate confirmation."
         }
       },
       "university_deep_info": {
@@ -1298,7 +1460,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "3,900 EUR/semester for international students (2,250 EUR/semester for partner-university students e.g. USST)"
         },
-        "exact_admission_regulations": "Official tuition figure notably higher than some aggregator claims of 'tuition-free'"
+        "exact_admission_regulations": "Official tuition figure notably higher than some aggregator claims of 'tuition-free'",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-coburg.de/en/study/master-programs/masters-degree-programs-in-engineering-computer-science/analytical-instruments-measurement-and-sensor-technology/faqs/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned. Applicants apply through the university's own online application portal (PRIMUSS), not uni-assist.",
+          "application_portal_detail": "University's own online application portal (www3.primuss.de).",
+          "gpa_requirement_verified": "No numeric GPA; bachelor's degree in engineering/natural sciences with at least a 'good' or equivalent final grade required.",
+          "language_requirements_verified": "UNIcert II, TOEFL 550 (paper-based), CBTOEFL 213, or IELTS 6.0. TOEFL institution code 7450.",
+          "tuition_and_fees_verified": "International students: €3,900/semester; USST partner students: €2,250/semester; student service fee ~€110/semester (includes semester ticket).",
+          "deadlines_verified": "August 31 (German applicants), June 30 (international applicants); late applications not considered.",
+          "curriculum_summary": "4 semesters; includes ≥3-month practical internship and master's thesis in a company; taught in English; joint program with University of Siena and USST; degree awarded by Coburg.",
+          "required_documents": "Documents not in English/Spanish/Italian/French/German require certified translation; ≥1 year professional practical experience after graduation (or a written plan to fulfill it before graduation) plus a successful interview.",
+          "contact_info": "AIMS office: Coburg University of Applied Sciences, Friedrich-Streib-Str. 2, 96450 Coburg; phone +49-9561-317 605, fax +49-9561-317 230, email aims(at)hs-coburg.de.",
+          "newly_found_info": "Found explicit tuition figures (€3,900/semester international; €2,250 for USST partner students) and the admission interview requirement (phone/Skype) with a ~4-week decision timeline - not previously in current_data. Also found explicit blocked-account estimate of €11,364/year (as of 08/2022, likely outdated).",
+          "corrections": [],
+          "notes": "No VPD/uni-assist requirement found for this program; it uses its own direct application + mandatory interview process instead."
+        }
       }
     },
     {
@@ -1380,7 +1560,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Tuition-free for all nationalities (public German university); ~450 EUR admin/semester fee"
         },
-        "exact_admission_regulations": "3 semesters, 210 ECTS, taught in English; summer semester applications via uni-assist"
+        "exact_admission_regulations": "3 semesters, 210 ECTS, taught in English; summer semester applications via uni-assist",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "web search aggregating uni-assist.de Hof University listing, DAAD brochure, mygermanuniversity, expatrio (official Hof page itself could not be located/fetched - official_source_url in current_data is a placeholder, not a working program page)"
+          ],
+          "vpd_uni_assist_required": "YES per Hof University's own general policy (confirmed via uni-assist's own Hof University listing page): foreign university entrance/degree certificates must be assessed by uni-assist (producing a VPD) before being sent to Hof University, at least 4 weeks before Hof's own application deadline.",
+          "application_portal_detail": "Two-step: uni-assist VPD assessment first (foreign degrees), then separate application to Hof University's own online portal.",
+          "gpa_requirement_verified": "Not confirmed from any source this pass; current_data's official_source_url is non-functional (generic hof-university.com root, not program-specific).",
+          "language_requirements_verified": "One third-party source (Yocket) cites IELTS 6.5+ as a general Hof figure, not confirmed as program-specific.",
+          "tuition_and_fees_verified": "Not confirmed.",
+          "deadlines_verified": "DAAD brochure cites application period Nov 5-Nov 30 for a March 15 (summer semester) start; program runs 3 semesters, English-taught. Not independently confirmed on Hof's own site.",
+          "curriculum_summary": "Not confirmed this pass.",
+          "required_documents": "Not confirmed this pass beyond the uni-assist VPD step.",
+          "contact_info": "Not confirmed this pass.",
+          "newly_found_info": "The 'official_source_url' in current_data (https://www.hof-university.com) is not a working/specific program page - this itself is a significant gap requiring a new URL. Found via uni-assist.de that Hof requires VPD at least 4 weeks before its own deadline, which is a useful specific lead time figure not in current_data.",
+          "corrections": [
+            {
+              "field": "official_source_url",
+              "old": "https://www.hof-university.com (not program-specific)",
+              "corrected": "Needs a working direct program URL - could not be located this pass; suggest searching hof-university.com site search for 'Artificial Intelligence and Robotics'",
+              "evidence": "Root domain given does not resolve to the specific program"
+            }
+          ],
+          "notes": "STILL UNRESOLVED: could not reach the actual official program page for this entry (URL in current_data is just the university homepage, not fetchable as a specific program page). Recommend manual lookup of the correct Hof University program URL in a follow-up pass."
+        }
       }
     },
     {
@@ -1462,7 +1667,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fees; ~285 EUR/semester contribution"
         },
-        "exact_admission_regulations": "Official RPTU page located but detailed requirements not directly confirmed via fetch"
+        "exact_admission_regulations": "Official RPTU page located but detailed requirements not directly confirmed via fetch",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://rptu.de/studienangebot/22925/Automation_%26_Control_(A%26C)-Elektrotechnik_und_Informationstechnik-master?lang=en"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on the main program page; the page explicitly separates 'Apply with a German qualification' from 'Apply with a foreign qualification' (via a dedicated RPTU international admission page), implying standard foreign-qualification handling but VPD is not named directly on this page.",
+          "application_portal_detail": "Two routes: German qualification -> studium.rptu.de; Foreign qualification -> rptu.de/international/master/prospective-students/application-admission.",
+          "gpa_requirement_verified": "Not stated on page; admission is 'not restricted' (not zulassungsbeschränkt) and no aptitude test is required.",
+          "language_requirements_verified": "Sufficient English proficiency required; specific test/score not given on this page (links out to a dedicated language-requirements page).",
+          "tuition_and_fees_verified": "Not stated on this page.",
+          "deadlines_verified": "Not stated on this page (links to a 'Termine'/dates page for exact deadlines).",
+          "curriculum_summary": "4 semesters, 120 ECTS, full-time, on-campus, English-taught. Two specializations: Real-Time Control Systems (RCS) and Connected Automation Systems (CAS). Links to Modulhandbuch and Studienverlaufspläne for details.",
+          "required_documents": "Not listed on this page.",
+          "contact_info": "Master Office EIT, Dr.-Ing. Christian De Schryver, eit-applymsc@rptu.de, +49 631 205 3530; StudierendenServiceCenter Kaiserslautern, 0631 205 5252, ssc-kl@rptu.de.",
+          "newly_found_info": "Confirmed explicitly that this program has NO admission restriction and NO aptitude test - a positive, previously-unconfirmed detail for applicant planning.",
+          "corrections": [],
+          "notes": "This program's main page is mostly a navigation hub; the dedicated foreign-qualification application subpage (rptu.de/international/master/prospective-students/application-admission) should be fetched in a follow-up pass to confirm/deny VPD/uni-assist use definitively - this was not reached this round due to time constraints."
+        }
       }
     },
     {
@@ -1597,6 +1820,24 @@ const DATABASE = {
           ],
           "additional_info_found": "Degree field requirement specified as electrical engineering or related fields specifically (current_data broadened this to include Automation, Computer Science, Mechatronics as well - the official DAAD wording leans more narrowly toward EE/related, worth double-checking exact program-specific wording). A dedicated part-time variant of the program exists (\"Automation & IT (Master's Program) - How to Apply (part-time)\") not mentioned in current_data.",
           "notes": "Original official_source_url is dead (404); TH Köln appears to have restructured its site/URLs for this program. The GPA and IELTS figures in current_data check out against DAAD and university documentation found via search, but the exact live overview page could not be directly re-fetched - recommend using the apply sub-page found or searching th-koeln.de for the current canonical URL."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.th-koeln.de/en/academics/automation--it-master--how-to-apply_6812.php"
+          ],
+          "vpd_uni_assist_required": "uni-assist is required ONLY for international applicants whose first-cycle degree is from a non-German university (via uni-assist document review page linked on-site); German applicants/German-degree holders use CaMS instead. The specific term 'VPD' does not appear on the page, but the uni-assist document-review process is explicitly named and linked as its own subpage.",
+          "application_portal_detail": "German/German-degree applicants: CaMS portal (early May-31 May). International (non-German-degree) applicants: uni-assist (early March-30 April).",
+          "gpa_requirement_verified": "No minimum grade stated; aptitude judged on final undergraduate grade, degree suitability, and a mandatory 2-page English motivation letter (applications without it are not considered).",
+          "language_requirements_verified": "TOEFL: paper-based 550, computer-based 213, internet-based 80 (for tests before Jan 21 2026) or 4.0 (tests from that date - likely a new TOEFL scoring scale); IELTS 6.0.",
+          "tuition_and_fees_verified": "Not stated on this page.",
+          "deadlines_verified": "CaMS (German/German-degree): early May-31 May 2026. uni-assist (international): early March-30 April 2026. Advanced semester summer: mid-Feb-15 March. Advanced semester winter: mid-Aug-15 Sept. Decisions usually sent by late July.",
+          "curriculum_summary": "Not detailed on this page.",
+          "required_documents": "Mandatory 2-page English motivation letter; university degree (Diplom or Bachelor's) or proof of graduation before program start; other documents listed in CaMS portal itself.",
+          "contact_info": "Office of Student and Examination Services, Gummersbach Campus: +49 2261-8196-6840, studium-gm@th-koeln.de; Dept. of International Affairs, Steinmüllerallee 1, 51643 Gummersbach, Room 1.104: +49 221-8275-2910.",
+          "newly_found_info": "Found a distinctly later TOEFL scoring note ('80 before Jan 21 2026, 4.0 from that date') suggesting ETS's new TOEFL scale change - relevant for applicants planning around this date. Also found the mandatory 2-page motivation letter requirement, not in current_data.",
+          "corrections": [],
+          "notes": "uni-assist is confirmed required for non-German-degree applicants with its own dedicated document-review subpage, though explicit VPD terminology is not used on the page itself."
         }
       },
       "university_deep_info": {
@@ -1737,6 +1978,24 @@ const DATABASE = {
           ],
           "additional_info_found": "Contact email for program-specific questions: AutomationRobotics@tu-dortmund.de. Official resources include a Module Book (2026 edition) and the Examination Regulations (MPO), both as downloadable PDFs linked from the program page, plus a dedicated page section 'Neue Zulassungskriterien' (new admission criteria) and 'Handhabung der APS-Anforderungen' (handling of APS requirements) for international applicants - useful for Bangladeshi applicants since APS handling specifics are referenced but not detailed on the surface page.",
           "notes": "The direct WebFetch of the official_source_url returned only navigational content (not a 404), so admission figures were cross-verified via web search of the official TU Dortmund examination regulations and a related overview page (tu-dortmund.de/en/automation-and-robotics-695/), both confirming current_data's core numbers."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://etit.tu-dortmund.de/studium-und-lehre/studiengaenge/master-automation-and-robotics/"
+          ],
+          "vpd_uni_assist_required": "Not confirmed - the fetched page is mostly curriculum/contact info and does not mention uni-assist or VPD at all; it links to a separate 'Information Application' subpage (for the current WiSe 2025/26 program version) that was not fetched this pass due to time constraints.",
+          "application_portal_detail": "Not confirmed this pass; application details live on a separate 'Information Application' subpage not yet fetched.",
+          "gpa_requirement_verified": "Not confirmed this pass.",
+          "language_requirements_verified": "Not confirmed this pass.",
+          "tuition_and_fees_verified": "Not confirmed this pass.",
+          "deadlines_verified": "Not confirmed this pass.",
+          "curriculum_summary": "Interdisciplinary program contributed to by 5 faculties (EE & IT, Mechanical Engineering, Computer Science, Bio-Chemical Engineering, Mathematics) plus Institut für Roboterforschung (IRF) and Fraunhofer IML. 2026 module book (PDF) and examination regulations (MPO, 11/2025, PDF) referenced. Old PO (2012/2019) expires 30.09.2027.",
+          "required_documents": "Not confirmed this pass.",
+          "contact_info": "Program: Ralf Burda, AutomationRobotics@tu-dortmund.de; Faculty admin: Ulrike Kreckel, +49 231 755-2123, dekanat.etit@tu-dortmund.de.",
+          "newly_found_info": "Found that the examination regulations changed as of Nov 2025 (new MPO), with the old 2012/2019 PO phasing out by Sept 2027 - a timing detail not in current_data.",
+          "corrections": [],
+          "notes": "GAP: Admission/VPD details were NOT found this pass; the dedicated 'Information Application' subpage (linked from this program page, titled for Master AR from WiSe 2025/26) still needs to be fetched in a follow-up pass to determine uni-assist/VPD status definitively."
         }
       },
       "university_deep_info": {
@@ -1892,6 +2151,24 @@ const DATABASE = {
           ],
           "additional_info_found": "Program experienced high application volume ('Ansturm'/'rush') per a TU Chemnitz press release about the new English-language program - may indicate growing competitiveness not reflected in current_data's framing of 'no minimum GPA gate.' Degree-field pathway: the most direct admission route is a TU Chemnitz Bachelor's in Digital Engineering or in Electrical Engineering and Information Technology; other academic backgrounds are assessed case-by-case by the examination board (this nuance was generalized in current_data).",
           "notes": "The direct URL fetch returned sparse navigational content (not 404), so verification relied on search-aggregated official and semi-official sources. The specific IELTS 5.5 figure in current_data is the main point of caution - it is not confirmed on the official page itself, only on third-party sites."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.tu-chemnitz.de/etit/studium/stugang/index.php.en?page=m_at"
+          ],
+          "vpd_uni_assist_required": "uni-assist IS used for winter semester applications (window: early April-15 July) as an alternative/parallel route to TU Chemnitz's own portal (late May-mid September); the page does not mention VPD by name.",
+          "application_portal_detail": "Either via uni-assist (early April-15 July) or TU Chemnitz's own application portal (~late May-mid September) - Student Services page determines which procedure applies per applicant.",
+          "gpa_requirement_verified": "No ECTS or GPA threshold; FAQ states Examination Board assesses each application case by case.",
+          "language_requirements_verified": "German A1 required for enrollment (Goethe/telc/ÖSD; conditional admission possible without it); English B2 or equivalent (certificate of English as medium of instruction accepted). German B2 required by graduation.",
+          "tuition_and_fees_verified": "No tuition stated; semester contribution amount not given on this page; intensive German A1 preparatory course has a fee (registered via International Office).",
+          "deadlines_verified": "uni-assist route: early April-15 July (winter). TU portal route: ~late May-mid September. Provisional enrollment from abroad requires arrival in Chemnitz before 31 March to continue into the following summer semester.",
+          "curriculum_summary": "4 semesters, 120 ECTS, full-time or part-time (12 semesters). Semester 1: Mathematics for Engineering Science, Advanced Linear Control, Learning Dynamical Systems, Autonomous Systems/Robots Modeling and Control. Semesters 2-3: Automation/Robotics/Control electives plus mandatory Project Groups. Semester 4: Master's Thesis.",
+          "required_documents": "Bachelor's degree in EE&IT or Digital Engineering from TU Chemnitz, or equivalent (assessed case by case); transcript accepted for conditional admission if degree not final; German A1 and English B2 certificates.",
+          "contact_info": "Central Student Advisory Service: +49 371 531 55555/-32549/-31690, Room 046, Straße der Nationen 62; Academic Advisor Sven Quinger +49 371 531-24055; Examination Board Chair Prof. John Thomas Horstmann +49 371 531-37114; Dean of Studies Prof. Stefan Streif +49 371 531-31899.",
+          "newly_found_info": "Confirmed dual application routes (uni-assist OR TU portal) with distinct, non-overlapping deadline windows - a useful planning detail not previously captured. Also found full semester-by-semester curriculum breakdown.",
+          "corrections": [],
+          "notes": "No VPD terminology found despite uni-assist being used; functionally uni-assist applicants would still undergo the standard VPD process even if not named on this page."
         }
       },
       "university_deep_info": {
@@ -1985,7 +2262,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Free for non-EU (semester contribution ~300 EUR, includes regional transport ticket)"
         },
-        "exact_admission_regulations": "3-semester MSc; official ika/RWTH pages not directly fetched due to tool limits"
+        "exact_admission_regulations": "3-semester MSc; official ika/RWTH pages not directly fetched due to tool limits",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "web search aggregating fh-aachen.de (different program), gradgermany, expatrio, help.thi.de cross-reference, leverageedu (RWTH IKA program page itself at ika.rwth-aachen.de could not be reached this pass)"
+          ],
+          "vpd_uni_assist_required": "UNCONFIRMED/CONFLICTING - sources disagree. Some third-party aggregators mention uni-assist VPD as a requirement; GradGermany claims applications go directly to RWTH's admissions portal with uni-assist NOT required. No official RWTH page was reached this pass to resolve the conflict.",
+          "application_portal_detail": "Unconfirmed - conflicting claims between direct RWTH portal and uni-assist route.",
+          "gpa_requirement_verified": "Bachelor's degree (minimum 7 semesters) in mechanical or automotive engineering; basic vehicle technology modules required from the bachelor's; portfolio, statement of purpose, and recommendation letters possibly required per one source (unconfirmed officially).",
+          "language_requirements_verified": "Conflicting figures across sources: IELTS 6.0/TOEFL iBT 90 per one source; IELTS 5.5/TOEFL 90 per another. Neither confirmed officially this pass.",
+          "tuition_and_fees_verified": "Not confirmed this pass.",
+          "deadlines_verified": "Conflicting: one source gives 1 Dec-1 March; Expatrio gives summer 15 Jan/winter 1 March; another gives 15 July winter. None confirmed officially.",
+          "curriculum_summary": "Not confirmed this pass.",
+          "required_documents": "Not confirmed this pass.",
+          "contact_info": "Not confirmed this pass.",
+          "newly_found_info": "None confirmed with high confidence; all info this pass comes from conflicting third-party aggregators since the official RWTH IKA page (ika.rwth-aachen.de) could not be reached/fetched.",
+          "corrections": [],
+          "notes": "STILL UNRESOLVED/UNREACHABLE: current_data's official_source_url (ika.rwth-aachen.de) was not successfully fetched this pass (noted in current_data itself as 'not directly fetched'). This program needs a dedicated follow-up fetch of the actual RWTH IKA/Faculty admissions page to resolve VPD status, language scores, and deadlines with confidence."
+        }
       }
     },
     {
@@ -2067,7 +2362,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Free for EU/German students; ~500 EUR/semester for third-country students (older figure of 1,200 EUR/semester unconfirmed)"
         },
-        "exact_admission_regulations": "3 semesters per THI's own page (one aggregator incorrectly states 18 months); capacity ~30 students/year"
+        "exact_admission_regulations": "3 semesters per THI's own page (one aggregator incorrectly states 18 months); capacity ~30 students/year",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://thi.de/en/studies/degree-programmes/details/automotive-production-engineering-meng"
+          ],
+          "vpd_uni_assist_required": "YES - explicitly confirmed. Page states: 'apply directly to THI via the uni-assist application portal for international applicants' and explicitly requires a VPD (written interchangeably as 'VPD'/'VDP' on the page) from uni-assist, which carries its own processing fee. uni-assist only checks certain documents; it does not grant admission itself.",
+          "application_portal_detail": "International applicants: uni-assist (producing VPD) then THI's own portal. Indian applicants in certain fields must also submit the Digital Master Test (dMAT, €150) results.",
+          "gpa_requirement_verified": "No minimum grade published; required average mark and waiting time are not fixed in advance and depend on applicant numbers/capacity each cycle. Admission is not formally restricted.",
+          "language_requirements_verified": "B2-level English required at program start; the page names no specific accepted tests or minimum scores.",
+          "tuition_and_fees_verified": "€1,200/semester for non-EU/EEC applicants (confirmed, matches current_data).",
+          "deadlines_verified": "Application period for summer semester 2027: 15 Oct 2026-15 Jan 2027 (program is summer-intake, differs in exact dates from current_data which did not specify summer-start dates this precisely).",
+          "curriculum_summary": "3 semesters, 90 ECTS. Sem 1: Engineering Processes in Automotive Industry, Production and Logistics Networks, Advanced Manufacturing Technologies, Cost Engineering & Risk Management, Scientific Research Seminar, Elective (5 ECTS each). Sem 2: Automation and Equipment Technologies, Technology Development & Innovation Management, Digital Technologies in Engineering, Production System & Plant Design, Group Project, Elective (5 ECTS each). Sem 3: Master's thesis (30 ECTS).",
+          "required_documents": "Bachelor's/Diplom in Engineering or Science (≥210 credit points) or equivalent foreign degree; for third-country applicants: degree assessment, curriculum analysis, practical experience evaluation.",
+          "contact_info": "Programme director Prof. Dr. Bernhard Axmann, Bernhard.Axmann@thi.de, +49 841 9348-3505, Room N108; admission questions info@thi.de; general +49 841 9348-0, Esplanade 10, 85049 Ingolstadt.",
+          "newly_found_info": "VPD requirement explicitly confirmed with its own fee. dMAT requirement for certain Indian applicants (€150) newly found. Full semester-by-semester curriculum breakdown found.",
+          "corrections": [
+            {
+              "field": "vpd requirement",
+              "old": "Not previously documented for this program",
+              "corrected": "Explicitly confirmed required for international applicants via uni-assist",
+              "evidence": "'apply directly to THI via the uni-assist application portal for international applicants'; VPD/VDP referenced with its own processing fee"
+            }
+          ],
+          "notes": "Second clear VPD confirmation at a THI program (same university as the user-flagged FH Dortmund miss, though different institution) - reinforces that THI consistently requires VPD across its master's programs for foreign-degree applicants."
+        }
       }
     },
     {
@@ -2149,7 +2469,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "DAAD lists actual tuition: 1,400 EUR one-time registration + 4,900 EUR (sem 1-2) + 3,900 EUR (sem 3); conflicts with general Ostfalia 'no tuition' claim"
         },
-        "exact_admission_regulations": "Free German course offered to ASTP students; 3-semester program"
+        "exact_admission_regulations": "Free German course offered to ASTP students; 3-semester program",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "web search aggregating ostfalia.de admission regulations PDF, Guide_ASTP-application-process_EN.pdf (PDF fetch failed - binary/unreadable), visaflow, gradgermany"
+          ],
+          "vpd_uni_assist_required": "UNCONFIRMED - one source states Master's applications go directly through Ostfalia's own portal (uni-assist mainly for Bachelor's applicants with foreign school-leaving certs); another says applicants with a uni-assist VPD not older than 2 years can apply directly through the portal, but this wasn't confirmed as specific to ASTP. The dedicated PDF guide could not be read (binary content, fetch failed to extract text).",
+          "application_portal_detail": "Appears to be direct Ostfalia portal application, with uni-assist VPD possibly accepted/required as a prerequisite document if the applicant has one, per general Ostfalia policy - not confirmed as ASTP-specific.",
+          "gpa_requirement_verified": "Applicant needs a bachelor's degree or equivalent qualification from a German or other university (exact foreign-degree grade threshold text was truncated in the source snippet).",
+          "language_requirements_verified": "Conflicting: one source (visaflow) suggests German B1 is expected; an older 2016 regulation mentions German A2 - requirement may have changed over time, not resolved this pass.",
+          "tuition_and_fees_verified": "€1,400 one-time registration fee plus tuition of €4,900/€4,900/€3,900 across the 3 semesters (per visaflow and DAAD listing cross-check).",
+          "deadlines_verified": "CONFLICTING: one source lists 15 July deadline (winter-only intake); the official regulation PDF snippet says 15 April. Could not resolve definitively this pass.",
+          "curriculum_summary": "3-semester, full-time, English-taught program, max. 25 participants per cohort.",
+          "required_documents": "Not fully itemized; the application-process PDF guide exists but could not be read as text this pass (PDF extraction failed).",
+          "contact_info": "astp@ostfalia.de.",
+          "newly_found_info": "Exact tuition breakdown (€1,400 registration + €4,900/€4,900/€3,900 per semester) found - more detailed than likely present in current_data.",
+          "corrections": [],
+          "notes": "GAP: The dedicated Ostfalia 'Guide_ASTP-application-process_EN.pdf' - the most likely authoritative source for VPD/uni-assist status - could not be read this pass (binary PDF content wasn't extractable via WebFetch). Recommend a follow-up with a PDF-text-extraction tool or the 'ASTP_Admissionregulations_EN.pdf' for a definitive VPD answer, since conflicting deadline/language info across third-party sources could not be resolved."
+        }
       }
     },
     {
@@ -2231,7 +2569,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Non-EU students pay extra tuition since Summer 2025 (per GradGermany); figures vary 1,500-3,000 EUR/semester across sources; official page not directly confirmed"
         },
-        "exact_admission_regulations": "VPD (Vorprüfungsdokumentation) required from Coburg for international applicants; SPO dated 22/06/2023 governs admission"
+        "exact_admission_regulations": "VPD (Vorprüfungsdokumentation) required from Coburg for international applicants; SPO dated 22/06/2023 governs admission",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://hs-coburg.de/en/study/master-programs/masters-degree-programs-in-engineering-computer-science/autonomous-driving",
+            "https://www.hs-coburg.de/en/study/registration-and-enrollment/international-applicants/"
+          ],
+          "vpd_uni_assist_required": "YES - explicitly confirmed. Page states: 'International applicants require a certificate evaluation from uniassist' and the uni-assist VPD must be issued specifically to Coburg University of Applied Sciences.",
+          "application_portal_detail": "International applicants: uni-assist certificate evaluation (VPD) issued to Coburg, then online application via university portal, followed by a mandatory introductory meeting.",
+          "gpa_requirement_verified": "Not explicitly stated as a numeric GPA on this page.",
+          "language_requirements_verified": "Official proof of English at B2 level required; specific accepted tests not named on this page (links to international-applicants page for details).",
+          "tuition_and_fees_verified": "Non-EU students enrolling from summer semester 2025: €1,500/semester (new program-specific figure).",
+          "deadlines_verified": "Summer semester (start March 15): non-EU applications 16 May-2 December (prior year); EU applicants contact by 14 March. Winter semester (start Oct 1): non-EU applications 3 December-15 May; EU applicants contact by 30 September.",
+          "curriculum_summary": "3 semesters, 90 ECTS, including thesis. Sem 1-2: team-based product development cycle covering sensors/actuators, vehicle networking, data processing, AI, human-machine interfaces. Sem 3: Master's thesis, ideally with a company. Taught in English at Lucas Cranach Campus, Kronach.",
+          "required_documents": "Completed diploma/bachelor's in automotive engineering, mechatronics, IT/CS, mechanical/electrical engineering, physics, or related; ≥7 semesters (210 ECTS incl. ≥18 ECTS practical semester) or 6 semesters (180 ECTS) without a practical semester (missing skills made up within 1 year); CV; English B2 proof; uni-assist VPD for international applicants.",
+          "contact_info": "Dept. of Student Affairs: +49 9561 317-246, student-affairs@hs-coburg.de; Prof. Dr. Georg Arbeiter (program head): +49 9561 317 332, georg.arbeiter@hs-coburg.de.",
+          "newly_found_info": "VPD requirement explicitly confirmed, plus precise non-EU tuition figure (€1,500/semester from summer 2025) and unusually detailed/asymmetric EU vs non-EU deadline windows.",
+          "corrections": [
+            {
+              "field": "vpd requirement",
+              "old": "Not previously documented",
+              "corrected": "Explicitly confirmed required ('certificate evaluation from uniassist' issued to Coburg specifically)",
+              "evidence": "Program page's international-applicants admission text"
+            }
+          ],
+          "notes": "Another clear VPD confirmation - this is a Coburg program (same university that hosts the AIMS program above, which by contrast does NOT use uni-assist/VPD) showing that VPD requirements vary even within the same university by program."
+        }
       }
     },
     {
@@ -2313,7 +2677,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fees ('None' per official programme page)"
         },
-        "exact_admission_regulations": "Official flyer confirms B2+/IELTS 6.5 and GPA 2.5 thresholds, among the most well-documented of this batch"
+        "exact_admission_regulations": "Official flyer confirms B2+/IELTS 6.5 and GPA 2.5 thresholds, among the most well-documented of this batch",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.h-brs.de/en/inf/studienangebot/master/autonomous-systems"
+          ],
+          "vpd_uni_assist_required": "uni-assist is required for applicants with international bachelor's degrees (both summer/winter) and for all applicants needing a visa; applicants with German bachelor's degrees or no visa requirement use the university's own Apollo portal instead. VPD not named explicitly on this page but functionally implied through the uni-assist requirement.",
+          "application_portal_detail": "International bachelor's/visa-required applicants: uni-assist. German bachelor's/no-visa applicants: Apollo portal (H-BRS's own system).",
+          "gpa_requirement_verified": "Not stated on this page; links out to a dedicated 'Access requirements and online application' subpage not yet fetched.",
+          "language_requirements_verified": "B2+ English required, specifically IELTS Band 6.5 (more precise than a generic B2 claim).",
+          "tuition_and_fees_verified": "Only the standard semester fee is payable (no separate tuition); exact amount on a separate 'Semester fees and Administrative fees' page, not fetched this pass.",
+          "deadlines_verified": "Summer 2027, visa applicants (uni-assist): 15 May-15 Aug 2026. Summer 2027, German/non-visa applicants (Apollo): 15 May-15 Dec 2026. From winter 2027/28, international bachelor's holders (uni-assist): 15 May-15 Aug (summer) / 15 Nov-15 Feb (winter). From winter 2027/28, German bachelor's holders (Apollo): 15 May-15 Nov (summer) / 15 Nov-15 May (winter) - note: page's date ranges overlap at 15 Nov for German applicants, suggesting a possible page error worth flagging to the user.",
+          "curriculum_summary": "2024 curriculum matrix available online (eva2.inf.h-brs.de); study programme plans and regulations linked separately.",
+          "required_documents": "Not itemized on this page; linked 'Access requirements and online application' subpage not yet fetched.",
+          "contact_info": "Departmental Office CS: +49 2241 865 195/201/290, fb02.sekretariat@h-brs.de, Room C101, Grantham-Allee 20, 53757 Sankt Augustin; Course guidance (MAS): fb02.fachstudienberatung.mas@h-brs.de, Room C226; Student Services: student.services@h-brs.de.",
+          "newly_found_info": "Found unusually precise and complex dual-track (uni-assist vs Apollo) deadline structure with a likely internal inconsistency (overlapping 15 Nov date) on the official page itself - worth independently verifying with the university before relying on it.",
+          "corrections": [],
+          "notes": "GAP: The 'Access requirements and online application' subpage (which likely has GPA/ECTS/VPD specifics) was linked but not fetched this pass due to time constraints - recommend follow-up."
+        }
       }
     },
     {
@@ -2395,7 +2777,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Tuition-free (public university); ~332 EUR/year likely represents semester contribution"
         },
-        "exact_admission_regulations": "4-semester program taught in English; official page directly confirms IELTS 6.5 requirement"
+        "exact_admission_regulations": "4-semester program taught in English; official page directly confirms IELTS 6.5 requirement",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-bayreuth.de/en/master/battery-materials-technology"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page (uni-assist/VPD status unconfirmed); the page refers to a separate 'application guide' (forms.uni-bayreuth.de) for documents and deadlines, which was not fetched this pass.",
+          "application_portal_detail": "Not explicitly confirmed this pass; likely via University of Bayreuth's own application guide/portal (forms.uni-bayreuth.de) rather than uni-assist, but not confirmed.",
+          "gpa_requirement_verified": "No GPA stated explicitly; academic prerequisite is 22 credits total (Chemistry ≥4, Physics+Math combined 18 incl. ≥5 physics/≥8 math); country-specific entrance test scores encouraged (GRE QR≥154/AW≥3.5; India: JAM or GATE >300; China: Unified Admissions Exam >300 or CGPA>3.5/4).",
+          "language_requirements_verified": "English: IELTS 6.5 (B2 minimum, higher favored). German: A1, recommended at application, can be submitted by end of 2nd semester.",
+          "tuition_and_fees_verified": "No tuition fees (confirmed 'University of Bayreuth does not charge tuition fees'); semester fee covers Studentenwerk Oberfranken + semester ticket, amount not given.",
+          "deadlines_verified": "Winter: 1 April-15 July. Summer: 1 October-15 January. Same windows for EU and non-EU applicants (notably NOT split by citizenship, unlike some other programs in this batch).",
+          "curriculum_summary": "4 semesters; Year 1: alignment modules + Battery Systems Technology, Battery Materials, Electrochemistry (two modules each core area); compulsory-choice modules from natural sciences/engineering; two research modules (one abroad/industry-internship option); research plan followed by master's thesis.",
+          "required_documents": "Not itemized on this page; application guide (forms.uni-bayreuth.de) has the full list. Applicants with 150/180 credits (83.33%) can apply before degree completion; conditional admission possible requiring up to 20 ECTS of German-taught bachelor coursework by end of 2nd semester.",
+          "contact_info": "Programme moderator Prof. Dr. Matteo Bianchini, baybatt@uni-bayreuth.de; coordinator Dr. Maike Brütting, same email; Incoming Degree hotline +49 921 55-5392 (Tue/Thu 9:30-11:30am).",
+          "newly_found_info": "Found specific country-targeted entrance-test encouragement (GRE, JAM/GATE for India, Unified Admissions Exam/CGPA for China) - a distinctive admission signal not in current_data. Also found the 150/180-credit (83.33%) early-application allowance.",
+          "corrections": [],
+          "notes": "GAP: uni-assist/VPD status not confirmed - the application guide subpage (forms.uni-bayreuth.de) needs a follow-up fetch to resolve definitively."
+        }
       }
     },
     {
@@ -2477,7 +2877,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "6,000 EUR/semester (24,000 EUR total for 4 semesters) per RWTH International Academy listing; early-bird 10% discount for applications by 15 Jan (non-EU) or 15 Apr (EU)"
         },
-        "exact_admission_regulations": "This is a paid, private continuing-education program via RWTH International Academy, distinct from RWTH's standard tuition-free Bachelor's/Master's programs"
+        "exact_admission_regulations": "This is a paid, private continuing-education program via RWTH International Academy, distinct from RWTH's standard tuition-free Bachelor's/Master's programs",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "web search aggregating academy.rwth-aachen.de, DAAD listing, gradgermany (official batteryengineering.rwth-aachen.de/faq/ page fetch FAILED - ECONNREFUSED, site unreachable)"
+          ],
+          "vpd_uni_assist_required": "UNCONFIRMED - the official FAQ page could not be reached (connection refused). No source in this pass confirmed VPD/uni-assist use specifically for BSE; one third-party note refers to a DIFFERENT RWTH program (Battery Science and Technology in Engineering) as not requiring uni-assist, not this program (Battery Systems Engineering/BSE) specifically.",
+          "application_portal_detail": "UNCONFIRMED. Program is run through the RWTH International Academy (a privately-organized continuing-education arm of RWTH), academically directed by the ISEA institute (Faculty of Electrical Engineering) - this institutional structure is a useful new detail.",
+          "gpa_requirement_verified": "Not confirmed this pass.",
+          "language_requirements_verified": "DAAD listing confirms no German language skills required for admission/enrollment; English requirements not confirmed this pass.",
+          "tuition_and_fees_verified": "Early-bird 10% tuition discount if applying by 15 January (non-EU) or 15 April (EU) - newly found, exact base tuition amount not confirmed.",
+          "deadlines_verified": "Early-bird discount deadlines: 15 January (non-EU), 15 April (EU). Standard/final deadline not confirmed.",
+          "curriculum_summary": "Not confirmed this pass.",
+          "required_documents": "Not confirmed this pass.",
+          "contact_info": "Not confirmed this pass; program under RWTH International Academy / ISEA institute.",
+          "newly_found_info": "Found that BSE is run via RWTH's privately-organized International Academy (continuing education), with ISEA as academic director - this is an important structural detail suggesting the program may be fee-based/non-standard compared to typical consecutive master's programs, similar to the OVGU AI/Medical program's Steinbeis structure.",
+          "corrections": [],
+          "notes": "UNREACHABLE THIS PASS: official FAQ page (batteryengineering.rwth-aachen.de/faq/) returned a connection error. Given the 'RWTH International Academy' continuing-education structure found, strongly recommend re-attempting this fetch and checking academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-battery-systems-engineering directly, as tuition/VPD details likely differ substantially from a standard consecutive master's and current_data's tuition-free assumption (if any) may be wrong."
+        }
       }
     },
     {
@@ -2559,7 +2977,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fees; ~397.7 EUR/semester contribution (per aggregator); 100 EUR one-time enrollment fee"
         },
-        "exact_admission_regulations": "M.Eng., 3 semesters, admission restricted (NC); intake in both summer and winter semesters; foreign applicants apply via uni-assist"
+        "exact_admission_regulations": "M.Eng., 3 semesters, admission restricted (NC); intake in both summer and winter semesters; foreign applicants apply via uni-assist",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.haw-kiel.de/en/degree-courses/courses/battery-technologies/"
+          ],
+          "vpd_uni_assist_required": "uni-assist used ONLY for applicants with a foreign university entrance qualification (not explicitly named 'VPD' on this page, but this is uni-assist's standard document-check process). Deadlines are specifically tied to receipt AT uni-assist for these applicants.",
+          "application_portal_detail": "Foreign entrance-qualification holders: apply via uni-assist (Casy portal referenced as HAW Kiel's own online system, casy.haw-kiel.de, used in parallel).",
+          "gpa_requirement_verified": "Bachelor's in Electrical Engineering/Mechatronics/Industrial Engineering(EE) with final grade ≥2.99 (German scale); related degrees need ≥2.99 plus ≥120 ECTS in specified core subjects; 180-209 ECTS applicants must make up missing competencies (300 ECTS total expected); applicants with ≤15 credits remaining may apply with provisional grade.",
+          "language_requirements_verified": "English ≥CEFR B2 (no specific test named); non-Bologna bachelor's holders must also submit GRE with ≥64th percentile Quantitative Reasoning.",
+          "tuition_and_fees_verified": "No tuition mentioned; compulsory semester fee (covers Student Services Authority, student body, admin fee, semester travel ticket) with no amount given; non-refundable admin charge at enrolment.",
+          "deadlines_verified": "First semester, summer term: Nov-15 Jan. First semester, winter term: May-15 Jul. Higher semesters: same windows, subject to capacity. Last enrolment: 31 March (summer)/30 Sept (winter). Processing up to 2 weeks; late/incomplete/fax/email submissions excluded (date of receipt at HAW Kiel counts).",
+          "curriculum_summary": "3 semesters, English-taught, run with CAU Kiel and Fraunhofer ISIT (Itzehoe). Winter: Intro to Electro-Chemo-Mechanics, Embedded Systems, Electrical Grids and Battery Storage, Battery Manufacturing or Elective 1, Applied Electrochemistry for Batteries, Master Project. Summer: Complex Automation Systems, Battery Management & Diagnostics, Battery Recycling, Battery Manufacturing or Elective 2, Machine Learning for Production, Master Project. Sem 3: Master Thesis + Colloquium.",
+          "required_documents": "Bachelor's certificate/transcript (or proof of ≤15 outstanding credits with provisional grade), English proof, university entrance qualification, name-change cert (if applicable), exmatriculation cert (if applicable), prior study certificates, proof of prior achievements (higher semesters), GRE score (non-Bologna holders).",
+          "contact_info": "Programme management: Prof. Dr. Christoph Weber; Student Secretariat, Sokratesplatz 1, 24149 Kiel, phone 0431 210 1339, email studieninformation(at)haw-kiel.de.",
+          "newly_found_info": "Found the precise German-scale GPA cutoff (≥2.99) and the GRE requirement specifically for non-Bologna bachelor's holders - a nuanced detail not likely in current_data. Also found the full 9-item required document checklist.",
+          "corrections": [],
+          "notes": "uni-assist used but not explicitly named 'VPD'; functionally equivalent given it's the standard uni-assist document-check process for foreign entrance qualifications."
+        }
       }
     },
     {
@@ -2641,7 +3077,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site (likely tuition-free per standard German public-university rule for EU students)"
         },
-        "exact_admission_regulations": "Program run jointly with Universität zu Lübeck; bme-master.com is the program's dedicated site per DAAD listing (not independently verified here)"
+        "exact_admission_regulations": "Program run jointly with Universität zu Lübeck; bme-master.com is the program's dedicated site per DAAD listing (not independently verified here)",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.th-luebeck.de/en/studies/study-offer/degree-programs/biomedical-engineering-msc/overview"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this overview page. A program-specific external site (bme-master.com/biomedical-engineering/application-admission/general-requirements.html) is linked for full admission requirements but was not fetched this pass.",
+          "application_portal_detail": "Not confirmed this pass; likely detailed on the linked external bme-master.com general-requirements page.",
+          "gpa_requirement_verified": "Not stated on this overview page.",
+          "language_requirements_verified": "Not stated on this overview page.",
+          "tuition_and_fees_verified": "Not stated on this overview page.",
+          "deadlines_verified": "Not stated; program starts 'every winter semester' per the page.",
+          "curriculum_summary": "4 semesters, on-campus; Module Catalog available as PDF; regulations: 'Overall Regulations valid from WiSe 25' (PDF) and an older 'WiSe 21' version (intranet-only).",
+          "required_documents": "Not itemized on this overview page.",
+          "contact_info": "Head of Study Program: Prof. Dr.-Ing. Ulf Pilz, +49 451 300 5501, ulf.pilz@th-luebeck.de, Room B.64 64-3.40; Study Coordinator Silke Venker, +49 451 300 5396, silke.venker@th-luebeck.de; Admission Office +49 451 300 5644, studieren(at)th-luebeck.de.",
+          "newly_found_info": "Found that regulations changed as of WiSe 2025 (new 'Overall Regulations valid from WiSe 25' superseding a WiSe 21 version) - a timing detail worth flagging. Found the dedicated external bme-master.com general-requirements page as the authoritative admission-detail source, not previously identified.",
+          "corrections": [],
+          "notes": "GAP: The actual admission requirements (GPA, language, VPD/uni-assist, deadlines) live on the external bme-master.com/biomedical-engineering/application-admission/general-requirements.html page or the TH Lübeck 'Step-by-Step'/FAQ application pages, none of which were fetched this pass due to time constraints - strongly recommend a follow-up fetch of bme-master.com's general-requirements page specifically, since the program is run jointly with Universität zu Lübeck and may have unusual two-institution admission logistics."
+        }
       }
     },
     {
@@ -2723,7 +3177,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fees; semester fee ~298.06 EUR (standard RWTH figure)"
         },
-        "exact_admission_regulations": "Biomedical Systems Engineering is one of five majors within RWTH's Electrical Engineering and Information Technology MSc, not a fully standalone degree"
+        "exact_admission_regulations": "Biomedical Systems Engineering is one of five majors within RWTH's Electrical Engineering and Information Technology MSc, not a fully standalone degree",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "web search aggregating mastersportal, studyabroadupdates, mygermanuniversity, myguide, expatrio, gradgermany (no official RWTH program-specific page located/fetched - this is a 'major' within RWTH's general Electrical Engineering & IT master's, not a standalone program page)"
+          ],
+          "vpd_uni_assist_required": "UNCONFIRMED. This is NOT a standalone degree program but a specialization major chosen AFTER admission to RWTH's general Electrical Engineering and Information Technology M.Sc. Applicants apply to the general EE&IT master's program, and once enrolled, select the Biomedical Systems Engineering major among five available majors. No official source in this pass confirmed whether uni-assist/VPD applies to the general EE&IT master's application.",
+          "application_portal_detail": "Apply to RWTH's general Electrical Engineering and Information Technology M.Sc. program (not a dedicated Biomedical Systems Engineering application); major is selected after enrollment.",
+          "gpa_requirement_verified": "Not confirmed; one low-confidence source mentions a completed bachelor's in engineering or science is required for the general program, text cut off.",
+          "language_requirements_verified": "Not confirmed this pass.",
+          "tuition_and_fees_verified": "Not confirmed this pass.",
+          "deadlines_verified": "Not confirmed this pass.",
+          "curriculum_summary": "Not confirmed this pass beyond the structural note that this is a 'major' within a broader degree, not its own curriculum.",
+          "required_documents": "Not confirmed this pass.",
+          "contact_info": "Not confirmed this pass.",
+          "newly_found_info": "IMPORTANT STRUCTURAL FINDING: confirmed (with reasonable confidence from multiple aggregators) that 'Biomedical Systems Engineering' is a MAJOR/specialization track within RWTH's general Electrical Engineering and Information Technology M.Sc. program, not an independently admissible degree program. This means applicants should apply to and research RWTH's general EE&IT Master's admission requirements, not look for a dedicated 'Biomedical Systems Engineering' application page - a significant clarification given current_data's official_source_url was itself described as 'not located.'",
+          "corrections": [],
+          "notes": "UNRESOLVED: no official RWTH page was found/fetched this pass confirming this major's exact admission process. Strongly recommend searching RWTH's Faculty 6 (Electrical Engineering and Information Technology) general Master's admission page directly as the correct official source, rather than searching for a 'Biomedical Systems Engineering'-specific page which likely does not exist independently."
+        }
       }
     },
     {
@@ -2805,7 +3277,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "~7,680 EUR/year per one aggregator (unconfirmed); separate unexplained figure of 320 EUR/year also seen"
         },
-        "exact_admission_regulations": "4 semesters, full-time, taught in English per aggregators; official bbw page not reached"
+        "exact_admission_regulations": "4 semesters, full-time, taught in English per aggregators; official bbw page not reached",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "web search aggregating mygermanuniversity, mastersportal, gradgermany, xuanxiao.org, educations.com (official bbw-hochschule.de program page could not be located/fetched - current_data's official_source_url is a non-specific root domain)"
+          ],
+          "vpd_uni_assist_required": "UNCONFIRMED - no source in this pass addressed uni-assist/VPD for this specific program at bbw Hochschule (a private university, which may not use uni-assist/VPD at all, as many private German universities handle admissions entirely in-house - this should be verified directly).",
+          "application_portal_detail": "Not confirmed this pass; likely a direct bbw Hochschule application process given it's a private institution, but not confirmed.",
+          "gpa_requirement_verified": "Not confirmed this pass.",
+          "language_requirements_verified": "Not confirmed; program entirely English-taught per one source.",
+          "tuition_and_fees_verified": "CONFLICTING: one source (Mastersportal) cites €7,680/year; GradGermany notes exact fee amounts are not published on bbw's public website at all, making the aggregator figure unverifiable.",
+          "deadlines_verified": "One source cites Winter Semester 15 Aug, Summer Semester 15 Feb intakes (120 ECTS, English-only); another conflictingly describes a 2-year full-time program with an 'earliest start date of 01 Apr 2026', which doesn't align with a typical semester-based intake - these conflict and are unresolved. The 15 Feb 2026 deadline cited has already passed as of this research date (Nov 2026), indicating this info is stale/outdated.",
+          "curriculum_summary": "Not confirmed this pass.",
+          "required_documents": "Not confirmed this pass.",
+          "contact_info": "Not confirmed this pass.",
+          "newly_found_info": "Found that bbw Hochschule reportedly does NOT publish exact tuition fee amounts on its public website (per GradGermany) - this itself is a notable finding suggesting prospective applicants must contact the university directly for pricing.",
+          "corrections": [],
+          "notes": "STILL UNRESOLVED/UNREACHABLE: current_data's official_source_url (bbw-hochschule.de root) was never a working program-specific page, and this pass also could not locate the actual program page. All deadline/tuition info found this pass is stale, conflicting, or unverifiable. Strongly recommend manual search of bbw-hochschule.de's own site search for the exact program URL in a follow-up pass - this entry has the weakest data coverage in the batch."
+        }
       }
     },
     {
@@ -2887,7 +3377,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "5,980 EUR/semester (11,960 EUR/year) per aggregator - notably high for a German public university, should be verified directly as it may reflect a specific cohort/pathway fee"
         },
-        "exact_admission_regulations": "3 semesters (90 ECTS); international applicants apply via uni-assist"
+        "exact_admission_regulations": "3 semesters (90 ECTS); international applicants apply via uni-assist",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "web search aggregating gradgermany, expatrio, studieren-in-niedersachsen, eecglobal, mystipendium (official hs-emden-leer.de program page could not be located/fetched - current_data's official_source_url is a non-specific root domain)"
+          ],
+          "vpd_uni_assist_required": "LIKELY YES but not independently confirmed via an official page this pass. Multiple third-party sources describe international applicants using uni-assist ('Application directly at the University, uni-assist' per Expatrio; 'via uni-assist' per GradGermany), though EEC Global claims applicants can use EITHER uni-assist or a direct portal depending on the program. No source explicitly names 'VPD.'",
+          "application_portal_detail": "Likely via uni-assist for foreign-degree applicants, per multiple (lower-confidence, third-party) sources; not confirmed on an official Hochschule Emden/Leer page.",
+          "gpa_requirement_verified": "Not confirmed this pass.",
+          "language_requirements_verified": "Not confirmed this pass; program taught entirely in English.",
+          "tuition_and_fees_verified": "CONFLICTING: EEC Global claims the program is 'tuition-free for all nationalities including Indian students' (consistent with it being a German public university in Niedersachsen); but MyGuide cites €5,980/semester and Studyabroad Updates cites €11,960/year - these figures (if real) would likely reflect a NON-EU-specific or outdated tuition fee, as Niedersachsen has historically been tuition-free for EU/EEA. This conflict could not be resolved this pass.",
+          "deadlines_verified": "Not confirmed this pass; one source lists the program as having a local admission restriction with intakes in both summer and winter semesters.",
+          "curriculum_summary": "3 semesters, 90 ECTS, entirely English-taught; relevant prior fields of study include Computer Science, IT, Data Science, Business Administration (specializing in Information Systems, Quantitative Methods, or Data Analytics).",
+          "required_documents": "Not confirmed this pass.",
+          "contact_info": "Not confirmed this pass.",
+          "newly_found_info": "Found the significant tuition conflict (tuition-free claim vs €5,980/semester vs €11,960/year claims) - this is an important discrepancy for the user to resolve directly with the university, since Lower Saxony's tuition-free policy status for non-EU students specifically has changed in recent years at various institutions.",
+          "corrections": [],
+          "notes": "UNRESOLVED/UNREACHABLE: official Hochschule Emden/Leer program page could not be located/fetched this pass (current_data's URL is a non-specific root domain). Strongly recommend a follow-up search for the exact program URL (likely under hs-emden-leer.de's international programs section) to resolve the tuition and uni-assist/VPD conflicts with confidence."
+        }
       }
     },
     {
@@ -2969,7 +3477,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fees; semester contribution ~370-425 EUR (sources vary)"
         },
-        "exact_admission_regulations": "Official CIT program PDF exists at uni-bremen.de/fileadmin/.../CIT_E.pdf; applications submitted online directly to the university per official text"
+        "exact_admission_regulations": "Official CIT program PDF exists at uni-bremen.de/fileadmin/.../CIT_E.pdf; applications submitted online directly to the university per official text",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-bremen.de/fb1/studium/studiengaenge/communication-and-information-technology-cit-msc"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page; no uni-assist or VPD reference found. The page links to an 'Aufnahmeordnung' (admission regulation PDF) and an online-application portal for full details, neither fetched this pass.",
+          "application_portal_detail": "Online-Bewerbung (master application portal, linked but not fetched); governed by the Aufnahmeordnung PDF.",
+          "gpa_requirement_verified": "No grade threshold stated on this page; links to the Aufnahmeordnung PDF for admission rules.",
+          "language_requirements_verified": "English C1 (GER) level required; no specific test/score named. Teaching is in English; exams offered in both German and English.",
+          "tuition_and_fees_verified": "No tuition amount given; links to 'Semesterbeitrag inkl. Semesterticket' page (not fetched) for the exact fee.",
+          "deadlines_verified": "Application deadline: 15 October (program starts in summer semester, offered yearly - note: unusual summer-only intake). Advanced/2nd-semester applicants only: 15 July deadline.",
+          "curriculum_summary": "4 semesters, 120 ECTS, M.Sc. Core areas: Nachrichtentechnik (Communications Engineering), Hochfrequenztechnik (High-Frequency Technology), Digitaltechnik (Digital Technology), Kommunikationsnetze (Communication Networks). Electives include digital signal processing, microelectronics, robotics. Governed by MPO 2019 plus a January 2022 amendment (Änderungsordnung).",
+          "required_documents": "Not itemized on this page; likely in the Aufnahmeordnung PDF.",
+          "contact_info": "Studienzentrum (contact via email form, program/application questions); Studienfachberatung Prof. Dr. Anna Förster, NW1 Raum S2270 (program content/credit recognition); Faculty address: Universität Bremen, Fachbereich 01, Otto-Hahn-Allee 1, 28359 Bremen, phone +49 421 218-62700.",
+          "newly_found_info": "Found that the program is SUMMER-SEMESTER-START only (deadline 15 October for the following summer start) rather than the more typical winter start - a notable and easily-missed detail for applicant planning. Also found the specific German-language core module names, which clarify the English program's technical content areas.",
+          "corrections": [],
+          "notes": "GAP: VPD/uni-assist status not confirmed - the Aufnahmeordnung PDF and the Online-Bewerbung portal page should be fetched in a follow-up pass to resolve this definitively, along with exact tuition/semester fee and document checklist."
+        }
       }
     },
     {
@@ -3051,7 +3577,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Non-EU/second-degree students: €1,500/semester tuition plus ~€182/semester admin and Studierendenwerk fees."
         },
-        "exact_admission_regulations": "Admission letters start arriving in November; visa and proof of funds needed for international students; page's 'Admission Requirements: No restriction' field conflicts with stated degree/grade criteria."
+        "exact_admission_regulations": "Admission letters start arriving in November; visa and proof of funds needed for international students; page's 'Admission Requirements: No restriction' field conflicts with stated degree/grade criteria.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-ulm.de/ci-tech/",
+            "https://www.uni-ulm.de/en/study/application-and-enrolment/masters-programmes/master-communication-and-information-technology/"
+          ],
+          "vpd_uni_assist_required": "Uni-assist required for foreign degree holders (register, upload docs, pay handling fee); VPD not explicitly named on page",
+          "application_portal_detail": "German degree holders: uni-ulm online system directly. Foreign degree holders: uni-assist online portal. No email/post applications. Admission letters from November.",
+          "gpa_requirement_verified": "No numeric GPA; requires 'significantly above-average grade'",
+          "language_requirements_verified": "No numeric IELTS/TOEFL given; fluent English required; certificate may be submitted by enrolment with proof of test registration at application",
+          "tuition_and_fees_verified": "Non-EU/second-degree: €1,500/semester tuition + ~€182/semester admin/Studierendenwerk fees; living costs ~€1,000/month",
+          "deadlines_verified": "Application period 15 August to 30 September",
+          "curriculum_summary": "4 semesters, 120 ECTS. Sem1: compulsory(7+5CP)+specialisation(14CP)+German1(4CP); Sem2: compulsory(6CP)+specialisation(15CP)+practical(5CP)+German2(4CP); Sem3: compulsory(5CP)+specialisation(12CP)+practical(5CP)+complementary(8CP); Sem4: thesis(30CP). Specialisations: Communications Engineering, Communications Circuits and Systems, Intelligent Systems, Sensor Circuits and Systems",
+          "required_documents": "Not itemized on page; refers to admission statutes PDF",
+          "contact_info": "Dr. Sandra Mann, Student Counseling, Room 41.3.107, +49 731 50-26004, sandra.mann@uni-ulm.de",
+          "newly_found_info": "Prior-knowledge self-test PDF available. Admission regulations PDF (2025-08-04) found. Two study plans exist (FSPO2025 and FSPO2021). Tuition fee page and International Office page linked.",
+          "corrections": [],
+          "notes": "Main page plus application subpage consulted; no VPD terminology found despite uni-assist use."
+        }
       }
     },
     {
@@ -3133,7 +3678,27 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No EU tuition stated; from summer semester 2027 non-EU students pay tuition per semester (amount not given) with exemptions; 100 EUR non-refundable application fee for non-EU applicants."
         },
-        "exact_admission_regulations": "Apply via campo portal only; APS certificate required for China/Vietnam/India applicants; final Bachelor's certificate due by Sept 30 enrolment deadline; optional GRE, German certificates, 2 recommendation letters; ~30-min interview for shortlisted candidates."
+        "exact_admission_regulations": "Apply via campo portal only; APS certificate required for China/Vietnam/India applicants; final Bachelor's certificate due by Sept 30 enrolment deadline; optional GRE, German certificates, 2 recommendation letters; ~30-min interview for shortlisted candidates.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://cme.studium.fau.de/application",
+            "https://www.cme.studium.fau.de/prospective-students/prerequisites/",
+            "https://www.cme.studium.fau.de/prospective-students/application-process/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - FAU uses its own campo portal directly, not uni-assist",
+          "application_portal_detail": "Direct FAU campo portal; no uni-assist/VPD. Shortlisted candidates get ~30-min QFV interview.",
+          "gpa_requirement_verified": "FAU B.Sc ICT/CompEng(TAF IT)/EEI: 2.30 or better direct; 2.31-3.0 requires QFV test. Others: overall grade ≥2.5 (good) generally requiring QFV",
+          "language_requirements_verified": "TOEFL iBT 80 / PBT 547 / CBT 210; IELTS 6.0; or B2 proof / Medium of Instruction Certificate; German not required",
+          "tuition_and_fees_verified": "€100 non-refundable application fee for non-EU; tuition charged to non-EU first-time enrollees from summer 2027 with exemptions (amount not stated)",
+          "deadlines_verified": "Winter 2026/27 closed; no summer intake; winter 2027/28 portal opens Feb 2027, closes 15 July 2027; enrollment deadline 30 September",
+          "curriculum_summary": "Confirmed via study plan/module catalogue links (not fully fetched this round); core areas engineering math, signals/systems, digital comms, DSP",
+          "required_documents": "CME application form, CV+photo, school & university entrance certs, Bachelor's degree/transcripts, English proof, APS certificate (China/Vietnam/India); optional GRE, German certs, 2 recommendation letters",
+          "contact_info": "Studien-Service-Center EEI, Cauerstr. 7, 91058 Erlangen; bewerbungsgebuehren@fau.de; tuition-fees@fau.de",
+          "newly_found_info": "FAQ and 'what skills should you bring' pages found. Confirmed FAU does NOT use uni-assist for this program.",
+          "corrections": [],
+          "notes": "Confirmed existing data was largely accurate."
+        }
       }
     },
     {
@@ -3215,7 +3780,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Standalone Communications Engineering master closed to new enrolments after 2015; now folded into broader EEIT program. DAAD listing remains primary source for specifics."
+        "exact_admission_regulations": "Standalone Communications Engineering master closed to new enrolments after 2015; now folded into broader EEIT program. DAAD listing remains primary source for specifics.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch only - no stable official page found"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - could not locate official page",
+          "application_portal_detail": "Unconfirmed",
+          "gpa_requirement_verified": "Unconfirmed",
+          "language_requirements_verified": "Unconfirmed",
+          "tuition_and_fees_verified": "Unconfirmed",
+          "deadlines_verified": "Unconfirmed",
+          "curriculum_summary": "Program appears folded into RWTH's 'Electrical Engineering and Information Technology' M.Sc. with Communications Engineering as one of five majors",
+          "required_documents": "Unconfirmed",
+          "contact_info": "Not found",
+          "newly_found_info": "None beyond what was already in current_official_data",
+          "corrections": [],
+          "notes": "Still unreachable; RWTH official page could not be located even with search."
+        }
       }
     },
     {
@@ -3297,7 +3880,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated on page."
         },
-        "exact_admission_regulations": "Statutes for Admission and Studies/Examination Regulations available as linked PDFs; contact cme@mach.kit.edu for application questions."
+        "exact_admission_regulations": "Statutes for Admission and Studies/Examination Regulations available as linked PDFs; contact cme@mach.kit.edu for application questions.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.mach.kit.edu/english/5282.php"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page; details deferred to Statutes for Admission PDF and KIT degree-program (sle.kit.edu) page",
+          "application_portal_detail": "Not stated on page; refers to KIT degree program page",
+          "gpa_requirement_verified": "Not stated; in linked Statutes for Admission PDF (not fetched)",
+          "language_requirements_verified": "English-taught; no score stated",
+          "tuition_and_fees_verified": "Not stated",
+          "deadlines_verified": "Not stated",
+          "curriculum_summary": "Broad elective-heavy English-taught program (materials science, fluid dynamics, structural mechanics, data-based methods); full detail in Module Handbook winter 2026/27 (https://s.kit.edu/mhb-cme-msc26-en)",
+          "required_documents": "Not stated",
+          "contact_info": "cme@mach.kit.edu; InSL insl@mach.kit.edu; Examination Office campus@mach.kit.edu; ISIM isim@kit.edu; Student Services studserv-team4@sle.kit.edu",
+          "newly_found_info": "Module Handbook link found. Multiple contact routes identified by purpose.",
+          "corrections": [],
+          "notes": "Linked 'Application and Admission' subpage (seite404.php) returned a broken/placeholder path; unable to retrieve GPA/language/deadline/fee/VPD specifics this round."
+        }
       }
     },
     {
@@ -3379,7 +3980,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated on page."
         },
-        "exact_admission_regulations": "Choose a specialization at application; starts winter (Oct 1) or summer (Apr 1) semester (Computational Physics winter-only); apply via UniAssist; accredited 25.06.2019–30.09.2027; contact cse.ief@uni-rostock.de."
+        "exact_admission_regulations": "Choose a specialization at application; starts winter (Oct 1) or summer (Apr 1) semester (Computational Physics winter-only); apply via UniAssist; accredited 25.06.2019–30.09.2027; contact cse.ief@uni-rostock.de.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.ief.uni-rostock.de/cse-msc"
+          ],
+          "vpd_uni_assist_required": "Page states international applicants must apply via uni-assist but does NOT mention VPD specifically",
+          "application_portal_detail": "International: apply via UniAssist, then enroll at Uni Rostock after admission. German applicants from other unis enroll online; Rostock students re-register at Studierendensekretariat.",
+          "gpa_requirement_verified": "At least 85% CGPA or comparable, or GATE ≥500 points (confirmed)",
+          "language_requirements_verified": "Native English exempt; else TOEFL iBT ≥90 or IELTS ≥6.5; proof ≤2 years old",
+          "tuition_and_fees_verified": "Not mentioned on page",
+          "deadlines_verified": "Not stated on page; starts winter(1 Oct) or summer(1 Apr); Computational Physics winter-only",
+          "curriculum_summary": "4 semesters, 120 LP. CEE: 72 LP compulsory+36 LP electives; CME: 75+33; CP: 75+33; all tracks 12 LP language modules, up to 12 LP general electives, up to 12 LP bachelor-level modules; thesis+colloquium 30 LP",
+          "required_documents": "Not fully listed; degree, language proof, CV evidence of programming",
+          "contact_info": "cse.ief@uni-rostock.de; Prof. Dr.-Ing. Dennis Hohlfeld (0381)4987004; Studienbüro (0381)4987004; Dekanat +49 381 4987000",
+          "newly_found_info": "Specialization-specific prerequisite credit minimums (electromagnetic fields, math, programming per track) found. 'Applying to Master CSE' subpage link found.",
+          "corrections": [],
+          "notes": "Confirmed uni-assist use but VPD term absent from official text."
+        }
       }
     },
     {
@@ -3461,7 +4080,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "No admission restriction (open admission) per secondary source; program contact: computer-engineering@rwth-aachen.de."
+        "exact_admission_regulations": "No admission restriction (open admission) per secondary source; program contact: computer-engineering@rwth-aachen.de.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch only - no stable official page found"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - could not locate official page",
+          "application_portal_detail": "Unconfirmed",
+          "gpa_requirement_verified": "Unconfirmed",
+          "language_requirements_verified": "Unconfirmed",
+          "tuition_and_fees_verified": "Unconfirmed",
+          "deadlines_verified": "Unconfirmed",
+          "curriculum_summary": "Unconfirmed",
+          "required_documents": "Unconfirmed",
+          "contact_info": "computer-engineering@rwth-aachen.de (per secondary source, unverified this round)",
+          "newly_found_info": "None",
+          "corrections": [],
+          "notes": "Still unreachable, same as prior session."
+        }
       }
     },
     {
@@ -3543,7 +4180,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Listed 'Fees' of €340.80 (unclear whether semester fee or tuition)."
         },
-        "exact_admission_regulations": "Restricted admission; joint degree (4 semesters) with partner universities in Nantes (France) and Zagreb (Croatia) plus Cottbus; applications via EU-CORE portal."
+        "exact_admission_regulations": "Restricted admission; joint degree (4 semesters) with partner universities in Nantes (France) and Zagreb (Croatia) plus Cottbus; applications via EU-CORE portal.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.b-tu.de/en/control-renewable-energy-systems-ms"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page (EU-CORE consortium portal used instead of uni-assist)",
+          "application_portal_detail": "Apply via EU-CORE portal (master-eu-core.ec-nantes.fr); joint program with Ecole Centrale Nantes and Univ. Zagreb",
+          "gpa_requirement_verified": "No specific GPA stated; 180 ECTS first degree required, completed by 31 July (non-EU) / 30 Sept (EU)",
+          "language_requirements_verified": "TOEFL CBT220/ITP550/iBT80; Cambridge B2 First ≥173 or C1 Advanced ≥160; IELTS ≥6.5; TOEIC ≥800; proof ≤3 years old; exemption with university confirmation letter",
+          "tuition_and_fees_verified": "Fees listed as €340.80 (confirmed as stated, nature unclear - likely consortium participation fee)",
+          "deadlines_verified": "With scholarship: 31 Jan 2026; without scholarship: 15 May 2026",
+          "curriculum_summary": "4 semesters joint degree; Sem1-3 taught across Centrale Nantes(FR)/Univ Zagreb(HR)/BTU Cottbus(DE); Winter/Summer Schools for soft skills",
+          "required_documents": "Only certified English proof specified on this page",
+          "contact_info": "Central Student Advisory +49(0)355 693800 studium@b-tu.de; Prof. Dr. Lars Röntzsch fakultaet3@b-tu.de; Thomas Reif +49(3573)85-287 control-renewable-energy-systems-ms@b-tu.de",
+          "newly_found_info": "EU-CORE application portal URL and English-test-exemption portal URL found. Additional subpages: Access to Programme, Application-Fees-Scholarships, EU-CORE transfer info, Structure of Programme, Third Semester at BTU, Regulations/Module Catalogue.",
+          "corrections": [],
+          "notes": "Confirmed prior data; no VPD/uni-assist used for this joint program (EU-CORE portal instead)."
+        }
       }
     },
     {
@@ -3625,7 +4280,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated (only semester contribution 'Semesterbeitrag' page linked, no amount given)."
         },
-        "exact_admission_regulations": "Admission committee determines need for mandatory EPE (English) or GF (German) module; full-time, English-taught, 3 semesters; offered at Friedberg and Gießen campuses."
+        "exact_admission_regulations": "Admission committee determines need for mandatory EPE (English) or GF (German) module; full-time, English-taught, 3 semesters; offered at Friedberg and Gießen campuses.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.thm.de/site/studium/unsere-studienangebote/control-computer-and-communications-engineering-master-msc-iem-friedberg.html",
+            "https://www.thm.de/site/international/incoming-wege-an-die-thm/master-bewerbung/uni-assist-bewerbungsverfahren-master.html"
+          ],
+          "vpd_uni_assist_required": "Uni-assist used for foreign-degree applicants (only graduates forwarded within application period); VPD not explicitly named",
+          "application_portal_detail": "Foreign bachelor's applicants apply through uni-assist online portal",
+          "gpa_requirement_verified": "Final grade at least 2.5 ('gut') with at least 210 ECTS (confirmed)",
+          "language_requirements_verified": "English B2: TOEFL iBT 85, IELTS 6.5, TOEIC 785, or Cambridge FCE 176; plus German A1 required for international students (Goethe-Institut or equivalent)",
+          "tuition_and_fees_verified": "Semester fee only (amount not given), no tuition stated",
+          "deadlines_verified": "German applicants: 1 June-1 Sept(winter)/1 Dec-1 Mar(summer); International: 1 Apr-15 June(winter)/1 Oct-15 Dec(summer)",
+          "curriculum_summary": "90 ECTS, 3 semesters. Specializations: Control Engineering, Computer Engineering, Communications Engineering, or general track. Core: IPIE project, English/German module, Case Study w/ Project Mgmt, Thesis(30 ECTS)",
+          "required_documents": "Kompetenzprofil, Modulhandbuch v7, Prüfungsordnung v7",
+          "contact_info": "Prof. Andreas Penirschke; Robbin Clarissa Bastian +49 6031 604-3217/3251; Zentrale Studienberatung Friedberg +49 6031 604-7777",
+          "newly_found_info": "Dedicated uni-assist procedure subpage found (confirms process but not VPD terminology explicitly).",
+          "corrections": [],
+          "notes": "Confirmed uni-assist is used; could not confirm whether specifically a VPD document is required (page doesn't use that term)."
+        }
       }
     },
     {
@@ -3765,6 +4439,31 @@ const DATABASE = {
           ],
           "additional_info_found": "Contacts: Study advisor Prof. Dr. Johanna Myrzik (NW1 Room M1070, +49 421 218-62442) for module/credit recognition questions; general Study Center for application queries; Faculty 1 office +49 421 218-62700, Otto-Hahn-Allee 1, 28359 Bremen. Full module descriptions are in a separate module handbook PDF not reproduced on the main page.",
           "notes": "Total ECTS (120) and 4-semester duration confirmed. Tuition fee not stated on page (only semester contribution/semester ticket referenced, no amount). Detailed module list and GPA cutoff likely live in a linked SPO PDF that was not provided/accessible; current_data's module breakdown could not be verified line-by-line against page content (page only gives thematic areas, not full module table)."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-bremen.de/fb1/studium/studiengaenge/control-microsystems-microelectronics-cmm-msc"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on page",
+          "application_portal_detail": "Online application page (/studium/orientieren-bewerben/studienplatzbewerbung/master); no explicit uni-assist mention found this round",
+          "gpa_requirement_verified": "Not stated (still unverifiable, consistent with prior session)",
+          "language_requirements_verified": "English C1 (CEFR) stated as requirement - no numeric IELTS/TOEFL given, CONTRADICTS previous session's 'IELTS 6.0/TOEFL 80' claim",
+          "tuition_and_fees_verified": "Not stated; only semester fee/ticket referenced",
+          "deadlines_verified": "15 October (main intake, start summer semester); 15 July (entry into 2nd semester, advanced applicants)",
+          "curriculum_summary": "4 semesters, 120 ECTS; core areas control engineering, microelectronics, microsystems, digital technology; electives in process automation, mechatronics",
+          "required_documents": "Admission regulations, MPO 2019 + 2022 amendment, module handbook, study plan (all PDFs)",
+          "contact_info": "Prof. Dr. Johanna Myrzik, NW1 M1070, +49 421 218-62442; Faculty 01 +49 421 218-62700, Otto-Hahn-Allee 1, 28359 Bremen",
+          "newly_found_info": "FAQ subpage (/master/faq) found.",
+          "corrections": [
+            {
+              "field": "language_requirements_verified",
+              "old": "English B2 (IELTS 6.0/TOEFL 80)",
+              "corrected": "English C1 (CEFR) - no numeric test score given on page",
+              "evidence": "Page literal text: 'Sprachkenntnisse: Englisch Niveau C1 (GER)'"
+            }
+          ],
+          "notes": "This re-confirms prior session's correction (C1, not B2/numeric scores). No VPD found despite thorough check."
         }
       },
       "university_deep_info": {
@@ -3873,7 +4572,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "2024 Studienordnung/Prüfungsordnung (dated 23 April 2024) are binding regulations for exact entry requirements; not fully retrievable in this session."
+        "exact_admission_regulations": "2024 Studienordnung/Prüfungsordnung (dated 23 April 2024) are binding regulations for exact entry requirements; not fully retrievable in this session.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch (tu-chemnitz.de pages return inconsistent/404 content)"
+          ],
+          "vpd_uni_assist_required": "Uni-assist IS used for foreign applicants (non-German secondary diploma); VPD not explicitly named but uni-assist pre-check implied",
+          "application_portal_detail": "uni-assist for foreign applicants (except Erasmus/exchange or those with existing admission letter); own student services for German applicants",
+          "gpa_requirement_verified": "Not found (vocationally-qualifying Bachelor's required, no numeric grade stated)",
+          "language_requirements_verified": "Not found; program 100% English-taught",
+          "tuition_and_fees_verified": "Not found; uni-assist application fees apply",
+          "deadlines_verified": "Most commonly cited: 15 July (winter semester) via uni-assist; 15 January (summer); one page says portal opens early May",
+          "curriculum_summary": "4 semesters (2 years), 120 ECTS, English-taught",
+          "required_documents": "Not found in detail",
+          "contact_info": "Not found directly; Student Services Office referenced generally",
+          "newly_found_info": "Confirmed uni-assist requirement (with exceptions for exchange students); program flyer PDF location found",
+          "corrections": [],
+          "notes": "Official program page remains unreachable (404); relied on search aggregation of official-adjacent TU Chemnitz pages."
+        }
       }
     },
     {
@@ -3955,7 +4672,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "€790/month full-time (3 semesters) or €480/month part-time (5 semesters), all courses/exams included. No EU application fee; €100 non-EU application fee."
         },
-        "exact_admission_regulations": "Required docs: motivation letter, CV, Bachelor's certificate, English proof; optional German courses via bfz; German not required."
+        "exact_admission_regulations": "Required docs: motivation letter, CV, Bachelor's certificate, English proof; optional German courses via bfz; German not required.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://hdbw-hochschule.com/master/digital-factory-and-operational-excellence"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - private university (HDBW), does not appear to use uni-assist/VPD",
+          "application_portal_detail": "HDBW direct online application (/advice-application/apply-now)",
+          "gpa_requirement_verified": "No GPA stated ('no numerus clausus')",
+          "language_requirements_verified": "English B2 via TOEFL/IELTS/TOEIC/FCE/CPE/BEC or official English-medium confirmation; no minimum score numbers given",
+          "tuition_and_fees_verified": "€790/month full-time(3 sem) or €480/month part-time(5 sem), all courses/exams included; €100 non-EU application fee, none for EU",
+          "deadlines_verified": "EU/domestic: 14 March(summer)/30 Sept(winter); Non-EU: 15 Jan(summer)/31 July(winter)",
+          "curriculum_summary": "Full-time 3 sem/90 ECTS: Analysis&Planning; Management/Design/Optimisation; Strategy&Evaluation; topics incl. lean production, digital factory planning, SCM, big data/BI, agile PM, cybersecurity; 18 ECTS thesis + 2 ECTS final exam. Part-time 5 sem same content.",
+          "required_documents": "Motivation letter, CV, Bachelor's certificate, English proof",
+          "contact_info": "Sara Zurek +49 89 4567845-11 studienberatung@hdbw-hochschule.de; Prof. Dr. Matthias Pfeffer +49 89 4567845-22; info@hdbw-hochschule.de",
+          "newly_found_info": "Non-EU Bachelor's holders require compulsory one-semester Pre-Master (waivable with matching degree + 3+ years work experience). Several admission/tuition/pre-master subpages identified.",
+          "corrections": [],
+          "notes": "Largely confirms prior data; no uni-assist/VPD used by this private institution."
+        }
       }
     },
     {
@@ -4037,7 +4772,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Application details on separate linked 'Bewerbung' page (uol.de/studiengang/bewerben/digitalised-energy-systems-master-630); study advice via Jörg Bremer, Department für Informatik."
+        "exact_admission_regulations": "Application details on separate linked 'Bewerbung' page (uol.de/studiengang/bewerben/digitalised-energy-systems-master-630); study advice via Jörg Bremer, Department für Informatik.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://uol.de/informatik/msc/des",
+            "https://uol.de/studiengang/digitalised-energy-systems-master-630"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on either page; international applicants follow 'different application formalities' (unspecified)",
+          "application_portal_detail": "/studiengang/bewerben/digitalised-energy-systems-master-630/freshman/de (online application portal)",
+          "gpa_requirement_verified": "No minimum GPA stated",
+          "language_requirements_verified": "English B2 CEFR, proof ≤2 years old, via B2 test, English-taught prior degree, or other recognized B2 test",
+          "tuition_and_fees_verified": "Not mentioned",
+          "deadlines_verified": "Winter-only intake: German/EU applicants 15 July; Non-EU applicants 15 June",
+          "curriculum_summary": "4 semesters, ~120 CP: Fundamental Competences 54 CP (Automation&EE / CS&Energy Informatics); Foundations of Digitalised Energy Systems 36 CP (automation/control/optimisation, design/assessment, Innovation Topics&Smart Grids); Thesis 30 CP",
+          "required_documents": "Not listed in detail; module handbook, flyer, Studienverlaufsplan, Zugangsordnung (admission regs) PDF available",
+          "contact_info": "Jörg Bremer (study advisor); Zentrale Studien- und Karriereberatung; Carl von Ossietzky Universität Oldenburg, Ammerländer Heerstraße 114-118, 26129 Oldenburg, +49(0)441 798-0",
+          "newly_found_info": "Found subject aptitude credit minimums (programming ≥5CP, info processing ≥5CP, math ≥10CP). Found restricted-admission status and curriculum breakdown not in original data.",
+          "corrections": [
+            {
+              "field": "application_process/deadlines",
+              "old": "Not found via official site",
+              "corrected": "Winter-only; German/EU 15 July, Non-EU 15 June",
+              "evidence": "uol.de programme profile page"
+            }
+          ],
+          "notes": "Substantially filled in gaps that were 'not found' in current_official_data."
+        }
       }
     },
     {
@@ -4119,7 +4880,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not mentioned on page."
         },
-        "exact_admission_regulations": "Double degree: Year 1 Lappeenranta (Finland), Year 2 Hannover; thesis in Hannover; graduates get M.Sc. Power Engineering (Hannover) + M.Sc. Technology Energy Technology (Lappeenranta); non-EU applicants need uni-assist VPD; program starts 1 September yearly."
+        "exact_admission_regulations": "Double degree: Year 1 Lappeenranta (Finland), Year 2 Hannover; thesis in Hannover; graduates get M.Sc. Power Engineering (Hannover) + M.Sc. Technology Energy Technology (Lappeenranta); non-EU applicants need uni-assist VPD; program starts 1 September yearly.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/renewable-energy-and-electrical-power-engineering"
+          ],
+          "vpd_uni_assist_required": "YES - EXPLICITLY REQUIRED. Page states 'VPD from uni-assist is required' for non-EU first-year students.",
+          "application_portal_detail": "Apply via LUH's own portal; non-EU first-year applicants must also obtain VPD from uni-assist; partner university (LUT Finland) also reviews applications",
+          "gpa_requirement_verified": "No numeric GPA; Bachelor's grade should be 'good or excellent'",
+          "language_requirements_verified": "English C1 required; German/Finnish recommended but not required; no specific test score listed",
+          "tuition_and_fees_verified": "Not mentioned on page",
+          "deadlines_verified": "1 December (previous year) to 15 January (year of winter start) for first-year, non-EU, and transfer students",
+          "curriculum_summary": "4 semesters; Year1 at LUT Lappeenranta(Finland), Year2 at LUH Hannover(thesis here); topics: Power Transmission, Electricity Market, Energy Efficiency, Energy Resources, Electrothermal Processes, Electrical Machines, Energy Storage, Thermodynamics, Fluid Machinery; dual degree: M.Sc. Power Engineering(LUH)+M.Sc.Tech Energy Technology(LUT)",
+          "required_documents": "Bachelor's certificate, motivation letter, proof of English C1, VPD from uni-assist (non-EU first-years), admission regulations",
+          "contact_info": "Student Advisory Services +49 511 762 2020, Welfengarten 1, 30167 Hannover, Building 1101",
+          "newly_found_info": "CONFIRMS user's concern pattern: VPD explicitly required here, with a dedicated VPD subpage at /en/studium/vor-dem-studium/bewerbung-zulassung/voraussetzungen-zum-studium/vorpruefungsdokumentation",
+          "corrections": [
+            {
+              "field": "vpd_requirement",
+              "old": "non-EU applicants need uni-assist VPD (already present)",
+              "corrected": "CONFIRMED - page explicitly states 'VPD from uni-assist is required' for non-EU first-year students",
+              "evidence": "Direct page text and dedicated VPD subpage"
+            }
+          ],
+          "notes": "This program ALREADY had VPD noted correctly in current_official_data; re-verification confirms accuracy."
+        }
       }
     },
     {
@@ -4244,6 +5030,25 @@ const DATABASE = {
           ],
           "additional_info_found": "Application portal opening announced for 1 November 2026 (per site banner). Contact: E-PiCo+ Management Office, École Centrale de Nantes, 1 rue de la Noë, 44321 Nantes Cedex 3, France; email epico@ec-nantes.fr. Page last updated 17 August 2026 — program appears to be renamed/relaunched as 'E-PiCo+'.",
           "notes": "IMPORTANT: current_data's detailed module/ECTS/GPA/language claims could not be confirmed because the homepage is a landing page only; the program has apparently been renewed as 'E-PiCo+' (name change noted via banner/site branding), so some of current_data's specifics (tied to the older E-PiCo cohort) may be outdated. Recommend fetching the site's Admission and Programme subpages directly for authoritative figures before trusting current_data's numbers."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://master-epico.ec-nantes.fr",
+            "https://master-epico.ec-nantes.fr/english-version/admission-1 (links only, content not fetched this round)"
+          ],
+          "vpd_uni_assist_required": "Not applicable/not mentioned - Erasmus Mundus consortium uses own admission portal, not German uni-assist",
+          "application_portal_detail": "Consortium admission portal opening 1 November 2026 per homepage banner; full Admission section exists with 'Who can apply', 'How to apply', 'Deadlines', 'Fees and Scholarship', 'Selection' subpages (not fetched this round due to time)",
+          "gpa_requirement_verified": "UNVERIFIABLE this round - homepage still lacks figures; subpages exist but weren't fetched",
+          "language_requirements_verified": "UNVERIFIABLE this round - same limitation",
+          "tuition_and_fees_verified": "UNVERIFIABLE this round - 'Fees and Scholarship' subpage exists but not fetched",
+          "deadlines_verified": "Application portal opens 1 November 2026 (confirmed again)",
+          "curriculum_summary": "Programme/Curriculum subpage exists at /english-version/programme/curriculum (not fetched this round)",
+          "required_documents": "Not fetched this round",
+          "contact_info": "E-PiCo+ Management Office, 1 rue de la Noë, 44321 Nantes Cedex 3, France; epico@ec-nantes.fr",
+          "newly_found_info": "Full site navigation structure discovered: Admission (Who can apply/How to apply/Deadlines/Fees&Scholarship/Selection), Programme (About/Curriculum/Degrees/Career/HCERES report/Quality), Partners (5 confirmed: Centrale Nantes, Kiel, L'Aquila Italy, Politehnica Bucharest Romania, CINVESTAV Mexico)",
+          "corrections": [],
+          "notes": "IMPORTANT GAP: time constraints meant the actual Admission/Deadlines/Fees subpages (whose URLs were found) were not fetched this round, so the GPA/IELTS/tuition specifics from the old current_data remain exactly as unverifiable as before. Recommend a follow-up fetch of https://master-epico.ec-nantes.fr/english-version/admission/who-can-apply , /how-to-apply , /deadlines , /fees-scholarships specifically."
         }
       },
       "university_deep_info": {
@@ -4372,6 +5177,24 @@ const DATABASE = {
           "discrepancies": [],
           "additional_info_found": "Via web search of third-party aggregators (not fully official, so treat cautiously): admission open to bachelor's holders in biomedical engineering, electrical and computer engineering, media technology, or comparable field; English C1 required; aptitude test required; application deadlines possibly 15 January (summer semester) / 15 July (winter semester) per MyGuide listing; program duration reported as 3 semesters in most sources (one aggregator inconsistently also states 1.5-3.5 years).",
           "notes": "Original URL in the record (.../orient/courses-on-offer/detail/...) returned HTTP 404 — the site has restructured its URL path to '.../orientation/degree-programs/detail/...'. Corrected URL found via search but was not independently fetched/confirmed in this session (WebFetch on the old URL failed; recommend re-verifying the new URL directly). All GPA/tuition/IELTS specifics in current_data remain UNVERIFIABLE against a live official fetch."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch (official hs-anhalt.de admission page returned 404; relied on secondary aggregators)"
+          ],
+          "vpd_uni_assist_required": "Uni-assist likely required for foreign applicants per secondary sources; VPD not explicitly confirmed on an official page",
+          "application_portal_detail": "Foreign applicants reportedly apply via uni-assist (Hochschule Anhalt listed on uni-assist portal) per secondary source",
+          "gpa_requirement_verified": "Unconfirmed officially; one aggregator cites German-scale GPA 2.40",
+          "language_requirements_verified": "English C1 per secondary source; one aggregator claims TOEFL 95/IELTS 7 (unconfirmed)",
+          "tuition_and_fees_verified": "Unconfirmed; one source cites €30 application fee (possibly outdated)",
+          "deadlines_verified": "15 January (following summer semester); 15 July (following winter semester) per secondary sources",
+          "curriculum_summary": "Not independently reconfirmed this round (official URL 404 again)",
+          "required_documents": "Not confirmed",
+          "contact_info": "Not confirmed via official source this round",
+          "newly_found_info": "None beyond prior 'unreachable' status - still could not get an official hs-anhalt.de page to load in this session",
+          "corrections": [],
+          "notes": "Remains unreachable officially. The official URL in current_official_data (.../orientation/degree-programs/detail/...) still 404s. Recommend trying hs-anhalt.de/met or a site search directly on hs-anhalt.de rather than external aggregators."
         }
       },
       "university_deep_info": {
@@ -4511,6 +5334,31 @@ const DATABASE = {
           ],
           "additional_info_found": "Contact for admissions: mastermem@oth-regensburg.de. Admission requires passing an aptitude test in addition to the GPA/ECTS threshold. Program only runs if enough qualified applicants apply (minimum enrollment threshold).",
           "notes": "Original URL (.../fakultaeten/elektro-und-informationstechnik/studiengaenge/master-electrical-and-microsystems-engineering) returned HTTP 404; corrected URL found via search is https://www.oth-regensburg.de/studiengang/electrical-and-microsystems-engineering-studieren (English: https://www.oth-regensburg.de/en/study-programme/study-electrical-and-microsystems-engineering-master), but this was not independently re-fetched in this session to confirm all fields live — recommend direct fetch of SPO MEM 2023-04-28 PDF for authoritative, current admission regulation text. Tuition fee and IELTS/TOEFL specifics in current_data remain UNVERIFIABLE."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.oth-regensburg.de/studiengang/electrical-and-microsystems-engineering-studieren"
+          ],
+          "vpd_uni_assist_required": "YES - EXPLICITLY REQUIRED. Page states a VPD (Vorprüfungsdokumentation) from uni-assist is required for recognizing foreign bachelor's certificates, processing 4-6 weeks, must be submitted before deadline.",
+          "application_portal_detail": "Online application portal (hisinone-studium.oth-regensburg.de); foreign-degree applicants additionally need VPD from uni-assist",
+          "gpa_requirement_verified": "Not stated on main page; a separate qualification-requirements info sheet exists (not fetched); prior session's 2.5 GPA figure from a 2021 flyer remains unconfirmed against current SPO",
+          "language_requirements_verified": "English: IELTS 6.0, TOEFL 400(PBT)/85(iBT), Cambridge B2, or TELC B2. German (for German-taught modules): DSH1, TestDaF TDN3 all sections, Goethe C1, telc C1, DSD StageII B2, or DSP II StageII C1",
+          "tuition_and_fees_verified": "Semester fee for all students; additional 'service fee' for non-EU students in English-taught programs since WS2024/25 (amount not given)",
+          "deadlines_verified": "Winter: 01.05-31.05 (start 01.10); Summer: 15.11-15.12 (start 15.03)",
+          "curriculum_summary": "90 ECTS, 3 semesters standard (4 sem for dual 'vertiefte Praxis'). Basismodule ≥26 credits (1 each from Basis1-4); Vertiefung ≥20 credits; Interdisziplinär ≥12 credits; Research project 6 credits; Thesis 26 credits (often with regional company). Double-degree options with USM Penang, UTAR Kuala Lumpur/Kampar (Malaysia)",
+          "required_documents": "Online portal registration + document upload (full checklist not itemized here); enrollment needs signed application, data protection declaration, passport copy, health insurance confirmation (M10)",
+          "contact_info": "mastermem@oth-regensburg.de; OTH Regensburg +49 941 943 02 poststelle@oth-regensburg.de, Seybothstraße 2, 93053 Regensburg",
+          "newly_found_info": "CONFIRMS VPD explicitly required - this is a direct example of the exact gap type the user flagged (FH Dortmund ESE). Dedicated uni-assist/VPD info PDF link found: Info_uni_assist.pdf. MEM Admission FAQ PDF and step-by-step application guide PDF also found. Malaysia double-degree partnerships newly found.",
+          "corrections": [
+            {
+              "field": "vpd_uni_assist_required",
+              "old": "not previously flagged explicitly as a distinct field",
+              "corrected": "VPD from uni-assist explicitly required per official page and dedicated info PDF",
+              "evidence": "'Required for recognizing foreign bachelor's certificates. Request a Vorprüfungsdokumentation (VPD) from uni-assist. Processing takes 4 to 6 weeks.'"
+            }
+          ],
+          "notes": "HIGH PRIORITY FINDING: this program explicitly requires VPD, same pattern as the FH Dortmund miss the user found. Previous session's data did not capture this at all."
         }
       },
       "university_deep_info": {
@@ -4604,7 +5452,40 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site (no tuition for EU typically; not confirmed for non-EU)."
         },
-        "exact_admission_regulations": "As of summer semester 2024, program comprises 4 semesters and 120 credit points (previously 3 semesters/90 ECTS); GRE requirement disputed between sources; contact university's 'Information Studium' office for authoritative details."
+        "exact_admission_regulations": "As of summer semester 2024, program comprises 4 semesters and 120 credit points (previously 3 semesters/90 ECTS); GRE requirement disputed between sources; contact university's 'Information Studium' office for authoritative details.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-kassel.de/uni/en/study/electrical-communication-engineering-master.html",
+            "https://www.uni-kassel.de/uni/studium/electrical-communication-engineering-master/application-and-admission.html",
+            "uni-kassel.de foreign-certificates subpage (via search snippet)"
+          ],
+          "vpd_uni_assist_required": "Uni-assist required for foreign-degree holders (pre-evaluates, requests missing docs); VPD term not used on official pages found",
+          "application_portal_detail": "German-degree holders: university's own online master's portal. Foreign-degree holders: must apply via uni-assist AND pay the uni-assist fee (upload alone insufficient)",
+          "gpa_requirement_verified": "Foreign-certificate subpage states final mark of 2.5 or better required (confirms secondary-source figure from prior session)",
+          "language_requirements_verified": "Not specified numerically on official pages; English is language of instruction",
+          "tuition_and_fees_verified": "Not stated; general semester fee only, refers to student enquiries team",
+          "deadlines_verified": "Winter: degree-in-Germany 01.06-01.09; degree-outside-Germany 01.03-15.07. Summer: degree-in-Germany 01.12-01.03; degree-outside-Germany 01.09-15.01 (official table, resolves prior session's uncertainty)",
+          "curriculum_summary": "4 semesters (2 years) confirmed; Sem1-3 modules/seminars/labs; Sem4 thesis only; one integrated internship project during studies",
+          "required_documents": "CV, letter of motivation, 2 references; foreign documents need certified translations (German or English) and certified copies",
+          "contact_info": "Information Studium: study@uni-kassel.de, +49 561 804-2205",
+          "newly_found_info": "Official deadline table resolves the 'conflicting secondary sources' flagged previously. uni-assist processing time ~4-6 weeks confirmed by search snippet of foreign-certificates page.",
+          "corrections": [
+            {
+              "field": "application_process/deadlines",
+              "old": "Conflicting secondary sources: Jan/March vs 15 July",
+              "corrected": "Official 4-window table: Winter(DE-degree)01.06-01.09, Winter(foreign)01.03-15.07, Summer(DE)01.12-01.03, Summer(foreign)01.09-15.01",
+              "evidence": "Official uni-kassel.de application-and-admission page"
+            },
+            {
+              "field": "minimum_gpa_cutoff",
+              "old": "2.5 per aggregators, unconfirmed",
+              "corrected": "CONFIRMED 2.5 per official foreign-certificates subpage text",
+              "evidence": "Search snippet quoting uni-kassel.de page text"
+            }
+          ],
+          "notes": "Official URL was reachable this round (unlike prior session's note); good improvement in confirmation level."
+        }
       }
     },
     {
@@ -4686,7 +5567,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not mentioned on page."
         },
-        "exact_admission_regulations": "Applications via university's general Master's application page; separate German-language 'Elektrotechnik und Informationstechnik' Master's also exists (not covered here)."
+        "exact_admission_regulations": "Applications via university's general Master's application page; separate German-language 'Elektrotechnik und Informationstechnik' Master's also exists (not covered here).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.f05.uni-stuttgart.de/en/ei/prospective_students/eeng/",
+            "https://www.f05.uni-stuttgart.de/en/ei/prospective_students/eeng/admission_regulations/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on pages fetched this round; the binding legal text is a German-only PDF plus an English 'reading version' (not legally binding) PDF that could not be opened",
+          "application_portal_detail": "General Uni Stuttgart master's application page (uni-stuttgart.de/en/study/application/master); admission-regulations subpage is just a navigation stub pointing to a PDF",
+          "gpa_requirement_verified": "UNVERIFIABLE - not in fetched content; PDF with details could not be opened",
+          "language_requirements_verified": "UNVERIFIABLE - program 'completed entirely in English', German not required, but no test score found",
+          "tuition_and_fees_verified": "UNVERIFIABLE",
+          "deadlines_verified": "UNVERIFIABLE",
+          "curriculum_summary": "Six specializations confirmed: Smart Information Processing, Smart Systems, Communication Systems, Electromagnetics and Applications, Power Electronic Systems and Technologies, Nano- and Optoelectronics",
+          "required_documents": "UNVERIFIABLE",
+          "contact_info": "Department contact page: https://www.f05.uni-stuttgart.de/en/ei/department/contact/",
+          "newly_found_info": "Found FAQ, Study Abroad, Module Manual, and Getting Started subpage links. Found that admission_regulations PDF exists at .../ei/dokumente/admissions_regulations_eeng.pdf but could not be fetched (likely PDF binary not renderable by WebFetch directly).",
+          "corrections": [],
+          "notes": "GPA/language/deadline/tuition/VPD specifics remain unconfirmed because the authoritative PDF could not be opened via WebFetch; recommend direct PDF download/parsing in a follow-up pass."
+        }
       }
     },
     {
@@ -4768,7 +5668,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Bavaria introduced tuition fees for non-EU/EEA students from WS 2025/26 per secondary source; non-EU applicants should confirm current fee."
         },
-        "exact_admission_regulations": "Foreign degrees require verification/validation by uni-assist; program listed as having restricted admission (NC)."
+        "exact_admission_regulations": "Foreign degrees require verification/validation by uni-assist; program listed as having restricted admission (NC).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-kempten.de/en/faculty-of-electrical-engineering/degree-courses/master/electrical-engineering"
+          ],
+          "vpd_uni_assist_required": "NO - explicitly stated 'your degree does not need to be assessed by uni-assist' for this program; VPD not mentioned",
+          "application_portal_detail": "MeinCampus online application portal (meincampus.hs-kempten.de)",
+          "gpa_requirement_verified": "No minimum GPA stated; merit/distinction graduates typically qualify",
+          "language_requirements_verified": "TOEFL iBT 75/CBT 206/PBT 525 min; IELTS 5.5 min; exemptions if English-taught prior degree or ≥2.5 in English as compulsory subject",
+          "tuition_and_fees_verified": "Not mentioned on page",
+          "deadlines_verified": "Winter: mid-April to 15 July; Summer: mid-November to 15 January (approximate, may vary by programme)",
+          "curriculum_summary": "90 ECTS (confirmed, 3 semesters: 2 lecture semesters + thesis semester). Summer modules: Advanced Control Systems, Electrical Drive Systems, Microelectronics, Telecom Systems, Power Electronics, Scientific Project+Seminar. Winter modules: DSP, Interface Electronics, HR Mgmt&Leadership, Wind Power Systems, Electronics Cooling, Electronics in Space/Ground. Options: full/part-time, dual award w/ University of Ulster, extended-practice variant",
+          "required_documents": "Completed application form, notarised bachelor's certificate, transcript, English proficiency evidence, notarised birth certificate, signed CV, passport photo. Recommendation/motivation letters NOT wanted",
+          "contact_info": "Prof. Dr.-Ing. Frank Fischer (academic advisor); Prof. Dr.-Ing. Stefan Brückl (Examinations Board); Hochschule Kempten, Bahnhofstraße 61, 87435 Kempten, Tel 0831/25 23-0",
+          "newly_found_info": "CONTRADICTS prior data: explicitly NO uni-assist needed (prior data said 'foreign degrees require verification by uni-assist'). Dual award partner (University of Ulster) newly found. Bonus-grade mechanism (GRE/work-exp/pubs) not previously noted - wait, that's RWU not Kempten, confirmed separately.",
+          "corrections": [
+            {
+              "field": "exact_admission_regulations (uni-assist)",
+              "old": "'Foreign degrees require verification/validation by uni-assist'",
+              "corrected": "Page explicitly states uni-assist assessment is NOT required: 'your degree does not need to be assessed by uni-assist'",
+              "evidence": "Direct page text"
+            },
+            {
+              "field": "language_requirements",
+              "old": "Not confirmed via official site; secondary source claims German A1 required, conflicting",
+              "corrected": "German A1 NOT required (program is English-taught, German proficiency not required); English TOEFL iBT75/IELTS5.5 confirmed",
+              "evidence": "Official faculty page"
+            }
+          ],
+          "notes": "IMPORTANT CORRECTION: prior data wrongly implied uni-assist/VPD was needed; official page says the opposite for this specific program."
+        }
       }
     },
     {
@@ -4850,7 +5781,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Official SPO (Studien- und Prüfungsordnung) PDF dated SS25 and MEE handbook linked from tha.de hold authoritative current criteria; information events held each semester per DAAD listing."
+        "exact_admission_regulations": "Official SPO (Studien- und Prüfungsordnung) PDF dated SS25 and MEE handbook linked from tha.de hold authoritative current criteria; information events held each semester per DAAD listing.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.tha.de/hochschule/fakultaet/elektrotechnik/faqs-master/ (official FAQ page; direct .../MEE.html URL still 404s)"
+          ],
+          "vpd_uni_assist_required": "YES - EXPLICITLY REQUIRED. 'Foreign applicants must submit a VPD from uni-assist... A VPD issued for another university or program is not accepted.' Both VPD AND separate online THA application required.",
+          "application_portal_detail": "THA online portal + VPD upload from uni-assist for foreign-degree holders; language certificate submitted directly to university (NOT via uni-assist)",
+          "gpa_requirement_verified": "German-degree holders: overall grade 2.69 or better + ≥210 ECTS in Electrical Eng/Info Tech, Mechatronics, or Computer Engineering (or equivalent). No separate foreign-GPA minimum stated (VPD converts to German scale)",
+          "language_requirements_verified": "Non-native speakers need a certificate listed in Application Information Booklet (not detailed here); exemptions for THA bachelor's grads under old ET/ME/TI curricula, or German Abitur/Fachabitur confirming CEFR B2",
+          "tuition_and_fees_verified": "No separate international tuition; semester fee €164.25",
+          "deadlines_verified": "Not stated; review starts after deadline, results ~3 weeks later; admission offer valid 1 year (can defer up to 2 semesters, must re-apply)",
+          "curriculum_summary": "Not detailed on FAQ page this round",
+          "required_documents": "Degree certificate, final transcript, diploma supplement if available (certified copies, no translation needed if in English); language certificate (direct submission); motivation letter (covering motivation/reasons/competences) uploaded under 'other documents'; de-registration letter helpful but optional. NOT needed: employment certs, recommendation letters, program descriptions",
+          "contact_info": "Student Affairs Office: studienangelegenheiten@tha.de; Technische Hochschule Augsburg, An der Hochschule 1, 86161 Augsburg, +49(0)821 5586-0",
+          "newly_found_info": "MAJOR FINDING: explicit, detailed VPD requirement confirmed, including that a VPD from a DIFFERENT program/university is NOT transferable - must be specific to this program. This directly mirrors the FH Dortmund ESE gap the user flagged.",
+          "corrections": [
+            {
+              "field": "vpd_uni_assist_required",
+              "old": "Not found via official site; language handled under separate statute",
+              "corrected": "VPD from uni-assist explicitly and specifically required (program-specific, not transferable from other VPDs)",
+              "evidence": "Official TH Augsburg Master's Electrical Engineering FAQ page"
+            },
+            {
+              "field": "minimum_gpa_cutoff",
+              "old": "Secondary/unconfirmed: ~2.69 cited by aggregator",
+              "corrected": "CONFIRMED officially: 2.69 or better + ≥210 ECTS for German-degree holders",
+              "evidence": "Official FAQ page text"
+            }
+          ],
+          "notes": "HIGH PRIORITY FINDING - another explicit VPD requirement found, same gap pattern as FH Dortmund."
+        }
       }
     },
     {
@@ -4932,7 +5894,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated on page."
         },
-        "exact_admission_regulations": "International applicants via UniAssist; instruction in English, some modules/exams in German; mandatory German course if native language isn't German; 4 semesters (120 LP); specializations: Information Technology and Power Engineering; contact ee.ief@uni-rostock.de."
+        "exact_admission_regulations": "International applicants via UniAssist; instruction in English, some modules/exams in German; mandatory German course if native language isn't German; 4 semesters (120 LP); specializations: Information Technology and Power Engineering; contact ee.ief@uni-rostock.de.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.ief.uni-rostock.de/ee-msc"
+          ],
+          "vpd_uni_assist_required": "International students apply via uni-assist; page does NOT mention VPD explicitly",
+          "application_portal_detail": "International: uni-assist, then enroll at Uni Rostock after admission notice. German students from other unis: enroll online. Rostock's own students: re-register at Studierendensekretariat.",
+          "gpa_requirement_verified": "At least 85% CGPA or comparable, or GATE ≥500 (confirmed)",
+          "language_requirements_verified": "Native English exempt; else TOEFL iBT ≥94 or IELTS ≥7.0; proof ≤2 years old (confirmed)",
+          "tuition_and_fees_verified": "Not stated",
+          "deadlines_verified": "Not stated; starts winter(1 Oct) or summer(1 Apr)",
+          "curriculum_summary": "4 semesters, 120 LP. Compulsory(60LP): thesis(30LP)+specialisation(18LP)+basis modules(12LP). Elective(60LP): 42LP from chosen specialization + 6LP from the other + 12LP language modules. Specializations: Information Technology, Power Engineering, chosen at thesis registration",
+          "required_documents": "Not itemized; degree, electromagnetic fields(≥3LP)/math(≥18LP)/programming(≥6LP) prerequisite credits required",
+          "contact_info": "Prof. Dr.-Ing. Sascha Spors (0381)4987006; Tina Zorn - Studienbüro/Prüfungsamt (0381)4987006; ee.ief@uni-rostock.de; studierendensekretariat@uni-rostock.de (0381)4981230",
+          "newly_found_info": "'Applying to Master EE' subpage link found; detailed prerequisite credit minimums confirmed",
+          "corrections": [],
+          "notes": "Largely confirms prior data; no VPD terminology found despite uni-assist use (consistent pattern across Rostock IEF programs)."
+        }
       }
     },
     {
@@ -5055,6 +6035,32 @@ const DATABASE = {
           ],
           "additional_info_found": "Program structure confirmed: 120 ECTS, 2-year (4-semester) program, English-taught, consisting of lectures, seminars, lab courses, a research group project, and a thesis. ATHENA double-degree partnership referenced via a ZEW/ATHENA event link.",
           "notes": "This is the most concerning entry: the source page itself warns it is outdated/being replaced, meaning current_data (allegedly sourced from this very page) may have been built from a stale or soon-to-be-removed page. Strongly recommend finding and re-verifying against the university's current (uni-siegen.de) replacement page for this program before relying on any of current_data's specific figures (GPA cutoff, tuition-free status, English test scores, module names)."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-siegen.de (homepage only - program page not located this round)",
+            "WebSearch for uni-siegen.de electrical engineering master"
+          ],
+          "vpd_uni_assist_required": "Unconfirmed this round",
+          "application_portal_detail": "Apply via unisono.uni-siegen.de per third-party sources; Zentrale Studienberatung (ZSB) listing at /zsb/studienangebot/master/etechnik.html.en confirms program exists with application required, starts both winter and summer",
+          "gpa_requirement_verified": "Unconfirmed; examination regulations reportedly specify per-track credit minimums (e.g. ≥20 CP automation theory/practice for that track)",
+          "language_requirements_verified": "Unconfirmed this round",
+          "tuition_and_fees_verified": "Unconfirmed",
+          "deadlines_verified": "Unconfirmed",
+          "curriculum_summary": "Three specialisation tracks confirmed via multiple sources: Automation Technology (German-taught), Communications Technology (English), Electronics Design and Technology (English) - this is a correction to prior session's assumption that only two English tracks exist",
+          "required_documents": "Unconfirmed",
+          "contact_info": "Zentrale Studienberatung: info.studienberatung@zsb.uni-siegen.de, +49 271 740-2712",
+          "newly_found_info": "Found official ZSB program listing URL (https://www.uni-siegen.de/zsb/studienangebot/master/etechnik.html.en) and 'electrical-engineering' landing page (https://www.uni-siegen.de/en/study/master/electrical-engineering) as replacements for the defunct eti.uni-siegen.de/edes/ page flagged in prior session.",
+          "corrections": [
+            {
+              "field": "official_source_url",
+              "old": "eti.uni-siegen.de/edes/ (flagged as being retired)",
+              "corrected": "New URLs identified: https://www.uni-siegen.de/en/study/master/electrical-engineering and https://www.uni-siegen.de/zsb/studienangebot/master/etechnik.html.en",
+              "evidence": "Search results and ZSB listing"
+            }
+          ],
+          "notes": "Confirmed prior session's finding that the old eti.uni-siegen.de page is outdated. Found replacement URLs but did not have time this round to fetch them for full GPA/language/deadline/VPD details - recommend following up directly on https://www.uni-siegen.de/en/study/master/electrical-engineering."
         }
       },
       "university_deep_info": {
@@ -5201,6 +6207,31 @@ const DATABASE = {
           ],
           "additional_info_found": "Admission documents required include a motivation letter/statement of purpose and passport copy. One (unconfirmed, third-party) aggregator claims proof of VHDL/Verilog knowledge may be required if not shown in transcripts — could not confirm on an official RWU page, flag as possibly relevant but unverified.",
           "notes": "Tuition fee note in current_data (Baden-Württemberg non-EU fee ~1,500 EUR/semester) is plausible given the state's known non-EU tuition policy but was not directly re-confirmed on the fetched pages in this session (original URL returned 404; a working URL was found via search but not independently re-fetched for exhaustive field-by-field confirmation)."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.rwu.de/en/study/courses/electrical-engineering-and-embedded-systems"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - applications go directly to RWU, not uni-assist",
+          "application_portal_detail": "Online RWU portal registration + mandatory postal submission of signed documents to Studierenden-Service (H022, Nadja Fuchs, Doggenriedstrasse 70, 88250 Weingarten)",
+          "gpa_requirement_verified": "Final grade ≥2.5 (German scale) + 210 ECTS (180 ECTS holders make up 30 ECTS during program); ranked by penultimate-semester CGPA if bachelor's pending; up to 0.6 bonus grade points (work experience, published paper, GRE-Q≥161, programming certificates, max 0.2 per category)",
+          "language_requirements_verified": "TOEFL iBT ≥70 (code 8442); IELTS overall ≥6.0; proof ≤2 years old; Medium of Instruction Certificates NOT accepted",
+          "tuition_and_fees_verified": "Semester fee + Baden-Württemberg non-EU/second-degree tuition (amount not given on page)",
+          "deadlines_verified": "15 April (listed, though page shows a 2025/26-dated window that may be stale); 30 places/winter intake only",
+          "curriculum_summary": "3 semesters full-time, winter-intake only, Weingarten campus, all English-taught + German as additional subject; topics: embedded computing, embedded control, signal processing, wireless communication, SoC, advanced mathematics; voluntary (non-mandatory) internship",
+          "required_documents": "Signed application form, certified Bachelor's degree copy, certified final/penultimate transcripts w/ grading scale, secondary certificate copy, English test certificate, CV, passport copy, motivation letter; conditionally: APS(India/China/Vietnam), German certificate, GRE report, programming certs, recommendation letters, publications",
+          "contact_info": "application-emm@rwu.de; Nadja Fuchs application@rwu.de +49 751 501-9528; Prof. Dr.-Ing. Lothar Berger lothar.berger@rwu.de +49-751-501-9630",
+          "newly_found_info": "Detailed bonus-grade-point mechanism (work exp/paper/GRE/programming certs, max 0.6 total) newly found - not in prior data. Explicit statement that Medium of Instruction Certificates are NOT accepted (contradicts common assumption). ~200+ applicants/year for 30 places noted.",
+          "corrections": [
+            {
+              "field": "application_deadline",
+              "old": "15 April for winter-semester intake (from prior session)",
+              "corrected": "CONFIRMED 15 April, but page's displayed window (01.02.2025-15.04.2025) appears to be a stale/outdated year - verify current cycle dates directly before relying on this",
+              "evidence": "RWU 'Apply' box and application section text"
+            }
+          ],
+          "notes": "No VPD/uni-assist found despite thorough check (RWU appears to handle international applications directly)."
         }
       },
       "university_deep_info": {
@@ -5294,7 +6325,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated on page."
         },
-        "exact_admission_regulations": "No restricted admission (open); 4 semesters; subject advisors Dr.-Ing. Martin Wilhelm and Prof. Dr.-Ing. Thilo Pionteck."
+        "exact_admission_regulations": "No restricted admission (open); 4 semesters; subject advisors Dr.-Ing. Martin Wilhelm and Prof. Dr.-Ing. Thilo Pionteck.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.ovgu.de/en/Study/Study+Programmes/Master/Electrical+Engineering+and+Information+Technology.html"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on page",
+          "application_portal_detail": "Not detailed on this page; refers to ovgu.de International Students / Full-Time Studies application forms/guidelines",
+          "gpa_requirement_verified": "Bachelor's grade point average 'at most 2.0 on the German scale' (confirmed - strict, note this is notably stricter than most peer programs' 2.5 threshold)",
+          "language_requirements_verified": "Language certificate equivalent to B2 under OVGU Framework of Reference; no specific test/score named",
+          "tuition_and_fees_verified": "Not mentioned",
+          "deadlines_verified": "Not stated on page; enrollment in winter semester, no restricted admission",
+          "curriculum_summary": "4 semesters confirmed; study regulations, examination regulations, module handbook linked via verwaltungshandbuch.ovgu.de (not fetched in detail)",
+          "required_documents": "Not listed on this page; application forms/guidelines referenced on ovgu.de International Students page",
+          "contact_info": "Dr.-Ing. Martin Wilhelm (Bldg 03, Rm 303); Prof. Dr.-Ing. Thilo Pionteck (Bldg 03, Rm 301); general phone +49 391 67-01, Universitätsplatz 2, 39106 Magdeburg",
+          "newly_found_info": "FAQ subpage at eit.ovgu.de (International, EEIT) identified but not fetched for detail.",
+          "corrections": [],
+          "notes": "Largely confirms prior data; GPA requirement (2.0, stricter than most peers) reconfirmed. No VPD found."
+        }
       }
     },
     {
@@ -5428,6 +6477,44 @@ const DATABASE = {
           ],
           "additional_info_found": "Program is noted as ~50% industry-based (internship + master thesis conducted in industry), with >80% student completion/success rate cited on the page. Contact: Department of Electrical Engineering, Birkenweg 8, 64295 Darmstadt; email master.fbe@h-da.de; central phone +49.6151.533-5000; Student Service Center +49.6151.533-5551. A separate 'Tuition & Fees' page is linked but was not independently fetched.",
           "notes": "current_data's detailed module breakdown (CMOS Analog Circuits, Mixed-Signal IC Design, etc.) appears to represent only the 'Embedded/EMIC' major out of four available majors — this is a potentially misleading framing since applicants could also choose Automation, Communication, or Power tracks. GPA and IELTS/TOEFL figures in current_data remain UNVERIFIABLE from the fetched content."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://mse.h-da.de",
+            "https://mse.h-da.de/admission/international-students"
+          ],
+          "vpd_uni_assist_required": "NOT mentioned - h_da uses its own online portal (KOPLA), not uni-assist/VPD, for this program",
+          "application_portal_detail": "h_da's own portal (KOPLA); electronic admission window 01.12-31.03; acceptance notification by 15.04 via KOPLA only",
+          "gpa_requirement_verified": "NO mandatory GPA - page explicitly states 'We do not have a mandatory GPA, as marks alone are hard to compare.' Admission board reviews EE background, sub-fields, work experience, training, motivation letter instead",
+          "language_requirements_verified": "TOEFL iBT ≥88 (institutional code 4776, dept code 66); IELTS academic/general overall ≥6.5 with no individual skill below 6; proof ≤2 years old. NOT accepted: language-of-tuition proof, IELTS one-skill tests, PTE Academic, Cambridge O-Levels, TOEFL iBT Home Edition, TOEFL pB/cB. German optional (considered advantageous)",
+          "tuition_and_fees_verified": "Not listed on this page; administrative fee payable after acceptance; separate 'Tuition and Fees' subpage exists (/admission/tuition-fees, not fetched)",
+          "deadlines_verified": "Portal opens December, electronic admission 01.12-31.03; acceptance notice by 15.04; accommodation application 01.03-15.06; mandatory pre-semester courses start 01.09; winter semester only",
+          "curriculum_summary": "4 majors confirmed: Automation, Communication, Embedded, Power (CORRECTS prior data's EMIC-only framing). ~50% industry-based (internship+thesis). Degree program name is 'IMSEIT'",
+          "required_documents": "CV (Europass format), passport copy, 2 recommendation letters (professor/employer), degree certificate (or letter of expected completion), language certificate, secondary school certificate, statement of intent/motivation letter, transcripts. Country-specific: India needs APS + new dMAT requirement; Pakistan needs HEC attestation (5-6+ months)",
+          "contact_info": "Department Electrical Engineering, Birkenweg 8, 64295 Darmstadt; master.fbe@h-da.de; +49.6151.533-5000; Student Service Center +49.6151.533-5551",
+          "newly_found_info": "MAJOR: No mandatory GPA policy explicitly stated (unusual among peer programs) - this contradicts the prior session's assumed 'German GPA 2.5 or better standard.' Also found 2 recommendation letters requirement, India dMAT requirement, Pakistan HEC attestation requirement - none previously captured.",
+          "corrections": [
+            {
+              "field": "gpa_conversion_benchmark",
+              "old": "German GPA 2.5 or better standard",
+              "corrected": "NO mandatory GPA - admissions board uses holistic review (EE background, sub-fields, work experience, training, motivation) instead of a grade cutoff",
+              "evidence": "Official h_da International Students admission page: 'We do not have a mandatory GPA, as marks alone are hard to compare.'"
+            },
+            {
+              "field": "curriculum_majors",
+              "old": "current_data implied EMIC-only focus",
+              "corrected": "Confirmed FOUR majors: Automation, Communication, Embedded, Power",
+              "evidence": "h_da program landing page"
+            },
+            {
+              "field": "language_requirements_verified",
+              "old": "English B2 (IELTS 6.0/TOEFL iBT 80)",
+              "corrected": "Actually TOEFL iBT ≥88 / IELTS ≥6.5 (no skill below 6) - higher than B2/6.0/80 previously stated",
+              "evidence": "Official International Students admission subpage"
+            }
+          ],
+          "notes": "SIGNIFICANT CORRECTIONS found: GPA policy and language score thresholds were both wrong in current_official_data. No VPD/uni-assist used for this program."
         }
       },
       "university_deep_info": {
@@ -5505,6 +6592,24 @@ const DATABASE = {
         "contact_address": "Schinkelstraße 2, 52062 Aachen, Germany",
         "course_website": "Linked on DAAD page (RWTH Faculty of EEIT)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3699/"
+      },
+      "official_website_data": {
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [],
+          "vpd_uni_assist_required": "Not checked - current_official_data was null and no official_source_url was provided for this entry (RWTH Aachen Electrical Power Engineering); out of scope for this fetch pass since there was no URL to follow",
+          "application_portal_detail": "Not checked",
+          "gpa_requirement_verified": "Not checked",
+          "language_requirements_verified": "Not checked",
+          "tuition_and_fees_verified": "Not checked",
+          "deadlines_verified": "Not checked",
+          "curriculum_summary": "Not checked",
+          "required_documents": "Not checked",
+          "contact_info": "Not checked",
+          "newly_found_info": "None - no official_source_url was supplied in the input data for this entry, so no fetch was attempted",
+          "corrections": [],
+          "notes": "official_source_url and current_official_data were both null in input. Recommend a separate pass to locate RWTH Aachen's official page for this program before re-verifying."
+        }
       }
     },
     {
@@ -5638,6 +6743,25 @@ const DATABASE = {
           ],
           "additional_info_found": "Program advisor: Prof. Dr. Wolfgang Kunz. Site structure includes separate Program overview, Teaching staff, Curriculum, and Teaching areas pages, plus an 'Advice & Contact' section, none of which were directly fetched for full module/deadline detail in this pass.",
           "notes": "The GPA cutoff of 3.5/4.0 (roughly equivalent to German 2.5-ish or stricter, depending on conversion scale) is now CONFIRMED directly from the official admission page, which is a meaningful validation of current_data's figure. However, GRE/recommendation-letter claims could not be confirmed or denied from the pages fetched and should be treated as unverified rather than disproven."
+        },
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://eit.rptu.de/en/esy/",
+            "https://eit.rptu.de/en/esy/admission"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - neither the landing page nor the admission subpage mentions uni-assist or VPD at all",
+          "application_portal_detail": "German bachelor holders apply via the RPTU online application portal (select 'konsekutiver Master', subject 'Embedded Computing Systems'); non-German bachelor holders have applications handled by the International Affairs Team (portal linked on admission page), which also assists with visas",
+          "gpa_requirement_verified": "CONFIRMED: Bachelor grade must be at least CGPA 3.5/4 or equivalent (exact quote: 'shall be not lower than a CGPA of 3.5/4 or equivalent')",
+          "language_requirements_verified": "Not found on either page fetched - no IELTS/TOEFL scores stated on landing or admission subpage",
+          "tuition_and_fees_verified": "Not found on either page",
+          "deadlines_verified": "Not found on either page",
+          "curriculum_summary": "Not re-verified this pass; prior data on core/elective modules and 120 ECTS over 4 semesters not contradicted",
+          "required_documents": "Admission page references a 'checklist' and 'detailed prerequisites' page but contents not extracted",
+          "contact_info": "Not found on pages fetched",
+          "newly_found_info": "Admission decided via dual-track process depending on applicant's degree origin (German vs. non-German); International Affairs Team is the specific unit handling foreign applicants, separate from standard portal path",
+          "corrections": [],
+          "notes": "Also checked /en/prospective-students and /en/esy/advice-contact were linked but not fetched; GPA figure re-confirmed consistent with prior verification pass."
         }
       },
       "university_deep_info": {
@@ -5731,7 +6855,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "TU Chemnitz Embedded Systems M.Sc. official page link from DAAD/university site is broken (404); could not independently confirm beyond DAAD listing."
+        "exact_admission_regulations": "TU Chemnitz Embedded Systems M.Sc. official page link from DAAD/university site is broken (404); could not independently confirm beyond DAAD listing.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch: TU Chemnitz Embedded Systems Master admission requirements uni-assist"
+          ],
+          "vpd_uni_assist_required": "Likely Yes but not independently confirmed - official program page (tu-chemnitz.de/etit/stugang) still returns 404/unreachable; third-party aggregator sources state international applicants generally apply via uni-assist, which issues VPD for non-German-qualification applicants, with exceptions for German-degree holders, Studienkolleg/FSP completers without a TUC admission letter, and German citizens",
+          "application_portal_detail": "Per third-party sources: international applicants apply via uni-assist (fee 75 EUR first program, 30 EUR per additional); German A-level/degree holders, exchange students, and German citizens apply directly via TU Chemnitz's own online portal",
+          "gpa_requirement_verified": "Not verified - official page unreachable; general requirement cited as 'vocationally-qualifying Bachelor's in Electrical Engineering and Information Technology or equivalent', no numeric GPA found",
+          "language_requirements_verified": "Conflicting/unverified: TU Chemnitz's own page (per search snippet) reportedly lists English B2 + German A1 (A2 by end of 3rd semester); third-party listings claim IELTS 5.5/TOEFL iBT 72 - these conflict and neither could be confirmed by direct fetch since the official page is down",
+          "tuition_and_fees_verified": "Not found; program is 120 ECTS over 4 semesters (2 years) per third-party sources",
+          "deadlines_verified": "Winter semester (October start): uni-assist deadline reportedly 15 July (one source says 15 January for summer term - inconsistent, unverified)",
+          "curriculum_summary": "Not independently verified this pass",
+          "required_documents": "uni-assist checks Studienkolleg requirement via anabin database; does not return submitted documents",
+          "contact_info": "Not found",
+          "newly_found_info": "Clarified that the official program URL (tu-chemnitz.de/etit/stugang) is still broken/unreachable as in the prior pass; all info in this entry comes from third-party aggregators (mygermanuniversity, mastersportal, expatrio, msingermany) and should be treated as UNVERIFIED pending official site access, via archive.org or similar",
+          "corrections": [],
+          "notes": "Could not improve on 'Not found via official site' status since the official page remains inaccessible (404). Recommend trying Wayback Machine or a different TU Chemnitz subdomain in a future pass."
+        }
       }
     },
     {
@@ -5813,7 +6955,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated (public Hochschule; application-fee-free/admission-free per site, implying only standard semester contribution)"
         },
-        "exact_admission_regulations": "Also requires German A2 proof (Goethe/DSH/TestDaF/TELC/DAAD/UNIcert/ÖSD/DTZ or transcript). Admission-free (no quota) per site. Course delivered entirely in English."
+        "exact_admission_regulations": "Also requires German A2 proof (Goethe/DSH/TestDaF/TELC/DAAD/UNIcert/ÖSD/DTZ or transcript). Admission-free (no quota) per site. Course delivered entirely in English.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-bremerhaven.de/esd"
+          ],
+          "vpd_uni_assist_required": "Yes, implied - non-EU applicants submit via uni-assist, and uni-assist's standard process for non-German degrees includes VPD issuance, though the page does not use the word 'VPD' explicitly; it does explicitly say uni-assist charges a processing fee",
+          "application_portal_detail": "Non-EU applicants: submit via uni-assist by 31 December for summer semester start (program admits summer semester only, admission-free/no quota). Other (EU/German) applicants: apply via the ecampus portal (https://ecampus.hs-bremerhaven.de)",
+          "gpa_requirement_verified": "CONFIRMED: CGPA equivalent to German grade 2.3 or better; relaxable by 0.3 with >=2 years relevant professional experience post-bachelor",
+          "language_requirements_verified": "CONFIRMED: English B2 (CEFR); IELTS 6.0 or TOEFL iBT 72, or bachelor's taught fully in English accepted. German A2 also required (Goethe/DSH/TestDaF/TELC/DAAD/UNIcert/OSD/DTZ or transcript); other certificates 'will probably not be accepted'",
+          "tuition_and_fees_verified": "Not found - page does not mention tuition; only semester fees implied (public Hochschule)",
+          "deadlines_verified": "CONFIRMED: 31 December uni-assist deadline for summer-semester-only admission; NEW: Master Info Online Event scheduled 12.01.2027",
+          "curriculum_summary": "Not re-extracted this pass (engineering 210 ECTS bachelor with specific subject-credit minimums: 15 ECTS math/physics, 10 ECTS EE, 5 ECTS mechanical, 5 ECTS programming, 5 ECTS control engineering - previously confirmed, not contradicted)",
+          "required_documents": "Page references a 'Zulassungsordnung Embedded Systems Design' document and a Registration/Examination Office site, URLs not given",
+          "contact_info": "NEW: Student Advisory Service +49 4714823556, studienberatung@hs-bremerhaven.de",
+          "newly_found_info": "uni-assist portal link (https://www.uni-assist.de/en/?lid=3067&lvl=3&cHash=067bc47f2b0d2c1353a6e59515b21928); Master Info Online Event date 12.01.2027; student advisory contact phone/email; German program page link (/de/studium/studiengaenge/esd)",
+          "corrections": [],
+          "notes": "No separate 'admission requirements' subpage beyond the main ESD page was found to contain more detail; VPD term itself was not explicitly used, so field is marked 'implied, not explicit'."
+        }
       }
     },
     {
@@ -5895,7 +7055,27 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site (fees & scholarships page referenced but details not extracted)"
         },
-        "exact_admission_regulations": "Erasmus Mundus Joint Master (EMJM), EIT-labelled, 120 ECTS over 2 years across 4 partner European universities (incl. TU Bergakademie Freiberg), each delivering a degree."
+        "exact_admission_regulations": "Erasmus Mundus Joint Master (EMJM), EIT-labelled, 120 ECTS over 2 years across 4 partner European universities (incl. TU Bergakademie Freiberg), each delivering a degree.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.emerald.uliege.be/",
+            "https://www.emerald.uliege.be/apply-3/admission-criteria/",
+            "https://www.emerald.uliege.be/fees-and-scholarships/"
+          ],
+          "vpd_uni_assist_required": "No - this is a Belgium-coordinated Erasmus Mundus Joint Master (EMJM); no uni-assist or VPD system is used (applications go through the program's own form)",
+          "application_portal_detail": "Online application form hosted on emerald.uliege.be (apply-3/apply/ and apply/ pages); scholarship/fee-waiver requests submitted through the same online form",
+          "gpa_requirement_verified": "Not stated numerically anywhere on admission-criteria page; eligibility is instead degree-background based (see required_documents)",
+          "language_requirements_verified": "CONFIRMED/NEW exact scores: TOEFL >=87, IELTS >=6.5, Duolingo >=120, or other proof of B2-C1 English",
+          "tuition_and_fees_verified": "NEW exact figures (effective 2024): Non-European students 8,000 EUR/year (case-by-case waivers possible for self-funded students); European students 2,000 EUR/year (1,000 EUR/year if from one of the 4 partner universities); estimated living costs ~14,000 EUR/year. EMJM full grant (Call 2027): 33,600 EUR total (24 x 1,400 EUR monthly allowance) plus participation costs. EIT RawMaterials partial grant (Call 2027): 15,000 EUR (not currently available). University of Liege partial grant (Call 2026): 24 x 1,200 EUR/month + 1,000 EUR installation cost (does not cover tuition)",
+          "deadlines_verified": "Not found - only scholarship call years (2026, 2027) are given, no exact dates; contact emerald@uliege.be for exact deadlines",
+          "curriculum_summary": "2-year (120 ECTS) EMJM, EIT-labelled, across 4 partner European universities (incl. TU Bergakademie Freiberg), each delivering a degree; entirely English-taught",
+          "required_documents": "Passport copy, sworn English translation of birth certificate, ID photo, 1-page English CV, 1-page motivation letter (no AI tools), high school diploma + translation, higher-ed diploma/transcript + translation + ECTS conversion if needed, English proficiency proof, documentation of post-degree activity for the last 5 years if not enrolled, 1 recommendation letter, motivation video link",
+          "contact_info": "emerald@uliege.be",
+          "newly_found_info": "Full tuition figures, full scholarship structure (3 distinct grant types with amounts), full required-documents checklist, and exact language test score thresholds - none of this was in current_official_data, which only had generic descriptions",
+          "corrections": [],
+          "notes": "Degree-background admission criteria require Bachelor's in Engineering (>=3 yrs/180 ECTS, with geology basics) OR Bachelor's in Minerals/Mining/Chemical/Geological/Metallurgical/Materials Engineering OR Master's in Geology, plus >=22.5 ECTS university math."
+        }
       }
     },
     {
@@ -5977,7 +7157,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 36,000 total (part-time, work-integrated Executive M.Sc.)"
         },
-        "exact_admission_regulations": "Part-time Executive M.Sc., 90 ECTS, 15 months plus ~9-month thesis; one management module held at ESADE Business School, Barcelona; preparatory electrical engineering crash course recommended for those with limited EE background."
+        "exact_admission_regulations": "Part-time Executive M.Sc., 90 ECTS, 15 months plus ~9-month thesis; one management module held at ESADE Business School, Barcelona; preparatory electrical engineering crash course recommended for those with limited EE background.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://hectorschool.kit.edu/master-energy-engineering-and-management.php"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - page does not reference uni-assist or VPD at all",
+          "application_portal_detail": "Online application portal: https://hectorschool.applicationportal.org/home.html; rolling application, no fixed deadline, program starts every October",
+          "gpa_requirement_verified": "CONFIRMED: not GPA-based; eligibility is first academic degree + professional experience",
+          "language_requirements_verified": "Not found - still no specific score published, only 'English proficiency required'",
+          "tuition_and_fees_verified": "CONFIRMED: EUR 36,000 total (part-time Executive M.Sc.)",
+          "deadlines_verified": "CONFIRMED: rolling/no fixed deadline; NEW: preparatory crash course 'Selected Topics of Electrical Engineering' scheduled Nov 9-13, 2026, strongly recommended for applicants with limited EE background",
+          "curriculum_summary": "90 ECTS, 15 months plus ~9-month thesis; one management module at ESADE Business School, Barcelona (previously confirmed, not contradicted)",
+          "required_documents": "Not itemized on this page",
+          "contact_info": "Not found on this page",
+          "newly_found_info": "Specific subpage URLs: /admission-requirements.php, /application-procedure.php, /costs-and-fees.php, /financial-support.php, /visa-information.php; exact preparatory course dates Nov 9-13, 2026",
+          "corrections": [],
+          "notes": "Subpages (admission-requirements.php, application-procedure.php) were identified but not individually fetched in this pass due to time; recommend a follow-up fetch of those exact URLs for deeper detail (deadlines/documents/visa)."
+        }
       }
     },
     {
@@ -6059,7 +7257,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Voluntary practical semester costs ~€2,000; no explicit overall tuition figure found beyond standard public-university semester fees"
         },
-        "exact_admission_regulations": "90 ECTS program. Students without the required 210 ECTS at Bachelor level must make up missing credits individually, coordinated with the program dean."
+        "exact_admission_regulations": "90 ECTS program. Students without the required 210 ECTS at Bachelor level must make up missing credits individually, coordinated with the program dean.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-furtwangen.de/zukunft-studieren/studiengaenge/engineering-and-business-management"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page",
+          "application_portal_detail": "Apply via https://www.hs-furtwangen.de/studium/studiengaenge/engineering-and-business-management/jetzt-fuer-ebm-bewerben; general application info at https://www.hs-furtwangen.de/studium/bewerbung; international applicants page at https://www.hs-furtwangen.de/studium/international",
+          "gpa_requirement_verified": "Not stated numerically - confirmed still no minimum GPA/grade published",
+          "language_requirements_verified": "CONFIRMED: English >=B2 or equivalent certificate; program taught in English",
+          "tuition_and_fees_verified": "NEW exact breakdown: Semester 1: EUR 5,900; Semester 2: EUR 5,900; Semester 3 (thesis): EUR 3,000; optional internship semester: EUR 2,000; semester contribution: EUR 176 (previously only the EUR 2,000 optional-practical-semester figure was known)",
+          "deadlines_verified": "NEW: Start = summer semester (March); application deadline 15 January for summer semester; non-EU applicants deadline 15 November",
+          "curriculum_summary": "90 ECTS; students with <210 ECTS at bachelor level must make up missing credits individually with the program dean (previously confirmed)",
+          "required_documents": "Not itemized on main page; admission regulations PDF linked (EBM_Zulassungssatzung_2026_01_21.pdf)",
+          "contact_info": "Not found on this page",
+          "newly_found_info": "Full tuition fee breakdown by semester, exact application deadlines (15 Jan / 15 Nov), link to admission regulations PDF, English program page URL",
+          "corrections": [
+            {
+              "field": "financial_costs.tuition_non_eu",
+              "old": "Voluntary practical semester costs ~EUR 2,000; no explicit overall tuition figure found",
+              "corrected": "Full program tuition is EUR 5,900 + 5,900 + 3,000 (thesis semester) = EUR 14,800 total over 3 semesters, plus EUR 176 semester contribution per term; optional internship semester EUR 2,000 extra",
+              "evidence": "hs-furtwangen.de program page fee breakdown"
+            },
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Not found via official site",
+              "corrected": "Program starts summer semester only; deadline 15 January generally, 15 November for non-EU applicants",
+              "evidence": "hs-furtwangen.de program page deadlines section"
+            }
+          ],
+          "notes": "Program is summer-intake only, not winter - this clarifies that 'winter_deadline_non_eu' as a field name is actually inapplicable; the real deadline is for summer-semester entry."
+        }
       }
     },
     {
@@ -6141,7 +7370,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site (no tuition figure found in extracted content)"
         },
-        "exact_admission_regulations": "All foreign applicants must submit documents via uni-assist for grade conversion (VPD). Indian applicants with Engineering/Commerce/Business bachelor's must additionally pass the Digital Master Test (dMAT, €150) for APS certificate/visa purposes."
+        "exact_admission_regulations": "All foreign applicants must submit documents via uni-assist for grade conversion (VPD). Indian applicants with Engineering/Commerce/Business bachelor's must additionally pass the Digital Master Test (dMAT, €150) for APS certificate/visa purposes.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.thi.de/studium/studienangebote/details/engineering-and-management-msc/"
+          ],
+          "vpd_uni_assist_required": "YES, EXPLICITLY CONFIRMED - page states: 'International applicants must submit their bachelor's degree to uni-assist. uni-assist checks eligibility, converts grades to the German system, and issues a Vorprufungsdokumentation (VPD). You upload the VPD to the application portal with your other documents.' uni-assist does not grant admission itself; only THI does. May charge a processing fee for the VPD.",
+          "application_portal_detail": "Apply through THI's own online application system (not directly uni-assist); international applicants first get a VPD from uni-assist, then upload it to THI's portal. THI explicitly warns it does not work with agencies and never asks for money before the admission letter; legitimate emails only come from @thi.de addresses",
+          "gpa_requirement_verified": "CONFIRMED: admission based on average bachelor grade, no fixed numeric cutoff; depends on applicant pool and capacity",
+          "language_requirements_verified": "CONFIRMED: English B2 required; German proficiency not required for admission",
+          "tuition_and_fees_verified": "NEW: 1,200 EUR per semester for applicants from outside EU/EWG; recommended living budget 700-900 EUR/month for a single person",
+          "deadlines_verified": "Winter-semester-only enrollment. Page gives two inconsistent windows: 'Bewerbungstermine' section says 2 May - 15 July; header text says window for winter 2027/28 is 1 April - 15 July 2027 - recommend checking the live application page for the exact current-cycle dates. uni-assist VPD processing can take up to 6 weeks, so apply early",
+          "curriculum_summary": "Module handbooks (PDF) linked: /fileadmin/daten/fakultaetWI/Modulhandbuch/Master_EGM/MHB_M_EGM_WS26_27.pdf and MHB_MA_WPF_WS26_27.pdf",
+          "required_documents": "Bachelor's certificate from a German university (>=210 ECTS) or equivalent foreign degree; VPD from uni-assist for foreign-degree holders; for Indian applicants with Engineering/Commerce/Business bachelor's: Digital Master Test (dMAT, EUR 150) required for APS certificate/visa",
+          "contact_info": "Contact form 'Eignung & Zulassung': /hochschule/kontakt-und-anfahrt/kontaktformulare/kontakt-eignung-und-zulassung/; International Office page: /hochschule/ueber-uns/hochschulorganisation/international-office/",
+          "newly_found_info": "Exact tuition (1,200 EUR/semester for non-EU), two module handbook PDF links, contact form URL, explicit anti-fraud warning about agencies and @thi.de email domain, confirmation that uni-assist VPD processing can take up to 6 weeks",
+          "corrections": [],
+          "notes": "This program (THI Engineering and Management) already had VPD correctly flagged in current_official_data - this pass re-confirms and strengthens that with exact process description and tuition figure."
+        }
       }
     },
     {
@@ -6223,7 +7470,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Semester fees only (public Hochschule; no separate tuition figure found)"
         },
-        "exact_admission_regulations": "Engineering and Management of Space Systems (EMSS) at Hochschule Bremen; covers space law, systems engineering, ground segment, and includes interdisciplinary one-year project components."
+        "exact_admission_regulations": "Engineering and Management of Space Systems (EMSS) at Hochschule Bremen; covers space law, systems engineering, ground segment, and includes interdisciplinary one-year project components.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-bremen.de/emss/"
+          ],
+          "vpd_uni_assist_required": "Not using uni-assist terminology; page uses 'VPD' only to refer to a health-insurance notification requirement at enrollment, NOT a uni-assist academic-credential VPD. uni-assist is not mentioned at all in connection with this program's academic application process",
+          "application_portal_detail": "Applications submitted via the Campino system (https://campino.hs-bremen.de), window 1 June - 15 October (note: page frames this as a summer-semester-start program at Gdansk Tech, so confirm timing). Only HSB students already enrolled in CS, Electronics Engineering, or Aerospace Technologies master's programs may apply; max 15 candidates per partner university per year via an admission board",
+          "gpa_requirement_verified": "CONFIRMED: final grade >=2.5 (German 'good' or better); international GPA >=3.00/4.00 or >=7.50/10.00, first class with distinction, or >70%",
+          "language_requirements_verified": "CONFIRMED: English >=B2 (CEFR); TOEFL or IELTS as equivalent certificates; alternatively a university certificate (if English was medium of instruction) or an interview with the admission board",
+          "tuition_and_fees_verified": "Confirmed still not listed - only standard semester fee required at enrollment",
+          "deadlines_verified": "NEW exact window: 1 June - 15 October for applications via Campino",
+          "curriculum_summary": "Includes space law, systems engineering, ground segment, interdisciplinary one-year project (previously confirmed); module handbook and exam regulation PDFs linked",
+          "required_documents": "Enrollment checklist (sent to Veronika Hinrichs by post+email): APS certificate (India/China/Vietnam applicants), VPD health-insurance digital notification, passport and visa, CV, proof of semester fee payment, signed German enrollment application ('Antrag auf Immatrikulation')",
+          "contact_info": "NEW: Admission/enrollment contact Veronika Hinrichs (/en/person/vhinrichs/); program head Prof. Dr.-Ing. Jasminka Matevska (/en/person/matevska/)",
+          "newly_found_info": "This program is actually restricted to HSB's own enrolled master's students (CS/Electronics/Aerospace) applying for a space-systems specialization track via Erasmus+ exchange across partner universities - NOT a standalone open-admission international master's program as implied by current_official_data. Full enrollment document checklist and named contacts also newly found",
+          "corrections": [
+            {
+              "field": "exact_admission_regulations",
+              "old": "Covers space law, systems engineering, ground segment, and includes interdisciplinary one-year project components",
+              "corrected": "This is an Erasmus+-funded mobility/specialization track open ONLY to students already enrolled in one of HSB's own CS, Electronics Engineering, or Aerospace Technologies master's programs - not a general open-admission standalone program; max 15 seats/year per partner university",
+              "evidence": "hs-bremen.de/emss page: 'HSB students already enrolled in the CS, Electronics Engineering, or Aerospace Technologies master's programmes can apply'"
+            }
+          ],
+          "notes": "This is an important structural correction: EMSS functions as an internal specialization/exchange track, not a program international applicants can apply to directly from scratch."
+        }
       }
     },
     {
@@ -6305,7 +7577,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 840 per month for EU/EEA students"
         },
-        "exact_admission_regulations": "MEng program at SRH University (private); tuition quoted is monthly, differs from potential non-EU/EEA rate which was not found."
+        "exact_admission_regulations": "MEng program at SRH University (private); tuition quoted is monthly, differs from potential non-EU/EEA rate which was not found.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.srh-university.de/en/plp/meng-automation-robotics/e/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - page has no admission process detail at all, only a 'Request information material' contact form",
+          "application_portal_detail": "Not described - only an information-request form is offered; no direct application portal/process found",
+          "gpa_requirement_verified": "Not stated",
+          "language_requirements_verified": "Not stated",
+          "tuition_and_fees_verified": "NEW: Non-EU/non-EEA students: 'from EUR 6,500 per semester' (previously only the EU/EEA EUR 840/month figure was known)",
+          "deadlines_verified": "No deadlines; start options offered are 01 April and 01 October for 2027-2029",
+          "curriculum_summary": "Not found on this page beyond program name/career focus; SMSCP (Siemens Mechatronic Systems Certificate) opportunity previously confirmed, not contradicted",
+          "required_documents": "Not found",
+          "contact_info": "'Your contact' page: /en/your-contact/",
+          "newly_found_info": "Non-EU/non-EEA tuition figure (from EUR 6,500/semester) - this was previously unknown for this program",
+          "corrections": [
+            {
+              "field": "financial_costs.tuition_non_eu",
+              "old": "EUR 840 per month for EU/EEA students (non-EU rate not found)",
+              "corrected": "Non-EU/non-EEA: from EUR 6,500 per semester; EU/EEA: EUR 840 per month",
+              "evidence": "srh-university.de program page tuition section"
+            }
+          ],
+          "notes": "SRH's program pages are consistently thin on admission/application process detail across all three SRH entries in this chunk (6362, 6361, 6364) - site structure offers no linked admission-requirements or how-to-apply subpages, only a generic contact/info-request form."
+        }
       }
     },
     {
@@ -6387,7 +7684,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 840 per month for EU/EEA students"
         },
-        "exact_admission_regulations": "MEng Engineering and Sustainable Technology Management — Mobility and Automotive Industry at SRH University (private)."
+        "exact_admission_regulations": "MEng Engineering and Sustainable Technology Management — Mobility and Automotive Industry at SRH University (private).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.srh-university.de/en/plp/meng-mobility-automotive-industry/e/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "Not described - only an information-request form",
+          "gpa_requirement_verified": "Not stated",
+          "language_requirements_verified": "Not stated",
+          "tuition_and_fees_verified": "NEW: Non-EU/non-EEA students: EUR 6,800 per semester; EU/EEA students: EUR 840 per month",
+          "deadlines_verified": "No deadlines; start options April/October 2027-2029",
+          "curriculum_summary": "4 semesters, Berlin campus; focus on project/change management, innovation, intercultural teams (previously confirmed)",
+          "required_documents": "Not found",
+          "contact_info": "Not found beyond generic contact form",
+          "newly_found_info": "Non-EU/non-EEA tuition figure (EUR 6,800/semester) and program duration (4 semesters, Berlin)",
+          "corrections": [
+            {
+              "field": "financial_costs.tuition_non_eu",
+              "old": "EUR 840 per month for EU/EEA students (non-EU rate not found)",
+              "corrected": "Non-EU/non-EEA: EUR 6,800 per semester; EU/EEA: EUR 840 per month",
+              "evidence": "srh-university.de program page tuition section"
+            }
+          ],
+          "notes": "Same site-structure limitation as other SRH entries - no admission/application subpages found."
+        }
       }
     },
     {
@@ -6469,7 +7791,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 840 per month for EU/EEA students"
         },
-        "exact_admission_regulations": "MEng Engineering and Sustainable Technology Management — Smart Building Technologies at SRH University (private)."
+        "exact_admission_regulations": "MEng Engineering and Sustainable Technology Management — Smart Building Technologies at SRH University (private).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.srh-university.de/en/plp/meng-smart-building/e/n/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "Not described - only an information-request form",
+          "gpa_requirement_verified": "Not stated",
+          "language_requirements_verified": "Not stated",
+          "tuition_and_fees_verified": "NEW: Non-EU/non-EEA students: EUR 6,949.98 per semester",
+          "deadlines_verified": "No deadlines; start options April/October 2027-2029",
+          "curriculum_summary": "Not found beyond program focus on digital building infrastructure/smart building tech management",
+          "required_documents": "Not found",
+          "contact_info": "Not found beyond generic contact form",
+          "newly_found_info": "Non-EU/non-EEA tuition figure (EUR 6,949.98/semester)",
+          "corrections": [
+            {
+              "field": "financial_costs.tuition_non_eu",
+              "old": "EUR 840 per month for EU/EEA students (non-EU rate not found)",
+              "corrected": "Non-EU/non-EEA: EUR 6,949.98 per semester; EU/EEA: EUR 840 per month",
+              "evidence": "srh-university.de program page tuition section"
+            }
+          ],
+          "notes": "Same site-structure limitation as other SRH entries."
+        }
       }
     },
     {
@@ -6551,7 +7898,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site (standard low public-university semester fee implied; no figure confirmed)"
         },
-        "exact_admission_regulations": "University of Stuttgart's Engineering Cybernetics M.Sc. page references separate 'Application deadlines' and 'Selection criteria' subpages that were not individually fetched; DAAD listing remains the more complete source for now."
+        "exact_admission_regulations": "University of Stuttgart's Engineering Cybernetics M.Sc. page references separate 'Application deadlines' and 'Selection criteria' subpages that were not individually fetched; DAAD listing remains the more complete source for now.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-stuttgart.de/en/study/study-programs/Engineering-Cybernetics-M.Sc./",
+            "https://www.uni-stuttgart.de/en/study/application/master/admission-information/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on either page fetched",
+          "application_portal_detail": "Apply through University of Stuttgart's online Master's application system; must upload a transcript showing GPA to the 'C@MPUS' portal. Conditional admission generally requires ~110 ECTS credits at time of application (varies by program); proof of completed Bachelor's degree due by 31 March (winter) or 30 September (summer) for provisional admission, or risk de-registration",
+          "gpa_requirement_verified": "Not stated numerically on either page - general admission-information page says only that a transcript with GPA must be uploaded, no cutoff published",
+          "language_requirements_verified": "Not found on either page for this specific program",
+          "tuition_and_fees_verified": "Not found",
+          "deadlines_verified": "CONFIRMED/NEW exact dates: Winter semester application window 15 May - 15 July; Summer semester application window 1 December - 15 January",
+          "curriculum_summary": "4-semester standard duration; program emphasizes 'pronounced methodological basic knowledge in core areas of Engineering Cybernetics'; also offered in English via a separate program page not fetched this pass",
+          "required_documents": "Completed Bachelor's degree of >=6 semesters or equivalent qualification in same/similar subject; exam transcript with ECTS and GPA for conditional admission, or with completed exams for provisional admission",
+          "contact_info": "NEW: Program Manager Emil Rohm (+49 711 685 66960); Academic Counseling C. David Remy (+49 711 685 60914)",
+          "newly_found_info": "Exact application deadline windows (15 May-15 Jul winter; 1 Dec-15 Jan summer), named program contacts with phone numbers, links to Master's admission regulations and general admission-information pages",
+          "corrections": [
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Not found via official site",
+              "corrected": "Winter semester: 15 May - 15 July; Summer semester: 1 December - 15 January (general Master's application windows at Univ. of Stuttgart - program-specific deadline not separately confirmed)",
+              "evidence": "uni-stuttgart.de program page 'Deadlines' section"
+            }
+          ],
+          "notes": "Page is primarily in German; an English-taught version of the program exists at a separate URL not fetched this pass - recommend checking it for English-specific admission/language requirements."
+        }
       }
     },
     {
@@ -6633,7 +8006,23 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Likely similar to other SRH MEng programs (~EUR 840/month for EU/EEA, per sibling SRH programs), not independently confirmed for this exact program"
         },
-        "exact_admission_regulations": "DAAD hint was only the bare domain srh-university.de; specific program URL not identified within time available."
+        "exact_admission_regulations": "DAAD hint was only the bare domain srh-university.de; specific program URL not identified within time available.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [],
+          "vpd_uni_assist_required": "Not checked - official_source_url in input was explicitly 'Not found (srh-university.de generic domain given, specific program page not located)'; no valid URL to fetch",
+          "application_portal_detail": "Not checked",
+          "gpa_requirement_verified": "Not checked",
+          "language_requirements_verified": "Not checked",
+          "tuition_and_fees_verified": "Not checked",
+          "deadlines_verified": "Not checked",
+          "curriculum_summary": "Not checked",
+          "required_documents": "Not checked",
+          "contact_info": "Not checked",
+          "newly_found_info": "None this pass - no usable URL was available in the input data",
+          "corrections": [],
+          "notes": "Recommend a WebSearch pass specifically for 'SRH University Engineering for Renewable Energy Water and Waste Management MEng' to locate the exact program page before re-verifying, similar to what the SRH sibling programs (6361/6362/6364) use as their URL pattern (srh-university.de/en/plp/...)."
+        }
       }
     },
     {
@@ -6715,7 +8104,23 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "DAAD hint was only a vague domain reference; specific official program page for Engineering Sciences at TH Rosenheim not located within time available."
+        "exact_admission_regulations": "DAAD hint was only a vague domain reference; specific official program page for Engineering Sciences at TH Rosenheim not located within time available.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [],
+          "vpd_uni_assist_required": "Not checked - official_source_url in input was explicitly 'Not found (th-rosenheim.de bare domain given, specific program page not located)'; no valid URL to fetch",
+          "application_portal_detail": "Not checked",
+          "gpa_requirement_verified": "Not checked",
+          "language_requirements_verified": "Not checked",
+          "tuition_and_fees_verified": "Not checked",
+          "deadlines_verified": "Not checked",
+          "curriculum_summary": "Not checked",
+          "required_documents": "Not checked",
+          "contact_info": "Not checked",
+          "newly_found_info": "None this pass - no usable URL was available in the input data",
+          "corrections": [],
+          "notes": "Recommend a WebSearch pass for 'TH Rosenheim Engineering Sciences Master international' to locate the exact program page before re-verifying."
+        }
       }
     },
     {
@@ -6797,7 +8202,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "European Master's in Embedded Intelligence Nanosystems Engineering (EMINENT), University of Siegen is one consortium partner; page has a dedicated 'Application Requirements' section not fully extracted."
+        "exact_admission_regulations": "European Master's in Embedded Intelligence Nanosystems Engineering (EMINENT), University of Siegen is one consortium partner; page has a dedicated 'Application Requirements' section not fully extracted.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://eminent-master.eu/"
+          ],
+          "vpd_uni_assist_required": "No - this is a European consortium (EMINENT) master using its own unisono application portal (University of Siegen), not uni-assist/VPD",
+          "application_portal_detail": "Apply via 'Apply now' link to University of Siegen's online portal (unisono); application period starts 1 November 2026, no closing date found on the page fetched",
+          "gpa_requirement_verified": "Not found - attempted fetch of dedicated /application-requirements/ subpage returned HTTP 404",
+          "language_requirements_verified": "Not found (same 404 issue)",
+          "tuition_and_fees_verified": "Not found; a separate 'Cost of Living' page is referenced but not fetched",
+          "deadlines_verified": "Application period opens 1 November 2026; closing date and full 'Important Dates' section not retrieved",
+          "curriculum_summary": "Focus on embedded intelligence, functional/smart materials, sensor systems, nanosystems engineering for applications spanning healthcare to space exploration (previously confirmed, not contradicted)",
+          "required_documents": "Not found; a 'Downloads' page is referenced but not fetched",
+          "contact_info": "Not found this pass",
+          "newly_found_info": "Application opens 1 November 2026 and goes through University of Siegen's unisono portal specifically (not a generic consortium portal)",
+          "corrections": [],
+          "notes": "The /application-requirements/ URL guessed for this program returned 404 - the real subpage slug differs; recommend a WebSearch or site-navigation pass to find the correct 'Application Requirements', 'Important Dates', and 'Downloads' page URLs on eminent-master.eu before concluding GPA/language/tuition are truly absent."
+        }
       }
     },
     {
@@ -6879,7 +8302,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "European Master's in Renewable Energy (EMRE), University of Oldenburg partner; site has a 'How to Apply' section not fully extracted within time available."
+        "exact_admission_regulations": "European Master's in Renewable Energy (EMRE), University of Oldenburg partner; site has a 'How to Apply' section not fully extracted within time available.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://master.eurec.be/"
+          ],
+          "vpd_uni_assist_required": "Not found - landing page has no admission detail; How to Apply subpage was identified but not fetched this pass",
+          "application_portal_detail": "Applications handled through a dedicated login portal at https://master.eurec.be/how-to-apply/ (with account creation/password-reset sub-URLs)",
+          "gpa_requirement_verified": "Not found this pass",
+          "language_requirements_verified": "Not found this pass",
+          "tuition_and_fees_verified": "Not found this pass",
+          "deadlines_verified": "Not found this pass",
+          "curriculum_summary": "1.5-year program (incl. 6-month practical project); 8-university/research-centre network, 30+ nationalities; core providers Mines Paris-PSL, Univ. of Zaragoza, Oldenburg University, Hanze UAS; specialization providers include NTUA, Univ. of Cyprus, Univ. of Perpignan, IST Lisbon, Howest UAS. Students with less technical backgrounds directed to the sibling European Master in Sustainable Energy System Management (sesym.eurec.be)",
+          "required_documents": "Not found this pass",
+          "contact_info": "Not found this pass",
+          "newly_found_info": "Exact program length (1.5 years incl. 6-month practical project), full consortium university list, and existence of a sibling program (SESYM) for less-technical applicants",
+          "corrections": [],
+          "notes": "The How to Apply subpage (https://master.eurec.be/how-to-apply/) requires login/account creation and was not fetched this pass since it is behind an application portal gate rather than a plain informational page - admission/GPA/language/tuition/deadline details likely require either account creation or a separate public 'Admission' info page not found in the top-level navigation. Recommend trying a WebSearch for 'EMRE European Master Renewable Energy admission requirements IELTS deadline' to surface a plain-text info page."
+        }
       }
     },
     {
@@ -6961,7 +8402,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not explicitly stated on this page (sibling Energy Engineering program lists EUR 36,000; Financial Engineering likely similar but not confirmed on this page)"
         },
-        "exact_admission_regulations": "Part-time Executive M.Sc., 90 ECTS, at HECTOR School of Engineering & Management, KIT."
+        "exact_admission_regulations": "Part-time Executive M.Sc., 90 ECTS, at HECTOR School of Engineering & Management, KIT.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://hectorschool.kit.edu/master-financial-engineering.php"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "Rolling application process; online application portal referenced but exact URL not re-extracted this pass (same portal as sibling Energy Engineering program: https://hectorschool.applicationportal.org/home.html)",
+          "gpa_requirement_verified": "CONFIRMED: not GPA-based; first academic degree + >=2 years professional experience + English proficiency",
+          "language_requirements_verified": "Not found - still only generic 'English proficiency required', no specific test/score",
+          "tuition_and_fees_verified": "CONFIRMED: EUR 36,000 total overall (same as sibling Energy Engineering program)",
+          "deadlines_verified": "CONFIRMED: rolling, no fixed deadline; starts every October",
+          "curriculum_summary": "Part-time Executive M.Sc., 90 ECTS, at HECTOR School KIT (previously confirmed)",
+          "required_documents": "Not itemized on this page",
+          "contact_info": "Not found on this page",
+          "newly_found_info": "Confirmed the EUR 36,000 tuition figure applies identically to this sibling program (previously only inferred by analogy, not directly confirmed)",
+          "corrections": [
+            {
+              "field": "financial_costs.tuition_non_eu",
+              "old": "Not explicitly stated on this page (sibling Energy Engineering program lists EUR 36,000; Financial Engineering likely similar but not confirmed)",
+              "corrected": "CONFIRMED EUR 36,000.00 overall - same figure as Energy Engineering sibling program, now directly stated on this program's own page",
+              "evidence": "hectorschool.kit.edu/master-financial-engineering.php tuition section"
+            }
+          ],
+          "notes": "Subpages for admission-requirements/application-procedure/costs-and-fees exist in the same URL pattern as the Energy Engineering sibling but were not individually re-fetched for this program."
+        }
       }
     },
     {
@@ -7043,7 +8509,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "Leibniz University Hannover program page retrieved but detailed admission text not extracted within time available."
+        "exact_admission_regulations": "Leibniz University Hannover program page retrieved but detailed admission text not extracted within time available.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.fbg.uni-hannover.de/gugmsc"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "Application for a study place (Studienplatzbewerbung) referenced via link to uni-hannover.de general application page; exact program-specific portal not found",
+          "gpa_requirement_verified": "Not found - page links to 'Zugangsordnung GuG' (access/admission regulations) but does not summarize GPA cutoff",
+          "language_requirements_verified": "Not found",
+          "tuition_and_fees_verified": "Not found",
+          "deadlines_verified": "Not found - 'Melde- und Prufungszeitraume' link found concerns exam registration, not program application deadlines",
+          "curriculum_summary": "Program has 3 specializations: Geomatik, Navigation und Umweltrobotik, Remote Sensing and GIS; module structure and qualification goals described generically on main page",
+          "required_documents": "Not found",
+          "contact_info": "NEW: Studiengangskoordination contacts Tanja Gronefeld (+49 511 762 4408) and Franka Gindel (+49 511 762 19194)",
+          "newly_found_info": "Named program coordinators with phone numbers; links to Zugangsordnung (admission regs), Studienplatzbewerbung (application), Prufungsordnung (exam regs), and a Studienverlauf (curriculum) subpage",
+          "corrections": [],
+          "notes": "The Zugangsordnung GuG link (https://www.uni-hannover.de/de/studium/vor-dem-studium/bewerbung-und-zulassung/voraussetzungen-zum-studium/zugangsordnungen/) is a general regulations index, not the specific program's admission document - would need further navigation to find the GuG-specific PDF/page for exact GPA/deadline figures."
+        }
       }
     },
     {
@@ -7125,7 +8609,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "University of Bonn Geodetic Engineering page has a dedicated 'Requirements & Application' subpage (https://www.gug.uni-bonn.de likely sublink) that should be checked for full detail."
+        "exact_admission_regulations": "University of Bonn Geodetic Engineering page has a dedicated 'Requirements & Application' subpage (https://www.gug.uni-bonn.de likely sublink) that should be checked for full detail.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.gug.uni-bonn.de/en/master-ge",
+            "https://www.gug.uni-bonn.de/en/master-ge/apply/requirements-and-application"
+          ],
+          "vpd_uni_assist_required": "No - University of Bonn uses its own online application portal directly; uni-assist/VPD not mentioned anywhere on either page. Page explicitly states 'Do not send documents by postal mail' and to apply through Bonn's own portal",
+          "application_portal_detail": "Apply through University of Bonn's own online application portal (not uni-assist)",
+          "gpa_requirement_verified": "Not stated - no GPA/grade threshold found on the requirements-and-application subpage either; eligibility is instead purely credit-based (see curriculum_summary)",
+          "language_requirements_verified": "CONFIRMED/NEW exact: minimum C1, proof by official test only (no exemption for self-declared proficiency); TOEFL iBT >=95 (or >=5 for tests taken after January 2026 - likely a new scoring scale note), IELTS >=7.0; exemptions for native English speakers, German/Swiss/Austrian citizens with Abitur/Matura, and fully-English-taught first degrees (with diploma supplement proof; a medium-of-instruction letter alone is NOT accepted)",
+          "tuition_and_fees_verified": "Not mentioned on either page",
+          "deadlines_verified": "NEW exact dates: Non-EU/EWR citizens: 3 January 2027 - 31 May 2027; EU/EWR citizens: 3 January 2027 - 31 August 2027",
+          "curriculum_summary": "Admission requires >=24 credits across >=2 of {Mathematics, Physics, Programming}, plus >=48 credits across >=2 of 6 research areas (incl. Physical Geodesy, Photogrammetry and Remote Sensing, Geo-Information Systems); only bachelor's-level courses count; examination board decides eligibility case-by-case; program is 'open-admission' subject to meeting these academic+language bars",
+          "required_documents": "Bachelor's certificate (final certificate due within first semester if applying before completion); official transcript of records (English/German, with ECTS credits - missing ECTS converted during review); language certificates unless exempt; certified translations for non-German/English/French documents (via local council, embassy, notary, or home-country ministry); country-specific: China/Vietnam need APS, India needs APS, Turkey needs sealed entrance-exam results, US needs AP scores sent to Bonn code 9149, IB Diploma needs 12-years-schooling proof + subject/grade overview",
+          "contact_info": "Student Advising page: /en/master-ge/apply/contact-and-advice",
+          "newly_found_info": "Full academic credit-based admission formula (24+48 credit structure), exact C1 language score thresholds, exact application windows by citizenship, extensive country-specific document requirements (APS for China/Vietnam/India, AP code for US, IB rules)",
+          "corrections": [
+            {
+              "field": "admission_eligibility and application_process",
+              "old": "Not found via official site (Requirements & Application subpage referenced but not fully extracted)",
+              "corrected": "Full detail now extracted - see gpa_requirement_verified, language_requirements_verified, deadlines_verified, required_documents fields above",
+              "evidence": "gug.uni-bonn.de/en/master-ge/apply/requirements-and-application"
+            }
+          ],
+          "notes": "This was one of the more successful subpage follow-ups in this batch - the requirements-and-application subpage contained extensive detail absent from the main landing page, exactly matching the user's hypothesis about info being split across subpages."
+        }
       }
     },
     {
@@ -7207,7 +8717,44 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "THI Global Foresight and Technology Management MSc; curriculum includes foresight/trend analysis, business ethics and technology assessment, and an interdisciplinary research seminar."
+        "exact_admission_regulations": "THI Global Foresight and Technology Management MSc; curriculum includes foresight/trend analysis, business ethics and technology assessment, and an interdisciplinary research seminar.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.thi.de/studium/studienangebote/details/global-foresight-and-technology-management-msc"
+          ],
+          "vpd_uni_assist_required": "YES, EXPLICITLY CONFIRMED (same THI-wide policy as sister program 7168): 'All foreign applicants must submit their bachelor's certificate through uni-assist... issues a VPD.' VPD reusable only if issued after 'Master-Check' selection for THI and less than 1 year old. Indian applicants additionally need Digital Master Test (dMAT, EUR 150) for APS/visa",
+          "application_portal_detail": "Apply via THI's own online application portal (PRIMUSS); German applicants follow separate master's guidance; international applicants submit bachelor's certificate to uni-assist first (which issues VPD), then upload VPD + other documents to PRIMUSS",
+          "gpa_requirement_verified": "Restricted admission (zulassungsbeschrankt); selection based on bachelor's grade average, no published numeric cutoff - depends on applicant pool/capacity",
+          "language_requirements_verified": "CONFIRMED: English >=B2, required at start of studies; waived if bachelor's was taught entirely in English",
+          "tuition_and_fees_verified": "NEW: EUR 1,200 per semester for non-EU/EEA students (same rate as sister THI program); recommended living budget EUR 700-900/month",
+          "deadlines_verified": "NEW exact window: Summer semester 2027 application window 15 October 2026 - 15 January 2027; enrollment possible winter (October) and summer (March); uni-assist VPD can take up to 6 weeks to issue, apply early",
+          "curriculum_summary": "Curriculum includes foresight/trend analysis, business ethics, technology assessment, interdisciplinary research seminar (previously confirmed, not contradicted); bachelor's must have >=210 ECTS (German) or equivalent; 180 ECTS bachelors can be supplemented with a >=20-week post-bachelor internship uploaded to PRIMUSS",
+          "required_documents": "Bachelor's degree certificate (>=210 ECTS or equivalent, or 180 ECTS + qualifying internship); VPD from uni-assist for foreign-degree holders; dMAT for Indian engineering/commerce/business bachelor's holders",
+          "contact_info": "Not re-extracted this pass (same contact structure as sister THI program likely applies)",
+          "newly_found_info": "Explicit VPD requirement (this is a DIRECT MATCH to the user's flagged gap type - another THI program requiring VPD that current_official_data had NOT flagged at all), exact tuition (EUR 1,200/semester), exact application window, 180-ECTS-plus-internship alternative pathway",
+          "corrections": [
+            {
+              "field": "application_process / vpd_requirement",
+              "old": "Not found via official site (no mention of uni-assist or VPD in current data at all)",
+              "corrected": "uni-assist VPD is REQUIRED for all foreign-degree applicants; THI-wide policy. This field was entirely missing before.",
+              "evidence": "thi.de program page application section, same wording as confirmed for THI's Engineering and Management MSc (daad_id 7168)"
+            },
+            {
+              "field": "financial_costs.tuition_non_eu",
+              "old": "Not found via official site",
+              "corrected": "EUR 1,200 per semester for non-EU/EEA students",
+              "evidence": "thi.de program page tuition section"
+            },
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Not found via official site",
+              "corrected": "Summer semester 2027 window: 15 October 2026 - 15 January 2027 (program also allows winter enrollment, exact winter window not separately confirmed on this page)",
+              "evidence": "thi.de program page deadlines section"
+            }
+          ],
+          "notes": "IMPORTANT: this program's current_official_data had NO mention of uni-assist/VPD at all, despite THI applying the same VPD policy university-wide (confirmed identical wording to the already-VPD-flagged sister program 7168). This is exactly the type of gap the user flagged for FH Dortmund - confirms the value of this re-verification pass."
+        }
       }
     },
     {
@@ -7289,7 +8836,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "TU Berlin Global Production Engineering (GPE) M.Sc.; instruction in English with additional German language courses offered; strong industry/alumni network emphasis."
+        "exact_admission_regulations": "TU Berlin Global Production Engineering (GPE) M.Sc.; instruction in English with additional German language courses offered; strong industry/alumni network emphasis.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.gpe.tu-berlin.de/",
+            "https://www.gpe.tu-berlin.de/admission-requirements/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - page explicitly does not reference uni-assist or VPD; TU Berlin's GPE program appears to use its own admission process rather than uni-assist for this program",
+          "application_portal_detail": "Not fully described; page refers to a separate '/application/' subpage (https://www.gpe.tu-berlin.de/application/) for exact steps, which was identified but not fetched this pass",
+          "gpa_requirement_verified": "Not stated numerically - only 'Excellent grades' required as a qualitative bar, no cutoff published",
+          "language_requirements_verified": "NEW exact scores: TOEFL iBT >=87 (note: page also showed an inconsistent 'TOEFL >= 4.5' figure alongside 87 - likely a formatting/scale artifact, flag for manual check); IELTS Academic >=6.5; PTE Academic >=65; Cambridge Exams >=B2 First (min. grade B); exemptions for Bachelor's completed in UK/Canada/USA/Australia/New Zealand, or citizenship of an English-speaking country (passport-verified). English-medium-of-instruction alone NOT sufficient proof",
+          "tuition_and_fees_verified": "Not found - referred to a separate Application page for program fees",
+          "deadlines_verified": "Not found on either page fetched",
+          "curriculum_summary": "Flexible curriculum across Production, Engineering, Management, Intercultural Communication, and a Special Profile track; instruction in English with additional German courses offered (previously confirmed)",
+          "required_documents": "Not itemized; page emphasizes the motivation letter and CV as 'particularly important'; full list referenced on Application/Downloads pages not fetched",
+          "contact_info": "Not found this pass",
+          "newly_found_info": "Exact language test score thresholds (TOEFL 87, IELTS 6.5, PTE 65, Cambridge B2 First min B); >=12 months post-bachelor professional experience required (internships may be evaluated/accepted); Bachelor's degree or equivalent with 'excellent grades' requirement",
+          "corrections": [
+            {
+              "field": "language_requirements.ielts",
+              "old": "Not found via official site",
+              "corrected": "IELTS Academic >=6.5 (or TOEFL iBT >=87, PTE Academic >=65, Cambridge B2 First min. B)",
+              "evidence": "gpe.tu-berlin.de/admission-requirements/ page"
+            }
+          ],
+          "notes": "A professional-experience requirement (>=12 months post-bachelor) was newly found and was not in current_official_data at all - this is a meaningful eligibility gap filled."
+        }
       }
     },
     {
@@ -7371,7 +8944,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site (public university; likely only semester contribution)"
         },
-        "exact_admission_regulations": "BTU Cottbus-Senftenberg Hybrid Electric Propulsion Technology M.Sc.; first-of-its-kind program at BTU covering mechanical, electrical and control engineering aspects for aviation applications."
+        "exact_admission_regulations": "BTU Cottbus-Senftenberg Hybrid Electric Propulsion Technology M.Sc.; first-of-its-kind program at BTU covering mechanical, electrical and control engineering aspects for aviation applications.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.b-tu.de/en/hybrid-electric-propulsion-ms/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page",
+          "application_portal_detail": "'Apply now' button links to BTU's master's degree application page; detailed subject-background requirements linked separately at /access-to-the-programme/application#c360856 (not fetched this pass)",
+          "gpa_requirement_verified": "Not stated numerically - confirmed subject-background requirement document exists but was not fetched for exact GPA figure",
+          "language_requirements_verified": "CONFIRMED and expanded: TOEFL iBT >=79; IELTS >=6.0; Cambridge CAE >=grade B; Cambridge CPE >=grade C; UniCert Level II; exemption for first-degree holders from Australia/Canada/Ireland/New Zealand/UK/USA/Germany (Germans typically use Abitur)",
+          "tuition_and_fees_verified": "NEW: 'Fees' listed as EUR 391.80 - period/type not specified on the page (likely a semester contribution rather than full tuition, given BTU is a public university; flag for confirmation)",
+          "deadlines_verified": "Not listed; program starts winter semester only",
+          "curriculum_summary": "Not re-extracted beyond program focus on mechanical/electrical/control engineering aspects for aviation applications (previously confirmed)",
+          "required_documents": "Not itemized on this page; subject-background requirement details on a separate linked subpage not fetched",
+          "contact_info": "Not found this pass",
+          "newly_found_info": "Exact Cambridge/UniCert alternative-language-test equivalencies; a EUR 391.80 fee figure (unclear if full tuition or semester contribution)",
+          "corrections": [],
+          "notes": "The EUR 391.80 figure is ambiguous - likely the standard BTU semester contribution (Studentenwerk/admin fee) rather than tuition, since BTU is a tuition-free public university for this type of program; needs confirmation via the 'access-to-the-programme' subpage, which was not fetched."
+        }
       }
     },
     {
@@ -7453,7 +9044,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "TU Dresden HSE program; ECTS credit conversion details provided for applicants converting non-ECTS credit systems (e.g., US credit hours)."
+        "exact_admission_regulations": "TU Dresden HSE program; ECTS credit conversion details provided for applicants converting non-ECTS credit systems (e.g., US credit hours).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://tu-dresden.de/hydro/ma-hse"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page - TU Dresden Hydro Science and Engineering uses its own Aptitude Assessment process and online application portal, plus a separate DAAD-EPOS portal for scholarship applicants; uni-assist/VPD not referenced",
+          "application_portal_detail": "Apply through TU Dresden's online application portal (standard route) or DAAD-EPOS portal (for DAAD scholarship Intake 2026); submit Application for Aptitude Assessment form; Admission Board decides; accepted students receive Zulassungsbescheid (admission letter) used for student visa (studies cannot begin on a tourist visa)",
+          "gpa_requirement_verified": "Not stated numerically - only that grade lists (with min/max grading scale) must be submitted; eligible degree fields listed instead of grade cutoff",
+          "language_requirements_verified": "CONFIRMED: C1 level (CEFR) required in writing/reading/listening/speaking via independent language test (IELTS/TOEFL/Cambridge or equivalent, exact minimum scores in a separate PDF not fetched); explicitly states a 'medium of instruction' university letter is NOT accepted as sufficient proof",
+          "tuition_and_fees_verified": "Not found - only living-cost estimates given (EUR 750-900/month; dorms EUR 250-350/month; semester fee includes public transport pass)",
+          "deadlines_verified": "NEW exact dates: German/EU applicants and foreign applicants with a German degree: 1 April - 15 July; Non-EU applicants with a foreign degree: 1 April - 31 May; DAAD scholarship direct-to-TU-Dresden: 15 October; DAAD scholarship via German Embassy/DAAD Regional Office: 31 July (note: page's DAAD deadlines are somewhat internally inconsistent regarding which intake year they apply to - flagged for manual confirmation)",
+          "curriculum_summary": "ECTS conversion guidance provided for applicants from non-ECTS systems (e.g. US credit hours) - previously confirmed",
+          "required_documents": "Application for Aptitude Assessment form; authenticated copies of higher-ed entrance qualification (with grade list/scale/translation); authenticated university degree certificates + translation; English certificate (C1); letter of motivation; CV; authenticated English translation of degree certificates if not German/English. APS certificate required (ideally pre-application) for applicants from China, Vietnam, India",
+          "contact_info": "Not found this pass",
+          "newly_found_info": "Full Aptitude Assessment process description, exact deadline windows by applicant category, full required-documents checklist including APS requirement for China/Vietnam/India applicants, explicit statement that visa cannot be obtained on tourist status",
+          "corrections": [
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Specific application deadline referenced on page but exact date not captured",
+              "corrected": "Non-EU applicants with foreign degree: 1 April - 31 May; EU/German-degree applicants: 1 April - 15 July; DAAD scholarship: 15 October (direct) or 31 July (via embassy/DAAD office)",
+              "evidence": "tu-dresden.de/hydro/ma-hse Application Deadlines section"
+            }
+          ],
+          "notes": "APS certificate requirement for China/Vietnam/India applicants was entirely new information, not previously captured."
+        }
       }
     },
     {
@@ -7535,7 +9151,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site (public Hochschule; likely only semester contribution)"
         },
-        "exact_admission_regulations": "HAW Kiel Industrial Engineering M.Sc.; also requires proof of qualified practical/professional experience of generally not less than one year."
+        "exact_admission_regulations": "HAW Kiel Industrial Engineering M.Sc.; also requires proof of qualified practical/professional experience of generally not less than one year.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.haw-kiel.de/studium/studienangebot/industrial-engineering"
+          ],
+          "vpd_uni_assist_required": "Not mentioned explicitly - page refers generically to 'separate information on deadlines and procedures for applicants with a foreign degree' but does not name uni-assist or VPD anywhere",
+          "application_portal_detail": "Submit online application through the Casy portal (casy.haw-kiel.de); Studierendensekretariat and examination office/committee review for formal and substantive completeness; if accepted, invitation to enroll issued; missing enrollment deadline forfeits the place",
+          "gpa_requirement_verified": "CONFIRMED: minimum 2.3 on German grading scale for first qualifying engineering/technical-scientific degree; no conversion scale given for non-German grading systems",
+          "language_requirements_verified": "Still not specific - only CEFR B2 or higher required; page refers to accepted certificates listed in Paragraph 7 of the program's Prufungsordnung (examination regulations), not fetched; no IELTS/TOEFL numeric score found",
+          "tuition_and_fees_verified": "NEW, SIGNIFICANT: EUR 9,900 total tuition, including the master thesis - this program is NOT free as might be assumed for a public Hochschule; plus a per-semester mandatory contribution (Studentenwerk/student body/admin fee, amount not stated) and a non-refundable enrollment administration fee (amount not stated)",
+          "deadlines_verified": "NEW exact dates: Summer semester: applications November - 15 March; Winter semester: applications May - 15 September; processing up to 2 weeks; final enrollment deadlines 31 March (summer) / 30 September (winter)",
+          "curriculum_summary": "Not re-extracted beyond prior confirmation",
+          "required_documents": "Degree proof (or proof <=15 credit points remain, with preliminary grade); proof of work experience; proof of English proficiency; university entrance qualification (Abitur/Fachhochschulreife); name-change certificate if applicable",
+          "contact_info": "Not found this pass",
+          "newly_found_info": "EUR 9,900 total tuition fee (previously listed as 'Not found' and implicitly assumed free as a public Hochschule program) - this is a major correction; exact application windows and enrollment deadlines",
+          "corrections": [
+            {
+              "field": "financial_costs.tuition_non_eu",
+              "old": "Not found via official site (public Hochschule; likely only semester contribution)",
+              "corrected": "EUR 9,900 total tuition fee for the program (including master thesis), PLUS separate per-semester mandatory contribution and non-refundable enrollment admin fee (amounts for these two not stated)",
+              "evidence": "haw-kiel.de program page tuition/fees section"
+            },
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Not found via official site",
+              "corrected": "Winter semester: applications May - 15 September, enrollment deadline 30 September; Summer semester: applications November - 15 March, enrollment deadline 31 March",
+              "evidence": "haw-kiel.de program page deadlines section"
+            }
+          ],
+          "notes": "IMPORTANT CORRECTION: current_official_data assumed this program was effectively tuition-free ('likely only semester contribution') because HAW Kiel is a public Hochschule, but the official page explicitly states a EUR 9,900 program tuition fee including the thesis - this assumption was wrong and should be corrected."
+        }
       }
     },
     {
@@ -7617,7 +9264,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not specified on official page (links to a brochure/\"costs and financing\" request form with no figures)."
         },
-        "exact_admission_regulations": "Full-time M.Sc.; intakes in both winter and summer semesters; study advice service available for subject-specific requirements."
+        "exact_admission_regulations": "Full-time M.Sc.; intakes in both winter and summer semesters; study advice service available for subject-specific requirements.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-fresenius.com/study-programs/industrial-engineering-and-international-management-master/",
+            "https://www.hs-fresenius.com/application-process/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - neither page mentions uni-assist or VPD",
+          "application_portal_detail": "Own online portal via 'Apply now'; applicants upload at least CV and secondary school leaving certificate (bachelor applicants) or CV and bachelor transcript (master applicants) within 10 days",
+          "gpa_requirement_verified": "No numeric GPA; bachelor's degree with ≥180 ECTS, ≥60 ECTS STEM, ≥10 ECTS thesis/project",
+          "language_requirements_verified": "English CEFR B2 only; no IELTS/TOEFL score specified on either page",
+          "tuition_and_fees_verified": "Not stated on official page or application-process page; only a brochure/request form",
+          "deadlines_verified": "Not stated; rolling, intakes winter and summer",
+          "curriculum_summary": "4-semester M.Sc.: core modules (Industry 4.0 Technologies, Strategy & Management, Quality Management, Innovation Management & Design Thinking, Managing Transformation & Change); 2nd-sem major choice (Digital Industry & Smart Production, or Business Analytics & AI); 3rd-sem elective/internship/semester abroad",
+          "required_documents": "CV + secondary school certificate (bachelor) or CV + bachelor transcript (master); proof of health insurance needed to enroll (not before)",
+          "contact_info": "Study Advice Service mentioned, no direct contact details found",
+          "newly_found_info": "Full curriculum module breakdown; 10-day document upload window after starting application; health insurance requirement at enrollment",
+          "corrections": [],
+          "notes": "Two fetches confirm no uni-assist/VPD requirement for this program; data is otherwise thin on official site, consistent with prior collection."
+        }
       }
     },
     {
@@ -7699,7 +9365,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Application fee of 595 EUR for non-EU applicants (per secondary sources); exact tuition not confirmed on official page."
         },
-        "exact_admission_regulations": "Identical program listing to id 7127 (same university/program, duplicate DAAD entry); taught in English, 4 semesters full-time."
+        "exact_admission_regulations": "Identical program listing to id 7127 (same university/program, duplicate DAAD entry); taught in English, 4 semesters full-time.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-fresenius.com/study-programs/industrial-engineering-and-international-management-master/",
+            "https://www.hs-fresenius.com/application-process/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "Same as 7127 - own portal via 'Apply now', 10-day document upload window",
+          "gpa_requirement_verified": "No numeric GPA; 180 ECTS bachelor's required",
+          "language_requirements_verified": "CEFR B2 English; no IELTS/TOEFL figure found on official page",
+          "tuition_and_fees_verified": "Not confirmed on official page (secondary sources cite 595 EUR application fee for non-EU, unconfirmed officially)",
+          "deadlines_verified": "Not stated; rolling, winter/summer intakes",
+          "curriculum_summary": "Same program family as 7127 - identical curriculum structure",
+          "required_documents": "CV + secondary/bachelor transcript depending on entry level",
+          "contact_info": "Study Advice Service, no direct contact found",
+          "newly_found_info": "Confirms this is literally the same official page as 7127 (duplicate DAAD listing)",
+          "corrections": [],
+          "notes": "Identical official source to 7127; no VPD/uni-assist mention found."
+        }
       }
     },
     {
@@ -7781,7 +9466,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated on page (links to separate 'Charges and Fees' section with no amount shown)."
         },
-        "exact_admission_regulations": "Aptitude test required: GMAT Focus (min 550) or GRE (min 315), worth up to 60 of 90 ranking points. Capacity: 100 places/year. Enrollment deadline extensions possible in justified cases."
+        "exact_admission_regulations": "Aptitude test required: GMAT Focus (min 550) or GRE (min 315), worth up to 60 of 90 ranking points. Capacity: 100 places/year. Enrollment deadline extensions possible in justified cases.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.sle.kit.edu/english/vorstudium/master-industrial-engineering-management.php"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on the main or fee-related pages checked",
+          "application_portal_detail": "KIT's own application portal; summer-term portal opens Dec 1, 2026; ranking based on academic grade (30 pts) + aptitude test (60 pts)",
+          "gpa_requirement_verified": "No fixed GPA; ranking system — exam grade worth up to 30/90 points",
+          "language_requirements_verified": "CEFR B2 English confirmed; IELTS 6.5 overall (no section below 5.5), TOEFL iBT 90+, Cambridge C1/C2/B2 certificates; due by end of enrollment, preferably at application",
+          "tuition_and_fees_verified": "Not found; Charges and Fees subpage link given but could not be fetched (socket error)",
+          "deadlines_verified": "July 15 (winter term), January 15 (summer term) - same for EU and non-EU, first and higher semester",
+          "curriculum_summary": "120 CP, 4 semesters: Sem 1-3 compulsory (54 CP: quant core, engineering/informatics, business/economics) + compulsory electives (36 CP: three 9-CP modules, Supervised Profile Definition seminar, two 4-CP seminars); Sem 4: Master's thesis (30 CP, ~6 months)",
+          "required_documents": "Bachelor's degree (≥180 ECTS, ≥3yr), aptitude test result (GMAT Focus ≥550 or GRE ≥315), English proof",
+          "contact_info": "Carmen Reck (Student Advisor/ZSB) +49 721 608-44930; Studierendenservice +49 721 608-82222; International Students Office (IStO) +49 721 608-44911, intl.kit.edu",
+          "newly_found_info": "Detailed ranking point system (30 academic + 60 aptitude test = 90 total); capacity 100 places/year; module handbook PDF link; several named contacts/offices",
+          "corrections": [],
+          "notes": "Tuition page fetch failed (socket hang up) - could not independently confirm tuition fee amount."
+        }
       }
     },
     {
@@ -7863,7 +9566,34 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "€895 per month plus a €500 thesis fee; Early Bird applicants (apply by Jan 3, 2027) get one month's payment waived."
         },
-        "exact_admission_regulations": "APS registration required if applicable in country of origin. 3 semesters (18 months), 90 ECTS, full-time, Dresden, English-taught."
+        "exact_admission_regulations": "APS registration required if applicable in country of origin. 3 semesters (18 months), 90 ECTS, full-time, Dresden, English-taught.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.dresdeninternationaluniversity.com/master/industrial-management-microelectronics",
+            "https://www.dresdeninternationaluniversity.com/study-at-diu/how-to-apply",
+            "https://www.dresdeninternationaluniversity.com/study-at-diu/how-to-apply/application-process-visa-residence"
+          ],
+          "vpd_uni_assist_required": "Not mentioned anywhere across all 3 pages checked - DIU appears to use its own application process, not uni-assist",
+          "application_portal_detail": "DIU's own process: (1) online application form + document upload, (2) academic review by DIU, (3) pre-contract consultation, (4) study contract signed + first payment, (5) admission letter + visa prep materials. Apply via di-uni.de/studienberatung/application-form.",
+          "gpa_requirement_verified": "Average grade above 70% (not CGPA-based)",
+          "language_requirements_verified": "Internally inconsistent across page sections: admission section lists IELTS 6.0, TOEFL 570 (PBT)/iBT 4.0; eligibility checker lists TOEFL 550",
+          "tuition_and_fees_verified": "€895/month plus €500 thesis fee; Early Bird (apply by Jan 3, 2027) waives one month's payment",
+          "deadlines_verified": "19 February 2027 application deadline; program starts April 2027",
+          "curriculum_summary": "90 ECTS total: Studium generale (14), Scientific Working (10), Circuits & Devices (5), Semiconductor Technology I/II (10), Packaging in Microelectronics I/II (8), Operations & Logistics Mgmt I/II (8), Microsystems & Sensor Technology (5), Project Management (5), Investment & Financing (5), Master Thesis incl. colloquium (20)",
+          "required_documents": "Not fully itemized; degree (≥210 ECTS or bachelor's) in relevant field, ≥1yr occupational experience, APS registration if applicable; for visa: proof of financing + living funds",
+          "contact_info": "Julia Ramme (Study Advisory) +49 351 40470-132, studyadvisory@di-uni.de, WhatsApp +49 162 1800914",
+          "newly_found_info": "Full module/ECTS breakdown table; detailed 5-step application process; visa preparation guidance",
+          "corrections": [
+            {
+              "field": "application_process",
+              "old": "Not described in detail",
+              "corrected": "5-step process: online application > academic review > pre-contract consultation > contract+payment > admission letter/visa docs",
+              "evidence": "how-to-apply and application-process-visa-residence subpages"
+            }
+          ],
+          "notes": "No VPD/uni-assist used by DIU for this program based on 3 pages checked."
+        }
       }
     },
     {
@@ -7945,7 +9675,27 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "€895 per month plus €500 thesis fee (part-time schedule); Early Bird discount of one month's payment for applications by Jan 3, 2027."
         },
-        "exact_admission_regulations": "Part-time structure spread over a longer duration than the standard 18-month track; APS registration required if applicable; personal advisory appointments available."
+        "exact_admission_regulations": "Part-time structure spread over a longer duration than the standard 18-month track; APS registration required if applicable; personal advisory appointments available.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.dresdeninternationaluniversity.com/master/industrial-management-microelectronics",
+            "https://www.dresdeninternationaluniversity.com/study-at-diu/how-to-apply",
+            "https://www.dresdeninternationaluniversity.com/study-at-diu/how-to-apply/application-process-visa-residence"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - same as 6566, DIU uses own process not uni-assist",
+          "application_portal_detail": "Same 5-step DIU own-process as described for 6566 (part-time variant uses the identical page)",
+          "gpa_requirement_verified": "Average grade above 70%",
+          "language_requirements_verified": "IELTS 6.0, TOEFL iBT 4.0/TOEFL 570 (eligibility checker lists 550) - internally inconsistent",
+          "tuition_and_fees_verified": "€895/month plus €500 thesis fee (part-time schedule spread longer); Early Bird discount for Jan 3, 2027 applications",
+          "deadlines_verified": "19 February 2027 (per main program page; part-time-specific page redirects to same program)",
+          "curriculum_summary": "Same 90 ECTS module structure as 6566, delivered part-time over longer duration",
+          "required_documents": "Same as 6566: degree, ≥1yr experience, APS registration if applicable",
+          "contact_info": "Julia Ramme (Study Advisory) +49 351 40470-132, studyadvisory@di-uni.de",
+          "newly_found_info": "Confirms part-time page is a redirect/duplicate of main program; same 5-step application process applies",
+          "corrections": [],
+          "notes": "Duplicate program listing, same official source and findings as 6566."
+        }
       }
     },
     {
@@ -8027,7 +9777,27 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Online Assessment Test of core-topic background knowledge required; no numerical admission cap if entrance requirements are met."
+        "exact_admission_regulations": "Online Assessment Test of core-topic background knowledge required; no numerical admission cap if entrance requirements are met.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.etit.tu-darmstadt.de/ice/studies/prospective_students/admission_requirements/admissionrequirements.en.jsp (404)",
+            "https://www.etit.tu-darmstadt.de/ice/service_1/faq_10/faq.en.jsp (404)",
+            "WebSearch for cached/alternate official content"
+          ],
+          "vpd_uni_assist_required": "Not mentioned in any source found - no uni-assist/VPD reference located",
+          "application_portal_detail": "Not confirmed independently; cached info suggests International Admission Office handles applications; online assessment test required",
+          "gpa_requirement_verified": "No numeric CGPA; admissions committee reviews transcripts for suitable background relative to TU Darmstadt's own B.Sc. Elektrotechnik und Informationstechnik",
+          "language_requirements_verified": "English C1 level (CEFR); cached search suggests IELTS 7.0, PTE Academic 76, Cambridge CAE accepted, but unconfirmed on a live official page",
+          "tuition_and_fees_verified": "Not found",
+          "deadlines_verified": "Sources conflict: old FAQ (now 404) said single September intake, applications 1 June-31 Aug; other cached text cites 15 March winter deadline; unresolved",
+          "curriculum_summary": "Not independently verified this round; both target official URLs returned 404",
+          "required_documents": "Not found",
+          "contact_info": "Not found; International Admission Office referenced generically",
+          "newly_found_info": "Confirmed via WebSearch that both the admission-requirements AND FAQ official URLs are now dead (404), worse than before",
+          "corrections": [],
+          "notes": "CRITICAL: both official URLs attempted (admission requirements page and FAQ page) returned 404. Could not independently verify VPD/uni-assist status or any other field this round. Existing data note about the dead link stands; this is one of the least-verifiable entries in the batch. Recommend trying https://www.etit.tu-darmstadt.de/studieren/studium_international_etit/international_master_programme_information_and_communication_engineering/index.en.jsp found via search but not fetched due to time constraints."
+        }
       }
     },
     {
@@ -8109,7 +9879,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated on official page."
         },
-        "exact_admission_regulations": "Online self-test / GPA 'pre-check' strongly recommended before applying; subject-specific credit requirements published in a separate PDF (last confirmed version dated 2016)."
+        "exact_admission_regulations": "Online self-test / GPA 'pre-check' strongly recommended before applying; subject-specific credit requirements published in a separate PDF (last confirmed version dated 2016).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://tuhh.de/tuhh/en/studying/before-studying/degree-courses/international-study-programs/information-and-communication-systems/admission-requirements",
+            "https://tuhh.de/.../admission-requirements (documents subpage)"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - TUHH uses its own online application portal, not uni-assist, for this program",
+          "application_portal_detail": "TUHH's own online application portal; applicants may only apply to one international Master's program at TUHH; documents as PDFs up to 7MB each",
+          "gpa_requirement_verified": "No numeric threshold; requires 'very good previous academic performance'",
+          "language_requirements_verified": "TOEFL: 90 iBT / 577 PBT / 22 revised PBT (ITP and Essentials not accepted, TUHH code 8165); IELTS Academic 6.5 overall; also Cambridge CAE/CPE, telc English C1 (no min score given for these). Exemptions for German Abitur holders or certain country degrees taught entirely in English.",
+          "tuition_and_fees_verified": "Not stated on official page",
+          "deadlines_verified": "Not stated on official admission-requirements page; proof of English must be valid 'up to the application deadline' but exact date not given",
+          "curriculum_summary": "Not detailed on this page; subject-specific credit PDF referenced (last confirmed 2016 version)",
+          "required_documents": "CV/résumé (max 2 pages), bachelor's degree certificate with overall grade, complete transcript, official explanation of grading scale (incl. min passing/graduating grade), proof of English, APS certificate if from China/India/Vietnam",
+          "contact_info": "Postal: TU Hamburg, Am Schwarzenberg-Campus 1, 21073 Hamburg; no phone/email found",
+          "newly_found_info": "Full required-documents checklist with APS certificate requirement for China/India/Vietnam applicants; explicit non-acceptance of TOEFL ITP/Essentials and GRE scores",
+          "corrections": [
+            {
+              "field": "language_requirements.ielts",
+              "old": "Not specified; third-party sources suggest IELTS 6.5/TOEFL iBT 90, unconfirmed",
+              "corrected": "Confirmed officially: TOEFL iBT 90/PBT 577, IELTS 6.5 overall",
+              "evidence": "TUHH admission-requirements page"
+            }
+          ],
+          "notes": "No uni-assist/VPD used; TUHH runs its own portal."
+        }
       }
     },
     {
@@ -8191,7 +9987,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Official program page is minimal and redirects to a separate 'Studiengang' (program) page not reachable directly; DAAD listing remains the best available source for this entry."
+        "exact_admission_regulations": "Official program page is minimal and redirects to a separate 'Studiengang' (program) page not reachable directly; DAAD listing remains the best available source for this entry.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.tu-chemnitz.de/etit/studium/studiengaenge/mIS",
+            "https://www.tu-chemnitz.de/etit/studium/stugang/index.php?page=m_is"
+          ],
+          "vpd_uni_assist_required": "Mentioned as an application route (uni-assist used for roughly early April-July 15 window) but VPD specifically NOT mentioned",
+          "application_portal_detail": "Two routes: TU-Portal (roughly late May-mid Sept) or uni-assist (roughly early April-July 15) depending on applicant origin; Studierendenservice confirms which applies",
+          "gpa_requirement_verified": "No minimum grade/GPA stated",
+          "language_requirements_verified": "German A1 (CEFR) required for enrollment; English B2 (CEFR) or equivalent proof; accepted certificates listed on separate Studierendenservice page",
+          "tuition_and_fees_verified": "Not stated; links to semester fee and second/extended study fee pages",
+          "deadlines_verified": "Winter semester: TU-Portal ~late May-mid Sept; uni-assist ~early April-July 15 (approximate, confirm with Studierendenservice)",
+          "curriculum_summary": "4 semesters, 120 ECTS, full-time (summer start possible with approval, extends duration), zulassungsfrei (not admission-restricted), taught in English",
+          "required_documents": "Bachelor's degree in Electrical Engineering/IT from TU Chemnitz or equivalent (case-by-case equivalence check); German A1 cert; English B2 proof",
+          "contact_info": "Central Student Advisory +49 371 531 55555/-32549/-31690; Subject Advisor Prof. Sven Quinger +49 371 531-24055; Examination Board Chair Prof. John Thomas Horstmann +49 371 531-37114; Dean of Studies Prof. Klaus Mößner +49 371 531-39001",
+          "newly_found_info": "This entry was previously almost entirely 'Not found via official site' - now confirmed German A1 requirement, dual application route (TU-Portal vs uni-assist), zulassungsfrei status, and 4 named contacts with phone numbers",
+          "corrections": [
+            {
+              "field": "admission_eligibility/application_process",
+              "old": "Not found via official site (page minimal, link unresolved)",
+              "corrected": "Full admission/application details found by resolving the stugang subpage link with the university's actual domain",
+              "evidence": "tu-chemnitz.de/etit/studium/stugang/index.php?page=m_is"
+            }
+          ],
+          "notes": "Major improvement over prior 'not found' data; uni-assist is used as one of two application routes but VPD is not explicitly named - recommend treating as 'uni-assist used, VPD not confirmed'."
+        }
       }
     },
     {
@@ -8273,7 +10095,34 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Three specialization tracks offered (only 'Embedded Systems' named on fetched content, others truncated); standard duration 4 semesters; contact: Studien-Service-Center EEI, Erlangen."
+        "exact_admission_regulations": "Three specialization tracks offered (only 'Embedded Systems' named on fetched content, others truncated); standard duration 4 semesters; contact: Studien-Service-Center EEI, Erlangen.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.iuk.studium.fau.eu/",
+            "https://www.iuk.studium.fau.eu/prospective-students/master-program-application/",
+            "https://www.iuk.studium.fau.eu/prospective-students/international-students/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on any of the 3 pages checked",
+          "application_portal_detail": "FAU's own 'campo' portal; online qualification test required (offered twice during application period); no uni-assist mentioned",
+          "gpa_requirement_verified": "Not stated on any page checked",
+          "language_requirements_verified": "English B2 required generally; exceptions allow IELTS 6.0 minimum or TOEFL iBT 80 minimum",
+          "tuition_and_fees_verified": "Not found",
+          "deadlines_verified": "15 July (winter semester), 15 January (summer semester) - documents must reach Master's Office by these dates",
+          "curriculum_summary": "4-semester standard duration, part-time study possible; 3 specialization tracks (only Embedded Systems confirmed by name; other two not captured in fetched text)",
+          "required_documents": "Not itemized on pages checked; links to a fau.eu page with full document list/forms",
+          "contact_info": "Studien-Service-Center EEI, Cauerstr. 7, 91058 Erlangen; no phone/email given",
+          "newly_found_info": "Online qualification/aptitude test requirement (offered twice per cycle); exact deadlines (15 July/15 Jan); campo portal name; international-students subpage points to fau.eu/education/international/from-abroad/ for further info (not checked)",
+          "corrections": [
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Not stated on main page",
+              "corrected": "15 July (winter semester) / 15 January (summer semester)",
+              "evidence": "master-program-application subpage"
+            }
+          ],
+          "notes": "No VPD/uni-assist found despite checking 3 pages including the dedicated international-students page."
+        }
       }
     },
     {
@@ -8355,7 +10204,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "€36,000 total program fee (links to a separate tuition/financing page for payment details)."
         },
-        "exact_admission_regulations": "Part-time structure (students enrolled full-time); 15 months of modules + 6-month thesis, typically done in a company; 90 ECTS; optional crash courses in probability/statistics and programming recommended for less-experienced applicants."
+        "exact_admission_regulations": "Part-time structure (students enrolled full-time); 15 months of modules + 6-month thesis, typically done in a company; 90 ECTS; optional crash courses in probability/statistics and programming recommended for less-experienced applicants.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://hectorschool.kit.edu/master-information-systems-engineering-and-management.php",
+            "https://hectorschool.kit.edu/admission-requirements.php"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on either page checked",
+          "application_portal_detail": "Program's own admissions process; rolling admissions, program starts every October",
+          "gpa_requirement_verified": "Not stated; no GPA threshold given, only 'relevant first degree' requirement",
+          "language_requirements_verified": "TOEFL ≥570 PBT/230 CBT/90 iBT; IELTS ≥6.5; alternatively C1-level proof; native English speakers exempt",
+          "tuition_and_fees_verified": "€36,000 total program fee (no breakdown found); separate costs-and-fees.php page exists but not fetched this round",
+          "deadlines_verified": "No fixed deadline - rolling admissions; program starts every October; prep crash courses mid-Dec-mid-Jan (Probability/Statistics) and Feb 23-26 2027 (Programming)",
+          "curriculum_summary": "90 ECTS, 15 months modules + 6-month thesis (often company-based innovation project); Engineering modules (Digital Platforms & AI, Software Engineering, AI-supported Process/Knowledge Engineering, Security & Privacy Engineering, elective in Digital Services or Autonomous Robotics); Management modules (Marketing & Data Science, Finance & Value, Decisions & Risk, Innovation & Projects, Strategy & People)",
+          "required_documents": "First academic degree (Bachelor/Master/Diploma) evidence, professional experience evidence (references), language test certificate if applicable; ≥2 years professional experience required",
+          "contact_info": "Temir Vinokhodov (Admissions & Program Consultant) +49 721 608 47880, info@hectorschool.kit.edu",
+          "newly_found_info": "Exact language test scores (TOEFL 570/230/90, IELTS 6.5); named admissions contact; prep crash course schedule; confirmed rolling admissions with October-only start",
+          "corrections": [
+            {
+              "field": "language_requirements.ielts",
+              "old": "Not named; only 'English language proficiency' required",
+              "corrected": "TOEFL ≥570 PBT/230 CBT/90 iBT; IELTS ≥6.5; C1 alternative accepted",
+              "evidence": "admission-requirements.php subpage"
+            }
+          ],
+          "notes": "No VPD/uni-assist mention despite checking the dedicated admission-requirements subpage."
+        }
       }
     },
     {
@@ -8437,7 +10312,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "None (no tuition fee)."
         },
-        "exact_admission_regulations": "Non-restricted admission; no preparatory courses required; full-time (part-time option also mentioned); taught in English at the Innovation Campus Lemgo; 4-semester standard duration."
+        "exact_admission_regulations": "Non-restricted admission; no preparatory courses required; full-time (part-time option also mentioned); taught in English at the Innovation Campus Lemgo; 4-semester standard duration.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.th-owl.de/en/studies/available-courses/degree-programs/detail/information-technology/",
+            "https://www.th-owl.de/en/studies/application-and-enrollment/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on either page checked",
+          "application_portal_detail": "KIS applicant portal (kis-portal.th-owl.de); page points to a separate 'Entry Options' subpage (/en/studies/application-and-enrollment/options-for-admission/) not yet fetched for full process detail",
+          "gpa_requirement_verified": "No fixed GPA cutoff for bachelor's holders; alternative English route requires 3.0 (German scale) grades in last 4 semesters of secondary education + 7+ years English instruction",
+          "language_requirements_verified": "CEFR B2 English via International Office documentation rules; no IELTS/TOEFL score specified",
+          "tuition_and_fees_verified": "None (no tuition fee) - confirmed",
+          "deadlines_verified": "Germany/EU: winter 04.05-15.10, summer 01.12-15.02. Non-EU: winter 01.04-01.06, summer 17.11-15.01. Page noted applications currently closed at time of check.",
+          "curriculum_summary": "4 semesters: Sem1 (Advanced Algorithms, Industrial Software Engineering, Probability & Statistics, Usability Engineering, Scientific Methods & Writing, Management Skills & Business Admin); Sem2 (Innovation & Development Strategies, compulsory electives); Sem3 (Research Project); Sem4 (Thesis + Colloquium). Full-time or part-time, English-taught, Innovation Campus Lemgo.",
+          "required_documents": "Bachelor's degree certificate, proof of English proficiency, statement of purpose (English)",
+          "contact_info": "Student Service Center +49 5261 702 2534, studierendenservice@th-owl.de (Mon-Fri 9am-3pm); General TH OWL +49 5261 702 0, info@th-owl.de; Campusallee 12, 32657 Lemgo",
+          "newly_found_info": "Full curriculum breakdown by semester; required statement of purpose; KIS applicant portal name; direct contact phone/email for Student Service Center",
+          "corrections": [],
+          "notes": "Entry Options subpage (likely to contain application process steps) was linked but not fetched this round due to scope; no VPD/uni-assist found in pages checked."
+        }
       }
     },
     {
@@ -8519,7 +10413,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Foreign qualifications checked via uni-assist.de; program runs 4 semesters, taught in English."
+        "exact_admission_regulations": "Foreign qualifications checked via uni-assist.de; program runs 4 semesters, taught in English.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch (frankfurt-university.de program page returned 404 on direct fetch; for-prospective-students URL also 404)"
+          ],
+          "vpd_uni_assist_required": "YES - CONFIRMED via WebSearch of official content: foreign qualifications are checked through uni-assist; admission is restricted; statutes dated 28 Feb 2005 govern applicants with foreign educational qualifications. Specific VPD wording not directly quoted, but uni-assist process confirmed as official.",
+          "application_portal_detail": "Uni-assist portal for applicants with foreign qualifications; motivation letter and CV required; fill in the attachment provided in the uni-assist application portal; uni-assist review takes about 4-6 weeks and forwards complete applications even after the official deadline",
+          "gpa_requirement_verified": "Average mark ≤2.0 (German scale) cited in an older official program presentation PDF; could not confirm on a live current page (both direct URLs 404)",
+          "language_requirements_verified": "Conflicting: one listing says proficient English is a prerequisite; another FAQ-type source says some applicants are exempt from proof under certain conditions (prior instruction in English). No exact IELTS/TOEFL score found.",
+          "tuition_and_fees_verified": "Not found",
+          "deadlines_verified": "Conflicting: 15 April cited for winter intake by multiple third-party sources; one source adds 15 October for summer intake",
+          "curriculum_summary": "Not found this round - both official URLs returned 404",
+          "required_documents": "Motivation letter and CV, plus the uni-assist attachment form",
+          "contact_info": "Not found this round",
+          "newly_found_info": "Confirmed uni-assist usage with foreign-qualification-specific statutes (dated 2005); uni-assist review timeline of 4-6 weeks noted by official FAQ",
+          "corrections": [
+            {
+              "field": "exact_admission_regulations",
+              "old": "Foreign qualifications checked via uni-assist.de",
+              "corrected": "Confirmed: uni-assist used, with dedicated 2005 statutes for foreign-qualification applicants; FAQ clarifies uni-assist forwards late-but-complete applications since its own processing takes 4-6 weeks",
+              "evidence": "WebSearch summary of official Frankfurt UAS FAQ and program pages"
+            }
+          ],
+          "notes": "Both direct official URLs (program page and for-prospective-students subpage) returned 404 again this round, same as previous data collection. Could not independently verify VPD wording, only general uni-assist usage, via WebSearch of cached/indexed official content. This program uses uni-assist (confirmed) but explicit 'VPD' terminology not directly observed in available text - should be flagged as likely VPD-required given uni-assist dependency, pending direct page access."
+        }
       }
     },
     {
@@ -8601,7 +10520,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EU/EEA students: €840 per month. Non-EU/non-EEA students: €6,949.98 per semester."
         },
-        "exact_admission_regulations": "Duration 4 semesters; location Heidelberg; free, non-binding information material available on request; successful interview leads to acceptance letter and study contract."
+        "exact_admission_regulations": "Duration 4 semesters; location Heidelberg; free, non-binding information material available on request; successful interview leads to acceptance letter and study contract.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.srh-university.de/en/plp/meng-information-technology/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - page gives almost no admission detail",
+          "application_portal_detail": "Request information material form only; no application portal/process steps found",
+          "gpa_requirement_verified": "Not mentioned",
+          "language_requirements_verified": "Not mentioned on this page (third-party estimate of IELTS 6.5/TOEFL 80 remains unconfirmed)",
+          "tuition_and_fees_verified": "€840/month EU/EEA students; €6,949.98/semester non-EU/non-EEA students - confirmed exact figures",
+          "deadlines_verified": "No deadlines; only start dates 01 April and 01 October, 2027-2029 listed in contact form",
+          "curriculum_summary": "No module list; focus areas named: communication networks, robotics, embedded systems, image processing, data analysis, machine learning, advanced control engineering, practice-oriented projects, intercultural collaboration, ethics/sustainability in IT. 4 semesters, Heidelberg location.",
+          "required_documents": "Not listed - only an information-request form offered",
+          "contact_info": "No direct contact; only a footer 'Your contact' link and info-request form",
+          "newly_found_info": "List of curriculum focus areas (communication networks, robotics, embedded systems, etc.) not previously captured; exact tuition figures reconfirmed",
+          "corrections": [],
+          "notes": "Page remains thin on admission process; same gaps as before. Recommend searching for a related SRH admission-requirements subpage not linked from this page."
+        }
       }
     },
     {
@@ -8683,7 +10620,39 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "International (non-EU/EEA) students: EUR 1,500/semester plus semester fees. Students pursuing a second degree in Germany: EUR 650/semester plus semester fees."
         },
-        "exact_admission_regulations": "Program system-accredited and recognized by the Baden-Württemberg Ministry of Education and Science; qualifies graduates for doctoral programs in Germany; personalized accreditation confirmation available on request."
+        "exact_admission_regulations": "Program system-accredited and recognized by the Baden-Württemberg Ministry of Education and Science; qualifies graduates for doctoral programs in Germany; personalized accreditation confirmation available on request.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.infotech.uni-stuttgart.de/program/",
+            "https://www.infotech.uni-stuttgart.de/application/requirements/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - uni-assist/VPD absent from both the program page and the dedicated Requirements subpage",
+          "application_portal_detail": "Application via the program's own process (C@mpus system implied by 'adjunct form uploaded with C@mpus application'); applicants submit an adjunct/supplementary form plus bachelor documents",
+          "gpa_requirement_verified": "Cumulative grade average must exceed specific minimums depending on scale: 70% of 100%, 2.8/4, 3.5/5, 14/20, 7/10, or 2.5 German scale (original marks required, not conversions)",
+          "language_requirements_verified": "TOEFL iBT ≥95 (from 2026: ≥5, likely a typo/transition to a new scale); IELTS Academic ≥7.0; Cambridge C1/C2; Oxford Test of English Advanced (C1); PTE Academic ≥76; telc University B2/C1 'very good' or telc C1/C2 general. English-taught bachelor's alone NOT accepted as proof.",
+          "tuition_and_fees_verified": "Non-EU/EEA: €1,500/semester + semester fees. Second-degree-in-Germany students: €650/semester + semester fees.",
+          "deadlines_verified": "Language certificates must remain valid through application deadlines of 15 January or 15 July (exact application-period dates not separately itemized)",
+          "curriculum_summary": "Linked to a separate curriculum page (cur19) not fetched; program requires passing all exams + Master Thesis project",
+          "required_documents": "Language proof (or citizenship proof from listed countries), adjunct/supplementary form via C@mpus, bachelor's degree documents with original (non-converted) grades from an H+-status institution per anabin, APS certificate for China/Mongolia/Vietnam/India applicants (unless exempt)",
+          "contact_info": "INFOTECH Office +49 711 685 67820 (program-specific); International Service Point, Faculty 5 +49 711 685 67926 (general); Pfaffenwaldring 47, 70569 Stuttgart",
+          "newly_found_info": "Precise GPA conversion table (70%, 2.8/4, 3.5/5, 14/20, 7/10, 2.5 German scale); exact and much higher language scores than previously known (IELTS 7.0, TOEFL iBT 95) which significantly exceed the previous 'not stated' entry; anabin H+ status requirement; APS requirement for specific countries",
+          "corrections": [
+            {
+              "field": "language_requirements.ielts",
+              "old": "Not stated; page only confirms all lectures/exams are in English",
+              "corrected": "IELTS Academic 7.0 minimum (high bar); TOEFL iBT 95 minimum; also PTE 76, Cambridge C1/C2, telc C1/C2",
+              "evidence": "infotech.uni-stuttgart.de/application/requirements/"
+            },
+            {
+              "field": "admission_eligibility.minimum_gpa_cutoff",
+              "old": "Not stated on page; refers to Study Regulations",
+              "corrected": "Specific multi-scale GPA minimums given: 70%, 2.8/4, 3.5/5, 14/20, 7/10, or 2.5 German scale",
+              "evidence": "infotech.uni-stuttgart.de/application/requirements/"
+            }
+          ],
+          "notes": "No uni-assist/VPD requirement found even on the dedicated Requirements subpage - this program appears to use its own application review with anabin verification instead."
+        }
       }
     },
     {
@@ -8765,7 +10734,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Non-EU citizens: €1,200 per semester. EU fees not listed."
         },
-        "exact_admission_regulations": "Indian applicants with certain bachelor's backgrounds must provide a Digital Master Test (dMAT, €150). Non-EU applicants undergo a two-stage selection: curricular analysis then online interview (if ≥65 points). EU/German-degree holders admitted without aptitude test. 4 semesters, 120 ECTS, English-taught, not admission-restricted; dual study option available."
+        "exact_admission_regulations": "Indian applicants with certain bachelor's backgrounds must provide a Digital Master Test (dMAT, €150). Non-EU applicants undergo a two-stage selection: curricular analysis then online interview (if ≥65 points). EU/German-degree holders admitted without aptitude test. 4 semesters, 120 ECTS, English-taught, not admission-restricted; dual study option available.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.thi.de/en/electrical-engineering-and-information-technology/degree-programmes/intelligent-aerial-systems-meng/"
+          ],
+          "vpd_uni_assist_required": "YES - EXPLICITLY CONFIRMED: 'Master's applicants with relevant previous studies abroad need a preliminary examination document (VPD) from uni-assist.' Applicants apply through the uni-assist portal; a processing fee is paid to uni-assist, which only checks documents and does not grant admission itself.",
+          "application_portal_detail": "International applicants (with foreign prior studies) apply via uni-assist portal for VPD; THI's own PRIMUSS online application portal also used (https://www3.primuss.de/cgi-bin/bew_anmeldung_v2/index.pl?...&FH=fhin); Indian applicants additionally need the Digital Master Test (dMAT, €150) for APS certificate/visa",
+          "gpa_requirement_verified": "Not numerically stated; non-EU applicants undergo curricular analysis scored out of 100 points - scoring ≥65 triggers an online interview invitation",
+          "language_requirements_verified": "English B2 certificate required unless Abitur/bachelor's taught in English or applicant is from an English-speaking country; German A1 required by end of first semester (not for admission)",
+          "tuition_and_fees_verified": "Non-EU citizens: €1,200/semester; EU fees not listed",
+          "deadlines_verified": "Summer semester 2027 application period: 15 October 2026 - 15 January 2027; start dates 15 March (summer) and 1 October (winter)",
+          "curriculum_summary": "4 semesters, 120 ECTS, M.Eng.: Sem1 (programming, signal processing/ML, control engineering, electronics, flight mechanics); Sem2 (sensors, navigation, software architecture, electives); Sem3 (perception, certification/safety, flight control/trajectory planning, team project); Sem4 (thesis + colloquium)",
+          "required_documents": "Degree certificate + transcript/grade sheet (provisional accepted, final required at enrollment); VPD from uni-assist for applicants with prior studies abroad",
+          "contact_info": "Prof. Dr.-Ing. Simon Schwerd (content) Simon.Schwerd@thi.de, +49 841 9348-6417; Prof. Dr. Andreas Hagerer (programme director) Andreas.Hagerer@thi.de, +49 841 9348-3800; General info@thi.de, +49 841 9348-0",
+          "newly_found_info": "EXPLICIT VPD/uni-assist requirement for applicants with prior foreign studies - directly analogous to the FH Dortmund gap the user flagged; dMAT requirement for Indian applicants (€150); two-stage selection (curricular analysis then interview if ≥65 points); Master's Talk events (Nov 12 and Dec 1, 2026)",
+          "corrections": [
+            {
+              "field": "exact_admission_regulations",
+              "old": "Non-EU applicants undergo a two-stage selection: curricular analysis then online interview (if ≥65 points)",
+              "corrected": "Confirmed and expanded: VPD from uni-assist is EXPLICITLY required for applicants with prior studies abroad, in addition to the two-stage selection process",
+              "evidence": "THI official program page"
+            }
+          ],
+          "notes": "IMPORTANT FINDING matching the user's flagged pattern - this THI program (same university family as the FH Dortmund miss) explicitly requires a uni-assist VPD for applicants with foreign prior studies. This confirms VPD requirements are common and were under-surfaced in the original data collection for THI/FH programs generally."
+        }
       }
     },
     {
@@ -8847,7 +10841,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Non-EEA students pay a per-semester fee (amount not given on this page; refers to separate international semester fees page)."
         },
-        "exact_admission_regulations": "German A1 required (Goethe/ÖSD/telc). 3-semester program; 20 study places for summer 2026; program-specific admission; online/on-site info session 12 Nov 2026."
+        "exact_admission_regulations": "German A1 required (Goethe/ÖSD/telc). 3-semester program; 20 study places for summer 2026; program-specific admission; online/on-site info session 12 Nov 2026.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.th-nuernberg.de/studiengang/intelligent-autonomous-systems-meng/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page - no uni-assist or VPD reference found",
+          "application_portal_detail": "Not detailed on main page; subpages for Admission requirements, Application period, Application process, and Application FAQ were linked but not fetched this round",
+          "gpa_requirement_verified": "Bachelor's grade 2.5 or better (German scale) - confirmed",
+          "language_requirements_verified": "English: B1+ speaking / B2 reading via CAE, IELTS, PTE, TOEFL, TOEIC, or German Abitur; German: A1 via Goethe/ÖSD/telc Deutsch Hochschule; certificates must be ≤2 years old",
+          "tuition_and_fees_verified": "No exact amount confirmed this round; non-EEA students pay a per-semester fee per the linked International Semester Fees page (not fetched)",
+          "deadlines_verified": "Summer semester application period: 15.11.2026-15.01.2027; info event 12 Nov 2026 17:30",
+          "curriculum_summary": "3 semesters. Compulsory: Technology Ethics, Statistics & Mathematics, Mathematical Foundations of ML, Trends in Intelligent Systems, Data Analytics, AI Accelerators, Language. Electives (choose 3): Environment Perception & Sensor Fusion, Intelligent Robotics, AI for Processing Biomedical Signals, Anomaly Detection. Project work in sem 2; thesis in sem 3. Specializations: Autonomous Systems (mobile robotics) and Medical Technologies.",
+          "required_documents": "Relevant technical bachelor's (210 ECTS, 7 semesters incl. internship, ≥15 ECTS programming); language certificate; non-EU: motivation letter (≤2,000 chars) + English translation of bachelor thesis",
+          "contact_info": "Prof. Dr.-Ing. Hritam Dutta (subject advisor) +49 911 5880-1165, hritam.dutta@th-nuernberg.de; Student Office studienbuero@th-nuernberg.de, +49 911 5880-4004",
+          "newly_found_info": "Full compulsory/elective module list with two specialization tracks; 20 places available for summer 2026; specific motivation letter character limit",
+          "corrections": [],
+          "notes": "No VPD/uni-assist found, consistent with prior data; full module list newly captured."
+        }
       }
     },
     {
@@ -8929,7 +10941,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not mentioned on page."
         },
-        "exact_admission_regulations": "120 LP, 4-semester M.Sc.; Double Degree with University of Bologna; early admission possible for Bielefeld B.Sc. students who can't finish by winter semester, decided case-by-case; contacts: iisy@techfak.uni-bielefeld.de."
+        "exact_admission_regulations": "120 LP, 4-semester M.Sc.; Double Degree with University of Bologna; early admission possible for Bielefeld B.Sc. students who can't finish by winter semester, decided case-by-case; contacts: iisy@techfak.uni-bielefeld.de.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/studium/master/iisy/index.xml"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - page refers applicants to the Studierendensekretariat for application details but doesn't name uni-assist or VPD",
+          "application_portal_detail": "Not detailed; applicants submit a list of completed bachelor courses with ECTS per the 3 required knowledge areas; Studierendensekretariat handles the application",
+          "gpa_requirement_verified": "Bachelor's degree grade of at least 2.7 (German scale) - confirmed",
+          "language_requirements_verified": "CEFR B2+; TOEFL iBT internally inconsistent (87 in one section, 72+ in another - flagged on page itself); IELTS ≥5.5; Cambridge First Certificate (CFE); German Abitur also accepted",
+          "tuition_and_fees_verified": "Not mentioned",
+          "deadlines_verified": "Regular winter-semester application: 15 July; early/recognition route: 15 February (requires 20 ECTS already earned); 2nd onboarding session 23 Nov 2026 13:00-15:00",
+          "curriculum_summary": "120 ECTS, 4 semesters. 3 specialization blocks: Interaction Technology (INT), AI & Machine Learning (AI), Autonomous Systems Engineering (ASE). Sem1 foundations; Sem2-3 advanced/application modules (5 or 10 LP versions); Sem1-2 Scientific Research Methods module; Sem3 group project (10 LP, 3-5 students). English-taught track available. Pre-study option (10 LP Basics + 10 LP supplements). Double Degree with University of Bologna (3rd semester abroad, optional extra thesis semester).",
+          "required_documents": "List of completed bachelor courses with ECTS in: 30 ECTS CS fundamentals, 10 ECTS math, 30 ECTS intelligent systems methods (or ≤10 ECTS interdisciplinary substitute)",
+          "contact_info": "Prof. Dr.-Ing. Stefan Kopp (coordinator) skopp@techfak.uni-bielefeld.de; Examination office pruefungsamttechfak@uni-bielefeld.de; Student advising studienberatung.techfak@uni-bielefeld.de; General iisy@techfak.uni-bielefeld.de",
+          "newly_found_info": "Double Degree program with University of Bologna (3rd semester abroad); specific specialization block names (INT/AI/ASE); page itself flags its own TOEFL inconsistency (87 vs 72+); multiple named contacts for different purposes",
+          "corrections": [],
+          "notes": "No VPD/uni-assist found. Note the program page itself admits the TOEFL figure inconsistency, matching the previously flagged internal inconsistency."
+        }
       }
     },
     {
@@ -9011,7 +11041,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "€1,500, for non-EU/EEA students only."
         },
-        "exact_admission_regulations": "Requires 210 ECTS preferred (minimum 180 ECTS with conditions); engineering project submission (10–40 pages, ≤500-word abstract, cover sheet); APS certificate if applicable."
+        "exact_admission_regulations": "Requires 210 ECTS preferred (minimum 180 ECTS with conditions); engineering project submission (10–40 pages, ≤500-word abstract, cover sheet); APS certificate if applicable.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-heilbronn.de/en/intelligent-mechatronic-systems-master"
+          ],
+          "vpd_uni_assist_required": "YES - EXPLICITLY CONFIRMED: non-German bachelor degrees must be recognized BEFORE applying, via Studienkolleg Konstanz OR uni-assist. Required document is either a Certificate of Recognition (Studienkolleg Konstanz) or a VPD (uni-assist).",
+          "application_portal_detail": "Not fully detailed on main page (links to /en/master-application subpage not fetched); non-German degree holders must first obtain recognition (Studienkolleg Konstanz cert or uni-assist VPD) before applying",
+          "gpa_requirement_verified": "Bachelor's grade 2.5 or better (German scale) - confirmed; no separate CGPA given",
+          "language_requirements_verified": "English B2 only; no specific test names/scores given on this page",
+          "tuition_and_fees_verified": "€1,500, non-EU/EEA students only - confirmed",
+          "deadlines_verified": "June 15 and December 1 (admission restricted); winter lectures start end of September, summer mid-March",
+          "curriculum_summary": "3 semesters (1.5 years), 90 ECTS, M.Eng. Sem1: Statistical Methods, Selected Topics of Mathematics, Electives, Engineering Project, German as Foreign Language, Advised Studying. Sem2: Design of Experiments, Numerical Methods & Optimization, Electives, Engineering Project, Colloquium Engineering Project, Academic/Professional Skills. Sem3: Master's thesis + colloquium.",
+          "required_documents": "Bachelor's certificate/transcript (German/English); Recognition Certificate (Studienkolleg Konstanz) OR VPD (uni-assist) for international degrees; Engineering project documentation (10-40 pages, ≤500-word abstract, cover sheet, supervisor confirmation - signed or emailed from supervisor's university address to master-te@hs-heilbronn.de); English proof; APS certificate if applicable",
+          "contact_info": "Prof. Dr.-Ing. Peter Ott (Dean of Studies Master) +49 179 3206364, master-te@hs-heilbronn.de; Marion Strattner (Programme Coordination) +49 7131 504 265, marion.strattner@hs-heilbronn.de",
+          "newly_found_info": "Full engineering-project documentation specs (page count, abstract limit, cover sheet, supervisor confirmation process); this is the SAME confirmation pattern as the user-flagged FH Dortmund VPD gap - already captured in existing data, now independently re-verified",
+          "corrections": [],
+          "notes": "This entry's existing data ALREADY correctly captured the VPD/uni-assist requirement before this re-check - re-verification confirms it is accurate and matches the official page language precisely."
+        }
       }
     },
     {
@@ -9093,7 +11141,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Non-EU students: €587/semester (€87 semester fee + €500 tuition service fee). EU students: €87/semester. Non-EU applicants also pay a €50 application fee."
         },
-        "exact_admission_regulations": "German A2 required by end of 2nd semester. 180-ECTS applicants must complete 30 ECTS via English-language 'bridge modules' in winter semester; VPD from uni-assist can take up to 8 weeks."
+        "exact_admission_regulations": "German A2 required by end of 2nd semester. 180-ECTS applicants must complete 30 ECTS via English-language 'bridge modules' in winter semester; VPD from uni-assist can take up to 8 weeks.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.oth-aw.de/en/studies/study-offers/study-programmes/master/international-energy-engineering"
+          ],
+          "vpd_uni_assist_required": "YES - EXPLICITLY CONFIRMED, with unusually specific detail: applicants need a VPD issued SPECIFICALLY for OTH Amberg-Weiden (a VPD from another university is NOT sufficient). VPD can take up to 8 weeks; admission can only be granted if VPD is submitted within the application period. Indian applicants need APS certificate before uni-assist will issue the VPD.",
+          "application_portal_detail": "Primuss application system (not email/post); uni-assist for VPD processing (university-specific VPD required, up to 8 week turnaround)",
+          "gpa_requirement_verified": "2.5 or better (German scale); if below 2.5, selection committee assesses energy-related aptitude (thesis/project/lab records/internships/job references) which combined with bachelor grade can still produce 2.5-or-better overall",
+          "language_requirements_verified": "English B2: TOEFL iBT 80, IELTS (Cambridge) 6, or TOEIC 780 - not required if school/degree was in English. German A2 (page inconsistency: 'end of first year' vs FAQ's 'end of second semester')",
+          "tuition_and_fees_verified": "Non-EU: €587/semester (€87 semester fee + €500 tuition service fee, applies from winter 2024/25); EU: €87/semester; non-EU also pay €50 application fee",
+          "deadlines_verified": "Summer semester (starts 15 March, 210-ECTS bachelors only): applications 1 Nov-1 Dec. Winter semester (starts 1 Oct, open to 180-ECTS bachelors too): applications 15 April-1 June.",
+          "curriculum_summary": "3 semesters, 90 ECTS, English-taught, Amberg campus. Focus: environmentally friendly energy technologies, energy potentials/economics, supply/demand; electives for specialization; also energy law, innovation management, intercultural competence.",
+          "required_documents": "Degree documents (foreign degrees via uni-assist for VPD); evidence of energy-technology aptitude (thesis/project/lab records/internships/job references); documents in German or English; uploaded via Primuss",
+          "contact_info": "Emma Krahn (Admissions, Student's Office) e.krahn@oth-aw.de; Emma Huber (Programme Coordinator) e.huber@oth-aw.de; welcome@oth-aw.de (general); +49 (9621) 482-0",
+          "newly_found_info": "The specificity that the VPD must be issued SPECIFICALLY for OTH Amberg-Weiden (not transferable from another uni-assist VPD) - a nuance not previously captured; this is an important refinement of the already-known VPD requirement",
+          "corrections": [
+            {
+              "field": "exact_admission_regulations",
+              "old": "VPD from uni-assist can take up to 8 weeks",
+              "corrected": "VPD must be issued specifically for OTH Amberg-Weiden - a VPD from another university does not satisfy the requirement; admission only granted if this VPD is submitted within the application period",
+              "evidence": "oth-aw.de official program page"
+            }
+          ],
+          "notes": "VPD requirement was already known for this entry; re-verification adds the important nuance that the VPD must be university-specific, directly relevant to the user's flagged concern about thoroughness."
+        }
       }
     },
     {
@@ -9175,7 +11248,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Full-time: €15,000 total (€6,000 + €6,000 + €3,000 across 3 semesters). Part-time (EU citizens/residents only): €15,000 total over 5 semesters (€3,000/semester). Additional ~€200/semester non-tuition fees, ~€1,500 compulsory field trips, €1,500 per extra semester."
         },
-        "exact_admission_regulations": "No age limit, though dormitory placement harder over 30; non-consecutive program so no tuition exemption for Erasmus/refugee students; HFT scholarships only after starting studies."
+        "exact_admission_regulations": "No age limit, though dormitory placement harder over 30; non-consecutive program so no tuition exemption for Erasmus/refugee students; HFT scholarships only after starting studies.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hft-stuttgart.com/studies/fields-of-study/architecture-and-design/master-international-project-management"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page",
+          "application_portal_detail": "Online application form (PDF download) via hft.hispro.de portal; applicants upload all required documents (not individually itemized beyond degree/experience/English proof)",
+          "gpa_requirement_verified": "No GPA/numeric cutoff; 'above average examination results' required for first degree",
+          "language_requirements_verified": "TOEFL 550 (PBT)/213 (CBT)/80 (iBT); IELTS Academic ≥6.5; FAQ states 'no exception to the rule' even for native-English instruction",
+          "tuition_and_fees_verified": "Full-time: €15,000 total (€6,000+€6,000+€3,000 across 3 semesters). Part-time (EU residents only): €15,000 over 5 semesters (€3,000/semester). Plus ~€200/semester non-tuition fees, ~€1,500 compulsory field trips, €1,500/extra semester, €176.50 student services + €14 student ID per semester.",
+          "deadlines_verified": "Winter: 05 Nov-28 Feb and 05 May-15 Jul (overlapping windows). Summer: 05 May-31 Aug and 05 Nov-15 Jan.",
+          "curriculum_summary": "Full-time: 2 semesters coursework + 1 thesis semester (classes Thu-Mon). Part-time: 4 semesters coursework + 1 thesis semester (Fri/Sat/Mon sem1-2, Thu-Sat sem3-4). M.Eng.+MBA double degree option (Jan/Sept intakes) with Edinburgh Napier University.",
+          "required_documents": "Online application form; first degree evidence (≥210 ECTS, or 180 ECTS + 30-ECTS study task); ≥1yr professional experience evidence; English test certificate",
+          "contact_info": "Max Haug (Dean of Studies) max.haug@hft-stuttgart.de, +49 711 8926 2679; Kristina Sassenberg (Secretary) kristina.sassenberg@hft-stuttgart.de; Amruta Jayawant (Academic Associate) amruta.jayawant@hft-stuttgart.de; ipm@hft-stuttgart.de; Schellingstr. 24, 70174 Stuttgart",
+          "newly_found_info": "Full fee breakdown including non-tuition fees, field trip costs, extra-semester costs, student services/ID fees; M.Eng.+MBA double degree option with Edinburgh Napier University; named program staff with direct emails",
+          "corrections": [],
+          "notes": "No VPD/uni-assist mention found despite this being an international program with likely foreign applicants - may be worth a follow-up check of hft-stuttgart.de's general international-applicant process, which could use uni-assist at the university level even if not named on this specific program page."
+        }
       }
     },
     {
@@ -9257,7 +11348,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "538 EUR/month (non-EU citizens), 455 EUR/month (EU citizens), plus a transport pass fee."
         },
-        "exact_admission_regulations": "Full-time MSc, English-taught; standard duration 3 semesters (+1 preparatory semester for 180-ECTS applicants); ~25 first-year students admitted annually; free admission with possible selection process."
+        "exact_admission_regulations": "Full-time MSc, English-taught; standard duration 3 semesters (+1 preparatory semester for 180-ECTS applicants); ~25 first-year students admitted annually; free admission with possible selection process.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.fh-wedel.de/it-engineering/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page",
+          "application_portal_detail": "Separate application subpage (https://www.fh-wedel.de/studieren/international/incomings/degree-programme-it-engineering/application/) linked but not fetched this round",
+          "gpa_requirement_verified": "No GPA stated; eligibility based on ECTS credits and subject coverage (210 ECTS preferred, many 180-ECTS holders can apply under conditions)",
+          "language_requirements_verified": "English CEFR B2, described as 'obligatory'; no specific test/score named",
+          "tuition_and_fees_verified": "538 EUR/month non-EU; 455 EUR/month EU; plus transport pass fee - confirmed",
+          "deadlines_verified": "Sept 15 (winter, starts Oct 1); March 31 (summer, starts April 1) - these apply ONLY to applicants who already hold a German residence permit; others advised to apply ~3 months earlier",
+          "curriculum_summary": "Page internally inconsistent: describes both a 'four-semester-curriculum' (with 6 bachelor modules integrated for 180-ECTS applicants) and a 'three-semester-curriculum' elsewhere; likely 3 semesters standard + 1 extra for bridging. Two focus areas: IT Systems & Security, Smart Manufacturing. Java/C++ entry assignment at start of semester 1.",
+          "required_documents": "Not listed on this page; separate application subpage referenced",
+          "contact_info": "Prof. Dr. Sebastian Iwanowski (programme head) +49 4103 80 48 63, sebastian.iwanowski@fh-wedel.de; Herlinde Breckwoldt (International Office) +49 4103 80 48 21, herlinde.breckwoldt@fh-wedel.de; Feldstraße 143, D-22880 Wedel",
+          "newly_found_info": "Java/C++ entry assignment at start of first semester; two named focus-area tracks (IT Systems & Security, Smart Manufacturing); named contacts for program head and international office",
+          "corrections": [],
+          "notes": "No VPD/uni-assist found on main page; dedicated application subpage for this program was not fetched this round and may contain more detail - worth a follow-up given this is an international applicant pathway."
+        }
       }
     },
     {
@@ -9339,7 +11448,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not mentioned on official page."
         },
-        "exact_admission_regulations": "Note: official direct domain g-time.org could not be reached (connection refused); data taken from TUHH's own admission-requirements page for this joint program."
+        "exact_admission_regulations": "Note: official direct domain g-time.org could not be reached (connection refused); data taken from TUHH's own admission-requirements page for this joint program.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.tuhh.de/tuhh/en/studying/before-studying/degree-courses/international-study-programs/global-technology-and-innovation-management-entrepreneurship/admission-requirements"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - TUHH's own portal used, same as sibling program 3747 (Information and Communication Systems)",
+          "application_portal_detail": "TUHH's own portal (consistent with other TUHH international programs); specific-requirements subpage linked (/how-and-when-to-apply/specific-requirements) but not fetched",
+          "gpa_requirement_verified": "No numeric GPA; requires 'good previous academic performance'",
+          "language_requirements_verified": "TOEFL ≥577 PBT/90 iBT (TOEFL ITP explicitly NOT accepted); IELTS ≥6.5",
+          "tuition_and_fees_verified": "Not found",
+          "deadlines_verified": "Not found on this page",
+          "curriculum_summary": "Not detailed on this page",
+          "required_documents": "Not itemized; likely same checklist as sibling TUHH program (CV, degree certificate, transcript, grading-scale explanation, English proof, APS if applicable from China/India/Vietnam) but not explicitly confirmed on this specific page",
+          "contact_info": "Postal: TU Hamburg, Am Schwarzenberg-Campus 1, 21073 Hamburg; general contact page /tuhh/en/contact",
+          "newly_found_info": "Confirmed TOEFL ITP explicit non-acceptance (same wording as sibling TUHH program)",
+          "corrections": [
+            {
+              "field": "language_requirements.ielts",
+              "old": "IELTS minimum 6.5, or TOEFL minimum 577(PBT)/90(iBT); TOEFL ITP not accepted",
+              "corrected": "Confirmed exactly as stated in existing data - no change needed",
+              "evidence": "TUHH admission-requirements page for G-TIME"
+            }
+          ],
+          "notes": "Existing data for language requirements was already accurate. g-time.org (the program's dedicated domain) remained unreachable, consistent with prior note; TUHH admission-requirements page used as fallback, same as before. No VPD/uni-assist found."
+        }
       }
     },
     {
@@ -9421,7 +11555,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Official program microsite (master-lscm.eu, TH Wildau) returned a connection error on fetch attempts; DAAD's listing remains the fallback source for this entry."
+        "exact_admission_regulations": "Official program microsite (master-lscm.eu, TH Wildau) returned a connection error on fetch attempts; DAAD's listing remains the fallback source for this entry.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.master-lscm.eu/ (connection refused again)",
+            "WebSearch of TH Wildau official domain and third-party listings"
+          ],
+          "vpd_uni_assist_required": "UNCLEAR/CONFLICTING: TH Wildau's own programs generally require uni-assist for foreign-certificate applicants, but LSCM admissions are reportedly handled entirely by Universitat Autònoma de Barcelona (UAB) as part of a consortium, not by TH Wildau or uni-assist directly. Could not confirm VPD requirement specifically for LSCM.",
+          "application_portal_detail": "Per third-party listings, all admission/enrollment procedures for LSCM run through UAB following the process on master-lscm.eu (unreachable). Selection based on academic record + relevant work experience.",
+          "gpa_requirement_verified": "Not found via official site (unreachable)",
+          "language_requirements_verified": "Not found via official site (unreachable)",
+          "tuition_and_fees_verified": "Not found via official site (unreachable)",
+          "deadlines_verified": "One third-party listing cites 31 August deadline with pre-enrollment starting in January, rolling review - UNVERIFIED",
+          "curriculum_summary": "Not found via official site (unreachable)",
+          "required_documents": "Not found via official site (unreachable)",
+          "contact_info": "Not found via official site (unreachable)",
+          "newly_found_info": "Discovered via WebSearch that LSCM admissions may run through Universitat Autònoma de Barcelona (UAB) rather than TH Wildau directly, which would explain why standard TH Wildau uni-assist info doesn't directly apply - this is a significant structural finding not in the original data",
+          "corrections": [],
+          "notes": "master-lscm.eu remains completely unreachable (connection refused on 2 separate attempts). This is the one entry where the official source could not be accessed at all. The UAB-consortium finding is new and important context but is sourced from third-party listings, not verified directly. Recommend manual check of master-lscm.eu/admission and master-lscm.eu/enrollment from a different network, or contacting TH Wildau's international office directly."
+        }
       }
     },
     {
@@ -9503,7 +11656,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "€24,000 (course fees)."
         },
-        "exact_admission_regulations": "2-year, 4-semester, 120 ECTS full-time program starting winter semester (October); international applicants strongly encouraged to complete the German Engineering College (GEC) beforehand; awarded by RWTH Aachen University via RWTH International Academy."
+        "exact_admission_regulations": "2-year, 4-semester, 120 ECTS full-time program starting winter semester (October); international applicants strongly encouraged to complete the German Engineering College (GEC) beforehand; awarded by RWTH Aachen University via RWTH International Academy.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-management-and-engineering-computer-aided-mechanical-engineering"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - no uni-assist/VPD reference found on this page",
+          "application_portal_detail": "RWTH International Academy's own admission process; application and admission guide PDF linked; online one-on-one appointments bookable",
+          "gpa_requirement_verified": "No GPA stated; admission depends on GRE scores (Verbal 145, Quant 160, Analytical Writing 3) or GEC completion (exempts GRE requirement)",
+          "language_requirements_verified": "No English/German test score listed; teaching is in English; German learning 'strongly recommended' but not required",
+          "tuition_and_fees_verified": "€24,000 course fees - confirmed",
+          "deadlines_verified": "Non-EU: Dec 2-March 1. EU/EEA, current RWTH students, German degree holders: Dec 2-July 15. Start: winter semester (October).",
+          "curriculum_summary": "Two tracks: Modelling and Simulation Engineering (MSE) and Digital Engineering (DE); engineering + management compulsory courses, track-specific compulsory courses, electives, language component, Master's thesis",
+          "required_documents": "Not itemized; refers to Application and Admission Guide PDF (Bewerbungs- und Zulassungsprozess_EN.pdf)",
+          "contact_info": "intake@academy.rwth-aachen.de (admissions), info@academy.rwth-aachen.de (general), +49 241 8099367, Campus-Boulevard 30, D-52074 Aachen",
+          "newly_found_info": "Two named specialization tracks (MSE and Digital Engineering) not previously captured; one-on-one appointment booking option",
+          "corrections": [],
+          "notes": "No VPD/uni-assist found; this program uses its own RWTH International Academy process with GRE/GEC gating instead."
+        }
       }
     },
     {
@@ -9585,7 +11756,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "€24,000 (course fees)."
         },
-        "exact_admission_regulations": "GRE General Test required (Verbal 145, Quantitative 160, Analytical Writing 3 minimum), GEC graduates exempt; full-time, 4 semesters (2 years), 120 ECTS, winter-semester start; awarded by RWTH Aachen University via RWTH International Academy."
+        "exact_admission_regulations": "GRE General Test required (Verbal 145, Quantitative 160, Analytical Writing 3 minimum), GEC graduates exempt; full-time, 4 semesters (2 years), 120 ECTS, winter-semester start; awarded by RWTH Aachen University via RWTH International Academy.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-management-and-engineering-in-production-systems"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - no uni-assist/VPD reference found",
+          "application_portal_detail": "Same RWTH International Academy process as sibling program 4598: Application and Admission Guide PDF, one-on-one appointment booking",
+          "gpa_requirement_verified": "No GPA; GRE (Verbal 145, Quant 160, Analytical Writing 3) or GEC completion (GEC exempts GRE)",
+          "language_requirements_verified": "No IELTS/TOEFL requirement; English-taught; German strongly recommended but not required",
+          "tuition_and_fees_verified": "€24,000 course fees - confirmed",
+          "deadlines_verified": "Non-EU: Dec 2-March 1. EU/EEA/current RWTH/German degree holders: Dec 2-July 15. Winter semester start (October).",
+          "curriculum_summary": "Engineering compulsory: Production Management A&B, Machine Tools, Quality Management, Manufacturing Technology I&II, Industrial Logistics; ~27 engineering electives (e.g., Additive Manufacturing, Robotic Systems, Production Metrology); Management compulsory: Sustainable Development & Global Economy, Finance & Accounting, Financial Management, HR Management, Management Accounting, Strategic Management, Marketing Management, International Business; language courses; Master's thesis (internal or external)",
+          "required_documents": "Not itemized; refers to Application and Admission Guide PDF",
+          "contact_info": "intake@academy.rwth-aachen.de, info@academy.rwth-aachen.de, +49 241 8099367, Campus-Boulevard 30, D-52074 Aachen",
+          "newly_found_info": "Full engineering/management compulsory course lists and ~27 elective options - much more detailed curriculum than previously captured",
+          "corrections": [],
+          "notes": "No VPD/uni-assist found, consistent with sibling program 4598."
+        }
       }
     },
     {
@@ -9667,7 +11856,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Conflicting figures found (approx. EUR 9,000/semester incl. fees per one source; others cite EUR 21,600-28,800/year); not confirmed on current official fee page"
         },
-        "exact_admission_regulations": "Executive/part-time format aimed at professionals; combines engineering and management; work experience requirement is a distinguishing feature versus typical full-time MSc programs."
+        "exact_admission_regulations": "Executive/part-time format aimed at professionals; combines engineering and management; work experience requirement is a distinguishing feature versus typical full-time MSc programs.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hectorschool.kit.edu/master-management-of-product-development.php",
+            "https://www.hectorschool.kit.edu/admission-requirements.php"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "HECTOR School's own application portal (hectorschool.applicationportal.org); rolling admission, starts every October",
+          "gpa_requirement_verified": "No GPA cutoff; requires a first academic degree (Bachelor/Master/Diploma) plus at least 2 years professional experience (3+ recommended)",
+          "language_requirements_verified": "TOEFL min 570 PBT/230 CBT/90 iBT; IELTS min 6.5; or C1 proof; native speakers exempt",
+          "tuition_and_fees_verified": "EUR 36,000 total (confirms one of the conflicting figures; others were wrong)",
+          "deadlines_verified": "Rolling/no fixed deadline; October start",
+          "curriculum_summary": "15 months coursework (10 two-week modules: 5 engineering, 5 management) + 9-month thesis in a company; 90 ECTS M.Sc.; one module held at KIT China branch Suzhou",
+          "required_documents": "References for professional experience; degree certificate; language proof (specific checklist on Application Procedure subpage, not retrieved)",
+          "contact_info": "Temir Vinokhodov, Admissions & Program Consultant, +49 721 608 47880; directors Prof. Albert Albers, Prof. Martin E. Ruckes",
+          "newly_found_info": "Exact tuition confirmed at EUR 36,000 total; exact language scores (TOEFL 570 PBT/230 CBT/90 iBT, IELTS 6.5); detailed curriculum module names; KIT China (Suzhou)/Tongji University partnership",
+          "corrections": [
+            {
+              "field": "tuition_non_eu",
+              "old": "Conflicting figures ~EUR9000/semester incl fees or EUR21,600-28,800/year",
+              "corrected": "EUR 36,000 total program fee",
+              "evidence": "Official costs-and-fees page summary via main page"
+            }
+          ],
+          "notes": "No VPD/uni-assist requirement found for this executive program."
+        }
       }
     },
     {
@@ -9749,7 +11964,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "ITS (Indonesia) side charges tuition of IDR 25,000,000 per semester, applying also to semesters spent at Hochschule Wismar; one aggregator cites ~1,500 EUR/semester equivalent"
         },
-        "exact_admission_regulations": "Binational/double degree between Hochschule Wismar and ITS Surabaya; students must pass all first-year courses at ITS to proceed to the Wismar portion; data is sparse on the German side's own admission page, which is largely administrative."
+        "exact_admission_regulations": "Binational/double degree between Hochschule Wismar and ITS Surabaya; students must pass all first-year courses at ITS to proceed to the Wismar portion; data is sparse on the German side's own admission page, which is largely administrative.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://fiw.hs-wismar.de/en/bereiche/sal/degree-courses/marine-engineering-master-binational-msc/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "Applications sent to ITS Surabaya International Office per its.ac.id/international documents, not via uni-assist",
+          "gpa_requirement_verified": "Overall grade at least 2.5 (comparable systems) or GPA 3.75/5.0; grade of 3.0 or worse = rejection; professional experience can improve grade by 0.1/year up to 4 years",
+          "language_requirements_verified": "TOEFL iBT min 70; IELTS min 5.5; German not required",
+          "tuition_and_fees_verified": "IDR 25,000,000 per semester charged by ITS (confirmed), applies even during semesters at Wismar",
+          "deadlines_verified": "Application deadline July 15 for September start (page also references winter semester - inconsistent, needs on-site clarification)",
+          "curriculum_summary": "4 semesters: Sem1 ITS Surabaya, Sem2 Hochschule Wismar Warnemünde, Sem3 ITS Surabaya, Sem4 thesis at either location; dual M.Sc. (Wismar) + M.Eng. (ITS)",
+          "required_documents": "Not itemized on German page; refers to ITS application document list",
+          "contact_info": "Germany: Simona Rau, simona.rau@hs-wismar.de, +49 381 9698-4553; Indonesia: Dr.-Ing. Wolfgang Busse, wolfgang.busse@hs-wismar.de",
+          "newly_found_info": "Exact GPA cutoff (2.5/3.75 GPA, rejection below 3.0 grade), exact language scores, exact semester structure/location split, exact deadline July 15",
+          "corrections": [
+            {
+              "field": "minimum_gpa_cutoff",
+              "old": "Not found via official site",
+              "corrected": "Overall grade at least 2.5 (or GPA 3.75/5.0); below 3.0 rejected",
+              "evidence": "Admission section of official page"
+            },
+            {
+              "field": "ielts",
+              "old": "Not confirmed for this binational program",
+              "corrected": "IELTS 5.5 / TOEFL iBT 70",
+              "evidence": "Official page language section"
+            }
+          ],
+          "notes": "No VPD requirement found; process routes through ITS Indonesia, not German uni-assist."
+        }
       }
     },
     {
@@ -9831,7 +12077,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Conflicting: one source cites EUR 26,000 + EUR 650 contribution; another cites EUR 13,000 total + EUR 357.30 semester fee; DAAD lists ~EUR 306 semester contribution. Could not retrieve HTW Berlin's own fee page (site unreachable during this session)"
         },
-        "exact_admission_regulations": "Executive-style MBA&E program; duration cited variably as 3-4 semesters/18 months/2 years across sources; direct site fetch failed (rate-limited), so these are third-party aggregator figures requiring verification."
+        "exact_admission_regulations": "Executive-style MBA&E program; duration cited variably as 3-4 semesters/18 months/2 years across sources; direct site fetch failed (rate-limited), so these are third-party aggregator figures requiring verification.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://mbae.htw-berlin.de"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "Own online application form at mbae.htw-berlin.de/applying",
+          "gpa_requirement_verified": "No GPA cutoff found; requires Bachelor's/equivalent with at least 180 ECTS",
+          "language_requirements_verified": "English proficiency required but no specific test/score named on this page",
+          "tuition_and_fees_verified": "EUR 13,000 total for the degree plus ZbwS semester contribution (amount not specified)",
+          "deadlines_verified": "Application window 1 Nov 2026 - 28 Feb 2027 for Intake 2027",
+          "curriculum_summary": "3 semesters, 90 ECTS, winter start, English; specialisations: Global Leadership in Engineering, Automotive Management, Interdisciplinary Management, Industrial Operations & Supply Networks, Global Procurement, Smart Business Models and Production Systems (new 2025)",
+          "required_documents": "Not listed on page; apply via /applying",
+          "contact_info": "mbae@htw-berlin.de; +49 30 5019 3662",
+          "newly_found_info": "MBA&E Diversity Enhancement Grant - up to 50% tuition reduction for women/underrepresented applicants; exact tuition figure EUR 13,000 confirmed as one of two conflicting figures; new specialisation track added 2025",
+          "corrections": [
+            {
+              "field": "tuition_non_eu",
+              "old": "Conflicting EUR26,000+650 vs EUR13,000+357.30",
+              "corrected": "EUR 13,000 total confirmed by official site",
+              "evidence": "mbae.htw-berlin.de tuition section"
+            },
+            {
+              "field": "ielts",
+              "old": "Sources disagree IELTS 7.0 vs 6.5",
+              "corrected": "Not specified on official site (no exact score given)",
+              "evidence": "Official page only states 'proof of English proficiency' generically"
+            }
+          ],
+          "notes": "1-year work experience requirement confirmed (vs 1-2/3-5 years cited before)."
+        }
       }
     },
     {
@@ -9913,7 +12190,39 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Conflicting: one guide cites EUR 1,500/semester for non-EU students; another describes the program as tuition-free (public university). Official fee page not directly confirmed"
         },
-        "exact_admission_regulations": "Official admission regulation document (Zulassungssatzung) is the authoritative source for English-test equivalencies; confirm tuition directly with hs-aalen.de admissions."
+        "exact_admission_regulations": "Official admission regulation document (Zulassungssatzung) is the authoritative source for English-test equivalencies; confirm tuition directly with hs-aalen.de admissions.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-aalen.de/en/courses/149-Elektrotechnik",
+            "https://www.hs-aalen.de/en/application-studying/application-process/english-taught-programs/"
+          ],
+          "vpd_uni_assist_required": "Yes - explicitly required. 'A recognition document is mandatory. You must apply to uni-assist for a VPD (Vorprüfungsdokumentation). VPDs from other universities cannot be accepted.'",
+          "application_portal_detail": "uni-assist VPD required first, then online application portal (onlineportal.bewerbung.htw-aalen.de); applicants from India/China/Vietnam need APS certificate before VPD",
+          "gpa_requirement_verified": "No numeric GPA; Numerus Clausus selection procedure; first professionally qualifying university degree required",
+          "language_requirements_verified": "English B2 (not older than 2 years): TOEIC L&R 785, TOEFL iBT 72, TOEFL ITP 543, IELTS 6.0, PTE Academic 64, Cambridge First Grade B/CAE,CPE Grade C, UNIcert II 2.3",
+          "tuition_and_fees_verified": "EUR 1,500 international tuition fee + EUR 180 semester fee (Winter 2026/27), paid at enrollment",
+          "deadlines_verified": "Application deadline 15.12.2026 for Summer term 27 start",
+          "curriculum_summary": "3 semesters full-time (part-time option also exists, duration not given); module handbook available as PDF",
+          "required_documents": "Entrance qualification, language certificate, VPD from uni-assist, passport photo+copy, certified degree certificate (postal), enrollment documents",
+          "contact_info": "Student Advisory: Josef Hahn-Dambacher, +49 7361 576-4247; Dean of Studies Prof. Dr. Jürgen Schüle, +49 7361 576-5650; Secretary Eda Gürkale, +49 7361 576-4107",
+          "newly_found_info": "VPD/uni-assist requirement explicitly confirmed (this is the exact type of gap the user flagged at FH Dortmund); exact tuition/semester fee figures; exact language test score table",
+          "corrections": [
+            {
+              "field": "vpd_uni_assist_required",
+              "old": "Not checked/absent",
+              "corrected": "Yes, required",
+              "evidence": "hs-aalen.de English-taught programs application page"
+            },
+            {
+              "field": "tuition_non_eu",
+              "old": "Conflicting EUR1,500/semester vs tuition-free",
+              "corrected": "EUR 1,500 tuition + EUR 180 semester fee confirmed",
+              "evidence": "Official application page"
+            }
+          ],
+          "notes": "IMPORTANT: VPD required - matches the gap pattern flagged by the user for FH Dortmund. This applies to ALL English-taught Aalen University master's programs, including the sister program 9738."
+        }
       }
     },
     {
@@ -9995,7 +12304,39 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Conflicting: one aggregator lists EUR 3,000/year; another describes the program as tuition-free (public university); no official confirmation found"
         },
-        "exact_admission_regulations": "Research-oriented 3-semester, 90-ECTS M.Sc.; program coordinator Prof. Dr. Heinrich Steinhart (Heinrich.Steinhart@hs-aalen.de); next official intake listed as Summer term 2027."
+        "exact_admission_regulations": "Research-oriented 3-semester, 90-ECTS M.Sc.; program coordinator Prof. Dr. Heinrich Steinhart (Heinrich.Steinhart@hs-aalen.de); next official intake listed as Summer term 2027.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-aalen.de/en/study-programmes/engineering-sciences-future-technologies/master/advanced-systems-design/",
+            "https://www.hs-aalen.de/en/application-studying/application-process/english-taught-programs/"
+          ],
+          "vpd_uni_assist_required": "Yes - explicitly required (same university-wide rule as program 10532): 'You must apply to uni-assist for a VPD (Vorprüfungsdokumentation). VPDs from other universities cannot be accepted.'",
+          "application_portal_detail": "uni-assist VPD first, then onlineportal.bewerbung.htw-aalen.de",
+          "gpa_requirement_verified": "No numeric GPA cutoff; Numerus Clausus selection procedure; research topic selection (EE, Optoelectronics, Mechatronics, or Human-Centered Design) made at application",
+          "language_requirements_verified": "English B2 (same scale as 10532): TOEIC 785, TOEFL iBT 72, TOEFL ITP 543, IELTS 6.0, PTE 64, Cambridge FCE B/CAE,CPE C, UNIcert II 2.3",
+          "tuition_and_fees_verified": "EUR 1,500 tuition + EUR 180 semester fee (same university-wide figures)",
+          "deadlines_verified": "15.12.2026 application deadline, Summer term 27 start",
+          "curriculum_summary": "3 semesters: Sem1 (30 ECTS) Research Module & Project Management; Sem2 (30 ECTS) Advanced Specialty; Sem3 (29 ECTS) Master's Thesis + 0 ECTS graduation ceremony",
+          "required_documents": "Same as 10532: entrance qualification, language cert, VPD, passport photo+copy, certified degree cert, enrollment docs",
+          "contact_info": "Prof. Dr. Heinrich Steinhart, +49 7361 576-4113, Heinrich.Steinhart@hs-aalen.de; Josef Hahn-Dambacher, +49 7361 576-4247",
+          "newly_found_info": "VPD/uni-assist requirement confirmed; exact semester-by-semester ECTS breakdown; exact language score table",
+          "corrections": [
+            {
+              "field": "vpd_uni_assist_required",
+              "old": "Not checked",
+              "corrected": "Yes, required",
+              "evidence": "Shared Aalen English-taught programs application page"
+            },
+            {
+              "field": "tuition_non_eu",
+              "old": "Conflicting EUR3,000/year vs tuition-free",
+              "corrected": "EUR 1,500 tuition + EUR 180 semester fee",
+              "evidence": "Official application page"
+            }
+          ],
+          "notes": "Confirms VPD requirement applies university-wide at Aalen, directly analogous to the FH Dortmund gap the user found."
+        }
       }
     },
     {
@@ -10077,7 +12418,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (public university); only semester contribution (~EUR 300-590 per some aggregators, unconfirmed)"
         },
-        "exact_admission_regulations": "Admission procedure is notably exam-based rather than simple GPA cutoff - a distinguishing feature; full regulations available in 'Regulations_MScAerospace_Senat_en_20210803.pdf' on the department site."
+        "exact_admission_regulations": "Admission procedure is notably exam-based rather than simple GPA cutoff - a distinguishing feature; full regulations available in 'Regulations_MScAerospace_Senat_en_20210803.pdf' on the department site.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.maschinenbau.tu-darmstadt.de/bewerben_mb/bewerben_master/m__sc___aerospace/standardseite_184.en.jsp"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page",
+          "application_portal_detail": "TUCaN online portal (create guest account first); paper documents also required by exclusion deadline",
+          "gpa_requirement_verified": "No numeric GPA; admission via 3-stage entrance examination assessing degree equivalence to TU Darmstadt's own Bachelor's (Mechanical Engineering-Sustainable Engineering)",
+          "language_requirements_verified": "English C1 (CEFR) proof required; no IELTS/TOEFL numeric score given on this page",
+          "tuition_and_fees_verified": "Not stated on this page (public university, likely only semester contribution)",
+          "deadlines_verified": "Summer semester: 15 January; Winter semester: 15 July (exclusion/Ausschlussfrist deadlines) - CORRECTS 'not found' in prior data",
+          "curriculum_summary": "Student builds own curriculum with aerospace focus; no fixed module list given; entrance exam covers 7 topics (mechanics, thermodynamics, machine elements/mechatronics, systems theory/control, measurement/sensors/statistics, numerical/simulation methods, fluid mechanics) if Stage 1 review is inconclusive",
+          "required_documents": "Determined via TUCaN process; paper submission of certificates required",
+          "contact_info": "Sebastian Keller, M.A., International Affairs & Master Admission (email cut off: keller@mechcenter.tu-...)",
+          "newly_found_info": "Exact deadlines (15 Jan summer / 15 July winter); 3-stage entrance exam process with named exam topics and next exam date (12 Aug 2025); self-assessment tool link",
+          "corrections": [
+            {
+              "field": "winter_deadline_non_eu",
+              "old": "Not found via official site",
+              "corrected": "15 July (winter); 15 January (summer) - exclusion deadlines",
+              "evidence": "Official application deadlines section"
+            }
+          ],
+          "notes": "No VPD mention found on main admission page."
+        }
       }
     },
     {
@@ -10159,7 +12525,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 3,000 tuition fee (official program page); tuition waivers of up to 80% may be available during project funding periods, per program brochure. Note: conflicts with a general Ulm non-EU fee figure of EUR 1,500/semester cited elsewhere"
         },
-        "exact_admission_regulations": "Restricted/part-time professional master's (90 ECTS); admission may come with additional mathematics requirements to be completed by end of first semester; distinguishing feature is its part-time, industry-oriented design and tuition waiver option."
+        "exact_admission_regulations": "Restricted/part-time professional master's (90 ECTS); admission may come with additional mathematics requirements to be completed by end of first semester; distinguishing feature is its part-time, industry-oriented design and tuition waiver option.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-ulm.de/einrichtungen/saps/studiengaenge/allgemeine-informationen/bewerbung-studium/artificial-intelligence-for-connected-industries",
+            "https://www.uni-ulm.de/en/einrichtungen/saps/studiengaenge/allgemeine-informationen/tuition-fees-and-participation-fees/ (linked, not fetched)"
+          ],
+          "vpd_uni_assist_required": "Not mentioned; APS certificate required for China/Vietnam/India degree holders instead",
+          "application_portal_detail": "Ulm campus portal (HISinOne-based); documents uploaded in portal only, no paper/fax/email",
+          "gpa_requirement_verified": "No GPA cutoff; requires 1 year professional experience post-degree, OR degree with 180 ECTS + 2 years professional experience",
+          "language_requirements_verified": "English B2 required (no specific IELTS/TOEFL score stated on official page)",
+          "tuition_and_fees_verified": "'Individual fees apply' - exact amount not on this page (program-page EUR3,000 figure from prior data not confirmed/denied here)",
+          "deadlines_verified": "Winter: 1 April-15 May and 1 June-15 July; Summer: 15 Oct-15 Nov and 2 Dec-15 Jan (two application windows each - more precise than prior 'both semesters' note)",
+          "curriculum_summary": "Part-time professional program with math preparation courses (Fundamentals of Mathematics; Advanced Math - Diff Eq/Taylor/Integral Transforms; Advanced Math - Statistics/Probability)",
+          "required_documents": "Bachelor's certificate+transcript, English B2 proof, APS certificate (China/Vietnam/India), grading scale explanation, CV, proof of professional experience, optional motivation letter",
+          "contact_info": "Mihriban Celik; phone +49 731/50-32401; email via susanne.hummel@uni-ulm.de for pre-application counselling",
+          "newly_found_info": "Exact 2-window deadline structure per semester; detailed required-documents checklist; math preparation course names",
+          "corrections": [
+            {
+              "field": "winter_deadline_non_eu",
+              "old": "Admission possible in both semesters",
+              "corrected": "Winter: 1 Apr-15 May & 1 Jun-15 Jul; Summer: 15 Oct-15 Nov & 2 Dec-15 Jan",
+              "evidence": "Official page application deadlines section"
+            }
+          ],
+          "notes": "No VPD required for this program."
+        }
       }
     },
     {
@@ -10241,7 +12633,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site (only administrative fee referenced, exact amount not retrieved)"
         },
-        "exact_admission_regulations": "Official admissions statutes (not retrieved in full) are the binding source for English/GPA specifics; program emphasizes application periods clearly, unlike many peers."
+        "exact_admission_regulations": "Official admissions statutes (not retrieved in full) are the binding source for English/GPA specifics; program emphasizes application periods clearly, unlike many peers.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-ulm.de/en/in/faculty/studies/engineering/biomedical-engineering/master-in-biomedical-engineering/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned (subpage fetch for bewerbung-und-immatrikulation path returned 404)",
+          "application_portal_detail": "Not confirmed in this session (linked admissions statutes PDF not fetched)",
+          "gpa_requirement_verified": "Open admission, no Numerus Clausus (confirmed)",
+          "language_requirements_verified": "Instruction in English and German; no specific test score found",
+          "tuition_and_fees_verified": "Not found",
+          "deadlines_verified": "Not newly confirmed; prior data (1 June-15 July winter; 1 Dec-15 Jan summer) not contradicted but not re-verified this session",
+          "curriculum_summary": "120 ECTS, 4 semesters; specialisations: Sensors & Systems, Signals & Data, Mental Health Technologies; lateral-entry-friendly first semester for non-medicine-background students",
+          "required_documents": "Not found",
+          "contact_info": "Dr.-Ing. Margarita Puentes-Damm, +49 731 50-26006; Dr. Jörn Justiz, +49 731-50-27303",
+          "newly_found_info": "Three named specialisation tracks (Sensors & Systems, Signals & Data, Mental Health Technologies); lateral-entry accommodation structure for international students lacking medicine background",
+          "corrections": [],
+          "notes": "Subpage with admission statutes/application details (bewerbung-und-immatrikulation) returned 404; recommend re-checking via FAQ page (also 404'd) or admission statutes PDF link found: uni-ulm.de/fileadmin/.../zulsatz_msc_bmt_27022025.pdf"
+        }
       }
     },
     {
@@ -10323,7 +12733,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 1,500 per semester state tuition fee for non-EU citizens (per DAAD/university listing); EUR 650/semester for EU citizens pursuing a second German Master's degree"
         },
-        "exact_admission_regulations": "Applications accepted only through the university's HISinOne online application system; winter semester intake; 4-semester (~2 year) program taught in English."
+        "exact_admission_regulations": "Applications accepted only through the university's HISinOne online application system; winter semester intake; 4-semester (~2 year) program taught in English.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-offenburg.de/en/studies/master/communication-and-media-engineering"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "HISinOne portal; no uni-assist/VPD mentioned (surprising given APS requirement for China/India/Vietnam - should double check with Student Secretariat)",
+          "gpa_requirement_verified": "No GPA cutoff stated; NC-free selection; APS certificate required for China/India/Vietnam applicants",
+          "language_requirements_verified": "TOEFL iBT 79 or IELTS 6.0 (confirmed, matches prior data)",
+          "tuition_and_fees_verified": "EUR 80/semester admin fee + EUR 65 social contribution + EUR 25 student government (EU/general) + EUR 150/semester international flat fee + EUR 1,500/semester non-EU state tuition (or EUR 650 second-degree tuition if exempt). Non-EU living cost estimate ~EUR 11,904/year",
+          "deadlines_verified": "Non-EU: 31 March; EU: 15 July (winter start only) - CORRECTS prior 'not found'",
+          "curriculum_summary": "4 semesters/120 ECTS: Sem1 Computer Science, Signal/System Theory, Eng. Math, Transcultural Media Design, Language/Intl Competencies, Digital Communications; Sem2 Advanced DSP, Internet/Media Tech, Wireless Comm, Electives, Interactive Distributed Apps; Sem3 Multimedia Web Tech, Wireless/Sensor Systems, Mgmt/Scientific Skills; Sem4 Thesis",
+          "required_documents": "Not fully itemized; module handbook/study regs PDFs linked",
+          "contact_info": "Marlene Harter (Dean of Studies) +49 781 205-4868; Ulrike Nordau (Coordinator) +49 781 205-141; Renata Eisenmann (Secretariat) +49 781 205-4964",
+          "newly_found_info": "Exact deadlines (31 March non-EU, 15 July EU); full fee breakdown; full semester-by-semester curriculum; living cost estimate figure",
+          "corrections": [
+            {
+              "field": "winter_deadline_non_eu",
+              "old": "Not found via official site",
+              "corrected": "31 March (non-EU); 15 July (EU)",
+              "evidence": "Official page application deadlines"
+            },
+            {
+              "field": "tuition_non_eu",
+              "old": "EUR1,500/semester (confirmed, now with full fee breakdown)",
+              "corrected": "EUR 1,500 + EUR 80 + EUR 65 + EUR 25 + EUR 150 = approx EUR 1,820/semester total for non-EU",
+              "evidence": "Official tuition/fees section"
+            }
+          ],
+          "notes": "No VPD mentioned despite APS requirement for 3 countries - worth a follow-up call to Student Secretariat to confirm uni-assist isn't used."
+        }
       }
     },
     {
@@ -10405,7 +12846,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Conflicting third-party figures (EUR 6,000/semester vs EUR 8,000/year vs no tuition fee); not confirmed via official fee page"
         },
-        "exact_admission_regulations": "Selection is a two-stage competitive process rather than a simple GPA/IELTS cutoff; official Study Handbook (PDF) available with full curriculum details."
+        "exact_admission_regulations": "Selection is a two-stage competitive process rather than a simple GPA/IELTS cutoff; official Study Handbook (PDF) available with full curriculum details.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.cit.tum.de/en/cit/studies/degree-programs/master-communications-electronics-engineering/"
+          ],
+          "vpd_uni_assist_required": "Yes - explicitly required: 'Applicants with foreign qualifications need a preliminary check by uni-assist before applying online...A VPD from uni-assist is required if the previous degree was not from a German university.'",
+          "application_portal_detail": "uni-assist preliminary check/VPD (up to 4 weeks) -> TUMonline application portal",
+          "gpa_requirement_verified": "No numeric GPA; competitive 2-stage aptitude assessment: Stage1 scored out of 100 (bachelor grade max30, relevant subjects max25, SOP max20, 2 reference letters max25); 95+ = direct admit, 75-94 = interview",
+          "language_requirements_verified": "TUM-recognized English certificates OR proof bachelor's instruction was ≥50% English (no single IELTS/TOEFL number given on this page, differs from prior data's '6.5-7.0/88')",
+          "tuition_and_fees_verified": "Tuition applies to new non-EU students from WS2024/25 (exact amount not on this page; semester fee also applies, amount not given)",
+          "deadlines_verified": "Winter: 1 Feb-31 May; TUM recommends applying by 15 March for visa processing time",
+          "curriculum_summary": "120 ECTS/4 semesters: Communications Systems core (10cr) + Communications Electronics core (10cr), 28cr electives, 5cr advanced topics min, 8cr interdisciplinary, 5cr seminar, 12cr labs, 9-week research internship (12cr), 30cr thesis (6 months)",
+          "required_documents": "Passport, CV, English proof, SOP, 2 reference letters, transcript+module catalog, curricular analysis (Excel), VPD (if applicable), APS (China/India/Vietnam)",
+          "contact_info": "msce.asa@xcit.tum.de (program); app-msce.asa@xcit.tum.de (application questions)",
+          "newly_found_info": "VPD/uni-assist requirement explicitly confirmed; detailed Stage1 scoring rubric; exact application window (1 Feb-31 May, recommend 15 March)",
+          "corrections": [
+            {
+              "field": "vpd_uni_assist_required",
+              "old": "Not checked",
+              "corrected": "Yes, required for all foreign-qualification applicants",
+              "evidence": "Official admission requirements section"
+            },
+            {
+              "field": "winter_deadline_non_eu",
+              "old": "15 March recommended / 31 May extended (unconfirmed)",
+              "corrected": "Confirmed: application window 1 Feb-31 May; 15 March recommended for visa processing",
+              "evidence": "Official application section"
+            }
+          ],
+          "notes": "IMPORTANT VPD finding - same pattern as FH Dortmund gap."
+        }
       }
     },
     {
@@ -10487,7 +12959,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (public university); semester contribution approx. EUR 100-275 (figures vary by source); application fee EUR 25 (one source cites EUR 75)"
         },
-        "exact_admission_regulations": "4-semester program; could not reach an official tu-ilmenau.de page specifically for MSCSP in this session; figures above are third-party aggregator consensus, not officially confirmed."
+        "exact_admission_regulations": "4-semester program; could not reach an official tu-ilmenau.de page specifically for MSCSP in this session; figures above are third-party aggregator consensus, not officially confirmed.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch only - official tu-ilmenau.de CSP page not directly fetched this session; short profile URL identified: https://www.tu-ilmenau.de/en/study/before-the-study/range-of-courses/master/communications-and-signal-processing-msc"
+          ],
+          "vpd_uni_assist_required": "Not confirmed either way - not reached this session",
+          "application_portal_detail": "TU Ilmenau application portal (account creation + document upload), per search summary",
+          "gpa_requirement_verified": "Not confirmed; NC-free program per search summary",
+          "language_requirements_verified": "Not newly confirmed; prior data (IELTS 6.5/TOEFL 79/C1) not contradicted",
+          "tuition_and_fees_verified": "Not newly confirmed",
+          "deadlines_verified": "Not newly confirmed (one third-party source cites 1 June for winter, unconfirmed)",
+          "curriculum_summary": "Standard period 4 semesters; October 1 start; English-taught; NC-free",
+          "required_documents": "Not found",
+          "contact_info": "Not found this session",
+          "newly_found_info": "Official short-profile and detailed program URLs identified for future direct fetch; minimum CEFR B1 figure cited by a third party (likely general university minimum, not program-specific) should not be trusted",
+          "corrections": [],
+          "notes": "Could not directly WebFetch the official tu-ilmenau.de page this session (only WebSearch performed); recommend a follow-up direct fetch of https://www.tu-ilmenau.de/en/study/before-the-study/range-of-courses/master/communications-and-signal-processing-msc and its linked admission regulations PDF (PS-2021-CSP-M-ER-STR-SP.pdf) to check for VPD/uni-assist specifically."
+        }
       }
     },
     {
@@ -10569,7 +13059,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee; only semester contribution (aggregators cite ~EUR 250/semester or ~EUR 534/year, unconfirmed)"
         },
-        "exact_admission_regulations": "3-semester (30 ECTS described, likely typo for full program), English-taught program; official site directs most specifics to a separate application page not fully retrieved in this session."
+        "exact_admission_regulations": "3-semester (30 ECTS described, likely typo for full program), English-taught program; official site directs most specifics to a separate application page not fully retrieved in this session.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-kiel.de/en/tf/study/msc-eie",
+            "https://www.uni-kiel.de/en/tf/study/msc-eie/students/applications-and-certificates"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on either page fetched",
+          "application_portal_detail": "Not detailed on pages fetched; subpage covered only administrative forms (thesis registration, exam forms, BAföG certificates), not pre-application uni-assist/VPD info",
+          "gpa_requirement_verified": "No GPA cutoff found",
+          "language_requirements_verified": "Not found on pages fetched",
+          "tuition_and_fees_verified": "Tuition-free; semester contribution + one-time enrolment fee apply (exact amounts not found; AStA fee page linked but not fetched)",
+          "deadlines_verified": "Not found on pages fetched",
+          "curriculum_summary": "3 semesters, ~30 ECTS/semester; modules: core, specialisation, seminars, lab courses/projects; ends with Master's thesis; instruction/exams in English",
+          "required_documents": "Not found",
+          "contact_info": "Student Advisory Service (program-specific); Central Student Advisory Service; Science and Technology Academy for admitted international students",
+          "newly_found_info": "Program module group structure (core/specialisation/seminar/lab); Science and Technology Academy as resource for admitted international students",
+          "corrections": [],
+          "notes": "The 'Applications and certificates' subpage was NOT the right one for admission/VPD info (it's for enrolled students). Should check 'Start of study' subpage (/en/tf/study/msc-eie/students/start-of-study) next time, which was identified but not fetched."
+        }
       }
     },
     {
@@ -10651,7 +13160,39 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site (no tuition fee generally expected at RUB as public university; only semester contribution, amount not confirmed)"
         },
-        "exact_admission_regulations": "Program offers multiple specialisation tracks (Biomedical Engineering, Communication Systems, Engineering Physics all share the same base MSc EIT program and admission page); language of instruction is ambiguous across sources and should be verified directly."
+        "exact_admission_regulations": "Program offers multiple specialisation tracks (Biomedical Engineering, Communication Systems, Engineering Physics all share the same base MSc EIT program and admission page); language of instruction is ambiguous across sources and should be verified directly.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/",
+            "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/application-and-enrolment/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "RUB's own application portal; register and apply directly (no uni-assist/VPD mentioned)",
+          "gpa_requirement_verified": "No GPA cutoff; requires Bachelor's in EE/IT (or comparable) ≥180 ECTS, with ≥25 CP math and ≥50 CP IT/EE/electronics; up to 25 CP supplementary coursework may be required",
+          "language_requirements_verified": "B2 required: IELTS Academic min 6, TOEFL iBT min 85 (until 2026; a possibly-typo'd '4.5 from 2026' also listed), PTE Academic min 55; also FCE/CAE/CPE/DAAD B2/UNIcert II/German Abitur/RUB intensive English course",
+          "tuition_and_fees_verified": "Not mentioned (public university; likely semester contribution only)",
+          "deadlines_verified": "Germany/EU winter: early June-1 Sept; Germany/EU summer: early Dec-1 March; Non-EU winter: early June-15 July; Non-EU summer: early Dec-15 Jan",
+          "curriculum_summary": "Confirmed English-taught for Biomedical Engineering, Communication Systems, Engineering Physics specializations specifically (resolves prior ambiguity about German vs English instruction); German proof only required for OTHER specializations (Automation, Electromobility, Electronics, Energy Systems Tech, High-Frequency Sensors/Systems) not applicable to BME track",
+          "required_documents": "Bachelor's degree docs or transcript (150/180 ECTS depending on degree type), RUB grade conversion table, English proof (can be submitted by enrollment, application stays 'incomplete' until then)",
+          "contact_info": "studienberatung@ei.rub.de; postal: Ruhr-Universität Bochum, Fakultät für Elektrotechnik und Informationstechnik, Postbox 11, Universitätsstraße 150, D-44801 Bochum",
+          "newly_found_info": "CONFIRMS this specialisation (Biomedical Engineering) is English-taught, NOT German-taught as one conflicting source suggested; exact deadline windows; exact CP prerequisites (25 math CP, 50 IT/EE CP)",
+          "corrections": [
+            {
+              "field": "ielts (language of instruction ambiguity)",
+              "old": "Disputed - some sources say German-taught requiring TestDaF/DSH",
+              "corrected": "Confirmed English-taught for Biomedical Engineering, Communication Systems, Engineering Physics specializations; German proof NOT required for these three",
+              "evidence": "Application-and-enrolment subpage, document requirements list"
+            },
+            {
+              "field": "winter_deadline_non_eu",
+              "old": "Not found via official site",
+              "corrected": "Non-EU winter: early June-15 July; Non-EU summer: early Dec-15 Jan",
+              "evidence": "Official application-and-enrolment page"
+            }
+          ],
+          "notes": "No VPD found; applies equally to 11169 and 11128 (shared base program)."
+        }
       }
     },
     {
@@ -10733,7 +13274,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "Shares base admission page/process with the other EIT specialisations (Biomedical Engineering, Engineering Physics); specialisation choice made within the single MSc EIT program structure."
+        "exact_admission_regulations": "Shares base admission page/process with the other EIT specialisations (Biomedical Engineering, Engineering Physics); specialisation choice made within the single MSc EIT program structure.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/",
+            "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/application-and-enrolment/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "Same as sibling entry 11168 - RUB's own portal, no uni-assist/VPD mentioned",
+          "gpa_requirement_verified": "Same as 11168: no GPA cutoff; ≥180 ECTS Bachelor's, ≥25 CP math, ≥50 CP IT/EE/electronics",
+          "language_requirements_verified": "Same as 11168: IELTS 6.0, TOEFL iBT 85, PTE 55 etc.; Communication Systems confirmed English-taught (German proof not required)",
+          "tuition_and_fees_verified": "Not mentioned",
+          "deadlines_verified": "Same windows as 11168",
+          "curriculum_summary": "Shares base MSc EIT program/admission page with other specialisations; Communication Systems track",
+          "required_documents": "Same as 11168",
+          "contact_info": "studienberatung@ei.rub.de",
+          "newly_found_info": "Confirms Communication Systems specialisation is English-taught and exempt from German-proof requirement",
+          "corrections": [
+            {
+              "field": "ielts (language of instruction)",
+              "old": "Disputed German vs English",
+              "corrected": "English-taught confirmed; German proof not required for this track",
+              "evidence": "Application-and-enrolment subpage document list"
+            }
+          ],
+          "notes": "See full detail under daad_id 11168 (shared source)."
+        }
       }
     },
     {
@@ -10815,7 +13382,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "Shares base admission page/process with the other EIT specialisations (Biomedical Engineering, Communication Systems); specialisation choice made within the single MSc EIT program structure."
+        "exact_admission_regulations": "Shares base admission page/process with the other EIT specialisations (Biomedical Engineering, Communication Systems); specialisation choice made within the single MSc EIT program structure.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/",
+            "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/application-and-enrolment/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "Same as sibling entries - RUB's own portal",
+          "gpa_requirement_verified": "Same as 11168",
+          "language_requirements_verified": "Same as 11168; Engineering Physics confirmed English-taught (German proof not required)",
+          "tuition_and_fees_verified": "Not mentioned",
+          "deadlines_verified": "Same windows as 11168",
+          "curriculum_summary": "Shares base MSc EIT program/admission page with other specialisations; Engineering Physics track",
+          "required_documents": "Same as 11168",
+          "contact_info": "studienberatung@ei.rub.de",
+          "newly_found_info": "Confirms Engineering Physics specialisation is English-taught and exempt from German-proof requirement",
+          "corrections": [
+            {
+              "field": "ielts (language of instruction)",
+              "old": "Disputed German vs English",
+              "corrected": "English-taught confirmed; German proof not required for this track",
+              "evidence": "Application-and-enrolment subpage document list"
+            }
+          ],
+          "notes": "See full detail under daad_id 11168 (shared source)."
+        }
       }
     },
     {
@@ -10897,7 +13490,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee; mandatory semester contribution cited as EUR 351.15 by one source, EUR 300 by an older source"
         },
-        "exact_admission_regulations": "Program taught in English per official examination regulations (po-ms-ese-en.pdf); non-EU applicants typically apply via uni-assist; one aggregator mentions GRE 157+ Quant for non-EU applicants, unconfirmed officially."
+        "exact_admission_regulations": "Program taught in English per official examination regulations (po-ms-ese-en.pdf); non-EU applicants typically apply via uni-assist; one aggregator mentions GRE 157+ Quant for non-EU applicants, unconfirmed officially.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-paderborn.de/en/studyoffer/course_of_study/electrical-systems-engineering-english-taught-program-master"
+          ],
+          "vpd_uni_assist_required": "uni-assist Yes (for applicants without German entrance qualification); VPD specifically Not mentioned",
+          "application_portal_detail": "uni-assist for applicants without German HS qualification; PAUL portal directly for Bildungsinländer",
+          "gpa_requirement_verified": "No GPA cutoff (admission-free/no NC); requires Bachelor's with min 24 CP Higher Math, 5 CP EM Field Theory, 4 CP Signal Theory, 4 CP Systems Theory; self-assessment tests recommended (Signal Theory ≥10/20, Fields&Waves ≥75%)",
+          "language_requirements_verified": "TOEFL 585 PBT/87 iBT, IELTS 6.0, or Cambridge FCE; Non-EU applicants also need GRE General (~157 Quant, 4.0 Analytical Writing desired) unless very good final grade",
+          "tuition_and_fees_verified": "Not stated (public; no tuition, semester contribution only, prior data cites EUR 351.15 unconfirmed here)",
+          "deadlines_verified": "Not stated on this page",
+          "curriculum_summary": "4 semesters/120 ECTS, English-taught; specializations chosen at application: Signal & Information Processing, or Electronics & Devices; compulsory: Advanced System Theory, Modeling & Simulation, Mgmt of Technical Projects + Fundamentals of ESE course; Sem4 thesis (can combine with internship)",
+          "required_documents": "Not fully listed; refers to general application page",
+          "contact_info": "ZSB zsb@upb.de +49 5251/60-2007; International Office io-info@zv.uni-paderborn.de",
+          "newly_found_info": "Exact prerequisite CP breakdown (24 math, 5 EM, 4 signal, 4 systems); self-assessment test thresholds; GRE requirement for non-EU confirmed with approximate scores; two named specialization tracks",
+          "corrections": [
+            {
+              "field": "minimum_gpa_cutoff",
+              "old": "~2.5 German scale cited by aggregators",
+              "corrected": "No GPA cutoff - admission-free (NC-free); specific course-credit prerequisites apply instead",
+              "evidence": "Official admission requirements section"
+            }
+          ],
+          "notes": "uni-assist is used but page doesn't specifically name 'VPD' - likely implied but not confirmed explicitly; recommend following up on uni-assist portal page directly."
+        }
       }
     },
     {
@@ -10979,7 +13597,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition figure found on official pages; only general living-cost estimates available (e.g., ~EUR 120/month health insurance)"
         },
-        "exact_admission_regulations": "4-semester program, taught in English, can start in winter or summer semester; official admission regulation (Zulassungsordnung) document exists but detailed score requirements not captured in this session."
+        "exact_admission_regulations": "4-semester program, taught in English, can start in winter or summer semester; official admission regulation (Zulassungsordnung) document exists but detailed score requirements not captured in this session.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.tf.uni-freiburg.de/en/study-programs/embedded-systems/m-sc-embedded-systems-engineering"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - applications submitted directly through university's own online system (campus.uni-freiburg.de), no uni-assist/VPD step found",
+          "application_portal_detail": "Direct online application via campus.uni-freiburg.de (not uni-assist)",
+          "gpa_requirement_verified": "No GPA cutoff; transcript showing overall average grade required",
+          "language_requirements_verified": "English C1: IELTS Academic min 7.0 (incl. Online Academic), TOEFL iBT min 95 (or 5.0 new 2026 scale, incl. home edition/Essentials), Cambridge CAE/CPE, PTE Academic min 76, telc University, TOEIC, OOPT; exempt for native speakers from US/UK/Australia/NZ/Canada or bachelor's grads from those countries",
+          "tuition_and_fees_verified": "EU/German: EUR 190/semester total (103 Studierendenwerk+80 admin+7 student council); Non-EU: EUR 1,690/semester total (1,500 tuition+190 fees); living costs ~EUR900-1000/month",
+          "deadlines_verified": "Winter (Oct start): 1 March-15 May (non-EU), 1 March-15 July (EU); Summer (April start): 1 Nov-15 Dec (non-EU), 1 Nov-15 Jan (EU)",
+          "curriculum_summary": "120 ECTS/4 semesters; 4 compulsory areas (≥18 ECTS each) + 18 flexible ECTS + thesis; specializations (≥30 ECTS+thesis topic): AI, Cyber-Physical Systems, Circuits and Systems, Materials and Fabrication, Biomedical Engineering, Photonics",
+          "required_documents": "Undergrad diploma/certified copy, transcript w/ average grade, enrollment/completion letter, English test result, CV, APS certificate (China/India/Vietnam only); optional: motivation letter, recommendation letter, GRE, class rank, publications",
+          "contact_info": "Ursula Epe studienkoordination@tf.uni-freiburg.de (page's link points to different address admissions@imtek.uni-freiburg.de - discrepancy); Martina Nopper studienberatung@ese.uni-freiburg.de",
+          "newly_found_info": "Full exact language test score table (previously 'CEFR level not specified'); full tuition/fee breakdown; exact deadline dates (previously approximate); 6 named specialization tracks with ECTS minimums",
+          "corrections": [
+            {
+              "field": "ielts",
+              "old": "No specific IELTS/TOEFL score found; CEFR level not specified",
+              "corrected": "IELTS 7.0, TOEFL iBT 95, PTE 76 (C1 level) - much higher than typical B2 programs",
+              "evidence": "Official page language requirements section"
+            },
+            {
+              "field": "tuition_non_eu",
+              "old": "No tuition figure found",
+              "corrected": "EUR 1,690/semester total (1,500 tuition + 190 fees) confirmed",
+              "evidence": "Official tuition and fees section"
+            }
+          ],
+          "notes": "NOTABLE: No uni-assist/VPD requirement found for Freiburg's Embedded Systems Engineering MSc program, unlike the comparably-named FH Dortmund program that DID require VPD - these are different universities/programs despite similar names, so the user's flagged gap does not apply here. Worth double-checking Freiburg's own admission regulations PDF (Zulassungsordnung, linked) to be certain, since the page explicitly warns requirements may change."
+        }
       }
     },
     {
@@ -11061,7 +13710,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Conflicting/unconfirmed: one source cites EUR 2,475 per semester (unusual for a German public university, flagged as needing verification); official tuition page not directly retrieved"
         },
-        "exact_admission_regulations": "Program duration cited as up to 7 semesters (~3.5 years) by one source, which seems unusually long for a standard MSc and should be verified; THI's official application portal (under studies/application) is the recommended source for binding figures."
+        "exact_admission_regulations": "Program duration cited as up to 7 semesters (~3.5 years) by one source, which seems unusually long for a standard MSc and should be verified; THI's official application portal (under studies/application) is the recommended source for binding figures.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.thi.de/en/lifelong-learning/study-courses/global-engineering-and-management-msc/"
+          ],
+          "vpd_uni_assist_required": "uni-assist Yes (preliminary examination for foreign HE entrance qualifications, 4-6 week processing); VPD term specifically Not mentioned (uni-assist's preliminary exam IS essentially the VPD process, but THI's page doesn't use the term 'VPD')",
+          "application_portal_detail": "uni-assist preliminary exam for foreign qualifications, then THI's own online application",
+          "gpa_requirement_verified": "No GPA cutoff; Bachelor's 210 ECTS in engineering/tech/IT/natural sciences/economics/management + 1 year work experience; 180-ECTS bachelor's can substitute missing 30 ECTS with qualified work experience",
+          "language_requirements_verified": "B2-level English; no specific test named",
+          "tuition_and_fees_verified": "EUR 2,475/semester study fee + EUR 82 administration fee - CONFIRMS the figure flagged as 'unusual/needing verification' in prior data",
+          "deadlines_verified": "Summer semester application opens 15 Nov annually; Winter semester application opens 2 May; closing dates not stated",
+          "curriculum_summary": "90 ECTS over likely 5 semesters structure shown (Sem1 15 ECTS basics; Sem2 Software Eng/Digital Factory/Intl Mgmt 5 ECTS each; Sem3 Data Science&AI/Manufacturing Tech/Mgmt Accounting; Sem4 Cost Eng&Supply Chain/Innovation Mgmt/Scientific Project; Sem5 30 ECTS thesis) - this resolves/contradicts prior unusual '7 semesters' claim",
+          "required_documents": "Not listed; refers to online application for full list",
+          "contact_info": "Prof. Dr. Gerd Schwandner, Gerd.Schwandner@thi.de, +49 841 9348-6030; Qian Ye, Qian.Ye@thi.de, +49 841 9348-7527",
+          "newly_found_info": "CONFIRMS the EUR 2,475/semester tuition figure as accurate (resolves prior flagged discrepancy); exact 5-semester curriculum breakdown with module names; uni-assist preliminary exam process confirmed",
+          "corrections": [
+            {
+              "field": "tuition_non_eu",
+              "old": "Flagged as needing verification: EUR2,475/semester seemed unusual",
+              "corrected": "CONFIRMED EUR 2,475/semester + EUR 82 admin fee - this is a Lifelong Learning/weiterbildend fee-based program, which explains the non-standard tuition",
+              "evidence": "Official program page tuition section"
+            },
+            {
+              "field": "exact_admission_regulations (duration)",
+              "old": "Cited as up to 7 semesters (~3.5 years), flagged as unusually long",
+              "corrected": "Program structure shown is actually 5 semesters/90 ECTS per the detailed curriculum breakdown on official page",
+              "evidence": "Official curriculum section"
+            }
+          ],
+          "notes": "This is a 'Lifelong Learning' continuing-education THI program (fee-based, like an executive program), which explains its distinct tuition structure vs standard public-university norms."
+        }
       }
     },
     {
@@ -11143,7 +13823,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Conflicting figures: SGD 40,000 (before GST) per one source; SGD 26,393.34/year per another; others claim tuition-free (unreliable/outdated); official TUM Asia page is authoritative but exact current figure not fully confirmed"
         },
-        "exact_admission_regulations": "Joint degree between TUM Asia (Singapore) and Nanyang Technological University (NTU); 2-year, 4-semester structure including a 3-month internship and 6-month thesis."
+        "exact_admission_regulations": "Joint degree between TUM Asia (Singapore) and Nanyang Technological University (NTU); 2-year, 4-semester structure including a 3-month internship and 6-month thesis.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://tum-asia.edu.sg/graduate-studies/master-green-electronics/"
+          ],
+          "vpd_uni_assist_required": "No - this is a Singapore-delivered TUM Asia/NTU joint program; German uni-assist/VPD system does not apply",
+          "application_portal_detail": "TUM Asia's own admissions process; NTU application fee SGD 50",
+          "gpa_requirement_verified": "No GPA cutoff stated (confirms prior finding that 2.5 CGPA figure was graduation requirement, not entry)",
+          "language_requirements_verified": "TOEFL iBT min 88 (TOEFL code 7368); IELTS Academic min 6.5",
+          "tuition_and_fees_verified": "Total programme fee SGD 58,403.07 (incl. 9% GST) / SGD 53,580.80 before GST; registration fee SGD 5,000 before GST / SGD 5,450 after GST, paid in 3 installments (upon acceptance, 15 July, 1 Dec, 1 July following year)",
+          "deadlines_verified": "Application period 1 Oct 2026-31 Mar 2027 for August 2027 intake",
+          "curriculum_summary": "120 ECTS/4 semesters: 72 ECTS coursework (2 lab electives, 6 core technical electives, 4 specialisation electives, 2 non-technical electives) + 18 ECTS global internship (3 months) + 30 ECTS thesis (6 months)",
+          "required_documents": "Passport copy, passport photo, CV, notarised academic documents (final cert+transcripts), APS certificate (China/Vietnam/India)",
+          "contact_info": "+65 6777 7407; Academic Building North, ABN-B2a-08, NTU, 61 Nanyang Drive, Singapore 637335",
+          "newly_found_info": "Exact total tuition figure SGD 58,403.07 (resolves prior conflicting SGD40,000/SGD26,393.34 figures - both were wrong/outdated); exact installment payment schedule; full elective list by category",
+          "corrections": [
+            {
+              "field": "tuition_non_eu",
+              "old": "Conflicting SGD40,000 before GST vs SGD26,393.34/year",
+              "corrected": "SGD 58,403.07 total (incl GST) / SGD 53,580.80 before GST for the full program, paid in installments",
+              "evidence": "Official TUM Asia program fee section"
+            }
+          ],
+          "notes": "No VPD applicable - Singapore program under TUM Asia/NTU joint framework, not standard German domestic admission."
+        }
       }
     },
     {
@@ -11225,7 +13930,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "SGD 49,000 (before GST) per official TUM Asia program page for the most recent intake cited, noted as subject to revision; conflicting lower figures (SGD 28,078/year) from aggregators"
         },
-        "exact_admission_regulations": "Joint 2-year degree jointly awarded by TUM and NTU; non-refundable NTU application fee cited as SGD 50 (one older source cites SGD 79); taught entirely in English."
+        "exact_admission_regulations": "Joint 2-year degree jointly awarded by TUM and NTU; non-refundable NTU application fee cited as SGD 50 (one older source cites SGD 79); taught entirely in English.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://tum-asia.edu.sg/graduate-studies/master-integrated-circuit-design/"
+          ],
+          "vpd_uni_assist_required": "No - Singapore-delivered TUM Asia/NTU joint program; VPD/uni-assist not applicable",
+          "application_portal_detail": "TUM Asia admissions; NTU application fee SGD 50 non-refundable",
+          "gpa_requirement_verified": "No GPA cutoff stated; requires Bachelor's in EE/Electronics or closely related with 'remarkable results' (subjective, no number)",
+          "language_requirements_verified": "IELTS Academic min 6.5; TOEFL iBT min 88 (TOEFL code 7368)",
+          "tuition_and_fees_verified": "Total programme fee SGD 58,403.07 (incl. GST); registration fee SGD 5,450 after GST paid on acceptance; remainder in 3 installments (15 July, 1 Dec, 1 July following year) - CORRECTS prior SGD49,000 figure",
+          "deadlines_verified": "Application period 1 Oct 2026-31 Mar 2027 for August 2027 intake",
+          "curriculum_summary": "120 ECTS/4 semesters: 2 lab electives (Analog IC Design NTU, Digital IC Design NTU), 6 core technical electives, 4 specialisation electives, 2 non-technical electives, 3-month internship (18 ECTS), 6-month thesis (30 ECTS)",
+          "required_documents": "Passport copy, photo, CV, notarised academic docs, APS certificate (China/Vietnam/India)",
+          "contact_info": "+65 6777 7407; Academic Building North, ABN-B2a-08, NTU, Singapore 637335",
+          "newly_found_info": "Updated exact total tuition SGD 58,403.07 (prior figure of SGD49,000 appears outdated); full elective category breakdown",
+          "corrections": [
+            {
+              "field": "tuition_non_eu",
+              "old": "SGD 49,000 before GST per official page (cited as official in prior data)",
+              "corrected": "SGD 58,403.07 total incl. GST (SGD 53,580.80 before GST) - updated/current figure, differs from prior 'official' figure, suggesting a fee increase or that prior data was outdated",
+              "evidence": "Current official TUM Asia fee section"
+            }
+          ],
+          "notes": "Fee figure has apparently increased since whatever source produced the prior EUR49,000 claim; treat current SGD58,403.07 as most current."
+        }
       }
     },
     {
@@ -11307,7 +14037,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 9,990/year cited by one aggregator (Studyportals); conflicts with typical RUB semester-contribution-only model seen in other RUB programs - needs verification as this appears to be a separate paid academy program (Akademie der Ruhr Universität) rather than a standard tuition-free public program"
         },
-        "exact_admission_regulations": "Delivered via the 'International Academy for German Engineering' / Akademie der Ruhr Universität in cooperation with the Faculty of Management and Economics - a distinct fee-charging structure from RUB's standard public tuition-free Master's programs; program length cited variably as 18 months or 3 semesters across sources."
+        "exact_admission_regulations": "Delivered via the 'International Academy for German Engineering' / Akademie der Ruhr Universität in cooperation with the Faculty of Management and Economics - a distinct fee-charging structure from RUB's standard public tuition-free Master's programs; program length cited variably as 18 months or 3 semesters across sources.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://international-academy-for-german-engineering.de/product/management-of-smart-and-sustainable-energy-systems/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned",
+          "application_portal_detail": "Program's own application form; upload all documents at once",
+          "gpa_requirement_verified": "No GPA cutoff; requires Bachelor's (210 ECTS) in business admin/economics or comparable (industrial eng, business informatics, business math) + demonstrated BA/math-for-economists/microeconomics knowledge (5 CP each) + ≥1 year relevant professional experience",
+          "language_requirements_verified": "Conflicting on official page itself: application section states C1 (TOEFL 95 iBT, IELTS 6.5, Duolingo 125, or English-taught bachelor's proof); FAQ states B2. This is an internal inconsistency on the official site, not resolved.",
+          "tuition_and_fees_verified": "EUR 14,985 total (EUR 4,995/semester) with early-bird EUR 13,985 if applied by 12 Jan 2027; semester administration/social fee ~EUR 380/semester - CONFIRMS this is the fee-charging Akademie structure flagged in prior data, with exact figures now",
+          "deadlines_verified": "Program dates 1 Oct 2027-31 Mar 2029; application window 1 Oct 2026-15 May 2027; international deadline 15 May 2027; EU deadline 15 June 2027 (internally inconsistent with the 15 May window); early-bird 12 Jan 2027; scholarship deadline 1 Mar 2027",
+          "curriculum_summary": "3 full-time semesters, 90 ECTS, 11 modules: Sem1-2 (60 ECTS) 8 core modules+2 electives+Research/Industry Internship module+'Skills for German Labor Market' elective; Sem3 (20 ECTS thesis+colloquium+2 electives)",
+          "required_documents": "Bachelor's degree+prerequisite coursework proof, English proof (unless bachelor's taught in English), work experience proof (contract/reference letter with dates/tasks)",
+          "contact_info": "Selina Schön, mossess@akademie.ruhr-uni-bochum.de, +49 157 85582434; general info@akademie.ruhr-uni-bochum.de, +49 234/32-21845",
+          "newly_found_info": "Exact tuition figures (EUR14,985 total/EUR4,995 per semester with early-bird discount); exact deadline structure; detailed 11-module curriculum; prerequisite coursework requirement (BA, math for economists, microeconomics at 5CP each)",
+          "corrections": [
+            {
+              "field": "tuition_non_eu",
+              "old": "EUR9,990/year cited by Studyportals aggregator, unconfirmed",
+              "corrected": "EUR 14,985 total program fee (EUR 4,995/semester), confirmed via official Akademie page - the aggregator figure appears to understate the actual cost",
+              "evidence": "Official tuition section"
+            },
+            {
+              "field": "ielts",
+              "old": "IELTS 6.5 cited by aggregator vs 6 for a similar program",
+              "corrected": "Official page itself conflicts: application section says C1/IELTS6.5/TOEFL95, but FAQ says B2 - genuine internal site inconsistency, not just aggregator confusion",
+              "evidence": "Both application and FAQ sections of official page"
+            }
+          ],
+          "notes": "Confirms this is run through 'Akademie der Ruhr Universität' as a separate fee-charging structure, consistent with prior flagged note."
+        }
       }
     },
     {
@@ -11389,7 +14150,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Conflicting figures: EUR 6,000/semester vs EUR 8,000/year cited by different aggregators; not confirmed via official fee page"
         },
-        "exact_admission_regulations": "Admission hinges on TUM's distinctive 2-stage aptitude assessment rather than a simple GPA/test-score cutoff; full program regulations (Fachprüfungsordnung) available as official PDF but not fully retrieved."
+        "exact_admission_regulations": "Admission hinges on TUM's distinctive 2-stage aptitude assessment rather than a simple GPA/test-score cutoff; full program regulations (Fachprüfungsordnung) available as official PDF but not fully retrieved.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.ed.tum.de/en/ed/studies/degree-programs/materials-science-and-engineering-m-sc/"
+          ],
+          "vpd_uni_assist_required": "Yes - explicitly required: 'If your qualification was obtained outside Germany, you need a Preliminary Documentation (VPD). The page links to uni-assist for this.' VPD also listed in required documents checklist.",
+          "application_portal_detail": "TUMonline application portal; VPD via uni-assist required for non-German-obtained qualifications before/during application",
+          "gpa_requirement_verified": "No GPA cutoff; point system based on Bachelor's grades + written documents, then interview for some; 140-credit exception possible on reasoned request; GRE required for applicants from Bangladesh/China/India/Iran/Pakistan (Quant 157, Analytical Writing 3.0) or Indian GATE alternative",
+          "language_requirements_verified": "'Sufficient English proficiency' per language certificates page (not itemized on this page itself)",
+          "tuition_and_fees_verified": "Semester fee applies; non-EU students have separate fees; exact amounts not on this page",
+          "deadlines_verified": "Application period 1 April-31 May for winter semester (only start date); interviews June/July/August",
+          "curriculum_summary": "120 ECTS/4 semesters: 90 ECTS modules (40 compulsory, ≥30 elective incl ≥15 Electives I, ≥8 practical course, ≥4 scientific skills) + 30 ECTS thesis; milestones at 30 ECTS/3 semesters and 120 ECTS/6 semesters; Advanced Research Internship recommended Sem3",
+          "required_documents": "Degree certificate/diploma or transcript, application form, CV, transcript+English proof, English abstract+motivation letter, curricular analysis (ECTS conversion sheet for non-EU), passport, VPD (if qualification outside Germany)",
+          "contact_info": "studium@tum.de, +49 89 289 22245; program advising Nina Maier, mscmse@ed.tum.de; exchange ie.international@ed.tum.de",
+          "newly_found_info": "VPD/uni-assist requirement explicitly confirmed; GRE requirement for specific countries (Bangladesh/China/India/Iran/Pakistan) with exact scores or GATE alternative; exact application window (1 April-31 May) and interview months; detailed ECTS milestone structure",
+          "corrections": [
+            {
+              "field": "vpd_uni_assist_required",
+              "old": "Not checked",
+              "corrected": "Yes, required for non-German-obtained qualifications",
+              "evidence": "Official required-documents and admission sections"
+            },
+            {
+              "field": "winter_deadline_non_eu",
+              "old": "Not found via official site; generally starts in winter semester",
+              "corrected": "Application period 1 April-31 May; interviews June-August; winter-only start confirmed",
+              "evidence": "Official application section"
+            }
+          ],
+          "notes": "Another confirmed VPD case - TUM programs (MSCE 3768, this MSE 9047) consistently require VPD via uni-assist for foreign qualifications."
+        }
       }
     },
     {
@@ -11471,7 +14263,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (public university); semester contribution ~EUR 271.40 plus ~EUR 75 application fee cited by aggregators, not officially confirmed"
         },
-        "exact_admission_regulations": "4-semester program; could not locate full official admission statute in this session; figures are third-party aggregator consensus requiring verification against tu-ilmenau.de directly."
+        "exact_admission_regulations": "4-semester program; could not locate full official admission statute in this session; figures are third-party aggregator consensus requiring verification against tu-ilmenau.de directly.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch only - official tu-ilmenau.de page not directly fetched; short-profile URLs identified: https://www.tu-ilmenau.de/en/study/in-study/range-of-courses/master/micro-and-nanotechnologies-msc and https://www.tu-ilmenau.de/en/study/before-the-study/range-of-courses/master/micro-and-nanotechnologies-msc"
+          ],
+          "vpd_uni_assist_required": "Not confirmed either way - not reached this session",
+          "application_portal_detail": "Not confirmed this session",
+          "gpa_requirement_verified": "Not confirmed; official page reportedly NC-free; third-party GPA2.5/70% figure unconfirmed",
+          "language_requirements_verified": "Not newly confirmed; prior data (IELTS 6.5/TOEFL79) not contradicted",
+          "tuition_and_fees_verified": "Not newly confirmed",
+          "deadlines_verified": "Not newly confirmed (third-party cites 15 Sept winter deadline, unconfirmed)",
+          "curriculum_summary": "Bachelor's needed in EE, electronics, mechanical eng, mechatronics, technical physics, or materials science with high proportion of EE/electronics/semiconductor tech/solid-state physics coursework; October 1 start per search summary",
+          "required_documents": "Not found",
+          "contact_info": "Not found this session",
+          "newly_found_info": "Official program page conflicts on whether an aptitude test is required under certain conditions; examination regulations PDF identified (PS-2021-MNT-M-ER-STR-SP.pdf) but not fetched",
+          "corrections": [],
+          "notes": "Not directly fetched this session (WebSearch summary only). RECOMMEND a follow-up direct WebFetch of the official short-profile page and the PS-2021-MNT-M-ER-STR-SP.pdf admission regulations annex to confirm VPD/uni-assist status, GPA, deadlines, and fees, since this entry remains substantially unverified."
+        }
       }
     },
     {
@@ -11553,7 +14363,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Approx. EUR 1,500/semester for non-EU students (Baden-Württemberg non-EU tuition policy since 2017), per multiple aggregators; not directly confirmed from official fee page in this session"
         },
-        "exact_admission_regulations": "GRE is 'highly recommended' per one aggregator, suggesting a strong quantitative score can offset an average GPA; program duration cited as both 2 years and 4 semesters across sources (consistent, just different units)."
+        "exact_admission_regulations": "GRE is 'highly recommended' per one aggregator, suggesting a strong quantitative score can offset an average GPA; program duration cited as both 2 years and 4 semesters across sources (consistent, just different units).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.tf.uni-freiburg.de/mse"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - application via online portal (campus.uni-freiburg.de); no uni-assist/VPD step found (same pattern as Freiburg's Embedded Systems Engineering, daad_id 4360)",
+          "application_portal_detail": "Direct electronic application via campus.uni-freiburg.de",
+          "gpa_requirement_verified": "No GPA cutoff; transcript showing overall average grade required; Bachelor's in mechatronics/EE/electronics/mechanical eng or closely related",
+          "language_requirements_verified": "English C1: IELTS Academic (incl Online Academic) min 7.0; TOEFL ibT min 95/5.0 new 2026 scale (incl home ed/Essentials); PTE Academic min 76; also Cambridge CAE/CPE, telc University, TOEIC, OOPT; exempt for native speakers/grads from US/UK/Australia/NZ/Canada",
+          "tuition_and_fees_verified": "EU/German: EUR190/semester (103+80+7); Non-EU: EUR1,690/semester (1,500 tuition+190 fees); living costs ~EUR900-1,000/month",
+          "deadlines_verified": "Winter 2027: applications open 1 March 2027; early bird 1 May; final non-EU deadline 31 May; final EU deadline 15 July",
+          "curriculum_summary": "120 ECTS/4 semesters; Year1 mandatory: Micro-electronics, Micro-mechanics, Microsystems Tech&Processes, Microsystems Design Lab I, Signal Processing + 5 of 8 Advanced Microsystems electives; Sem2-4 concentration areas: Circuits and Systems, Biomedical Engineering, Materials and Fabrication, Photonics; Sem4 thesis",
+          "required_documents": "Undergrad diploma, transcript, enrollment/completion proof, English test result, recommendation letter (faculty form), SOP, CV, APS certificate (China/India/Vietnam); optional GRE/class rank/GATE/publications",
+          "contact_info": "Ursula Epe studienkoordination@tf.uni-freiburg.de (page links to different address admissions@imtek.uni-freiburg.de); Svenja Andresen studiengangkoordination.mst@imtek.uni-freiburg.de; Dr. Jochen Kieninger studienberatung@imtek.uni-freiburg.de",
+          "newly_found_info": "Full exact language score table (resolves prior wide IELTS6.5-7.0 range - 7.0 confirmed as the actual minimum, same as sister program 4360); full fee breakdown; detailed required documents list with recommendation letter via faculty-specific form",
+          "corrections": [
+            {
+              "field": "ielts",
+              "old": "Conflicting IELTS6.5 (no band below 6.0) up to 7.0",
+              "corrected": "IELTS Academic 7.0 confirmed (TOEFL iBT 95, PTE 76) - the higher end of the prior range is correct",
+              "evidence": "Official page language requirements section"
+            },
+            {
+              "field": "tuition_non_eu",
+              "old": "Approx EUR1,500/semester (Baden-Württemberg policy), unconfirmed",
+              "corrected": "EUR 1,690/semester total confirmed (1,500 tuition + 190 fees)",
+              "evidence": "Official tuition and fees section"
+            }
+          ],
+          "notes": "No VPD/uni-assist requirement found - consistent with sister program 4360 (Embedded Systems Engineering) at same faculty (Freiburg Technical Faculty), suggesting Freiburg's Technical Faculty generally does not use uni-assist/VPD, unlike TUM and Aalen."
+        }
       }
     },
     {
@@ -11635,7 +14476,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee; semester contribution approx. EUR 280-300 (figures vary slightly by source)"
         },
-        "exact_admission_regulations": "Official examination regulations document (PO_MA_OOeP_24_English2.pdf) available on physik.uni-paderborn.de; distinguishing feature is the explicit quantum theory and advanced mathematics prerequisite knowledge requirement."
+        "exact_admission_regulations": "Official examination regulations document (PO_MA_OOeP_24_English2.pdf) available on physik.uni-paderborn.de; distinguishing feature is the explicit quantum theory and advanced mathematics prerequisite knowledge requirement.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-paderborn.de/en/studyoffer/course_of_study/optoelectronics-and-photonics-master"
+          ],
+          "vpd_uni_assist_required": "uni-assist Yes (for applicants without German university entrance qualification, via Uni-Assist Online Portal regardless of nationality); VPD term specifically not used on this page",
+          "application_portal_detail": "Uni-Assist Online Portal (non-German qualification holders) or PAUL portal directly (Bildungsinländer, entering provisional grade 4.0)",
+          "gpa_requirement_verified": "No numeric GPA cutoff (admission-free/NC-free); for international applicants, either GRE Revised General (Quant≥157, Analytical Writing≥4.5) OR 'very good or good CGPA' (subjective, no number) - CORRECTS prior data's 'minimum overall grade 3.0' claim",
+          "language_requirements_verified": "English B2: TOEFL iBT min 80 (not 79 as in prior data) or PBT min 550, IELTS min 6.0, Cambridge FCE; CEFR B2 required per exam regulations",
+          "tuition_and_fees_verified": "Not specified on this page; links to general fees/funding page (not fetched)",
+          "deadlines_verified": "Not stated on this page (prior data's 31 May/21 Sept figures not confirmed or contradicted here)",
+          "curriculum_summary": "4 semesters/120 ECTS, winter start only, English-taught; lectures, lab courses, specialist options in physics and EE, Master's thesis; exemplary study plan for WiSe2024/25 enrollees linked",
+          "required_documents": "Not fully listed; refers to general application info page",
+          "contact_info": "Dr. Sascha Hohmann, sascha.hohmann@uni-paderborn.de, +49 5251/60-5836; International Office io-info@zv.uni-paderborn.de",
+          "newly_found_info": "GRE requirement for international applicants (Quant≥157, Analytical Writing≥4.5) as an alternative to 'very good CGPA' - not in prior data at all; exact uni-assist routing instructions by qualification type",
+          "corrections": [
+            {
+              "field": "minimum_gpa_cutoff",
+              "old": "Minimum overall grade of 3.0 (German scale) cited by aggregator",
+              "corrected": "No numeric GPA stated officially; instead GRE (Quant157+/AW4.5+) OR vaguely-defined 'good CGPA' - the 3.0 figure appears to be aggregator fabrication/conflation",
+              "evidence": "Official admission requirements/GRE section"
+            },
+            {
+              "field": "ielts",
+              "old": "IELTS6.0 (Cambridge CAE/CPE, TOEFL550/79, CEFR B2)",
+              "corrected": "TOEFL iBT minimum is 80, not 79 (small but exact correction); IELTS6.0 confirmed",
+              "evidence": "Official language requirements section"
+            }
+          ],
+          "notes": "uni-assist confirmed required but VPD term itself not used - consistent pattern with sister program 7607 (Electrical Systems Engineering) at same university/department, suggesting Paderborn routes all non-German-qualification applicants through uni-assist without the German universities necessarily using the word 'VPD' explicitly on public pages, even though uni-assist's standard product for this purpose is called VPD."
+        }
       }
     },
     {
@@ -11717,7 +14589,27 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Program page lists approx. EUR 1,500/semester for non-EU students plus approx. EUR 160/semester administrative fee (third-party confirmation; EU/German students: none beyond standard semester fee)."
         },
-        "exact_admission_regulations": "Contact: quantum.engineering@uni-ulm.de. Admission statute (Zulassungsordnung) is the legally binding document for exact requirements."
+        "exact_admission_regulations": "Contact: quantum.engineering@uni-ulm.de. Admission statute (Zulassungsordnung) is the legally binding document for exact requirements.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://uni-ulm.de/en/nawi/master/ps/m-sc-quantum-engineering-overview/requirements",
+            "https://uni-ulm.de/en/nawi/master/ps/m-sc-quantum-engineering-overview/how-to-apply (404, unreachable)",
+            "web search of uni-ulm.de"
+          ],
+          "vpd_uni_assist_required": "Not confirmed - university uses uni-assist online portal for foreign qualifications per web search, but no explicit VPD mention found; official requirements/how-to-apply pages returned 404 on direct fetch this pass",
+          "application_portal_detail": "Applications via uni-assist for foreign higher-education qualifications; admissions statute is binding document",
+          "gpa_requirement_verified": "No official numeric cutoff confirmed; third-party figure of 2.7 (German scale) consistent across aggregators but unverified officially",
+          "language_requirements_verified": "Not confirmed officially; third-party aggregators cite IELTS 5.5/CEFR B2/TOEFL iBT 72, inconsistent IELTS 4 figure from one source should be disregarded as unreliable",
+          "tuition_and_fees_verified": "Not independently re-confirmed this pass; prior data of ~EUR1500/semester non-EU + ~EUR160 admin fee stands uncorrected",
+          "deadlines_verified": "Winter semester 1 April-15 May; Summer semester 1 December-15 January (confirmed via search of official site content)",
+          "curriculum_summary": "Not re-verified this pass",
+          "required_documents": "Not confirmed this pass",
+          "contact_info": "quantum.engineering@uni-ulm.de (unchanged)",
+          "newly_found_info": "None new beyond existing data; main official requirements/how-to-apply URLs returned 404 this pass so could not verify further",
+          "corrections": [],
+          "notes": "Official page URLs in current_official_data returned 404 when fetched directly this pass (possibly temporary/geo issue). Could not independently verify VPD status - recommend re-attempting fetch or checking admissions statute PDF directly."
+        }
       }
     },
     {
@@ -11799,7 +14691,27 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee for degree itself; semester contribution only (reported ~EUR 85-170/semester by third parties; official fee page should be checked for exact current figure)."
         },
-        "exact_admission_regulations": "Entrance exam/interview is usually required as part of admission (per DAAD listing). Application checklist PDF is the authoritative document on th-rosenheim.de."
+        "exact_admission_regulations": "Entrance exam/interview is usually required as part of admission (per DAAD listing). Application checklist PDF is the authoritative document on th-rosenheim.de.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.th-rosenheim.de/fileadmin/.../241029-application_checklist_M_IWT-EN.pdf (PDF unreadable by tool)",
+            "web search of th-rosenheim.de checklists",
+            "https://www.th-rosenheim.de/en/international-office/international-students/degree-seeking-students/international-wood-technology-msc (404)"
+          ],
+          "vpd_uni_assist_required": "Yes - CONFIRMED via web search of official TH Rosenheim checklist content: international applicants whose first degree is not from a German/Austrian/Swiss institution need a Vorprüfungsdokumentation (VPD) from uni-assist, valid for 1 year",
+          "application_portal_detail": "uni-assist for non-German-system degree holders; VPD required before application; processing recommended to allow 4-6 weeks",
+          "gpa_requirement_verified": "No GPA threshold found; one aggregator explicitly states no GRE/GMAT/GPA requirement",
+          "language_requirements_verified": "IELTS 6.0 / TOEFL iBT 72 / PTE Academic 60 / CEFR C1 cited by aggregators (Mastersportal, Expatrio); not independently confirmed on an official PDF (PDF content not machine-readable by tool)",
+          "tuition_and_fees_verified": "Not newly confirmed; no tuition beyond semester fee previously noted stands",
+          "deadlines_verified": "Conflicting: one flyer gives 15 April-15 June; another source gives 15 June deadline; not resolved to single authoritative date",
+          "curriculum_summary": "Not re-verified this pass",
+          "required_documents": "VPD from uni-assist for foreign degree holders is a required document/step; full checklist PDF could not be parsed by tool (binary/compressed)",
+          "contact_info": "Not newly found",
+          "newly_found_info": "VPD requirement for uni-assist applicants CONFIRMED for this program (previously flagged as 'application via uni-assist with Master VPD preliminary assessment' in current_official_data - now independently corroborated via search of official checklist content)",
+          "corrections": [],
+          "notes": "PDF checklist could not be read directly by WebFetch tool (returns only metadata/compressed stream); VPD requirement confirmed instead via WebSearch snippet quoting the official checklist text."
+        }
       }
     },
     {
@@ -11881,7 +14793,45 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fees (M.Eng., 4 semesters, 120 ECTS); only standard semester fee applies."
         },
-        "exact_admission_regulations": "4-semester M.Eng. program; English-taught, no German language certificate required."
+        "exact_admission_regulations": "4-semester M.Eng. program; English-taught, no German language certificate required.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.fh-dortmund.de/ese?loc=en-US",
+            "https://www.fh-dortmund.de/studieren/orientieren/anforderungsprofile/ese-ma-zu-wem-passts.php"
+          ],
+          "vpd_uni_assist_required": "YES - EXPLICITLY CONFIRMED: page states 'Foreign certificates need a VPD (VPD required)'. All applicants (EU, German, non-EU) must submit documents for a Pre-Check (via precheck.go-study-europe.de) before applying; this functions as/alongside the VPD process for foreign certificate holders.",
+          "application_portal_detail": "Two-step: (1) Pre-Check Service at https://precheck.go-study-europe.de/ui/student/main — submit documents for pre-check; (2) after passing, apply via FH Dortmund's own portal at https://portal.fh-dortmund.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?page=2",
+          "gpa_requirement_verified": "No numeric GPA stated on official page (current_official_data's '2.5' cutoff NOT found on official page - unconfirmed, flag as unverified/possibly incorrect)",
+          "language_requirements_verified": "TOEFL ITP >=550, OR TOEFL iBT >=90, within 2 years before applying. Equivalent CEFR-based tests accepted, e.g. IELTS 6.5. In exceptional cases, C1-equivalent certificate may be accepted via committee decision. (TOEFL iBT 90/IELTS 6.5 figures in current_official_data CONFIRMED)",
+          "tuition_and_fees_verified": "No tuition; social/semester contribution of EUR 346.80 per semester (current_official_data said semester fee applies without exact figure - NOW have exact figure)",
+          "deadlines_verified": "Application window: 15 May to 15 July, for winter semester start only (current_official_data's '1 April-15 June' for non-EU and 'mid-May-15 July' for EU were NOT matched exactly by official page; official page gives single window 15 May-15 July)",
+          "curriculum_summary": "M.Eng., 4 semesters, 120 ECTS, 3600 total hours (900/semester). Sem 1: Mathematics for Signal & Controls, Distributed and Parallel Systems, Embedded Software Engineering, Requirements Engineering, Scientific & Transversal Skills. Sem 2: Mechatronic Systems Engineering, Microelectronics & HW/SW Co-Design, R&D Project Management, Signals and Control Systems, Elective. Sem 3: Electives + Research Project/Thesis start. Sem 4: Master Thesis and Colloquium. Specializations: automotive systems, computer vision, microelectronics/hardware engineering, formal methods/software architectures.",
+          "required_documents": "Not itemized on page beyond pre-check submission; degree in CS/EE/IT or closely related field covering software engineering, control engineering, signal processing, systems engineering, min. 180 ECTS (non-ECTS degrees converted)",
+          "contact_info": "Course management: Thorsten Ruben (masterese@fh-dortmund.de, obfuscated on page - verify); Student Advisory Service (ZSB); International Office",
+          "newly_found_info": "MAIN FINDING: VPD requirement explicitly stated on main page ('Foreign certificates need a VPD'), confirming the user's flagged gap was actually locatable on the fh-dortmund.de/ese page itself (possibly a newer version than previously fetched, or previously missed). Also newly found: exact social contribution fee (EUR 346.80/semester), exact curriculum module breakdown, exact application window (15 May-15 July), pre-check portal URL, specializations list, career prospects info, cooperative doctorate pathway. No separate dedicated FAQ/how-to-apply subpage exists; admission info is on main page plus a linked 'requirements profile' subpage (ese-ma-zu-wem-passts.php) which added only soft-skill/background info, not GPA/VPD specifics.",
+          "corrections": [
+            {
+              "field": "admission_eligibility.minimum_gpa_cutoff",
+              "old": "Overall grade of at least 2.5 (German grading system)",
+              "corrected": "NOT FOUND on official page - no numeric GPA cutoff stated; treat prior 2.5 figure as unconfirmed/third-party only",
+              "evidence": "fh-dortmund.de/ese page admission requirements section lists only degree-field and ECTS/content requirements, no GPA figure"
+            },
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Non-EU: approx. 1 April-15 June; EU: mid-May-15 July",
+              "corrected": "Single application window for all applicants: 15 May to 15 July (winter semester only)",
+              "evidence": "Official page 'Fast facts' section: 'Application window: May 15 to July 15'"
+            },
+            {
+              "field": "financial_costs.tuition_non_eu",
+              "old": "No tuition fees; only standard semester fee applies",
+              "corrected": "No tuition fees; exact semester social contribution = EUR 346.80",
+              "evidence": "Official page 'Fast facts': 'Social contribution: 346,80€'"
+            }
+          ],
+          "notes": "This is the program the user flagged as missing VPD info. Confirmed VPD is required for foreign certificate holders, stated explicitly on the main landing page. No separate admission-requirements or FAQ subpage exists beyond the linked 'requirements profile' (ese-ma-zu-wem-passts.php), which did not add VPD/GPA detail."
+        }
       }
     },
     {
@@ -11963,7 +14913,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (standard for Lower Saxony public universities); semester contribution only."
         },
-        "exact_admission_regulations": "Admission is locally restricted (university applies own selection criteria); applications via uni-assist. German language certification not required (English-medium program)."
+        "exact_admission_regulations": "Admission is locally restricted (university applies own selection criteria); applications via uni-assist. German language certification not required (English-medium program).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch of hs-emden-leer.de Industrial Informatics program",
+            "official program page returned 404 on direct fetch"
+          ],
+          "vpd_uni_assist_required": "Likely yes (uni-assist used for international applicants per multiple aggregators) but VPD not explicitly named in any source found; official page unreachable this pass",
+          "application_portal_detail": "Local admission restriction; international applicants apply through uni-assist; application fee EUR75 first application / EUR30 each additional (per aggregator, unverified officially)",
+          "gpa_requirement_verified": "Conflicting: one detailed aggregator (MyGermanUniversity) states GPA not mandatory but GPA <=3.00 (German scale) yields no admission score points; two other sources cite 2.5 minimum (unverified); one source says no GPA requirement at all",
+          "language_requirements_verified": "IELTS overall 6.0 consistently cited; one source gives TOEFL iBT equivalent 83+ (differs from current_official_data's unspecified TOEFL)",
+          "tuition_and_fees_verified": "No tuition fee (standard Lower Saxony public university); semester fee only - unchanged",
+          "deadlines_verified": "Not found via official site this pass either; still unconfirmed",
+          "curriculum_summary": "Not found",
+          "required_documents": "Basic knowledge of real-time-critical systems and software engineering (incl. programming) described as essential prerequisite",
+          "contact_info": "Not found",
+          "newly_found_info": "Application fee figures (EUR75/EUR30), and TOEFL iBT ~83 equivalent figure, and the nuance that GPA 3.00 or below (not a hard cutoff but a scoring threshold) is what MyGermanUniversity describes - more precise than prior 2.5 claim",
+          "corrections": [
+            {
+              "field": "admission_eligibility.minimum_gpa_cutoff",
+              "old": "Minimum grade equivalent to 2.5 (German scale)",
+              "corrected": "Unclear/conflicting - most detailed source says GPA not mandatory but <=3.00 yields zero admission score points, not a hard 2.5 cutoff",
+              "evidence": "MyGermanUniversity program listing (via search snippet)"
+            }
+          ],
+          "notes": "Official hs-emden-leer.de program page could not be located/fetched directly in this pass (404). All findings sourced from third-party aggregators via WebSearch; recommend a follow-up direct crawl of hs-emden-leer.de site search for 'Industrial Informatics'."
+        }
       }
     },
     {
@@ -12045,7 +15021,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site for SEATRANS specifically."
         },
-        "exact_admission_regulations": "4-semester double degree; passing all first-year ITS courses is required to progress to the Wismar portion. Contact: seatrans@its.ac.id for details."
+        "exact_admission_regulations": "4-semester double degree; passing all first-year ITS courses is required to progress to the Wismar portion. Contact: seatrans@its.ac.id for details.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch of Hochschule Wismar / ITS Surabaya SEATRANS program",
+            "fiw.hs-wismar.de pages (titles only via search, not directly fetched)"
+          ],
+          "vpd_uni_assist_required": "Not mentioned in any source found",
+          "application_portal_detail": "Joint admission: ITS Surabaya entrance process plus Hochschule Wismar examination regulations (MT_MA_DS_2025); contact seatrans@its.ac.id",
+          "gpa_requirement_verified": "One source states an overall grade of 3.0 or worse (German scale) means the examination board will not approve admission - i.e. effective cutoff better than 3.0",
+          "language_requirements_verified": "No language requirement found applicable specifically to the master's/double-degree version; TOEFL iBT 90/IELTS 5.5 figures found apply only to a related BACHELOR's double-degree program, not this Master's - should not be assumed to carry over",
+          "tuition_and_fees_verified": "Not found this pass",
+          "deadlines_verified": "One listing (possibly outdated, 2025 cycle): registration ~30 June, entrance test 2-11 July, program start 25 August/1 September; application deadline ~15 July annually per one source - not officially confirmed for current cycle",
+          "curriculum_summary": "2-year program: semesters 1-2 at ITS Surabaya, semesters 3-4 (incl. thesis) at Hochschule Wismar (Rostock); students must pass all first-year ITS courses to progress. Graduates receive dual degrees: M.Sc. (Wismar) and M.Eng. (ITS Surabaya).",
+          "required_documents": "First professionally qualifying degree (Bachelor's/equivalent, min 180 ECTS); ITS-side eligible backgrounds include D4 nautical/marine engineering/port&shipping/ETO degrees, and S1 degrees in Naval Architecture, Marine Transportation Engineering, Civil Engineering, Architecture, Informatics Engineering",
+          "contact_info": "seatrans@its.ac.id (confirmed, matches current_official_data)",
+          "newly_found_info": "Examination regulations document name (MT_MA_DS_2025), the >3.0 GPA-rejection rule, more detail on eligible prior-degree types from the ITS side, and clarification that BSc-level language test figures (TOEFL90/IELTS5.5) do not apply to this Master's program - important correction",
+          "corrections": [
+            {
+              "field": "language_requirements.ielts",
+              "old": "Not confirmed for SEATRANS; English is language of instruction so proficiency expected",
+              "corrected": "Confirmed no language test requirement found specific to the Master's/double-degree; do not apply the Bachelor's-level TOEFL90/IELTS5.5 figures to this Master's program",
+              "evidence": "Search results distinguish bachelor's vs master's double-degree pages explicitly"
+            }
+          ],
+          "notes": "Program name ambiguity: some Wismar/aggregator pages call this 'Marine Engineering' while ITS and official exam regulations call it 'Marine Transportation' (SEATRANS) - could not fully disambiguate without direct site fetch, which was not reachable this pass."
+        }
       }
     },
     {
@@ -12127,7 +15129,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fees reported by most sources (standard for German public universities); only semester contribution (~EUR 381 per one source)."
         },
-        "exact_admission_regulations": "Program is restricted admission (NC) per one source; selection based on academic performance."
+        "exact_admission_regulations": "Program is restricted admission (NC) per one source; selection based on academic performance.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebFetch attempt on tf.uni-kiel.de (301 redirect, not re-fetched), WebSearch of uni-kiel.de materials science engineering"
+          ],
+          "vpd_uni_assist_required": "Not confirmed either way; one aggregator (GradGermany) claims direct application skipping uni-assist, others claim uni-assist is used for most international applicants - conflicting, no VPD mention found",
+          "application_portal_detail": "Application portal named applise.tf.uni-kiel.de per search result; route (uni-assist vs direct) unresolved",
+          "gpa_requirement_verified": "Not confirmed; one source cites 2.5 German-scale minimum but marked unverified",
+          "language_requirements_verified": "One source cites B2-level certificate valid within 24 months; conflicts with current_official_data's IELTS 6.5/TOEFL79 vs CEFR B2(~5.5) - still unresolved",
+          "tuition_and_fees_verified": "Conflicting application fee figures found: EUR55 non-EU fee vs. no application fee at all per different sources - unresolved; no tuition fee for degree itself (standard), semester fee ~EUR381 unchanged",
+          "deadlines_verified": "Program starts winter semester each year per KielMAT faculty page snippet; exact deadline not independently confirmed this pass",
+          "curriculum_summary": "Not newly found",
+          "required_documents": "At least a 3-year Bachelor's in materials science or related field",
+          "contact_info": "Not newly found",
+          "newly_found_info": "Application portal name (applise.tf.uni-kiel.de); note that the official tf.uni-kiel.de/matwis/.../application URL now redirects to uni-kiel.de/en/tf/study/en/programs/mse/application (301), which itself returned 404 on fetch - site structure may have changed and needs re-crawling",
+          "corrections": [],
+          "notes": "Direct fetch of official application page failed in this pass (redirect target 404'd). This affects Kiel entries 11279/11280/11281 identically since they share the same official_source_url. Recommend a dedicated follow-up fetch of uni-kiel.de/en/tf/ pages via site navigation rather than direct deep link."
+        }
       }
     },
     {
@@ -12209,7 +15229,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fees (standard German public university); semester contribution ~EUR 381."
         },
-        "exact_admission_regulations": "Shares admission framework with other Kiel Materials Science specializations (restricted admission per one source)."
+        "exact_admission_regulations": "Shares admission framework with other Kiel Materials Science specializations (restricted admission per one source).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "Same as 11279 - shared official_source_url, materials science application page inaccessible this pass"
+          ],
+          "vpd_uni_assist_required": "Not confirmed (see 11279 notes - applies identically to this Business Administration focus track)",
+          "application_portal_detail": "Same as 11279: applise.tf.uni-kiel.de portal name found; uni-assist vs direct route unresolved",
+          "gpa_requirement_verified": "Same as 11279 - unconfirmed, ~2.5 unverified aggregator figure",
+          "language_requirements_verified": "Same conflicting figures as 11279 (IELTS 6.5/TOEFL79 vs CEFR B2)",
+          "tuition_and_fees_verified": "Same as 11279 - no tuition, semester fee ~EUR381, application fee conflicting",
+          "deadlines_verified": "Not confirmed this pass",
+          "curriculum_summary": "Not newly found",
+          "required_documents": "Same bachelor's-in-related-field requirement as sibling tracks",
+          "contact_info": "Not newly found",
+          "newly_found_info": "None beyond what applies to sibling track 11279 (shared admission page)",
+          "corrections": [],
+          "notes": "Shares official_source_url and admission framework with 11279/11281; could not independently re-verify this pass due to page redirect/404 issue noted above."
+        }
       }
     },
     {
@@ -12291,7 +15329,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fees (standard German public university); semester contribution ~EUR 381."
         },
-        "exact_admission_regulations": "Shares admission framework with other Kiel Materials Science specializations."
+        "exact_admission_regulations": "Shares admission framework with other Kiel Materials Science specializations.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "Same as 11279/11280 - shared official_source_url, page inaccessible this pass"
+          ],
+          "vpd_uni_assist_required": "Not confirmed (see 11279 notes)",
+          "application_portal_detail": "Same as 11279/11280",
+          "gpa_requirement_verified": "Same as 11279/11280 - unconfirmed",
+          "language_requirements_verified": "Same conflicting figures as 11279/11280",
+          "tuition_and_fees_verified": "Same as 11279/11280",
+          "deadlines_verified": "Not confirmed this pass",
+          "curriculum_summary": "Not newly found",
+          "required_documents": "Same bachelor's-in-related-field requirement",
+          "contact_info": "Not newly found",
+          "newly_found_info": "None beyond sibling tracks",
+          "corrections": [],
+          "notes": "Shares official_source_url and admission framework with 11279/11280; could not independently re-verify this pass."
+        }
       }
     },
     {
@@ -12373,7 +15429,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Official homepage lists EUR 18,500 for the full program (more recent figure); FAQ page lists EUR 16,000 payable in 3 installments plus ~EUR 360/semester fee. Figures conflict - confirm current amount with admissions office."
         },
-        "exact_admission_regulations": "LSM Professional Enhancement Grant available, covering 50% of tuition for one student per intake. Program starts winter semester, taught in English."
+        "exact_admission_regulations": "LSM Professional Enhancement Grant available, covering 50% of tuition for one student per intake. Program starts winter semester, taught in English.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebFetch attempt lsm.htw-berlin.de/en/applying/faq (404) and /en/applying/ (404)",
+            "WebSearch of HTW Berlin LSM MBA FAQ"
+          ],
+          "vpd_uni_assist_required": "Conflicting/unconfirmed: one aggregator says direct university application; another says apply via uni-assist OR directly; no VPD explicitly mentioned",
+          "application_portal_detail": "Unresolved - conflicting claims of direct-to-university vs uni-assist route; recommend direct verification",
+          "gpa_requirement_verified": "One unverified aggregator cites GPA 2.5 (German scale) or 65%+ marks, but same source also incorrectly claims GRE/GMAT required (contradicts current_official_data's confirmed 'GMAT/GRE NOT required' from official page) - this makes the aggregator's GPA figure suspect too",
+          "language_requirements_verified": "One source lists TOEFL 570/230/88 (paper/computer/internet-based score triad) as a requirement; broader acceptance of TOEFL/IELTS/PTE/TOEIC/CAE/CPE/UNIcert also mentioned - more test options than previously documented",
+          "tuition_and_fees_verified": "Not newly confirmed; prior conflicting EUR18,500 vs EUR16,000+installments figures stand uncorrected",
+          "deadlines_verified": "Not newly confirmed; prior 28 February figure stands",
+          "curriculum_summary": "Not newly found",
+          "required_documents": "Previous bachelor's degree (min 180 ECTS) in engineering/life sciences/biology/chemistry/pharmaceutics field plus 1 year relevant work experience - consistent with current_official_data",
+          "contact_info": "Not newly found",
+          "newly_found_info": "Additional accepted language certificates beyond IELTS/TOEFL: PTE, TOEIC, CAE, CPE, UNIcert all mentioned as generally accepted proof of English by one source",
+          "corrections": [],
+          "notes": "Official FAQ URL (lsm.htw-berlin.de/en/applying/faq) returned 404 this pass, could not re-verify directly despite being in current_official_data as the official source - site structure may have changed. Recommend checking lsm.htw-berlin.de navigation manually."
+        }
       }
     },
     {
@@ -12455,7 +15530,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (standard for German public university); semester fee applies."
         },
-        "exact_admission_regulations": "Official applicant info PDF (MScMechEng-Info-for-applicants) is the authoritative source for exact ECTS/grade conversion and documentation."
+        "exact_admission_regulations": "Official applicant info PDF (MScMechEng-Info-for-applicants) is the authoritative source for exact ECTS/grade conversion and documentation.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.th-luebeck.de/en/studies/study-offer/degree-programs/mechanical-engineering-msc/overview",
+            "https://www.th-luebeck.de/en/studies/application/frequently-asked-questions-faq/"
+          ],
+          "vpd_uni_assist_required": "uni-assist CONFIRMED used for non-German-degree applicants; VPD NOT explicitly mentioned by name on either page checked",
+          "application_portal_detail": "German-degree holders apply via TH Lübeck's own portal; non-German-degree holders apply via uni-assist. Restricted admission with limited competitive places per semester.",
+          "gpa_requirement_verified": "CONFIRMED: Bachelor's in Mechanical Engineering or equivalent with 210 ECTS, OR 180 ECTS plus minimum CGPA 2.5 (German scale), conditional admission possible for 180-ECTS holders; non-field-matching applicants should include motivational letter",
+          "language_requirements_verified": "Proof of English AND German proficiency required (English for teaching medium from semester 1; exact German level not specified on this page - refer to separate 'program application information' PDF, not independently opened this pass)",
+          "tuition_and_fees_verified": "Not stated on either page checked",
+          "deadlines_verified": "Not stated on main overview page; FAQ page gives GENERAL TH Lübeck deadlines (likely applicable): restricted-admission programs Winter: 1 May-15 July, Summer: 1 Dec-15 Jan; open-admission programs have later deadlines (31 Aug/28-29 Feb)",
+          "curriculum_summary": "Subpages exist for Objectives and Course Contents, Specializations, Course of Study (not independently fetched this pass)",
+          "required_documents": "PDF transcripts uploaded as PDF/JPG/PNG, simple (non-certified) copies sufficient per general FAQ; program-specific list is in a separate PDF not opened this pass",
+          "contact_info": "Admissions Office: studieren@th-luebeck.de; Program coordinator: mscmecheng@th-luebeck.de; Head of program: Prof. Dr.-Ing. Martin Hahn, +49 451 300 5760, martin.hahn@th-luebeck.de (all NEW/more specific than current_official_data's generic reference)",
+          "newly_found_info": "Specific named contacts (program coordinator email, head of program with phone/email), confirmation uni-assist is the explicit route for non-German degrees, general university-wide application deadline windows (1 May-15 July winter / 1 Dec-15 Jan summer for restricted programs), and note that the program has restricted/competitive admission with limited places",
+          "corrections": [
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Summer semester: 1 Nov-15 Jan (for German/EU degrees); winter intake deadlines differ",
+              "corrected": "General TH Lübeck restricted-program deadlines: Winter 1 May-15 July; Summer 1 Dec-15 Jan (program-specific deadline not separately confirmed - this is the university-wide FAQ figure)",
+              "evidence": "th-luebeck.de FAQ page: 'Restricted-admission programs: Winter semester May 1 to July 15. Summer semester December 1 to January 15.'"
+            }
+          ],
+          "notes": "VPD specifically was not named on either page; only general uni-assist routing was confirmed. The program application info PDF (MScMechEng-Info-for_applicants) likely has more detail but was not opened this pass."
+        }
       }
     },
     {
@@ -12537,7 +15638,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (standard German public Fachhochschule); semester fee only."
         },
-        "exact_admission_regulations": "Caution: do not confuse with University of Kaiserslautern-Landau (RPTU), a separate institution with different requirements."
+        "exact_admission_regulations": "Caution: do not confuse with University of Kaiserslautern-Landau (RPTU), a separate institution with different requirements.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "Direct fetch of hs-kl.de application-admission page (404)",
+            "WebSearch of hs-kl.de and comparable programs"
+          ],
+          "vpd_uni_assist_required": "NOT CONFIRMED for HS Kaiserslautern specifically this pass - official page unreachable; comparable programs at other universities (Hannover, Kassel) explicitly require VPD/uni-assist, suggesting likely similar practice but NOT verified for this specific program",
+          "application_portal_detail": "Unresolved for HS Kaiserslautern - official admission-application page returned 404 on both direct URL variants tried",
+          "gpa_requirement_verified": "One third-party aggregator snippet: 210 ECTS (7-semester) Bachelor's with overall grade/mark 'well above average' - roughly consistent with current_official_data's '2.8' figure but not independently confirmed numerically",
+          "language_requirements_verified": "Not confirmed this pass; prior unverified IELTS 6.0 claim stands uncorrected",
+          "tuition_and_fees_verified": "Not newly confirmed",
+          "deadlines_verified": "Not confirmed this pass",
+          "curriculum_summary": "Not found",
+          "required_documents": "Not found; one source notes additional/different rules apply specifically for applicants from India",
+          "contact_info": "Not found",
+          "newly_found_info": "Note that applicants from India face additional specific admission rules per one aggregator (unverified) - new detail not in current_official_data",
+          "corrections": [],
+          "notes": "Could not reach the official hs-kl.de application-admission page this pass (404 on the URL in current_official_data). Recommend a fresh site-search crawl of hs-kl.de since the URL structure may have changed. Caution already noted in current_official_data about not confusing with RPTU remains valid and unresolved."
+        }
       }
     },
     {
@@ -12619,7 +15739,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Effectively no tuition (EU students: EUR 0/semester per one source for 2026 entry); semester contribution ~EUR 255 (covers semester ticket etc.)."
         },
-        "exact_admission_regulations": "Applications for master's typically via university's QISPOS portal (per FAQ); some sources suggest international applicants may instead use uni-assist - confirm current route."
+        "exact_admission_regulations": "Applications for master's typically via university's QISPOS portal (per FAQ); some sources suggest international applicants may instead use uni-assist - confirm current route.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://hs-nordhausen.de/en/application/faq-bewerbung/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on the FAQ page fetched; page content was limited/truncated and did not reach program-specific or VPD detail",
+          "application_portal_detail": "Page only confirmed program name/link (hs-nordhausen.de/en/study-programmes/mechatronics/); did not yield application process detail in this pass",
+          "gpa_requirement_verified": "Not found this pass",
+          "language_requirements_verified": "Not found this pass; prior PTE60/IELTS6/TOEFL79-80 figures stand uncorrected",
+          "tuition_and_fees_verified": "Not found this pass",
+          "deadlines_verified": "Not found this pass",
+          "curriculum_summary": "Not found",
+          "required_documents": "Not found",
+          "contact_info": "Not found",
+          "newly_found_info": "None - the FAQ page fetch returned only a program listing/link, not substantive admission content",
+          "corrections": [],
+          "notes": "The FAQ page content retrieved was minimal/truncated; recommend fetching the actual program page (hs-nordhausen.de/en/study-programmes/mechatronics/) directly in a follow-up pass, as it was identified but not fetched."
+        }
       }
     },
     {
@@ -12701,7 +15839,44 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee implied (standard German public Hochschule); standard semester fee applies."
         },
-        "exact_admission_regulations": "Contact: application@rwu.de. Note: application portal reported as closed for maintenance in late March 2026 in one source - confirm current status."
+        "exact_admission_regulations": "Contact: application@rwu.de. Note: application portal reported as closed for maintenance in late March 2026 in one source - confirm current status.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.rwu.de/en/study/courses/mechatronics-en"
+          ],
+          "vpd_uni_assist_required": "NOT mentioned on official page - applications appear to go directly to RWU, not uni-assist, for this program",
+          "application_portal_detail": "Step 1: register/apply online via RWU application portal; Step 2: send required documents by post (counts only if arrived within application period). Portal under maintenance 23-27 March 2026 (temporary, noted for awareness).",
+          "gpa_requirement_verified": "CONFIRMED: Bachelor's final grade of at least 2.5 (German scale) PLUS 210 ECTS; 180-ECTS holders must complete missing 30 ECTS during master's; bonus of up to 0.6 points possible (max 0.2/category: relevant work experience min 1yr, published paper, GRE Quant >=161, programming certificates)",
+          "language_requirements_verified": "CONFIRMED exact figures: TOEFL iBT minimum total 70, OR IELTS overall band 6.0; Medium-of-Instruction certificates NOT accepted; certificate must be no older than 2 years",
+          "tuition_and_fees_verified": "All students pay semester fee; non-EU international students AND second-degree students also pay a tuition fee (Baden-Württemberg) - exact amount not given on this page",
+          "deadlines_verified": "Conflicting on same page: program box says 'until 15 April'; admission section says 2025/26 period was 01.02.2025-15.04.2025 (now outdated) - current cycle date not confirmed",
+          "curriculum_summary": "Curriculum PDF linked but not opened; module manual SoSe26 PDF linked",
+          "required_documents": "Full 8-item required list PLUS conditional items: (1) signed application form, (2) certified copy of final/provisional Bachelor's degree, (3) certified copy of transcripts incl. grading scale, (4) copy of entrance qualification, (5) English certificate, (6) CV, (7) passport copy, (8) motivation letter/SOP; conditional: APS certificate (India/China/Vietnam), German language certificate, GRE score, programming certificates, recommendation letters, publications",
+          "contact_info": "Program applications: application-mm@rwu.de; Admission Office (Nadja Fuchs): application@rwu.de, +49 751 501-9528; Program head Prof. Dr.-Ing. Raphael Ruf: raphael.ruf@rwu.de, +49 751 501-9711; Dean's Office (Priska Urban): priska.urban@rwu.de, +49 751 501-9639; postal address: RWU Hochschule Ravensburg-Weingarten, Studierenden-Service H 022, Frau Nadja Fuchs, Doggenriedstrasse 70, D-88250 Weingarten, Germany",
+          "newly_found_info": "Exact TOEFL(70)/IELTS(6.0) figures (replacing prior unverified 6.5/90 claim), the 0.6-point bonus scheme, full named contacts and postal address, full required-documents checklist including APS certificate requirement for India/China/Vietnam, note that program places figure is inconsistently listed as both 40 and 30/year on official page, and that uni-assist/VPD is NOT used (direct postal application instead)",
+          "corrections": [
+            {
+              "field": "language_requirements.ielts",
+              "old": "IELTS 6.5 (no band below 6.0) or TOEFL iBT 90 (third-party, unverified)",
+              "corrected": "IELTS overall 6.0, OR TOEFL iBT total 70 (official page figures)",
+              "evidence": "RWU official Mechatronics page: 'TOEFL iBT: minimum total score of 70, or IELTS: overall band score of 6.0'"
+            },
+            {
+              "field": "admission_eligibility.minimum_gpa_cutoff",
+              "old": "No official numeric GPA cutoff confirmed; third-party cites GPA 2.5 minimum",
+              "corrected": "CONFIRMED officially: Bachelor's final grade of at least 2.5 (German system) plus 210 ECTS (bonus points up to 0.6 possible)",
+              "evidence": "RWU official page GPA section"
+            },
+            {
+              "field": "exact_admission_regulations.application_portal_status",
+              "old": "Application portal reported as closed for maintenance in late March 2026 in one source",
+              "corrected": "CONFIRMED: portal under maintenance 23-27 March 2026 exactly, per official page",
+              "evidence": "RWU official page application process section"
+            }
+          ],
+          "notes": "No uni-assist/VPD requirement found for this program - applications go directly to RWU via online portal plus postal documents. This differs from several other programs in this chunk that do use uni-assist/VPD."
+        }
       }
     },
     {
@@ -12783,7 +15958,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not confirmed via official site; standard German public Hochschule (likely no/low tuition beyond semester fee)."
         },
-        "exact_admission_regulations": "Uni-Assist application process cited by one aggregator. For Indian applicants, an APS certificate may be required (per unverified consultancy source) - confirm with university."
+        "exact_admission_regulations": "Uni-Assist application process cited by one aggregator. For Indian applicants, an APS certificate may be required (per unverified consultancy source) - confirm with university.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hochschule-bochum.de/en/mechatronics-msc-english/"
+          ],
+          "vpd_uni_assist_required": "NOT mentioned on official page; page refers applicants to a separate 'International Applicants' subpage for application details which was not independently fetched this pass",
+          "application_portal_detail": "Not specified on this page; refers to /en/international/studying-at-bo-uas/international-applicants/ for details (not fetched this pass)",
+          "gpa_requirement_verified": "No GPA stated; only a qualifying bachelor's/M.Eng. of at least 180 credit points in a related field is required, with examination board deciding relatedness",
+          "language_requirements_verified": "CONFIRMED new figures: English at CEFR C1 level (higher than current_official_data's vague 'varies by program' note); applicants from abroad must ALSO show German at CEFR A1 level - this German-language requirement was NOT in current_official_data at all",
+          "tuition_and_fees_verified": "Not stated on this page",
+          "deadlines_verified": "Not stated; winter-semester start with numerus clausus (restricted admission) noted",
+          "curriculum_summary": "Program regulations PDF dated 04.02.2026, study plan PDF, module exams PDF all linked but not opened",
+          "required_documents": "Not listed beyond the admission requirements stated",
+          "contact_info": "Not listed on this page; refers to International Applicants page and Study Office",
+          "newly_found_info": "NEW: German language A1 requirement for international applicants (not previously documented); CEFR C1 English level (more specific than vague prior note); numerus clausus/restricted admission status; links to International Applicants page and program regulations PDFs dated 2026",
+          "corrections": [
+            {
+              "field": "language_requirements.ielts",
+              "old": "Not confirmed with specific score; general guidance says IELTS/TOEFL required",
+              "corrected": "Official page states English CEFR C1 (not IELTS/TOEFL score directly) PLUS German CEFR A1 for international applicants",
+              "evidence": "hochschule-bochum.de official Mechatronics M.Sc. page"
+            }
+          ],
+          "notes": "The APS certificate claim for Indian applicants in current_official_data (sourced from 'unverified consultancy source') was NOT confirmed or denied on this official page - still unverified. Uni-Assist claim also not confirmed on this specific page."
+        }
       }
     },
     {
@@ -12865,7 +16065,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (standard for German public universities, joint program with Universität zu Lübeck and University of Southern Denmark); semester fee applies."
         },
-        "exact_admission_regulations": "Joint program run by TH Lübeck, Universität zu Lübeck, and University of Southern Denmark (SDU) Sønderborg. Applications typically via uni-assist; APS certificate may be required for Indian applicants per unverified source."
+        "exact_admission_regulations": "Joint program run by TH Lübeck, Universität zu Lübeck, and University of Southern Denmark (SDU) Sønderborg. Applications typically via uni-assist; APS certificate may be required for Indian applicants per unverified source.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.th-luebeck.de/en/studies/study-offer/degree-programs/medical-microtechnology-msc/overview/"
+          ],
+          "vpd_uni_assist_required": "NOT mentioned on this page",
+          "application_portal_detail": "'Apply now' button links to general application step-by-step guide; no specific portal named on this page; admission-status queries go to named study coordinator",
+          "gpa_requirement_verified": "NOT stated on this page (current_official_data's '2.5 per Sec.5 examination regulations' not confirmed or denied here - that figure likely comes from a different document not opened this pass)",
+          "language_requirements_verified": "NOT stated on this page at all (contradicts the detailed but conflicting figures in current_official_data, which must come from other sources/PDFs not opened this pass)",
+          "tuition_and_fees_verified": "Not stated on this page",
+          "deadlines_verified": "Only 'Winter semester each year' stated as start; no deadline given",
+          "curriculum_summary": "Subpages exist: Objectives and Course Contents, Course of Study (not fetched this pass); external site mmt-master.de referenced for admission requirements - NOT opened this pass",
+          "required_documents": "Not listed; admission requires 'a diploma or bachelor's degree... in certain fields of study' per page, details deferred to external mmt-master.de site",
+          "contact_info": "NEWLY CONFIRMED named contacts: Study Coordinator Silke Venker, silke.venker@th-luebeck.de, +49 451 300 5396, Room B.64.100.00.044.00; Head of Study Program Prof. Dr.-Ing. Ulf Pilz, ulf.pilz@th-luebeck.de, +49 451 300 5501; Admission Office: studieren@th-luebeck.de, +49 451 300 5644",
+          "newly_found_info": "Named contacts (Silke Venker, Prof. Ulf Pilz) with direct emails/phones/room numbers; identification of external site mmt-master.de as the actual authoritative source for admission requirements (not previously flagged in current_official_data) - THIS EXTERNAL SITE SHOULD BE CHECKED IN A FOLLOW-UP as it likely contains the GPA/language/VPD details missing from th-luebeck.de itself",
+          "corrections": [],
+          "notes": "IMPORTANT: th-luebeck.de overview page does NOT itself contain GPA, language, or VPD/uni-assist details - these are deferred to an external site, mmt-master.de, which was not reached in this pass. The conflicting figures in current_official_data presumably originated from that external site or other PDFs; recommend fetching mmt-master.de directly to resolve."
+        }
       }
     },
     {
@@ -12947,7 +16165,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fees; semester fee of EUR 278.90 (covers Studentenwerk services and student representation), per official program page."
         },
-        "exact_admission_regulations": "4-semester program (note: some third-party sites incorrectly list 2-year/non-standard duration - official source confirms 4 semesters)."
+        "exact_admission_regulations": "4-semester program (note: some third-party sites incorrectly list 2-year/non-standard duration - official source confirms 4 semesters).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://lmt.ovgu.de/en/Teaching/Study+Paths/Medical+Systems+Engineering/Prospective+students/FAQ.html"
+          ],
+          "vpd_uni_assist_required": "uni-assist CONFIRMED used by international applicants; VPD specifically NOT mentioned by name on this FAQ page",
+          "application_portal_detail": "German applicants: OVGU online application then print enrolment/matriculation form. International applicants: uni-assist portal (opens 15 Oct) plus further info on a linked page (not independently fetched).",
+          "gpa_requirement_verified": "CONFIRMED: grade of at least 'good' = up to 2.4 on German scale (matches current_official_data's figure exactly), plus minimum CP counts in various fields per study regulations; final decision is individual by examination committee",
+          "language_requirements_verified": "CONFIRMED EXACT figures: TOEFL iBT >=80, IELTS >=6.5, Cambridge Proficiency (A/B/C), UNIcert II (B2); native speakers from UK/Ireland/Australia/New Zealand/USA exempt; courses taken elsewhere NOT accepted as substitute",
+          "tuition_and_fees_verified": "Not mentioned on this specific FAQ page (current_official_data's EUR278.90 semester fee figure not re-confirmed or denied here)",
+          "deadlines_verified": "CONFIRMED and MORE PRECISE than current_official_data (which said 'not confirmed'): Program starts SUMMER semester; German applicants deadline 15 March; international applicants deadline 15 December (prior year); uni-assist portal opens 15 October",
+          "curriculum_summary": "Not covered on this FAQ page",
+          "required_documents": "German applicants: printed application + documents on linked OVGU page (not opened); international applicants: document list on linked uni-assist page (not opened); BOTH: GRE/GMAT explicitly NOT required; optional: motivation letter, recommendation letter, CV",
+          "contact_info": "CONFIRMED/EXPANDED: PD Dr. Philipp Berg (Course Advisor, Bldg 82 Rm 164, +49 391 67 57028), M.Sc. Janneck Stahl (Course Advising Assistance, Bldg 82 Rm 182), Prof. Dr. Georg Rose (Study Programme Coordinator, Bldg 82 Rm 173, +49 391 67-58862), master.medsys@ovgu.de — note: page's actual mailto link resolves to josefine.schreiter@ovgu.de, a discrepancy worth flagging",
+          "newly_found_info": "MAJOR: exact application deadlines (German: 15 March; international: 15 December prior year; uni-assist portal opens 15 Oct) - previously 'not confirmed'. Also GRE/GMAT explicitly not required; named advisory staff beyond just the coordinator; email discrepancy on the page itself (listed address vs actual mailto link).",
+          "corrections": [
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Program enrolls in the summer semester; exact deadline not confirmed",
+              "corrected": "International applicants: 15 December (prior year); German applicants: 15 March; uni-assist portal opens 15 October",
+              "evidence": "OVGU LMT FAQ page deadlines section"
+            }
+          ],
+          "notes": "VPD not explicitly named despite uni-assist being confirmed as the international application route - worth a targeted follow-up on the linked uni-assist info subpage."
+        }
       }
     },
     {
@@ -13029,7 +16272,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not explicitly stated; THWS public university standard semester fee likely applies, no separate tuition."
         },
-        "exact_admission_regulations": "Official page states: 'If only one of these requirements is not met, admission to the MBEE degree programme is not possible' - i.e., all listed admission criteria are mandatory, no partial waivers."
+        "exact_admission_regulations": "Official page states: 'If only one of these requirements is not met, admission to the MBEE degree programme is not possible' - i.e., all listed admission criteria are mandatory, no partial waivers.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebFetch attempt on fwi.thws.de/en/studies/master-of-business-and-engineering-mbee/admission (302 redirect to 404)",
+            "WebSearch of fwi.thws.de MBEE admission"
+          ],
+          "vpd_uni_assist_required": "YES - per DAAD listing snippet found via search: THWS requires a pre-evaluation of university entrance qualification from uni-assist (VPD), APS, or ZAST/ZAB - this is a NEW finding not in current_official_data",
+          "application_portal_detail": "Pre-evaluation via uni-assist (VPD) OR APS OR ZAST/ZAB depending on applicant's country/qualification type; official MBEE page states 'if only one of these requirements is not met, admission is not possible' (all criteria mandatory)",
+          "gpa_requirement_verified": "One third-party listing cites GPA 2.50 (German system) as cutoff; not confirmed on official page (official admission page itself could not be fetched - returned 404 via redirect)",
+          "language_requirements_verified": "DAAD listing recommends English C1 (CEFR) as a recommendation, not a confirmed hard IELTS score; no numeric IELTS/TOEFL score found specific to MBEE",
+          "tuition_and_fees_verified": "Not confirmed; THWS public university standard semester fee likely applies, no separate tuition - unchanged from current_official_data",
+          "deadlines_verified": "Conflicting: one third-party page cites 15 June winter deadline; THWS general Business and Engineering page cites 'Annually, 1 April till 15 June' - roughly consistent, suggesting 1 April-15 June is likely correct but not confirmed specifically for MBEE track",
+          "curriculum_summary": "3 semesters, 90 ECTS, English-taught, start every 1 October (confirmed, matches current_official_data)",
+          "required_documents": "Bachelor's degree or recognized equivalent; pre-evaluation document (VPD/APS/ZAST-ZAB) per country of qualification",
+          "contact_info": "Not found",
+          "newly_found_info": "IMPORTANT NEW FINDING: VPD (via uni-assist) explicitly named as one of three acceptable pre-evaluation routes (alongside APS and ZAST/ZAB) for this program per DAAD listing - this VPD requirement was COMPLETELY MISSING from current_official_data, which only vaguely noted 'all listed admission criteria are mandatory'",
+          "corrections": [
+            {
+              "field": "admission_eligibility / application_process",
+              "old": "Not confirmed in this research pass (no mention of uni-assist/VPD/APS)",
+              "corrected": "VPD (via uni-assist), APS, or ZAST/ZAB pre-evaluation of entrance qualification required depending on applicant's country",
+              "evidence": "DAAD programme listing snippet (via WebSearch) describing THWS's pre-evaluation requirement"
+            }
+          ],
+          "notes": "Official admission page URL in current_official_data now redirects to a 404 - site structure likely changed. This finding (VPD required) is exactly analogous to the FH Dortmund gap the user flagged, so is a significant catch for this entry."
+        }
       }
     },
     {
@@ -13111,7 +16380,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not confirmed; standard German Fachhochschule (no tuition beyond semester fee expected)."
         },
-        "exact_admission_regulations": "Admission test (online or on-site) covering mathematics, physics, electrical engineering, control engineering, and computer science is the deciding factor for most applicants. A2 German required by end of studies (can be completed during program). Contact: studium-cham@th-deg.de."
+        "exact_admission_regulations": "Admission test (online or on-site) covering mathematics, physics, electrical engineering, control engineering, and computer science is the deciding factor for most applicants. A2 German required by end of studies (can be completed during program). Contact: studium-cham@th-deg.de.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://th-deg.de/mcs-cham-m-en"
+          ],
+          "vpd_uni_assist_required": "NOT mentioned on official page; page refers to Study and Exam Regulations (§3,§4,§5) for entrance requirements instead of uni-assist/VPD",
+          "application_portal_detail": "Apply online via 'Apply Online' page (/en/apply); eligible applicants get emailed invitation to a WRITTEN entrance exam (online or on-campus Cham) covering math, physics, EE/electronics, systems theory, control engineering, computer science; GATE/GRE optional (test-centre reports only, no home editions) especially encouraged for applicants from non-Lisbon-Convention countries",
+          "gpa_requirement_verified": "No GPA/grade threshold stated on this page (differs from current_official_data's claim of 'GPA ~2.50 may waive exam' - NOT found on this version of page, possibly outdated or from a different document)",
+          "language_requirements_verified": "Vaguer than current_official_data: page just says proof of English required if not native language, proof of German required if not native language, German certificate 'recommended but optional' - does NOT give the specific IELTS 5.5 or 6.5 figures from current_official_data; those may be in a separate requirements PDF not opened",
+          "tuition_and_fees_verified": "No tuition; student union fee; non-EU/EEA students pay semester service fees (no exact figures given)",
+          "deadlines_verified": "CONFIRMED NEW: Campus Cham (summer start, mid-March): applications 15 October-1 December. Campus Deggendorf (winter start) 15 April-15 June listed but unclear if tied to Cham program - differs from current_official_data's '15 March' deadline claim",
+          "curriculum_summary": "3 semesters, 90 ECTS, English-taught, located in Cham, summer-semester start (program duration matches current_official_data's note of being accelerated)",
+          "required_documents": "Bachelor's or equivalent with >=210 ECTS in mechatronics/closely related field; proof of German/English skills where applicable; optional GATE/GRE scores",
+          "contact_info": "studium-cham@th-deg.de (also appears as studium-tc-cham@th-deg.de in mailto link - discrepancy); entrance exam: master-mmc-exam@th-deg.de",
+          "newly_found_info": "Written entrance exam is the PRIMARY admission mechanism (math/physics/EE/systems theory/control engineering/computer science), more central than GPA; GATE/GRE scores from test centers only (no home editions) especially for non-Lisbon-Convention country applicants; exact Cham deadline window 15 Oct-1 Dec confirmed",
+          "corrections": [
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Cham campus has March start; deadline around 15 March",
+              "corrected": "Cham campus (summer semester start, mid-March): application window 15 October to 1 December",
+              "evidence": "th-deg.de/mcs-cham-m-en official page deadlines section"
+            }
+          ],
+          "notes": "GPA-waiver claim from current_official_data not found on this page version - may be outdated or in a separate linked document not opened. No VPD/uni-assist mention found despite being a DIT program."
+        }
       }
     },
     {
@@ -13193,7 +16487,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (standard German public university); semester fee only."
         },
-        "exact_admission_regulations": "German language certification not required (English-taught). Contact: admission@tu-chemnitz.de for degree-equivalence questions."
+        "exact_admission_regulations": "German language certification not required (English-taught). Contact: admission@tu-chemnitz.de for degree-equivalence questions.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.tu-chemnitz.de/etit/studium/stugang/index.php.en?page=m_mn"
+          ],
+          "vpd_uni_assist_required": "uni-assist CONFIRMED mentioned (for winter semester applications, ~beginning April to 15 July) but VPD NOT explicitly named",
+          "application_portal_detail": "Two routes depending on applicant: uni-assist (winter, ~early April-15 July) OR TU application portal (winter, ~late May-mid September); which procedure applies determined via Student Services website",
+          "gpa_requirement_verified": "No GPA stated; requires relevant Bachelor's in EE&IT (TU Chemnitz or equivalent, decided case-by-case by Examination Board) - matches current_official_data's note of ambiguity between TU Chemnitz-specific vs. broader equivalence",
+          "language_requirements_verified": "NEW/MORE DETAILED than current_official_data: German CEFR A1 required for admission/enrollment, PLUS German A2 certificate must be submitted by end of 3rd semester; English CEFR B2 or equivalent proof (course taught in English) - current_official_data's IELTS5.5/TOEFL72/PTE59 figures NOT confirmed or denied on this page (likely from a separate accepted-certificates list not opened)",
+          "tuition_and_fees_verified": "No tuition fee (confirmed, standard German public university); exact semester contribution amount not given, links to a fees page not opened",
+          "deadlines_verified": "Winter semester: uni-assist route ~1 April-15 July; TU portal route ~late May-mid September (approximate, exact dates deferred to Student Services page)",
+          "curriculum_summary": "Not covered on this page",
+          "required_documents": "Not fully listed; language certificates per Student Services 'Language skills' section (not opened)",
+          "contact_info": "NEW: Central Student Advisory Service (studienberatung@..., +49 371 531 55555 / -32549 / -31690, Straße der Nationen 62, Room 046); Academic Advisor Sven Quinger (+49 371 531-24055, Reichenhainer Straße 70, Room C25.114) - MORE than current_official_data's generic admission@tu-chemnitz.de",
+          "newly_found_info": "German language requirement newly found: A1 required at admission, A2 certificate required by end of 3rd semester (NOT in current_official_data at all - this is a new, significant finding, similar in nature to the VPD gap); named advisory contacts with phone numbers",
+          "corrections": [
+            {
+              "field": "exact_admission_regulations",
+              "old": "German language certification not required (English-taught)",
+              "corrected": "German language IS required: A1 level at admission, A2 certificate required by end of 3rd semester, despite program being English-taught",
+              "evidence": "TU Chemnitz official program page: 'German: CEFR level A1 is required for regular admission and enrollment... a German A2 certificate must be submitted by the end of the 3rd semester'"
+            }
+          ],
+          "notes": "This is a meaningful correction (prior data explicitly said German NOT required, which is wrong) - directly analogous in importance to the FH Dortmund VPD gap the user flagged, though for a different requirement type (German language progression requirement)."
+        }
       }
     },
     {
@@ -13289,7 +16608,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (standard German public university, Brandenburg); semester fee only."
         },
-        "exact_admission_regulations": "Official examination/study regulations PDF (Examination_and_Study_Regulations_MSc_Micro-_and_Nanoelectronics.pdf) is the authoritative source for exact degree-equivalence rules."
+        "exact_admission_regulations": "Official examination/study regulations PDF (Examination_and_Study_Regulations_MSc_Micro-_and_Nanoelectronics.pdf) is the authoritative source for exact degree-equivalence rules.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.b-tu.de/micro-nano-electronics-ms/faq"
+          ],
+          "vpd_uni_assist_required": "uni-Assist CONFIRMED used for applicants with foreign Master entrance qualification; VPD specifically NOT named by that term on this FAQ page",
+          "application_portal_detail": "Foreign qualifications: uni-Assist; German qualifications: BTU's own myBTU portal",
+          "gpa_requirement_verified": "No GPA/grade threshold stated; only requires bachelor's/equivalent in related field, Examination Board decides content-equivalence, may require additional modules; lack of field theory/semiconductor coursework likely disqualifying",
+          "language_requirements_verified": "CONFIRMED: valid English proficiency certificate required; 'medium of instruction' certificates explicitly NOT accepted; German Abitur (if B2+ CEFR, obtained in Germany or German school abroad) can serve as proof; German not otherwise required. No specific IELTS/TOEFL numeric score given on this FAQ page itself (differs from current_official_data's IELTS6.0/TOEFL79 figures, which may come from the linked 'admission guide' PDF not opened here)",
+          "tuition_and_fees_verified": "Not mentioned on this page (current_official_data's 'no tuition fee' standard-Brandenburg claim not re-confirmed or denied)",
+          "deadlines_verified": "UPDATED/MORE PRECISE than current_official_data: Winter Semester 2027/2028 - foreign Master entrance qualification: 1 March-15 May 2027; German Master entrance qualification: 20 April-31 August 2027 (current_official_data only had the German-qualification dates, not the foreign-qualification dates)",
+          "curriculum_summary": "Not covered on this FAQ page",
+          "required_documents": "Full list CONFIRMED: completed/signed online application form; copy of bachelor's degree+transcript (translated if not EN/DE); copy of entrance qualification (translated if not EN/DE); up-to-date CV incl. lab experience/research interests; proof of English proficiency; passport/ID copy; German residence permit copy if applicable; APS certificate for Indian/Chinese/Vietnamese/Mongolian applicants",
+          "contact_info": "Only a general 'Kontakt' section link, no named contact found on this page",
+          "newly_found_info": "MAJOR: exact deadline for foreign Master entrance qualification applicants (1 March-15 May 2027) which was previously 'not confirmed' in current_official_data; full itemized required-documents checklist including APS certificate requirement for India/China/Vietnam/Mongolia (new countries list, not previously documented); confirmation 'medium of instruction' certificates not accepted",
+          "corrections": [
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "20 April-31 August (via myBTU) for applicants with German Master Entrance Qualification; deadline for non-German applicants not confirmed",
+              "corrected": "Non-German/foreign Master entrance qualification applicants: 1 March-15 May (via uni-Assist); German qualification: 20 April-31 August (via myBTU) - both now confirmed",
+              "evidence": "BTU official FAQ page: 'Foreign Master entrance qualification: March 1 to May 15... German Master entrance qualification: April 20 to August 31'"
+            }
+          ],
+          "notes": "APS certificate requirement for India/China/Vietnam/Mongolia applicants is new, significant required-document info not previously captured."
+        }
       }
     },
     {
@@ -13371,7 +16715,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (standard German public university, NRW); semester fee only (general RWTH policy)."
         },
-        "exact_admission_regulations": "Requirements can differ significantly between RWTH departments and faculties; recommend direct contact with the MINA program office for exact figures, as no dedicated official page URL was identified in this research pass."
+        "exact_admission_regulations": "Requirements can differ significantly between RWTH departments and faculties; recommend direct contact with the MINA program office for exact figures, as no dedicated official page URL was identified in this research pass.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch of RWTH Aachen MINA Micro/Nanoelectronics program"
+          ],
+          "vpd_uni_assist_required": "NOT found for MINA specifically; general RWTH guidance conflicts on uni-assist necessity (one source says it 'may be required,' another implies direct portal only) - unresolved",
+          "application_portal_detail": "Unresolved - no MINA-specific program page located even via search; general RWTH International Office guidance suggested but not program-specific",
+          "gpa_requirement_verified": "Not confirmed for MINA specifically; general unverified benchmark of 2.5 or better (German scale) persists from current_official_data, unconfirmed",
+          "language_requirements_verified": "Conflicting, slightly updated figures found: a June 2026 RWTH admissions presentation lists IELTS minimum 6.0 (not 6.5) for English-taught programs generally, alongside TOEFL iBT 90+ and PTE 60+; other aggregators still cite IELTS 6.5 no band below 5.5 - the official 2026 presentation figure (IELTS 6.0) should probably take precedence over current_official_data's 'general RWTH 6.5/6.0-per-component' figure, as it is more recent",
+          "tuition_and_fees_verified": "No tuition fee (standard NRW public university) - unchanged",
+          "deadlines_verified": "Not found via official site",
+          "curriculum_summary": "Not found",
+          "required_documents": "Not found",
+          "contact_info": "Not found; no dedicated MINA program office contact located",
+          "newly_found_info": "A more recent (June 2026) RWTH admissions presentation cites a general IELTS minimum of 6.0 (differs from current_official_data's 6.5-overall/6.0-per-component figure) plus TOEFL iBT 90+ and PTE 60+ as alternatives - should be flagged as a possible update to general RWTH language policy, though still not MINA-specific",
+          "corrections": [],
+          "notes": "Could not locate a dedicated official MINA program page via search in this pass either. This remains the weakest-confirmed entry in the chunk; recommend a dedicated browsing session on rwth-aachen.de navigating via the EE department's own site rather than general web search."
+        }
       }
     },
     {
@@ -13453,7 +16815,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (standard German public university, Hamburg); semester fee only."
         },
-        "exact_admission_regulations": "Contact: study@tuhh.de for exact GPA threshold, as it is not published numerically. Official 'How to apply at TUHH' general guidance PDFs (updated annually) supplement program-specific admission requirements page."
+        "exact_admission_regulations": "Contact: study@tuhh.de for exact GPA threshold, as it is not published numerically. Official 'How to apply at TUHH' general guidance PDFs (updated annually) supplement program-specific admission requirements page.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.tuhh.de/tuhh/en/education/degree-courses/international-study-programs/microelectronics-and-microsystems.html"
+          ],
+          "vpd_uni_assist_required": "NOT mentioned on main landing page; page explicitly defers GPA, tuition, uni-assist/VPD, and required-documents questions to the linked 'Admission Requirements' subpage, which was identified but NOT independently fetched this pass",
+          "application_portal_detail": "Pre-check required, December 1-March 1 (for winter-semester-only start, October); online application also December 1-March 1; detailed procedure on linked 'How and when to apply?' subpage (not fetched this pass)",
+          "gpa_requirement_verified": "Deferred to Admission Requirements subpage (not fetched); current_official_data's note of 'no numeric GPA, highly competitive, very high GPA only' from TUHH's own guidance stands uncorrected/unconfirmed this pass",
+          "language_requirements_verified": "Deferred to Admission Requirements subpage (not fetched); current_official_data's IELTS 6.5 Academic/no TOEFL ITP or Essentials/Cambridge Advanced accepted stands uncorrected/unconfirmed this pass",
+          "tuition_and_fees_verified": "Deferred to 'Further Information' subpage (not fetched)",
+          "deadlines_verified": "CONFIRMED and MORE PRECISE than current_official_data (which had only an unverified '1 March' third-party claim): official 'pre-check' AND online application period is December 1 to March 1 for winter-semester (October) start",
+          "curriculum_summary": "M.Sc., 4 semesters, 120 ECTS, full-time, NO admission restriction, dual studies possible (new detail - program is not NC/restricted)",
+          "required_documents": "Deferred to Admission Requirements subpage",
+          "contact_info": "NEW named contact: Course coordinator Prof. Dr.-Ing. Hoc Khiem Trieu, E-7 Mikrosystemtechnik, Building M Room 2508, Eißendorfer Str. 42, 21073 Hamburg, +49 40 30601 4398, trieu@tuhh.de; admission/application: study@tuhh.de via STUDIS",
+          "newly_found_info": "Pre-check requirement (Dec1-Mar1) as a mandatory step before/alongside online application - was not in current_official_data at all; program has NO admission restriction (open admission, contradicting any NC assumption); dual-degree program with NIT (Northern Institute of Technology) exists as a related option; named course coordinator contact",
+          "corrections": [
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Some third-party sources cite 1 March for winter-semester entry; not independently confirmed",
+              "corrected": "CONFIRMED: application AND mandatory pre-check period is December 1 to March 1 for winter-semester (October) start",
+              "evidence": "TUHH official program page: 'Application period: December 1 to March 1... A required pre-check is available from December 1 to March 1'"
+            }
+          ],
+          "notes": "Should follow up by fetching the 'Admission Requirements' subpage directly (URL: /tuhh/en/studying/before-studying/degree-courses/international-study-programs/microelectronics-and-microsystems/admission-requirements) to get GPA/language/VPD specifics that this landing page defers to it."
+        }
       }
     },
     {
@@ -13535,7 +16922,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (standard German public university, Lower Saxony); semester fee only."
         },
-        "exact_admission_regulations": "Admission regulations for this elective are documented in German only on the official site; recommend contacting the faculty's admissions office directly for exact IELTS/GPA figures."
+        "exact_admission_regulations": "Admission regulations for this elective are documented in German only on the official site; recommend contacting the faculty's admissions office directly for exact IELTS/GPA figures.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.tu-braunschweig.de/eitp/studieninteressierte/et/vertiefung-microelectronics-engineering"
+          ],
+          "vpd_uni_assist_required": "NOT mentioned on this page",
+          "application_portal_detail": "Apply through TU Braunschweig's own online application platform (tu-braunschweig.de/en/application) - no uni-assist mentioned",
+          "gpa_requirement_verified": "No GPA stated; page only says 'A Bachelor's or comparable degree is required' - current_official_data's speculative '2.5' figure (from a different, related Quantum Technologies program) remains unconfirmed and should be treated with caution as previously noted",
+          "language_requirements_verified": "Vague: 'English or German language skills are required' - no specific test/score given on this page (differs from current_official_data's inference from the Quantum Technologies program's IELTS 6.5, which should NOT be assumed to apply here)",
+          "tuition_and_fees_verified": "CONFIRMED EXACT: EUR440.00 per semester tuition/fee for winter semester 2025/26 (fees can change each semester) - this is NEW and significant, since current_official_data said 'no tuition fee (standard Lower Saxony)' which appears to be WRONG",
+          "deadlines_verified": "CONFIRMED: Summer semester 1 December-15 January; Winter semester 1 June-15 July",
+          "curriculum_summary": "Not covered on this page; admission regulations referenced at tu-braunschweig.de/en/eitp/electrical-engineering-master",
+          "required_documents": "No additional entry requirements beyond the degree (no GRE, no internship, no work experience required) - confirmed explicitly",
+          "contact_info": "Sandra Engelhardt (EIT, WIING-ET, ELSY), sgk-eitp@tu-braunschweig.de, +49 531 391-7798, Hans-Sommer-Straße 66 Room 108, office hours Mon&Wed 10:00-12:00",
+          "newly_found_info": "IMPORTANT CORRECTION: this program DOES charge a semester fee of EUR440.00 (winter 2025/26), contradicting current_official_data's claim of 'no tuition fee (standard German public university, Lower Saxony); semester fee only'; also newly found exact deadlines and named contact",
+          "corrections": [
+            {
+              "field": "financial_costs.tuition_non_eu",
+              "old": "No tuition fee (standard German public university, Lower Saxony); semester fee only",
+              "corrected": "EUR 440.00 per semester for winter semester 2025/26 (subject to change each semester) - NOT the typical 'no tuition' Lower Saxony pattern for this specific program/semester fee combination",
+              "evidence": "TU Braunschweig official page: 'EUR440.00 per semester for winter semester 2025/26... Fees can change each semester'"
+            },
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Not confirmed via official site",
+              "corrected": "Winter semester: 1 June-15 July; Summer semester: 1 December-15 January",
+              "evidence": "TU Braunschweig official page deadlines section"
+            }
+          ],
+          "notes": "The EUR440/semester figure should be double-checked against whether it's a standard Lower-Saxony semester contribution (which is typically far lower, ~100-300 EUR) or an actual added program tuition fee - page presents it simply as 'the semester fee' without breakdown, worth flagging for the user to verify is not conflating tuition with standard contribution."
+        }
       }
     },
     {
@@ -13617,7 +17035,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (standard German public university, NRW); semester fee only."
         },
-        "exact_admission_regulations": "Caution: a GPA figure of 2.5 (German scale) found during research actually belongs to a different, similarly named program (Autonomous Systems M.Sc. at Bonn-Rhein-Sieg University of Applied Sciences) - do NOT apply that figure to University of Bonn's Mobile Robotics program. Application via University of Bonn's own Application Portal."
+        "exact_admission_regulations": "Caution: a GPA figure of 2.5 (German scale) found during research actually belongs to a different, similarly named program (Autonomous Systems M.Sc. at Bonn-Rhein-Sieg University of Applied Sciences) - do NOT apply that figure to University of Bonn's Mobile Robotics program. Application via University of Bonn's own Application Portal.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.moro.uni-bonn.de/apply/requirements"
+          ],
+          "vpd_uni_assist_required": "NOT mentioned on this page - applications go through University of Bonn's own Application Portal for Graduate Programs, not uni-assist",
+          "application_portal_detail": "Apply online through University of Bonn's Application Portal for Graduate Programs (application.uni-bonn.de, HISinOne); documents should NOT be sent by postal mail",
+          "gpa_requirement_verified": "CONFIRMED EXACT (new, previously 'no official numeric cutoff stated'): minimum average Bachelor's grade of 2.0 on German grading scale",
+          "language_requirements_verified": "CONFIRMED EXACT (previously 'not stated numerically'): C1 level required; TOEFL iBT 95 (or new scale '5' for tests after Jan 2026), OR IELTS 7.0; native English speakers and German/Swiss/Austrian citizens with Abitur/Matura exempt; medium-of-instruction letters NOT accepted",
+          "tuition_and_fees_verified": "Not mentioned on this page; standard 'no tuition fee, NRW public university' assumption from current_official_data stands unconfirmed/uncorrected",
+          "deadlines_verified": "CONFIRMED NEW (applications open Jan 2027): Non-EU/EWR citizens: 31 May 2027; EU/EWR citizens: 31 August 2027",
+          "curriculum_summary": "Not covered on this page",
+          "required_documents": "Full list CONFIRMED: Bachelor's certificate (can apply without if not yet finished, but must submit in first semester); official transcript in English/German showing ECTS per course; English proficiency proof (unless exempt); CV (education, programming skills, work experience); GRE scores (not required for European bachelor's holders, recommended minimums Quant160/Verbal145/AW3); nationwide entrance exam results for India (JEE Advanced+AIR)/China (Gaokao)/Pakistan (ECAT or university test)",
+          "contact_info": "Ines Barczewski (Study Program Manager): morob@uni-bonn.de, +49 228 73-3570; Bernd Binnenbruck (Examination Office): pruefungengeodaesie@uni-bonn.de, +49 228 73-3572",
+          "newly_found_info": "MAJOR: exact GPA cutoff (2.0, previously unknown), exact language scores (IELTS 7.0/TOEFL95, previously unknown), exact deadlines by citizenship, full document checklist including country-specific entrance exam requirements (India/China/Pakistan) and GRE recommended minimums - this entry went from almost entirely 'unconfirmed' to largely confirmed",
+          "corrections": [
+            {
+              "field": "admission_eligibility.minimum_gpa_cutoff",
+              "old": "No official numeric GPA cutoff stated",
+              "corrected": "Minimum average Bachelor's grade of 2.0 (German grading system)",
+              "evidence": "moro.uni-bonn.de/apply/requirements: 'We expect a minimum average BSc grade of 2.0 (German University grading system)'"
+            },
+            {
+              "field": "language_requirements.ielts",
+              "old": "Not stated numerically on official requirements page",
+              "corrected": "IELTS 7.0 or TOEFL iBT 95 (C1 level required); native speakers and German/Swiss/Austrian Abitur/Matura holders exempt",
+              "evidence": "Official requirements page language section"
+            }
+          ],
+          "notes": "No uni-assist/VPD requirement found - this program uses its own direct application portal. The prior correction note in current_official_data (about not confusing with Bonn-Rhein-Sieg's Autonomous Systems 2.5 GPA figure) remains valid; the real University of Bonn figure is now confirmed as 2.0."
+        }
       }
     },
     {
@@ -13699,7 +17148,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (standard German public university, Saxony); semester fee only."
         },
-        "exact_admission_regulations": "Admission requirements formally regulated by the 'Eignungsfeststellungsordnung' (aptitude assessment regulations) - this is the authoritative legal document, available as MOBS-2026-EFO PDF on tu-dresden.de."
+        "exact_admission_regulations": "Admission requirements formally regulated by the 'Eignungsfeststellungsordnung' (aptitude assessment regulations) - this is the authoritative legal document, available as MOBS-2026-EFO PDF on tu-dresden.de.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://tu-dresden.de/sins/efv/ma-mobs"
+          ],
+          "vpd_uni_assist_required": "uni-assist CONFIRMED for non-EU/non-German applicants; VPD specifically NOT named by that term; page explicitly says uni-assist applicants should follow uni-assist's own instructions rather than this page's steps",
+          "application_portal_detail": "Two-stage process: (1) register for aptitude assessment (Eignungsfeststellungsverfahren) with the faculty directly, submitting required documents by deadline; (2) apply to university via TU Dresden online application portal, receiving an application number. Non-EU applicants additionally use uni-assist e.V. for the application itself.",
+          "gpa_requirement_verified": "CONFIRMED: NO minimum GPA set by the regulations (contradicts current_official_data's speculative unconfirmed ~70%/2.5 figures, which should be treated as incorrect/unconfirmed); admission depends primarily on the aptitude assessment, not GPA. Non-EU/EEA degree holders additionally need a GRE score.",
+          "language_requirements_verified": "CONFIRMED EXACT: English CEFR C1, via one of: (a) a university degree completed entirely in English, (b) TOEFL iBT >=95, (c) IELTS >=7.0 (current_official_data's 'IELTS 7.0/TOEFL 95' figure CONFIRMED exactly, with the degree-in-English alternative pathway newly specified; the oddity about 'TOEFL 5.0' in the German version noted as unclear/likely a different scale or typo, consistent with current_official_data's note)",
+          "tuition_and_fees_verified": "Not mentioned on this page; standard 'no tuition, Saxony' assumption stands unconfirmed/uncorrected",
+          "deadlines_verified": "CONFIRMED NEW (aptitude assessment registration window, which precedes/determines the general deadline): German degree holders 1 June-15 July; EU applicants 1 April-15 July; Non-EU applicants 1 April-31 May",
+          "curriculum_summary": "Not detailed on this page",
+          "required_documents": "Full list CONFIRMED: signed aptitude-assessment application form (PDF); copy of degree certificate with official transcript and certified translation (German/English) if needed; if degree incomplete: confirmation of >=80% coursework done plus current average grade (special Admission Office form); copies of certificates proving special aptitude (per §5(1) of the Eignungsfeststellungsordnung); GRE report (non-EU/EEA only); proof of English C1",
+          "contact_info": "Postal/institutional address only (no named individual or direct email/phone): TU Dresden, Fakultät Verkehrswissenschaften 'Friedrich List', Zugangsausschuss Masterstudiengang Mobility Systems, Helmholtzstr. 10, 01069 Dresden, Germany",
+          "newly_found_info": "GRE requirement for non-EU/EEA degree holders specifically (minimum Quant162/Verbal151, no more than 5 years old) - was not in current_official_data at all; exact aptitude-assessment registration deadlines by citizenship category; full required-documents checklist; clarification that no GPA minimum exists (admission is aptitude-assessment-driven, not GPA-driven) which corrects the prior speculative GPA figures",
+          "corrections": [
+            {
+              "field": "admission_eligibility.minimum_gpa_cutoff",
+              "old": "No official GPA minimum found... third-party unverified figures of ~70% marks or GPA 2.5 found but not confirmed",
+              "corrected": "CONFIRMED officially: no GPA minimum exists; admission depends on the Eignungsfeststellungsverfahren (aptitude assessment), not a GPA cutoff. Non-EU/EEA applicants additionally require a GRE score (Quant>=162, Verbal>=151, within 5 years).",
+              "evidence": "TU Dresden official MOBS program page: GPA and GRE sections"
+            },
+            {
+              "field": "application_process.winter_deadline_non_eu",
+              "old": "Not confirmed precisely; subject to aptitude assessment regulations timeline",
+              "corrected": "Aptitude assessment registration: German degree holders 1 June-15 July; EU applicants 1 April-15 July; Non-EU applicants 1 April-31 May",
+              "evidence": "TU Dresden official MOBS program page deadlines section"
+            }
+          ],
+          "notes": "GRE requirement for non-EU/EEA applicants is a significant new finding, comparable in importance to a VPD-type gap, since it's a mandatory extra document previously undocumented."
+        }
       }
     },
     {
@@ -13781,7 +17261,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 36,000 total"
         },
-        "exact_admission_regulations": "Part-time executive program but enrolled full-time; ~15 months coursework + 9-month thesis (often at employer); 90 ECTS, aaq accredited; one engineering module (EM5) held at BME/ZalaZONE Budapest, Hungary"
+        "exact_admission_regulations": "Part-time executive program but enrolled full-time; ~15 months coursework + 9-month thesis (often at employer); 90 ECTS, aaq accredited; one engineering module (EM5) held at BME/ZalaZONE Budapest, Hungary",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hectorschool.kit.edu/master-mobility-systems-engineering-and-management.php",
+            "https://www.hectorschool.kit.edu/admission-requirements.php"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - HECTOR School appears to use its own application portal, not uni-assist; no VPD mentioned anywhere on site",
+          "application_portal_detail": "Own portal at hectorschool.applicationportal.org, rolling admissions, program starts every October",
+          "gpa_requirement_verified": "No GPA stated; requires first academic degree (Bachelor/Master/Diploma) + 2+ years professional experience (3+ recommended)",
+          "language_requirements_verified": "No native speaker status needed if: TOEFL >=570 PBT/230 CBT/90 iBT, or IELTS >=6.5, or proof of C1",
+          "tuition_and_fees_verified": "EUR 36,000 total",
+          "deadlines_verified": "None - rolling admissions, October start",
+          "curriculum_summary": "15 months part-time (full-time enrolled), 5 engineering + 5 management modules (2 weeks each), 9-month thesis often at employer, 90 ECTS; one engineering module held in Budapest (BME/ZalaZONE)",
+          "required_documents": "Proof of first academic degree, evidence of 2+ years professional experience with references, language certificate if not native speaker; full checklist not published",
+          "contact_info": "Temir Vinokhodov, Admissions & Program Consultant, +49 721 608 47880; contact via https://www.hectorschool.kit.edu/team.php",
+          "newly_found_info": "Exact TOEFL/IELTS score thresholds found (TOEFL 570PBT/230CBT/90iBT or IELTS 6.5); confirmed no uni-assist/VPD used - direct application portal instead",
+          "corrections": [],
+          "notes": "HECTOR School programs (also 4555) use their own direct application portal, not uni-assist - this should be explicit since VPD is a known gap area."
+        }
       }
     },
     {
@@ -13863,7 +17362,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "NC-free (no admission restriction); non-EU applicants apply via uni-assist"
+        "exact_admission_regulations": "NC-free (no admission restriction); non-EU applicants apply via uni-assist",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.fh-swf.de/de/international_3/programmes/systems_engineering_and_engineering_management__m_sc__/index.php"
+          ],
+          "vpd_uni_assist_required": "Uni-assist required for non-EU applicants, but VPD not explicitly mentioned by name on this page",
+          "application_portal_detail": "EU/EEA applicants use university portal directly; non-EU applicants apply via uni-assist; China/India/Vietnam applicants also need APS",
+          "gpa_requirement_verified": "No numeric GPA stated; NC-free (no admission restriction); needs 7+ semester bachelor's/diploma in EE/ME/mechatronics or comparable + at least 10 ECTS in CS-related modules",
+          "language_requirements_verified": "IELTS overall 6.5 (writing band min 6.5); TOEFL (until 20 Jan 2026) 575 PBT/232 CBT/90 iBT; TOEFL iBT (from 21 Jan 2026) writing band min 4.5 on new 1-6 scale",
+          "tuition_and_fees_verified": "Not stated on page; links to 'About the Student Fees' page",
+          "deadlines_verified": "Winter (Sept start): Non-EU 15 Nov-15 May, EU 15 May-30 Jun. Summer (Apr start): Non-EU 15 May-15 Nov, EU 1 Dec-31 Jan",
+          "curriculum_summary": "3 semesters full-time, 90 ECTS, English-taught; Sem 1-2 differ by pathway (electronic/mechanical/mechatronic): Intelligent Systems, Technical Publications, Business in Engineering plus specialization courses; Sem 3: Master Project, Thesis, Viva",
+          "required_documents": "Not listed on page; refer to application procedure page",
+          "contact_info": "AEEM Admin: Ulrike Mester, +49 2921 378 3401, aeem-info@fh-swf.de; Application: Heike Sobasik, +49 2371 566 1551, applicant@fh-swf.de",
+          "newly_found_info": "Exact current and post-Jan-2026 TOEFL score changes found; APS requirement for China/India/Vietnam confirmed; exact deadline matrix for all 4 intake/nationality combos found",
+          "corrections": [
+            {
+              "field": "winter_deadline_non_eu",
+              "old": "mid-May to 15 November (non-EU); beginning December to 31 January (EU) - example cited",
+              "corrected": "Winter: Non-EU 15 Nov-15 May; EU 15 May-30 Jun. Summer: Non-EU 15 May-15 Nov; EU 1 Dec-31 Jan",
+              "evidence": "Official fh-swf.de program page deadline table"
+            }
+          ],
+          "notes": "No explicit VPD mention but uni-assist confirmed required for non-EU."
+        }
       }
     },
     {
@@ -13945,7 +17469,39 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site (aggregators suggest tuition-free, semester contribution only)"
         },
-        "exact_admission_regulations": "Detailed admission/application information likely on the FAU 'Application and Enrolment' subpage (https://www.at.study.fau.eu/prospective-students/application-and-enrolment/), not retrieved"
+        "exact_admission_regulations": "Detailed admission/application information likely on the FAU 'Application and Enrolment' subpage (https://www.at.study.fau.eu/prospective-students/application-and-enrolment/), not retrieved",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.at.study.fau.eu/",
+            "https://www.at.study.fau.eu/prospective-students/application-and-enrolment/"
+          ],
+          "vpd_uni_assist_required": "Not mandatory for Bachelor's (VPD explicitly 'not mandatory', though uni-assist reports can be submitted as additional documents); not mentioned for Master's",
+          "application_portal_detail": "Campo portal (campo.fau.de / campo.fau.eu) - exclusive application channel for both BSc and MSc",
+          "gpa_requirement_verified": "BSc: point-based system (school grade + online test score), need 140+ points, no direct GPA cutoff. MSc: minimum Bachelor's grade of 2.50 (German scale) via Modified Bavarian Formula",
+          "language_requirements_verified": "BSc: B1+ speaking/B2 reading or general B2 certificate (FAQ differs slightly from main page - inconsistency noted on site itself). MSc: B2 or equivalent test; IELTS 6.0 or TOEFL iBT 80 minimum",
+          "tuition_and_fees_verified": "Not specified; only small semester contribution mentioned for BSc",
+          "deadlines_verified": "BSc: applications open 15 Apr; international deadline 15 Jul (certificates by 31 Jul); domestic 31 Aug. MSc: 15 Jul (winter), 15 Jan (summer)",
+          "curriculum_summary": "Not detailed on fetched pages; links to Study Plan and Module Book exist",
+          "required_documents": "BSc: certified copies of school certificate, English proof, CV, English motivation letter (max 1 page), mailed Campo-generated form, APS if needed. MSc: not detailed",
+          "contact_info": "https://www.at.study.fau.eu/contact/",
+          "newly_found_info": "Found explicit VPD-not-mandatory statement for BSc; found exact point threshold (140) for BSc admission; found MSc IELTS 6.0/TOEFL 80 minimum not previously documented",
+          "corrections": [
+            {
+              "field": "minimum_gpa_cutoff",
+              "old": "Not found via official site",
+              "corrected": "MSc: Bachelor's grade of 2.50 (German scale, Modified Bavarian Formula)",
+              "evidence": "FAU application-and-enrolment subpage"
+            },
+            {
+              "field": "ielts",
+              "old": "Not found via official site; aggregators mention English B2 level",
+              "corrected": "MSc: IELTS 6.0 or TOEFL iBT 80 minimum, or B2 certificate/Medium of Instruction cert",
+              "evidence": "FAU application-and-enrolment subpage"
+            }
+          ],
+          "notes": "Site itself has internal inconsistencies between main page and FAQ on language/deadline details - flagged by the fetch tool."
+        }
       }
     },
     {
@@ -14027,7 +17583,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "Program is under numerus clausus (research-oriented, intensive supervision) per official RWTH description; fully taught in English; do not confuse with the separate 'Battery Systems Engineering (BSE)' master"
+        "exact_admission_regulations": "Program is under numerus clausus (research-oriented, intensive supervision) per official RWTH description; fully taught in English; do not confuse with the separate 'Battery Systems Engineering (BSE)' master",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch aggregator results only - official RWTH batteryengineering.rwth-aachen.de site unreachable (ECONNREFUSED)"
+          ],
+          "vpd_uni_assist_required": "Conflicting/unconfirmed - one aggregator says uni-assist NOT required (direct application to RWTH), another says uni-assist OR direct portal varies per program; VPD not mentioned anywhere",
+          "application_portal_detail": "Unconfirmed - likely RWTH direct portal (RWTHonline) per one source, but not verified officially",
+          "gpa_requirement_verified": "Not found; program is numerus clausus (research-oriented, selective)",
+          "language_requirements_verified": "IELTS 6.0 cited by aggregator only, unverified officially; English-taught",
+          "tuition_and_fees_verified": "Not found",
+          "deadlines_verified": "One aggregator cites 15 July winter deadline, unverified",
+          "curriculum_summary": "Not retrieved - official site unreachable",
+          "required_documents": "Not found",
+          "contact_info": "Not found",
+          "newly_found_info": "None confirmed - official site remains unreachable; all info here is unverified aggregator-sourced",
+          "corrections": [],
+          "notes": "Official RWTH batteryengineering.rwth-aachen.de site returned ECONNREFUSED on direct fetch; could not independently verify. Recommend retry or manual check. Do not treat any new figure here as confirmed."
+        }
       }
     },
     {
@@ -14109,7 +17683,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fees; only student union fee; non-EU/EEA students pay additional service fees (amount not stated)"
         },
-        "exact_admission_regulations": "Mandatory aptitude test (written, possibly oral); online test fee ~27.30 USD via external provider; must choose focus area (ENS or Automation) at application; places limited"
+        "exact_admission_regulations": "Mandatory aptitude test (written, possibly oral); online test fee ~27.30 USD via external provider; must choose focus area (ENS or Automation) at application; places limited",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.th-deg.de/et-m-en"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - DIT appears to use its own 'Apply Online' portal (th-deg.de/en/apply), no uni-assist/VPD reference found",
+          "application_portal_detail": "Direct application via th-deg.de/en/apply; includes mandatory aptitude test (written, possibly oral, or online version via external provider for USD 27.30)",
+          "gpa_requirement_verified": "Bachelor's in EE/CS or related, min 210 ECTS, overall grade at least 'good' (no numeric GPA given)",
+          "language_requirements_verified": "No IELTS/TOEFL score specified; German A2 certificate mandatory at application from Summer 2027 (previously not required); program taught in English",
+          "tuition_and_fees_verified": "No tuition fee; only student union fee; non-EU/EEA pay additional service fees (amount not stated)",
+          "deadlines_verified": "15 October to 1 December for March start (note: inconsistent with 'summer semester only' statement from Summer 2027 onward - page itself has this discrepancy)",
+          "curriculum_summary": "3 semesters, 90 ECTS; two focus tracks (ENS - Electronic & Communication Systems, or AT - Automation), chosen at application; joint modules in CS, math, EE fundamentals, embedded systems, foreign language, master's module (thesis+seminar, 22 ECTS)",
+          "required_documents": "Not listed; check th-deg.de/en/students/documents",
+          "contact_info": "General: th-deg.de/en/advice; th-deg.de/en/ask-the-student",
+          "newly_found_info": "Found exact aptitude test fee (27.30 USD online option); clarified German A2 becomes mandatory from Summer 2027, not currently; found exact curriculum credit breakdown (22 ECTS thesis+seminar module)",
+          "corrections": [
+            {
+              "field": "minimum_gpa_cutoff",
+              "old": "Bachelor's degree with at least 210 ECTS and overall grade of at least 'good'",
+              "corrected": "Confirmed same, plus mandatory aptitude test (written/oral or paid online version, $27.30 USD)",
+              "evidence": "th-deg.de/et-m-en official page"
+            }
+          ],
+          "notes": "No VPD/uni-assist found for this program; appears DIT uses direct application."
+        }
       }
     },
     {
@@ -14191,7 +17790,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "Detailed admission info likely under FAU's Prospective Students / Bachelor's and Master's application pages, not retrieved"
+        "exact_admission_regulations": "Detailed admission info likely under FAU's Prospective Students / Bachelor's and Master's application pages, not retrieved",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.aces.study.fau.eu/",
+            "https://www.aces.study.fau.eu/prospective-students/application-for-the-masters-degree-program/"
+          ],
+          "vpd_uni_assist_required": "Not stated on page - page does not mention uni-assist or VPD explicitly",
+          "application_portal_detail": "Campo portal (www.master.fau.de)",
+          "gpa_requirement_verified": "Not stated on page",
+          "language_requirements_verified": "English-taught: C1 CEFR level or better (via FAU Language Center equivalence table). German-taught: DSH-2 (74%+ written/oral) or TestDAF (4 pts all areas, 5 in one area). Standardized tests (GRE code 1344, GATE) strongly recommended for non-EU applicants from India/Pakistan/China; only ~10% of applicants admitted",
+          "tuition_and_fees_verified": "EUR 6,000/semester for new non-EU students starting Summer semester 2027; EUR 100 application processing fee for non-EU applicants from Winter 2026/27",
+          "deadlines_verified": "Winter (mid-Oct start): Campo opens 15 Feb, deadline 31 May. Summer (mid-Apr start): Campo opens 15 Sep, deadline 30 Nov (recommend applying by 31 Oct for early admission chance)",
+          "curriculum_summary": "Not detailed on fetched pages",
+          "required_documents": "School leaving certificate, Bachelor's transcript+certificate, Master's documents if applicable, tabular CV with photo, motivation letter (~1 page, dated/signed, states English/German track), language certificate, APS certificate (China/India etc.), standardized test results",
+          "contact_info": "Department of Mechanical Engineering, Immerwahrstraße 2a, 91058 Erlangen, Germany",
+          "newly_found_info": "Found new tuition fee information (EUR 6,000/semester for non-EU from Summer 2027) and EUR 100 application fee - this was previously completely missing; found full required documents checklist",
+          "corrections": [
+            {
+              "field": "tuition_non_eu",
+              "old": "Not found via official site",
+              "corrected": "EUR 6,000 per semester for new non-EU students starting from Summer semester 2027; EUR 100 application fee from Winter 2026/27",
+              "evidence": "FAU ACES application-for-masters page"
+            }
+          ],
+          "notes": "Significant new tuition info found that was entirely missing before."
+        }
       }
     },
     {
@@ -14273,7 +17898,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated on page"
         },
-        "exact_admission_regulations": "Admission restricted; optional dual-study mode with limited availability; recommends checking degree classification via anabin database"
+        "exact_admission_regulations": "Admission restricted; optional dual-study mode with limited availability; recommends checking degree classification via anabin database",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-bremen.de/en/study/degree-programme/electronics-engineering-msc/",
+            "https://www.hs-bremen.de/en/study/before/application-and-admission/"
+          ],
+          "vpd_uni_assist_required": "YES - explicitly required for applicants whose higher education entrance qualification was acquired abroad: must first get VPD (Vorprüfungsdokumentation) from uni-assist.de, then apply to HSB via CampInO with the VPD",
+          "application_portal_detail": "CampInO portal; international applicants first obtain VPD from uni-assist.de, then submit application with VPD attached in CampInO",
+          "gpa_requirement_verified": "Not stated specifically for this program on fetched pages; general admission restricted by ECTS requirement (210 ECTS for 3-sem track, 180 ECTS for 4-sem track)",
+          "language_requirements_verified": "Not specified on fetched pages for this program specifically; 'No German required', taught entirely in English",
+          "tuition_and_fees_verified": "Not stated on page",
+          "deadlines_verified": "General HSB deadlines: Winter 1 June-15 July; Summer 15 December-15 January (program-specific dates may differ - page advises checking individual programme page); IGC uses different dates",
+          "curriculum_summary": "3-semester (210 ECTS prior degree) or 4-semester (180 ECTS prior degree, 120 CP) tracks; optional dual-study mode with limited availability",
+          "required_documents": "Not listed in detail; VPD from uni-assist required for internationally-acquired qualifications",
+          "contact_info": "Head of programme: Prof. Dr. Ing. Friedrich Fleischmann, +49 421 5905 3453; Application/admission: Veronika Hinrichs, +49 421 5905 2213",
+          "newly_found_info": "MAJOR FINDING: VPD/uni-assist requirement explicitly confirmed on HSB's general application-and-admission page - this was completely missing from current_official_data. This is analogous to the FH Dortmund case the user flagged.",
+          "corrections": [
+            {
+              "field": "application_process",
+              "old": "winter_deadline_non_eu: Not stated on page",
+              "corrected": "VPD (Vorprüfungsdokumentation) from uni-assist.de IS required for applicants with foreign-acquired higher education entrance qualifications, submitted via CampInO portal. General deadlines: Winter 1 Jun-15 Jul; Summer 15 Dec-15 Jan",
+              "evidence": "hs-bremen.de/en/study/before/application-and-admission/ official page"
+            }
+          ],
+          "notes": "IMPORTANT - this program had a VPD requirement gap similar to the FH Dortmund case the user flagged. Confirmed via official HSB admission page."
+        }
       }
     },
     {
@@ -14355,7 +18006,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "Program mostly taught in English but German A2 level is mandatory; program contact: Prof. Dr.-Ing. Christina Schindler (christina.schindler@hm.edu)"
+        "exact_admission_regulations": "Program mostly taught in English but German A2 level is mandatory; program contact: Prof. Dr.-Ing. Christina Schindler (christina.schindler@hm.edu)",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch (official HM page returned 404 on direct fetch); hm.edu international programs page; HM flyer PDF referenced"
+          ],
+          "vpd_uni_assist_required": "NOT required per HM's own international-students page - uni-assist preliminary check is needed only for two specific English-taught Business master's programmes, NOT for Micro and Nanotechnology; application is direct via HM's own online application tool",
+          "application_portal_detail": "Direct online application through Hochschule München's own application tool (not uni-assist for this program)",
+          "gpa_requirement_verified": "Bachelor's/Diploma in natural/engineering sciences with overall grade of at least 'good' (per HM flyer)",
+          "language_requirements_verified": "IELTS mentioned by aggregator (Yocket) without a confirmed minimum score; no official IELTS score found on HM pages",
+          "tuition_and_fees_verified": "Not found via official site",
+          "deadlines_verified": "Per HM flyer: October start applications 2 May-15 June; March 15 start applications 15 November-15 January",
+          "curriculum_summary": "Not detailed in fetched content",
+          "required_documents": "German A2 mandatory alongside bachelor's degree of at least 'good' grade (per flyer); contact Prof. Dr.-Ing. Christina Schindler for program specifics",
+          "contact_info": "Prof. Dr.-Ing. Christina Schindler (christina.schindler@hm.edu); general: beratung@hm.edu",
+          "newly_found_info": "IMPORTANT correction: found that uni-assist/VPD is explicitly NOT required for this specific program (only required for 2 unrelated Business master's programs at HM) - this directly contradicts third-party aggregator claims of uni-assist being used",
+          "corrections": [
+            {
+              "field": "application_process",
+              "old": "15 November to 15 January for March start; 2 May to 15 June for October start (per department flyer)",
+              "corrected": "Confirmed same dates; additionally confirmed uni-assist/VPD is NOT required for this program (direct HM application only)",
+              "evidence": "hm.edu international programs page (direct fetch of original official_source_url returned 404, so verified via search)"
+            }
+          ],
+          "notes": "Official URL in current_official_data returned 404 on direct fetch; info sourced from HM's international programs page and flyer via search instead."
+        }
       }
     },
     {
@@ -14437,7 +18113,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 30,000; Early Bird discounts: EUR 3,500 (by Dec 1), EUR 3,000 (by Feb 1), EUR 1,000 (by Apr 1); application fee EUR 50"
         },
-        "exact_admission_regulations": "Winter semester intake only; full-time track requires academic or professional reference letter plus a short self-introduction video"
+        "exact_admission_regulations": "Winter semester intake only; full-time track requires academic or professional reference letter plus a short self-introduction video",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.business-school.rwth-aachen.de/en/apply/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - RWTH Business School uses own portal (my.rwthbusinessschool.de), no uni-assist/VPD reference found; optional APS certificate for Chinese/Indian/Vietnamese applicants only",
+          "application_portal_detail": "my.rwthbusinessschool.de portal; process: 1) consultation/eligibility pre-check, 2) apply via program portal, 3) admission decision in 2-8 weeks, 4) accept offer, sign contract, pay first tuition installment",
+          "gpa_requirement_verified": "Not stated - no GPA/grade minimum found on official apply page",
+          "language_requirements_verified": "TOEFL iBT >=90, OR IELTS >=6.0, OR Cambridge B2 First (grade B+)/C1 Advanced/C2 Proficiency, OR PTE Academic >=60, OR degree from UK/Ireland/Canada/USA/Australia/New Zealand",
+          "tuition_and_fees_verified": "EUR 30,000 total (confirmed); EUR 50 application fee; comparison table shows other RWTH Business School programs' costs (EMBA EUR 45,000, Full-time MBA EUR 35,000)",
+          "deadlines_verified": "Applications open 1 October annually; Early Bird I 1 Dec (EUR 3,500 off), Early Bird II 1 Feb (EUR 3,000 off), Early Bird III 1 Apr (EUR 1,000 off); final non-EU 1 Jun; final EU 31 Aug",
+          "curriculum_summary": "3 semesters, 90 CP, full-time on campus, English-taught",
+          "required_documents": "CV, motivation letter, degree certificate, transcript of records, proof of 1+ year professional experience, reference letter (upload existing one for full-time), optional APS certificate, short self-introduction video, translations if not English/German",
+          "contact_info": "Phone: 0049 241 8020010; consultation request page",
+          "newly_found_info": "Confirmed exact language test equivalency options (Cambridge, PTE, exempt countries) not previously fully listed; confirmed application process steps and processing time (2-8 weeks)",
+          "corrections": [],
+          "notes": "No VPD/uni-assist found - program uses RWTH Business School's own portal entirely."
+        }
       }
     },
     {
@@ -14519,7 +18213,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 30,000 total, plus EUR 50 application fee; Early Bird discounts: EUR 3,500 (Dec 1), EUR 3,000 (Feb 1), EUR 1,000 (Apr 1); VDI Scholarship EUR 5,000 (Apr 1)"
         },
-        "exact_admission_regulations": "APS certificate required for Chinese/Indian/Vietnamese applicants before enrollment; compulsory 5-day on-campus 'Cambridge Ecosystem Lab' trip; can switch once between part-time/full-time study"
+        "exact_admission_regulations": "APS certificate required for Chinese/Indian/Vietnamese applicants before enrollment; compulsory 5-day on-campus 'Cambridge Ecosystem Lab' trip; can switch once between part-time/full-time study",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.business-school.rwth-aachen.de/en/master/management-engineering-in-technology-innovation-marketing-entrepreneurship-parttime/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on program page; optional for application but APS certificate (China/India/Vietnam) IS mandatory for enrollment, along with English language certificate",
+          "application_portal_detail": "Apply via program website's 'Apply' page; same RWTH Business School process as full-time (4757)",
+          "gpa_requirement_verified": "No GPA stated; academic content requirement instead: STEM degree with 125+ CP relevant subjects (16+ CP higher math/stats, 10+ CP management/economics - deficits addressed via free additional courses before thesis registration)",
+          "language_requirements_verified": "TOEFL iBT >=90 or IELTS Academic >=6.0; German applicants need CEFR B2 (e.g. Abitur with sufficient English); exemptions for USA/UK/Canada/Ireland/New Zealand/Australia nationals or degree holders",
+          "tuition_and_fees_verified": "EUR 30,000 total (confirmed), EUR 50 application fee; Early Bird I EUR 3,500 (1 Dec), II EUR 3,000 (1 Feb), III EUR 1,000 (1 Apr); VDI Scholarship EUR 5,000 (1 Apr)",
+          "deadlines_verified": "Early Bird I 1 Dec 2026; Early Bird II 1 Feb; Early Bird III/VDI 1 Apr; non-EU final 1 Jun; EU final 31 Aug; study start 1 Oct 2027",
+          "curriculum_summary": "90 CP, 3-6 semesters, part-time online/on-campus. TIME Essentials (30 CP, 6 core modules), Management Deep Dives (20 CP, 4 of 6 electives), Tech Transfer Labs (10 CP, 2 of 6 tech electives), Advanced Topics (10 CP: compulsory Cambridge Ecosystem Lab ~5 days on-campus + TIME Capstone Project), Master's thesis (20 CP). Modules ~6 hrs/week, mostly evening live online sessions CET/CEST",
+          "required_documents": "CV, motivation letter, 1+ recommendation letter, degree certificate, transcript, proof of 1+ yr professional experience, proof of part-time attendance, translations if needed; optional German language cert; mandatory for enrollment: APS certificate (China/India/Vietnam) + English language certificate",
+          "contact_info": "+49 241 8020010; Academic director: Prof. Dr. Torsten-Oliver Salge",
+          "newly_found_info": "Found that APS certificate + English certificate become mandatory specifically AT ENROLLMENT (not just application) for China/India/Vietnam - nuance not previously captured; confirmed compulsory Cambridge trip details (~5 days)",
+          "corrections": [
+            {
+              "field": "exact_admission_regulations",
+              "old": "APS certificate required for Chinese/Indian/Vietnamese applicants before enrollment; compulsory 5-day on-campus Cambridge Ecosystem Lab trip",
+              "corrected": "Confirmed accurate - APS + English certificate mandatory at enrollment for China/India/Vietnam; Cambridge trip ~5 days confirmed",
+              "evidence": "RWTH Business School MME TIME part-time official page"
+            }
+          ],
+          "notes": "No VPD/uni-assist mention for this program."
+        }
       }
     },
     {
@@ -14601,7 +18320,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Non-EU/EEA/Swiss applicants pay tuition (amount not listed on page) plus semester fees; EU/EEA/Swiss pay only semester fees"
         },
-        "exact_admission_regulations": "Two-stage selection: application review (reject <60 pts, interview 60-74, admit 75+) then ~20-min interview (in-person or Zoom); APS certification required for China/Vietnam/India degrees; tape-out participation restricted under EU/US export control laws for some students"
+        "exact_admission_regulations": "Two-stage selection: application review (reject <60 pts, interview 60-74, admit 75+) then ~20-min interview (in-person or Zoom); APS certification required for China/Vietnam/India degrees; tape-out participation restricted under EU/US export control laws for some students",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.cit.tum.de/en/cit/studies/degree-programs/master-microelectronics-chip-design/"
+          ],
+          "vpd_uni_assist_required": "YES - uni-assist VPD (Preliminary Documentation) explicitly listed as one of the required documents in TUM's application checklist",
+          "application_portal_detail": "Apply via TUMonline; separate uni-assist VPD submission also required as part of the document checklist; two-stage selection (application review then interview)",
+          "gpa_requirement_verified": "No fixed minimum GPA; Bachelor's grade contributes up to 20 of 120 Stage 1 points (non-TUM grades converted via Bavarian formula); need 40+ subject-specific points (of 40-60 max) to proceed; total <60 = reject, 60-74 = interview, 75+ = admit",
+          "language_requirements_verified": "Not specified exact score on main page; links to separate TUM language-certificates page; third-party unverified figure ~IELTS 6.5",
+          "tuition_and_fees_verified": "Non-EU/EEA/Swiss pay tuition (amount not listed on page, see tum.de/en/studies/fees/tuition); EU/EEA/Swiss pay only semester fees",
+          "deadlines_verified": "Submission window 1 Feb-31 May; interview period March-early August (min 1 week notice); non-EU applicants strongly advised to apply before 31 March for visa/accommodation time",
+          "curriculum_summary": "4 semesters full-time, 120 ECTS; Core specialization (Digital Design or Analog/Mixed-Signal, 20 credits, min 10 in one/5 in other by end of sem 2); chip design labs (fundamental 5, functional design 10, physical design 5, test/eval 5 mandatory); scientific seminar 5 credits; specialized electives min 30 credits; interdisciplinary modules 10 credits (incl 3+ social responsibility/tech assessment); Master's thesis 30 credits (6-month limit)",
+          "required_documents": "Passport, CV, Preliminary Documentation (VPD) from uni-assist, APS certificate (China/Vietnam/India degrees), English language proficiency proof, Statement of Purpose, Transcript of Records + Module Catalog, curricular analysis form matching degree type",
+          "contact_info": "Application: app-msmcd.asa@xcit.tum.de; Program office: msmcd.asa@xcit.tum.de",
+          "newly_found_info": "CONFIRMED VPD explicitly required as part of document checklist - directly relevant to the user's flagged concern; found full two-stage selection scoring breakdown and export control notice re: tape-out participation",
+          "corrections": [
+            {
+              "field": "exact_admission_regulations",
+              "old": "Two-stage selection described without explicit VPD confirmation",
+              "corrected": "VPD (Preliminary Documentation) from uni-assist explicitly confirmed as required document in official checklist",
+              "evidence": "TUM CIT Microelectronics and Chip Design official program page, required documents section"
+            }
+          ],
+          "notes": "VPD requirement explicitly confirmed here - good example matching the user's FH Dortmund concern, now documented."
+        }
       }
     },
     {
@@ -14683,7 +18427,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated on page; links to a general 'Costs and budget' section"
         },
-        "exact_admission_regulations": "No numerical admission restriction once prerequisites met; joint Rhein-Main-Universitaeten program - apply to TU Darmstadt first, then register with Goethe University Frankfurt (not with JGU Mainz); includes a programme-internal internship"
+        "exact_admission_regulations": "No numerical admission restriction once prerequisites met; joint Rhein-Main-Universitaeten program - apply to TU Darmstadt first, then register with Goethe University Frankfurt (not with JGU Mainz); includes a programme-internal internship",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/studiengang_378304.en.jsp"
+          ],
+          "vpd_uni_assist_required": "Not stated on this page; linked 'Formal and language requirements for international applicants' page not fetched - recommend follow-up",
+          "application_portal_detail": "Online application at TU Darmstadt; after enrolling at TU Darmstadt, must separately register with Goethe University Frankfurt (checklist provided); registration at JGU Mainz NOT required despite being a listed partner",
+          "gpa_requirement_verified": "No GPA stated; requires Bachelor's in natural sciences/engineering, 180+ CP, including 20+ CP math, 5 CP fundamentals of physics, 5 CP theoretical electrodynamics, 4 CP measurement technology/lab practicals; no numerical admission restriction once prerequisites met",
+          "language_requirements_verified": "English B2 level via Language Center equivalence table, OR passing an English-language bachelor's thesis; no specific IELTS/TOEFL score given",
+          "tuition_and_fees_verified": "Not stated; links to 'Costs and budget' general page",
+          "deadlines_verified": "Not stated on page; program starts winter or summer semester; new program launching Summer semester 2026",
+          "curriculum_summary": "Joint Rhein-Main-Universitaeten program (TU Darmstadt + Goethe Frankfurt + JGU Mainz); includes mandatory programme-internal internship; links to module overview PDF and module handbook",
+          "required_documents": "Not detailed on this page",
+          "contact_info": "International Admission (address truncated), counter hours Mon 2-4pm, Tue-Fri 10am-12pm; Department of Physics; Office for Student Affairs; Departmental Student Advisory Service",
+          "newly_found_info": "Found registration process nuance: must register with Goethe Frankfurt separately after TU Darmstadt enrollment, but NOT with JGU Mainz despite it being a partner institution - this was not in current data",
+          "corrections": [
+            {
+              "field": "exact_admission_regulations",
+              "old": "Apply to TU Darmstadt first, then register with Goethe University Frankfurt (not with JGU Mainz)",
+              "corrected": "Confirmed accurate; added detail that a specific checklist (tinygu.de/ChecklistePAS) governs the Goethe registration step",
+              "evidence": "TU Darmstadt official program page"
+            }
+          ],
+          "notes": "uni-assist/VPD status still unconfirmed for this program - the international applicants formal requirements subpage was linked but not fetched due to scope; recommend follow-up fetch of https://www.tu-darmstadt.de/studieren/studieninteressierte/bewerbung_zulassung_tu/internationale_studierende/index.en.jsp"
+        }
       }
     },
     {
@@ -14765,7 +18534,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No tuition fee (confirmed free); only standard semester contribution"
         },
-        "exact_admission_regulations": "Fully taught in English, 3 semesters; uni-assist required for applications; motivation letter should explain choice of program/university"
+        "exact_admission_regulations": "Fully taught in English, 3 semesters; uni-assist required for applications; motivation letter should explain choice of program/university",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch - official hs-anhalt.de page returned 404 on direct fetch, used search results covering official page content and aggregators"
+          ],
+          "vpd_uni_assist_required": "uni-assist confirmed required for international applicants (checks documents, forwards to Hochschule Anhalt); VPD not explicitly named but uni-assist process implies it; APS certificate required for Indian applicants specifically",
+          "application_portal_detail": "International applicants apply through uni-assist; university offers a FREE informal pre-check before paying uni-assist fee (email mpv@hs-anhalt.de before deadline)",
+          "gpa_requirement_verified": "Bachelor's of at least 7 semesters/210 ECTS; one aggregator/scholarship site states final grade cutoff of 2.5 (German scale) - not independently confirmed on official page due to 404",
+          "language_requirements_verified": "TOEFL iBT minimum 90, IELTS minimum 6.0 (per official page content found via search), or equivalent; graduation from English-medium institution accepted as alternative",
+          "tuition_and_fees_verified": "No tuition fee (confirmed free), only standard semester contribution; conflicting reports on uni-assist application fee (~EUR 75 per one aggregator vs 'no fee' per another) - unresolved",
+          "deadlines_verified": "Conflicting dates across sources: one gives 15 Jan (summer)/15 Jul (winter); official page intake windows suggest uni-assist opens 1 Apr (winter)/1 Oct (summer) - recommend direct verification",
+          "curriculum_summary": "3 semesters, fully English-taught; bridging modules of up to 30 ECTS for applicants with knowledge gaps",
+          "required_documents": "Motivation letter (~1 A4 page), notarized bachelor's transcript; no reference letters needed; APS certificate for Indian applicants",
+          "contact_info": "mpv@hs-anhalt.de (pre-check email)",
+          "newly_found_info": "Found the free informal pre-check option via email before formal uni-assist application - this is a useful new process detail not previously documented",
+          "corrections": [
+            {
+              "field": "ielts",
+              "old": "Sources conflict: IELTS 6.0 (with TOEFL iBT 90) cited by one source, IELTS 6.5 by another",
+              "corrected": "IELTS 6.0, TOEFL iBT 90 appears to be the figure on HM's own official page per search snippet (6.0 is more consistently cited as official)",
+              "evidence": "WebSearch snippet referencing official hs-anhalt.de page content"
+            }
+          ],
+          "notes": "Could not directly fetch official page (404 error on provided URL); relied on search snippets describing official page content. Recommend manual re-verification of exact URL."
+        }
       }
     },
     {
@@ -14847,7 +18641,44 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 30,000 total; application fee EUR 50; Early Bird I EUR 3,500 (Dec 1), Early Bird II EUR 3,000 (Feb 1), Early Bird III EUR 1,000 (Apr 1); VDI Scholarship EUR 5,000 (Apr 1)"
         },
-        "exact_admission_regulations": "Note: this page appears to describe KIT/Cambridge-affiliated MME-TIME-style program content nearly identical to entries 4757/4875 - possible content overlap/mislabeling on aggregator-redirected page; verify REMENA-specific details directly with University of Kassel/unikims"
+        "exact_admission_regulations": "Note: this page appears to describe KIT/Cambridge-affiliated MME-TIME-style program content nearly identical to entries 4757/4875 - possible content overlap/mislabeling on aggregator-redirected page; verify REMENA-specific details directly with University of Kassel/unikims",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.unikims.com/master/renewable-energy-and-energy-efficiency/"
+          ],
+          "vpd_uni_assist_required": "Not mentioned explicitly by name; uni-assist is used for applicants with international degrees, described as 'the centralized platform for evaluating foreign qualifications in Germany', but VPD term not used on page",
+          "application_portal_detail": "German-degree holders use UNIKIMS Portal; international-degree holders use uni-assist",
+          "gpa_requirement_verified": "GPA of 2.5 (German system) explicitly required - NOTE: this directly contradicts/clarifies current_official_data's STEM-125-CP description, which actually describes the UNRELATED MME-TIME program, confirming the suspected mislabeling flagged in current data",
+          "language_requirements_verified": "English at B2 level; no specific test names/scores given on page",
+          "tuition_and_fees_verified": "EUR 10,000 total, or EUR 2,500 per semester",
+          "deadlines_verified": "15 July for September intake; 15 January for March intake. Current round: summer term 2027 intake, uni-assist deadline 15 Jan 2027 ('binding and excluding'), classes start mid-March 2027",
+          "curriculum_summary": "120 ECTS, 4 semesters (24 months), English-taught; double-degree with JNTU Hyderabad and University of Monastir; 4-mode structure: Kassel (basic modules, 30 CP) -> Hyderabad/Monastir (basic+elective, 30 CP) -> RUN location (electives, 30 CP) -> global (thesis, 30 CP)",
+          "required_documents": "Transcripts, certificates, supporting materials (gather before starting online submission); specific list on linked Application page not retrieved",
+          "contact_info": "Program coordinator Dr. Marc Selig, selig@uni-kassel.de, +49 561 804 6565; management team remena@uni-kassel.de",
+          "newly_found_info": "CONFIRMS the mislabeling suspicion flagged in current_official_data: this REMENA page describes a completely different program (double-degree, GPA 2.5, EUR 10,000 tuition, Kassel/Hyderabad/Monastir rotation) than the MME-TIME-style content previously captured (STEM 125 CP, EUR 30,000 tuition) - these are two different programs entirely, confirming current data was wrong for daad_id 4412",
+          "corrections": [
+            {
+              "field": "qualifying_degree",
+              "old": "Working professionals with STEM-related degree, at least 1 year of professional work experience (MME-TIME-style content)",
+              "corrected": "This describes the unrelated MME-TIME program, NOT REMENA. REMENA requires Bachelor's in STEM/relevant field with GPA 2.5 (German scale); it's a double-degree program with JNTU Hyderabad and University of Monastir, NOT an executive/professional program",
+              "evidence": "unikims.com/master/renewable-energy-and-energy-efficiency/ official page content clearly describes REMENA's distinct curriculum, tuition, and partner universities"
+            },
+            {
+              "field": "tuition_non_eu",
+              "old": "EUR 30,000 total (MME-TIME figures)",
+              "corrected": "EUR 10,000 total, or EUR 2,500/semester",
+              "evidence": "Official unikims.com REMENA page"
+            },
+            {
+              "field": "winter_deadline_non_eu",
+              "old": "Early Bird I: Dec 1, 2026; non-EU final: June 1; EU final: Aug 31 (MME-TIME dates)",
+              "corrected": "15 July for September intake; 15 January for March intake; current cycle deadline 15 Jan 2027 for March 2027 start",
+              "evidence": "Official unikims.com REMENA page"
+            }
+          ],
+          "notes": "IMPORTANT: current_official_data for this entry was entirely wrong - it described a different program (MME-TIME/KIT-Cambridge style) rather than REMENA. This fetch corrects the record with REMENA's actual, distinct admission/tuition/curriculum details."
+        }
       }
     },
     {
@@ -14929,7 +18760,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "No formal admission restriction (NC-free) but prior knowledge sufficiency is checked per RWTH FAQ; specifics should be confirmed via rohstoffe.rwth-aachen.de FAQ page directly"
+        "exact_admission_regulations": "No formal admission restriction (NC-free) but prior knowledge sufficiency is checked per RWTH FAQ; specifics should be confirmed via rohstoffe.rwth-aachen.de FAQ page directly",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch - rohstoffe.rwth-aachen.de FAQ page and DAAD listing"
+          ],
+          "vpd_uni_assist_required": "Not found/confirmed via official source; one third-party listing mentions English proficiency required but no uni-assist/VPD mention found",
+          "application_portal_detail": "Not confirmed; official RWTH page for this specific specialisation remains unreachable",
+          "gpa_requirement_verified": "Not found; DAAD listing states Repository Safety specialisation requires at least 75 CP including 55 CP engineering fundamentals (math, mechanics, chemistry, electrical engineering)",
+          "language_requirements_verified": "English proficiency required (per DAAD-aligned description); no specific score found",
+          "tuition_and_fees_verified": "Not found",
+          "deadlines_verified": "One third-party listing cites 15 January non-EU winter deadline, unverified; RWTH FAQ states deadlines depend on country of previous degree",
+          "curriculum_summary": "Not detailed beyond CP breakdown above",
+          "required_documents": "Not found",
+          "contact_info": "Not found",
+          "newly_found_info": "No significant new confirmed info beyond prior partial data; RWTH FAQ page (rohstoffe.rwth-aachen.de) confirms general admission is NC-free but requires prior-knowledge check - consistent with existing data",
+          "corrections": [],
+          "notes": "Could not reach official program page for Repository Safety specialisation; this entry remains largely unverified. Recommend a dedicated follow-up search/fetch attempt on rohstoffe.rwth-aachen.de directly."
+        }
       }
     },
     {
@@ -15011,7 +18860,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "Official examination regulation document exists ('Studiengangspezifische Pruefungsordnung fuer den gemeinsamen Masterstudiengang Water Security and Global Change') but admission section not retrieved; recommend checking RWTH Faculty of Civil Engineering page directly"
+        "exact_admission_regulations": "Official examination regulation document exists ('Studiengangspezifische Pruefungsordnung fuer den gemeinsamen Masterstudiengang Water Security and Global Change') but admission section not retrieved; recommend checking RWTH Faculty of Civil Engineering page directly",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch - TU Dresden news pages, IIT Madras press releases, TU Dresden PDF study/exam regulations"
+          ],
+          "vpd_uni_assist_required": "Not found/confirmed in search results",
+          "application_portal_detail": "Not confirmed exactly; TU Dresden pages reference application deadlines but exact portal unclear",
+          "gpa_requirement_verified": "Not found; IIT Madras states eligibility is holding or expecting a Bachelor's in Engineering/Technology or Master's in Science",
+          "language_requirements_verified": "Not found specifically; program taught entirely in English",
+          "tuition_and_fees_verified": "Not found",
+          "deadlines_verified": "Conflicting: TU Dresden pages reference 16 March 2025 deadline (past cycle); earlier 2024 notices gave 30 April 2024 deadline; current 2026/2027 cycle dates NOT found - recommend direct check with TU Dresden ABCD Centre",
+          "curriculum_summary": "Joint program TU Dresden + RWTH Aachen + IIT Madras; approx 2-year (120 ECTS) structure: ~9 months at IIT Madras (starting ~August), then 5 months at TU Dresden, 5 months at RWTH Aachen; thesis (5 months) at any of the 3 locations",
+          "required_documents": "Not found",
+          "contact_info": "Not found; reference ABCD Centre (TU Dresden) as likely contact point",
+          "newly_found_info": "Found the overall program structure/rotation (IIT Madras -> TU Dresden -> RWTH Aachen -> thesis) which was previously described as 'not found via official site' - this is new structural info, though exact current-cycle deadlines remain unconfirmed",
+          "corrections": [
+            {
+              "field": "qualifying_degree",
+              "old": "Joint master's program between TU Dresden, RWTH Aachen, and IIT Madras on Water Security and Global Change; basic requirement likely analogous to RWTH's Sustainable Management - Water and Energy MSc",
+              "corrected": "Eligibility: Bachelor's in Engineering/Technology or Master's in Science (per IIT Madras official statement); program structure confirmed as ~9 months IIT Madras + 5 months TU Dresden + 5 months RWTH Aachen + 5-month thesis at any location, 120 ECTS, 2 years, English-taught",
+              "evidence": "IIT Madras press releases and TU Dresden news announcements found via search"
+            }
+          ],
+          "notes": "Still no official RWTH-side page found for this joint program; TU Dresden appears to be the lead administrative partner. Recommend checking tu-dresden.de/bu/studium pages directly for current application cycle."
+        }
       }
     },
     {
@@ -15108,7 +18982,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "Taught in English; 2 years (4 semesters); covers 'More Moore', 'More than Moore', and 'Beyond Moore' concepts; page links to separate 'Prospective Students' and 'Application' sections for admission requirements/deadlines, which were not retrieved"
+        "exact_admission_regulations": "Taught in English; 2 years (4 semesters); covers 'More Moore', 'More than Moore', and 'Beyond Moore' concepts; page links to separate 'Prospective Students' and 'Application' sections for admission requirements/deadlines, which were not retrieved",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://tu-dresden.de/ing/elektrotechnik/studium/studieren-an-der-fakultaet/studiengaenge/masters-programme-nanoelectronic-systems?set_language=en",
+            "https://tu-dresden.de/ing/elektrotechnik/studium/studieren-an-der-fakultaet/studiengaenge/masters-programme-nanoelectronic-systems/prospective-students/bewerbung"
+          ],
+          "vpd_uni_assist_required": "Uni-assist required for applicants with non-German degrees (process their documents); applicants with TU Dresden or other German degrees apply directly, no processing fee; VPD term itself not used on page but uni-assist process strongly implies VPD-equivalent check",
+          "application_portal_detail": "German/EU-degree holders (German or EU/non-EU nationals with German degree) use selma portal; non-German graduates use uni-assist; repeat applicants use TUD online portal",
+          "gpa_requirement_verified": "Not stated; Admissions Committee may invite applicants to interview if suitability unclear from documents",
+          "language_requirements_verified": "English proficiency required except for native speakers; no specific test names/scores given on this page",
+          "tuition_and_fees_verified": "Not mentioned on page",
+          "deadlines_verified": "Winter semester: EU/non-EU with German degree: 1 Jun-15 Jul (proficiency review ends 15 Aug); EU with non-German degree: 1 Apr-15 Jul (review ends 15 Aug); Non-EU with non-German degree: 1 Apr-31 May (review ends 31 Jul)",
+          "curriculum_summary": "4 semesters (2 years), English-taught; covers 'More Moore', 'More than Moore', 'Beyond Moore' concepts; module descriptions linked separately",
+          "required_documents": "Non-German graduates (uni-assist): uni-assist documents + motivation letter (max 1 page) + English proficiency proof + expertise proof + grading table if letter-grades + module handbooks. TUD applicants: signed application form (selma+NES), CV, motivation letter, attested degree copies w/translations, school leaving cert, HE entrance proof, English proficiency proof, expertise proof, passport/ID copy. Chinese/Mongolian/Vietnamese: original APS certificate. Incomplete-degree applicants: certified transcript showing 80%+ credits + expected graduation certificate",
+          "contact_info": "Exam contact: Dipl.-Phys. Manuela Tetzlaff, fax +49 351 463-37740 (no email shown)",
+          "newly_found_info": "MAJOR: found the complete three-tier deadline matrix (by nationality/degree origin) and full required documents checklist by applicant category - this was entirely 'Not found via official site' before; uni-assist confirmed required for non-German degree holders",
+          "corrections": [
+            {
+              "field": "application_process",
+              "old": "Not found via official site",
+              "corrected": "uni-assist required for non-German-degree applicants (TU Dresden processes directly for German-degree holders, no fee); three-tier deadline system by nationality/degree-origin (see deadlines_verified)",
+              "evidence": "TU Dresden Nanoelectronic Systems prospective-students/bewerbung subpage"
+            }
+          ],
+          "notes": "Good example of subpage-only information (the 'bewerbung' link) revealing uni-assist/deadline details completely absent from the main program page - validates the user's concern about needing to check subpages."
+        }
       }
     },
     {
@@ -15190,7 +19090,38 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not mentioned on page"
         },
-        "exact_admission_regulations": "German Abitur with proven B2 English also accepted for EU applicants; recognized institution required, checked by examination board"
+        "exact_admission_regulations": "German Abitur with proven B2 English also accepted for EU applicants; recognized institution required, checked by examination board",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-siegen.de/en/study/master/nanoscience-and-nanotechnology"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - Siegen appears to use its own online portal (unisono) directly, no uni-assist/VPD reference found on this program's page",
+          "application_portal_detail": "Own online portal (unisono.uni-siegen.de); postal mail and email NOT accepted; application period 1 Jan-30 Apr",
+          "gpa_requirement_verified": "Fachgebundene Hochschulreife applicants: Bachelor's in physics/chemistry/EE with grade 2.7 or better (German scale). Other bachelor's degrees with grade 2.7+ can qualify via recommendation letters and/or interview",
+          "language_requirements_verified": "English is language of instruction; proof of English proficiency required except for Abitur holders from EU or English-speaking countries; no specific test names/scores listed",
+          "tuition_and_fees_verified": "Application is free of charge; no tuition/semester fee info given for this specific program on this page",
+          "deadlines_verified": "Application period: 1 January to 30 April; starts winter semester only",
+          "curriculum_summary": "4 semesters: Alignment block (24 CP, sem 1), general compulsory area (6 modules, 42 CP, sem 2: Nanochemistry, Physics of Nanoelectronic Devices, Micro and Nanotechnology, Nanosynthesis/Nanosafety/Nanoanalytics), core electives (24 CP, sem 3: electives + Photonic Devices + 12 CP research internship), Master's thesis (30 CP, sem 4)",
+          "required_documents": "Self-written motivation letter, tabular résumé (Europass CV recommended), Bachelor's certificate+transcript (official English translation if applicable), proof of English proficiency - all as PDFs, no hard copies",
+          "contact_info": "Central Student Advisory Service: info.studienberatung@zsb.uni-siegen.de, +49 271 740-2712, Mon-Thu 9am-4pm, Fri 9am-2pm",
+          "newly_found_info": "Found exact application window (1 Jan-30 Apr) and full 4-semester curriculum breakdown with CP allocations - both previously missing; confirmed grade 2.7 threshold (vs current data's 2.5 - a discrepancy, see correction)",
+          "corrections": [
+            {
+              "field": "minimum_gpa_cutoff",
+              "old": "Bachelor's final grade generally 2.5 or better on German grading scale",
+              "corrected": "2.7 or better (German scale) for fachgebundene Hochschulreife holders with physics/chemistry/EE bachelor's; other degrees also need 2.7+ grade plus recommendation letters/interview",
+              "evidence": "University of Siegen official Nanoscience and Nanotechnology program page"
+            },
+            {
+              "field": "application_process",
+              "old": "Not found via official site",
+              "corrected": "Application period 1 January-30 April; via unisono online portal only, no postal/email submissions accepted",
+              "evidence": "University of Siegen official program page"
+            }
+          ],
+          "notes": "GPA correction: official page states 2.7, not 2.5 as in current data - likely confused with the Bauhaus-Weimar NHRE program's 2.5 threshold (both programs share similar DAAD-EPOS-style boilerplate language)."
+        }
       }
     },
     {
@@ -15272,7 +19203,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not mentioned on page"
         },
-        "exact_admission_regulations": "Entrance examination included in admission procedure; Chinese/Vietnamese/Indian applicants need APS certificate; must submit Bachelor's thesis or equivalent project if not on transcript; DAAD-EPOS admission letters issued regardless of scholarship outcome"
+        "exact_admission_regulations": "Entrance examination included in admission procedure; Chinese/Vietnamese/Indian applicants need APS certificate; must submit Bachelor's thesis or equivalent project if not on transcript; DAAD-EPOS admission letters issued regardless of scholarship outcome",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-weimar.de/en/civil-and-environmental-engineering/studies/master-degree-programmes/nhre/"
+          ],
+          "vpd_uni_assist_required": "Not explicitly mentioned by name (VPD); uni-assist IS the mandatory application channel for 'International Bachelor's degree (no DAAD-EPOS)' applicants, which strongly implies the standard VPD process even though the term isn't used",
+          "application_portal_detail": "EU Bachelor's: campus portal, opens 1 Apr, deadline 30 Sep. International (non-DAAD-EPOS): uni-assist ONLY, opens 1 Apr, deadline 15 Jul. International with DAAD-EPOS: opens 1 Jul, deadline 15 Oct of prior year, admission for winter term following year",
+          "gpa_requirement_verified": "Final Bachelor's grade generally 2.5 (German system) or better (confirmed, matches current data)",
+          "language_requirements_verified": "B2 English required: native speaker status, OR TOEFL iBT >=85 (institution code 8968), OR Cambridge FCE, OR IELTS overall 6.5 with 6.0+ in each section, OR other equivalents (PTE); EU applicants: German Abitur with proven B2 English accepted. Certificate must be <2 years old (<1 year for DAAD-EPOS)",
+          "tuition_and_fees_verified": "Not mentioned on page",
+          "deadlines_verified": "EU Bachelor's: portal opens 1 Apr, deadline 30 Sep 2027. International (non-EPOS): opens 1 Apr, deadline 15 Jul via uni-assist. DAAD-EPOS: opens 1 Jul, deadline 15 Oct of prior year",
+          "curriculum_summary": "4 semesters; covers earthquake engineering, structural design, geotechnical/hydrotechnical engineering, finite element methods, nonlinear analysis under extreme loading, stochastics, risk assessment, disaster management",
+          "required_documents": "Up-to-date CV (Europass format suggested), upper/higher secondary school diploma, Bachelor's degree certificate, transcript, Bachelor's thesis/equivalent project if not on transcript, proof of English proficiency, optional motivation letter; non-English/German documents need certified translations; China/Vietnam/India applicants need APS certificate",
+          "contact_info": "Dr.-Ing. Silke Beinersdorf, nhre@bauing.uni-weimar.de, +49 (0)3643 584581, Marienstr. 13D Room Z.004, 99423 Weimar",
+          "newly_found_info": "Found exact TOEFL institution code (8968) and precise IELTS section-score minimum (6.0 each section, 6.5 overall) not previously fully detailed; confirmed program content/curriculum list",
+          "corrections": [],
+          "notes": "Current data for this entry was largely accurate already - confirms most details, adds exact TOEFL code and curriculum topic list."
+        }
       }
     },
     {
@@ -15354,7 +19303,32 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Conflicting figures across sources: EUR 3,300/semester (EUR 13,200 total over 4 semesters) vs. EUR 6,600/year - not confirmed via official site"
         },
-        "exact_admission_regulations": "One source claims teaching language is German, conflicting with others stating English - this inconsistency could not be resolved without reaching the official Hof University page; recommend direct verification"
+        "exact_admission_regulations": "One source claims teaching language is German, conflicting with others stating English - this inconsistency could not be resolved without reaching the official Hof University page; recommend direct verification",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch - official Hof University page not locatable; multiple aggregators (mygermanuniversity, expatrio, yocket, collegedunia, mastersportal, gradgermany)"
+          ],
+          "vpd_uni_assist_required": "Not mentioned by any source found - aggregators state 'apply directly at University, no admission test or interview, no application fee', suggesting NO uni-assist/VPD requirement, but this remains unconfirmed via an official source",
+          "application_portal_detail": "Unconfirmed; aggregators suggest direct application to Hof University",
+          "gpa_requirement_verified": "Bachelor's in engineering sciences, min 180 ECTS; one source cites recommended 55% or CGPA 5.5/10 (unverified, third-party) - unchanged from current data",
+          "language_requirements_verified": "IELTS 6.5 is the more consistently cited figure across sources (TOEFL 90 also mentioned); one source gives CEFR B2 range without IELTS figure",
+          "tuition_and_fees_verified": "Conflicting: EUR 3,300/semester (EUR 13,200 over 4 semesters) cited by several; EUR 3,150/semester or EUR 6,600/year cited by others - unresolved, matches existing uncertainty in current data",
+          "deadlines_verified": "Unverified cited figures: WiSe application 15 Apr-31 May; SuSe 5 Nov-30 Nov",
+          "curriculum_summary": "Not found via any source",
+          "required_documents": "Not found",
+          "contact_info": "Not found",
+          "newly_found_info": "One new detail: a flyer mentions that if German language level is A1 at admission, modules German A2 and B1 become mandatory - this German-language-module requirement was not in current data",
+          "corrections": [
+            {
+              "field": "exact_admission_regulations",
+              "old": "Teaching language conflicting - German vs English sources disagree",
+              "corrected": "Still unresolved; additionally found that if admitted with German A1 level, German A2 and B1 modules become mandatory parts of the curriculum (per flyer)",
+              "evidence": "baylat.org Flyer_OEX_2021 PDF referenced in search results"
+            }
+          ],
+          "notes": "Could not locate or fetch an official Hof University page for this program despite repeated attempts; this remains the weakest-verified entry in this batch. Recommend direct outreach to Hof University's international office."
+        }
       }
     },
     {
@@ -15436,7 +19410,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site"
         },
-        "exact_admission_regulations": "Program title/name may not match current Hochschule Ansbach offerings exactly - search found only an 'International Product and Service Management' master and a bachelor's 'Angewandte Kunststofftechnik' at Ansbach's Weissenburg site; could be a renamed/discontinued program or DAAD listing may be outdated. Recommend contacting Hochschule Ansbach directly or checking hs-ansbach.de 'Kunststoff'/'Polymer' program pages"
+        "exact_admission_regulations": "Program title/name may not match current Hochschule Ansbach offerings exactly - search found only an 'International Product and Service Management' master and a bachelor's 'Angewandte Kunststofftechnik' at Ansbach's Weissenburg site; could be a renamed/discontinued program or DAAD listing may be outdated. Recommend contacting Hochschule Ansbach directly or checking hs-ansbach.de 'Kunststoff'/'Polymer' program pages",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "WebSearch - hs-ansbach.de domain and polymer-related search terms"
+          ],
+          "vpd_uni_assist_required": "Cannot determine - program appears not to exist under this name at Hochschule Ansbach",
+          "application_portal_detail": "N/A",
+          "gpa_requirement_verified": "N/A",
+          "language_requirements_verified": "N/A",
+          "tuition_and_fees_verified": "N/A",
+          "deadlines_verified": "N/A",
+          "curriculum_summary": "N/A",
+          "required_documents": "N/A",
+          "contact_info": "N/A",
+          "newly_found_info": "CONFIRMED (not newly found, but strongly reinforced): Hochschule Ansbach has NO master's program called 'Polymer Technology and Management'. Ansbach's only polymer-related offering is a part-time Bachelor's 'Angewandte Kunststofftechnik' (B.Eng.) at its Weissenburg/Bavarian Polymer Campus site. A job posting shows Ansbach is hiring an Endowed Professor (W2) of Polymer Engineering starting March 2027, suggesting the polymer master's may be a FUTURE/planned program not yet live, or the DAAD listing is outdated/premature. Johannes Kepler University Linz (Austria, NOT Germany) has a similarly-named 'Management in Polymer Technologies (MPT)' master's, and Hochschule Aalen has an unrelated 'Polymer Technology' M.Sc. - likely sources of the DAAD listing's confusion.",
+          "corrections": [],
+          "notes": "Recommend flagging this DAAD entry as likely erroneous/premature/mislabeled and contacting Hochschule Ansbach's Faculty of Technology directly to confirm whether this program will launch (possibly timed to the new W2 Polymer Engineering professorship starting March 2027) or should be removed/corrected to reference a different institution."
+        }
       }
     },
     {
@@ -15518,7 +19510,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "No separate tuition; semester fee of EUR 391.80"
         },
-        "exact_admission_regulations": "Admission without limits (no NC); no pre-study internship required; taught in English, full-time; double-degree option available; ASIIN accredited"
+        "exact_admission_regulations": "Admission without limits (no NC); no pre-study internship required; taught in English, full-time; double-degree option available; ASIIN accredited",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.b-tu.de/en/powerengineering-ms"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on main page or subpages found - BTU appears to manage admission directly without a confirmed uni-assist/VPD step for this program",
+          "application_portal_detail": "Apply via BTU's 'Apply now'/master programmes application page; admission is 'without admission limits' (no NC)",
+          "gpa_requirement_verified": "Not stated; requires Bachelor's in Power Engineering (electrical or thermal) or related engineering field with 'very good knowledge' in Math/Physics/CS/basic EE or ME, plus specialization-specific knowledge (Electrical Power Engineering OR Power Generation from Fossil/Renewable Fuels track)",
+          "language_requirements_verified": "English proficiency certificate required; 'medium of instruction certificates' explicitly NOT accepted; expired tests not accepted; no specific score given on main page (see linked PDF: Sprachnachweise/MB_Sprachnachweis_Englisch)",
+          "tuition_and_fees_verified": "No separate tuition; semester fee of EUR 391.80 (confirmed)",
+          "deadlines_verified": "Not stated on page; program starts winter semester",
+          "curriculum_summary": "4 semesters full-time; double-degree option available; ASIIN accredited; detailed curriculum at linked 'programme-content-scope' and 'regulations-catalogue-of-modules' pages (not fetched)",
+          "required_documents": "Not listed on main page; linked admission subpage (b-tu.de/en/powerengineering-ms/admission) not fetched this round",
+          "contact_info": "Programme coordinator René Grube: +49 355 69-2879, powerengineering-ms@b-tu.de; Central Student Advisory: +49 355 69 3800, studium@b-tu.de",
+          "newly_found_info": "Found explicit statement that 'medium of instruction certificates' and expired language tests are NOT accepted - an important exclusion criterion not previously documented; found double-degree option and ASIIN accreditation confirmed with specific subpage links",
+          "corrections": [],
+          "notes": "Did not fetch the specific /admission subpage this round (budget) - recommend follow-up to confirm GPA and uni-assist/VPD status definitively, as these remain unconfirmed."
+        }
       }
     },
     {
@@ -15600,7 +19610,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 19,975, payable in five installments"
         },
-        "exact_admission_regulations": "Open admission, no numerus clausus; normal duration 5 semesters, 90 ECTS; accredited, qualifies for doctoral studies; applications via primuss portal"
+        "exact_admission_regulations": "Open admission, no numerus clausus; normal duration 5 semesters, 90 ECTS; accredited, qualifies for doctoral studies; applications via primuss portal",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.haw-landshut.de/en/further-education/offers/masters-degree-programmes/process-management-and-resource-efficiency"
+          ],
+          "vpd_uni_assist_required": "Not found on this page; a dedicated 'Admission requirements' subpage exists but was not fetched this round - recommend follow-up to confirm uni-assist/VPD status",
+          "application_portal_detail": "Apply via Primuss application portal (linked via 'Apply now' button)",
+          "gpa_requirement_verified": "Not stated; open admission (no numerus clausus)",
+          "language_requirements_verified": "Not stated on this page; taught in English but no specific proficiency level given",
+          "tuition_and_fees_verified": "EUR 19,975 total, payable in five installments (confirmed, matches current data)",
+          "deadlines_verified": "Application period 15.04.2027-15.07.2027 for winter semester start (updated/more precise than current data's identical dates - confirmed match)",
+          "curriculum_summary": "Extra-occupational/further education format, 5 semesters, 90 ECTS, English-taught; module catalogue, study/exam schedule, and study/exam regulations all linked as PDFs",
+          "required_documents": "Not detailed on this page; see Admission requirements subpage",
+          "contact_info": "Katharina Schiebel, Academic Advisor, +49 (0)871-506135, Katharina.Schiebel@haw-landshut.de",
+          "newly_found_info": "Found direct link to dedicated 'Admission requirements' subpage (not yet fetched) and 'Fees' subpage for fuller cost breakdown; found specific contact person (Katharina Schiebel) not previously listed",
+          "corrections": [],
+          "notes": "IMPORTANT: a dedicated 'Admission requirements' subpage exists at /en/further-education/offers/masters-degree-programmes/process-management-and-resource-efficiency/admission-requirements but was NOT fetched due to task scope/budget constraints in this session. This is exactly the kind of subpage the user flagged as a risk area (cf. FH Dortmund VPD case) - strongly recommend a follow-up fetch of this specific URL to check for GPA cutoff, uni-assist/VPD requirement, and language test scores before finalizing this entry."
+        }
       }
     },
     {
@@ -15682,7 +19710,33 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 36,000 total"
         },
-        "exact_admission_regulations": "Strongly recommended preparatory crash course 'Probability and Statistics' (mid-Dec to mid-Jan) especially for those with weak probability background; aaq accredited; admission statutes published as German-language PDF"
+        "exact_admission_regulations": "Strongly recommended preparatory crash course 'Probability and Statistics' (mid-Dec to mid-Jan) especially for those with weak probability background; aaq accredited; admission statutes published as German-language PDF",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hectorschool.kit.edu/POM.php",
+            "https://www.hectorschool.kit.edu/admission-requirements.php"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - same as sibling program 4554, HECTOR School appears to use its own application portal, not uni-assist; no VPD mentioned anywhere on site",
+          "application_portal_detail": "Own portal at hectorschool.applicationportal.org, rolling admissions, program starts every October",
+          "gpa_requirement_verified": "No GPA stated; requires first academic degree (Bachelor/Master/Diploma) + 2+ years professional experience",
+          "language_requirements_verified": "No native speaker status needed if: TOEFL >=570 PBT/230 CBT/90 iBT, or IELTS >=6.5, or proof of C1 (same as sibling program 4554, from shared Admission Requirements page)",
+          "tuition_and_fees_verified": "EUR 36,000 total (confirmed)",
+          "deadlines_verified": "None - rolling admissions, October start",
+          "curriculum_summary": "15 months part-time (full-time enrolled) in 10 two-week modules (5 engineering, 5 management), 9-month master's thesis, 90 ECTS; one engineering module held at KIT China branch in Suzhou (differs from program 4554 which uses Budapest); preparatory 'Probability and Statistics' crash course recommended (mid-Dec to mid-Jan)",
+          "required_documents": "Not fully listed; see Application Procedure page",
+          "contact_info": "Temir Vinokhodov, Admissions & Program Consultant, +49 721 608 47880; contact via team.php",
+          "newly_found_info": "Confirmed exact TOEFL/IELTS thresholds (same shared page as 4554); confirmed Suzhou China location for the dislocated engineering module (differs from 4554's Budapest location) - this specific detail was previously stated generically as 'aaq accredited' with no location given",
+          "corrections": [
+            {
+              "field": "exact_admission_regulations",
+              "old": "Strongly recommended preparatory crash course; aaq accredited; admission statutes PDF",
+              "corrected": "Confirmed same, plus: one engineering module (EM) is held at KIT's China branch in Suzhou, not at the main Karlsruhe campus",
+              "evidence": "hectorschool.kit.edu/POM.php official page"
+            }
+          ],
+          "notes": "Sibling program to 4554 (HECTOR School) - shares identical admission/language/tuition structure, differs mainly in curriculum content and location of one off-campus module."
+        }
       }
     },
     {
@@ -15764,7 +19818,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not mentioned on page"
         },
-        "exact_admission_regulations": "Admission unrestricted - all qualified applicants admitted; taught in English; offered jointly with TU Braunschweig (some courses held there); part-time study and study-abroad stay optional"
+        "exact_admission_regulations": "Admission unrestricted - all qualified applicants admitted; taught in English; offered jointly with TU Braunschweig (some courses held there); part-time study and study-abroad stay optional",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/quantum-engineering/"
+          ],
+          "vpd_uni_assist_required": "YES - explicitly confirmed: non-EU applicants need a VPD (Vorprüfungsdokumentation) from uni-assist; this matches and reinforces existing current_official_data which already had this correctly noted",
+          "application_portal_detail": "Application via uni-hannover.de general application page; VPD for non-EU applicants via uni-assist",
+          "gpa_requirement_verified": "No numeric GPA/grade threshold stated (confirmed, matches current data); requires related Bachelor's (EE+IT or Physics or comparable) with 20 ECTS math, 8 ECTS quantum mechanics, 5 ECTS wave optics OR 5 ECTS electrodynamics; admission unrestricted - all qualified applicants admitted",
+          "language_requirements_verified": "International applicants: English C1 level (confirmed, no specific IELTS/TOEFL score given); German applicants: no German-language certificate needed",
+          "tuition_and_fees_verified": "Not mentioned on page",
+          "deadlines_verified": "German/EU first-year: 1 Jun-15 Jul (winter)/1 Dec-15 Jan (summer). Non-EU first-year: 15 Apr-31 May (winter)/15 Oct-30 Nov of prior year (summer), VPD from uni-assist required (confirmed matches current data)",
+          "curriculum_summary": "4 semesters: compulsory physics (quantum optics, advanced solid-state physics), compulsory elective physics (non-classical matter-wave metrology, non-classical light, optical frequency metrology), compulsory elective EE (TU Braunschweig-taught, imported), practical course (computational methods/simulations/experimental control), project work or industrial placement, seminar + key transferable skills, Master's thesis (sem 4, completed during research internship); possible Braunschweig attendance + hybrid option; part-time study and study-abroad possible",
+          "required_documents": "Not detailed on main page; general application page linked but not itemized",
+          "contact_info": "Student Advisory Services (Zentrale Studienberatung), +49 511 762 2020, Welfengarten 1, 30167 Hannover Building 1101",
+          "newly_found_info": "Found full curriculum module breakdown (compulsory/elective physics and EE modules, practical course, project/internship structure) not previously documented; confirmed joint offering with TU Braunschweig for EE elective modules specifically",
+          "corrections": [],
+          "notes": "This entry's current_official_data was already accurate and had correctly flagged the VPD requirement - this fetch reinforces/confirms it was correct, and adds full curriculum detail. Good example of data that was already correctly capturing the VPD gap the user is concerned about."
+        }
       }
     },
     {
@@ -15846,7 +19918,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not mentioned on the page."
         },
-        "exact_admission_regulations": "Separate application required; international admission requirements on separate page; equivalence questions go to physics examination office."
+        "exact_admission_regulations": "Separate application required; international admission requirements on separate page; equivalence questions go to physics examination office.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-siegen.de/en/study/master/quantum-science"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - page refers to a separate international-admission page (uni-siegen.de/nt/quantumscience/admission.html) not fetched; no uni-assist/VPD text found on main page",
+          "application_portal_detail": "Apply via Siegen's unisono application portal / 'Apply now' link on program page",
+          "gpa_requirement_verified": "Not stated on page",
+          "language_requirements_verified": "Only 'sufficient command of English' required; no IELTS/TOEFL score given",
+          "tuition_and_fees_verified": "Not mentioned",
+          "deadlines_verified": "Standard: Winter 1 Apr-30 Sep, Summer 1 Oct-30 Mar. Non-EU qualification: Winter 1 Jan-30 Apr, Summer 1 Aug-31 Oct",
+          "curriculum_summary": "4 semesters, English, Year1 foundational+specialization (quantum tech/computing/engineering, experimental quantum optics, nano-optics), Year2 research + thesis",
+          "required_documents": "Not detailed on this page",
+          "contact_info": "ZSB info.studienberatung@zsb.uni-siegen.de, +49 271 740-2712",
+          "newly_found_info": "Found direct admission subpage link (uni-siegen.de/nt/quantumscience/admission.html) and application portal link (unisono.uni-siegen.de) and examination regulation PDF link not previously noted.",
+          "corrections": [],
+          "notes": "Main page confirmed as before; separate admission subpage exists but was not fetched in this pass due to time constraints - recommend follow-up fetch for GPA/IELTS specifics."
+        }
       }
     },
     {
@@ -15928,7 +20018,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Conflicting third-party figures: possibly free, or 22,000 EUR if run via RWTH International Academy (unconfirmed)."
         },
-        "exact_admission_regulations": "Official program site (rse.rwth-aachen.de) could not be fetched due to TLS certificate error; figures above are from third-party aggregators and should be verified."
+        "exact_admission_regulations": "Official program site (rse.rwth-aachen.de) could not be fetched due to TLS certificate error; figures above are from third-party aggregators and should be verified.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.rse.rwth-aachen.de/ (certificate error)",
+            "web search results only"
+          ],
+          "vpd_uni_assist_required": "Not confirmed - conflicting third-party reports; one says direct application to university (no uni-assist), could not verify officially",
+          "application_portal_detail": "Unconfirmed; RSE is a specialization within the 'Transport Engineering and Mobility' M.Sc.",
+          "gpa_requirement_verified": "Not found officially",
+          "language_requirements_verified": "Not found officially; unofficial IELTS ~6.5/6.0 unconfirmed",
+          "tuition_and_fees_verified": "Not found officially",
+          "deadlines_verified": "Third-party: non-EU 1 Mar, EU 15 Jul (unconfirmed)",
+          "curriculum_summary": "Specialization within Transport Engineering and Mobility M.Sc.; sample modules: Railway Systems, Principles of Rail Vehicle Technology, Energy Storage Systems (sem1), Railway Control Systems (sem2)",
+          "required_documents": "Not found",
+          "contact_info": "Not found",
+          "newly_found_info": "Confirmed program is a specialization track within the broader 'Transport Engineering and Mobility' Master's rather than a standalone program - this is new structural info not in current_official_data.",
+          "corrections": [],
+          "notes": "rse.rwth-aachen.de still has TLS certificate error, unreachable via WebFetch. academy.rwth-aachen.de does not list this program. Official source remains inaccessible; same limitation as before."
+        }
       }
     },
     {
@@ -16010,7 +20119,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not mentioned on the official page."
         },
-        "exact_admission_regulations": "Admission Commission reviews applications; program taught entirely in English; applicants who haven't graduated yet can apply with current transcript."
+        "exact_admission_regulations": "Admission Commission reviews applications; program taught entirely in English; applicants who haven't graduated yet can apply with current transcript.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hochschule-stralsund.de/en/reemm"
+          ],
+          "vpd_uni_assist_required": "Uni-assist required for foreign certificates (confirmed); VPD specifically NOT mentioned by name on this page",
+          "application_portal_detail": "Online application via university portal (e-campus); foreign certificates via uni-assist starting early October",
+          "gpa_requirement_verified": "Confirmed: <=1.8 direct admit, 1.9-2.3 individual assessment w/ motivation letter, >=2.4 rejected",
+          "language_requirements_verified": "B2 CEFR English (confirmed); no IELTS/TOEFL specific score listed",
+          "tuition_and_fees_verified": "Not mentioned on page",
+          "deadlines_verified": "Summer semester 2027: early Nov - 28 Feb 2027 online; uni-assist non-EU by 30 Nov 2026, EU by 28 Feb 2027 (confirmed)",
+          "curriculum_summary": "3-semester, 4-semester w/ internship, 4-semester w/o internship tracks; modules include Modelling of Physical Systems, Renewable Energy Systems, Power Electronics, System Theory, Methods of Power Engineering, electives, Master's Thesis (30 ECTS)",
+          "required_documents": "Motivation letter (~500 words) required if GPA 1.9-2.3; transcript showing ECTS/preliminary mark if degree unfinished",
+          "contact_info": "Prof. Dr.-Ing. Michael Bierhoff (programme director) michael.bierhoff@hochschule-stralsund.de, +49 3831 45 7317; Christina Wanke (advising) studienberatung@hochschule-stralsund.de",
+          "newly_found_info": "Full detailed curriculum by track (3-sem, 4-sem w/ and w/o internship) with module-by-module breakdown; full contact directory (programme director, academic counselling, study office); subject module grade requirement (>=2.7 in 3 of 4 core modules).",
+          "corrections": [],
+          "notes": "All current data confirmed; significant new curriculum and contact detail added."
+        }
       }
     },
     {
@@ -16092,7 +20219,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "24,000 EUR."
         },
-        "exact_admission_regulations": "Requires GRE (Verbal 145, Quant 160, Analytical Writing 3) or completion of German Engineering College (GEC), which can substitute for GRE; program starts winter semester (October)."
+        "exact_admission_regulations": "Requires GRE (Verbal 145, Quant 160, Analytical Writing 3) or completion of German Engineering College (GEC), which can substitute for GRE; program starts winter semester (October).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-robotic-systems-engineering"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - this is a fee-paying RWTH International Academy program; no uni-assist/VPD process described",
+          "application_portal_detail": "No named portal; application/admission guide PDF linked; intake@academy.rwth-aachen.de for inquiries",
+          "gpa_requirement_verified": "Not stated (confirmed as before)",
+          "language_requirements_verified": "No IELTS/TOEFL listed; taught in English, German recommended but not required",
+          "tuition_and_fees_verified": "Confirmed: EUR 24,000 total tuition",
+          "deadlines_verified": "Confirmed: Non-EU Dec 2-Mar 1; EU/EEA/RWTH students/German degree holders Dec 2-Jul 15; winter intake only",
+          "curriculum_summary": "120 ECTS, 4 semesters; compulsory: Linear Control Systems, Fundamentals of ML, Computer Vision I, Robotic Systems, Advanced Robotic Kinematics/Dynamics, Multibody Dynamics, Robotic Sensor Systems, Simulation of Robotic Systems; 10-week internship or research project; 3 tracks: Development & Design, Data & AI, Autonomous & Sensor-based Systems",
+          "required_documents": "GRE scores (or GEC completion) proof; 6-months work experience proof at application, 12 months by enrollment",
+          "contact_info": "RWTH International Academy, Campus-Boulevard 30, 52074 Aachen; info@academy.rwth-aachen.de; intake@academy.rwth-aachen.de; +49 241 8099367",
+          "newly_found_info": "Full compulsory curriculum list, 3 named specialization tracks, internship/research-project alternative, and full contact/address details not previously captured.",
+          "corrections": [],
+          "notes": "GRE requirement (145V/160Q/3AW) and GEC alternative confirmed exactly as in current data."
+        }
       }
     },
     {
@@ -16174,7 +20319,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Could not access th-deg.de/en/apply page content; recommend contacting studium-cham@th-deg.de to confirm exact requirements and deadlines."
+        "exact_admission_regulations": "Could not access th-deg.de/en/apply page content; recommend contacting studium-cham@th-deg.de to confirm exact requirements and deadlines.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://th-deg.de/ir-m-en (404)",
+            "web search aggregators only"
+          ],
+          "vpd_uni_assist_required": "Not confirmed; one aggregator (GradGermany) claims uni-assist is NOT required for this program, but this is unofficial and unverified",
+          "application_portal_detail": "Unofficial: direct online application to DIT, no uni-assist per one aggregator",
+          "gpa_requirement_verified": "Not found via official site",
+          "language_requirements_verified": "Not found via official site; unofficial B2 English mentioned",
+          "tuition_and_fees_verified": "Not found via official site",
+          "deadlines_verified": "Conflicting unofficial reports persist, unresolved",
+          "curriculum_summary": "Unofficial: robot development/application in production and medical technology; taught in English at Campus Cham, also offered online; duration conflicting (3 semesters vs 1.5 years vs 210 ECTS across sources)",
+          "required_documents": "Not found",
+          "contact_info": "studium-cham@th-deg.de (unverified, from prior data)",
+          "newly_found_info": "New unofficial claim that uni-assist is NOT required for this program (conflicts with being flagged as a VPD-relevant risk area) - should be verified directly with studium-cham@th-deg.de given official page remains unreachable.",
+          "corrections": [],
+          "notes": "Official th-deg.de/ir-m-en still returns 404. Could not locate replacement official URL. Same limitation as before; recommend direct email contact."
+        }
       }
     },
     {
@@ -16256,7 +20420,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Semester contribution of EUR 350.05 only; no separate tuition fee mentioned."
         },
-        "exact_admission_regulations": "Admission via aptitude procedure (Eignungsverfahren); university states it cannot pre-assess admission chances; up to 3 applications allowed; must be physically present at semester start unless written approval given."
+        "exact_admission_regulations": "Admission via aptitude procedure (Eignungsverfahren); university states it cannot pre-assess admission chances; up to 3 applications allowed; must be physically present at semester start unless written approval given.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://eah-jena.de/bildungsangebot/studiengang/master-scientific-instrumentation"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page - EAH Jena uses its own Campusportal (campusportal.eah-jena.de) for applications, not uni-assist, no VPD referenced",
+          "application_portal_detail": "EAH Jena Campusportal (campusportal.eah-jena.de): register once, submit application, up to 3 applications allowed, then accept/enroll (Immatrikulation) electronically, mail signed documents",
+          "gpa_requirement_verified": "Confirmed: points = (4-grade)x15 (grades 3.0 or better), max 50 pts study fit + max 15 pts research work; need 55/110 total",
+          "language_requirements_verified": "Confirmed: TOEFL 550 paper/79 iBT or IELTS 6.0 overall, test <=3 years old",
+          "tuition_and_fees_verified": "Confirmed: Semesterbeitrag EUR 350.05 only, no separate tuition",
+          "deadlines_verified": "Confirmed: 1 Dec - 1 Apr for winter semester (Oct 1 start)",
+          "curriculum_summary": "4 semesters, 120 ECTS; Sem1: Applied Mechanics, Materials, Intro Electronics/Microsystems, Intro Optics/Laser Tech, Scientific Computing, German/non-tech module; Sem2-3: Specialisation (Precision Instrument Design / Materials & Processes / Applied Optics & Photonics) + soft skills/CS/QM; Sem4: Thesis+Colloquium",
+          "required_documents": "APS certificate, bachelor's degree, English certificate can be submitted after applying if admitted",
+          "contact_info": "Nancy Reichel (study orientation) +49 3641 205 386; Prof. Dr.-Ing. Ronny Gerbach (program content) +49 3641 205 362; Scientific-Instrumentation@eah-jena.de; WhatsApp +49 160 4826996",
+          "newly_found_info": "Full step-by-step application process (Campusportal registration through Immatrikulation and physical presence requirement), full semester-by-semester curriculum with 3 named specializations, dormitory application timing, and full contact roster.",
+          "corrections": [],
+          "notes": "No uni-assist/VPD used by this institution for this program - applies via own Campusportal instead."
+        }
       }
     },
     {
@@ -16338,7 +20520,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Non-EU citizens: EUR 1,500 per semester (Baden-Württemberg state law); EU citizens: no fee."
         },
-        "exact_admission_regulations": "GRE score strongly recommended; GATE recommended for Indian applicants if available; statement of purpose and recommendation letters optional."
+        "exact_admission_regulations": "GRE score strongly recommended; GATE recommended for Indian applicants if available; statement of purpose and recommendation letters optional.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.h-ka.de/en/sstm/profile"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - HKA uses its own external application portal (hka-application.sensin.eu), not uni-assist",
+          "application_portal_detail": "External portal hka-application.sensin.eu; register, apply, upload documents (paper copies later, originals shown only upon admission)",
+          "gpa_requirement_verified": "Confirmed: no numeric GPA cutoff, ranked by profile-subject marks and 'minimum threshold'",
+          "language_requirements_verified": "Confirmed exactly: TOEFL 550 paper/213 CBT/83 iBT or equivalent; English-taught bachelor's alone insufficient",
+          "tuition_and_fees_verified": "Confirmed: EUR 1,500/semester non-EU; EU citizens no fee",
+          "deadlines_verified": "Confirmed: mid-November non-EU, 15 January EU",
+          "curriculum_summary": "M.Sc., 4 semesters, 120 ECTS, starts summer semester, accredited; detailed module list not on this page (module manual PDF linked)",
+          "required_documents": "CV, bachelor's certificate (may follow later), all transcripts, English certificate, secondary school certificates, passport copy; GRE recommended, GATE recommended for Indian applicants, optional SOP/recommendation letters",
+          "contact_info": "Kirbie Whitten-Reiners (office), +49 721 925-1302; Silke Neureuther and Thorsten Leize (application/program contacts); Building N Room 109, Moltkestr. 30, 76133 Karlsruhe",
+          "newly_found_info": "Full required-documents checklist and full application-process description (external sensin.eu portal) not previously captured; confirmed ~25 students/year intake and no uni-assist use.",
+          "corrections": [],
+          "notes": "No uni-assist/VPD pathway for this program - applies directly via hka-application.sensin.eu."
+        }
       }
     },
     {
@@ -16420,7 +20620,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 10,000 total. Full-time: EUR 4,000 (sem 1), 4,000 (sem 2), 2,000 (sem 3); Part-time (EU only): EUR 2,000/semester over 5 semesters; plus ~EUR 200/semester non-tuition fees and ~EUR 600 for compulsory field trips; extra semester costs EUR 1,000."
         },
-        "exact_admission_regulations": "Structured admission interview (30-45 min) with program professor; 600-900 word academic essay plus motivation letter (max 1 page); APS certificate required for China/India/Vietnam applicants; non-EU applicants must show financial means (~EUR 11,208 blocked account, as of Nov 2022)."
+        "exact_admission_regulations": "Structured admission interview (30-45 min) with program professor; 600-900 word academic essay plus motivation letter (max 1 page); APS certificate required for China/India/Vietnam applicants; non-EU applicants must show financial means (~EUR 11,208 blocked account, as of Nov 2022).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hft-stuttgart.com/studies/fields-of-study/architecture-and-design/master-smart-city-solutions"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - applies via HFT's own My University Portal (hft.hispro.de), not uni-assist",
+          "application_portal_detail": "My University Portal (hft.hispro.de); Gmail addresses not accepted; English certificate can follow by 15 Jul",
+          "gpa_requirement_verified": "Confirmed: no numeric cutoff; 'above-average grades expected' but offsettable via motivation letter",
+          "language_requirements_verified": "CORRECTED/CLARIFIED: TOEFL iBT 4.5+ for tests after 21 Jan 2026 OR 86+ for tests before that date (current data said '4.5+ (after 21 Jan 2026) or 86+ (before)' - confirmed exact match); IELTS Academic 6.5+ confirmed. Note: FAQ section has conflicting older TOEFL figures (550 paper/213 CBT/80 iBT) - page is internally inconsistent",
+          "tuition_and_fees_verified": "Confirmed: EUR 10,000 total both tracks; full-time 4000/4000/2000 per semester; part-time (EU only) 2000/semester x5; ~200/semester extra fees; ~600 field trips; blocked account ~11,208 EUR (Nov 2022 figure)",
+          "deadlines_verified": "Confirmed: Phase 1 Nov-28 Feb; Phase 2 May-15 Jul; start mid-September; pre-semester apply by 15 Nov for March start",
+          "curriculum_summary": "90 ECTS total across 3 semesters: Sem1 modules 1-4 + case study; Sem2 modules 5-8 + case study; Sem3 Master Thesis (30 ECTS). Full-time Fri-Mon; part-time spread across 5 semesters",
+          "required_documents": "Degree certificate/transcripts, school-leaving cert, CV, passport photo, work-experience proof (1yr+), motivation letter (max 1 page), academic essay (600-900 words), English test proof, optional portfolio",
+          "contact_info": "scs-master@hft-stuttgart.de; Gabriel Villegas de la Ossa +49 711 8926 2640; Kristina Sassenberg (secretary); Prof. Iris Belle (Dean of Studies)",
+          "newly_found_info": "Confirmed APS requirement for China/India/Vietnam applicants applies to both application AND visa; found internal page inconsistency between FAQ's older TOEFL scores and the main listed scores - flagging for user awareness; full module-by-module curriculum breakdown.",
+          "corrections": [],
+          "notes": "No uni-assist/VPD for this program. Page itself has an internal contradiction about whether applications are portal-based or email-based ('we only accept applications by e-mail' vs portal description) - worth flagging to user."
+        }
       }
     },
     {
@@ -16502,7 +20720,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "EUR 1,000 per term for non-EU nationals."
         },
-        "exact_admission_regulations": "Restricted admission (specific); VPD from uni-assist required for foreign applicants via PRIMUSS portal, needs 4-6 weeks; applicants with fewer than 210 ECTS may need extra time for missing modules."
+        "exact_admission_regulations": "Restricted admission (specific); VPD from uni-assist required for foreign applicants via PRIMUSS portal, needs 4-6 weeks; applicants with fewer than 210 ECTS may need extra time for missing modules.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-ansbach.de/en/master/smart-energy-systems"
+          ],
+          "vpd_uni_assist_required": "YES - EXPLICITLY CONFIRMED. Page states applicants with relevant prior studies outside Germany 'need a VPD from uni-assist' and must apply with it through the PRIMUSS portal. VPD must be received by university's application deadline (15 Sep) at latest; uni-assist needs 4-6 weeks.",
+          "application_portal_detail": "PRIMUSS applicant portal + VPD from uni-assist (uni-assist.de) for foreign-qualification applicants",
+          "gpa_requirement_verified": "Confirmed: overall examination grade of at least 2.3 (German scale)",
+          "language_requirements_verified": "No specific IELTS/TOEFL score listed; English is language of instruction only",
+          "tuition_and_fees_verified": "Confirmed: EUR 1,000/semester for non-EU nationals",
+          "deadlines_verified": "Confirmed: 1 May-15 Sep (cut-off deadlines), winter semester start only; VPD must arrive by 15 Sep",
+          "curriculum_summary": "90 ECTS, 3 semesters, M.Eng., lectures in Feuchtwangen. Sem1: Energy Systems/Economics, Simulation of Decentralised Energy Systems, IoT Technologies, LabVIEW/AI basics, elective. Sem2: Virtual Power Plant, AI Applications/Blockchain, Entrepreneurial Thinking, Optimisation/OR, project work. Sem3: Master's thesis + seminar",
+          "required_documents": "Not itemized beyond VPD requirement",
+          "contact_info": "Prof. Dr. Kerstin Weiß (listed course mgmt, but staff page says Prof. Dr. Mathias Moog is Head of SES - discrepancy flagged); Jennifer Herud +49 9852 8639-8120; Oliver Abel +49 9852 8639-8240",
+          "newly_found_info": "This is the program the user's flagged VPD issue is analogous to, confirming the pattern: full module-by-module curriculum (previously only general ECTS mention), and a contact-info discrepancy between the program director named on the page vs. the 'Head of SES' on the staff directory.",
+          "corrections": [],
+          "notes": "VPD requirement for this program was ALREADY correctly captured in current_official_data (exact_admission_regulations field) - this one was handled correctly, unlike FH Dortmund ESE."
+        }
       }
     },
     {
@@ -16584,7 +20820,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated; page only links to semester dues info (incl. semester ticket)."
         },
-        "exact_admission_regulations": "Admission regulations published only in German; applications via online portal; instruction entirely in English."
+        "exact_admission_regulations": "Admission regulations published only in German; applications via online portal; instruction entirely in English.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "http://www.uni-bremen.de/en/spst"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page; admission regulations PDF (German only) not fetched - could contain uni-assist/VPD details",
+          "application_portal_detail": "Online application via University of Bremen's general master's application page",
+          "gpa_requirement_verified": "Not stated on page (confirmed as before)",
+          "language_requirements_verified": "C1 CEFR English required (confirmed); no IELTS score given",
+          "tuition_and_fees_verified": "Not listed; only semester dues (incl. semester ticket) mentioned",
+          "deadlines_verified": "Confirmed: 30 April (1st semester/winter intake), 15 January (2nd semester, advanced students only)",
+          "curriculum_summary": "4 semesters, 120 ECTS; 3 core data areas (Sensing/Processing/Communication); 2 focus areas (Physics for Space Observation OR IT for Space); labs, research project, thesis+colloquium in sem4",
+          "required_documents": "Letter of motivation required",
+          "contact_info": "Anja Gatzka (Study Center) +49 421 218 62075; Prof. Dr. Annette Ladstätter-Weißenmayer +49 421 218-62105; Prof. Dr.-Ing. Steffen Paul +49 421 218-62525",
+          "newly_found_info": "Found direct links to German-only admission regulations (AO-MSc-Space-ST-12-23.pdf) and examination regulations (MPO-Space-ST-02-24) and English-language module guide/program scheme PDFs not previously listed; full contact roster.",
+          "corrections": [],
+          "notes": "Admission regulations PDF (German) was not opened in this pass - would need a PDF-specific fetch to check for uni-assist/VPD mention buried in formal regulations."
+        }
       }
     },
     {
@@ -16666,7 +20920,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Non-EU/EEC applicants: EUR 1,200 per semester."
         },
-        "exact_admission_regulations": "Online selection interview for shortlisted candidates (Oct 2026-Feb 2027); optional standardised test (GRE, GMAT, or dMAT for Indian applicants); Indian applicants need dMAT (EUR150) for APS/visa; THI does not work with agencies or request pre-admission payment."
+        "exact_admission_regulations": "Online selection interview for shortlisted candidates (Oct 2026-Feb 2027); optional standardised test (GRE, GMAT, or dMAT for Indian applicants); Indian applicants need dMAT (EUR150) for APS/visa; THI does not work with agencies or request pre-admission payment.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.thi.de/en/faculties/sustainable-infrastructure/degree-programmes/sustainability-management-and-technologies-msc/"
+          ],
+          "vpd_uni_assist_required": "YES, confirmed - international applications go through uni-assist portal; 'if you need a VPD from uni-assist, you pay uni-assist a processing fee'; uni-assist only checks documents, doesn't grant admission. THI explicitly warns it never asks for payment via agencies.",
+          "application_portal_detail": "Uni-assist application portal; THI online application page for direct applicants; for 3rd-country applicants there is also a video interview + online selection interview (Oct 2026-Feb 2027)",
+          "gpa_requirement_verified": "Confirmed: no fixed minimum; Bachelor's GPA is one selection criterion for 3rd-country applicants, alongside optional GRE/GMAT/dMAT",
+          "language_requirements_verified": "Confirmed: English B2 (recognized tests list in General Statutes); German A1 (provable until end of 1st semester)",
+          "tuition_and_fees_verified": "Confirmed: EUR 1,200/semester for non-EU/EEC applicants",
+          "deadlines_verified": "Confirmed: Summer semester 2027 application 15 Oct 2026-15 Jan 2027; selection interviews Oct 2026-Feb 2027",
+          "curriculum_summary": "4 semesters, 120 ECTS, M.Sc., located Neuburg. Sem1: Circular Economy/LCA, Sustainability Business Basics, Climate Change/De-Carb Tech, Metrics/Analytics, Technology and Society, Research Skills. Sem2: AI & Sustainability, Sustainable Materials/Recycling, Natural Resources Mgmt/Supply Chain, Values/Ethics, Elective I. Sem3: Urban Ecology, Sustainable Business Strategy, Sustainable Investments/Finance, Sustainability Project/Field Trip, Elective II. Sem4: Thesis+Colloquium",
+          "required_documents": "dMAT (EUR150, for Indian engineering/commerce/business applicants, needed for APS/visa in addition to uni-assist VPD)",
+          "contact_info": "Prof. Dr. Julia Blasch (Academic Director) Julia.Blasch@thi.de, +49 841 9348-2395; general info@thi.de, +49 841 9348-0",
+          "newly_found_info": "VPD/uni-assist fee mechanics explicitly explained (uni-assist charges a processing fee; only checks documents, doesn't admit); full semester-by-semester curriculum; dMAT requirement detail for Indian applicants layered on top of uni-assist VPD.",
+          "corrections": [],
+          "notes": "VPD/uni-assist requirement was already partially captured in current data via 'dMAT for Indian applicants' but the explicit uni-assist/VPD processing-fee mechanic is new detail."
+        }
       }
     },
     {
@@ -16748,7 +21020,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site (unreliable third-party figure of ~EUR714/year should not be trusted)."
         },
-        "exact_admission_regulations": "Restricted-admission (NC) program, 4 semesters full-time, taught in English at Friedberg campus; mentoring programme available for some subjects; THM Language Center offers German courses; recommend contacting stem@wi.thm.de for GPA/tuition/English specifics."
+        "exact_admission_regulations": "Restricted-admission (NC) program, 4 semesters full-time, taught in English at Friedberg campus; mentoring programme available for some subjects; THM Language Center offers German courses; recommend contacting stem@wi.thm.de for GPA/tuition/English specifics.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.thm.de/site/en/education/courses-offered/sustainability-transformation-in-engineering-and-management-master.html",
+            "https://www.thm.de/wi/international/incoming/stem-msc"
+          ],
+          "vpd_uni_assist_required": "Uni-assist portal used for international applicants with foreign Bachelor's ('Applications are submitted online via the uni-assist portal'), but VPD is NOT explicitly named on either page checked",
+          "application_portal_detail": "uni-assist portal (my.uni-assist.de) for foreign-degree applicants; THM Studiensekretariat page for Master's applications generally; HZB (university entrance qualification) must be checked via uni-assist's online tool first",
+          "gpa_requirement_verified": "Not found via official site (confirmed as before)",
+          "language_requirements_verified": "Not found via official site (confirmed as before)",
+          "tuition_and_fees_verified": "Not found via official site (confirmed as before)",
+          "deadlines_verified": "Confirmed: Winter semester 1 Apr-17 Jul; Summer semester 1 Oct-15 Jan",
+          "curriculum_summary": "No module list on either page; refers to separate 'Discover STEM' page not fetched in this pass",
+          "required_documents": "Not detailed; HZB-check via uni-assist tool is a prerequisite step",
+          "contact_info": "Lena Oestreich (STEM contact) +49 6031 604-3578, stem@wi.thm.de; Fachbereich WI secretariat +49 6031 604 3500/3501",
+          "newly_found_info": "Found 'Pre-Study THM' bridging program for indirect-HZB holders, mentoring program for international students, Language Center German courses, and InternationalTalents career coaching service - none of these were in current_official_data.",
+          "corrections": [],
+          "notes": "Did not locate GPA, English test score, or tuition info despite checking two pages - recommend direct contact with stem@wi.thm.de as before. Discover-STEM subpage (linked) was not fetched and may contain curriculum/GPA details."
+        }
       }
     },
     {
@@ -16830,7 +21121,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not mentioned on the page."
         },
-        "exact_admission_regulations": "Restricted admission (numerus clausus); part-time program requiring concurrent employment; separate proof documents needed for German vs. international transcripts."
+        "exact_admission_regulations": "Restricted admission (numerus clausus); part-time program requiring concurrent employment; separate proof documents needed for German vs. international transcripts.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-rm.de/en/engineering/degree-programs/masters-degrees/sustainable-and-digital-aviation"
+          ],
+          "vpd_uni_assist_required": "Not mentioned on this page; separate links exist for 'application with German academic transcripts' and 'application with foreign/international academic transcripts' (bewerbung-mit-auslaendischen-zeugnissen) which were not fetched and may contain uni-assist/VPD details",
+          "application_portal_detail": "Apply via 'application-and-enrollment' page; separate document paths for German vs. international transcripts",
+          "gpa_requirement_verified": "Not stated (confirmed as before)",
+          "language_requirements_verified": "English B2+ required (confirmed), no specific IELTS/TOEFL score given; separate English-level-requirements page linked but not fetched",
+          "tuition_and_fees_verified": "Not mentioned (confirmed as before)",
+          "deadlines_verified": "Confirmed: 15 July winter semester, 15 January summer semester (both German and foreign transcripts)",
+          "curriculum_summary": "4 semesters, English, blended learning (Fri afternoons + Saturdays), located at HOLM near Frankfurt Airport. Topics: sustainable propulsion/energy, sustainability/lifecycle mgmt, data analytics/AI in aviation, digital transformation/cybersecurity, advanced/urban air mobility, change mgmt/business dev/legal tech, interdisciplinary project work, research-oriented thesis",
+          "required_documents": "Differ by transcript type (German vs. international) - see linked subpages",
+          "contact_info": "Prof. Dr. Matthias Schäfer +49 6142 8984233; Christina Emmerich (Assistant) +49 6142 8984214; i-Punkt first-contact service",
+          "newly_found_info": "Full curriculum themes, blended-learning format with specific days (Fri PM + Sat), location at HOLM/Frankfurt Airport, admission statutes PDF link, module handbook PDF link.",
+          "corrections": [],
+          "notes": "Requirement of concurrent 20hr/week engineering/aviation employment confirmed (part-time program). International-transcript application subpage not fetched in this pass - recommend follow-up for uni-assist/VPD specifics since this is a strong candidate for a VPD requirement given it needs foreign-transcript handling."
+        }
       }
     },
     {
@@ -16912,7 +21221,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Reported (unofficial, third-party): no tuition fee, only semester contribution (~EUR300)."
         },
-        "exact_admission_regulations": "Program being renamed for 2026/27 winter semester per TU Dresden's planned-changes page; aptitude assessment (Eignungsverfahren) regulations govern admission, handled by an Admissions Committee; official application/admission subpage (tu-dresden.de/mn/physik/studium/master-sep/application) exists but detailed content not retrievable in this session."
+        "exact_admission_regulations": "Program being renamed for 2026/27 winter semester per TU Dresden's planned-changes page; aptitude assessment (Eignungsverfahren) regulations govern admission, handled by an Admissions Committee; official application/admission subpage (tu-dresden.de/mn/physik/studium/master-sep/application) exists but detailed content not retrievable in this session.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://tu-dresden.de/mn/physik/studium/master-sep"
+          ],
+          "vpd_uni_assist_required": "Not mentioned - admission is governed by TU Dresden's own Eignungsverfahren (aptitude assessment), no uni-assist/VPD text found on this page",
+          "application_portal_detail": "Not stated on this page; aptitude assessment (Eignungsverfahren) handled by an Admissions Committee",
+          "gpa_requirement_verified": "Not found on official page (confirmed as before)",
+          "language_requirements_verified": "Not found on official page; conflicting third-party IELTS figures (7.0 vs 6.5) remain unresolved",
+          "tuition_and_fees_verified": "Not mentioned (confirmed as before)",
+          "deadlines_verified": "Not found via official site (confirmed as before)",
+          "curriculum_summary": "Mandatory focus on Sustainability and Resource Management plus core technical modules; research areas: OLEDs, nanowire transistors, optical memory, biomedical/sensor devices, flexible/printed electronics, organics, perovskites, metal oxides",
+          "required_documents": "Not found",
+          "contact_info": "No named contact; only general 'Beratung und Service Studium' faculty page and student council (Fachschaft) link",
+          "newly_found_info": "Confirmed program is being renamed for 2026/27; the only application-related link on the page actually points to the OLDER OME program's application page (master-ome/application), not a SEP-specific one - suggesting the SEP program's own application subpage may not yet exist or is mislinked. This is a notable finding.",
+          "corrections": [],
+          "notes": "IMPORTANT: the admission/application link on the official SEP page incorrectly points to the OME (predecessor) program's application page, not a SEP-specific one. This could itself be a site error worth flagging. Could not retrieve admission/GPA/IELTS/deadline/tuition info as before."
+        }
       }
     },
     {
@@ -16994,7 +21321,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Application has three stages: online application, selection, and feedback; process graphic available as PDF on official site; recommend contacting department directly (Munketoft 3b, 24937 Flensburg, +49 461 805 2503)."
+        "exact_admission_regulations": "Application has three stages: online application, selection, and feedback; process graphic available as PDF on official site; recommend contacting department directly (Munketoft 3b, 24937 Flensburg, +49 461 805 2503).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.uni-flensburg.de/sedev"
+          ],
+          "vpd_uni_assist_required": "Not found - admission/deadlines subpages (/sedev/admission, dates-and-deadlines) were identified but not fetched in this pass",
+          "application_portal_detail": "Not stated on main page; /sedev/admission subpage link confirmed to exist",
+          "gpa_requirement_verified": "Not found via official site (confirmed as before)",
+          "language_requirements_verified": "Not found via official site (confirmed as before)",
+          "tuition_and_fees_verified": "Not found via official site (confirmed as before)",
+          "deadlines_verified": "Not found; /sedev/deadlines does not exist as a direct link - university-wide 'Dates and deadlines' page linked instead",
+          "curriculum_summary": "Program succeeds earlier postgraduate programmes ARTES, SESAM, EEM; focus areas: renewable energy integration, project management, energy planning, implementing sustainable energy systems with communities",
+          "required_documents": "Not found",
+          "contact_info": "Department of Sustainable Energy & Development, Munketoft 3b, 24937 Flensburg, +49 461 805 2503, fax +49 461 805 2505",
+          "newly_found_info": "Confirmed SEDev succeeds three older programs (ARTES, SESAM, EEM) - useful context not in current data. Also found /sedev/faq and /sedev/academics and /sedev/who-we-are subpages not previously listed.",
+          "corrections": [],
+          "notes": "The /sedev/admission subpage (confirmed to exist via link) was NOT fetched in this pass due to time/scope constraints - this is the single most important follow-up needed for this program since it almost certainly contains GPA/language/deadline/uni-assist details."
+        }
       }
     },
     {
@@ -17076,7 +21421,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Page navigation suggests an 'Information Application and...' subpage exists with these details, but it returned a server error (HTTP 500) when fetched."
+        "exact_admission_regulations": "Page navigation suggests an 'Information Application and...' subpage exists with these details, but it returned a server error (HTTP 500) when fetched.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.tu-dortmund.de/en/studies/degree-programs/sustainable-energy-systems-918 (nav only, program content not retrieved)",
+            "web search aggregators"
+          ],
+          "vpd_uni_assist_required": "Unconfirmed but likely - one official page reportedly states 'beginning from February 2023 the application will be handled via Uni-Assist' per search snippet, though this wasn't independently verified; VPD not explicitly mentioned anywhere",
+          "application_portal_detail": "TU Dortmund campus portal (campus.tu-dortmund.de) per official page per search result; uni-assist for international applicants per other official page (unverified firsthand)",
+          "gpa_requirement_verified": "Not found via official site; DAAD listing says admission based on overall academic performance",
+          "language_requirements_verified": "Not found via official site directly; DAAD listing suggests CEFR C1 (~IELTS 7/TOEFL 95), unconfirmed",
+          "tuition_and_fees_verified": "Reported (search snippet of official page): no tuition fee, ~EUR 320 semester admin fee",
+          "deadlines_verified": "Conflicting even across official-looking pages per search: one says Summer Term 18 Nov-15 Jan, Winter Term 24 Mar-15 Jun; another source says 15 Jul winter / 15 Jan summer",
+          "curriculum_summary": "4 semesters; includes 12-week industrial internship in 3rd semester; module handbook PDF (MASESmodulhandbuch) found at etit.tu-dortmund.de",
+          "required_documents": "Not found",
+          "contact_info": "Not found",
+          "newly_found_info": "Found working module-handbook and examination-regulation PDF links hosted at etit.tu-dortmund.de (previously the etit domain was reported as returning server errors); also found the general tu-dortmund.de program page URL (tu-dortmund.de/en/studies/degree-programs/sustainable-energy-systems-918) as a working alternative entry point, though its program-specific content did not load within this fetch's character limit.",
+          "corrections": [],
+          "notes": "etit.tu-dortmund.de PDF documents ARE reachable (unlike the HTML page which previously 500'd) - recommend a follow-up fetch of https://www.tu-dortmund.de/en/studies/degree-programs/sustainable-energy-systems-918 with an offset to get past the navigation boilerplate, as this call was cut off by content length."
+        }
       }
     },
     {
@@ -17158,7 +21522,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Admission reported as local admission restriction with no entrance test/interview (unconfirmed); governed by course-specific examination regulation (Studiengangspezifische Prüfungsordnung); program ~4 semesters, starts winter semester."
+        "exact_admission_regulations": "Admission reported as local admission restriction with no entrance test/interview (unconfirmed); governed by course-specific examination regulation (Studiengangspezifische Prüfungsordnung); program ~4 semesters, starts winter semester.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://lfi.rwth-aachen.de/en/?p=475 (connection refused)",
+            "web search aggregators only"
+          ],
+          "vpd_uni_assist_required": "Not found; one aggregator claims 'application fee: none, applies directly at university' (no uni-assist implied) but unverified officially",
+          "application_portal_detail": "Unconfirmed",
+          "gpa_requirement_verified": "Not found via official site",
+          "language_requirements_verified": "Not found via official site; taught fully in English per aggregators",
+          "tuition_and_fees_verified": "Reported (unofficial): no tuition",
+          "deadlines_verified": "Not found via official site",
+          "curriculum_summary": "4 semesters, full-time, winter-only intake; interdisciplinary units -> water/water mgmt at RWTH -> energy/energy mgmt with mandatory mobility window at Politecnico di Milano -> final semester on water-energy nexus",
+          "required_documents": "Not found",
+          "contact_info": "Not found",
+          "newly_found_info": "Found the mandatory mobility/exchange semester at Politecnico di Milano as part of the curriculum structure - this is new and significant info not in current_official_data. Prerequisite CP figures conflict between sources (19 vs 20 CP in process engineering/energy technology/water management).",
+          "corrections": [],
+          "notes": "fb3.rwth-aachen.de and the newly-tried lfi.rwth-aachen.de both unreachable (connection refused). Could not access any official RWTH page for this program in this session either. Mandatory Milan exchange semester is the key new finding."
+        }
       }
     },
     {
@@ -17240,7 +21623,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "None (no tuition fee)."
         },
-        "exact_admission_regulations": "Applicants with fewer than 210 ECTS can be admitted with a 20-week internship or additional Hof modules, requiring an extra (4th) semester; foreign certificates need uni-assist assessment; recommend sending documents 4 weeks before deadline; page's EU deadline info is internally inconsistent."
+        "exact_admission_regulations": "Applicants with fewer than 210 ECTS can be admitted with a 20-week internship or additional Hof modules, requiring an extra (4th) semester; foreign certificates need uni-assist assessment; recommend sending documents 4 weeks before deadline; page's EU deadline info is internally inconsistent.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hof-university.com/studying-at-hof-university/our-degree-programs/sustainable-water-management-and-engineering-meng.html"
+          ],
+          "vpd_uni_assist_required": "Uni-assist mentioned for foreign-certificate assessment but VPD not named explicitly",
+          "application_portal_detail": "Standard online application; foreign certificates need uni-assist assessment; recommend sending documents 4 weeks before deadline",
+          "gpa_requirement_verified": "Confirmed: minimum grade 2.5 (German scale)",
+          "language_requirements_verified": "Confirmed: TOEFL min 90 or IELTS 6.5+; German A1 minimum also required",
+          "tuition_and_fees_verified": "Confirmed: no tuition fee",
+          "deadlines_verified": "Confirmed (with same internal inconsistency as before): Winter 15 Apr-31 May (non-EU)/1 May-15 Jul (EU); Summer 5 Nov-30 Nov (non-EU)/15 Nov-15 Jan (EU)",
+          "curriculum_summary": "Not re-verified in this pass beyond prior data (210 ECTS/Bachelor's requirement, 20-week internship or extra Hof modules option for <210 ECTS applicants)",
+          "required_documents": "Not itemized beyond uni-assist assessment note",
+          "contact_info": "Not re-verified in this pass",
+          "newly_found_info": "None beyond confirming existing data; did not find a separate admission-requirements subpage with VPD-specific language in this pass.",
+          "corrections": [],
+          "notes": "Re-confirmed prior findings via same page; did not find additional subpages in this pass to resolve the EU-deadline inconsistency flagged previously."
+        }
       }
     },
     {
@@ -17322,7 +21723,26 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Could not reach official faculty website due to connection error; recommend retry or contacting RWTH EE/IT faculty directly."
+        "exact_admission_regulations": "Could not reach official faculty website due to connection error; recommend retry or contacting RWTH EE/IT faculty directly.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "elektrotechnik.rwth-aachen.de (connection refused)",
+            "web search aggregators only"
+          ],
+          "vpd_uni_assist_required": "Not found via official site",
+          "application_portal_detail": "Unconfirmed; program structure clarified: applicants apply for 'Electrical Engineering and Information Technology' M.Sc. generally, and choose the 'Systems Engineering and Automation' major AFTER admission/enrollment (confirmed structural point from search, consistent across both RWTH majors programs like RoboSys)",
+          "gpa_requirement_verified": "Not found via official site",
+          "language_requirements_verified": "Not found via official site; English confirmed as instruction language",
+          "tuition_and_fees_verified": "Not found via official site",
+          "deadlines_verified": "Conflicting unofficial figures persist (Mar1/Jul15 open vs Jul15/Jan15 restricted vs winter-only)",
+          "curriculum_summary": "Not found beyond major-selection structure",
+          "required_documents": "Not found",
+          "contact_info": "Not found",
+          "newly_found_info": "Confirmed the admission structure: this is a specialization chosen post-enrollment within the broader EE/IT Master's program, not a standalone application track - same pattern as RoboSys (4819) and Railway Systems Engineering (4881) at RWTH.",
+          "corrections": [],
+          "notes": "elektrotechnik.rwth-aachen.de still unreachable (connection refused). No new official access gained this session."
+        }
       }
     },
     {
@@ -17404,7 +21824,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated in retrieved content."
         },
-        "exact_admission_regulations": "Recommend checking 'Study Program at a Glance' section directly or contacting student advising for GPA/fee/English specifics."
+        "exact_admission_regulations": "Recommend checking 'Study Program at a Glance' section directly or contacting student advising for GPA/fee/English specifics.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.sem.ovgu.de"
+          ],
+          "vpd_uni_assist_required": "Not found on this page; applying via uni-assist is mentioned as a link ('Apply via uni-assist') for international students without a German Bachelor's degree, but VPD is not named explicitly",
+          "application_portal_detail": "Two routes: international students without German Bachelor's apply via uni-assist (link: ovgu.de .../Applying+via+uni_assist); students with German Bachelor's apply directly to OVGU",
+          "gpa_requirement_verified": "Not found in retrieved content - 'Study Program at a Glance' section only listed as a menu, actual GPA content not retrieved",
+          "language_requirements_verified": "Not found; only mentions enrolling in a language course per language center, no English test thresholds given",
+          "tuition_and_fees_verified": "Not found in retrieved content",
+          "deadlines_verified": "Confirmed: without German Bachelor's (uni-assist) 15 Apr or 15 Jun; with German Bachelor's (direct) 15 May or 15 Sep. Also newly found: enrolment documents due by 30 Sep, arrival in Magdeburg by 31 Oct, exam registration deadlines Nov 15/30 (winter) and May 15/31 (summer)",
+          "curriculum_summary": "Mandatory, compulsory-elective, and free-elective modules; includes an internship with a project topic; details not retrieved from 'Study Program at a Glance' section",
+          "required_documents": "Not found",
+          "contact_info": "Individual student advising, Engineering for Manufacturing dept, Universitätsplatz 2, 39106 Magdeburg (named contact person field was blank on page)",
+          "newly_found_info": "Found several new deadline milestones beyond the application deadlines: enrollment-document deadline (30 Sep), arrival deadline (31 Oct), and exam-registration windows - not in current_official_data. Also found a direct 'Applying via uni-assist' subpage link.",
+          "corrections": [],
+          "notes": "'Study Program at a Glance' section (which should hold GPA/language/tuition/curriculum specifics) rendered only as an unexpanded menu in the fetch - recommend a follow-up fetch targeting the 'Prospective students' page (ovgu.de/Prospective+students.html) directly for this content."
+        }
       }
     },
     {
@@ -17486,7 +21924,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not found via official site."
         },
-        "exact_admission_regulations": "Page had an English version link ('DE | EN'); 'Enrolment process' page under Prospective Students and 'Immatrikulations- und Prüfungsamt' (admission office) are referenced but not retrieved in this session."
+        "exact_admission_regulations": "Page had an English version link ('DE | EN'); 'Enrolment process' page under Prospective Students and 'Immatrikulations- und Prüfungsamt' (admission office) are referenced but not retrieved in this session.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-emden-leer.de/en/current-students/faculties/technology/study-programs/technical-management"
+          ],
+          "vpd_uni_assist_required": "Not found - program content page was truncated/cut off before substantive content; only navigation menu retrieved",
+          "application_portal_detail": "Ecampus portal (ecampus.hs-emden-leer.de) identified as the application portal from navigation",
+          "gpa_requirement_verified": "Not found via official site (confirmed as before - page content still truncated)",
+          "language_requirements_verified": "Not found via official site (confirmed as before)",
+          "tuition_and_fees_verified": "Not found via official site (confirmed as before)",
+          "deadlines_verified": "Not found directly; 'Dates, Deadlines' subpage link confirmed to exist at /en/current-students/faculties/technology/study/dates-deadlines but not fetched",
+          "curriculum_summary": "Not found; page content truncated before program description, same as before",
+          "required_documents": "Not found",
+          "contact_info": "Technology faculty contact page linked but not fetched; Admission and examination office and Student Counselling Service pages also linked",
+          "newly_found_info": "Confirmed exact URLs for the Ecampus application portal and the 'Dates, Deadlines' and 'Enrolment process' subpages that were referenced only descriptively in current_official_data - these are concrete working links now.",
+          "corrections": [],
+          "notes": "Main program page content is still not retrievable (truncated by navigation boilerplate) in this session, same limitation as before. Recommend a follow-up fetch of the Dates/Deadlines and Enrolment process subpages directly, and/or the German program page, to get past the truncation."
+        }
       }
     },
     {
@@ -17568,7 +22024,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Listed as 'n/a' on official page; separate page covers the semester contribution (not tuition per se)."
         },
-        "exact_admission_regulations": "Restricted places; admission board weighs academic performance, language proficiency, and professional experience; winter 2026/27 admission process already closed; summer 2027 applications open early October."
+        "exact_admission_regulations": "Restricted places; admission board weighs academic performance, language proficiency, and professional experience; winter 2026/27 admission process already closed; summer 2027 applications open early October.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-harz.de/en/technology-and-innovation-management"
+          ],
+          "vpd_uni_assist_required": "Not mentioned explicitly - page states foreign-degree applicants apply via uni-assist.de but does not name VPD specifically",
+          "application_portal_detail": "Foreign degree: uni-assist.de. German degree: hs-harz.de directly",
+          "gpa_requirement_verified": "Confirmed: Bachelor's GPA 2.5 or better (German scale), overall result 'Good' or better",
+          "language_requirements_verified": "Confirmed: English B2 upper level with recognized certificate; German recommended not required",
+          "tuition_and_fees_verified": "Confirmed: tuition listed as 'n/a'; separate semester-contribution fee page linked",
+          "deadlines_verified": "CONFIRMED with added precision: foreign degree (uni-assist) winter 15 Jun/summer 15 Dec; German degree (direct) winter 15 Jul/summer 15 Jan. Also newly found: winter 2026/27 admissions already closed, summer 2027 applications open early October",
+          "curriculum_summary": "Regular Track (4 sem, 180 ECTS, with 30-ECTS adjustment semester) vs Fast Track (3 sem, 210 ECTS, no adjustment semester); core curriculum covers Strategic Innovation Mgmt, Operations Research/IT Security, Agile Requirements Eng/Digital Transformation, Information Retrieval Tech, Digital Business Models, Functional Safety, Tech Assessment/Sustainability, Big Data/Geoinformation, electives (Mixed Reality, Smart Buildings etc.), R&D Project; thesis+colloquium final semester",
+          "required_documents": "Professional experience proof (10 weeks+), motivation letter (1-2 pages)",
+          "contact_info": "+49 3943 659 152, tim@hs-harz.de",
+          "newly_found_info": "Full curriculum breakdown including the adjustment semester content (Industry 4.0, Research Fields in CS, Engineering Project, German language courses) for Regular Track students; FAQ page link; recognized-language-certificates document link.",
+          "corrections": [],
+          "notes": "No explicit VPD naming despite uni-assist usage; all other prior data confirmed accurately."
+        }
       }
     },
     {
@@ -17650,7 +22124,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not mentioned on the page."
         },
-        "exact_admission_regulations": "Program starts in summer semester, unusual for German master's programs (most start winter)."
+        "exact_admission_regulations": "Program starts in summer semester, unusual for German master's programs (most start winter).",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.h2.de/en/studies/masters-programmes/water-engineering.html"
+          ],
+          "vpd_uni_assist_required": "Uni-assist confirmed as the application route for foreign qualifications ('apply via uni-assist till 30 November'), but VPD not named explicitly on this page",
+          "application_portal_detail": "Uni-assist for foreign-qualification applicants; Onlinecampus portal (onlinecampus.h2.de) also referenced in site header",
+          "gpa_requirement_verified": "Confirmed: minimum grade 2.0 (German scale), 7 semesters or 210 credits",
+          "language_requirements_verified": "Confirmed exactly: B2 CEFR; IELTS 5, Cambridge FCE A-C, TOEIC 541, TOEFL iBT 87, UNIcert II, ALTE Level 3, or equivalent; exemptions for bilingual schooling/native speakers/half-year abroad",
+          "tuition_and_fees_verified": "Not mentioned (confirmed as before)",
+          "deadlines_verified": "Confirmed: 30 November deadline via uni-assist for summer semester start; admission decision end of January",
+          "curriculum_summary": "3 semesters; Sem1: Global water resources mgmt, Water supply, Statistical Methods & AI, Waste technologies, Restoration Ecology, Soft Skills, Environmental Chemistry of Waters, Groundwater; Sem2: Hydraulic Engineering, Hydrology/GIS, Experimental Hydraulics, River Morphology, CFD, Waste Water, Drinking Water Treatment, Social Aspects; Sem3: Master's Thesis",
+          "required_documents": "Not itemized beyond uni-assist process",
+          "contact_info": "Felix Welz (Study Advisor) +49 391 886 4106, study@h2.de",
+          "newly_found_info": "Full semester-by-semester curriculum (previously not captured at all); confirmed program always starts in SUMMER semester (unusual, already flagged in current data) with admission decisions at end of January.",
+          "corrections": [],
+          "notes": "No explicit VPD naming found despite uni-assist usage; all prior data confirmed with full curriculum added."
+        }
       }
     },
     {
@@ -17732,7 +22224,25 @@ const DATABASE = {
         "financial_costs": {
           "tuition_non_eu": "Not stated; only mentions scholarship options (e.g. Deutschlandstipendium, EUR300/month)."
         },
-        "exact_admission_regulations": "Entry depends on credit points: 180 CP bachelor's allows winter (1st semester) entry; 210 CP bachelor's needed for summer semester entry; non-German bachelor's applicants apply via uni-assist, German bachelor's/Diplom holders apply via online tool."
+        "exact_admission_regulations": "Entry depends on credit points: 180 CP bachelor's allows winter (1st semester) entry; 210 CP bachelor's needed for summer semester entry; non-German bachelor's applicants apply via uni-assist, German bachelor's/Diplom holders apply via online tool.",
+        "deep_recheck": {
+          "checked_on": "2026-11-07",
+          "sources_consulted": [
+            "https://www.hs-flensburg.de/en/studieninteressierte/angebot/master/WE"
+          ],
+          "vpd_uni_assist_required": "Not mentioned explicitly - page states non-German bachelor's holders apply via uni-assist (which assesses credits/converts to ECTS) but VPD is not named by name",
+          "application_portal_detail": "German bachelor's/Diplom holders: online application tool (cm.hs-flensburg.de, qisserver portal). Non-German bachelor's holders: uni-assist",
+          "gpa_requirement_verified": "Confirmed: final grade 'gut' (good) or better, OR below-good with 2+ favorable professor reference letters",
+          "language_requirements_verified": "Confirmed: 'good English skills' required, no specific test/score named; language of instruction is English",
+          "tuition_and_fees_verified": "Not mentioned (confirmed); Deutschlandstipendium EUR 300/month scholarship option mentioned",
+          "deadlines_verified": "Confirmed: preferred first deadlines 15 May (winter) and 15 Nov (summer); 180CP bachelor's -> winter 1st-semester entry; 210CP bachelor's -> summer-semester entry, 3-sem duration",
+          "curriculum_summary": "Sem1: environmental factors in wind industry, technical maths, technical English. Sem2: wind turbines, aerodynamics, rotor structures. Sem3: choose 1 of 4 majors (Mechanical/Electrical/Structural Engineering/Project Development) + group design project. Sem4: master's thesis (for 4-sem track)",
+          "required_documents": "Not itemized beyond uni-assist credit assessment",
+          "contact_info": "Marc Laatzke (Study Advisor) marc.laatzke@hs-flensburg.de, 0461/805-1747; Prof. Dr. rer. pol. Marina Blohm and Prof. Dr.-Ing. Torben Terwey (Programme Leads)",
+          "newly_found_info": "Full semester-by-semester curriculum with 4 named specialization majors (previously not captured); uni-assist application guide link (/en/node/309); program brochure PDF link.",
+          "corrections": [],
+          "notes": "No explicit VPD naming found despite uni-assist usage for non-German bachelor's holders; all prior data confirmed with full curriculum/majors added."
+        }
       }
     }
   ],

@@ -573,6 +573,32 @@ if (!prog) {
         ${prog.official_website_data.verification.notes ? `<div style="font-size:.8rem;color:var(--muted);line-height:1.6;">${prog.official_website_data.verification.notes}</div>` : ''}
       </div>
       ` : ""}
+${prog.official_website_data.deep_recheck ? `
+      <div style="margin-top:16px;background:rgba(91,140,255,.05);border:1px solid rgba(91,140,255,.3);border-radius:10px;padding:14px;">
+        <div style="font-weight:700;font-size:.85rem;margin-bottom:8px;">Deep multi-page recheck (${prog.official_website_data.deep_recheck.checked_on})</div>
+        <div class="grid-info" style="margin-bottom:10px;">
+          <div class="info-item"><b>VPD / uni-assist required?</b><div class="val" style="color:${(prog.official_website_data.deep_recheck.vpd_uni_assist_required||'').toLowerCase().startsWith('yes')?'var(--danger)':'var(--text)'};font-weight:700;">${prog.official_website_data.deep_recheck.vpd_uni_assist_required}</div></div>
+          <div class="info-item"><b>Application Portal Detail</b><div class="val">${nf(prog.official_website_data.deep_recheck.application_portal_detail)}</div></div>
+          <div class="info-item"><b>GPA (re-verified)</b><div class="val">${nf(prog.official_website_data.deep_recheck.gpa_requirement_verified)}</div></div>
+          <div class="info-item"><b>Language Reqs (re-verified)</b><div class="val">${nf(prog.official_website_data.deep_recheck.language_requirements_verified)}</div></div>
+          <div class="info-item"><b>Tuition/Fees (re-verified)</b><div class="val">${nf(prog.official_website_data.deep_recheck.tuition_and_fees_verified)}</div></div>
+          <div class="info-item"><b>Deadlines (re-verified)</b><div class="val">${nf(prog.official_website_data.deep_recheck.deadlines_verified)}</div></div>
+          <div class="info-item"><b>Required Documents</b><div class="val">${nf(prog.official_website_data.deep_recheck.required_documents)}</div></div>
+          <div class="info-item"><b>Contact (re-verified)</b><div class="val">${nf(prog.official_website_data.deep_recheck.contact_info)}</div></div>
+        </div>
+        ${prog.official_website_data.deep_recheck.newly_found_info ? `<div style="font-size:.84rem;line-height:1.7;margin-bottom:8px;"><b>Newly found info:</b> ${prog.official_website_data.deep_recheck.newly_found_info}</div>` : ''}
+        ${(prog.official_website_data.deep_recheck.corrections||[]).length ? `
+        <div style="font-size:.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;margin-bottom:6px;">Corrections found:</div>
+        <ul style="padding-left:18px;margin:0 0 10px;font-size:.84rem;line-height:1.7;">
+          ${prog.official_website_data.deep_recheck.corrections.map(c => '<li><b>' + c.field + ':</b> ' + c.corrected + ' <span style="color:var(--muted);">(was: ' + c.old + ')</span></li>').join('')}
+        </ul>` : ''}
+        ${prog.official_website_data.deep_recheck.notes ? `<div style="font-size:.8rem;color:var(--muted);line-height:1.6;">${prog.official_website_data.deep_recheck.notes}</div>` : ''}
+        ${(prog.official_website_data.deep_recheck.sources_consulted||[]).length ? `
+        <div style="margin-top:10px;font-size:.78rem;">
+          <b>Pages consulted:</b> ${prog.official_website_data.deep_recheck.sources_consulted.map(u => '<a href="' + u + '" target="_blank" rel="noopener" style="color:var(--accent);margin-right:8px;">' + u.replace(/^https?:\/\//,'').slice(0,40) + '...</a>').join('')}
+        </div>` : ''}
+      </div>
+      ` : ""}
 <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap;">
         <a class="quick-btn" href="${prog.official_website_data.official_source_url}" target="_blank" rel="noopener">🌐 বিশ্ববিদ্যালয়ের মূল প্রোগ্রাম পেজ ↗</a>
         ${prog.official_website_data.official_spo_pdf ? `<a class="quick-btn" href="${prog.official_website_data.official_spo_pdf}" target="_blank" rel="noopener">📄 অফিশিয়াল পরীক্ষা নীতিমালা (SPO PDF) ↗</a>` : ""}
