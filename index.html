@@ -48,6 +48,7 @@ td.muted{color:var(--muted);white-space:nowrap;}
 .tier-A{background:rgba(126,227,184,.15);color:var(--good);}
 .tier-B{background:rgba(245,185,66,.15);color:var(--warn);}
 .tier-C{background:rgba(154,167,194,.15);color:var(--muted);}
+.tier-D{background:rgba(91,140,255,.15);color:var(--accent);}
 .fit-good{background:rgba(126,227,184,.18);color:var(--good);}
 .fit-moderate,.fit-borderline{background:rgba(245,185,66,.18);color:var(--warn);}
 .fit-risky,.fit-weak{background:rgba(240,100,100,.18);color:var(--bad);}
@@ -79,6 +80,7 @@ footer{text-align:center;color:var(--muted);font-size:.76rem;padding:26px 20px;}
         <option value="A">Tier A — Direct hit</option>
         <option value="B">Tier B — Related</option>
         <option value="C">Tier C — Adjacent</option>
+        <option value="D">DAAD Raw (unreviewed, ১৯৯টা)</option>
       </select>
     </div>
     <div class="field">
@@ -98,6 +100,8 @@ footer{text-align:center;color:var(--muted);font-size:.76rem;padding:26px 20px;}
       <select id="tuitionFilter">
         <option value="">সব</option>
         <option value="free">সম্পূর্ণ Tuition-free</option>
+        <option value="varies">Tuition varies</option>
+        <option value="paid">নির্দিষ্ট amount আছে</option>
         <option value="risk">Non-EU fee ঝুঁকি (~€1500/sem)</option>
         <option value="private">Private (উচ্চ টিউশন)</option>
       </select>
@@ -147,14 +151,13 @@ footer{text-align:center;color:var(--muted);font-size:.76rem;padding:26px 20px;}
 
   <div class="more">
     <a href="info.html">📄 APS, GPA Conversion, uni-assist, ফান্ডিং — বিস্তারিত ইনফো দেখো →</a>
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="all-daad.html">📊 DAAD-এর সম্পূর্ণ ১৯৯টা raw রেজাল্ট দেখো →</a>
   </div>
 </div>
 
-<footer>তৈরি: 2026-11-08 · কার্ডে ক্লিক করলে সেই প্রোগ্রামের সম্পূর্ণ ডিটেইলস পেজ খুলবে</footer>
+<footer>তৈরি: 2026-11-08 · নীল "DAAD Raw" ট্যাগের রো-তে ক্লিক করলে সরাসরি DAAD-এর অফিসিয়াল পেজ খুলবে, অন্যগুলোতে ক্লিক করলে বিস্তারিত ডিটেইলস পেজ খুলবে</footer>
 
 <script src="data.js"></script>
+<script src="daad_full199.js"></script>
 <script>
 function toggleTheme(){
   const html=document.documentElement;
@@ -162,17 +165,36 @@ function toggleTheme(){
 }
 const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate",borderline:"🟡 Borderline",risky:"🟠 Risky",weak:"🔴 Weak fit",unknown:"⚪ অজানা",unclear:"⚪ Unclear"};
 
-function renderCard(p, idx){
-  const fit = p.gpa_fit || "unknown";
-  return `<tr onclick="location.href='detail.html?i=${idx}'">
+// Unified dataset: curated (tier A/B/C, from data.js) + raw DAAD scrape (tier D, from daad_full199.js)
+const ALL_ITEMS = [
+  ...DATA.programs.map((p, i) => ({
+    source: "curated", idx: i,
+    university: p.university, program_name: p.program_name,
+    tuition: p.tuition, ielts: p.ielts, deadline_winter: p.deadline_winter, deadline_summer: p.deadline_summer,
+    language: p.language, tier: p.tier, gpa_fit: p.gpa_fit || "unknown"
+  })),
+  ...DAAD_FULL.map((p) => ({
+    source: "daad", url: p.url,
+    university: p.university, program_name: p.title,
+    tuition: p.tuition, ielts: "DAAD পেজে দেখো", deadline_winter: p.beginning, deadline_summer: "",
+    language: "English", tier: "D", gpa_fit: "unknown"
+  }))
+];
+
+function renderCard(item){
+  const fit = item.gpa_fit || "unknown";
+  const clickAction = item.source === "curated"
+    ? `location.href='detail.html?i=${item.idx}'`
+    : `window.open('${item.url}','_blank')`;
+  return `<tr onclick="${clickAction}">
     <td class="uni-cell">
-      <div class="uni">${p.university}</div>
-      <div class="pname">${p.program_name}</div>
+      <div class="uni">${item.university}</div>
+      <div class="pname">${item.program_name}</div>
     </td>
-    <td class="muted">${p.tuition.split('+')[0].trim()}</td>
-    <td class="muted">${p.ielts.split('(')[0].trim()}</td>
-    <td class="muted">${p.deadline_winter.split('(')[0].trim()}</td>
-    <td><span class="tag tier-${p.tier}">Tier ${p.tier}</span></td>
+    <td class="muted">${(item.tuition||"").split('+')[0].trim()}</td>
+    <td class="muted">${(item.ielts||"").split('(')[0].trim()}</td>
+    <td class="muted">${(item.deadline_winter||"").split('(')[0].trim()}</td>
+    <td><span class="tag tier-${item.tier}">${item.tier==='D' ? 'DAAD Raw' : 'Tier '+item.tier}</span></td>
     <td><span class="tag fit-${fit}">${fitLabel[fit]||fit}</span></td>
   </tr>`;
 }
@@ -181,6 +203,9 @@ function tuitionCategory(p){
   const t=(p.tuition||"").toLowerCase();
   if(t.includes("private")) return "private";
   if(t.includes("possibly") || t.includes("check:")) return "risk";
+  if(t.includes("no tuition")) return "free";
+  if(t.includes("varies")) return "varies";
+  if(/\d/.test(t)) return "paid";
   return "free";
 }
 function langCategory(p){
@@ -189,6 +214,7 @@ function langCategory(p){
   return "english";
 }
 const fitRank = {good:0,moderate:1,borderline:1,risky:2,weak:3,unknown:4,unclear:4};
+const tierRank = {A:0,B:1,C:2,D:3};
 
 function applyFilters(){
   const q = document.getElementById('searchBox').value.toLowerCase();
@@ -199,25 +225,23 @@ function applyFilters(){
   const intake = document.getElementById('intakeFilter').value;
   const sortBy = document.getElementById('sortBy').value;
 
-  let items = DATA.programs
-    .map((p,i)=>({p,i}))
-    .filter(({p})=>{
+  let items = ALL_ITEMS.filter((p) => {
       if(q && !(p.university+" "+p.program_name).toLowerCase().includes(q)) return false;
       if(tier && p.tier!==tier) return false;
       if(fit && p.gpa_fit!==fit) return false;
       if(tuition && tuitionCategory(p)!==tuition) return false;
       if(lang && langCategory(p)!==lang) return false;
-      if(intake==="winter" && /not offered|not found/i.test(p.deadline_winter)) return false;
-      if(intake==="summer" && /not offered|not found|not typically/i.test(p.deadline_summer)) return false;
+      if(intake==="winter" && !/winter/i.test(p.deadline_winter||"")) return false;
+      if(intake==="summer" && !/summer/i.test(p.deadline_winter+" "+(p.deadline_summer||""))) return false;
       return true;
     });
 
-  if(sortBy==="tier") items.sort((a,b)=>a.p.tier.localeCompare(b.p.tier) || fitRank[a.p.gpa_fit]-fitRank[b.p.gpa_fit]);
-  else if(sortBy==="fit") items.sort((a,b)=>fitRank[a.p.gpa_fit]-fitRank[b.p.gpa_fit]);
-  else if(sortBy==="name") items.sort((a,b)=>a.p.university.localeCompare(b.p.university));
+  if(sortBy==="tier") items.sort((a,b)=>(tierRank[a.tier]-tierRank[b.tier]) || fitRank[a.gpa_fit]-fitRank[b.gpa_fit]);
+  else if(sortBy==="fit") items.sort((a,b)=>fitRank[a.gpa_fit]-fitRank[b.gpa_fit]);
+  else if(sortBy==="name") items.sort((a,b)=>a.university.localeCompare(b.university));
 
-  document.getElementById('cardsContainer').innerHTML = items.map(({p,i})=>renderCard(p,i)).join("");
-  document.getElementById('resultCount').textContent = `${items.length} / ${DATA.programs.length} প্রোগ্রাম`;
+  document.getElementById('cardsContainer').innerHTML = items.map(renderCard).join("");
+  document.getElementById('resultCount').textContent = `${items.length} / ${ALL_ITEMS.length} প্রোগ্রাম (${DATA.programs.length}টা কিউরেটেড + ${DAAD_FULL.length}টা DAAD raw)`;
 }
 
 ['searchBox','tierFilter','fitFilter','tuitionFilter','langFilter','intakeFilter','sortBy'].forEach(id=>{
