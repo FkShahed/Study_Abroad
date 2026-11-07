@@ -32,6 +32,7 @@ h1{font-size:1.4rem;margin:4px 0 14px;}
 .tier-A{background:rgba(126,227,184,.15);color:var(--good);}
 .tier-B{background:rgba(245,185,66,.15);color:var(--warn);}
 .tier-C{background:rgba(154,167,194,.15);color:var(--muted);}
+.tier-D{background:rgba(91,140,255,.15);color:var(--accent);}
 .fit-good{background:rgba(126,227,184,.18);color:var(--good);}
 .fit-moderate,.fit-borderline{background:rgba(245,185,66,.18);color:var(--warn);}
 .fit-risky,.fit-weak{background:rgba(240,100,100,.18);color:var(--bad);}
@@ -52,6 +53,7 @@ h1{font-size:1.4rem;margin:4px 0 14px;}
 <div class="container" id="root">লোড হচ্ছে...</div>
 
 <script src="data.js"></script>
+<script src="daad_full199.js"></script>
 <script>
 function toggleTheme(){
   const html=document.documentElement;
@@ -61,41 +63,81 @@ const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate",borderline:"🟡 
 
 const params = new URLSearchParams(location.search);
 const idx = parseInt(params.get('i'), 10);
-const p = DATA.programs[idx];
+const isDaad = params.get('s') === 'daad';
+const root = document.getElementById('root');
 
-if(!p){
-  document.getElementById('root').innerHTML = `<a class="back" href="index.html">← লিস্টে ফিরে যাও</a><p>প্রোগ্রাম পাওয়া যায়নি।</p>`;
+function nf(v){ return (v===undefined || v===null || v==="") ? "Not found" : v; }
+
+if(isDaad){
+  const d = DAAD_FULL[idx];
+  if(!d){
+    root.innerHTML = `<a class="back" href="index.html">← লিস্টে ফিরে যাও</a><p>প্রোগ্রাম পাওয়া যায়নি।</p>`;
+  } else {
+    root.innerHTML = `
+      <a class="back" href="index.html">← লিস্টে ফিরে যাও</a>
+      <div class="uni">${d.university}</div>
+      <h1>${d.title}</h1>
+      <div class="tags">
+        <span class="tag tier-D">DAAD Raw (unreviewed)</span>
+      </div>
+      <div class="grid-info">
+        <div class="info-item"><b>Degree</b>${nf(d.degree_type)} · ${nf(d.duration)}</div>
+        <div class="info-item"><b>Department</b>${nf(d.department)}</div>
+        <div class="info-item"><b>ভাষা</b>${nf(d.language)}</div>
+        <div class="info-item"><b>টিউশন</b>${nf(d.tuition)}</div>
+        <div class="info-item"><b>Semester Fee</b>${nf(d.semester_fee)}</div>
+        <div class="info-item"><b>Winter Deadline</b>${nf(d.deadline_winter)}</div>
+        <div class="info-item"><b>Summer Deadline</b>${nf(d.deadline_summer)}</div>
+        <div class="info-item"><b>IELTS</b>${nf(d.ielts)}</div>
+        <div class="info-item"><b>TOEFL</b>${nf(d.toefl)}</div>
+        <div class="info-item"><b>Other English Test</b>${nf(d.other_english_test)}</div>
+        <div class="info-item"><b>GRE</b>${nf(d.gre)}</div>
+        <div class="info-item"><b>German ভাষা দরকার?</b>${nf(d.german_requirement)}</div>
+        <div class="info-item"><b>Min GPA / Requirement</b>${nf(d.gpa_requirement)}</div>
+        <div class="info-item"><b>Prerequisite Degree</b>${nf(d.prerequisite_degree)}</div>
+        <div class="info-item"><b>Contact</b>${nf(d.contact_email)}</div>
+      </div>
+      <div class="note">⚪ এই প্রোগ্রামটা DAAD-এর পূর্ণ ফিল্টার করা লিস্ট থেকে সরাসরি স্ক্র্যাপ করা — এখনো ম্যানুয়ালি রিভিউ/Tier/GPA-fit অ্যাসেসমেন্ট করা হয়নি (কিউরেটেড লিস্টের মতো)। উপরের তথ্য DAAD-এর অফিসিয়াল পেজ থেকেই আনা, কিন্তু অ্যাপ্লাই করার আগে অফিসিয়াল ইউনিভার্সিটি পেজে একবার ডাবল-চেক করে নেওয়া ভালো।</div>
+      ${d.course_website ? `<div class="note"><b>Course website:</b> ${d.course_website}</div>` : ""}
+      <div class="src">🔗 DAAD সোর্স: <a href="${d.source_url}" target="_blank" rel="noopener">${d.source_url}</a></div>
+    `;
+  }
 } else {
-  const fit = p.gpa_fit || "unknown";
-  document.getElementById('root').innerHTML = `
-    <a class="back" href="index.html">← লিস্টে ফিরে যাও</a>
-    <div class="uni">${p.university}</div>
-    <h1>${p.program_name}</h1>
-    <div class="tags">
-      <span class="tag tier-${p.tier}">Tier ${p.tier}</span>
-      <span class="tag fit-${fit}">${fitLabel[fit]||fit}</span>
-    </div>
-    <div class="grid-info">
-      <div class="info-item"><b>Degree</b>${p.degree_type} · ${p.duration}</div>
-      <div class="info-item"><b>ভাষা</b>${p.language}</div>
-      <div class="info-item"><b>টিউশন</b>${p.tuition}</div>
-      <div class="info-item"><b>Winter Deadline</b>${p.deadline_winter}</div>
-      <div class="info-item"><b>Summer Deadline</b>${p.deadline_summer}</div>
-      <div class="info-item"><b>IELTS</b>${p.ielts}</div>
-      <div class="info-item"><b>TOEFL</b>${p.toefl}</div>
-      <div class="info-item"><b>GRE/GMAT</b>${p.gre}</div>
-      <div class="info-item"><b>German ভাষা দরকার?</b>${p.german_req}</div>
-      <div class="info-item"><b>APS দরকার?</b>${p.aps}</div>
-      <div class="info-item"><b>Min GPA</b>${p.min_gpa}</div>
-      <div class="info-item"><b>Work Exp</b>${p.work_exp}</div>
-      <div class="info-item"><b>Department</b>${p.department}</div>
-    </div>
-    <div class="note fit"><b>GPA Fit নোট:</b> ${p.gpa_fit_note}</div>
-    <div class="note"><b>সামারি:</b> ${p.note}</div>
-    <div class="note"><b>Prerequisites:</b> ${p.prereqs}</div>
-    <div class="note"><b>Tuition notes:</b> ${p.tuition_notes}</div>
-    <div class="src">🔗 <a href="${p.source}" target="_blank" rel="noopener">${p.source}</a></div>
-  `;
+  const p = DATA.programs[idx];
+  if(!p){
+    root.innerHTML = `<a class="back" href="index.html">← লিস্টে ফিরে যাও</a><p>প্রোগ্রাম পাওয়া যায়নি।</p>`;
+  } else {
+    const fit = p.gpa_fit || "unknown";
+    root.innerHTML = `
+      <a class="back" href="index.html">← লিস্টে ফিরে যাও</a>
+      <div class="uni">${p.university}</div>
+      <h1>${p.program_name}</h1>
+      <div class="tags">
+        <span class="tag tier-${p.tier}">Tier ${p.tier}</span>
+        <span class="tag fit-${fit}">${fitLabel[fit]||fit}</span>
+      </div>
+      <div class="grid-info">
+        <div class="info-item"><b>Degree</b>${p.degree_type} · ${p.duration}</div>
+        <div class="info-item"><b>ভাষা</b>${p.language}</div>
+        <div class="info-item"><b>টিউশন</b>${p.tuition}</div>
+        <div class="info-item"><b>Winter Deadline</b>${p.deadline_winter}</div>
+        <div class="info-item"><b>Summer Deadline</b>${p.deadline_summer}</div>
+        <div class="info-item"><b>IELTS</b>${p.ielts}</div>
+        <div class="info-item"><b>TOEFL</b>${p.toefl}</div>
+        <div class="info-item"><b>GRE/GMAT</b>${p.gre}</div>
+        <div class="info-item"><b>German ভাষা দরকার?</b>${p.german_req}</div>
+        <div class="info-item"><b>APS দরকার?</b>${p.aps}</div>
+        <div class="info-item"><b>Min GPA</b>${p.min_gpa}</div>
+        <div class="info-item"><b>Work Exp</b>${p.work_exp}</div>
+        <div class="info-item"><b>Department</b>${p.department}</div>
+      </div>
+      <div class="note fit"><b>GPA Fit নোট:</b> ${p.gpa_fit_note}</div>
+      <div class="note"><b>সামারি:</b> ${p.note}</div>
+      <div class="note"><b>Prerequisites:</b> ${p.prereqs}</div>
+      <div class="note"><b>Tuition notes:</b> ${p.tuition_notes}</div>
+      <div class="src">🔗 <a href="${p.source}" target="_blank" rel="noopener">${p.source}</a></div>
+    `;
+  }
 }
 </script>
 </body>
