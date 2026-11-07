@@ -363,14 +363,15 @@ if (!prog) {
       </div>
     </div>
 
-    <!-- Navigation Tabs for the 6 Core Sections -->
+    <!-- Navigation Tabs for the 7 Core Sections -->
     <div class="tabs-nav">
       <button class="tab-btn active" onclick="scrollToSection('sec-overview')">📋 1. Overview</button>
       <button class="tab-btn" onclick="scrollToSection('sec-course')">📚 2. Course Details</button>
-      <button class="tab-btn" onclick="scrollToSection('sec-costs')">💰 3. Costs / Funding</button>
-      <button class="tab-btn" onclick="scrollToSection('sec-req')">📝 4. Requirements / Registration</button>
-      <button class="tab-btn" onclick="scrollToSection('sec-services')">🏠 5. Services</button>
-      <button class="tab-btn" onclick="scrollToSection('sec-about')">🏛️ 6. About the University</button>
+      <button class="tab-btn" onclick="scrollToSection('sec-req')">📝 3. Requirements & Entry</button>
+      ${prog.university_deep_info ? `<button class="tab-btn" onclick="scrollToSection('sec-deep-official')" style="border-color:var(--good);color:var(--good);">🔬 4. University Deep Info (Official)</button>` : ""}
+      <button class="tab-btn" onclick="scrollToSection('sec-costs')">💰 5. Costs / Funding</button>
+      <button class="tab-btn" onclick="scrollToSection('sec-services')">🏠 6. Services</button>
+      <button class="tab-btn" onclick="scrollToSection('sec-about')">🏛️ 7. About & Contact</button>
     </div>
 
     <!-- Section 1: Overview -->
@@ -431,6 +432,35 @@ if (!prog) {
       <div class="longbox ${(!r.academic_requirements || r.academic_requirements==='Not found')?'empty':''}">${nf(r.academic_requirements)}</div>
       ${r.work_exp_note ? `<div class="note-box good">💼 <b>কাজের অভিজ্ঞতা সংক্রান্ত নোট:</b> ${r.work_exp_note}</div>` : ""}
     </div>
+
+    <!-- Section: University Deep Info (Directly from University Official Website) -->
+    ${prog.university_deep_info ? `
+    <div class="section-block" id="sec-deep-official" style="border:1.5px solid var(--accent);box-shadow:0 8px 30px rgba(91,140,255,.18);">
+      <div class="section-title" style="color:var(--good);"><span class="icon">🔬</span> অফিসিয়াল বিশ্ববিদ্যালয় ডিপ-রিসার্চ ও ল্যাব ইনফো (Direct Official Site)</div>
+      
+      <div class="grid-info">
+        <div class="info-item"><b>🏛️ চেয়ার ও ফ্যাকাল্টি লিডারশিপ</b><div class="val" style="color:var(--text);">${prog.university_deep_info.chair_leadership}</div></div>
+        <div class="info-item"><b>🤝 ইন্ডাস্ট্রি ও রিসার্চ পার্টনারস</b><div class="val" style="color:var(--accent);">${prog.university_deep_info.research_partners}</div></div>
+      </div>
+
+      <div style="font-size:.8rem;font-weight:700;color:var(--muted);text-transform:uppercase;margin:16px 0 6px;">🏭 Cleanroom ও ল্যাবরেটরি ইনফ্রাস্ট্রাকচার:</div>
+      <div class="note-box good" style="font-size:.9rem;line-height:1.7;">${prog.university_deep_info.labs_infrastructure}</div>
+
+      <div style="font-size:.8rem;font-weight:700;color:var(--muted);text-transform:uppercase;margin:16px 0 6px;">📖 বিশেষায়িত কারিকুলাম মডিউল (Advanced Electives):</div>
+      <ul style="padding-left:20px;margin:0 0 16px;font-size:.88rem;line-height:1.75;">
+        ${(prog.university_deep_info.specialized_curriculum_modules || []).map(m => `<li><b>${m}</b></li>`).join('')}
+      </ul>
+
+      <div style="font-size:.8rem;font-weight:700;color:var(--muted);text-transform:uppercase;margin:16px 0 6px;">🚀 ক্যারিয়ার ও ইন্ডাস্ট্রি ইকোসিস্টেম (Job Prospects):</div>
+      <div class="longbox" style="border-left:3px solid var(--good);">${prog.university_deep_info.career_ecosystem}</div>
+
+      ${prog.university_deep_info.official_syllabus_url ? `
+        <div style="margin-top:14px;">
+          <a class="quick-btn" href="${prog.university_deep_info.official_syllabus_url}" target="_blank" rel="noopener">📄 বিশ্ববিদ্যালয়ের মূল সিলেবাস ও কারিকুলাম ডকুমেন্ট ↗</a>
+        </div>
+      ` : ""}
+    </div>
+    ` : ""}
 
     <!-- Section 5: Services -->
     <div class="section-block" id="sec-services">
