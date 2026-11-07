@@ -26,25 +26,35 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:'Segoe UI',syst
 header{padding:26px 20px 14px;max-width:95%;margin:0 auto;text-align:center;}
 h1{font-size:1.4rem;margin:0 0 6px;}
 .sub{color:var(--muted);font-size:.88rem;max-width:680px;margin:0 auto;}
-.container{max-width:95%;margin:0 auto;padding:10px 20px 60px;}
-.controls{display:flex;gap:14px;flex-wrap:wrap;margin:20px 0 22px;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px;}
-.field{display:flex;flex-direction:column;gap:5px;flex:1 1 150px;min-width:150px;}
-.field label{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.03em;font-weight:600;}
-.controls select,.controls input{padding:8px 12px;border-radius:10px;border:1px solid var(--border);background:var(--panel2);color:var(--text);font-size:.85rem;width:100%;}
-.field.search{flex:2 1 220px;}
-.count{text-align:center;color:var(--muted);font-size:.82rem;margin-bottom:16px;}
-.table-wrap{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);overflow-x:auto;}
-table{width:100%;border-collapse:collapse;font-size:.85rem;min-width:680px;}
-thead th{text-align:left;padding:12px 14px;color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.03em;border-bottom:1px solid var(--border);white-space:nowrap;}
-tbody tr{cursor:pointer;border-bottom:1px solid var(--border);transition:background .12s;}
+.container{max-width:1300px;margin:0 auto;padding:10px 16px 60px;}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 20px;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:14px;}
+.field{display:flex;flex-direction:column;gap:4px;flex:1 1 130px;min-width:120px;}
+.field label{font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;font-weight:700;}
+.controls select,.controls input{padding:7px 10px;border-radius:8px;border:1px solid var(--border);background:var(--panel2);color:var(--text);font-size:.82rem;width:100%;}
+.field.search{flex:2 1 200px;}
+.count{text-align:center;color:var(--muted);font-size:.82rem;margin-bottom:14px;}
+
+.table-wrap{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);overflow-x:auto;box-shadow:0 4px 20px rgba(0,0,0,0.15);}
+table{width:100%;border-collapse:collapse;font-size:.83rem;table-layout:fixed;}
+thead th{text-align:left;padding:12px 14px;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid var(--border);background:var(--panel2);font-weight:700;}
+tbody tr{cursor:pointer;border-bottom:1px solid var(--border);transition:background .15s ease, transform .1s;}
 tbody tr:last-child{border-bottom:none;}
-tbody tr:hover{background:var(--panel2);}
-tbody td{padding:12px 14px;vertical-align:middle;}
-td.uni-cell .uni{color:var(--accent);font-weight:700;font-size:.72rem;text-transform:uppercase;letter-spacing:.02em;}
-td.uni-cell .pname{font-weight:600;margin-top:2px;}
-td.muted{color:var(--muted);white-space:nowrap;}
-.tags{display:flex;gap:6px;flex-wrap:nowrap;}
-.tag{font-size:.68rem;padding:3px 10px;border-radius:12px;font-weight:700;white-space:nowrap;}
+tbody tr:hover{background:rgba(91,140,255,.07);}
+tbody td{padding:10px 14px;vertical-align:middle;overflow:hidden;text-overflow:ellipsis;}
+
+/* Responsive Column Width Allocations */
+col.col-program{width:46%;}
+col.col-tuition{width:14%;}
+col.col-ielts{width:10%;}
+col.col-deadline{width:13%;}
+col.col-tier{width:8%;}
+col.col-fit{width:9%;}
+
+td.uni-cell{white-space:normal;}
+td.uni-cell .uni{color:var(--accent);font-weight:700;font-size:.7rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:2px;}
+td.uni-cell .pname{font-weight:600;font-size:.86rem;color:var(--text);line-height:1.35;}
+td.muted{color:var(--muted);white-space:nowrap;font-size:.8rem;}
+.tag{display:inline-block;text-align:center;font-size:.68rem;padding:3px 8px;border-radius:10px;font-weight:700;white-space:nowrap;}
 .tier-A{background:rgba(126,227,184,.15);color:var(--good);}
 .tier-B{background:rgba(245,185,66,.15);color:var(--warn);}
 .tier-C{background:rgba(154,167,194,.15);color:var(--muted);}
@@ -162,11 +172,19 @@ footer{text-align:center;color:var(--muted);font-size:.76rem;padding:26px 20px;}
   <p class="count" id="resultCount"></p>
   <div class="table-wrap">
     <table>
+      <colgroup>
+        <col class="col-program">
+        <col class="col-tuition">
+        <col class="col-ielts">
+        <col class="col-deadline">
+        <col class="col-tier">
+        <col class="col-fit">
+      </colgroup>
       <thead>
         <tr>
-          <th>University / Program</th>
-          <th>টিউশন</th>
-          <th>IELTS</th>
+          <th>University & Program</th>
+          <th>টিউশন ফি</th>
+          <th>IELTS / ভাষা</th>
           <th>Winter Deadline</th>
           <th>Tier</th>
           <th>GPA Fit</th>
