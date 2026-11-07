@@ -184,66 +184,52 @@ footer{text-align:center;color:var(--muted);font-size:.76rem;padding:26px 20px;}
 
 <footer>তৈরি: 2026-11-08 · প্রতিটা রো-তে ক্লিক করলে এই ওয়েবসাইটেই সেই প্রোগ্রামের সম্পূর্ণ ডিটেইলস (deadline, IELTS, GPA requirement, contact ইত্যাদি) পেজ খুলবে — বাইরের সাইটে যেতে হবে না</footer>
 
-<script src="data.js"></script>
-<script src="daad_full199.js"></script>
+<script src="database.js"></script>
 <script>
 function toggleTheme(){
   const html=document.documentElement;
   html.setAttribute('data-theme', html.getAttribute('data-theme')==='light'?'dark':'light');
 }
-const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate",borderline:"🟡 Borderline",risky:"🟠 Risky",weak:"🔴 Weak fit",unknown:"⚪ অজানা",unclear:"⚪ Unclear"};
+const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate",borderline:"🟡 Borderline",risky:"🟠 Risky",weak:"🔴 Weak fit",unknown:"⚪ unreviewed",unclear:"⚪ Unclear"};
 
-// Unified dataset: curated (tier A/B/C, from data.js) + raw DAAD scrape (tier D, from daad_full199.js)
-const ALL_ITEMS = [
-  ...DATA.programs.map((p, i) => ({
-    source: "curated", idx: i,
-    university: p.university, program_name: p.program_name,
-    tuition: p.tuition, ielts: p.ielts, deadline_winter: p.deadline_winter, deadline_summer: p.deadline_summer,
-    language: p.language, tier: p.tier, gpa_fit: p.gpa_fit || "unknown"
-  })),
-  ...DAAD_FULL.map((p, i) => ({
-    source: "daad", idx: i,
-    university: p.university, program_name: p.title, department: p.department || "",
-    tuition: p.tuition || "Not found", ielts: p.ielts || "Not found",
-    deadline_winter: p.deadline_winter || "Not found", deadline_summer: p.deadline_summer || "",
-    language: p.language || "English", tier: "D", gpa_fit: "unknown"
-  }))
-];
+// Single unified dataset directly from DATABASE.programs
+const ALL_ITEMS = (typeof DATABASE !== 'undefined' && DATABASE.programs) ? DATABASE.programs : [];
 
 function renderCard(item){
   const fit = item.gpa_fit || "unknown";
-  const clickAction = item.source === "curated"
-    ? `location.href='detail.html?i=${item.idx}'`
-    : `location.href='detail.html?s=daad&i=${item.idx}'`;
+  const clickAction = `location.href='detail.html?id=${item.id}'`;
+  const tuit = item.costs_funding ? item.costs_funding.tuition : (item.tuition || "");
+  const ielts = item.requirements_registration ? item.requirements_registration.ielts : (item.ielts || "");
+  const dWinter = item.requirements_registration ? item.requirements_registration.deadline_winter : (item.deadline_winter || "");
+
   return `<tr onclick="${clickAction}">
     <td class="uni-cell">
       <div class="uni">${item.university}</div>
-      <div class="pname">${item.program_name}</div>
+      <div class="pname">${item.title}</div>
     </td>
-    <td class="muted">${(item.tuition||"").split('+')[0].trim()}</td>
-    <td class="muted">${(item.ielts||"").split('(')[0].trim()}</td>
-    <td class="muted">${(item.deadline_winter||"").split('(')[0].trim()}</td>
-    <td><span class="tag tier-${item.tier}">${item.tier==='D' ? 'DAAD Raw' : 'Tier '+item.tier}</span></td>
+    <td class="muted">${(tuit||"").split('+')[0].trim()}</td>
+    <td class="muted">${(ielts||"").split('(')[0].trim()}</td>
+    <td class="muted">${(dWinter||"").split('(')[0].trim()}</td>
+    <td><span class="tag tier-${item.tier}">Tier ${item.tier}</span></td>
     <td><span class="tag fit-${fit}">${fitLabel[fit]||fit}</span></td>
   </tr>`;
 }
 
 function tuitionCategory(p){
-  const t=(p.tuition||"").toLowerCase();
-  if(t.includes("private")) return "private";
-  if(t.includes("possibly") || t.includes("check:")) return "risk";
-  if(t.includes("no tuition")) return "free";
-  if(t.includes("varies")) return "varies";
+  const t = (p.costs_funding ? p.costs_funding.tuition : (p.tuition || "")).toLowerCase();
+  if(t.includes("private") || t.includes("5,") || t.includes("6,") || t.includes("4,")) return "paid";
+  if(t.includes("possibly") || t.includes("check:") || t.includes("varied")) return "risk";
+  if(t.includes("no tuition") || t.includes("none") || t.includes("0")) return "free";
   if(/\d/.test(t)) return "paid";
   return "free";
 }
 function langCategory(p){
-  const l=(p.language||"").toLowerCase();
+  const l = (p.overview ? p.overview.language : (p.language || "")).toLowerCase();
   if(l.includes("mix") || l.includes("german")) return "mixed";
   return "english";
 }
 function subjectCategory(p){
-  const t=((p.program_name||"")+" "+(p.department||"")).toLowerCase();
+  const t = ((p.title||"")+" "+(p.department||"")+" "+(p.overview ? p.overview.department : "")).toLowerCase();
   if(/vlsi|microelectronic|nanoelectronic|chip design|integrated circuit|semiconductor|nanosystem|nanotech/.test(t)) return "vlsi";
   if(/embedded/.test(t)) return "embedded";
   if(/computer engineering/.test(t)) return "computer";
@@ -268,23 +254,26 @@ function applyFilters(){
   const sortBy = document.getElementById('sortBy').value;
 
   let items = ALL_ITEMS.filter((p) => {
-      if(q && !(p.university+" "+p.program_name+" "+(p.department||"")).toLowerCase().includes(q)) return false;
+      const fullText = (p.university + " " + p.title + " " + (p.department||"")).toLowerCase();
+      if(q && !fullText.includes(q)) return false;
       if(tier && p.tier!==tier) return false;
       if(fit && p.gpa_fit!==fit) return false;
       if(tuition && tuitionCategory(p)!==tuition) return false;
       if(subject && subjectCategory(p)!==subject) return false;
       if(lang && langCategory(p)!==lang) return false;
-      if(intake==="winter" && !/winter/i.test(p.deadline_winter||"")) return false;
-      if(intake==="summer" && !/summer/i.test(p.deadline_winter+" "+(p.deadline_summer||""))) return false;
+      const dWinter = p.requirements_registration ? p.requirements_registration.deadline_winter : (p.deadline_winter||"");
+      const dSummer = p.requirements_registration ? p.requirements_registration.deadline_summer : (p.deadline_summer||"");
+      if(intake==="winter" && !/winter|\d/i.test(dWinter)) return false;
+      if(intake==="summer" && !/summer|\d/i.test(dSummer)) return false;
       return true;
     });
 
-  if(sortBy==="tier") items.sort((a,b)=>(tierRank[a.tier]-tierRank[b.tier]) || fitRank[a.gpa_fit]-fitRank[b.gpa_fit]);
-  else if(sortBy==="fit") items.sort((a,b)=>fitRank[a.gpa_fit]-fitRank[b.gpa_fit]);
+  if(sortBy==="tier") items.sort((a,b)=>((tierRank[a.tier]??3)-(tierRank[b.tier]??3)) || (fitRank[a.gpa_fit]??4)-(fitRank[b.gpa_fit]??4));
+  else if(sortBy==="fit") items.sort((a,b)=>(fitRank[a.gpa_fit]??4)-(fitRank[b.gpa_fit]??4));
   else if(sortBy==="name") items.sort((a,b)=>a.university.localeCompare(b.university));
 
   document.getElementById('cardsContainer').innerHTML = items.map(renderCard).join("");
-  document.getElementById('resultCount').textContent = `${items.length} / ${ALL_ITEMS.length} প্রোগ্রাম (${DATA.programs.length}টা কিউরেটেড + ${DAAD_FULL.length}টা DAAD raw)`;
+  document.getElementById('resultCount').textContent = `${items.length} / ${ALL_ITEMS.length} টি মাস্টার্স প্রোগ্রাম (Single Master Database)`;
 }
 
 ['searchBox','tierFilter','fitFilter','tuitionFilter','subjectFilter','langFilter','intakeFilter','sortBy'].forEach(id=>{

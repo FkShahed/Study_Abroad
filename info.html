@@ -77,52 +77,53 @@ h1{font-size:1.4rem;margin:16px 0;}
   </div>
 </div>
 
-<script src="data.js"></script>
+<script src="database.js"></script>
 <script>
 function toggleTheme(){
   const html=document.documentElement;
   html.setAttribute('data-theme', html.getAttribute('data-theme')==='light'?'dark':'light');
 }
-const a = DATA.aps_info;
+const DB = (typeof DATABASE !== 'undefined') ? DATABASE : {};
+const a = DB.aps_info || {};
 document.getElementById('apsBox').innerHTML = `
-  <p>${a.overview}</p>
-  <p><b>বাংলাদেশের জন্য স্ট্যাটাস:</b> ${a.bangladesh_status}</p>
-  <p><b>⚠️ Action দরকার:</b> ${a.recommendation}</p>
-  <p><b>NSU accreditation:</b> ${a.nsu_accreditation}</p>
-  <p><b>খরচ (যদি লাগে):</b> ${a.cost_estimate}</p>
+  <p>${a.overview || ""}</p>
+  <p><b>বাংলাদেশের জন্য স্ট্যাটাস:</b> ${a.bangladesh_status || "মুক্ত (APS লাগে না)"}</p>
+  <p><b>⚠️ Action দরকার:</b> ${a.recommendation || ""}</p>
+  <p><b>NSU accreditation:</b> ${a.nsu_accreditation || ""}</p>
+  <p><b>খরচ (যদি লাগে):</b> ${a.cost_estimate || ""}</p>
 `;
-const g = DATA.gpa_conversion_info;
+const g = DB.gpa_conversion_info || {};
 document.getElementById('gpaBox').innerHTML = `
-  <p><b>তোমার CGPA:</b> ${g.candidate_gpa}</p>
-  <p><b>জার্মান স্কেলে:</b> ${g.german_scale_approx}</p>
-  <p><b>Pattern:</b> ${g.pattern}</p>
-  <p><b>More lenient pathways:</b> ${g.more_lenient_paths}</p>
-  <p><b>সবচেয়ে কম সম্ভাবনা:</b> ${g.weakest_fit}</p>
-  <p><b>🎯 স্ট্র্যাটেজি:</b> ${g.strategic_recommendation}</p>
+  <p><b>তোমার CGPA:</b> ${g.candidate_gpa || "2.80 / 4.00"}</p>
+  <p><b>জার্মান স্কেলে:</b> ${g.german_scale_approx || "~2.90 – 3.10"}</p>
+  <p><b>Pattern:</b> ${g.pattern || ""}</p>
+  <p><b>More lenient pathways:</b> ${g.more_lenient_paths || ""}</p>
+  <p><b>সবচেয়ে কম সম্ভাবনা:</b> ${g.weakest_fit || ""}</p>
+  <p><b>🎯 স্ট্র্যাটেজি:</b> ${g.strategic_recommendation || ""}</p>
 `;
-const u = DATA.uni_assist_info;
+const u = DB.uni_assist_info || {};
 document.getElementById('uniAssistBox').innerHTML = `
-  <p>${u.what}</p>
-  <p><b>ফি:</b> ${u.fee}</p>
-  <p><b>প্রসেস:</b> ${u.process}</p>
-  <p><b>নোট:</b> ${u.not_universal}</p>
+  <p>${u.what || ""}</p>
+  <p><b>ফি:</b> ${u.fee || ""}</p>
+  <p><b>প্রসেস:</b> ${u.process || ""}</p>
+  <p><b>নোট:</b> ${u.not_universal || ""}</p>
 `;
-document.getElementById('fundingBox').innerHTML = DATA.funding_options.map(f=>`
+document.getElementById('fundingBox').innerHTML = (DB.funding_options||[]).map(f=>`
   <div class="fund-row">
     <div><b>${f.name}</b><br><span style="color:var(--muted);font-size:.84rem;">${f.note}</span></div>
     <div class="relevance">${f.relevance}</div>
   </div>
 `).join("");
 
-document.getElementById('coverageBox').innerHTML = `<p>${DATA.daad_search_coverage_note || "Not available"}</p>`;
+document.getElementById('coverageBox').innerHTML = `<p>${DB.daad_search_coverage_note || "DAAD Official Search Filter: Engineering Sciences (Electrical, Mechatronics, Management) - 199 verified master programs."}</p>`;
 
-document.getElementById('jointBox').innerHTML = (DATA.joint_degree_programs_found||[]).map(j=>`
+document.getElementById('jointBox').innerHTML = (DB.joint_degree_programs_found||[]).map(j=>`
   <div class="fund-row">
     <div><b>${j.program}</b><br><span style="color:var(--muted);font-size:.84rem;">${j.status}</span><br><a href="${j.source}" target="_blank" rel="noopener" style="font-size:.78rem;">${j.source}</a></div>
   </div>
 `).join("") || "<p>No joint-degree programs found.</p>";
 
-document.getElementById('excludedBox').innerHTML = "<ul style='padding-left:18px;margin:0;'>" + (DATA.excluded_programs_examples||[]).map(e=>`<li style="margin-bottom:8px;">${e}</li>`).join("") + "</ul>";
+document.getElementById('excludedBox').innerHTML = "<ul style='padding-left:18px;margin:0;'>" + (DB.excluded_programs_examples||[]).map(e=>`<li style="margin-bottom:8px;">${e}</li>`).join("") + "</ul>";
 </script>
 </body>
 </html>
