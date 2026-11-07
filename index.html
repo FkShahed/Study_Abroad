@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Study in Germany — RTL/VLSI Master's Tracker</title>
+<style>
+:root{
+  --bg:#0f1420; --panel:#161d2e; --panel2:#1d2639; --border:#2a3550;
+  --text:#e8ecf5; --muted:#9aa7c2; --accent:#5b8cff; --accent2:#7ee3b8;
+  --warn:#f5b942; --bad:#f06464; --good:#7ee3b8; --risky:#f5b942; --unk:#9aa7c2;
+  --radius:12px;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --bg:#f4f6fb; --panel:#ffffff; --panel2:#eef1f8; --border:#dde3f0;
+    --text:#1b2333; --muted:#5b6782; --accent:#355fd6;
+  }
+}
+:root[data-theme="light"]{
+  --bg:#f4f6fb; --panel:#ffffff; --panel2:#eef1f8; --border:#dde3f0;
+  --text:#1b2333; --muted:#5b6782; --accent:#355fd6;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;}
+header{padding:28px 20px 16px;max-width:1200px;margin:0 auto;}
+h1{font-size:1.5rem;margin:0 0 6px;}
+.sub{color:var(--muted);font-size:.92rem;line-height:1.5;margin:0 0 4px;}
+.badge-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+.pill{font-size:.75rem;padding:4px 10px;border-radius:20px;background:var(--panel2);border:1px solid var(--border);color:var(--muted);}
+.container{max-width:1200px;margin:0 auto;padding:0 20px 60px;}
+.controls{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin-bottom:18px;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));align-items:end;}
+.field label{display:block;font-size:.72rem;color:var(--muted);margin-bottom:4px;text-transform:uppercase;letter-spacing:.03em;}
+select,input[type=text]{width:100%;padding:8px 10px;border-radius:8px;border:1px solid var(--border);background:var(--panel2);color:var(--text);font-size:.88rem;}
+.count{color:var(--muted);font-size:.85rem;margin-bottom:10px;}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;margin-bottom:14px;}
+.card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;}
+.card h3{margin:0 0 2px;font-size:1.05rem;}
+.uni{color:var(--accent);font-weight:600;font-size:.95rem;}
+.tags{display:flex;gap:6px;flex-wrap:wrap;}
+.tag{font-size:.68rem;padding:3px 9px;border-radius:12px;font-weight:600;}
+.tier-A{background:rgba(126,227,184,.15);color:var(--good);}
+.tier-B{background:rgba(245,185,66,.15);color:var(--warn);}
+.tier-C{background:rgba(154,167,194,.15);color:var(--muted);}
+.fit-good{background:rgba(126,227,184,.18);color:var(--good);}
+.fit-moderate,.fit-borderline{background:rgba(245,185,66,.18);color:var(--warn);}
+.fit-risky,.fit-weak{background:rgba(240,100,100,.18);color:var(--bad);}
+.fit-unknown,.fit-unclear{background:rgba(154,167,194,.18);color:var(--muted);}
+.grid-info{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-top:12px;font-size:.84rem;}
+.info-item b{display:block;color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:2px;}
+.note-box{margin-top:12px;background:var(--panel2);border-left:3px solid var(--accent);padding:10px 12px;border-radius:6px;font-size:.84rem;color:var(--text);}
+.note-box.fit{border-left-color:var(--warn);}
+details{margin-top:10px;}
+summary{cursor:pointer;font-size:.82rem;color:var(--accent);}
+.src{font-size:.78rem;margin-top:8px;word-break:break-all;}
+.src a{color:var(--accent);}
+.section{margin-top:40px;}
+.section h2{font-size:1.2rem;border-bottom:1px solid var(--border);padding-bottom:8px;}
+.info-card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;margin-bottom:12px;font-size:.88rem;line-height:1.6;}
+.info-card b{color:var(--accent);}
+.fund-row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:8px 0;border-bottom:1px solid var(--border);}
+.fund-row:last-child{border-bottom:none;}
+.relevance{font-size:.72rem;padding:3px 8px;border-radius:10px;background:var(--panel2);white-space:nowrap;}
+.themebtn{position:fixed;top:16px;right:16px;background:var(--panel);border:1px solid var(--border);color:var(--text);padding:6px 12px;border-radius:20px;font-size:.78rem;cursor:pointer;}
+footer{text-align:center;color:var(--muted);font-size:.78rem;padding:30px 20px;}
+</style>
+</head>
+<body>
+<button class="themebtn" onclick="toggleTheme()">🌓 থিম</button>
+<header>
+  <h1>🇩🇪 Study in Germany — RTL / VLSI / Embedded Master's Tracker</h1>
+  <p class="sub">প্রোফাইল: BSc EEE (NSU, CGPA 2.8/4.0) · ২ বছর RTL Design &amp; Verification (UVM, FPGA prototyping) জব এক্সপেরিয়েন্স · টার্গেট: Qualcomm/Intel/AMD/NVIDIA টাইপ সেমিকন্ডাক্টর কোম্পানিতে RTL/Verification Engineer হওয়া।</p>
+  <p class="sub">⚠️ এই ডাটার অনেকটাই রিসার্চ এজেন্টের ওয়েব সার্চ থেকে আনা — অনেক ফিগার (exact IELTS cutoff, deadline, GPA threshold) অফিসিয়ালি কনফার্ম করা হয়নি, "unverified/not found" ট্যাগ করা আছে। অ্যাপ্লাই করার আগে অফিসিয়াল পেজে ডাবল-চেক করো।</p>
+  <div class="badge-row">
+    <span class="pill">মোট প্রোগ্রাম: <b id="totalCount"></b></span>
+    <span class="pill">Tier A = সরাসরি VLSI/RTL/Verification ফোকাস</span>
+    <span class="pill">Tier B = Embedded/Microelectronics/Nanoelectronics</span>
+    <span class="pill">Tier C = General EE/Mechatronics</span>
+  </div>
+</header>
+
+<div class="container">
+  <div class="controls">
+    <div class="field">
+      <label>সার্চ (University/Program)</label>
+      <input type="text" id="searchBox" placeholder="e.g. Dresden, VLSI...">
+    </div>
+    <div class="field">
+      <label>Tier</label>
+      <select id="tierFilter">
+        <option value="">সব</option>
+        <option value="A">Tier A — Direct hit</option>
+        <option value="B">Tier B — Closely related</option>
+        <option value="C">Tier C — Adjacent</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>GPA Fit (2.8/4.0 অনুযায়ী)</label>
+      <select id="fitFilter">
+        <option value="">সব</option>
+        <option value="good">Good fit</option>
+        <option value="moderate">Moderate</option>
+        <option value="borderline">Borderline</option>
+        <option value="risky">Risky</option>
+        <option value="weak">Weak fit</option>
+        <option value="unknown">অজানা / unclear</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>টিউশন ফি</label>
+      <select id="tuitionFilter">
+        <option value="">সব</option>
+        <option value="free">সম্পূর্ণ Tuition-free (semester fee ছাড়া)</option>
+        <option value="risk">BW non-EU fee ঝুঁকি (~€1500/sem)</option>
+        <option value="private">Private (উচ্চ টিউশন)</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Sort</label>
+      <select id="sortBy">
+        <option value="tier">Tier অনুযায়ী</option>
+        <option value="fit">GPA Fit অনুযায়ী (ভালো আগে)</option>
+        <option value="name">University নাম (A-Z)</option>
+      </select>
+    </div>
+  </div>
+
+  <p class="count" id="resultCount"></p>
+  <div id="cardsContainer"></div>
+
+  <div class="section">
+    <h2>📄 APS Certificate (জার্মানির জন্য ডকুমেন্ট ভেরিফিকেশন)</h2>
+    <div class="info-card" id="apsBox"></div>
+  </div>
+
+  <div class="section">
+    <h2>🎓 তোমার CGPA 2.8/4.0 নিয়ে বিশ্লেষণ</h2>
+    <div class="info-card" id="gpaBox"></div>
+  </div>
+
+  <div class="section">
+    <h2>🧾 uni-assist — অ্যাপ্লিকেশন প্রসেসিং পোর্টাল</h2>
+    <div class="info-card" id="uniAssistBox"></div>
+  </div>
+
+  <div class="section">
+    <h2>💰 ফান্ডিং / স্কলারশিপ অপশন</h2>
+    <div class="info-card" id="fundingBox"></div>
+  </div>
+</div>
+
+<footer>তৈরি: 2026-11-08 · রিসার্চ সোর্স: অফিসিয়াল ইউনিভার্সিটি পেজ, DAAD, uni-assist, এবং কিছু অ্যাগ্রিগেটর সাইট (verify before applying)</footer>
+
+<script src="data.js"></script>
+<script>
+function toggleTheme(){
+  const html=document.documentElement;
+  const cur=html.getAttribute('data-theme');
+  html.setAttribute('data-theme', cur==='light'?'dark':'light');
+}
+
+const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate",borderline:"🟡 Borderline",risky:"🟠 Risky",weak:"🔴 Weak fit",unknown:"⚪ অজানা",unclear:"⚪ Unclear"};
+
+function fitClass(f){ return "fit-"+f; }
+
+function tuitionCategory(p){
+  const t=(p.tuition||"").toLowerCase();
+  if(t.includes("private")) return "private";
+  if(t.includes("possibly") || t.includes("check:")) return "risk";
+  return "free";
+}
+
+function renderCard(p){
+  const fit = p.gpa_fit || "unknown";
+  return `<div class="card" data-tier="${p.tier}" data-fit="${fit}" data-tuition="${tuitionCategory(p)}" data-search="${(p.university+" "+p.program_name).toLowerCase()}">
+    <div class="card-head">
+      <div>
+        <div class="uni">${p.university}</div>
+        <h3>${p.program_name}</h3>
+      </div>
+      <div class="tags">
+        <span class="tag tier-${p.tier}">Tier ${p.tier}</span>
+        <span class="tag ${fitClass(fit)}">${fitLabel[fit]||fit}</span>
+      </div>
+    </div>
+    <div class="grid-info">
+      <div class="info-item"><b>Degree</b>${p.degree_type} · ${p.duration}</div>
+      <div class="info-item"><b>ভাষা</b>${p.language}</div>
+      <div class="info-item"><b>টিউশন</b>${p.tuition}</div>
+      <div class="info-item"><b>Winter Deadline</b>${p.deadline_winter}</div>
+      <div class="info-item"><b>Summer Deadline</b>${p.deadline_summer}</div>
+      <div class="info-item"><b>IELTS</b>${p.ielts}</div>
+      <div class="info-item"><b>TOEFL</b>${p.toefl}</div>
+      <div class="info-item"><b>GRE/GMAT</b>${p.gre}</div>
+      <div class="info-item"><b>German ভাষা দরকার?</b>${p.german_req}</div>
+      <div class="info-item"><b>APS দরকার?</b>${p.aps}</div>
+      <div class="info-item"><b>Min GPA</b>${p.min_gpa}</div>
+      <div class="info-item"><b>Work Exp</b>${p.work_exp}</div>
+    </div>
+    <div class="note-box fit"><b>GPA Fit নোট:</b> ${p.gpa_fit_note}</div>
+    <div class="note-box"><b>সামারি:</b> ${p.note}</div>
+    <details>
+      <summary>Prerequisites / Tuition notes / Source দেখাও</summary>
+      <div class="note-box" style="margin-top:8px;"><b>Prerequisites:</b> ${p.prereqs}</div>
+      <div class="note-box" style="margin-top:8px;"><b>Tuition notes:</b> ${p.tuition_notes}</div>
+      <div class="src">🔗 <a href="${p.source}" target="_blank" rel="noopener">${p.source}</a></div>
+    </details>
+  </div>`;
+}
+
+const fitRank = {good:0,moderate:1,borderline:1,risky:2,weak:3,unknown:4,unclear:4};
+
+function applyFilters(){
+  const q = document.getElementById('searchBox').value.toLowerCase();
+  const tier = document.getElementById('tierFilter').value;
+  const fit = document.getElementById('fitFilter').value;
+  const tuition = document.getElementById('tuitionFilter').value;
+  const sortBy = document.getElementById('sortBy').value;
+
+  let items = DATA.programs.filter(p=>{
+    if(q && !(p.university+" "+p.program_name).toLowerCase().includes(q)) return false;
+    if(tier && p.tier!==tier) return false;
+    if(fit && p.gpa_fit!==fit) return false;
+    if(tuition && tuitionCategory(p)!==tuition) return false;
+    return true;
+  });
+
+  if(sortBy==="tier") items.sort((a,b)=>a.tier.localeCompare(b.tier) || fitRank[a.gpa_fit]-fitRank[b.gpa_fit]);
+  else if(sortBy==="fit") items.sort((a,b)=>fitRank[a.gpa_fit]-fitRank[b.gpa_fit]);
+  else if(sortBy==="name") items.sort((a,b)=>a.university.localeCompare(b.university));
+
+  document.getElementById('cardsContainer').innerHTML = items.map(renderCard).join("");
+  document.getElementById('resultCount').textContent = `${items.length} টি প্রোগ্রাম দেখাচ্ছে (মোট ${DATA.programs.length})`;
+}
+
+['searchBox','tierFilter','fitFilter','tuitionFilter','sortBy'].forEach(id=>{
+  document.getElementById(id).addEventListener('input', applyFilters);
+  document.getElementById(id).addEventListener('change', applyFilters);
+});
+
+document.getElementById('totalCount').textContent = DATA.programs.length;
+applyFilters();
+
+// Static info sections
+const a = DATA.aps_info;
+document.getElementById('apsBox').innerHTML = `
+  <p>${a.overview}</p>
+  <p><b>বাংলাদেশের জন্য স্ট্যাটাস:</b> ${a.bangladesh_status}</p>
+  <p><b>⚠️ Action দরকার:</b> ${a.recommendation}</p>
+  <p><b>NSU accreditation:</b> ${a.nsu_accreditation}</p>
+  <p><b>খরচ (যদি লাগে):</b> ${a.cost_estimate}</p>
+`;
+
+const g = DATA.gpa_conversion_info;
+document.getElementById('gpaBox').innerHTML = `
+  <p><b>তোমার CGPA:</b> ${g.candidate_gpa}</p>
+  <p><b>জার্মান স্কেলে:</b> ${g.german_scale_approx}</p>
+  <p><b>Pattern:</b> ${g.pattern}</p>
+  <p><b>More lenient pathways:</b> ${g.more_lenient_paths}</p>
+  <p><b>সবচেয়ে কম সম্ভাবনা:</b> ${g.weakest_fit}</p>
+  <p><b>🎯 স্ট্র্যাটেজি:</b> ${g.strategic_recommendation}</p>
+`;
+
+const u = DATA.uni_assist_info;
+document.getElementById('uniAssistBox').innerHTML = `
+  <p>${u.what}</p>
+  <p><b>ফি:</b> ${u.fee}</p>
+  <p><b>প্রসেস:</b> ${u.process}</p>
+  <p><b>নোট:</b> ${u.not_universal}</p>
+`;
+
+document.getElementById('fundingBox').innerHTML = DATA.funding_options.map(f=>`
+  <div class="fund-row">
+    <div><b>${f.name}</b><br><span style="color:var(--muted);font-size:.84rem;">${f.note}</span></div>
+    <div class="relevance">${f.relevance}</div>
+  </div>
+`).join("");
+</script>
+</body>
+</html>
