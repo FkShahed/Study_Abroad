@@ -434,9 +434,47 @@ if (!prog) {
     </div>
 
     <!-- Section: University Deep Info (Directly from University Official Website) -->
+    ${prog.official_website_data ? `
+    <div class="section-block" id="sec-official-data" style="border:1.5px solid var(--good);box-shadow:0 8px 30px rgba(62,207,142,.15);background:rgba(62,207,142,.03);">
+      <div class="section-title" style="color:var(--good);"><span class="icon">🏛️</span> অফিশিয়াল বিশ্ববিদ্যালয় ওয়েবসাইটের ভেরিফায়েড ডেটা (Official Web Data)</div>
+      
+      <div class="grid-info">
+        <div class="info-item"><b>🎯 Total ECTS Credits</b><div class="val" style="color:var(--good);font-weight:700;">${prog.official_website_data.total_ects} ECTS</div></div>
+        <div class="info-item"><b>⏳ Standard Duration</b><div class="val">${prog.official_website_data.standard_duration}</div></div>
+        <div class="info-item"><b>🏫 Faculty / Institute</b><div class="val">${prog.official_website_data.faculty_institute}</div></div>
+        <div class="info-item"><b>📊 GPA Benchmark</b><div class="val" style="color:var(--warn);">${prog.official_website_data.gpa_conversion_benchmark}</div></div>
+        <div class="info-item"><b>🗣️ Language Requirements</b><div class="val">${prog.official_website_data.language_requirements_verified}</div></div>
+        <div class="info-item"><b>🇧🇩 বাংলাদেশ আবেদনকারীদের জন্য পরামর্শ</b><div class="val" style="color:var(--accent);font-weight:600;">${prog.official_website_data.special_notes_for_bangladesh}</div></div>
+      </div>
+
+      <div style="font-size:.8rem;font-weight:700;color:var(--muted);text-transform:uppercase;margin:16px 0 6px;">📋 কারিকুলাম স্ট্রাকচার ও সেমিস্টার বিন্যাস:</div>
+      <div class="longbox">${prog.official_website_data.curriculum_structure}</div>
+
+      <div style="font-size:.8rem;font-weight:700;color:var(--muted);text-transform:uppercase;margin:16px 0 6px;">📚 অফিসিয়াল মডিউল ব্রেকডাউন (Module Catalogue Breakdown):</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:12px;margin-bottom:16px;">
+        ${(prog.official_website_data.official_modules_breakdown || []).map(cat => `
+          <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px;">
+            <div style="font-weight:700;color:var(--accent);font-size:.88rem;margin-bottom:8px;border-bottom:1px dashed var(--border);padding-bottom:4px;">${cat.category}</div>
+            <ul style="padding-left:16px;margin:0;font-size:.84rem;line-height:1.6;">
+              ${(cat.modules || []).map(m => `<li>${m}</li>`).join('')}
+            </ul>
+          </div>
+        `).join('')}
+      </div>
+
+      <div style="font-size:.8rem;font-weight:700;color:var(--muted);text-transform:uppercase;margin:16px 0 6px;">📝 এক্স্যাক্ট অ্যাডমিশন রেগুলেশন (SPO / PO Guidelines):</div>
+      <div class="note-box good" style="font-size:.88rem;line-height:1.7;">${prog.official_website_data.exact_admission_regulations}</div>
+
+      <div style="margin-top:14px;">
+        <a class="quick-btn" href="${prog.official_website_data.official_source_url}" target="_blank" rel="noopener">🌐 বিশ্ববিদ্যালয়ের অফিশিয়াল প্রোগ্রাম পেজে যান ↗</a>
+      </div>
+    </div>
+    ` : ""}
+
+    <!-- Section: University Deep Info (Directly from University Official Website) -->
     ${prog.university_deep_info ? `
     <div class="section-block" id="sec-deep-official" style="border:1.5px solid var(--accent);box-shadow:0 8px 30px rgba(91,140,255,.18);">
-      <div class="section-title" style="color:var(--good);"><span class="icon">🔬</span> অফিসিয়াল বিশ্ববিদ্যালয় ডিপ-রিসার্চ ও ল্যাব ইনফো (Direct Official Site)</div>
+      <div class="section-title" style="color:var(--accent);"><span class="icon">🔬</span> অফিসিয়াল বিশ্ববিদ্যালয় ডিপ-রিসার্চ ও ল্যাব ইনফো (Direct Official Site)</div>
       
       <div class="grid-info">
         <div class="info-item"><b>🏛️ চেয়ার ও ফ্যাকাল্টি লিডারশিপ</b><div class="val" style="color:var(--text);">${prog.university_deep_info.chair_leadership}</div></div>
