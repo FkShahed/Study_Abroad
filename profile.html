@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Candidate Profile & Academic Mapping — Fazlul Karim Shahed</title>
+<style>
+:root{
+  --bg:#0f1420; --panel:#161d2e; --panel2:#1d2639; --border:#2a3550;
+  --text:#e8ecf5; --muted:#9aa7c2; --accent:#5b8cff;
+  --good:#7ee3b8; --warn:#f5b942; --bad:#f06464;
+  --radius:14px;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --bg:#f4f6fb; --panel:#ffffff; --panel2:#eef1f8; --border:#dde3f0;
+    --text:#1b2333; --muted:#5b6782; --accent:#355fd6;
+  }
+}
+:root[data-theme="light"]{
+  --bg:#f4f6fb; --panel:#ffffff; --panel2:#eef1f8; --border:#dde3f0;
+  --text:#1b2333; --muted:#5b6782; --accent:#355fd6;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;line-height:1.6;}
+.container{max-width:900px;margin:0 auto;padding:26px 20px 80px;}
+.top-nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;}
+.back{color:var(--accent);text-decoration:none;font-size:.88rem;font-weight:600;}
+.themebtn{background:var(--panel);border:1px solid var(--border);color:var(--text);padding:6px 12px;border-radius:20px;font-size:.78rem;cursor:pointer;}
+.profile-hero{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:24px;margin-bottom:24px;}
+.profile-header{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:16px;}
+.name-area h1{margin:0 0 4px;font-size:1.6rem;}
+.role-badge{display:inline-block;padding:4px 12px;background:rgba(91,140,255,.15);color:var(--accent);border-radius:12px;font-size:.82rem;font-weight:600;}
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:20px;}
+.meta-item{background:var(--panel2);padding:12px 14px;border-radius:10px;border:1px solid var(--border);}
+.meta-label{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;font-weight:600;}
+.meta-val{font-size:.95rem;font-weight:700;margin-top:2px;}
+.section{margin-top:34px;}
+.section h2{font-size:1.2rem;border-bottom:1px solid var(--border);padding-bottom:10px;margin-bottom:16px;display:flex;align-items:center;gap:8px;}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:20px;margin-bottom:16px;}
+.skill-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;}
+.pill{background:var(--panel2);border:1px solid var(--border);padding:4px 12px;border-radius:14px;font-size:.8rem;font-weight:600;}
+.pill.highlight{background:rgba(126,227,184,.15);color:var(--good);border-color:rgba(126,227,184,.3);}
+table.curriculum-table{width:100%;border-collapse:collapse;font-size:.86rem;margin-top:12px;}
+table.curriculum-table th{text-align:left;padding:10px 12px;background:var(--panel2);color:var(--muted);font-size:.72rem;text-transform:uppercase;border-bottom:1px solid var(--border);}
+table.curriculum-table td{padding:10px 12px;border-bottom:1px solid var(--border);}
+table.curriculum-table tr:last-child td{border-bottom:none;}
+.status-tag{padding:2px 8px;border-radius:10px;font-size:.72rem;font-weight:700;}
+.status-core{background:rgba(91,140,255,.15);color:var(--accent);}
+.status-vlsi{background:rgba(126,227,184,.18);color:var(--good);}
+.notice-box{background:rgba(245,185,66,.1);border:1px solid rgba(245,185,66,.3);border-radius:10px;padding:14px;font-size:.85rem;color:var(--warn);margin-top:14px;}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="top-nav">
+    <a class="back" href="index.html">← মূল প্রোগ্রাম ট্র্যাকার এ ফিরে যান</a>
+    <button class="themebtn" onclick="toggleTheme()">🌓 Theme</button>
+  </div>
+
+  <div class="profile-hero">
+    <div class="profile-header">
+      <div class="name-area">
+        <h1>Fazlul Karim Shahed</h1>
+        <span class="role-badge">Junior RTL Design & Verification Engineer</span>
+      </div>
+      <div>
+        <a href="https://github.com/Fazlul-Karim-Shahed" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-weight:600;font-size:.88rem;">GitHub: @Fazlul-Karim-Shahed ↗</a>
+      </div>
+    </div>
+
+    <div class="meta-grid">
+      <div class="meta-item">
+        <div class="meta-label">Undergraduate University</div>
+        <div class="meta-val">North South University (NSU)</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">BSc Degree</div>
+        <div class="meta-val">BSc in EEE (130 Credits)</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">CGPA (US Scale)</div>
+        <div class="meta-val" style="color:var(--warn);">2.80 / 4.00</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">German Grade (Bavarian Formula)</div>
+        <div class="meta-val">~2.90 – 3.10</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">Industry Experience</div>
+        <div class="meta-val" style="color:var(--good);">2+ Years (Semiconductor/VLSI)</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">Target Field</div>
+        <div class="meta-val">VLSI / RTL / Embedded / Chip Design</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Professional Experience -->
+  <div class="section">
+    <h2>💼 প্রফেশনাল এক্সপেরিয়েন্স & টেকনিক্যাল স্কিল</h2>
+    <div class="card">
+      <h3 style="margin:0 0 6px;font-size:1.05rem;">Junior RTL Design & Verification Engineer</h3>
+      <div style="font-size:.85rem;color:var(--muted);margin-bottom:14px;">Semiconductor / VLSI Design Industry, Bangladesh (2+ Years)</div>
+      
+      <p style="font-size:.88rem;margin:0 0 10px;"><b>মূল দায়িত্ব ও প্রযুক্তিগত ফোকাস:</b></p>
+      <ul style="font-size:.86rem;padding-left:20px;margin:0 0 16px;">
+        <li><b>UVM Architecture:</b> Universal Verification Methodology (UVM) ফ্রেমওয়ার্ক ব্যবহার করে complex digital block-এর জন্য automated testbench তৈরি ও verification।</li>
+        <li><b>HDL & HDVL:</b> SystemVerilog এবং Verilog ব্যবহার করে RTL মডিউল ডিজাইন, assertions (SVA), এবং functional coverage implementation।</li>
+        <li><b>FPGA Prototyping:</b> FPGA বোর্ড-এ synthesized RTL টেস্ট করা এবং hardware-software integration ডিবাগিং।</li>
+        <li><b>EDA Tooling & Protocols:</b> Industry-standard EDA simulators, wave viewer, linting tool, এবং standard on-chip protocols (যেমন APB/AXI) নিয়ে কাজ করার বাস্তব অভিজ্ঞতা।</li>
+      </ul>
+
+      <div style="font-size:.82rem;font-weight:700;text-transform:uppercase;color:var(--muted);letter-spacing:.03em;">কী স্কিলসেট (Keywords):</div>
+      <div class="skill-pills">
+        <span class="pill highlight">SystemVerilog</span>
+        <span class="pill highlight">UVM</span>
+        <span class="pill highlight">Verilog HDL</span>
+        <span class="pill highlight">RTL Design</span>
+        <span class="pill highlight">FPGA Prototyping</span>
+        <span class="pill">Functional Coverage</span>
+        <span class="pill">SVA (Assertions)</span>
+        <span class="pill">Digital Logic</span>
+        <span class="pill">C/C++</span>
+        <span class="pill">Python Scripting</span>
+        <span class="pill">Linux/Bash</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Academic Curriculum Mapping -->
+  <div class="section">
+    <h2>🎓 North South University (NSU) — EEE কারিকুলাম ও ECTS ম্যাপিং</h2>
+    <div class="card">
+      <p style="font-size:.88rem;margin-top:0;">
+        জার্মান বিশ্ববিদ্যালয়ে মাস্টার্স অ্যাডমিশনের ক্ষেত্রে মূল বিষয় হলো ECTS (European Credit Transfer System) ম্যাপিং। 
+        নিচে NSU-এর ১৩০ ক্রেডিটের BSEEE কারিকুলামের গুরুত্বপূর্ণ কোর্স ও জার্মান সমতুল্য ক্রেডিট হিসাব তুলে ধরা হলো (NSU-এর ১ ক্রেডিট ≈ ১.৫ ECTS):
+      </p>
+
+      <table class="curriculum-table">
+        <thead>
+          <tr>
+            <th>কোর্স কোড ও নাম</th>
+            <th>NSU ক্রেডিট</th>
+            <th>আনুমানিক ECTS</th>
+            <th>ক্যাটাগরি</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>EEE 411:</b> Introduction to VLSI Design</td>
+            <td>3.0</td>
+            <td>4.5 - 5.0 ECTS</td>
+            <td><span class="status-tag status-vlsi">VLSI / Microelectronics</span></td>
+          </tr>
+          <tr>
+            <td><b>EEE 413:</b> Verilog HDL: Modelling & Synthesis</td>
+            <td>3.0</td>
+            <td>4.5 - 5.0 ECTS</td>
+            <td><span class="status-tag status-vlsi">Hardware Description</span></td>
+          </tr>
+          <tr>
+            <td><b>EEE 410:</b> Semiconductor Devices & Tech</td>
+            <td>3.0</td>
+            <td>4.5 - 5.0 ECTS</td>
+            <td><span class="status-tag status-vlsi">Solid State / Devices</span></td>
+          </tr>
+          <tr>
+            <td><b>EEE 211 + IL:</b> Digital Logic Design & Lab</td>
+            <td>4.0</td>
+            <td>6.0 ECTS</td>
+            <td><span class="status-tag status-core">Digital Systems</span></td>
+          </tr>
+          <tr>
+            <td><b>EEE 111 & 311:</b> Analog Electronics I & II</td>
+            <td>8.0</td>
+            <td>12.0 ECTS</td>
+            <td><span class="status-tag status-core">Electronics Core</span></td>
+          </tr>
+          <tr>
+            <td><b>EEE 141 & 241:</b> Electrical Circuits I & II</td>
+            <td>8.0</td>
+            <td>12.0 ECTS</td>
+            <td><span class="status-tag status-core">Circuit Theory</span></td>
+          </tr>
+          <tr>
+            <td><b>MAT 120, 125, 130, 250, 350:</b> Calculus I-III, Linear Algebra, Diff Eq</td>
+            <td>15.0</td>
+            <td>22.5 - 25.0 ECTS</td>
+            <td><span class="status-tag status-core">Higher Mathematics</span></td>
+          </tr>
+          <tr>
+            <td><b>MAT 361:</b> Probability & Statistics</td>
+            <td>3.0</td>
+            <td>4.5 ECTS</td>
+            <td><span class="status-tag status-core">Mathematics</span></td>
+          </tr>
+          <tr>
+            <td><b>EEE 221 & 342:</b> Signals & Systems, Control Eng.</td>
+            <td>7.0</td>
+            <td>10.5 ECTS</td>
+            <td><span class="status-tag status-core">Signals & Systems</span></td>
+          </tr>
+          <tr>
+            <td><b>CSE 115 + CL:</b> Programming Language I (C/C++)</td>
+            <td>4.0</td>
+            <td>6.0 ECTS</td>
+            <td><span class="status-tag status-core">Computer Science</span></td>
+          </tr>
+          <tr>
+            <td><b>EEE 499A & 499B:</b> Senior Capstone Design / Thesis</td>
+            <td>3.0</td>
+            <td>4.5 - 5.0 ECTS</td>
+            <td><span class="status-tag status-core">Thesis / Project</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="notice-box">
+        💡 <b>বিশ্লেষণ:</b> আপনার ট্রান্সক্রিপ্টে <b>Higher Mathematics (~25 ECTS)</b> এবং <b>Digital/Analog Electronics (~25+ ECTS)</b> সম্পূর্ণ পর্যাপ্ত যা বেশিরভাগ জার্মান বিশ্ববিদ্যালয়ের ন্যূনতম ক্রেডিট ক্রাইটেরিয়া পূরণ করে।
+      </div>
+    </div>
+  </div>
+
+  <!-- Profile Strategy for Admission -->
+  <div class="section">
+    <h2>🎯 কম CGPA (2.80) সত্ত্বেও অফার নিশ্চিত করার স্ট্র্যাটেজি</h2>
+    <div class="card">
+      <ul style="font-size:.88rem;padding-left:20px;margin:0;line-height:1.75;">
+        <li><b>NC-Frei & UAS ফোকাস:</b> যে বিশ্ববিদ্যালয়গুলো Zulassungsfrei (Open Admission) এবং Hochschule (University of Applied Sciences) সেগুলোতে অগ্রাধিকার দিন (যেমন: TU Chemnitz, Bremerhaven, BTU Cottbus)।</li>
+        <li><b>কাজের অভিজ্ঞতাকে অফিশিয়াল প্রুফ হিসেবে উপস্থাপন:</b> আপনার কোম্পানি থেকে ২ বছরের কাজের বিশদ দায়িত্ব (SystemVerilog, UVM, FPGA, Verification Methodologies) উল্লেখ করে বিস্তারিত <i>Experience / Recommendation Letter</i> সংগ্রহ করুন। Bremerhaven-এর মতো প্রতিষ্ঠানে ২+ বছর কাজ থাকলে সিজিপিএ শিথিল করা হয়।</li>
+        <li><b>SOP (Statement of Purpose)-এর অভিমুখ:</b> আপনার SOP হবে প্র্যাকটিক্যাল প্রবলেম-সলভিং ফোকাসড। থিওরিটিক্যাল গ্রেডের চেয়ে চিপ ডিজাইনের বাস্তব কাজের অভিজ্ঞতা এবং জার্মানির সেমিকন্ডাক্টর ইন্ডাস্ট্রিতে যোগদানের রূপরেখা তুলে ধরুন।</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+function toggleTheme(){
+  const html=document.documentElement;
+  html.setAttribute('data-theme', html.getAttribute('data-theme')==='light'?'dark':'light');
+}
+</script>
+</body>
+</html>
+
