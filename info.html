@@ -60,6 +60,21 @@ h1{font-size:1.4rem;margin:16px 0;}
     <h2>💰 ফান্ডিং / স্কলারশিপ অপশন</h2>
     <div class="info-card" id="fundingBox"></div>
   </div>
+
+  <div class="section">
+    <h2>🔎 DAAD ফুল ডাটাবেস সার্চ কভারেজ</h2>
+    <div class="info-card" id="coverageBox"></div>
+  </div>
+
+  <div class="section">
+    <h2>🤝 Joint/Double-Degree প্রোগ্রাম</h2>
+    <div class="info-card" id="jointBox"></div>
+  </div>
+
+  <div class="section">
+    <h2>🚫 যা বাদ দেওয়া হয়েছে (relevance না থাকায়)</h2>
+    <div class="info-card" id="excludedBox"></div>
+  </div>
 </div>
 
 <script src="data.js"></script>
@@ -98,6 +113,16 @@ document.getElementById('fundingBox').innerHTML = DATA.funding_options.map(f=>`
     <div class="relevance">${f.relevance}</div>
   </div>
 `).join("");
+
+document.getElementById('coverageBox').innerHTML = `<p>${DATA.daad_search_coverage_note || "Not available"}</p>`;
+
+document.getElementById('jointBox').innerHTML = (DATA.joint_degree_programs_found||[]).map(j=>`
+  <div class="fund-row">
+    <div><b>${j.program}</b><br><span style="color:var(--muted);font-size:.84rem;">${j.status}</span><br><a href="${j.source}" target="_blank" rel="noopener" style="font-size:.78rem;">${j.source}</a></div>
+  </div>
+`).join("") || "<p>No joint-degree programs found.</p>";
+
+document.getElementById('excludedBox').innerHTML = "<ul style='padding-left:18px;margin:0;'>" + (DATA.excluded_programs_examples||[]).map(e=>`<li style="margin-bottom:8px;">${e}</li>`).join("") + "</ul>";
 </script>
 </body>
 </html>
