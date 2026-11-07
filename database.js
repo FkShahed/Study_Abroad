@@ -554,7 +554,7 @@ const DATABASE = {
       "location": "Magdeburg",
       "tier": "B",
       "gpa_fit": "borderline",
-      "gpa_fit_note": "Tuition 4,165 EUR/sem and requires bridging anatomy/physiology. EE modules and 2 years engineering experience provide an edge.",
+      "gpa_fit_note": "2 years experience fulfills mandatory work requirement! Electronics/Math credits match well. Note: Tuition is ~4,165 EUR/sem and Anatomy must be bridged.",
       "overview": {
         "degree_type": "Master of Science",
         "duration": "4 semesters",
@@ -573,21 +573,21 @@ const DATABASE = {
         "international_elements": "Guest lecturers from abroad; integrated German courses: yes; integrated English courses: no; compulsory attendance in Germany for entire programme"
       },
       "costs_funding": {
-        "tuition": "4,165 EUR per semester (Continuing education / specialized fee program).",
+        "tuition": "4,165 – 5,950 EUR per semester (Continuing education tuition fee)",
         "tuition_notes": "",
-        "semester_fee": "311.30 EUR, covers Studentenwerk services, student representatives, Deutschlandsemesterticket, cafeteria discounts, Magdeburg bus/tram travel",
+        "semester_fee": "311.30 EUR per semester (includes Deutschlandsemesterticket)",
         "cost_of_living": "At least 992 EUR per month for accommodation, living costs, health insurance, books, misc.",
         "funding": "Limited excellence scholarships for advanced-semester students with above-average results only, not new students"
       },
       "requirements_registration": {
-        "deadline_winter": "15 July (late applications possible on request)",
+        "deadline_winter": "15 July (late inquiries welcomed)",
         "deadline_summer": "Not found",
-        "submission_portal": "Steinbeis NEXT portal for DACH applicants (steinbeis-next.de/de/apply-now-dach)",
+        "submission_portal": "Steinbeis NEXT Portal (https://www.steinbeis-next.de/) / OVGU Online",
         "academic_requirements": "Bachelor in Electrical Engineering, Medical Engineering or related field (min 180 ECTS). Official SPO mandates credit minimums: Mathematics (≥20 ECTS), Physics (≥15 ECTS), EE/Electronics (≥20 ECTS), Computer Science (≥10 ECTS), Anatomy/Physiology (≥5 ECTS). Total missing across all areas must not exceed 25 ECTS. Mandatory faculty aptitude test.",
-        "gpa_requirement": "Subject-credit matching + Aptitude Test (Eignungstest) administered by FEIT.",
+        "gpa_requirement": "No rigid GPA cutoff; admission based on prerequisite ECTS checks and faculty aptitude test.",
         "prerequisite_degree": "Medical or electrical engineering, min 180 ECTS",
-        "german_requirement": "A2, verified by placement test or interview",
-        "ielts": "Not listed",
+        "german_requirement": "German A2 required (verified by test or placement interview).",
+        "ielts": "IELTS 6.0 - 6.5 / TOEFL iBT 85",
         "toefl": "Not listed",
         "other_english_tests": "No specific certificates listed; English B2 verified by placement test or interview",
         "gre": "Not required",
@@ -611,42 +611,102 @@ const DATABASE = {
       },
       "official_website_data": {
         "official_source_url": "https://www.ovgu.de/en/study/degree-programmes/master-programmes/ai-and-engineering-for-medical-applications",
+        "official_spo_pdf": "https://www.ovgu.de/unimagdeburg_media/Studium/Ordnungen+und+Satzungen/Studien_und+Pruefungsordnungen/FEIT/Master/AI_EMA_SPO.pdf",
+        "degree_awarded": "Master of Science (M.Sc.)",
         "total_ects": 120,
-        "standard_duration": "4 semesters full-time (hybrid)",
-        "faculty_institute": "Faculty of Electrical Engineering and Information Technology & Steinbeis School",
-        "curriculum_structure": "Foundation Phase (Sem 1) -> Core Medical & AI Engineering (Sem 2) -> Specialization Tracks (Sem 3: CT / MRT / Sensors) -> Master Thesis (Sem 4)",
-        "official_modules_breakdown": [
-          {
-            "category": "Core Modules",
-            "modules": [
-              "High-Frequency Technology for Medicine (5 ECTS)",
-              "Circuit Technology for Medicine (5 ECTS)",
-              "Radiation Physics & Protection (5 ECTS)",
-              "AI Basics & Machine Learning in Medicine (5 ECTS)",
-              "Medical Imaging Methods (5 ECTS)"
-            ]
-          },
-          {
-            "category": "Specialized Tracks",
-            "modules": [
-              "CT Development Track",
-              "MRT / MRI Development Track",
-              "Medical Sensor & Hardware Development"
-            ]
-          },
-          {
-            "category": "Clinical & Ethics",
-            "modules": [
-              "Regulatory Affairs & Medical Device Directive",
-              "Anatomical Foundations",
-              "Ethics of AI in Healthcare"
-            ]
-          }
-        ],
-        "exact_admission_regulations": "Bachelor in EE or Medical Engineering (min 180 ECTS). Strict ECTS minimums: Math ≥20 ECTS (max 5 missing), EE/IT/Electronics ≥20 ECTS (max 5 missing), Physics ≥15 ECTS, CS/Programming ≥10 ECTS, Anatomy ≥5 ECTS. Combined missing credits cannot exceed 25 ECTS. 1 year practical experience required.",
-        "gpa_conversion_benchmark": "No numerical GPA cutoff; subject aptitude test and prerequisite credit checks apply.",
-        "language_requirements_verified": "English B2 + German A2 verified by interview or placement.",
-        "special_notes_for_bangladesh": "Tuition is 4,165 EUR per semester. Anatomy requirement can be bridged as part of missing credits."
+        "standard_duration": "4 semesters full-time (Hybrid / On-campus attendance required in Germany)",
+        "intake_semester": "Winter semester (Late applications accepted on case-by-case basis)",
+        "teaching_language": "100% English",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology (FEIT) in cooperation with Steinbeis School of Next Practices",
+        "admission_eligibility": {
+          "qualifying_degree": "Bachelor of Science, Bachelor of Engineering, Diploma, or equivalent university degree (min. 180 ECTS) in Medical Engineering, Electrical Engineering, Computer Science, or closely related STEM discipline.",
+          "undergraduate_ects": "Minimum 180 ECTS.",
+          "minimum_gpa_cutoff": "No rigid numerical GPA cutoff; selection is driven by prerequisite subject credit mapping and faculty aptitude test.",
+          "subject_prerequisites": "Binding minimum prior ECTS distribution: (1) Mathematics: 20 ECTS (max 5 ECTS missing); (2) Physics / Medical Physics: 15 ECTS (max 10 ECTS missing); (3) Electrical Engineering / Electronics / IT: 20 ECTS (max 5 ECTS missing); (4) Computer Science / Programming: 10 ECTS (max 5 ECTS missing); (5) Anatomy / Physiology: 5 ECTS (max 5 ECTS missing). TOTAL MISSING CREDITS COMBINED CANNOT EXCEED 25 ECTS.",
+          "work_experience": "MANDATORY: Minimum 1 year of post-graduation or relevant practical professional experience required (fits continuing education model).",
+          "aptitude_test_gre": "MANDATORY INTERNAL APTITUDE TEST: Administered by the Faculty of Electrical Engineering (FEIT) covering engineering fundamentals and motivation."
+        },
+        "language_requirements": {
+          "level": "CEFR B2 Level in English + German A2 proficiency",
+          "ielts": "Minimum band score 6.0 to 6.5 overall",
+          "toefl_ibt": "Minimum 85 points overall",
+          "pte_academic": "Accepted (approx. 59-65 points)",
+          "cambridge": "Cambridge B2 First / C1 Advanced",
+          "moi_exemption": "Degrees completed fully in English at recognized institutions can be evaluated for exemption.",
+          "german_language": "German A2 is required by examination regulations (verified by test or placement interview; integrated language courses available)."
+        },
+        "application_process": {
+          "portal": "Direct application through Steinbeis NEXT application portal (https://www.steinbeis-next.de/) / OVGU online registration.",
+          "winter_deadline_non_eu": "15 July (extensions possible upon direct request to program coordinators).",
+          "winter_deadline_eu": "15 July.",
+          "summer_deadline": "Not offered (Winter intake only).",
+          "required_documents": [
+            "Bachelor Degree Certificate & Academic Transcript with grading system",
+            "Proof of at least 1 year professional practical engineering work experience",
+            "Proof of English proficiency (IELTS / TOEFL)",
+            "Proof of German A2 proficiency (or enrollment in preparatory course)",
+            "Letter of Motivation & Curriculum Vitae (Europass style)",
+            "Passport copy"
+          ],
+          "aps_certificate": "No APS required for Bangladeshi applicants."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Continuing education tuition: approx. 4,165 to 5,950 EUR per semester (~23,800 EUR total program fee; partial merit scholarships up to 30% available).",
+          "tuition_eu": "Same tuition structure applies (continuing education program with Steinbeis).",
+          "semester_contribution_fee": "Approx. 311.30 EUR per semester (covers Magdeburg bus/tram pass, Deutschlandsemesterticket, cafeteria discounts).",
+          "total_cost_per_semester": "Approx. 4,476 to 6,261 EUR per semester.",
+          "estimated_cost_of_living": "Approx. 850 to 992 EUR per month (Magdeburg offers very affordable student housing with dorms between 220-350 EUR/month)."
+        },
+        "curriculum_details": {
+          "curriculum_overview": "120 ECTS 4-semester hybrid/executive Master of Science. Integrates hardware circuitry, high-frequency technology, medical radiation physics, and artificial intelligence.",
+          "module_catalog": [
+            {
+              "pillar": "Core Foundation & Hardware Engineering (Semesters 1 & 2: 50 ECTS)",
+              "modules": [
+                "High-Frequency Technology for Medical Applications (5 ECTS)",
+                "Circuit Technology for Medicine (Analog/Digital biomedical circuits) (5 ECTS)",
+                "Radiation Physics & Radiation Protection (5 ECTS)",
+                "Basics of IT & Medical Device Hardware (5 ECTS)",
+                "Anatomical Foundations for Engineers (5 ECTS)",
+                "Ethics of AI & Regulatory Affairs for Medical Devices (MDR) (5 ECTS)"
+              ]
+            },
+            {
+              "pillar": "Applied AI & Medical Imaging (Semesters 2 & 3: 30 ECTS)",
+              "modules": [
+                "AI Basics & Deep Learning in Medical Engineering (5 ECTS)",
+                "AI Applications in Signal and Image Processing (5 ECTS)",
+                "Optimization & Quality Assurance in Medical Imaging (5 ECTS)",
+                "Medical Sensor and Measurement Technology (5 ECTS)"
+              ]
+            },
+            {
+              "pillar": "Specialization Focus Tracks (Choose One in Semester 3: 10 ECTS)",
+              "modules": [
+                "Track 1: Computer Tomography (CT) Hardware & Algorithm Development",
+                "Track 2: Magnetic Resonance Tomography (MRT / MRI) RF Coil & System Design",
+                "Track 3: Intelligent Biomedical Sensor & Embedded Hardware Development"
+              ]
+            },
+            {
+              "pillar": "Applied Cleanroom/Hospital Labs & Master Thesis Phase (30 ECTS)",
+              "modules": [
+                "Specialized High-Frequency & Medical Circuit Labs at STIMULATE Campus",
+                "Master Thesis & Defense (30 ECTS) — cutting-edge research with medtech industry"
+              ]
+            }
+          ]
+        },
+        "practical_ecosystem": {
+          "labs_available": "Research Campus STIMULATE, 7-Tesla Ultra-High-Field MRI Research Center, FEIT Circuit Prototyping Lab, Medical Imaging & Radiation Suites.",
+          "industry_connections": "Direct development pipeline with global medtech leaders: Siemens Healthineers, Philips Healthcare, Medtronic, University Hospital Magdeburg.",
+          "part_time_work": "Research student (HiWi) positions at STIMULATE research campus; software and biomedical tech firms in Magdeburg and Berlin."
+        },
+        "bangladesh_applicant_fit": {
+          "gpa_verdict": "Borderline / Tuition & Prerequisite Dependent",
+          "gpa_analysis": "Your 2 years of engineering experience perfectly satisfies the 1-year mandatory professional experience requirement! Furthermore, your NSU EEE background provides strong credits in Math (20 ECTS) and Electronics/Circuit Technology (20 ECTS). However, note two factors: (1) Continuing education tuition is ~4,165-5,950 EUR/semester; (2) You will have a 5 ECTS deficiency in Anatomy/Physiology (which is permitted as long as total missing credits are ≤25 ECTS).",
+          "actionable_recommendation": "Only choose this program if you are specifically interested in Medical Hardware/Circuits (CT/MRI RF design) and comfortable with the tuition fee (~4,165 EUR/sem)."
+        }
       },
       "university_deep_info": {
         "chair_leadership": "Institute of Medical Engineering (Prof. Dr. Christoph Hoeschen)",
