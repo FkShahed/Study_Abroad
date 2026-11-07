@@ -175,7 +175,7 @@ const ALL_ITEMS = [
   })),
   ...DAAD_FULL.map((p, i) => ({
     source: "daad", idx: i,
-    university: p.university, program_name: p.title,
+    university: p.university, program_name: p.title, department: p.department || "",
     tuition: p.tuition || "Not found", ielts: p.ielts || "Not found",
     deadline_winter: p.deadline_winter || "Not found", deadline_summer: p.deadline_summer || "",
     language: p.language || "English", tier: "D", gpa_fit: "unknown"
@@ -227,7 +227,7 @@ function applyFilters(){
   const sortBy = document.getElementById('sortBy').value;
 
   let items = ALL_ITEMS.filter((p) => {
-      if(q && !(p.university+" "+p.program_name).toLowerCase().includes(q)) return false;
+      if(q && !(p.university+" "+p.program_name+" "+(p.department||"")).toLowerCase().includes(q)) return false;
       if(tier && p.tier!==tier) return false;
       if(fit && p.gpa_fit!==fit) return false;
       if(tuition && tuitionCategory(p)!==tuition) return false;

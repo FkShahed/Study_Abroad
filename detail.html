@@ -46,6 +46,10 @@ h1{font-size:1.4rem;margin:4px 0 14px;}
 .src{font-size:.82rem;margin-top:16px;word-break:break-all;}
 .src a{color:var(--accent);}
 .themebtn{position:fixed;top:16px;right:16px;background:var(--panel);border:1px solid var(--border);color:var(--text);padding:6px 12px;border-radius:20px;font-size:.78rem;cursor:pointer;}
+.section-h{font-size:1rem;font-weight:700;margin:26px 0 10px;color:var(--accent);border-bottom:1px solid var(--border);padding-bottom:6px;}
+.section-h:first-of-type{margin-top:4px;}
+.longtext{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:12px 14px;font-size:.86rem;line-height:1.7;margin-bottom:10px;white-space:pre-line;}
+.longtext.empty{color:var(--muted);font-style:italic;}
 </style>
 </head>
 <body>
@@ -80,25 +84,65 @@ if(isDaad){
       <div class="tags">
         <span class="tag tier-D">DAAD Raw (unreviewed)</span>
       </div>
+
+      <div class="section-h">📋 সাধারণ তথ্য (General)</div>
       <div class="grid-info">
-        <div class="info-item"><b>Degree</b>${nf(d.degree_type)} · ${nf(d.duration)}</div>
         <div class="info-item"><b>Department</b>${nf(d.department)}</div>
+        <div class="info-item"><b>Location</b>${nf(d.location)}</div>
+        <div class="info-item"><b>Degree</b>${nf(d.degree_type)}</div>
+        <div class="info-item"><b>Duration</b>${nf(d.duration)}</div>
         <div class="info-item"><b>ভাষা</b>${nf(d.language)}</div>
+        <div class="info-item"><b>Combined Master's/PhD</b>${nf(d.combined_masters_phd)}</div>
+        <div class="info-item"><b>Joint/Double Degree</b>${nf(d.joint_double_degree)}</div>
+        <div class="info-item"><b>Diploma Supplement</b>${nf(d.diploma_supplement)}</div>
+        <div class="info-item"><b>International Elements</b>${nf(d.international_elements)}</div>
+      </div>
+
+      <div class="section-h">💰 খরচ ও ফান্ডিং (Costs and Funding)</div>
+      <div class="grid-info">
         <div class="info-item"><b>টিউশন</b>${nf(d.tuition)}</div>
         <div class="info-item"><b>Semester Fee</b>${nf(d.semester_fee)}</div>
+        <div class="info-item"><b>থাকা-খাওয়ার খরচ</b>${nf(d.cost_of_living)}</div>
+      </div>
+      <div class="longtext ${(!d.funding || d.funding==='Not found') ? 'empty' : ''}">${nf(d.funding)}</div>
+
+      <div class="section-h">📝 অ্যাপ্লিকেশন (Application)</div>
+      <div class="grid-info">
         <div class="info-item"><b>Winter Deadline</b>${nf(d.deadline_winter)}</div>
         <div class="info-item"><b>Summer Deadline</b>${nf(d.deadline_summer)}</div>
-        <div class="info-item"><b>IELTS</b>${nf(d.ielts)}</div>
-        <div class="info-item"><b>TOEFL</b>${nf(d.toefl)}</div>
-        <div class="info-item"><b>Other English Test</b>${nf(d.other_english_test)}</div>
-        <div class="info-item"><b>GRE</b>${nf(d.gre)}</div>
-        <div class="info-item"><b>German ভাষা দরকার?</b>${nf(d.german_requirement)}</div>
+        <div class="info-item"><b>কোথায় Submit করবে</b>${nf(d.submission_portal)}</div>
         <div class="info-item"><b>Min GPA / Requirement</b>${nf(d.gpa_requirement)}</div>
         <div class="info-item"><b>Prerequisite Degree</b>${nf(d.prerequisite_degree)}</div>
-        <div class="info-item"><b>Contact</b>${nf(d.contact_email)}</div>
+        <div class="info-item"><b>German ভাষা দরকার?</b>${nf(d.german_requirement)}</div>
+        <div class="info-item"><b>IELTS</b>${nf(d.ielts)}</div>
+        <div class="info-item"><b>TOEFL</b>${nf(d.toefl)}</div>
+        <div class="info-item"><b>Other English Tests</b>${nf(d.other_english_tests)}</div>
+        <div class="info-item"><b>GRE/GMAT</b>${nf(d.gre)}</div>
       </div>
-      <div class="note">⚪ এই প্রোগ্রামটা DAAD-এর পূর্ণ ফিল্টার করা লিস্ট থেকে সরাসরি স্ক্র্যাপ করা — এখনো ম্যানুয়ালি রিভিউ/Tier/GPA-fit অ্যাসেসমেন্ট করা হয়নি (কিউরেটেড লিস্টের মতো)। উপরের তথ্য DAAD-এর অফিসিয়াল পেজ থেকেই আনা, কিন্তু অ্যাপ্লাই করার আগে অফিসিয়াল ইউনিভার্সিটি পেজে একবার ডাবল-চেক করে নেওয়া ভালো।</div>
-      ${d.course_website ? `<div class="note"><b>Course website:</b> ${d.course_website}</div>` : ""}
+      <div class="longtext ${(!d.academic_requirements || d.academic_requirements==='Not found') ? 'empty' : ''}"><b>Full admission requirements:</b><br>${nf(d.academic_requirements)}</div>
+
+      <div class="section-h">📚 কারিকুলাম (Curriculum)</div>
+      <div class="longtext ${(!d.curriculum || d.curriculum==='Not found') ? 'empty' : ''}">${nf(d.curriculum)}</div>
+
+      <div class="section-h">🏠 স্টুডেন্ট লাইফ (Student Services)</div>
+      <div class="grid-info">
+        <div class="info-item"><b>Accommodation</b>${nf(d.accommodation)}</div>
+        <div class="info-item"><b>Part-time Work</b>${nf(d.part_time_work)}</div>
+        <div class="info-item"><b>Career Services</b>${nf(d.career_services)}</div>
+        <div class="info-item"><b>Other Support</b>${nf(d.other_support)}</div>
+      </div>
+
+      <div class="section-h">📞 যোগাযোগ (Contact)</div>
+      <div class="grid-info">
+        <div class="info-item"><b>Advisor Name</b>${nf(d.contact_name)}</div>
+        <div class="info-item"><b>Email</b>${nf(d.contact_email)}</div>
+        <div class="info-item"><b>Phone</b>${nf(d.contact_phone)}</div>
+        <div class="info-item"><b>Address</b>${nf(d.contact_address)}</div>
+        <div class="info-item"><b>Course Website</b>${nf(d.course_website)}</div>
+      </div>
+
+      ${(d.notes && d.notes!=='Not found') ? `<div class="note">📌 <b>নোট:</b> ${d.notes}</div>` : ""}
+      <div class="note">⚪ এই প্রোগ্রামটা DAAD-এর ফিল্টার করা লিস্ট থেকে সরাসরি স্ক্র্যাপ করা — এখনো ম্যানুয়ালি রিভিউ/Tier/GPA-fit অ্যাসেসমেন্ট করা হয়নি (কিউরেটেড লিস্টের মতো)। উপরের সব তথ্য DAAD-এর অফিসিয়াল পেজ থেকেই আনা হয়েছে; যা পেজে ছিল না তা স্পষ্টভাবে "Not found" লেখা আছে — অ্যাপ্লাই করার আগে অফিসিয়াল ইউনিভার্সিটি পেজে একবার ডাবল-চেক করে নেওয়া ভালো।</div>
       <div class="src">🔗 DAAD সোর্স: <a href="${d.source_url}" target="_blank" rel="noopener">${d.source_url}</a></div>
     `;
   }
