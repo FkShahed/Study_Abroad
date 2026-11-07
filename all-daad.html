@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DAAD Full Results — Electrical/Mgmt/Mechatronics Master's</title>
+<style>
+:root{
+  --bg:#0f1420; --panel:#161d2e; --panel2:#1d2639; --border:#2a3550;
+  --text:#e8ecf5; --muted:#9aa7c2; --accent:#5b8cff; --good:#7ee3b8;
+  --radius:14px;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --bg:#f4f6fb; --panel:#ffffff; --panel2:#eef1f8; --border:#dde3f0;
+    --text:#1b2333; --muted:#5b6782; --accent:#355fd6;
+  }
+}
+:root[data-theme="light"]{
+  --bg:#f4f6fb; --panel:#ffffff; --panel2:#eef1f8; --border:#dde3f0;
+  --text:#1b2333; --muted:#5b6782; --accent:#355fd6;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;}
+.container{max-width:95%;margin:0 auto;padding:26px 20px 60px;}
+.back{color:var(--accent);text-decoration:none;font-size:.88rem;}
+h1{font-size:1.4rem;margin:14px 0 6px;}
+.sub{color:var(--muted);font-size:.86rem;max-width:800px;line-height:1.6;}
+.note-box{background:var(--panel2);border-left:3px solid var(--accent);padding:12px 14px;border-radius:8px;font-size:.84rem;line-height:1.6;margin:14px 0 20px;}
+.controls{display:flex;gap:14px;flex-wrap:wrap;margin:10px 0 18px;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px;}
+.field{display:flex;flex-direction:column;gap:5px;flex:1 1 150px;min-width:150px;}
+.field label{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.03em;font-weight:600;}
+.controls select,.controls input{padding:8px 12px;border-radius:10px;border:1px solid var(--border);background:var(--panel2);color:var(--text);font-size:.85rem;width:100%;}
+.field.search{flex:2 1 220px;}
+.count{color:var(--muted);font-size:.82rem;margin-bottom:12px;}
+.table-wrap{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);overflow-x:auto;}
+table{width:100%;border-collapse:collapse;font-size:.85rem;min-width:900px;}
+thead th{text-align:left;padding:12px 14px;color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.03em;border-bottom:1px solid var(--border);white-space:nowrap;}
+tbody tr{border-bottom:1px solid var(--border);}
+tbody tr:last-child{border-bottom:none;}
+tbody tr:hover{background:var(--panel2);}
+tbody td{padding:10px 14px;vertical-align:top;}
+td a{color:var(--accent);text-decoration:none;}
+td a:hover{text-decoration:underline;}
+.tag{font-size:.68rem;padding:3px 9px;border-radius:12px;font-weight:700;white-space:nowrap;background:rgba(126,227,184,.15);color:var(--good);}
+.themebtn{position:fixed;top:16px;right:16px;background:var(--panel);border:1px solid var(--border);color:var(--text);padding:6px 12px;border-radius:20px;font-size:.78rem;cursor:pointer;}
+</style>
+</head>
+<body>
+<button class="themebtn" onclick="toggleTheme()">🌓</button>
+<div class="container">
+  <a class="back" href="index.html">← কিউরেটেড শর্টলিস্টে ফিরে যাও</a>
+  <h1>📊 DAAD-এর সম্পূর্ণ ফিল্টার করা রেজাল্ট (Raw, Unfiltered)</h1>
+  <p class="sub">এটা তোমার দেওয়া exact ফিল্টার দিয়ে DAAD International Programmes ডাটাবেস থেকে সরাসরি স্ক্র্যাপ করা — Subject Group: Engineering Sciences → Areas of Study: Electrical Engineering + Engineering and Management + Mechatronics, Systems Engineering; Course type: Master's degree; Course Language: English only।</p>
+  <div class="note-box">
+    ✅ <b>১৯৯টির মধ্যে ১৯৯টি</b> রেজাল্ট সফলভাবে সংগ্রহ করা হয়েছে (সরাসরি DAAD-এর রেজাল্ট পেজের DOM থেকে, browser automation দিয়ে)। এটা কোনো রিলেভেন্স-ফিল্টার ছাড়া সম্পূর্ণ raw লিস্ট — অর্থাৎ Mechanical Engineering/Management/General EE-র সাথে সম্পর্কহীন কিছু প্রোগ্রামও (যেমন MBA, Logistics ইত্যাদি) এখানে থাকতে পারে, কারণ "Engineering and Management" ও "Mechatronics" ক্যাটাগরিতে DAAD নিজেই এগুলো ট্যাগ করেছে। Tuition "Tuition varies"/নির্দিষ্ট সংখ্যা মানে institution-ভেদে আলাদা হতে পারে — অফিসিয়াল পেজে ভেরিফাই করো।
+    <br><br>সোর্স ফিল্টার লিংক: <a href="https://www2.daad.de/deutschland/studienangebote/international-programmes/en/result/?q=&degree%5B%5D=2&subjectGroup%5B%5D=56&fos%5B%5D=74&fos%5B%5D=145&fos%5B%5D=102&lang%5B%5D=2&sort=4" target="_blank" rel="noopener" style="color:var(--accent);">DAAD-এ লাইভ ফিল্টার দেখো →</a>
+  </div>
+
+  <div class="controls">
+    <div class="field search">
+      <label>সার্চ</label>
+      <input type="text" id="searchBox" placeholder="🔍 University/Program/City সার্চ করো...">
+    </div>
+    <div class="field">
+      <label>টিউশন</label>
+      <select id="tuitionFilter">
+        <option value="">সব</option>
+        <option value="free">No tuition fees</option>
+        <option value="paid">নির্দিষ্ট amount আছে</option>
+        <option value="varies">Tuition varies</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Beginning</label>
+      <select id="beginFilter">
+        <option value="">সব</option>
+        <option value="winter">Winter semester</option>
+        <option value="summer">Summer semester</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Sort</label>
+      <select id="sortBy">
+        <option value="title">Title (A-Z)</option>
+        <option value="university">University (A-Z)</option>
+        <option value="tuition">Tuition (কম আগে)</option>
+      </select>
+    </div>
+  </div>
+
+  <p class="count" id="resultCount"></p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Programme</th>
+          <th>University</th>
+          <th>City</th>
+          <th>Duration</th>
+          <th>Beginning</th>
+          <th>Tuition/semester</th>
+          <th>DAAD Link</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="daad_full199.js"></script>
+<script>
+function toggleTheme(){
+  const html=document.documentElement;
+  html.setAttribute('data-theme', html.getAttribute('data-theme')==='light'?'dark':'light');
+}
+
+function tuitionCat(t){
+  const s=(t||"").toLowerCase();
+  if(s.includes("no tuition")) return "free";
+  if(s.includes("varies")) return "varies";
+  return "paid";
+}
+function tuitionSortVal(t){
+  const s=(t||"").toLowerCase();
+  if(s.includes("no tuition")) return 0;
+  if(s.includes("varies")) return 999998;
+  const m = s.match(/([\d,]+)/);
+  return m ? parseInt(m[1].replace(/,/g,'')) : 999999;
+}
+
+function renderRow(p){
+  return `<tr>
+    <td><b>${p.title}</b></td>
+    <td>${p.university}</td>
+    <td>${p.city}</td>
+    <td>${p.duration}</td>
+    <td>${p.beginning}</td>
+    <td>${p.tuition}</td>
+    <td><a href="${p.url}" target="_blank" rel="noopener">DAAD পেজ →</a></td>
+  </tr>`;
+}
+
+function applyFilters(){
+  const q = document.getElementById('searchBox').value.toLowerCase();
+  const tuition = document.getElementById('tuitionFilter').value;
+  const begin = document.getElementById('beginFilter').value;
+  const sortBy = document.getElementById('sortBy').value;
+
+  let items = DAAD_FULL.filter(p=>{
+    if(q && !(p.title+" "+p.university+" "+p.city).toLowerCase().includes(q)) return false;
+    if(tuition && tuitionCat(p.tuition)!==tuition) return false;
+    if(begin==="winter" && !p.beginning.toLowerCase().includes("winter")) return false;
+    if(begin==="summer" && !p.beginning.toLowerCase().includes("summer")) return false;
+    return true;
+  });
+
+  if(sortBy==="title") items.sort((a,b)=>a.title.localeCompare(b.title));
+  else if(sortBy==="university") items.sort((a,b)=>a.university.localeCompare(b.university));
+  else if(sortBy==="tuition") items.sort((a,b)=>tuitionSortVal(a.tuition)-tuitionSortVal(b.tuition));
+
+  document.getElementById('tbody').innerHTML = items.map(renderRow).join("");
+  document.getElementById('resultCount').textContent = `${items.length} / ${DAAD_FULL.length} প্রোগ্রাম দেখাচ্ছে`;
+}
+
+['searchBox','tuitionFilter','beginFilter','sortBy'].forEach(id=>{
+  document.getElementById(id).addEventListener('input', applyFilters);
+  document.getElementById(id).addEventListener('change', applyFilters);
+});
+applyFilters();
+</script>
+</body>
+</html>

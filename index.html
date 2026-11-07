@@ -23,23 +23,28 @@
 }
 *{box-sizing:border-box;}
 body{margin:0;background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;}
-header{padding:26px 20px 14px;max-width:1000px;margin:0 auto;text-align:center;}
+header{padding:26px 20px 14px;max-width:95%;margin:0 auto;text-align:center;}
 h1{font-size:1.4rem;margin:0 0 6px;}
 .sub{color:var(--muted);font-size:.88rem;max-width:680px;margin:0 auto;}
-.container{max-width:1000px;margin:0 auto;padding:10px 20px 60px;}
-.controls{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:20px 0 22px;}
-.controls select,.controls input{padding:8px 12px;border-radius:20px;border:1px solid var(--border);background:var(--panel2);color:var(--text);font-size:.85rem;}
-.controls input{flex:1;min-width:180px;}
+.container{max-width:95%;margin:0 auto;padding:10px 20px 60px;}
+.controls{display:flex;gap:14px;flex-wrap:wrap;margin:20px 0 22px;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px;}
+.field{display:flex;flex-direction:column;gap:5px;flex:1 1 150px;min-width:150px;}
+.field label{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.03em;font-weight:600;}
+.controls select,.controls input{padding:8px 12px;border-radius:10px;border:1px solid var(--border);background:var(--panel2);color:var(--text);font-size:.85rem;width:100%;}
+.field.search{flex:2 1 220px;}
 .count{text-align:center;color:var(--muted);font-size:.82rem;margin-bottom:16px;}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;}
-.card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px;cursor:pointer;transition:transform .12s, border-color .12s;}
-.card:hover{border-color:var(--accent);transform:translateY(-2px);}
-.card .uni{color:var(--accent);font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:.02em;}
-.card h3{margin:4px 0 10px;font-size:1.02rem;line-height:1.3;}
-.row{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:4px;}
-.row b{color:var(--text);font-weight:600;}
-.tags{display:flex;gap:6px;margin-top:10px;}
-.tag{font-size:.68rem;padding:3px 10px;border-radius:12px;font-weight:700;}
+.table-wrap{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);overflow-x:auto;}
+table{width:100%;border-collapse:collapse;font-size:.85rem;min-width:680px;}
+thead th{text-align:left;padding:12px 14px;color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.03em;border-bottom:1px solid var(--border);white-space:nowrap;}
+tbody tr{cursor:pointer;border-bottom:1px solid var(--border);transition:background .12s;}
+tbody tr:last-child{border-bottom:none;}
+tbody tr:hover{background:var(--panel2);}
+tbody td{padding:12px 14px;vertical-align:middle;}
+td.uni-cell .uni{color:var(--accent);font-weight:700;font-size:.72rem;text-transform:uppercase;letter-spacing:.02em;}
+td.uni-cell .pname{font-weight:600;margin-top:2px;}
+td.muted{color:var(--muted);white-space:nowrap;}
+.tags{display:flex;gap:6px;flex-wrap:nowrap;}
+.tag{font-size:.68rem;padding:3px 10px;border-radius:12px;font-weight:700;white-space:nowrap;}
 .tier-A{background:rgba(126,227,184,.15);color:var(--good);}
 .tier-B{background:rgba(245,185,66,.15);color:var(--warn);}
 .tier-C{background:rgba(154,167,194,.15);color:var(--muted);}
@@ -63,29 +68,87 @@ footer{text-align:center;color:var(--muted);font-size:.76rem;padding:26px 20px;}
 
 <div class="container">
   <div class="controls">
-    <input type="text" id="searchBox" placeholder="🔍 University/Program সার্চ করো...">
-    <select id="tierFilter">
-      <option value="">সব Tier</option>
-      <option value="A">Tier A — Direct hit</option>
-      <option value="B">Tier B — Related</option>
-      <option value="C">Tier C — Adjacent</option>
-    </select>
-    <select id="fitFilter">
-      <option value="">সব GPA Fit</option>
-      <option value="good">✅ Good fit</option>
-      <option value="moderate">🟡 Moderate</option>
-      <option value="borderline">🟡 Borderline</option>
-      <option value="risky">🟠 Risky</option>
-      <option value="weak">🔴 Weak fit</option>
-      <option value="unknown">⚪ অজানা</option>
-    </select>
+    <div class="field search">
+      <label>সার্চ</label>
+      <input type="text" id="searchBox" placeholder="🔍 University/Program সার্চ করো...">
+    </div>
+    <div class="field">
+      <label>Tier</label>
+      <select id="tierFilter">
+        <option value="">সব Tier</option>
+        <option value="A">Tier A — Direct hit</option>
+        <option value="B">Tier B — Related</option>
+        <option value="C">Tier C — Adjacent</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>GPA Fit</label>
+      <select id="fitFilter">
+        <option value="">সব GPA Fit</option>
+        <option value="good">✅ Good fit</option>
+        <option value="moderate">🟡 Moderate</option>
+        <option value="borderline">🟡 Borderline</option>
+        <option value="risky">🟠 Risky</option>
+        <option value="weak">🔴 Weak fit</option>
+        <option value="unknown">⚪ অজানা</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>টিউশন</label>
+      <select id="tuitionFilter">
+        <option value="">সব</option>
+        <option value="free">সম্পূর্ণ Tuition-free</option>
+        <option value="risk">Non-EU fee ঝুঁকি (~€1500/sem)</option>
+        <option value="private">Private (উচ্চ টিউশন)</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>ভাষা</label>
+      <select id="langFilter">
+        <option value="">সব</option>
+        <option value="english">পুরোপুরি English</option>
+        <option value="mixed">English/German মিক্সড</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Intake</label>
+      <select id="intakeFilter">
+        <option value="">সব</option>
+        <option value="winter">Winter intake আছে</option>
+        <option value="summer">Summer intake আছে</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Sort</label>
+      <select id="sortBy">
+        <option value="tier">Tier অনুযায়ী</option>
+        <option value="fit">GPA Fit অনুযায়ী (ভালো আগে)</option>
+        <option value="name">University নাম (A-Z)</option>
+      </select>
+    </div>
   </div>
 
   <p class="count" id="resultCount"></p>
-  <div class="grid" id="cardsContainer"></div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>University / Program</th>
+          <th>টিউশন</th>
+          <th>IELTS</th>
+          <th>Winter Deadline</th>
+          <th>Tier</th>
+          <th>GPA Fit</th>
+        </tr>
+      </thead>
+      <tbody id="cardsContainer"></tbody>
+    </table>
+  </div>
 
   <div class="more">
     <a href="info.html">📄 APS, GPA Conversion, uni-assist, ফান্ডিং — বিস্তারিত ইনফো দেখো →</a>
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="all-daad.html">📊 DAAD-এর সম্পূর্ণ ১৯৯টা raw রেজাল্ট দেখো →</a>
   </div>
 </div>
 
@@ -101,38 +164,63 @@ const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate",borderline:"🟡 
 
 function renderCard(p, idx){
   const fit = p.gpa_fit || "unknown";
-  return `<div class="card" onclick="location.href='detail.html?i=${idx}'">
-    <div class="uni">${p.university}</div>
-    <h3>${p.program_name}</h3>
-    <div class="row"><span>টিউশন</span><b>${p.tuition.split('+')[0].trim()}</b></div>
-    <div class="row"><span>IELTS</span><b>${p.ielts.split('(')[0].trim()}</b></div>
-    <div class="row"><span>Winter Deadline</span><b>${p.deadline_winter.split('(')[0].trim()}</b></div>
-    <div class="tags">
-      <span class="tag tier-${p.tier}">Tier ${p.tier}</span>
-      <span class="tag fit-${fit}">${fitLabel[fit]||fit}</span>
-    </div>
-  </div>`;
+  return `<tr onclick="location.href='detail.html?i=${idx}'">
+    <td class="uni-cell">
+      <div class="uni">${p.university}</div>
+      <div class="pname">${p.program_name}</div>
+    </td>
+    <td class="muted">${p.tuition.split('+')[0].trim()}</td>
+    <td class="muted">${p.ielts.split('(')[0].trim()}</td>
+    <td class="muted">${p.deadline_winter.split('(')[0].trim()}</td>
+    <td><span class="tag tier-${p.tier}">Tier ${p.tier}</span></td>
+    <td><span class="tag fit-${fit}">${fitLabel[fit]||fit}</span></td>
+  </tr>`;
 }
+
+function tuitionCategory(p){
+  const t=(p.tuition||"").toLowerCase();
+  if(t.includes("private")) return "private";
+  if(t.includes("possibly") || t.includes("check:")) return "risk";
+  return "free";
+}
+function langCategory(p){
+  const l=(p.language||"").toLowerCase();
+  if(l.includes("mix") || l.includes("german")) return "mixed";
+  return "english";
+}
+const fitRank = {good:0,moderate:1,borderline:1,risky:2,weak:3,unknown:4,unclear:4};
 
 function applyFilters(){
   const q = document.getElementById('searchBox').value.toLowerCase();
   const tier = document.getElementById('tierFilter').value;
   const fit = document.getElementById('fitFilter').value;
+  const tuition = document.getElementById('tuitionFilter').value;
+  const lang = document.getElementById('langFilter').value;
+  const intake = document.getElementById('intakeFilter').value;
+  const sortBy = document.getElementById('sortBy').value;
 
-  const items = DATA.programs
+  let items = DATA.programs
     .map((p,i)=>({p,i}))
     .filter(({p})=>{
       if(q && !(p.university+" "+p.program_name).toLowerCase().includes(q)) return false;
       if(tier && p.tier!==tier) return false;
       if(fit && p.gpa_fit!==fit) return false;
+      if(tuition && tuitionCategory(p)!==tuition) return false;
+      if(lang && langCategory(p)!==lang) return false;
+      if(intake==="winter" && /not offered|not found/i.test(p.deadline_winter)) return false;
+      if(intake==="summer" && /not offered|not found|not typically/i.test(p.deadline_summer)) return false;
       return true;
     });
+
+  if(sortBy==="tier") items.sort((a,b)=>a.p.tier.localeCompare(b.p.tier) || fitRank[a.p.gpa_fit]-fitRank[b.p.gpa_fit]);
+  else if(sortBy==="fit") items.sort((a,b)=>fitRank[a.p.gpa_fit]-fitRank[b.p.gpa_fit]);
+  else if(sortBy==="name") items.sort((a,b)=>a.p.university.localeCompare(b.p.university));
 
   document.getElementById('cardsContainer').innerHTML = items.map(({p,i})=>renderCard(p,i)).join("");
   document.getElementById('resultCount').textContent = `${items.length} / ${DATA.programs.length} প্রোগ্রাম`;
 }
 
-['searchBox','tierFilter','fitFilter'].forEach(id=>{
+['searchBox','tierFilter','fitFilter','tuitionFilter','langFilter','intakeFilter','sortBy'].forEach(id=>{
   document.getElementById(id).addEventListener('input', applyFilters);
   document.getElementById(id).addEventListener('change', applyFilters);
 });
