@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Program Details</title>
+<title>Program Details — Study in Germany</title>
 <style>
 :root{
   --bg:#0f1420; --panel:#161d2e; --panel2:#1d2639; --border:#2a3550;
@@ -22,12 +22,16 @@
   --text:#1b2333; --muted:#5b6782; --accent:#355fd6;
 }
 *{box-sizing:border-box;}
-body{margin:0;background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;}
-.container{max-width:760px;margin:0 auto;padding:26px 20px 60px;}
-.back{color:var(--accent);text-decoration:none;font-size:.88rem;}
-.uni{color:var(--accent);font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:.02em;margin-top:18px;}
-h1{font-size:1.4rem;margin:4px 0 14px;}
-.tags{display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap;}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;line-height:1.6;}
+.container{max-width:920px;margin:0 auto;padding:26px 20px 80px;}
+.top-nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;}
+.back{color:var(--accent);text-decoration:none;font-size:.88rem;font-weight:600;}
+.themebtn{background:var(--panel);border:1px solid var(--border);color:var(--text);padding:6px 12px;border-radius:20px;font-size:.78rem;cursor:pointer;}
+
+.header-card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:22px;margin-bottom:20px;}
+.uni{color:var(--accent);font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:.03em;}
+h1{font-size:1.5rem;margin:6px 0 14px;}
+.tags{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;}
 .tag{font-size:.72rem;padding:4px 11px;border-radius:12px;font-weight:700;}
 .tier-A{background:rgba(126,227,184,.15);color:var(--good);}
 .tier-B{background:rgba(245,185,66,.15);color:var(--warn);}
@@ -37,25 +41,41 @@ h1{font-size:1.4rem;margin:4px 0 14px;}
 .fit-moderate,.fit-borderline{background:rgba(245,185,66,.18);color:var(--warn);}
 .fit-risky,.fit-weak{background:rgba(240,100,100,.18);color:var(--bad);}
 .fit-unknown,.fit-unclear{background:rgba(154,167,194,.18);color:var(--muted);}
-.grid-info{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:20px;}
-.info-item{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:10px 12px;}
-.info-item b{display:block;color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:3px;font-weight:700;}
-.note{background:var(--panel2);border-left:3px solid var(--accent);padding:12px 14px;border-radius:8px;font-size:.88rem;line-height:1.6;margin-bottom:14px;}
-.note.fit{border-left-color:var(--warn);}
-.note b{color:var(--accent);}
-.src{font-size:.82rem;margin-top:16px;word-break:break-all;}
-.src a{color:var(--accent);}
-.themebtn{position:fixed;top:16px;right:16px;background:var(--panel);border:1px solid var(--border);color:var(--text);padding:6px 12px;border-radius:20px;font-size:.78rem;cursor:pointer;}
-.section-h{font-size:1rem;font-weight:700;margin:26px 0 10px;color:var(--accent);border-bottom:1px solid var(--border);padding-bottom:6px;}
-.section-h:first-of-type{margin-top:4px;}
-.longtext{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:12px 14px;font-size:.86rem;line-height:1.7;margin-bottom:10px;white-space:pre-line;}
-.longtext.empty{color:var(--muted);font-style:italic;}
+
+/* Section Navigation Tabs */
+.tabs-nav{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;margin-bottom:22px;position:sticky;top:0;background:var(--bg);z-index:10;padding-top:10px;}
+.tab-btn{background:var(--panel);border:1px solid var(--border);color:var(--text);padding:8px 14px;border-radius:12px;font-size:.82rem;font-weight:600;cursor:pointer;white-space:nowrap;transition:all .15s;}
+.tab-btn:hover{border-color:var(--accent);color:var(--accent);}
+.tab-btn.active{background:var(--accent);color:#fff;border-color:var(--accent);}
+
+/* Section Layout */
+.section-block{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:22px;margin-bottom:24px;scroll-margin-top:70px;}
+.section-title{display:flex;align-items:center;gap:10px;font-size:1.15rem;font-weight:700;color:var(--text);border-bottom:1px solid var(--border);padding-bottom:10px;margin-top:0;margin-bottom:16px;}
+.section-title span.icon{font-size:1.3rem;}
+
+.grid-info{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-bottom:16px;}
+.info-item{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:12px 14px;}
+.info-item b{display:block;color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px;font-weight:700;}
+.info-item .val{font-size:.9rem;font-weight:600;}
+
+.longbox{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:14px 16px;font-size:.88rem;line-height:1.7;margin-bottom:14px;white-space:pre-line;}
+.longbox.empty{color:var(--muted);font-style:italic;}
+
+.note-box{background:rgba(91,140,255,.08);border-left:4px solid var(--accent);padding:14px 16px;border-radius:8px;font-size:.88rem;line-height:1.65;margin-bottom:16px;}
+.note-box.fit{background:rgba(245,185,66,.08);border-left-color:var(--warn);}
+.note-box.good{background:rgba(126,227,184,.08);border-left-color:var(--good);}
+
+.quick-links{display:flex;gap:12px;margin-top:14px;flex-wrap:wrap;}
+.quick-btn{background:var(--accent);color:#fff;text-decoration:none;padding:8px 16px;border-radius:10px;font-size:.84rem;font-weight:600;display:inline-flex;align-items:center;gap:6px;}
+.quick-btn.secondary{background:var(--panel2);color:var(--text);border:1px solid var(--border);}
 </style>
 </head>
 <body>
-<button class="themebtn" onclick="toggleTheme()">🌓</button>
-<div class="container" id="root">লোড হচ্ছে...</div>
+<div class="container" id="root">
+  <div style="padding:40px;text-align:center;">তথ্য লোড হচ্ছে...</div>
+</div>
 
+<script src="database.js"></script>
 <script src="data.js"></script>
 <script src="daad_full199.js"></script>
 <script>
@@ -63,124 +83,173 @@ function toggleTheme(){
   const html=document.documentElement;
   html.setAttribute('data-theme', html.getAttribute('data-theme')==='light'?'dark':'light');
 }
-const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate",borderline:"🟡 Borderline",risky:"🟠 Risky",weak:"🔴 Weak fit",unknown:"⚪ অজানা",unclear:"⚪ Unclear"};
 
 const params = new URLSearchParams(location.search);
-const idx = parseInt(params.get('i'), 10);
-const isDaad = params.get('s') === 'daad';
+const paramIdx = parseInt(params.get('i'), 10);
+const source = params.get('s');
 const root = document.getElementById('root');
 
-function nf(v){ return (v===undefined || v===null || v==="") ? "Not found" : v; }
+function nf(v){ return (v===undefined || v===null || v==="" || v==="Not found") ? "<span style='color:var(--muted);font-style:italic;'>Not found</span>" : v; }
 
-if(isDaad){
-  const d = DAAD_FULL[idx];
-  if(!d){
-    root.innerHTML = `<a class="back" href="index.html">← লিস্টে ফিরে যাও</a><p>প্রোগ্রাম পাওয়া যায়নি।</p>`;
+// Resolve program from STUDY_DATABASE
+let prog = null;
+if (typeof STUDY_DATABASE !== 'undefined' && STUDY_DATABASE.programs) {
+  if (source === 'daad') {
+    prog = STUDY_DATABASE.programs.find(p => p.source_type === 'daad' && p.original_id == paramIdx) || STUDY_DATABASE.programs.find(p => p.id === "daad_" + paramIdx);
   } else {
-    root.innerHTML = `
-      <a class="back" href="index.html">← লিস্টে ফিরে যাও</a>
-      <div class="uni">${d.university}</div>
-      <h1>${d.title}</h1>
-      <div class="tags">
-        <span class="tag tier-D">DAAD Raw (unreviewed)</span>
-      </div>
-
-      <div class="section-h">📋 সাধারণ তথ্য (General)</div>
-      <div class="grid-info">
-        <div class="info-item"><b>Department</b>${nf(d.department)}</div>
-        <div class="info-item"><b>Location</b>${nf(d.location)}</div>
-        <div class="info-item"><b>Degree</b>${nf(d.degree_type)}</div>
-        <div class="info-item"><b>Duration</b>${nf(d.duration)}</div>
-        <div class="info-item"><b>ভাষা</b>${nf(d.language)}</div>
-        <div class="info-item"><b>Combined Master's/PhD</b>${nf(d.combined_masters_phd)}</div>
-        <div class="info-item"><b>Joint/Double Degree</b>${nf(d.joint_double_degree)}</div>
-        <div class="info-item"><b>Diploma Supplement</b>${nf(d.diploma_supplement)}</div>
-        <div class="info-item"><b>International Elements</b>${nf(d.international_elements)}</div>
-      </div>
-
-      <div class="section-h">💰 খরচ ও ফান্ডিং (Costs and Funding)</div>
-      <div class="grid-info">
-        <div class="info-item"><b>টিউশন</b>${nf(d.tuition)}</div>
-        <div class="info-item"><b>Semester Fee</b>${nf(d.semester_fee)}</div>
-        <div class="info-item"><b>থাকা-খাওয়ার খরচ</b>${nf(d.cost_of_living)}</div>
-      </div>
-      <div class="longtext ${(!d.funding || d.funding==='Not found') ? 'empty' : ''}">${nf(d.funding)}</div>
-
-      <div class="section-h">📝 অ্যাপ্লিকেশন (Application)</div>
-      <div class="grid-info">
-        <div class="info-item"><b>Winter Deadline</b>${nf(d.deadline_winter)}</div>
-        <div class="info-item"><b>Summer Deadline</b>${nf(d.deadline_summer)}</div>
-        <div class="info-item"><b>কোথায় Submit করবে</b>${nf(d.submission_portal)}</div>
-        <div class="info-item"><b>Min GPA / Requirement</b>${nf(d.gpa_requirement)}</div>
-        <div class="info-item"><b>Prerequisite Degree</b>${nf(d.prerequisite_degree)}</div>
-        <div class="info-item"><b>German ভাষা দরকার?</b>${nf(d.german_requirement)}</div>
-        <div class="info-item"><b>IELTS</b>${nf(d.ielts)}</div>
-        <div class="info-item"><b>TOEFL</b>${nf(d.toefl)}</div>
-        <div class="info-item"><b>Other English Tests</b>${nf(d.other_english_tests)}</div>
-        <div class="info-item"><b>GRE/GMAT</b>${nf(d.gre)}</div>
-      </div>
-      <div class="longtext ${(!d.academic_requirements || d.academic_requirements==='Not found') ? 'empty' : ''}"><b>Full admission requirements:</b><br>${nf(d.academic_requirements)}</div>
-
-      <div class="section-h">📚 কারিকুলাম (Curriculum)</div>
-      <div class="longtext ${(!d.curriculum || d.curriculum==='Not found') ? 'empty' : ''}">${nf(d.curriculum)}</div>
-
-      <div class="section-h">🏠 স্টুডেন্ট লাইফ (Student Services)</div>
-      <div class="grid-info">
-        <div class="info-item"><b>Accommodation</b>${nf(d.accommodation)}</div>
-        <div class="info-item"><b>Part-time Work</b>${nf(d.part_time_work)}</div>
-        <div class="info-item"><b>Career Services</b>${nf(d.career_services)}</div>
-        <div class="info-item"><b>Other Support</b>${nf(d.other_support)}</div>
-      </div>
-
-      <div class="section-h">📞 যোগাযোগ (Contact)</div>
-      <div class="grid-info">
-        <div class="info-item"><b>Advisor Name</b>${nf(d.contact_name)}</div>
-        <div class="info-item"><b>Email</b>${nf(d.contact_email)}</div>
-        <div class="info-item"><b>Phone</b>${nf(d.contact_phone)}</div>
-        <div class="info-item"><b>Address</b>${nf(d.contact_address)}</div>
-        <div class="info-item"><b>Course Website</b>${nf(d.course_website)}</div>
-      </div>
-
-      ${(d.notes && d.notes!=='Not found') ? `<div class="note">📌 <b>নোট:</b> ${d.notes}</div>` : ""}
-      <div class="note">⚪ এই প্রোগ্রামটা DAAD-এর ফিল্টার করা লিস্ট থেকে সরাসরি স্ক্র্যাপ করা — এখনো ম্যানুয়ালি রিভিউ/Tier/GPA-fit অ্যাসেসমেন্ট করা হয়নি (কিউরেটেড লিস্টের মতো)। উপরের সব তথ্য DAAD-এর অফিসিয়াল পেজ থেকেই আনা হয়েছে; যা পেজে ছিল না তা স্পষ্টভাবে "Not found" লেখা আছে — অ্যাপ্লাই করার আগে অফিসিয়াল ইউনিভার্সিটি পেজে একবার ডাবল-চেক করে নেওয়া ভালো।</div>
-      <div class="src">🔗 DAAD সোর্স: <a href="${d.source_url}" target="_blank" rel="noopener">${d.source_url}</a></div>
-    `;
+    prog = STUDY_DATABASE.programs.find(p => p.source_type === 'curated' && p.original_id == "c_" + paramIdx) || STUDY_DATABASE.programs[paramIdx];
   }
+}
+
+if (!prog) {
+  root.innerHTML = `
+    <div class="top-nav"><a class="back" href="index.html">← মূল তালিকায় ফিরে যান</a></div>
+    <div class="header-card"><h2>প্রোগ্রামটি পাওয়া যায়নি।</h2><p>দয়া করে তালিকা থেকে পুনরায় সিলেক্ট করুন।</p></div>
+  `;
 } else {
-  const p = DATA.programs[idx];
-  if(!p){
-    root.innerHTML = `<a class="back" href="index.html">← লিস্টে ফিরে যাও</a><p>প্রোগ্রাম পাওয়া যায়নি।</p>`;
-  } else {
-    const fit = p.gpa_fit || "unknown";
-    root.innerHTML = `
-      <a class="back" href="index.html">← লিস্টে ফিরে যাও</a>
-      <div class="uni">${p.university}</div>
-      <h1>${p.program_name}</h1>
+  const o = prog.overview || {};
+  const c = prog.course_details || {};
+  const f = prog.costs_funding || {};
+  const r = prog.requirements_registration || {};
+  const s = prog.services || {};
+  const a = prog.about_university || {};
+
+  const fitClass = prog.gpa_fit || "unknown";
+  const fitTitles = {
+    good: "✅ Good fit (যোগ্যতার সাথে দারুন ম্যাচ)",
+    moderate: "🟡 Moderate (আবেদনযোগ্য)",
+    borderline: "🟡 Borderline",
+    risky: "🟠 Risky (কম্পিটিটিভ)",
+    weak: "🔴 Weak (উচ্চ সিজিপিএ রিকোয়ার্ড)",
+    unknown: "⚪ unreviewed (DAAD Raw)"
+  };
+
+  root.innerHTML = `
+    <div class="top-nav">
+      <a class="back" href="index.html">← মূল তালিকায় ফিরে যান</a>
+      <button class="themebtn" onclick="toggleTheme()">🌓 Theme</button>
+    </div>
+
+    <div class="header-card">
+      <div class="uni">${prog.university_name}</div>
+      <h1>${prog.title}</h1>
       <div class="tags">
-        <span class="tag tier-${p.tier}">Tier ${p.tier}</span>
-        <span class="tag fit-${fit}">${fitLabel[fit]||fit}</span>
+        <span class="tag tier-${prog.tier}">Tier ${prog.tier}</span>
+        <span class="tag fit-${fitClass}">${fitTitles[fitClass] || fitClass}</span>
+        <span class="tag" style="background:var(--panel2);border:1px solid var(--border);">${o.language || 'English'}</span>
+        <span class="tag" style="background:var(--panel2);border:1px solid var(--border);">${f.tuition && f.tuition !== 'None' ? 'Tuition: ' + f.tuition : 'Tuition Free (০ ইউরো)'}</span>
       </div>
+
+      ${prog.gpa_fit_note ? `<div class="note-box fit"><b>💡 আপনার প্রোফাইল ম্যাচ বিশ্লেষণ:</b> ${prog.gpa_fit_note}</div>` : ""}
+
+      <div class="quick-links">
+        ${a.course_website && a.course_website !== 'Not found' ? `<a class="quick-btn" href="${a.course_website.startsWith('http')?a.course_website:'https://'+a.course_website}" target="_blank" rel="noopener">🌐 অফিসিয়াল কোর্স ওয়েবসাইট ↗</a>` : ""}
+        ${a.source_url && a.source_url.startsWith('http') ? `<a class="quick-btn secondary" href="${a.source_url}" target="_blank" rel="noopener">📄 DAAD অফিসিয়াল সোর্স ↗</a>` : ""}
+        <a class="quick-btn secondary" href="profile.html">👤 আপনার ECTS ম্যাপিং দেখুন</a>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs for the 6 Core Sections -->
+    <div class="tabs-nav">
+      <button class="tab-btn active" onclick="scrollToSection('sec-overview')">📋 1. Overview</button>
+      <button class="tab-btn" onclick="scrollToSection('sec-course')">📚 2. Course Details</button>
+      <button class="tab-btn" onclick="scrollToSection('sec-costs')">💰 3. Costs / Funding</button>
+      <button class="tab-btn" onclick="scrollToSection('sec-req')">📝 4. Requirements / Registration</button>
+      <button class="tab-btn" onclick="scrollToSection('sec-services')">🏠 5. Services</button>
+      <button class="tab-btn" onclick="scrollToSection('sec-about')">🏛️ 6. About the University</button>
+    </div>
+
+    <!-- Section 1: Overview -->
+    <div class="section-block" id="sec-overview">
+      <div class="section-title"><span class="icon">📋</span> 1. Overview (সাধারণ পরিচিতি)</div>
       <div class="grid-info">
-        <div class="info-item"><b>Degree</b>${p.degree_type} · ${p.duration}</div>
-        <div class="info-item"><b>ভাষা</b>${p.language}</div>
-        <div class="info-item"><b>টিউশন</b>${p.tuition}</div>
-        <div class="info-item"><b>Winter Deadline</b>${p.deadline_winter}</div>
-        <div class="info-item"><b>Summer Deadline</b>${p.deadline_summer}</div>
-        <div class="info-item"><b>IELTS</b>${p.ielts}</div>
-        <div class="info-item"><b>TOEFL</b>${p.toefl}</div>
-        <div class="info-item"><b>GRE/GMAT</b>${p.gre}</div>
-        <div class="info-item"><b>German ভাষা দরকার?</b>${p.german_req}</div>
-        <div class="info-item"><b>APS দরকার?</b>${p.aps}</div>
-        <div class="info-item"><b>Min GPA</b>${p.min_gpa}</div>
-        <div class="info-item"><b>Work Exp</b>${p.work_exp}</div>
-        <div class="info-item"><b>Department</b>${p.department}</div>
+        <div class="info-item"><b>Degree Awarded</b><div class="val">${nf(o.degree_type)}</div></div>
+        <div class="info-item"><b>Duration</b><div class="val">${nf(o.duration)}</div></div>
+        <div class="info-item"><b>Teaching Language</b><div class="val">${nf(o.language)}</div></div>
+        <div class="info-item"><b>Location / City</b><div class="val">${nf(o.location)}</div></div>
+        <div class="info-item"><b>Department / Faculty</b><div class="val">${nf(o.department)}</div></div>
+        <div class="info-item"><b>Intake Period</b><div class="val">${nf(o.intake)} (${o.has_winter?'Winter':''}${o.has_summer?', Summer':''})</div></div>
       </div>
-      <div class="note fit"><b>GPA Fit নোট:</b> ${p.gpa_fit_note}</div>
-      <div class="note"><b>সামারি:</b> ${p.note}</div>
-      <div class="note"><b>Prerequisites:</b> ${p.prereqs}</div>
-      <div class="note"><b>Tuition notes:</b> ${p.tuition_notes}</div>
-      <div class="src">🔗 <a href="${p.source}" target="_blank" rel="noopener">${p.source}</a></div>
-    `;
+    </div>
+
+    <!-- Section 2: Course Details -->
+    <div class="section-block" id="sec-course">
+      <div class="section-title"><span class="icon">📚</span> 2. Course Details & Curriculum</div>
+      <div class="grid-info">
+        <div class="info-item"><b>Combined Master's / PhD</b><div class="val">${nf(c.combined_masters_phd)}</div></div>
+        <div class="info-item"><b>Joint / Double Degree</b><div class="val">${nf(c.joint_double_degree)}</div></div>
+        <div class="info-item"><b>Diploma Supplement</b><div class="val">${nf(c.diploma_supplement)}</div></div>
+        <div class="info-item"><b>International Elements</b><div class="val">${nf(c.international_elements)}</div></div>
+      </div>
+      <div style="font-size:.8rem;font-weight:700;color:var(--muted);text-transform:uppercase;margin:14px 0 6px;">Curriculum & Detailed Module Overview:</div>
+      <div class="longbox ${(!c.curriculum || c.curriculum==='Not found')?'empty':''}">${nf(c.curriculum)}</div>
+    </div>
+
+    <!-- Section 3: Costs / Funding -->
+    <div class="section-block" id="sec-costs">
+      <div class="section-title"><span class="icon">💰</span> 3. Costs / Funding (ফি ও স্কলারশিপ)</div>
+      <div class="grid-info">
+        <div class="info-item"><b>Tuition Fee</b><div class="val" style="color:var(--good);">${nf(f.tuition)}</div></div>
+        <div class="info-item"><b>Semester Contribution Fee</b><div class="val">${nf(f.semester_fee)}</div></div>
+        <div class="info-item"><b>Cost of Living Estimate</b><div class="val">${nf(f.cost_of_living)}</div></div>
+      </div>
+      ${f.tuition_notes ? `<div class="note-box"><b>📌 টিউশন সংক্রান্ত নোট:</b> ${f.tuition_notes}</div>` : ""}
+      <div style="font-size:.8rem;font-weight:700;color:var(--muted);text-transform:uppercase;margin:14px 0 6px;">স্কলারশিপ ও ফান্ডিং সুযোগ:</div>
+      <div class="longbox ${(!f.funding || f.funding==='Not found')?'empty':''}">${nf(f.funding)}</div>
+    </div>
+
+    <!-- Section 4: Requirements / Registration -->
+    <div class="section-block" id="sec-req">
+      <div class="section-title"><span class="icon">📝</span> 4. Requirements / Registration (ভর্তি ও ডেডলাইন)</div>
+      <div class="grid-info">
+        <div class="info-item"><b>Winter Intake Deadline</b><div class="val" style="color:var(--warn);">${nf(r.deadline_winter)}</div></div>
+        <div class="info-item"><b>Summer Intake Deadline</b><div class="val">${nf(r.deadline_summer)}</div></div>
+        <div class="info-item"><b>Submission Portal</b><div class="val">${nf(r.submission_portal)}</div></div>
+        <div class="info-item"><b>Minimum GPA Threshold</b><div class="val">${nf(r.gpa_requirement)}</div></div>
+        <div class="info-item"><b>Prerequisite Degree</b><div class="val">${nf(r.prerequisite_degree)}</div></div>
+        <div class="info-item"><b>German Language Req</b><div class="val">${nf(r.german_requirement)}</div></div>
+        <div class="info-item"><b>IELTS Academic Score</b><div class="val">${nf(r.ielts)}</div></div>
+        <div class="info-item"><b>TOEFL iBT Score</b><div class="val">${nf(r.toefl)}</div></div>
+        <div class="info-item"><b>GRE / GMAT Requirement</b><div class="val">${nf(r.gre)}</div></div>
+        <div class="info-item"><b>APS Certificate</b><div class="val" style="color:var(--good);">${nf(r.aps_required)}</div></div>
+      </div>
+      <div style="font-size:.8rem;font-weight:700;color:var(--muted);text-transform:uppercase;margin:14px 0 6px;">সম্পূর্ণ একাডেমিক রিকোয়ারমেন্টস:</div>
+      <div class="longbox ${(!r.academic_requirements || r.academic_requirements==='Not found')?'empty':''}">${nf(r.academic_requirements)}</div>
+      ${r.work_exp_note ? `<div class="note-box good">💼 <b>কাজের অভিজ্ঞতা সংক্রান্ত নোট:</b> ${r.work_exp_note}</div>` : ""}
+    </div>
+
+    <!-- Section 5: Services -->
+    <div class="section-block" id="sec-services">
+      <div class="section-title"><span class="icon">🏠</span> 5. Services & Student Life</div>
+      <div class="grid-info">
+        <div class="info-item"><b>Accommodation Support</b><div class="val">${nf(s.accommodation)}</div></div>
+        <div class="info-item"><b>Part-Time Work Opportunities</b><div class="val">${nf(s.part_time_work)}</div></div>
+        <div class="info-item"><b>Career Services</b><div class="val">${nf(s.career_services)}</div></div>
+        <div class="info-item"><b>International Student Support</b><div class="val">${nf(s.other_support)}</div></div>
+      </div>
+    </div>
+
+    <!-- Section 6: About the University -->
+    <div class="section-block" id="sec-about">
+      <div class="section-title"><span class="icon">🏛️</span> 6. About the University & Contact Info</div>
+      <div class="grid-info">
+        <div class="info-item"><b>Program Advisor / Contact</b><div class="val">${nf(a.contact_name)}</div></div>
+        <div class="info-item"><b>Email</b><div class="val">${a.contact_email && a.contact_email!=='Not found' ? `<a href="mailto:${a.contact_email}" style="color:var(--accent);">${a.contact_email}</a>` : nf(a.contact_email)}</div></div>
+        <div class="info-item"><b>Phone</b><div class="val">${nf(a.contact_phone)}</div></div>
+        <div class="info-item"><b>Office Address</b><div class="val">${nf(a.contact_address)}</div></div>
+        <div class="info-item"><b>Course Website</b><div class="val">${nf(a.course_website)}</div></div>
+      </div>
+      ${a.notes ? `<div class="note-box">🏛️ <b>বিশ্ববিদ্যালয় পরিচিতি ও নোট:</b> ${a.notes}</div>` : ""}
+    </div>
+  `;
+}
+
+function scrollToSection(secId){
+  const el = document.getElementById(secId);
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth' });
+    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
   }
 }
 </script>
