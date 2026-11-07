@@ -1066,6 +1066,23 @@ const DATABASE = {
         "contact_address": "Faculty of Applied Sciences and Health, Friedrich-Streib-Str. 2, 96450 Coburg",
         "course_website": "https://www.hs-coburg.de/aims",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3949/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-coburg.de/en/study/master-programs/masters-degree-programs-in-engineering-computer-science/analytical-instruments-measurement-and-sensor-technology/faqs/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's in engineering/natural sciences with at least a 'good' or equivalent final grade (per official FAQ)",
+          "qualifying_degree": "Bachelor's graduates in engineering or natural sciences"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.0 (per aggregators); DAAD says proficiency at master's level required"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "~15 August for winter intake (per aggregator)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "3,900 EUR/semester for international students (2,250 EUR/semester for partner-university students e.g. USST)"
+        },
+        "exact_admission_regulations": "Official tuition figure notably higher than some aggregator claims of 'tuition-free'"
       }
     },
     {
@@ -1131,6 +1148,23 @@ const DATABASE = {
         "contact_address": "Welcome Center, 95028 Hof",
         "course_website": "hof-university.com (AI and Robotics MSc page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8518/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hof-university.com (Hof University AI and Robotics MSc page - not directly fetched)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No confirmed official cutoff; one aggregator suggests 55%/CGPA 5.5/10 as recommended minimum",
+          "qualifying_degree": "Bachelor's graduates in engineering/CS with AI/robotics background"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.5 / TOEFL iBT 90 (per multiple aggregators, not confirmed on official page)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Tuition-free for all nationalities (public German university); ~450 EUR admin/semester fee"
+        },
+        "exact_admission_regulations": "3 semesters, 210 ECTS, taught in English; summer semester applications via uni-assist"
       }
     },
     {
@@ -1196,6 +1230,23 @@ const DATABASE = {
         "contact_address": "Gottlieb-Daimler-Str. 47, 67663 Kaiserslautern, Germany",
         "course_website": "eit.rptu.de/en/ac/program-1",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4818/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://rptu.de/studienangebot/22925/Automation_%26_Control_(A%26C)-Elektrotechnik_und_Informationstechnik-master?lang=en",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official cutoff confirmed; aggregators cite ~2.5 German-equivalent GPA (unverified)",
+          "qualifying_degree": "Bachelor's in Electrical Engineering or equivalent related field"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.0 / TOEFL iBT 79 per aggregators; TOEFL or IELTS accepted, GRE recommended per DAAD"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "~15 July for winter intake (varies by country of prior degree)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fees; ~285 EUR/semester contribution"
+        },
+        "exact_admission_regulations": "Official RPTU page located but detailed requirements not directly confirmed via fetch"
       }
     },
     {
@@ -1612,6 +1663,23 @@ const DATABASE = {
         "contact_address": "Institute for Automotive Engineering (ika), Steinbachstr. 7, 52074 Aachen, Germany",
         "course_website": "ika.rwth-aachen.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4599/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://ika.rwth-aachen.de (RWTH Aachen Automotive Engineering MSc)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Conflicting figures across aggregators: GPA/aggregate 3.0-3.5 or similar; no official figure confirmed",
+          "qualifying_degree": "Bachelor's (or equivalent) in mechanical engineering or automotive engineering, with specific subject credit-point requirements"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.0 generally cited (TOEFL iBT 90, PTE 60); one source says GRE required for non-EU"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Non-EU applicants face earlier cut-off than commonly cited July date; program attracts high applicant volume"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Free for non-EU (semester contribution ~300 EUR, includes regional transport ticket)"
+        },
+        "exact_admission_regulations": "3-semester MSc; official ika/RWTH pages not directly fetched due to tool limits"
       }
     },
     {
@@ -1677,6 +1745,23 @@ const DATABASE = {
         "contact_address": "Faculty of Engineering and Management, Esplanade 10, 85049 Ingolstadt, Germany",
         "course_website": "thi.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4403/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://thi.de/en/studies/degree-programmes/details/automotive-production-engineering-meng",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official GPA cutoff confirmed; requires successful aptitude test (Eignungsverfahren)",
+          "qualifying_degree": "Bachelor's in industrial engineering, mechanical engineering, automotive engineering, or mechatronics (min. 210 ECTS)"
+        },
+        "language_requirements": {
+          "ielts": "English B2 level or higher required; no specific IELTS score confirmed"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "~15 January for summer intake (per aggregator)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Free for EU/German students; ~500 EUR/semester for third-country students (older figure of 1,200 EUR/semester unconfirmed)"
+        },
+        "exact_admission_regulations": "3 semesters per THI's own page (one aggregator incorrectly states 18 months); capacity ~30 students/year"
       }
     },
     {
@@ -1742,6 +1827,23 @@ const DATABASE = {
         "contact_address": "Faculty of Automotive Engineering, Schlosserstrasse 8, 38440 Wolfsburg, Germany",
         "course_website": "ostfalia.de/en/f/master/automotive-service-technology-and-processes",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9187/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://ostfalia.de/en/f/master/automotive-service-technology-and-processes (via DAAD listing)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official GPA cutoff confirmed on university site; one third-party guide cites 2.5 German-equivalent (unverified)",
+          "qualifying_degree": "Bachelor's or equivalent in a related technical field, plus minimum 1 year practical experience in a technical field"
+        },
+        "language_requirements": {
+          "ielts": "Good English skills required per DAAD; no specific IELTS score confirmed for ASTP itself"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter-semester intake; program limited to 25 students"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "DAAD lists actual tuition: 1,400 EUR one-time registration + 4,900 EUR (sem 1-2) + 3,900 EUR (sem 3); conflicts with general Ostfalia 'no tuition' claim"
+        },
+        "exact_admission_regulations": "Free German course offered to ASTP students; 3-semester program"
       }
     },
     {
@@ -1807,6 +1909,23 @@ const DATABASE = {
         "contact_address": "Friedrich-Streib-Straße 2, 96450 Coburg",
         "course_website": "Coburg University website (Autonomous Driving master's page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9016/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://hs-coburg.de/en/study/master-programs/masters-degree-programs-in-engineering-computer-science/autonomous-driving",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "GPA requirement of 2.5 cited by one aggregator (grading scale unclear, possibly German scale)",
+          "qualifying_degree": "Bachelor's in engineering, computer science, or physics (per aggregator, min. ~60%)"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 5.5 floor cited by one aggregator; B2-level English generally required"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Non-EU students pay extra tuition since Summer 2025 (per GradGermany); figures vary 1,500-3,000 EUR/semester across sources; official page not directly confirmed"
+        },
+        "exact_admission_regulations": "VPD (Vorprüfungsdokumentation) required from Coburg for international applicants; SPO dated 22/06/2023 governs admission"
       }
     },
     {
@@ -1872,6 +1991,23 @@ const DATABASE = {
         "contact_address": "Grantham Allee 20, 53757 Sankt Augustin, Germany",
         "course_website": "https://www.h-brs.de/en/inf/studienangebot/master/autonomous-systems",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3799/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.h-brs.de/en/inf/studienangebot/master/autonomous-systems",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "GPA of 2.5 or better on German grading scale (per official programme flyer)",
+          "qualifying_degree": "Professional academic degree (Bachelor or equivalent) in computer science, mathematics, natural sciences, or engineering"
+        },
+        "language_requirements": {
+          "ielts": "B2+ (IELTS Band 6.5) per official H-BRS programme page"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "~15 July (summer) / 15 January (winter) per third-party listing"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fees ('None' per official programme page)"
+        },
+        "exact_admission_regulations": "Official flyer confirms B2+/IELTS 6.5 and GPA 2.5 thresholds, among the most well-documented of this batch"
       }
     },
     {
@@ -1937,6 +2073,23 @@ const DATABASE = {
         "contact_address": "Faculty of Biology, Chemistry and Earth Sciences, Universitätsstraße 30, 95447 Bayreuth, Germany",
         "course_website": "https://www.uni-bayreuth.de/en/master/battery-materials-technology",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8290/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-bayreuth.de/en/master/battery-materials-technology",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No GPA cutoff; eligibility defined by specific eligible Bachelor's degrees (Chemistry, Polymer and Colloid Chemistry, Biochemistry, Physics, etc. from University of Bayreuth or equivalent); conditional admission possible with supplementary coursework",
+          "qualifying_degree": "Bachelor's graduates in Chemistry, Polymer/Colloid Chemistry, Biochemistry, Physics, or related fields"
+        },
+        "language_requirements": {
+          "ielts": "IELTS Band 6.5 or equivalent; B2 minimum, higher level favorably evaluated (per official page)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not clearly confirmed; sources disagree on intake timing (one source says both semesters)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Tuition-free (public university); ~332 EUR/year likely represents semester contribution"
+        },
+        "exact_admission_regulations": "4-semester program taught in English; official page directly confirms IELTS 6.5 requirement"
       }
     },
     {
@@ -2002,6 +2155,23 @@ const DATABASE = {
         "contact_address": "RWTH International Academy, Campus-Boulevard 30, 52074 Aachen, Germany",
         "course_website": "https://bit.ly/4c8Oc6G",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9599/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.batteryengineering.rwth-aachen.de/faq/ and https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-battery-systems-engineering",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Bachelor's degree holders; relevant work experience (min. ~1 year) generally required for this continuing-education program"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site; program entirely taught in English, no German required"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Early-bird: 15 January (non-EU) / 15 April (EU)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "6,000 EUR/semester (24,000 EUR total for 4 semesters) per RWTH International Academy listing; early-bird 10% discount for applications by 15 Jan (non-EU) or 15 Apr (EU)"
+        },
+        "exact_admission_regulations": "This is a paid, private continuing-education program via RWTH International Academy, distinct from RWTH's standard tuition-free Bachelor's/Master's programs"
       }
     },
     {
@@ -2067,6 +2237,23 @@ const DATABASE = {
         "contact_address": "Faculty of Computer Science and Electrical Engineering, Grenzstrasse 3, 24149 Kiel, Germany",
         "course_website": "https://www.haw-kiel.de/en/degree-courses/courses/battery-technologies/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10623/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.haw-kiel.de/en/degree-courses/courses/battery-technologies/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (page content cut off before grade threshold)",
+          "qualifying_degree": "Bachelor's degree in Electrical Engineering, Mechatronics, or Industrial Engineering - Electrical Engineering"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site; program taught in English (English proficiency likely required but unconfirmed)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fees; ~397.7 EUR/semester contribution (per aggregator); 100 EUR one-time enrollment fee"
+        },
+        "exact_admission_regulations": "M.Eng., 3 semesters, admission restricted (NC); intake in both summer and winter semesters; foreign applicants apply via uni-assist"
       }
     },
     {
@@ -2132,6 +2319,23 @@ const DATABASE = {
         "contact_address": "Department of Applied Natural Sciences, Mönkhofer Weg 239, 23562 Lübeck, Germany",
         "course_website": "https://www.bme-master.com",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4162/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.th-luebeck.de/en/studies/study-offer/degree-programs/biomedical-engineering-msc/overview",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "University or university of applied sciences degree in specific areas related to biomedical engineering (exact list not confirmed)"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.0 (TOEFL iBT 80) per aggregators; not confirmed on official TH Lübeck page"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site (likely tuition-free per standard German public-university rule for EU students)"
+        },
+        "exact_admission_regulations": "Program run jointly with Universität zu Lübeck; bme-master.com is the program's dedicated site per DAAD listing (not independently verified here)"
       }
     },
     {
@@ -2197,6 +2401,23 @@ const DATABASE = {
         "contact_address": "Faculty of Electrical Engineering and Information Technology, Schinkelstraße 2, 52062 Aachen, Germany",
         "course_website": "Linked on DAAD page (RWTH Faculty of Electrical Engineering, Biomedical Systems Engineering MSc page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5228/"
+      },
+      "official_website_data": {
+        "official_source_url": "RWTH Aachen Faculty of Electrical Engineering and Information Technology master's program (specific Biomedical Systems Engineering major page not located)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Bachelor of Science/Engineering graduates who have completed basic studies; this is a major chosen within RWTH's broader EEIT master's program, selectable after enrollment"
+        },
+        "language_requirements": {
+          "ielts": "Conflicting: IELTS 6.0-6.5/TOEFL iBT 90-100 cited across aggregators; not confirmed officially"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fees; semester fee ~298.06 EUR (standard RWTH figure)"
+        },
+        "exact_admission_regulations": "Biomedical Systems Engineering is one of five majors within RWTH's Electrical Engineering and Information Technology MSc, not a fully standalone degree"
       }
     },
     {
@@ -2262,6 +2483,23 @@ const DATABASE = {
         "contact_address": "Student Service Center, Wagner-Régeny-Str. 21, 12489 Berlin, Germany",
         "course_website": "bbw-hochschule.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10529/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.bbw-hochschule.de (Business Engineering in Digital Transformation M.Sc. page not directly located)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Not confirmed via official site; program is business/engineering/digital-transformation focused, open admission (no NC) per one aggregator"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter: ~15 Aug; Summer: ~15 Feb (per aggregator, one date cycle already passed/outdated)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "~7,680 EUR/year per one aggregator (unconfirmed); separate unexplained figure of 320 EUR/year also seen"
+        },
+        "exact_admission_regulations": "4 semesters, full-time, taught in English per aggregators; official bbw page not reached"
       }
     },
     {
@@ -2327,6 +2565,23 @@ const DATABASE = {
         "contact_address": "Fachbereich Technik / Faculty of Technology, Constantiaplatz 4, 26723 Emden, Germany",
         "course_website": "hs-emden-leer.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7054/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-emden-leer.de (Business Intelligence and Data Analytics master page not directly located)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Backgrounds in Computer Science/Software Engineering, IT, Data Science, or Business Administration with specialization in Information Systems/Quantitative Methods/Data Analytics"
+        },
+        "language_requirements": {
+          "ielts": "'Certified English proficiency required' per Zugangs- und Zulassungsordnung; no specific IELTS score confirmed"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Intakes possible in both summer and winter semester"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "5,980 EUR/semester (11,960 EUR/year) per aggregator - notably high for a German public university, should be verified directly as it may reflect a specific cohort/pathway fee"
+        },
+        "exact_admission_regulations": "3 semesters (90 ECTS); international applicants apply via uni-assist"
       }
     },
     {
@@ -2392,6 +2647,23 @@ const DATABASE = {
         "contact_address": "28359 Bremen (street address not given)",
         "course_website": "uni-bremen.de/fb1/studium/studiengaenge/communication-and-information-technology-cit-msc",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3713/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-bremen.de/fb1/studium/studiengaenge/communication-and-information-technology-cit-msc",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official GPA cutoff found",
+          "qualifying_degree": "First degree in Electrical Engineering or a closely related field (Bachelor's with 180 ECTS or equivalent) in Electrical Engineering, Communications Technology, or related"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 7.0 / TOEFL iBT 95 / PTE 76 per aggregators (DAAD also references C1 level); not independently confirmed via direct official fetch"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "~15 October annually, for courses starting the following spring (summer semester intake); 4-semester duration"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fees; semester contribution ~370-425 EUR (sources vary)"
+        },
+        "exact_admission_regulations": "Official CIT program PDF exists at uni-bremen.de/fileadmin/.../CIT_E.pdf; applications submitted online directly to the university per official text"
       }
     },
     {
@@ -2457,6 +2729,23 @@ const DATABASE = {
         "contact_address": "Albert-Einstein-Allee 41, 89081 Ulm, Germany",
         "course_website": "https://www.uni-ulm.de/ci-tech/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3793/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-ulm.de/ci-tech/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric GPA stated; requires a bachelor's or comparable degree with a 'significantly above-average grade'.",
+          "qualifying_degree": "Bachelor's or comparable degree in Electrical Engineering, Communications Engineering, Electronics, or closely related field; strong motivation for multicultural environment; self-test available to check prior knowledge."
+        },
+        "language_requirements": {
+          "ielts": "No specific IELTS/TOEFL score listed; applicants must be fluent in English; certificate can be submitted after applying but by enrolment, proof of test registration required with application."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "15 August to 30 September application period (uni-assist for foreign degrees); no email/post applications."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Non-EU/second-degree students: €1,500/semester tuition plus ~€182/semester admin and Studierendenwerk fees."
+        },
+        "exact_admission_regulations": "Admission letters start arriving in November; visa and proof of funds needed for international students; page's 'Admission Requirements: No restriction' field conflicts with stated degree/grade criteria."
       }
     },
     {
@@ -2522,6 +2811,23 @@ const DATABASE = {
         "contact_address": "Cauerstr. 7, 91058 Erlangen, Germany",
         "course_website": "cme.studium.fau.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4261/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://cme.studium.fau.de/application",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "FAU Bachelor's in ICT/Computational Engineering(TAF IT)/EEI: grade 2.30 or better for direct admission; 2.31-3.0 requires QFV test. Other degrees: average/final grade at least 2.5 ('good', German scale), generally need QFV.",
+          "qualifying_degree": "Engineering-related Bachelor's degree with at least one module passed 'good' or better in each of: engineering mathematics, signals and systems, digital communications, digital signal processing; solid foundation in math, signals/systems, communications, stochastic signals, programming (C/C++, MATLAB, Python)."
+        },
+        "language_requirements": {
+          "ielts": "IELTS min 6.0; TOEFL iBT min 80 (PBT 547, CBT 210); or B2-level CEFR proof / Medium of Instruction Certificate. German not required."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter 2026/27 closed; no summer intake; winter 2027/28 portal open Feb 2027 to 15 July 2027, no late applications."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No EU tuition stated; from summer semester 2027 non-EU students pay tuition per semester (amount not given) with exemptions; 100 EUR non-refundable application fee for non-EU applicants."
+        },
+        "exact_admission_regulations": "Apply via campo portal only; APS certificate required for China/Vietnam/India applicants; final Bachelor's certificate due by Sept 30 enrolment deadline; optional GRE, German certificates, 2 recommendation letters; ~30-min interview for shortlisted candidates."
       }
     },
     {
@@ -2587,6 +2893,23 @@ const DATABASE = {
         "contact_address": "Schinkelstraße 2, 52062 Aachen, Germany",
         "course_website": "Linked on page (RWTH faculty pages)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3698/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (RWTH Communications Engineering is now a major within 'Electrical Engineering and Information Technology' master; specific official admissions page not located)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site; third-party aggregator cites ~2.5 or better but unconfirmed.",
+          "qualifying_degree": "Students apply to the overarching 'Electrical Engineering and Information Technology' M.Sc.; once enrolled, choose Communications Engineering as one of five majors."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site; third-party sources conflict (IELTS 6.0/6.5, PTE 60, possible GRE) — unconfirmed."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site; aggregators mention 1 March / 1 November deadlines, unconfirmed."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Standalone Communications Engineering master closed to new enrolments after 2015; now folded into broader EEIT program. DAAD listing remains primary source for specifics."
       }
     },
     {
@@ -2652,6 +2975,23 @@ const DATABASE = {
         "contact_address": "76131 Karlsruhe, Germany",
         "course_website": "https://www.mach.kit.edu/english/5282.php",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11090/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.mach.kit.edu/english/5282.php",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on page; refers to linked 'Statutes for Admission' PDF.",
+          "qualifying_degree": "Motivated students with a background in engineering, natural sciences, or computer science."
+        },
+        "language_requirements": {
+          "ielts": "Not stated; program described as taught in English but no test/score specified."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated; page refers to KIT degree program page for application/admission info."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated on page."
+        },
+        "exact_admission_regulations": "Statutes for Admission and Studies/Examination Regulations available as linked PDFs; contact cme@mach.kit.edu for application questions."
       }
     },
     {
@@ -2717,6 +3057,23 @@ const DATABASE = {
         "contact_address": "Albert-Einstein-Straße 26, 18059 Rostock, Germany",
         "course_website": "https://www.ief.uni-rostock.de/cse-msc",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4593/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.ief.uni-rostock.de/cse-msc",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "At least 85% of CGPA or comparable grade on another system; alternatively GATE score of at least 500 points.",
+          "qualifying_degree": "First professional degree (≥180 CP) in Computational Science and Engineering, Electrical Engineering, Information Technology, Mechanical Engineering, or Physics; solid math (linear algebra, calculus) and programming (C/C++, Fortran, Java, Python); specialization-specific coursework requirements (Computational Electrical Engineering / Mechanical Engineering / Physics)."
+        },
+        "language_requirements": {
+          "ielts": "TOEFL iBT at least 90, or IELTS at least 6.5 (native English speakers exempt); proof no older than 2 years; mandatory German course if native language isn't German."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated on page."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated on page."
+        },
+        "exact_admission_regulations": "Choose a specialization at application; starts winter (Oct 1) or summer (Apr 1) semester (Computational Physics winter-only); apply via UniAssist; accredited 25.06.2019–30.09.2027; contact cse.ief@uni-rostock.de."
       }
     },
     {
@@ -2782,6 +3139,23 @@ const DATABASE = {
         "contact_address": "Schinkelstraße 2, 52062 Aachen, Germany",
         "course_website": "Linked from page (RWTH EE master's pages)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5226/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (official RWTH Computer Engineering admissions page not located; only third-party/related pages)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site.",
+          "qualifying_degree": "Completed Bachelor's (B.Sc./B.Eng. or equivalent) at an internationally recognised university, per secondary source."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site; program taught in English per secondary sources."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site; winter semester intake only, per secondary source."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "No admission restriction (open admission) per secondary source; program contact: computer-engineering@rwth-aachen.de."
       }
     },
     {
@@ -2847,6 +3221,23 @@ const DATABASE = {
         "contact_address": "Universitätsplatz 1, 01968 Senftenberg, Germany",
         "course_website": "https://www.b-tu.de/en/control-renewable-energy-systems-ms",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10336/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.b-tu.de/en/control-renewable-energy-systems-ms",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No minimum GPA stated; requires first university degree equivalent to 180 ECTS after at least 3 years of Bachelor's study.",
+          "qualifying_degree": "Graduates in Mechanical Engineering, Electrical Engineering, or Process Engineering; knowledge in automatic control mandatory."
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.5+; TOEFL CBT 220/ITP 550/iBT 80; Cambridge B2 First 173+ or C1 Advanced 160+; TOEIC 800+; exemption if university confirms English-taught degree; proof must be ≤3 years old."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "With scholarship: 31 Jan 2026; without scholarship: 15 May 2026. Degree must be completed before 31 July (non-EU) / 30 Sept (EU)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Listed 'Fees' of €340.80 (unclear whether semester fee or tuition)."
+        },
+        "exact_admission_regulations": "Restricted admission; joint degree (4 semesters) with partner universities in Nantes (France) and Zagreb (Croatia) plus Cottbus; applications via EU-CORE portal."
       }
     },
     {
@@ -2912,6 +3303,23 @@ const DATABASE = {
         "contact_address": "Wilhelm-Leuschner-Strasse 13, 61169 Friedberg (Hessen)",
         "course_website": "https://go.thm.de/ccce",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3815/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.thm.de/site/studium/unsere-studienangebote/control-computer-and-communications-engineering-master-msc-iem-friedberg.html",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "First professional degree with final grade at least 2.5 ('gut') and at least 210 ECTS, or equivalent.",
+          "qualifying_degree": "Graduates in General Electrical Engineering, Communications Engineering and Computer Networks, Electrical and Information Engineering, Computer Engineering (Technische Informatik), or related fields."
+        },
+        "language_requirements": {
+          "ielts": "English B2 (CEFR): TOEFL iBT 85, IELTS 6.5+, TOEIC 785+, or Cambridge FCE 176+. International applicants also need basic German A1 (Goethe-Institut or equivalent)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "German applicants: 1 June–1 Sept (winter) / 1 Dec–1 Mar (summer). International applicants: 1 Apr–15 June (winter) / 1 Oct–15 Dec (summer), via uni-assist."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated (only semester contribution 'Semesterbeitrag' page linked, no amount given)."
+        },
+        "exact_admission_regulations": "Admission committee determines need for mandatory EPE (English) or GF (German) module; full-time, English-taught, 3 semesters; offered at Friedberg and Gießen campuses."
       }
     },
     {
@@ -3117,6 +3525,23 @@ const DATABASE = {
         ],
         "career_ecosystem": "Direct talent pipeline to Saxony semiconductor cluster (Infineon Dresden, GlobalFoundries, Bosch, NXP). Perfect alignment with junior RTL/UVM verification engineers.",
         "official_syllabus_url": "https://www.tu-chemnitz.de/etit/studium/studiengaenge/mDT"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (tu-chemnitz.de program page returned 404; details from TU Chemnitz flyer/search snippets)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (flyer requires vocationally-qualifying Bachelor's degree, no numeric grade stated).",
+          "qualifying_degree": "Vocationally-qualifying university Bachelor's degree in Electrical Engineering and Information Technology or equivalent program with comparable content focus."
+        },
+        "language_requirements": {
+          "ielts": "Teaching language is English (100%); no specific test/score found via official source."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Program normally starts winter semester; uni-assist application portal reportedly opens early May 2026 per official page reference."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "2024 Studienordnung/Prüfungsordnung (dated 23 April 2024) are binding regulations for exact entry requirements; not fully retrievable in this session."
       }
     },
     {
@@ -3182,6 +3607,23 @@ const DATABASE = {
         "contact_address": "Konrad-Zuse-Platz 8, 81829 München",
         "course_website": "hdbw-hochschule.com/master/digital-factory-and-operational-excellence",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8478/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://hdbw-hochschule.com/master/digital-factory-and-operational-excellence",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No minimum GPA stated; 'No numerus clausus' for this programme.",
+          "qualifying_degree": "Bachelor's in Industrial Engineering, Business Administration (relevant focus), Production Management, Logistics Management, Mechanical Engineering, or comparable field (others considered via advisory service); ideally 210 ECTS (180-ECTS needs individual agreement); non-EU Bachelor's may require one-semester Pre-Master unless matching + 3+ years work experience."
+        },
+        "language_requirements": {
+          "ielts": "English level B2 required via recognised test (TOEFL, IELTS, TOEIC, FCE, CPE, BEC) or official confirmation of English-taught Bachelor's; no minimum IELTS score given."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Domestic/EU: 14 March (summer) / 30 Sept (winter). Non-EU: 15 Jan (summer) / 31 July (winter)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "€790/month full-time (3 semesters) or €480/month part-time (5 semesters), all courses/exams included. No EU application fee; €100 non-EU application fee."
+        },
+        "exact_admission_regulations": "Required docs: motivation letter, CV, Bachelor's certificate, English proof; optional German courses via bfz; German not required."
       }
     },
     {
@@ -3247,6 +3689,23 @@ const DATABASE = {
         "contact_address": "Ammerländer Heerstr. 114-118, 26129 Oldenburg, Germany",
         "course_website": "uol.de/informatik/msc/des",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8944/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://uol.de/informatik/msc/des",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site.",
+          "qualifying_degree": "Suited to people wanting to work in IT and energy, with focus on energy transition and data-based approaches; no formal prerequisites listed on this page."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Application details on separate linked 'Bewerbung' page (uol.de/studiengang/bewerben/digitalised-energy-systems-master-630); study advice via Jörg Bremer, Department für Informatik."
       }
     },
     {
@@ -3312,6 +3771,23 @@ const DATABASE = {
         "contact_address": "Appelstr. 11, 30167 Hannover",
         "course_website": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/renewable-energy-and-electrical-power-engineering",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7865/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/renewable-energy-and-electrical-power-engineering",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric GPA; bachelor's certificate should be 'good or excellent'.",
+          "qualifying_degree": "Internationally recognised bachelor's degree (≥3 years) in Electrical Engineering, Mechanical Engineering, Energy Technology, or related field (e.g. BSc EEIT or BSc Power Engineering); job experience not required; motivation letter weighted heavily; restricted admission with university selection procedure."
+        },
+        "language_requirements": {
+          "ielts": "English C1 required; no specific IELTS score mentioned (referred to general linked language-certificate page); German/Finnish not required but recommended."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "1 December (previous year) to 15 January (year of winter start) for first-year/non-EU/transfer students."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not mentioned on page."
+        },
+        "exact_admission_regulations": "Double degree: Year 1 Lappeenranta (Finland), Year 2 Hannover; thesis in Hannover; graduates get M.Sc. Power Engineering (Hannover) + M.Sc. Technology Energy Technology (Lappeenranta); non-EU applicants need uni-assist VPD; program starts 1 September yearly."
       }
     },
     {
@@ -3727,6 +4203,23 @@ const DATABASE = {
         "contact_address": "Wilhelmshöher Allee 73, 34121 Kassel, Germany",
         "course_website": "www.ece.uni-kassel.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3759/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-kassel.de/uni/en/studium/electrical-communication-engineering-master.html (not directly fetched; found via search)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Minimum final mark of 2.5 or better (per multiple aggregators; not independently confirmed via direct fetch).",
+          "qualifying_degree": "Bachelor of Science (B.Sc.) in Electrical Engineering, Communications, or related area."
+        },
+        "language_requirements": {
+          "ielts": "Conflicting secondary data: CEFR B2, IELTS 5.5–6.5 or TOEFL iBT 72–87 depending on source; needs confirmation on official site."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Conflicting secondary sources: Jan/March deadlines for non-EU/German applicants per DAAD listing vs. 15 July per another aggregator; unconfirmed."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site (no tuition for EU typically; not confirmed for non-EU)."
+        },
+        "exact_admission_regulations": "As of summer semester 2024, program comprises 4 semesters and 120 credit points (previously 3 semesters/90 ECTS); GRE requirement disputed between sources; contact university's 'Information Studium' office for authoritative details."
       }
     },
     {
@@ -3792,6 +4285,23 @@ const DATABASE = {
         "contact_address": "Pfaffenwaldring 47, 70569 Stuttgart, Germany",
         "course_website": "https://www.uni-stuttgart.de/eeng",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6926/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.f05.uni-stuttgart.de/en/ei/prospective_students/eeng/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on page; links to separate 'Admission regulations' page.",
+          "qualifying_degree": "International two-year Master's in Electrical Engineering for students wanting an international environment; six specializations offered; no specific prerequisites stated on this page."
+        },
+        "language_requirements": {
+          "ielts": "Not stated; page only says program 'can be completed entirely in English' and German proficiency not required."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated on page."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not mentioned on page."
+        },
+        "exact_admission_regulations": "Applications via university's general Master's application page; separate German-language 'Elektrotechnik und Informationstechnik' Master's also exists (not covered here)."
       }
     },
     {
@@ -3857,6 +4367,23 @@ const DATABASE = {
         "contact_address": "Bahnhofstr. 61, 87435 Kempten (Allgäu)",
         "course_website": "hs-kempten.de/en/faculty-of-electrical-engineering/degree-courses/master/electrical-engineering",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4140/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-kempten.de/en/faculty-of-electrical-engineering/degree-courses/master/electrical-engineering (admission details found via search of hs-kempten.de pages)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Secondary source: program expects a 'good' minimum final grade average (exact threshold not confirmed via direct fetch).",
+          "qualifying_degree": "First degree in Electrical Engineering or Information Technology with at least 180 ECTS (Bachelor's in electrical, telecommunication, or electronics engineering)."
+        },
+        "language_requirements": {
+          "ielts": "Not confirmed via official site; one secondary source claims German A1 required for international students, conflicting with English-taught DAAD listing."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Per faculty application schedule: Dec 1 – Jan 15 (winter semester); May 15 – June 30 (summer semester)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Bavaria introduced tuition fees for non-EU/EEA students from WS 2025/26 per secondary source; non-EU applicants should confirm current fee."
+        },
+        "exact_admission_regulations": "Foreign degrees require verification/validation by uni-assist; program listed as having restricted admission (NC)."
       }
     },
     {
@@ -3922,6 +4449,23 @@ const DATABASE = {
         "contact_address": "An der Hochschule 1, 86161 Augsburg, Germany",
         "course_website": "tha.de/en/Electrical-Engineering/MEE.html",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10345/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.tha.de/en/Electrical-Engineering/MEE.html (not directly fetched; details from SPO PDF search results)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Secondary/unconfirmed: one aggregator cites grade of 2.69 or better; official SPO (15 Oct 2024) states qualification requirement is 'a university degree' without stating numeric threshold directly in search snippet.",
+          "qualifying_degree": "University degree holders; secondary source (unverified) cites prior degree in mechatronics, electrical engineering, information technology, or mechanical engineering."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site; language requirements reportedly handled under a separate 'pre-admission procedure statute' (content not retrieved)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Official SPO (Studien- und Prüfungsordnung) PDF dated SS25 and MEE handbook linked from tha.de hold authoritative current criteria; information events held each semester per DAAD listing."
       }
     },
     {
@@ -3987,6 +4531,23 @@ const DATABASE = {
         "contact_address": "Albert-Einstein-Str. 26, 18055 Rostock, Germany",
         "course_website": "https://www.ief.uni-rostock.de/ee-msc",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4594/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.ief.uni-rostock.de/ee-msc",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "At least 85% of CGPA or comparable grade under another system; alternatively GATE score of at least 500 points.",
+          "qualifying_degree": "First professional degree in Electrical Engineering with at least 180 credit points (LP) or equivalent from a Berufsakademie; documented knowledge in electromagnetic fields and waves (≥3 LP), mathematics (≥18 LP), programming/practical computer science (≥6 LP)."
+        },
+        "language_requirements": {
+          "ielts": "TOEFL iBT at least 94, or IELTS at least 7.0 (native English speakers exempt); proof no more than 2 years old."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated on page; program starts winter (Oct 1) or summer (Apr 1) semester."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated on page."
+        },
+        "exact_admission_regulations": "International applicants via UniAssist; instruction in English, some modules/exams in German; mandatory German course if native language isn't German; 4 semesters (120 LP); specializations: Information Technology and Power Engineering; contact ee.ief@uni-rostock.de."
       }
     },
     {
@@ -4280,6 +4841,23 @@ const DATABASE = {
         "contact_address": "39106 Magdeburg (postal code/city only)",
         "course_website": "https://www.ovgu.de/en/Study/Study+Programmes/Master/Electrical+Engineering+and+Information+Technology.html",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6091/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.ovgu.de/en/Study/Study+Programmes/Master/Electrical+Engineering+and+Information+Technology.html",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor grade point average 'at most 2.0 on the German scale'.",
+          "qualifying_degree": "Qualified B.Sc. in Electrical Engineering or related field, with at least 15 CP Mathematics, 5 CP Physics, 20 CP Electronics and/or Information Technology."
+        },
+        "language_requirements": {
+          "ielts": "No specific IELTS score; requires language certificate equivalent to B2 under OVGU Framework of reference; programme taught in English."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Deadline field present but no specific date given; enrollment in winter semester."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated on page."
+        },
+        "exact_admission_regulations": "No restricted admission (open); 4 semesters; subject advisors Dr.-Ing. Martin Wilhelm and Prof. Dr.-Ing. Thilo Pionteck."
       }
     },
     {
@@ -4642,6 +5220,23 @@ const DATABASE = {
         "contact_address": "09107 Chemnitz (no street address)",
         "course_website": "https://www.tu-chemnitz.de/etit/studium/studiengaenge/mEs",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4493/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (program page returns 404; redirect target https://www.tu-chemnitz.de/etit/stugang/index.php?page=m_es also unavailable)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Not found via official site"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "TU Chemnitz Embedded Systems M.Sc. official page link from DAAD/university site is broken (404); could not independently confirm beyond DAAD listing."
       }
     },
     {
@@ -4707,6 +5302,23 @@ const DATABASE = {
         "contact_address": "An der Karlstadt 8, 27568 Bremerhaven, Germany",
         "course_website": "https://www.hs-bremerhaven.de/esd",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4399/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-bremerhaven.de/esd",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "CGPA equivalent to German grade 2.3 or better (may be enhanced by 0.3 with ≥2 years relevant professional experience post-bachelor)",
+          "qualifying_degree": "Bachelor's in an engineering program (210 ECTS) with coursework in math/physics (15 ECTS), electrical engineering (10 ECTS), mechanical engineering (5 ECTS), programming (5 ECTS), control engineering (5 ECTS); enthusiastic about control engineering, mechanics, digital technology and software development"
+        },
+        "language_requirements": {
+          "ielts": "English B2 (CEFR) required; IELTS 6.0 or TOEFL iBT 72 or Bachelor's taught fully in English accepted as proof"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Non-EU applicants must submit via uni-assist by 31 December for summer semester start (program admits only in summer semester)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated (public Hochschule; application-fee-free/admission-free per site, implying only standard semester contribution)"
+        },
+        "exact_admission_regulations": "Also requires German A2 proof (Goethe/DSH/TestDaF/TELC/DAAD/UNIcert/ÖSD/DTZ or transcript). Admission-free (no quota) per site. Course delivered entirely in English."
       }
     },
     {
@@ -4772,6 +5384,23 @@ const DATABASE = {
         "contact_address": "TU Bergakademie Freiberg, Faculty of Mechanical, Process and Energy Engineering, Akademiestraße 6, 09599 Freiberg, Germany",
         "course_website": "https://www.emerald.uliege.be/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5349/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.emerald.uliege.be/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (admission criteria subpage not retrievable in detail)",
+          "qualifying_degree": "Students with background in both geology and applied sciences (mining, metallurgy, chemistry); aims to train engineers with entrepreneurial mindset for green energy transition resource management"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site (fees & scholarships page referenced but details not extracted)"
+        },
+        "exact_admission_regulations": "Erasmus Mundus Joint Master (EMJM), EIT-labelled, 120 ECTS over 2 years across 4 partner European universities (incl. TU Bergakademie Freiberg), each delivering a degree."
       }
     },
     {
@@ -4837,6 +5466,23 @@ const DATABASE = {
         "contact_address": "Schlossplatz 19, 76131 Karlsruhe, Germany",
         "course_website": "hectorschool.kit.edu/master-energy-engineering-and-management.php",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4551/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://hectorschool.kit.edu/master-energy-engineering-and-management.php",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not GPA-based; based on first academic degree (Bachelor/Master/Diploma) plus professional experience, not grade threshold",
+          "qualifying_degree": "Working professionals/high potentials in energy sector (project managers, engineering executives) with first academic degree plus at least 2 years professional experience"
+        },
+        "language_requirements": {
+          "ielts": "English language proficiency required (no specific IELTS score published on this page)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Rolling application — no fixed deadline"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 36,000 total (part-time, work-integrated Executive M.Sc.)"
+        },
+        "exact_admission_regulations": "Part-time Executive M.Sc., 90 ECTS, 15 months plus ~9-month thesis; one management module held at ESADE Business School, Barcelona; preparatory electrical engineering crash course recommended for those with limited EE background."
       }
     },
     {
@@ -4902,6 +5548,23 @@ const DATABASE = {
         "contact_address": "Neckartal 142, 78628 Rottweil",
         "course_website": "hs-furtwangen.de/zukunft-studieren/studiengaenge/engineering-and-business-management",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9845/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-furtwangen.de/zukunft-studieren/studiengaenge/engineering-and-business-management",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated as numeric grade; admission based on first qualifying degree quality generally (no explicit CGPA cutoff found)",
+          "qualifying_degree": "Holders of a first professional degree (Bachelor, Master, Diploma or equivalent) in a relevant field such as engineering, natural sciences, computer science or business/economics; requires at least 2 years of professional experience after the degree"
+        },
+        "language_requirements": {
+          "ielts": "Very good English language skills required (no specific IELTS score published on this page)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Voluntary practical semester costs ~€2,000; no explicit overall tuition figure found beyond standard public-university semester fees"
+        },
+        "exact_admission_regulations": "90 ECTS program. Students without the required 210 ECTS at Bachelor level must make up missing credits individually, coordinated with the program dean."
       }
     },
     {
@@ -4967,6 +5630,23 @@ const DATABASE = {
         "contact_address": "Esplanade 10, 85019 Ingolstadt, Germany",
         "course_website": "thi.de/studium/studienangebote/details/engineering-and-management-msc/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7168/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.thi.de/studium/studienangebote/details/engineering-and-management-msc/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Admission based on average grade (Notendurchschnitt) of Bachelor's degree; required average depends on number of applicants and available capacity (no fixed numeric cutoff published)",
+          "qualifying_degree": "Bachelor's degree (≥210 ECTS) in Wirtschaftsingenieurwesen, Maschinenbau, Fahrzeugtechnik, Luft- und Raumfahrttechnik, Elektrotechnik, Informatik, or other engineering/technical discipline"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site (specific IELTS score not listed in extracted content)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site (no tuition figure found in extracted content)"
+        },
+        "exact_admission_regulations": "All foreign applicants must submit documents via uni-assist for grade conversion (VPD). Indian applicants with Engineering/Commerce/Business bachelor's must additionally pass the Digital Master Test (dMAT, €150) for APS certificate/visa purposes."
       }
     },
     {
@@ -5032,6 +5712,23 @@ const DATABASE = {
         "contact_address": "Flughafenallee 10, 28199 Bremen, Germany",
         "course_website": "hs-bremen.de/emss",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11157/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-bremen.de/emss",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Final grade corresponding to German mark 'good' or better (min. 2.5); for international students GPA of at least 3.00/4.00 or 7.50/10.00, or first class with distinction, or >70%",
+          "qualifying_degree": "Bachelor's, German 'Diplom', or equivalent first academic degree in Computer Science, Electronics Engineering, Space Technology, or related STEM fields"
+        },
+        "language_requirements": {
+          "ielts": "English proficiency min. B2 (CEFR); TOEFL or IELTS accepted as equivalent certificates; university certificate or interview with admission board accepted if English was medium of instruction"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not explicitly stated numerically; one referenced update date 02.06.2026 found in admissions content"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Semester fees only (public Hochschule; no separate tuition figure found)"
+        },
+        "exact_admission_regulations": "Engineering and Management of Space Systems (EMSS) at Hochschule Bremen; covers space law, systems engineering, ground segment, and includes interdisciplinary one-year project components."
       }
     },
     {
@@ -5097,6 +5794,23 @@ const DATABASE = {
         "contact_address": "12059 Berlin (no street address)",
         "course_website": "https://www.srh-university.de/en/plp/meng-automation-robotics/e/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6362/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.srh-university.de/en/plp/meng-automation-robotics/e/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (no numeric GPA/grade threshold found in extracted content)",
+          "qualifying_degree": "Students seeking expert/leadership positions in international companies in Industry 4.0: automation, robotics, and 3D manufacturing; opportunity to earn Siemens Mechatronic Systems Certificate Program (SMSCP) certification"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site (no specific IELTS score found in extracted content)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 840 per month for EU/EEA students"
+        },
+        "exact_admission_regulations": "MEng program at SRH University (private); tuition quoted is monthly, differs from potential non-EU/EEA rate which was not found."
       }
     },
     {
@@ -5162,6 +5876,23 @@ const DATABASE = {
         "contact_address": "12059 Berlin (no street address)",
         "course_website": "https://www.srh-university.de/en/plp/meng-mobility-automotive-industry/e/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6361/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.srh-university.de/en/plp/meng-mobility-automotive-industry/e/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Students aiming to become mobility/automotive industry experts; focuses on project/change management, innovation, intercultural teams, communication and negotiation skills"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 840 per month for EU/EEA students"
+        },
+        "exact_admission_regulations": "MEng Engineering and Sustainable Technology Management — Mobility and Automotive Industry at SRH University (private)."
       }
     },
     {
@@ -5227,6 +5958,23 @@ const DATABASE = {
         "contact_address": "12059 Berlin (no street address)",
         "course_website": "https://www.srh-university.de/en/plp/meng-smart-building/e/n/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6364/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.srh-university.de/en/plp/meng-smart-building/e/n/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Students interested in digital building infrastructure and smart building technology management, construction/infrastructure innovation"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 840 per month for EU/EEA students"
+        },
+        "exact_admission_regulations": "MEng Engineering and Sustainable Technology Management — Smart Building Technologies at SRH University (private)."
       }
     },
     {
@@ -5292,6 +6040,23 @@ const DATABASE = {
         "contact_address": "70569 Stuttgart (no street address)",
         "course_website": "uni-stuttgart.de (Engineering Cybernetics M.Sc.)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10348/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-stuttgart.de/en/study/study-programs/Engineering-Cybernetics-M.Sc./",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (selection-criteria subpage content not extracted in detail)",
+          "qualifying_degree": "Not found via official site beyond general program description"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site (an 'Application deadlines' subpage exists but detail not retrieved)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site (standard low public-university semester fee implied; no figure confirmed)"
+        },
+        "exact_admission_regulations": "University of Stuttgart's Engineering Cybernetics M.Sc. page references separate 'Application deadlines' and 'Selection criteria' subpages that were not individually fetched; DAAD listing remains the more complete source for now."
       }
     },
     {
@@ -5357,6 +6122,23 @@ const DATABASE = {
         "contact_address": "12059 Berlin (no street address)",
         "course_website": "srh-university.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4832/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (srh-university.de generic domain given, specific program page not located)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Not found via official site"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Likely similar to other SRH MEng programs (~EUR 840/month for EU/EEA, per sibling SRH programs), not independently confirmed for this exact program"
+        },
+        "exact_admission_regulations": "DAAD hint was only the bare domain srh-university.de; specific program URL not identified within time available."
       }
     },
     {
@@ -5422,6 +6204,23 @@ const DATABASE = {
         "contact_address": "Hochschulstraße 1, 83024 Rosenheim, Germany",
         "course_website": "th-rosenheim.de (Master's in Engineering Sciences page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4636/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (th-rosenheim.de bare domain given, specific program page not located)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Not found via official site"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "DAAD hint was only a vague domain reference; specific official program page for Engineering Sciences at TH Rosenheim not located within time available."
       }
     },
     {
@@ -5487,6 +6286,23 @@ const DATABASE = {
         "contact_address": "Hölderlinstr. 3, 57076 Siegen, Germany",
         "course_website": "https://eminent-master.eu/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9767/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://eminent-master.eu/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (specific numeric GPA requirement not extracted)",
+          "qualifying_degree": "Students interested in embedded intelligence, functional/smart materials, sensor systems, and nanosystems engineering for applications from healthcare to space exploration"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "European Master's in Embedded Intelligence Nanosystems Engineering (EMINENT), University of Siegen is one consortium partner; page has a dedicated 'Application Requirements' section not fully extracted."
       }
     },
     {
@@ -5552,6 +6368,23 @@ const DATABASE = {
         "contact_address": "Carl-von-Ossietzky-Str. 9-11, 26129 Oldenburg, Germany",
         "course_website": "https://master.eurec.be/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8328/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://master.eurec.be/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Not found via official site (general renewable energy focus per program name)"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "European Master's in Renewable Energy (EMRE), University of Oldenburg partner; site has a 'How to Apply' section not fully extracted within time available."
       }
     },
     {
@@ -5617,6 +6450,23 @@ const DATABASE = {
         "contact_address": "Schlossplatz 19, 76131 Karlsruhe, Germany",
         "course_website": "hectorschool.kit.edu/master-financial-engineering.php",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4552/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://hectorschool.kit.edu/master-financial-engineering.php",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not GPA-based; based on possession of first academic degree plus professional experience",
+          "qualifying_degree": "Working professionals with a first academic degree (Bachelor, Master, or Diploma) plus at least 2 years of professional experience, English proficiency"
+        },
+        "language_requirements": {
+          "ielts": "English language proficiency required (no specific IELTS score published on this page)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Rolling application — no fixed deadline"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not explicitly stated on this page (sibling Energy Engineering program lists EUR 36,000; Financial Engineering likely similar but not confirmed on this page)"
+        },
+        "exact_admission_regulations": "Part-time Executive M.Sc., 90 ECTS, at HECTOR School of Engineering & Management, KIT."
       }
     },
     {
@@ -5682,6 +6532,23 @@ const DATABASE = {
         "contact_address": "Callinstr. 34, 30167 Hannover",
         "course_website": "https://www.fbg.uni-hannover.de/gugmsc",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9917/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.fbg.uni-hannover.de/gugmsc",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (requirements subpage not fully extracted)",
+          "qualifying_degree": "Not found via official site (program title indicates Geodesy and Geoinformatics specialization in Remote Sensing and GIS)"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "Leibniz University Hannover program page retrieved but detailed admission text not extracted within time available."
       }
     },
     {
@@ -5747,6 +6614,23 @@ const DATABASE = {
         "contact_address": "Nussallee 17, 53115 Bonn, Germany",
         "course_website": "https://www.gug.uni-bonn.de/en/master-ge",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7030/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.gug.uni-bonn.de/en/master-ge",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (Requirements & Application subpage referenced but not fully extracted)",
+          "qualifying_degree": "Not found via official site; program covers space geodesy using satellites and extragalactic objects to study Earth system changes"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "University of Bonn Geodetic Engineering page has a dedicated 'Requirements & Application' subpage (https://www.gug.uni-bonn.de likely sublink) that should be checked for full detail."
       }
     },
     {
@@ -5812,6 +6696,23 @@ const DATABASE = {
         "contact_address": "Esplanade 10, 85019 Ingolstadt",
         "course_website": "https://www.thi.de/studium/studienangebote/details/global-foresight-and-technology-management-msc",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7635/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.thi.de/studium/studienangebote/details/global-foresight-and-technology-management-msc",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Graduates aiming for roles in project leadership, product/technology management, innovation management, strategic analysis of future customer/technology/competition trends, business development, entrepreneurship, and sustainability management"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "THI Global Foresight and Technology Management MSc; curriculum includes foresight/trend analysis, business ethics and technology assessment, and an interdisciplinary research seminar."
       }
     },
     {
@@ -5877,6 +6778,23 @@ const DATABASE = {
         "contact_address": "Pascalstraße 8-9, 10587 Berlin, Germany",
         "course_website": "https://www.gpe.tu-berlin.de/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3704/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.gpe.tu-berlin.de/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (Admission Requirements section exists but not fully extracted)",
+          "qualifying_degree": "Students seeking careers in global manufacturing/production engineering, with flexible curriculum across Production, Engineering, Management, Intercultural Communication and a Special Profile track"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "TU Berlin Global Production Engineering (GPE) M.Sc.; instruction in English with additional German language courses offered; strong industry/alumni network emphasis."
       }
     },
     {
@@ -5942,6 +6860,23 @@ const DATABASE = {
         "contact_address": "Universitätsplatz 1, 01968 Senftenberg, Germany",
         "course_website": "https://www.b-tu.de/en/hybrid-electric-propulsion-ms/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9255/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.b-tu.de/en/hybrid-electric-propulsion-ms/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site as numeric GPA; admission references a detailed subject-background requirement document ('details' link) rather than a flat grade cutoff",
+          "qualifying_degree": "Bachelor's degree in engineering, preferably mechanical engineering, aerospace engineering, electrical engineering, or energy engineering, or related fields"
+        },
+        "language_requirements": {
+          "ielts": "IELTS min. 6.0; TOEFL iBT min. 79; German Abitur accepted as proof for German applicants"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site (public university; likely only semester contribution)"
+        },
+        "exact_admission_regulations": "BTU Cottbus-Senftenberg Hybrid Electric Propulsion Technology M.Sc.; first-of-its-kind program at BTU covering mechanical, electrical and control engineering aspects for aviation applications."
       }
     },
     {
@@ -6007,6 +6942,23 @@ const DATABASE = {
         "contact_address": "01062 Dresden (no street address)",
         "course_website": "https://tu-dresden.de/hydro/ma-hse",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3816/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://tu-dresden.de/hydro/ma-hse",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (no numeric GPA figure found in extracted content)",
+          "qualifying_degree": "Prepares students to lead water-focused development projects across cultures, sectors, and institutional frameworks worldwide (Hydro Science and Engineering)"
+        },
+        "language_requirements": {
+          "ielts": "English proficiency at C1 level required; IELTS, TOEFL, Cambridge English qualifications or equivalent certifications accepted; a Medium of Instruction (MOI) certificate alone is generally NOT sufficient"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Specific application deadline referenced on page but exact date not captured in extracted text; see 'Deadlines for application' section"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "TU Dresden HSE program; ECTS credit conversion details provided for applicants converting non-ECTS credit systems (e.g., US credit hours)."
       }
     },
     {
@@ -6072,6 +7024,23 @@ const DATABASE = {
         "contact_address": "Grenzstraße 3, 24149 Kiel",
         "course_website": "https://www.haw-kiel.de/studium/studienangebot/industrial-engineering",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9048/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.haw-kiel.de/studium/studienangebot/industrial-engineering",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "German grade of at least 2.3 (Note mindestens 2,3) for first qualifying engineering/technical-scientific degree",
+          "qualifying_degree": "Holders of a first completed professional qualifying engineering or technical-scientific degree (Hochschulstudium)"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site (no specific IELTS score found in extracted content)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site (public Hochschule; likely only semester contribution)"
+        },
+        "exact_admission_regulations": "HAW Kiel Industrial Engineering M.Sc.; also requires proof of qualified practical/professional experience of generally not less than one year."
       }
     },
     {
@@ -6137,6 +7106,23 @@ const DATABASE = {
         "contact_address": "50670 Köln (no street address listed; conflicts with Berlin course location)",
         "course_website": "hs-fresenius.com/study-programs/industrial-engineering-and-international-management-master/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7127/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-fresenius.com/study-programs/industrial-engineering-and-international-management-master/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric GPA/CGPA stated; requires completed bachelor's degree with at least 180 ECTS credits.",
+          "qualifying_degree": "Bachelor's degree holders in engineering or a science subject, with at least 60 ECTS in STEM (Science, Technology, Engineering, Mathematics) and at least 10 ECTS from a thesis/final project/case study."
+        },
+        "language_requirements": {
+          "ielts": "No IELTS score given; requires English equivalent to CEFR Level B2."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated; page only offers an 'Apply now' link."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not specified on official page (links to a brochure/\"costs and financing\" request form with no figures)."
+        },
+        "exact_admission_regulations": "Full-time M.Sc.; intakes in both winter and summer semesters; study advice service available for subject-specific requirements."
       }
     },
     {
@@ -6202,6 +7188,23 @@ const DATABASE = {
         "contact_address": "50670 Köln, Germany (no street address listed)",
         "course_website": "hs-fresenius.com (programme page linked from DAAD); hs-fresenius.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7785/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-fresenius.com/study-programs/industrial-engineering-and-international-management-master/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric GPA stated; bachelor's degree with 180 ECTS required (one aggregator cites 180 ECTS minimum explicitly).",
+          "qualifying_degree": "STEM graduates — bachelor's in mathematics, computer science, natural sciences, or engineering."
+        },
+        "language_requirements": {
+          "ielts": "Language proficiency certificate required but exact test/score not named on official materials; CEFR B2 English implied."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated; rolling intakes for both semesters (Summer/Winter)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Application fee of 595 EUR for non-EU applicants (per secondary sources); exact tuition not confirmed on official page."
+        },
+        "exact_admission_regulations": "Identical program listing to id 7127 (same university/program, duplicate DAAD entry); taught in English, 4 semesters full-time."
       }
     },
     {
@@ -6267,6 +7270,23 @@ const DATABASE = {
         "contact_address": "76133 Karlsruhe (no street address listed)",
         "course_website": "https://www.sle.kit.edu/english/vorstudium/master-industrial-engineering-management.php",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10710/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.sle.kit.edu/english/vorstudium/master-industrial-engineering-management.php",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No fixed minimum grade; final exam grade counts for up to 30 of 90 ranking points. Must not have a final failure in a comparable master's program.",
+          "qualifying_degree": "Bachelor's (or equivalent) in business administration, economics, engineering, computer science, mathematics, or physics; minimum 3-year study period and 180 ECTS."
+        },
+        "language_requirements": {
+          "ielts": "English CEFR B2 required for all applicants. IELTS overall 6.5 minimum (no section below 5.5). Alternatives: TOEFL iBT 90, TOEIC, Cambridge B2 First/C1/C2, UNIcert II, Pearson PTE Academic."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "July 15 (winter term) / January 15 (summer term), for both first-semester and higher-semester, German/EU and non-EU applicants."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated on page (links to separate 'Charges and Fees' section with no amount shown)."
+        },
+        "exact_admission_regulations": "Aptitude test required: GMAT Focus (min 550) or GRE (min 315), worth up to 60 of 90 ranking points. Capacity: 100 places/year. Enrollment deadline extensions possible in justified cases."
       }
     },
     {
@@ -6332,6 +7352,23 @@ const DATABASE = {
         "contact_address": "Freiberger Str. 37, 01067 Dresden, Germany",
         "course_website": "di-uni.de/studium-weiterbildung/ingenieurwesen/industrial-management-in-microelectronics",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6566/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.dresdeninternationaluniversity.com/master/industrial-management-microelectronics",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Average grade of 'over 70%' required (not expressed as CGPA).",
+          "qualifying_degree": "Graduates/early-career professionals with a degree (≥210 ECTS or bachelor's) in electrical engineering, electronics, microelectronics, technology, mechatronics, physics, automation, IT, nanotechnology, or information technology; at least 1 year occupational experience and solid prior knowledge required."
+        },
+        "language_requirements": {
+          "ielts": "Advanced English: IELTS 6.0, TOEFL 570 (or 550 per eligibility checker), TOEFL iBT 4.0, or similar (page has internal inconsistency on TOEFL score)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "19 February 2027 (program starts April 2027)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "€895 per month plus a €500 thesis fee; Early Bird applicants (apply by Jan 3, 2027) get one month's payment waived."
+        },
+        "exact_admission_regulations": "APS registration required if applicable in country of origin. 3 semesters (18 months), 90 ECTS, full-time, Dresden, English-taught."
       }
     },
     {
@@ -6397,6 +7434,23 @@ const DATABASE = {
         "contact_address": "Freiberger Str. 37, 01067 Dresden",
         "course_website": "https://www.di-uni.de/master/industrial-management-microelectronics-part-time",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11135/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.dresdeninternationaluniversity.com/master/industrial-management-microelectronics",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Average grade of 'over 70%' required (not expressed as CGPA) — same program family as id 6566 but part-time variant.",
+          "qualifying_degree": "Working professionals/graduates in electrical engineering, electronics, microelectronics, mechatronics, physics, automation, IT or related fields with ≥1 year occupational experience; designed for part-time study alongside employment."
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.0, TOEFL iBT 4.0 / TOEFL 570 (eligibility checker lists 550), or similar advanced English level."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "19 February 2027 (program starts April 2027), per the main program page (part-time specific page returned a redirect to the same program)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "€895 per month plus €500 thesis fee (part-time schedule); Early Bird discount of one month's payment for applications by Jan 3, 2027."
+        },
+        "exact_admission_regulations": "Part-time structure spread over a longer duration than the standard 18-month track; APS registration required if applicable; personal advisory appointments available."
       }
     },
     {
@@ -6462,6 +7516,23 @@ const DATABASE = {
         "contact_address": "Fraunhoferstraße 4, 64283 Darmstadt, Germany",
         "course_website": "etit.tu-darmstadt.de (International Master Programme Information and Communication Engineering)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3717/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.etit.tu-darmstadt.de/ice/studies/prospective_students/admission_requirements/admissionrequirements.en.jsp (page returned 404 on fetch; details below from cached search results of this and related official TU Darmstadt pages)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric CGPA; admissions committee reviews degree certificate/transcripts to judge if candidate has right background. Reference degree is a B.Sc. Elektrotechnik und Informationstechnik from TU Darmstadt or equivalent.",
+          "qualifying_degree": "Bachelor's degree (B.Sc. Elektrotechnik und Informationstechnik or equivalent) with a suitable major in electrical/communication engineering."
+        },
+        "language_requirements": {
+          "ielts": "English at CEFR C1 level required (official FAQ); third-party sites cite IELTS 7 / TOEFL iBT 95 / PTE 76 but these are unconfirmed by the official site, which says the International Admission Office decides whether non-native speakers need a certificate."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Official FAQ states only one intake per year, starting September, application between 1 June and 31 August (conflicts with third-party sites citing a winter-semester 15 March deadline — official FAQ should be treated as authoritative)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Online Assessment Test of core-topic background knowledge required; no numerical admission cap if entrance requirements are met."
       }
     },
     {
@@ -6527,6 +7598,23 @@ const DATABASE = {
         "contact_address": "Am Schwarzenberg-Campus 3 (E), 21073 Hamburg, Germany",
         "course_website": "tuhh.de (International Study Programs section, Information and Communication Systems)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3747/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://tuhh.de/tuhh/en/studying/before-studying/degree-courses/international-study-programs/information-and-communication-systems/admission-requirements",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric threshold stated; requires 'a very good previous academic performance.'",
+          "qualifying_degree": "Bachelor's or equivalent degree in engineering, preferably electrical or computer engineering. TUHH's own B.Sc. graduates in Computer Science, Data Science, Computer Science in Engineering, or Electrical Engineering can continue directly (language requirements still apply)."
+        },
+        "language_requirements": {
+          "ielts": "Not specified — requires 'sufficient proficiency in English' with a language certificate, but no named test/score (third-party sources suggest IELTS 6.5 / TOEFL iBT 90, unconfirmed officially)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated on official admission-requirements page (other TUHH sources suggest Dec 1 – Feb 1 or March 1, inconsistent across documents)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated on official page."
+        },
+        "exact_admission_regulations": "Online self-test / GPA 'pre-check' strongly recommended before applying; subject-specific credit requirements published in a separate PDF (last confirmed version dated 2016)."
       }
     },
     {
@@ -6592,6 +7680,23 @@ const DATABASE = {
         "contact_address": "09107 Chemnitz, Germany",
         "course_website": "tu-chemnitz.de/etit/studium/studiengaenge/mIS",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4269/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.tu-chemnitz.de/etit/studium/studiengaenge/mIS",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (page content only confirmed program title; linked admissions page at ../../stugang/index.php?page=m_is could not be resolved).",
+          "qualifying_degree": "Not found via official site."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Official program page is minimal and redirects to a separate 'Studiengang' (program) page not reachable directly; DAAD listing remains the best available source for this entry."
       }
     },
     {
@@ -6657,6 +7762,23 @@ const DATABASE = {
         "contact_address": "91058 Erlangen (no street address listed)",
         "course_website": "https://www.iuk.studium.fau.eu/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6146/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.iuk.studium.fau.eu/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site.",
+          "qualifying_degree": "Applicants with a Bachelor's in ICT or a related subject; can start winter or summer semester; part-time study possible."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated on main page (links to separate 'Application and enrolment' page not captured)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Three specialization tracks offered (only 'Embedded Systems' named on fetched content, others truncated); standard duration 4 semesters; contact: Studien-Service-Center EEI, Erlangen."
       }
     },
     {
@@ -6722,6 +7844,23 @@ const DATABASE = {
         "contact_address": "HECTOR School of Engineering & Management, Schlossplatz 19, 76131 Karlsruhe, Germany",
         "course_website": "hectorschool.kit.edu/master-information-systems-engineering-and-management.php",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4553/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://hectorschool.kit.edu/master-information-systems-engineering-and-management.php",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated; refers to a separate admission-requirements page/PDF for detail.",
+          "qualifying_degree": "Holders of a first academic degree (Bachelor, Master, or Diploma) plus at least 2 years of professional experience; typical backgrounds: Economics, Computer Science, Business Informatics, Information Management, Electrical/Mechanical Engineering, Mechatronics, Industrial Engineering and Management."
+        },
+        "language_requirements": {
+          "ielts": "Not named; only 'English language proficiency' required, no specific test/score given."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "No fixed deadline — rolling admissions; program starts every October."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "€36,000 total program fee (links to a separate tuition/financing page for payment details)."
+        },
+        "exact_admission_regulations": "Part-time structure (students enrolled full-time); 15 months of modules + 6-month thesis, typically done in a company; 90 ECTS; optional crash courses in probability/statistics and programming recommended for less-experienced applicants."
       }
     },
     {
@@ -6787,6 +7926,23 @@ const DATABASE = {
         "contact_address": "Campusallee 12, 32657 Lemgo, Germany",
         "course_website": "https://www.th-owl.de/en/studies/available-courses/degree-programs/detail/information-technology/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3632/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.th-owl.de/en/studies/available-courses/degree-programs/detail/information-technology/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No fixed GPA cutoff for bachelor's holders; for the English-proficiency alternative route, at least 'satisfactory' (3.0, German scale) grades in the last 4 semesters of secondary education.",
+          "qualifying_degree": "Holders of a bachelor's degree in electrical engineering, information technology, computer science, mechatronics, or a closely related field, with a technical college or general university entrance qualification."
+        },
+        "language_requirements": {
+          "ielts": "No IELTS score specified; requires CEFR B2 English, documented per International Office rules, or 7+ years of English instruction in secondary education (with the 3.0 grade condition)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Germany/EU: winter 04.05–15.10, summer 01.12–15.02. Non-EU: winter 01.04–01.06, summer 17.11–15.01. (Page noted applications currently closed at time of check.)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "None (no tuition fee)."
+        },
+        "exact_admission_regulations": "Non-restricted admission; no preparatory courses required; full-time (part-time option also mentioned); taught in English at the Innovation Campus Lemgo; 4-semester standard duration."
       }
     },
     {
@@ -6852,6 +8008,23 @@ const DATABASE = {
         "contact_address": "Nibelungenplatz 1, 60318 Frankfurt am Main",
         "course_website": "Available via university's master's programme page",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3904/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.frankfurt-university.de/en/studies/master-programs/information-technology-meng/for-prospective-students/ (direct fetch returned 404; details below from cached search results of official Frankfurt UAS sources)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "One official presentation cites an average mark of ≤2.0 (German scale, lower = better) as threshold.",
+          "qualifying_degree": "Holders of a first professionally qualifying degree in Electrical Engineering and Information Technology with a specialization in Information and Communication Technology, or a comparable subject area. Admission is restricted (competitive)."
+        },
+        "language_requirements": {
+          "ielts": "Not fully confirmed; DAAD listing suggests some applicants may not need to prove English skills under certain conditions (text truncated in source)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "15 April for winter semester (international applicants, per DAAD); some sources cite 15 October for summer intake; deadlines reported to vary by country of prior degree."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Foreign qualifications checked via uni-assist.de; program runs 4 semesters, taught in English."
       }
     },
     {
@@ -6917,6 +8090,23 @@ const DATABASE = {
         "contact_address": "69123 Heidelberg (no street address listed)",
         "course_website": "srh-university.de (programme page linked on DAAD)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4343/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.srh-university.de/en/plp/meng-information-technology/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on official page.",
+          "qualifying_degree": "Per related SRH pages: applicants with a bachelor's degree in electrical engineering, information technology, communication technology, or similar; selection via application review plus a personal/phone interview."
+        },
+        "language_requirements": {
+          "ielts": "Not stated on official page (third-party sources cite IELTS 6.5 / TOEFL iBT 80, unconfirmed officially; personal interview may substitute for formal English test per other SRH program pages)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated; rolling application via online portal, with start dates of 1 April and 1 October."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EU/EEA students: €840 per month. Non-EU/non-EEA students: €6,949.98 per semester."
+        },
+        "exact_admission_regulations": "Duration 4 semesters; location Heidelberg; free, non-binding information material available on request; successful interview leads to acceptance letter and study contract."
       }
     },
     {
@@ -6982,6 +8172,23 @@ const DATABASE = {
         "contact_address": "Pfaffenwaldring 47, 70569 Stuttgart, Germany",
         "course_website": "https://www.infotech.uni-stuttgart.de/program/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3677/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.infotech.uni-stuttgart.de/program/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on page; refers to the Study Regulations for grading details.",
+          "qualifying_degree": "Interdisciplinary graduate students with a B.Sc. or similar in Electrical Engineering, Computer Science, Computer Applications, Automation, or a related field."
+        },
+        "language_requirements": {
+          "ielts": "Not stated; page only confirms all lectures/exams are in English."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated on this page (links to separate Application/Requirements/Selection Process sections not captured)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "International (non-EU/EEA) students: EUR 1,500/semester plus semester fees. Students pursuing a second degree in Germany: EUR 650/semester plus semester fees."
+        },
+        "exact_admission_regulations": "Program system-accredited and recognized by the Baden-Württemberg Ministry of Education and Science; qualifies graduates for doctoral programs in Germany; personalized accreditation confirmation available on request."
       }
     },
     {
@@ -7047,6 +8254,23 @@ const DATABASE = {
         "contact_address": "Technische Hochschule Ingolstadt, Esplanade 10, 85049 Ingolstadt",
         "course_website": "https://www.thi.de/en/electrical-engineering-and-information-technology/degree-programmes/intelligent-aerial-systems-meng/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11040/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.thi.de/en/electrical-engineering-and-information-technology/degree-programmes/intelligent-aerial-systems-meng/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not specified numerically.",
+          "qualifying_degree": "Bachelor's degree (180 ECTS) in Electrical and Information Engineering, Aeronautical Engineering, Computer Science, or related engineering discipline."
+        },
+        "language_requirements": {
+          "ielts": "No IELTS score given; B2-level English certificate required unless Abitur/Bachelor's was taught in English or applicant is a native speaker of English; German A1 required by end of first semester."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Summer semester 2027: 15 October 2026 – 15 January 2027 (program starts 15 March or 1 October; no winter deadline given)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Non-EU citizens: €1,200 per semester. EU fees not listed."
+        },
+        "exact_admission_regulations": "Indian applicants with certain bachelor's backgrounds must provide a Digital Master Test (dMAT, €150). Non-EU applicants undergo a two-stage selection: curricular analysis then online interview (if ≥65 points). EU/German-degree holders admitted without aptitude test. 4 semesters, 120 ECTS, English-taught, not admission-restricted; dual study option available."
       }
     },
     {
@@ -7112,6 +8336,23 @@ const DATABASE = {
         "contact_address": "90489 Nürnberg (no street address listed)",
         "course_website": "https://www.th-nuernberg.de/studiengang/intelligent-autonomous-systems-meng/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10474/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.th-nuernberg.de/studiengang/intelligent-autonomous-systems-meng/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's grade of 2.5 or better (German scale).",
+          "qualifying_degree": "Relevant technical bachelor's degree with 210 ECTS, including at least 15 ECTS in programming; non-EU third-country applicants must also submit an English motivation letter (≤2,000 characters) and an English translation of their bachelor's thesis."
+        },
+        "language_requirements": {
+          "ielts": "No IELTS score specified; requires B1+ (speaking) / B2 (reading) shown via CAE, IELTS, PTE, TOEFL, TOEIC, or German Abitur, with proof no more than 2 years old."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Summer semester: 15.11.2026 – 15.01.2027."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Non-EEA students pay a per-semester fee (amount not given on this page; refers to separate international semester fees page)."
+        },
+        "exact_admission_regulations": "German A1 required (Goethe/ÖSD/telc). 3-semester program; 20 study places for summer 2026; program-specific admission; online/on-site info session 12 Nov 2026."
       }
     },
     {
@@ -7177,6 +8418,23 @@ const DATABASE = {
         "contact_address": "Inspiration 1, 33615 Bielefeld, Germany",
         "course_website": "https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/studium/master/iisy/index.xml",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9646/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/studium/master/iisy/index.xml",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's degree grade of at least 2.7 (German scale).",
+          "qualifying_degree": "Bachelor's graduates with: 30 ECTS computer science fundamentals (algorithms, data structures, computer architecture), 10 ECTS mathematics (analysis, linear algebra, statistics), and 30 ECTS in intelligent systems methods (ML, AI, robotics, computer vision) or up to 10 ECTS interdisciplinary foundations (psychology, linguistics, philosophy)."
+        },
+        "language_requirements": {
+          "ielts": "CEFR B2 or higher; IELTS 5.5+, TOEFL iBT 72+ (admissions section) or 87+ (program overview — page is internally inconsistent), Cambridge First Certificate, or German Abitur accepted."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Regular winter-semester application: 15 July. Early-start/recognition route: by 15 February (requires 20 LP of recognizable credits already earned)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not mentioned on page."
+        },
+        "exact_admission_regulations": "120 LP, 4-semester M.Sc.; Double Degree with University of Bologna; early admission possible for Bielefeld B.Sc. students who can't finish by winter semester, decided case-by-case; contacts: iisy@techfak.uni-bielefeld.de."
       }
     },
     {
@@ -7242,6 +8500,23 @@ const DATABASE = {
         "contact_address": "Heilbronn University of Applied Sciences, Faculty of Engineering, Max-Planck-Straße 39, 74074 Heilbronn",
         "course_website": "hs-heilbronn.de/en/intelligent-mechatronic-systems-master",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10372/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-heilbronn.de/en/intelligent-mechatronic-systems-master",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's grade of 2.5 or better (German scale).",
+          "qualifying_degree": "A comparable first degree with a predominant engineering component (≥50%); requires documentation of an engineering project in intelligent mechatronic systems at bachelor level with supervisor confirmation. Non-German degrees require recognition via Studienkolleg Konstanz or uni-assist (VPD)."
+        },
+        "language_requirements": {
+          "ielts": "No IELTS score specified; only CEFR B2 English level required."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "June 15 and December 1 (admission is restricted); start possible winter or summer semester."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "€1,500, for non-EU/EEA students only."
+        },
+        "exact_admission_regulations": "Requires 210 ECTS preferred (minimum 180 ECTS with conditions); engineering project submission (10–40 pages, ≤500-word abstract, cover sheet); APS certificate if applicable."
       }
     },
     {
@@ -7307,6 +8582,23 @@ const DATABASE = {
         "contact_address": "Kaiser-Wilhelm-Ring 23, 92224 Amberg",
         "course_website": "oth-aw.de, under the International Energy Engineering master's programme page",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7704/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.oth-aw.de/en/studies/study-offers/study-programmes/master/international-energy-engineering",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's/diploma with final grade of 2.5 or better (German scale); non-German degrees converted via uni-assist.",
+          "qualifying_degree": "Bachelor's/diploma in an engineering-related field (energy technology, renewable energies, mechanical/electrical engineering, process or industrial engineering with technical focus); at least 20 ECTS in mathematics, electrical engineering, thermodynamics, fluid mechanics, chemistry, physics, or computer science/programming; aptitude assessment in energy technology based on thesis/project/practical experience."
+        },
+        "language_requirements": {
+          "ielts": "CEFR B2 English; accepted scores: TOEFL iBT 80, IELTS (Cambridge) 6, or TOEIC 780. No proof needed if entrance qualification/degree was in English."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Summer semester (210-ECTS bachelors only, starts 15 March): 1 November – 1 December. Winter semester (starts 1 October, open to 180-ECTS bachelors too): 15 April – 1 June."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Non-EU students: €587/semester (€87 semester fee + €500 tuition service fee). EU students: €87/semester. Non-EU applicants also pay a €50 application fee."
+        },
+        "exact_admission_regulations": "German A2 required by end of 2nd semester. 180-ECTS applicants must complete 30 ECTS via English-language 'bridge modules' in winter semester; VPD from uni-assist can take up to 8 weeks."
       }
     },
     {
@@ -7372,6 +8664,23 @@ const DATABASE = {
         "contact_address": "Schellingstraße 24, 70174 Stuttgart, Germany",
         "course_website": "hft-stuttgart.com/studies/fields-of-study/architecture-and-design/master-international-project-management",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9597/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hft-stuttgart.com/studies/fields-of-study/architecture-and-design/master-international-project-management",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric CGPA; first degree must have 'above average' examination results.",
+          "qualifying_degree": "Professionals in construction, infrastructure, or engineering; first degree (architecture, civil engineering, construction, design, etc.) of ≥3 years full-time study with above-average results, carrying ≥210 CP (180 CP degrees need an additional 30 CP study task); at least 1 year relevant professional experience after first degree."
+        },
+        "language_requirements": {
+          "ielts": "IELTS Academic 6.5+ or TOEFL 550 (paper-based) / 213 (computer-based) / 80 (internet-based), required even if English was language of instruction."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter semester: 5 Nov–28 Feb and 5 May–15 Jul (overlapping windows listed). Summer semester: 5 May–31 Aug and 5 Nov–15 Jan."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Full-time: €15,000 total (€6,000 + €6,000 + €3,000 across 3 semesters). Part-time (EU citizens/residents only): €15,000 total over 5 semesters (€3,000/semester). Additional ~€200/semester non-tuition fees, ~€1,500 compulsory field trips, €1,500 per extra semester."
+        },
+        "exact_admission_regulations": "No age limit, though dormitory placement harder over 30; non-consecutive program so no tuition exemption for Erasmus/refugee students; HFT scholarships only after starting studies."
       }
     },
     {
@@ -7437,6 +8746,23 @@ const DATABASE = {
         "contact_address": "Feldstraße 143, 22880 Wedel (Holstein)",
         "course_website": "https://www.fh-wedel.de/it-engineering/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4632/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.fh-wedel.de/it-engineering/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on page.",
+          "qualifying_degree": "Applicants typically need 210 ECTS (7 semesters); most hold 180-ECTS bachelor's and must complete bridge modules. Minimum 80 credits total in math/IT/science/engineering. 180-ECTS degrees: ≥10 ECTS math + ≥5 ECTS software development labs. 210-ECTS degrees: ≥20 ECTS math (incl. 5 engineering math + 5 discrete math), ≥10 ECTS software dev labs, plus advanced Java/C++ tested via entry assignment."
+        },
+        "language_requirements": {
+          "ielts": "No IELTS score given; CEFR B2 level English proficiency mandatory."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "September 15 (winter semester, starts Oct 1); March 31 (summer semester, starts Apr 1) — for applicants with existing German residence permit; others should apply ~3 months earlier."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "538 EUR/month (non-EU citizens), 455 EUR/month (EU citizens), plus a transport pass fee."
+        },
+        "exact_admission_regulations": "Full-time MSc, English-taught; standard duration 3 semesters (+1 preparatory semester for 180-ECTS applicants); ~25 first-year students admitted annually; free admission with possible selection process."
       }
     },
     {
@@ -7502,6 +8828,23 @@ const DATABASE = {
         "contact_address": "Am Schwarzenberg-Campus 3 (E), 21073 Hamburg",
         "course_website": "g-time.org",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5317/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.tuhh.de/tuhh/en/studying/before-studying/degree-courses/international-study-programs/global-technology-and-innovation-management-entrepreneurship/admission-requirements",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric threshold stated; requires 'good previous academic performance.'",
+          "qualifying_degree": "Bachelor's or equivalent degree in engineering/science/technology, business engineering, business administration (incl. business informatics, business mathematics, business geography), or economics."
+        },
+        "language_requirements": {
+          "ielts": "IELTS minimum 6.5, or TOEFL minimum 577 (paper-based) / 90 (internet-based); TOEFL ITP not accepted."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not mentioned on official page (third-party sources cite March 1 or July 15, unconfirmed officially)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not mentioned on official page."
+        },
+        "exact_admission_regulations": "Note: official direct domain g-time.org could not be reached (connection refused); data taken from TUHH's own admission-requirements page for this joint program."
       }
     },
     {
@@ -7567,6 +8910,23 @@ const DATABASE = {
         "contact_address": "15745 Wildau (no full street address given)",
         "course_website": "https://www.master-lscm.eu/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6229/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.master-lscm.eu/ (page could not be reached — connection refused; details not independently verified beyond DAAD listing)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site.",
+          "qualifying_degree": "Not found via official site."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Official program microsite (master-lscm.eu, TH Wildau) returned a connection error on fetch attempts; DAAD's listing remains the fallback source for this entry."
       }
     },
     {
@@ -7632,6 +8992,23 @@ const DATABASE = {
         "contact_address": "Campus-Boulevard 30, 52074 Aachen, Germany",
         "course_website": "http://bit.ly/3RDpbYx",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4598/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-management-and-engineering-computer-aided-mechanical-engineering",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No CGPA stated; instead requires GRE General Test minimum scores: Verbal Reasoning 145, Quantitative Reasoning 160, Analytical Writing 3 (German Engineering College/GEC graduates exempt).",
+          "qualifying_degree": "Bachelor's degree in mechanical engineering or related field (automotive, aerospace, energy, manufacturing, production engineering); at least 12 months relevant work experience by enrollment (6 months proof required at application); fundamental knowledge: 110 ECTS in engineering/math/natural sciences + 10 ECTS in management."
+        },
+        "language_requirements": {
+          "ielts": "Not stated; program is English-taught but no IELTS/TOEFL score is listed (German language learning 'strongly recommended')."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Non-EU applicants: December 2 – March 1. EU/EEA, current RWTH students, German degree holders: December 2 – July 15."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "€24,000 (course fees)."
+        },
+        "exact_admission_regulations": "2-year, 4-semester, 120 ECTS full-time program starting winter semester (October); international applicants strongly encouraged to complete the German Engineering College (GEC) beforehand; awarded by RWTH Aachen University via RWTH International Academy."
       }
     },
     {
@@ -7697,6 +9074,23 @@ const DATABASE = {
         "contact_address": "Campus-Boulevard 30, 52074 Aachen, Germany",
         "course_website": "bit.ly/3wZllQb",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4362/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-management-and-engineering-in-production-systems",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on page.",
+          "qualifying_degree": "Bachelor's degree in mechanical engineering or related field (automotive, aerospace, energy, manufacturing, industrial, production engineering); at least 12 months relevant work experience by enrollment (6 months proof required at application); fundamental knowledge in engineering/math/natural sciences plus management fundamentals."
+        },
+        "language_requirements": {
+          "ielts": "Not stated; program language listed as English only, no IELTS/TOEFL score given."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Non-EU applicants: December 2 – March 1. EU/EEA, current RWTH students, German degree holders: December 2 – July 15."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "€24,000 (course fees)."
+        },
+        "exact_admission_regulations": "GRE General Test required (Verbal 145, Quantitative 160, Analytical Writing 3 minimum), GEC graduates exempt; full-time, 4 semesters (2 years), 120 ECTS, winter-semester start; awarded by RWTH Aachen University via RWTH International Academy."
       }
     },
     {
@@ -7762,6 +9156,23 @@ const DATABASE = {
         "contact_address": "HECTOR School of Engineering & Management, Technology Business School, Schlossplatz 19, 76131 Karlsruhe, Germany",
         "course_website": "hectorschool.kit.edu/master-management-of-product-development.php",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4550/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hectorschool.kit.edu/master-management-of-product-development.php",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not explicitly published; requires a first academic degree (Bachelor's, Master's, or Diploma)",
+          "qualifying_degree": "Working engineers/professionals seeking an executive master's; requires at least 1-2 years of professional work experience (exact amount varies by source: one official page says 2 years)"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.5 minimum, or TOEFL iBT 90, or proof of C1-level English (per official program PDF)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Program starts every October"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Conflicting figures found (approx. EUR 9,000/semester incl. fees per one source; others cite EUR 21,600-28,800/year); not confirmed on current official fee page"
+        },
+        "exact_admission_regulations": "Executive/part-time format aimed at professionals; combines engineering and management; work experience requirement is a distinguishing feature versus typical full-time MSc programs."
       }
     },
     {
@@ -7827,6 +9238,23 @@ const DATABASE = {
         "contact_address": "Richard-Wagner-Strasse 31, 18119 Rostock",
         "course_website": "fiw.hs-wismar.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6336/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://fiw.hs-wismar.de/en/bereiche/sal/degree-courses/marine-engineering-master-binational-msc/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Students enrolled in the cooperating program at ITS Institut Teknologi Sepuluh Nopember, Surabaya (Indonesia), pursuing marine engineering; binational double-degree structure"
+        },
+        "language_requirements": {
+          "ielts": "Not confirmed specifically for this binational Master's; a related Wismar regular (non-double-degree) master's lists IELTS 6.0"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "ITS (Indonesia) side charges tuition of IDR 25,000,000 per semester, applying also to semesters spent at Hochschule Wismar; one aggregator cites ~1,500 EUR/semester equivalent"
+        },
+        "exact_admission_regulations": "Binational/double degree between Hochschule Wismar and ITS Surabaya; students must pass all first-year courses at ITS to proceed to the Wismar portion; data is sparse on the German side's own admission page, which is largely administrative."
       }
     },
     {
@@ -7892,6 +9320,23 @@ const DATABASE = {
         "contact_address": "Treskowallee 8, 10318 Berlin, Germany",
         "course_website": "mbae.htw-berlin.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3800/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://mbae.htw-berlin.de",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official GPA figure found; third-party sources suggest a bachelor's at approx. 55-60%+ or CGPA ~5.5/10, with an engineering background preferred",
+          "qualifying_degree": "Engineers/professionals seeking to combine business administration and engineering; most sources indicate 1-2 years (commonly cited as 3-5 years) of relevant work experience expected"
+        },
+        "language_requirements": {
+          "ielts": "Sources disagree: most commonly cited IELTS 7.0 overall (TOEFL iBT 95); one source cites 6.5"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Conflicting: one source cites EUR 26,000 + EUR 650 contribution; another cites EUR 13,000 total + EUR 357.30 semester fee; DAAD lists ~EUR 306 semester contribution. Could not retrieve HTW Berlin's own fee page (site unreachable during this session)"
+        },
+        "exact_admission_regulations": "Executive-style MBA&E program; duration cited variably as 3-4 semesters/18 months/2 years across sources; direct site fetch failed (rate-limited), so these are third-party aggregator figures requiring verification."
       }
     },
     {
@@ -7957,6 +9402,23 @@ const DATABASE = {
         "contact_address": "Beethovenstrasse 1, 73430 Aalen, Germany",
         "course_website": "hs-aalen.de/en/courses/149-Elektrotechnik",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10532/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-aalen.de/en/courses/149-Elektrotechnik",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric GPA cutoff found in official selection statute",
+          "qualifying_degree": "Bachelor's graduates in Electrical Engineering or related field"
+        },
+        "language_requirements": {
+          "ielts": "IELTS minimum 6.0 (per official selection statute/Zulassungssatzung), alternatively PTE Academic B2 with minimum score 65"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Conflicting: one guide cites EUR 1,500/semester for non-EU students; another describes the program as tuition-free (public university). Official fee page not directly confirmed"
+        },
+        "exact_admission_regulations": "Official admission regulation document (Zulassungssatzung) is the authoritative source for English-test equivalencies; confirm tuition directly with hs-aalen.de admissions."
       }
     },
     {
@@ -8022,6 +9484,23 @@ const DATABASE = {
         "contact_address": "Beethovenstrasse 1, 73430 Aalen, Germany",
         "course_website": "hs-aalen.de (Advanced Systems Design master's page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9738/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-aalen.de/en/study-programmes/engineering-sciences-future-technologies/master/advanced-systems-design/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric GPA/grade cutoff published; admission uses a Numerus Clausus (N.C.) selection procedure",
+          "qualifying_degree": "Bachelor's graduates in electrical engineering, optoelectronics, mechatronics, computer science, or related fields; requires a Bachelor's with at least 7 semesters standard study period (210 ECTS) and total educational career (school+university) of at least 15 years"
+        },
+        "language_requirements": {
+          "ielts": "English level B2 proof required (official program page); exact IELTS equivalency not captured in search results"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "15 December (for Summer term 2027 intake per official page); an older flyer also lists 15 June for Winter intake"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Conflicting: one aggregator lists EUR 3,000/year; another describes the program as tuition-free (public university); no official confirmation found"
+        },
+        "exact_admission_regulations": "Research-oriented 3-semester, 90-ECTS M.Sc.; program coordinator Prof. Dr. Heinrich Steinhart (Heinrich.Steinhart@hs-aalen.de); next official intake listed as Summer term 2027."
       }
     },
     {
@@ -8087,6 +9566,23 @@ const DATABASE = {
         "contact_address": "Otto-Berndt-Straße 2, 64287 Darmstadt, Germany",
         "course_website": "https://www.maschinenbau.tu-darmstadt.de/studieren/interessierte/interessierte_master/m__sc___aerospace_engineering/maschinenbau_bsc_2.en.jsp",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7775/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.maschinenbau.tu-darmstadt.de/bewerben_mb/bewerben_master/m__sc___aerospace/standardseite_184.en.jsp",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official numeric GPA threshold found; official page states admission depends on a multi-stage entrance examination assessing whether the applicant's Bachelor's/Diploma does not differ significantly from TU Darmstadt's own reference Bachelor's (Mechanical Engineering - Sustainable Engineering). Third-party sources mention GPA ~2.5/5.0 (70%+) unconfirmed",
+          "qualifying_degree": "Applicants with a Bachelor's/Diploma closely aligned with Mechanical Engineering - Sustainable Engineering; subject to entrance examination for non-equivalent degrees"
+        },
+        "language_requirements": {
+          "ielts": "No official score confirmed; third-party sources conflict, ranging IELTS 6.5 to 7.0 (TOEFL iBT 95 or PTE 64)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (public university); only semester contribution (~EUR 300-590 per some aggregators, unconfirmed)"
+        },
+        "exact_admission_regulations": "Admission procedure is notably exam-based rather than simple GPA cutoff - a distinguishing feature; full regulations available in 'Regulations_MScAerospace_Senat_en_20210803.pdf' on the department site."
       }
     },
     {
@@ -8152,6 +9648,23 @@ const DATABASE = {
         "contact_address": "Oberberghof 7, 89081 Ulm, Germany",
         "course_website": "uni-ulm.de (AI4CI programme page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11030/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-ulm.de/einrichtungen/saps/studiengaenge/allgemeine-informationen/bewerbung-studium/artificial-intelligence-for-connected-industries",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric GPA found; admission requires prior study totaling at least 300 ECTS in total (Bachelor's + Master's combined)",
+          "qualifying_degree": "Part-time, English-taught program designed for working professionals in industry (not a typical full-time MSc); applicants with degrees from China, Vietnam, or India require an APS certificate"
+        },
+        "language_requirements": {
+          "ielts": "Not specifically published for AI4CI; a different Ulm program cites IELTS 7 as benchmark (unconfirmed for this program)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Admission possible in both semesters (Winter and Summer intake)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 3,000 tuition fee (official program page); tuition waivers of up to 80% may be available during project funding periods, per program brochure. Note: conflicts with a general Ulm non-EU fee figure of EUR 1,500/semester cited elsewhere"
+        },
+        "exact_admission_regulations": "Restricted/part-time professional master's (90 ECTS); admission may come with additional mathematics requirements to be completed by end of first semester; distinguishing feature is its part-time, industry-oriented design and tuition waiver option."
       }
     },
     {
@@ -8217,6 +9730,23 @@ const DATABASE = {
         "contact_address": "Albert-Einstein-Allee 41, 89081 Ulm, Germany",
         "course_website": "https://www.uni-ulm.de/en/in/faculty/studies/engineering/biomedical-engineering/master-in-biomedical-engineering/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11025/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-ulm.de/en/in/faculty/studies/engineering/biomedical-engineering/master-in-biomedical-engineering/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No GPA figure published on official pages; admission is non-restricted (no Numerus Clausus) per one official page",
+          "qualifying_degree": "Not explicitly detailed beyond general engineering background implied by the course content; open admission (not restricted)"
+        },
+        "language_requirements": {
+          "ielts": "No specific IELTS score published on official pages; required language proficiency stated simply as 'German or English', with binding details deferred to admissions statutes"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter semester: 1 June - 15 July; Summer semester: 1 December - 15 January"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site (only administrative fee referenced, exact amount not retrieved)"
+        },
+        "exact_admission_regulations": "Official admissions statutes (not retrieved in full) are the binding source for English/GPA specifics; program emphasizes application periods clearly, unlike many peers."
       }
     },
     {
@@ -8282,6 +9812,23 @@ const DATABASE = {
         "contact_address": "Graduate School, Offenburg University of Applied Sciences, Badstraße 24, 77652 Offenburg, Germany",
         "course_website": "https://www.hs-offenburg.de/en/academics/master/communication-and-media-engineering",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3771/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-offenburg.de/en/studies/master/communication-and-media-engineering",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not confirmed officially; third-party source cites minimum GPA of 2.5 (German scale) or 60-65%, requiring a Bachelor's (4 years, 130+ credits) plus HEC attestation for Pakistani applicants specifically - unconfirmed as a general rule",
+          "qualifying_degree": "Bachelor's graduates in a relevant engineering/communications field"
+        },
+        "language_requirements": {
+          "ielts": "IELTS minimum 6.0; TOEFL iBT minimum 79 (consistent across multiple aggregator sources)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site (application only via HISinOne online portal)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 1,500 per semester state tuition fee for non-EU citizens (per DAAD/university listing); EUR 650/semester for EU citizens pursuing a second German Master's degree"
+        },
+        "exact_admission_regulations": "Applications accepted only through the university's HISinOne online application system; winter semester intake; 4-semester (~2 year) program taught in English."
       }
     },
     {
@@ -8347,6 +9894,23 @@ const DATABASE = {
         "contact_address": "Arcisstr. 21, 80333 München",
         "course_website": "https://www.cit.tum.de/en/cit/studies/degree-programs/master-communications-electronics-engineering/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3768/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.cit.tum.de/en/cit/studies/degree-programs/master-communications-electronics-engineering/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric cutoff published; official page requires a Bachelor's (or equivalent) from a university rated H+ on Anabin in electrical engineering/IT, with an 'excellent GPA' required as part of a two-stage selection process (weighing GPA, passed subjects, statement of purpose, two reference letters)",
+          "qualifying_degree": "Bachelor's graduates in electrical engineering and/or IT from a university recognized as 'H+' on Anabin database; TUM's own grade conversion tool recommended for GPA assessment"
+        },
+        "language_requirements": {
+          "ielts": "No official score confirmed; third-party estimate IELTS 6.5-7.0 (TOEFL iBT 88)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "15 March recommended deadline for non-EU applicants; 31 May extended deadline for all applicants (per aggregator, unconfirmed officially)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Conflicting third-party figures (EUR 6,000/semester vs EUR 8,000/year vs no tuition fee); not confirmed via official fee page"
+        },
+        "exact_admission_regulations": "Selection is a two-stage competitive process rather than a simple GPA/IELTS cutoff; official Study Handbook (PDF) available with full curriculum details."
       }
     },
     {
@@ -8412,6 +9976,23 @@ const DATABASE = {
         "contact_address": "98684 Ilmenau (no street address given)",
         "course_website": "tu-ilmenau.de (MSCSP programme page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3979/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (tu-ilmenau.de official MSCSP page not located; description is vague per dataset)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Bachelor's graduates in Electrical Engineering or Computer Science"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.5 (TOEFL iBT 79, CEFR C1) cited consistently across multiple aggregators for this specific program; note a different TU Ilmenau program (Research in Computer Systems Engineering) requires IELTS 7, not to be confused"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter Semester: 15 July; Summer Semester: 15 January (per aggregator, unconfirmed officially)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (public university); semester contribution approx. EUR 100-275 (figures vary by source); application fee EUR 25 (one source cites EUR 75)"
+        },
+        "exact_admission_regulations": "4-semester program; could not reach an official tu-ilmenau.de page specifically for MSCSP in this session; figures above are third-party aggregator consensus, not officially confirmed."
       }
     },
     {
@@ -8477,6 +10058,23 @@ const DATABASE = {
         "contact_address": "Kaiserstr. 2, 24143 Kiel, Faculty of Engineering, Department of Electrical and Information Engineering",
         "course_website": "https://www.uni-kiel.de/en/tf/study/msc-eie",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6159/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-kiel.de/en/tf/study/msc-eie",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official GPA cutoff found; Kiel's own 7-semester Bachelor's graduates are admitted without further technical requirements; other applicants referred to program website for specifics",
+          "qualifying_degree": "Primarily aimed at Kiel's own Bachelor's graduates (admitted without extra requirements); external applicants evaluated case by case"
+        },
+        "language_requirements": {
+          "ielts": "IELTS Academic overall 6.5 per one aggregator (not confirmed on official page, which defers to the program website)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Summer deadline ~27 September; Winter deadline ~23 February (unconfirmed, third-party)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee; only semester contribution (aggregators cite ~EUR 250/semester or ~EUR 534/year, unconfirmed)"
+        },
+        "exact_admission_regulations": "3-semester (30 ECTS described, likely typo for full program), English-taught program; official site directs most specifics to a separate application page not fully retrieved in this session."
       }
     },
     {
@@ -8542,6 +10140,23 @@ const DATABASE = {
         "contact_address": "Faculty of Electrical Engineering and Information Technology, Ruhr-Universität Bochum, 44801 Bochum",
         "course_website": "etit.ruhr-uni-bochum.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11168/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official numeric cutoff; one aggregator cites minimum GPA of 3.0, unconfirmed by university. Official page states if admission requirements not fully met, examination board may require up to 25 additional credits of coursework",
+          "qualifying_degree": "Bachelor's graduates in Electrical Engineering and Information Technology or a related subject from a German or international university (under PO 2020 regulations); this entry covers the Biomedical Engineering specialisation track"
+        },
+        "language_requirements": {
+          "ielts": "Conflicting: aggregators cite IELTS 6.0 (TOEFL 85); language of instruction itself also disputed (some sources say German-taught requiring TestDaF 16/DSH level 2-3, others say English-taught) - contact studienberatung@ei.rub.de to confirm"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site (no tuition fee generally expected at RUB as public university; only semester contribution, amount not confirmed)"
+        },
+        "exact_admission_regulations": "Program offers multiple specialisation tracks (Biomedical Engineering, Communication Systems, Engineering Physics all share the same base MSc EIT program and admission page); language of instruction is ambiguous across sources and should be verified directly."
       }
     },
     {
@@ -8607,6 +10222,23 @@ const DATABASE = {
         "contact_address": "Faculty of Electrical Engineering and Information Technology, 44801 Bochum",
         "course_website": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11169/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Same as parent EIT program: no official numeric cutoff; up to 25 additional credits may be required if prerequisites are not fully met",
+          "qualifying_degree": "Bachelor's graduates in EE/IT or related field choosing the Communication Systems specialisation track within the MSc EIT program"
+        },
+        "language_requirements": {
+          "ielts": "Conflicting figures/language-of-instruction ambiguity as per base program (IELTS ~6.0 cited by aggregators, unconfirmed)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "Shares base admission page/process with the other EIT specialisations (Biomedical Engineering, Engineering Physics); specialisation choice made within the single MSc EIT program structure."
       }
     },
     {
@@ -8672,6 +10304,23 @@ const DATABASE = {
         "contact_address": "Ruhr-Universität Bochum, Faculty of Electrical Engineering and Information Technology, 44801 Bochum",
         "course_website": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11128/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Same as parent EIT program: no official numeric cutoff; up to 25 additional credits may be required if prerequisites are not fully met",
+          "qualifying_degree": "Bachelor's graduates in EE/IT or related field choosing the Engineering Physics specialisation track within the MSc EIT program"
+        },
+        "language_requirements": {
+          "ielts": "Conflicting figures/language-of-instruction ambiguity as per base program (IELTS ~6.0 cited by aggregators, unconfirmed)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "Shares base admission page/process with the other EIT specialisations (Biomedical Engineering, Communication Systems); specialisation choice made within the single MSc EIT program structure."
       }
     },
     {
@@ -8737,6 +10386,23 @@ const DATABASE = {
         "contact_address": "Fürstenallee 11, 33102 Paderborn, Germany",
         "course_website": "go.upb.de/ese",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7607/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-paderborn.de/en/studyoffer/course_of_study/electrical-systems-engineering-english-taught-program-master",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Minimum GPA ~2.5 (German scale) cited by multiple aggregators (unconfirmed officially); core requirement is a Bachelor's in electrical engineering or a closely related field from an accredited institution",
+          "qualifying_degree": "Bachelor's graduates in electrical engineering or a closely related field from an accredited institution"
+        },
+        "language_requirements": {
+          "ielts": "Conflicting: IELTS 6.5 (TOEFL iBT 80) cited by one source; IELTS 6.0 (TOEFL iBT 80) by another; TOEFL iBT 87+ cited by a third for non-EU applicants"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee; mandatory semester contribution cited as EUR 351.15 by one source, EUR 300 by an older source"
+        },
+        "exact_admission_regulations": "Program taught in English per official examination regulations (po-ms-ese-en.pdf); non-EU applicants typically apply via uni-assist; one aggregator mentions GRE 157+ Quant for non-EU applicants, unconfirmed officially."
       }
     },
     {
@@ -8802,6 +10468,23 @@ const DATABASE = {
         "contact_address": "Georges-Köhler-Allee 101, 79110 Freiburg im Breisgau, Germany",
         "course_website": "https://www.tf.uni-freiburg.de/ese",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4360/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.tf.uni-freiburg.de/en/study-programs/embedded-systems/m-sc-embedded-systems-engineering",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official minimum GPA found; older admission regulation (2015, possibly outdated) requires foundation coursework covering at least 26 of 110 ECTS in mathematics, computer science, electrical engineering, microsystems engineering, and embedded systems",
+          "qualifying_degree": "Bachelor's graduates in embedded systems, information technology, computer engineering, computer science/engineering, electronics, or mechatronics"
+        },
+        "language_requirements": {
+          "ielts": "No specific IELTS/TOEFL score found; CEFR language requirement referenced but level not specified in retrieved content"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter semester: 1 March - 15 May (non-EU nationals); 1 March - 15 July (EU nationals)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition figure found on official pages; only general living-cost estimates available (e.g., ~EUR 120/month health insurance)"
+        },
+        "exact_admission_regulations": "4-semester program, taught in English, can start in winter or summer semester; official admission regulation (Zulassungsordnung) document exists but detailed score requirements not captured in this session."
       }
     },
     {
@@ -8867,6 +10550,23 @@ const DATABASE = {
         "contact_address": "Esplanade 10, 85019 Ingolstadt",
         "course_website": "https://www.thi.de/en/lifelong-learning/study-courses/global-engineering-and-management-msc/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8589/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.thi.de/en/lifelong-learning/study-courses/global-engineering-and-management-msc/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site; requires a Bachelor's degree in engineering, IT, natural sciences, business, or management plus 210 ECTS credits (first of three listed admission requirements; other two not captured)",
+          "qualifying_degree": "Bachelor's graduates in engineering, information technology, natural science, business, or management seeking an internationally-oriented engineering management program"
+        },
+        "language_requirements": {
+          "ielts": "Conflicting: program taught fully in English; one source says no TOEFL/IELTS required, another cites IELTS 6.5 for 'a few THI programmes' without specifying which"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Conflicting/unconfirmed: one source cites EUR 2,475 per semester (unusual for a German public university, flagged as needing verification); official tuition page not directly retrieved"
+        },
+        "exact_admission_regulations": "Program duration cited as up to 7 semesters (~3.5 years) by one source, which seems unusually long for a standard MSc and should be verified; THI's official application portal (under studies/application) is the recommended source for binding figures."
       }
     },
     {
@@ -8932,6 +10632,23 @@ const DATABASE = {
         "contact_address": "61 Nanyang Drive, ABN-B2a-08, Academic Building North, Nanyang Technological University, Singapore 637335",
         "course_website": "tum-asia.edu.sg/graduate-studies/master-green-electronics/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3927/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://tum-asia.edu.sg/graduate-studies/master-green-electronics/ (also https://ntu.edu.sg/education/graduate-programme/joint-master-of-science-in-green-electronics)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No GPA admission cutoff found; the figure '2.5 CGPA' that appears in some sources is actually the minimum CGPA required for GRADUATION, not entry",
+          "qualifying_degree": "Bachelor's graduates in electronics, electrical engineering, or physics, or a closely related discipline (program duration of underlying bachelor's must be at least 3 years); requires 2 recommendation letters from professors or employers"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.5 or higher, or TOEFL 88 (100 minimum specifically noted for TUM-NTU joint degree programs per a TUM Asia blog post)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Application window cited as 1 Oct - 31 Mar for an August intake (specific year varies; verify current cycle)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Conflicting figures: SGD 40,000 (before GST) per one source; SGD 26,393.34/year per another; others claim tuition-free (unreliable/outdated); official TUM Asia page is authoritative but exact current figure not fully confirmed"
+        },
+        "exact_admission_regulations": "Joint degree between TUM Asia (Singapore) and Nanyang Technological University (NTU); 2-year, 4-semester structure including a 3-month internship and 6-month thesis."
       }
     },
     {
@@ -8997,6 +10714,23 @@ const DATABASE = {
         "contact_address": "61 Nanyang Drive, ABN-B2a-08, Academic Building North, Nanyang Technological University, Singapore 637335",
         "course_website": "https://tum-asia.edu.sg/graduate-studies/master-integrated-circuit-design/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3926/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://tum-asia.edu.sg/graduate-studies/master-integrated-circuit-design/ (also https://ntu.edu.sg/eee/admissions/programmes/graduate-programmes/detail/joint-master-of-science-in-ic-design)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official GPA minimum found/confirmed",
+          "qualifying_degree": "Bachelor's graduates with a relevant engineering/science degree; requirements may differ by country, applicants advised to confirm with admission@tum-asia.edu.sg"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.5 minimum, or TOEFL iBT 100 (per Mastersportal/TUM Asia info)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "SGD 49,000 (before GST) per official TUM Asia program page for the most recent intake cited, noted as subject to revision; conflicting lower figures (SGD 28,078/year) from aggregators"
+        },
+        "exact_admission_regulations": "Joint 2-year degree jointly awarded by TUM and NTU; non-refundable NTU application fee cited as SGD 50 (one older source cites SGD 79); taught entirely in English."
       }
     },
     {
@@ -9062,6 +10796,23 @@ const DATABASE = {
         "contact_address": "44803 Bochum",
         "course_website": "https://international-academy-for-german-engineering.de/product/management-of-smart-and-sustainable-energy-systems/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9878/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://international-academy-for-german-engineering.de/product/management-of-smart-and-sustainable-energy-systems/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "One source describes requiring a first degree in business administration/economics, suggesting the program targets students with a management/business background applying technical energy-systems knowledge (consistent with the 'Academy' cooperation structure between the Faculty of Management/Economics)"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.5 cited by one aggregator (unconfirmed officially); a different similarly-named RUB program cites IELTS 6"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 9,990/year cited by one aggregator (Studyportals); conflicts with typical RUB semester-contribution-only model seen in other RUB programs - needs verification as this appears to be a separate paid academy program (Akademie der Ruhr Universität) rather than a standard tuition-free public program"
+        },
+        "exact_admission_regulations": "Delivered via the 'International Academy for German Engineering' / Akademie der Ruhr Universität in cooperation with the Faculty of Management and Economics - a distinct fee-charging structure from RUB's standard public tuition-free Master's programs; program length cited variably as 18 months or 3 semesters across sources."
       }
     },
     {
@@ -9127,6 +10878,23 @@ const DATABASE = {
         "contact_address": "Boltzmannstraße 15, 85748 Garching b. München",
         "course_website": "https://www.ed.tum.de/en/ed/studies/degree-programs/materials-science-and-engineering-m-sc/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9047/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.ed.tum.de/en/ed/studies/degree-programs/materials-science-and-engineering-m-sc/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official minimum found; requires passing TUM's two-stage aptitude assessment procedure; one unconfirmed aggregator cites GPA ~2.5 (German scale)/70%",
+          "qualifying_degree": "Bachelor's graduates with proof of English proficiency and successful completion of TUM's aptitude assessment procedure; program taught up to 100% in English (teaching languages listed as English and German in official regulations)"
+        },
+        "language_requirements": {
+          "ielts": "Conflicting: IELTS 6.5 minimum cited by one source; another cites TUM's general Master's range of IELTS 6.5 (recommended 7.0) or TOEFL iBT 88 (recommended 95)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site; generally starts in winter semester"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Conflicting figures: EUR 6,000/semester vs EUR 8,000/year cited by different aggregators; not confirmed via official fee page"
+        },
+        "exact_admission_regulations": "Admission hinges on TUM's distinctive 2-stage aptitude assessment rather than a simple GPA/test-score cutoff; full program regulations (Fachprüfungsordnung) available as official PDF but not fully retrieved."
       }
     },
     {
@@ -9192,6 +10960,23 @@ const DATABASE = {
         "contact_address": "98684 Ilmenau (no street address given)",
         "course_website": "tu-ilmenau.de (Master's Micro- and Nanotechnologies MSc page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4823/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (official tu-ilmenau.de Micro- and Nanotechnologies MSc page description is vague per dataset; short profile found at tu-ilmenau.de/en/study/in-study/range-of-courses/master/micro-and-nanotechnologies-msc)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "One aggregator cites GPA ~2.5 (German)/70% equivalent, unconfirmed officially",
+          "qualifying_degree": "Bachelor's graduates in Physics, Electrical Engineering, Materials Science, or a related field"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.5 (TOEFL iBT 79) most commonly cited; one outlier source cites IELTS 7/TOEFL 95/PTE 76"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (public university); semester contribution ~EUR 271.40 plus ~EUR 75 application fee cited by aggregators, not officially confirmed"
+        },
+        "exact_admission_regulations": "4-semester program; could not locate full official admission statute in this session; figures are third-party aggregator consensus requiring verification against tu-ilmenau.de directly."
       }
     },
     {
@@ -9257,6 +11042,23 @@ const DATABASE = {
         "contact_address": "Georges-Köhler-Allee 101, 79110 Freiburg im Breisgau, Germany",
         "course_website": "https://www.tf.uni-freiburg.de/mse",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3914/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.tf.uni-freiburg.de/mse",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No officially confirmed cutoff; requires Bachelor's in an engineering discipline (mechatronics, mechanical, electrical, or electronics engineering) or closely related field 'with an excellent cumulative GPA or final grade'; one unconfirmed aggregator cites CGPA minimum 7.0/10 (first class) for Indian applicants specifically",
+          "qualifying_degree": "Bachelor's graduates in mechatronics, mechanical, electrical, or electronics engineering, or closely related fields, with strong prior knowledge in mathematics, physics, chemistry, technical mechanics, electronics, and materials considered 'crucial'"
+        },
+        "language_requirements": {
+          "ielts": "Conflicting: ranges cited from IELTS 6.5 (no band below 6.0) up to IELTS 7.0 for this research-intensive program specifically; TOEFL iBT 92-95 also cited"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Application deadlines approx. 1 May / 1 June, with an October (winter) start, per official flyer"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Approx. EUR 1,500/semester for non-EU students (Baden-Württemberg non-EU tuition policy since 2017), per multiple aggregators; not directly confirmed from official fee page in this session"
+        },
+        "exact_admission_regulations": "GRE is 'highly recommended' per one aggregator, suggesting a strong quantitative score can offset an average GPA; program duration cited as both 2 years and 4 semesters across sources (consistent, just different units)."
       }
     },
     {
@@ -9322,6 +11124,23 @@ const DATABASE = {
         "contact_address": "Warburger Strasse 100, 33098 Paderborn, Germany",
         "course_website": "physik.uni-paderborn.de/en/course-program/optoelectronics-and-photonics-master-of-science",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4525/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-paderborn.de/en/studyoffer/course_of_study/optoelectronics-and-photonics-master",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Minimum overall grade of 3.0 (German scale) or equivalent foreign grade cited by one aggregator (unconfirmed officially)",
+          "qualifying_degree": "Bachelor's graduates in Physics or an equivalent Natural Science/Engineering degree including physical and mathematical fundamentals and a quantum theory course; requires in-depth knowledge of linear algebra, analysis, Fourier series, differential equations, and vector analysis"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.0 minimum (or Cambridge CAE/CPE, TOEFL 550 paper-based/79 internet-based); CEFR B2 level required per official examination regulations"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "31 May for international applicants; 21 September for applications from Germany/EU (per official department page); enrollment possible for winter term only (program starts in October)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee; semester contribution approx. EUR 280-300 (figures vary slightly by source)"
+        },
+        "exact_admission_regulations": "Official examination regulations document (PO_MA_OOeP_24_English2.pdf) available on physik.uni-paderborn.de; distinguishing feature is the explicit quantum theory and advanced mathematics prerequisite knowledge requirement."
       }
     },
     {
@@ -9387,6 +11206,23 @@ const DATABASE = {
         "contact_address": "Albert-Einstein-Allee 11, 89069 Ulm, Germany",
         "course_website": "https://www.uni-ulm.de/en/study/study-at-ulm-university/study-programmes/course-information/course/quantum-engineering-master/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8349/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://uni-ulm.de/en/nawi/master/ps/m-sc-quantum-engineering-overview/requirements",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official numeric cutoff found; official page states no formal admission restriction (zulassungsfrei) and refers applicants to the Quantum Engineering admission statute. Third-party aggregators cite GPA ~2.7 (German scale), unconfirmed.",
+          "qualifying_degree": "Open to Bachelor's graduates in physics, electrical engineering, or related quantum/engineering disciplines; no formal admission restriction (zulassungsfrei)."
+        },
+        "language_requirements": {
+          "ielts": "Not stated numerically on official requirements page (refers applicants to contact program coordinator); third-party sources cite IELTS 5.5 / TOEFL iBT 72+, unconfirmed."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter semester: 1 April - 15 May; Summer semester: 1 December - 15 January (per official 'how to apply' page)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Program page lists approx. EUR 1,500/semester for non-EU students plus approx. EUR 160/semester administrative fee (third-party confirmation; EU/German students: none beyond standard semester fee)."
+        },
+        "exact_admission_regulations": "Contact: quantum.engineering@uni-ulm.de. Admission statute (Zulassungsordnung) is the legally binding document for exact requirements."
       }
     },
     {
@@ -9452,6 +11288,23 @@ const DATABASE = {
         "contact_address": "Hochschulstraße 1, 83024 Rosenheim, Germany",
         "course_website": "th-rosenheim.de/en/studies-and-further-education/courses-of-study/masters-degree-programmes/wood-technology",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5281/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.th-rosenheim.de/fileadmin/formalia/Merkblaetter_Bewerbungsverfahren/Bewerbung_SoSe_2025/241029-application_checklist_M_IWT-EN.pdf",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No explicit numeric GPA stated in available excerpts; DAAD/university materials describe an 'above-average' Bachelor's degree (min. 6 semesters/180 ECTS) in Wood Technology or related field.",
+          "qualifying_degree": "Bachelor's graduates in Wood Technology, Timber Construction and Redevelopment, Interior Engineering, or related fields."
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.5 cited by DAAD listing; some aggregators list 6.0 - verify exact figure on official checklist PDF."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed precisely; application handled via uni-assist with Master VPD preliminary assessment."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee for degree itself; semester contribution only (reported ~EUR 85-170/semester by third parties; official fee page should be checked for exact current figure)."
+        },
+        "exact_admission_regulations": "Entrance exam/interview is usually required as part of admission (per DAAD listing). Application checklist PDF is the authoritative document on th-rosenheim.de."
       }
     },
     {
@@ -9517,6 +11370,23 @@ const DATABASE = {
         "contact_address": "Emil-Figge-Straße 38, 44227 Dortmund, Germany",
         "course_website": "fh-dortmund.de/ese",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4513/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.fh-dortmund.de/ese",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Overall grade of at least 2.5 (German grading system) cited for unrestricted admission with pre-check; conversion needed for non-German grading scales.",
+          "qualifying_degree": "Bachelor's/Diplom holders in Computer Science, Electrical Engineering, Information Technology, or closely related fields with sufficient background in embedded systems."
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.5 / TOEFL iBT 90 / CEFR C1 cited widely, though not directly confirmed on the fetched official page (WebFetch unavailable at time of research) - recommend confirming on fh-dortmund.de/ese directly."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Non-EU: approx. 1 April - 15 June; EU: mid-May - 15 July (figures vary by source; confirm on official site)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fees (M.Eng., 4 semesters, 120 ECTS); only standard semester fee applies."
+        },
+        "exact_admission_regulations": "4-semester M.Eng. program; English-taught, no German language certificate required."
       }
     },
     {
@@ -9582,6 +11452,23 @@ const DATABASE = {
         "contact_address": "Constantiaplatz 4, 26723 Emden, Germany",
         "course_website": "hs-emden-leer.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4775/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found via official site (hs-emden-leer.de program-specific page not reached; WebFetch unavailable)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Minimum grade equivalent to 2.5 (German scale) cited by aggregators for a relevant 4-year Bachelor's (Informatics, Industrial Informatics, Electrical Engineering).",
+          "qualifying_degree": "Bachelor's graduates (4-year) in Informatics, Industrial Informatics, Electrical Engineering, or related technical fields."
+        },
+        "language_requirements": {
+          "ielts": "IELTS overall 6.0 cited consistently across multiple sources; TOEFL/PTE also accepted per some listings."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site; one source mentions August intake, 3-semester program."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (standard for Lower Saxony public universities); semester contribution only."
+        },
+        "exact_admission_regulations": "Admission is locally restricted (university applies own selection criteria); applications via uni-assist. German language certification not required (English-medium program)."
       }
     },
     {
@@ -9647,6 +11534,23 @@ const DATABASE = {
         "contact_address": "Rich.-Wagner-Strasse 31, 18119 Rostock, Germany",
         "course_website": "hs-wismar.de (Marine Transportation); its.ac.id (SEATRANS program page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11097/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found via official site (SEATRANS-specific page not reached; general hs-wismar.de and its.ac.id pages found but not program-specific admission page)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site for SEATRANS specifically. Related Wismar maritime program requires a first professional qualification (Bachelor's/Diplom) in business or engineering sciences.",
+          "qualifying_degree": "Double-degree joint program between ITS Surabaya and Hochschule Wismar; targets students meeting Indonesian university admission rules plus German requirements; first 2 semesters at ITS Surabaya, final 2 (incl. thesis) at Wismar/Rostock."
+        },
+        "language_requirements": {
+          "ielts": "Not confirmed for SEATRANS; English is the language of instruction so proficiency is expected."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site for SEATRANS specifically."
+        },
+        "exact_admission_regulations": "4-semester double degree; passing all first-year ITS courses is required to progress to the Wismar portion. Contact: seatrans@its.ac.id for details."
       }
     },
     {
@@ -9712,6 +11616,23 @@ const DATABASE = {
         "contact_address": "Kaiserstr. 2, 24143 Kiel, Germany",
         "course_website": "https://www.uni-kiel.de/en/tf/study/en-master-materials-science",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11279/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.tf.uni-kiel.de/matwis/kielmat/en/programs/mse/application",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No confirmed official GPA cutoff; one aggregator (unverified) cites Bachelor's around 60%. Entry requires bachelor's in a technical/scientific field.",
+          "qualifying_degree": "Bachelor's graduates in materials science/engineering or related technical/scientific fields; this entry focuses on Biomedical Microsystems specialization."
+        },
+        "language_requirements": {
+          "ielts": "Conflicting figures: IELTS 6.5 (TOEFL 79) per one aggregator, CEFR B2 (~IELTS 5.5) per others. Official page not fully confirmed - verify directly on tf.uni-kiel.de."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed; program is 4 semesters, taught in English."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fees reported by most sources (standard for German public universities); only semester contribution (~EUR 381 per one source)."
+        },
+        "exact_admission_regulations": "Program is restricted admission (NC) per one source; selection based on academic performance."
       }
     },
     {
@@ -9777,6 +11698,23 @@ const DATABASE = {
         "contact_address": "Kaiserstr. 2, 24143 Kiel, Germany",
         "course_website": "uni-kiel.de/en/tf/study/en-master-materials-science",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11280/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.tf.uni-kiel.de/matwis/kielmat/en/programs/mse/application",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Same as sibling Materials Science tracks (id 11279/11281): no confirmed official cutoff; aggregator figure ~60% Bachelor's average unverified.",
+          "qualifying_degree": "Bachelor's graduates in materials science/engineering or related field, this track focused on Business Administration specialization within Materials Science."
+        },
+        "language_requirements": {
+          "ielts": "Conflicting: IELTS 6.5/TOEFL 79 vs. CEFR B2 (~5.5) across aggregators; confirm on official faculty page."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed; 4-semester, English-taught program."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fees (standard German public university); semester contribution ~EUR 381."
+        },
+        "exact_admission_regulations": "Shares admission framework with other Kiel Materials Science specializations (restricted admission per one source)."
       }
     },
     {
@@ -9842,6 +11780,23 @@ const DATABASE = {
         "contact_address": "Kaiserstr. 2, 24143 Kiel, Germany",
         "course_website": "https://www.uni-kiel.de/en/tf/study/en-master-materials-science",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11281/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.tf.uni-kiel.de/matwis/kielmat/en/programs/mse/application",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Same as sibling tracks: no confirmed official cutoff; aggregator figure ~60% Bachelor's average unverified.",
+          "qualifying_degree": "Bachelor's graduates in materials science/engineering or related field; this track focused on Energy and Electronic Materials specialization."
+        },
+        "language_requirements": {
+          "ielts": "Conflicting: IELTS 6.5/TOEFL 79 vs. CEFR B2 (~5.5); confirm on official faculty page."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed; 4-semester, English-taught program."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fees (standard German public university); semester contribution ~EUR 381."
+        },
+        "exact_admission_regulations": "Shares admission framework with other Kiel Materials Science specializations."
       }
     },
     {
@@ -9907,6 +11862,23 @@ const DATABASE = {
         "contact_address": "12459 Berlin (no street address listed)",
         "course_website": "lsm.htw-berlin.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4673/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://lsm.htw-berlin.de/en/applying/faq",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric GPA/grade threshold found on official pages; GMAT/GRE explicitly not required for admission.",
+          "qualifying_degree": "Bachelor's degree holders (min. 180 ECTS) with at least one year of relevant work experience after the Bachelor's; designed for working professionals in engineering/life sciences pursuing an MBA."
+        },
+        "language_requirements": {
+          "ielts": "No minimum band stated on official pages; IELTS or TOEFL accepted as proof of English per FAQ. Third-party (unverified) cites IELTS 6.5."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Official page states application deadline 28 February (2027 cycle), with applications opening November 2026."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Official homepage lists EUR 18,500 for the full program (more recent figure); FAQ page lists EUR 16,000 payable in 3 installments plus ~EUR 360/semester fee. Figures conflict - confirm current amount with admissions office."
+        },
+        "exact_admission_regulations": "LSM Professional Enhancement Grant available, covering 50% of tuition for one student per intake. Program starts winter semester, taught in English."
       }
     },
     {
@@ -9972,6 +11944,23 @@ const DATABASE = {
         "contact_address": "Mönkhofer Weg 239, 23562 Lübeck, Germany",
         "course_website": "https://www.th-luebeck.de/MM",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4352/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.th-luebeck.de/en/studies/study-offer/degree-programs/mechanical-engineering-msc/overview",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's in Mechanical Engineering (or equivalent engineering degree) with 210 ECTS, OR 180 ECTS plus minimum grade/CGPA of 2.5 (German grading system); conditional admission possible for 180-ECTS holders.",
+          "qualifying_degree": "Bachelor's graduates in Mechanical Engineering or equivalent engineering degree, with at least 15 ECTS of transferable mechanical engineering coursework."
+        },
+        "language_requirements": {
+          "ielts": "English level B2 required; IELTS Academic 5.5 given as an example acceptable score (per DAAD listing and official applicant info); Cambridge-equivalent also accepted."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Summer semester: 1 November - 15 January (for applicants with German/EU degrees); winter intake deadlines differ - verify on official site."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (standard for German public university); semester fee applies."
+        },
+        "exact_admission_regulations": "Official applicant info PDF (MScMechEng-Info-for-applicants) is the authoritative source for exact ECTS/grade conversion and documentation."
       }
     },
     {
@@ -10037,6 +12026,23 @@ const DATABASE = {
         "contact_address": "Schoenstraße 11, 67659 Kaiserslautern, Germany",
         "course_website": "https://www.hs-kl.de/en/angewandte-ingenieurwissenschaften/studiengaenge/master/mechanical-engineering-mechatronics",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4202/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://hs-kl.de/angewandte-ingenieurwissenschaften/studiengaenge/master/mechanical-engineeringmechatronics/application-admission",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "210-ECTS (7-semester) Bachelor's with grades up to 2.8 on German grading scale; Examination Committee decides individually on edge cases.",
+          "qualifying_degree": "Bachelor's graduates in Mechanical Engineering, Mechatronics, or closely related engineering fields."
+        },
+        "language_requirements": {
+          "ielts": "Not confirmed on official page; aggregators (unverified) cite IELTS 6.0 or equivalent (certificate not older than 24 months)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed via official source in this research pass."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (standard German public Fachhochschule); semester fee only."
+        },
+        "exact_admission_regulations": "Caution: do not confuse with University of Kaiserslautern-Landau (RPTU), a separate institution with different requirements."
       }
     },
     {
@@ -10102,6 +12108,23 @@ const DATABASE = {
         "contact_address": "Study-Service-Centre (SSZ), Weinberghof 4, 99734 Nordhausen",
         "course_website": "hs-nordhausen.de/en/study-programmes/mechatronics/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10523/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://hs-nordhausen.de/en/application/faq-bewerbung/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No program-specific GPA figure confirmed; official FAQ states each master's program has individual admission requirements set out in its own study and examination regulations (the 2.5 German-scale GPA found for this entry applies to a different program, Computer Engineering for IoT, not Mechatronics).",
+          "qualifying_degree": "Bachelor's graduates in Mechatronics, Mechanical Engineering, Electrical Engineering, Energy Technology, or related fields."
+        },
+        "language_requirements": {
+          "ielts": "PTE Academic 60 / IELTS Academic 6 (per DAAD listing); TOEFL iBT ~79-80 also cited by aggregators. B2 level required overall, exemptions may apply - check course website."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed via official source."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Effectively no tuition (EU students: EUR 0/semester per one source for 2026 entry); semester contribution ~EUR 255 (covers semester ticket etc.)."
+        },
+        "exact_admission_regulations": "Applications for master's typically via university's QISPOS portal (per FAQ); some sources suggest international applicants may instead use uni-assist - confirm current route."
       }
     },
     {
@@ -10167,6 +12190,23 @@ const DATABASE = {
         "contact_address": "International Office, Doggenriedstraße 70, 88250 Weingarten, Germany",
         "course_website": "https://www.rwu.de/en/study/courses/mechatronics-en",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3633/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.rwu.de/en/study/courses/mechatronics-en",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official numeric GPA cutoff confirmed; the official admission statute (2020) describes a GPA calculation where documented research/professional experience in mechatronics can add up to 0.3 grade points. Third-party sources (unverified) cite GPA 2.5 minimum.",
+          "qualifying_degree": "Bachelor's graduates in mechanical or electrical engineering, computer science, or similar fields."
+        },
+        "language_requirements": {
+          "ielts": "Official flyer requires 'proven English language skills (TOEFL/IELTS)' without specifying a score; third-party sources (unverified) cite IELTS 6.5 (no band below 6.0) or TOEFL iBT 90."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter semester start; 40 places; application deadline around 15 April (per official flyer, year not specified - confirm current cycle)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee implied (standard German public Hochschule); standard semester fee applies."
+        },
+        "exact_admission_regulations": "Contact: application@rwu.de. Note: application portal reported as closed for maintenance in late March 2026 in one source - confirm current status."
       }
     },
     {
@@ -10232,6 +12272,23 @@ const DATABASE = {
         "contact_address": "Kettwiger Straße 20, 42579 Heiligenhaus",
         "course_website": "https://www.hochschule-bochum.de/en/mechatronics-msc-english/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11062/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hochschule-bochum.de/en/mechatronics-msc-english/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official GPA cutoff found in available research (official page not fully fetched due to tool outage); requires a relevant Bachelor's degree.",
+          "qualifying_degree": "Bachelor's graduates in Mechatronics, Mechanical Engineering, Electrical Engineering, or related field (inferred from comparable Bochum/regional programs)."
+        },
+        "language_requirements": {
+          "ielts": "Not confirmed with specific score on official page; general guidance says IELTS/TOEFL required with scores varying by program - check language requirements page directly."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed via official site."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not confirmed via official site; standard German public Hochschule (likely no/low tuition beyond semester fee)."
+        },
+        "exact_admission_regulations": "Uni-Assist application process cited by one aggregator. For Indian applicants, an APS certificate may be required (per unverified consultancy source) - confirm with university."
       }
     },
     {
@@ -10297,6 +12354,23 @@ const DATABASE = {
         "contact_address": "Mönkhofer Weg 239, 23562 Lübeck, Germany",
         "course_website": "https://www.mmt-master.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7173/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.th-luebeck.de/en/studies/study-offer/degree-programs/medical-microtechnology-msc/overview/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Minimum GPA of 2.5 (German grading system) per program's examination regulations (Sec. 5), for a relevant degree such as materials engineering or comparable field.",
+          "qualifying_degree": "Bachelor's graduates in materials engineering or comparable fields relevant to medical microtechnology."
+        },
+        "language_requirements": {
+          "ielts": "Conflicting figures across sources: CEFR B2/IELTS 6.5/TOEFL iBT 79 (one aggregator) vs. IELTS overall 6.0 (another, for 2026 entry) vs. IELTS 6.5 no band below 6.0/TOEFL iBT 90+ (another). Official regulations also accept a prior degree taught entirely in English as alternative proof. Verify current exact figure on official site."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed via official site in this research pass."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (standard for German public universities, joint program with Universität zu Lübeck and University of Southern Denmark); semester fee applies."
+        },
+        "exact_admission_regulations": "Joint program run by TH Lübeck, Universität zu Lübeck, and University of Southern Denmark (SDU) Sønderborg. Applications typically via uni-assist; APS certificate may be required for Indian applicants per unverified source."
       }
     },
     {
@@ -10362,6 +12436,23 @@ const DATABASE = {
         "contact_address": "39106 Magdeburg (no street address given)",
         "course_website": "https://www.ovgu.de/unimagdeburg/en/Study/Study+Programmes/Master/Medical+Systems+Engineering-p-17659.html",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6905/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://lmt.ovgu.de/en/Teaching/Study+Paths/Medical+Systems+Engineering/Prospective+students/FAQ.html",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Official OVGU FAQ: Bachelor's grade should be at least 'good' (up to 2.4 on German academic grading scale). This differs from third-party figures (~2.5) - official 2.4 figure should be relied upon.",
+          "qualifying_degree": "Bachelor's graduates in engineering/technical fields relevant to medical systems; admission is not restricted but additional study requirements (math, physics, computer science, or electrical engineering) may need to be completed within the first two semesters."
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.5 (no band below 6.0) or TOEFL iBT 90 commonly cited; one third-party page cites general minimum IELTS 6.0 for OVGU master's admission broadly."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Program enrolls in the summer semester; exact deadline not confirmed via official source in this pass."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fees; semester fee of EUR 278.90 (covers Studentenwerk services and student representation), per official program page."
+        },
+        "exact_admission_regulations": "4-semester program (note: some third-party sites incorrectly list 2-year/non-standard duration - official source confirms 4 semesters)."
       }
     },
     {
@@ -10427,6 +12518,23 @@ const DATABASE = {
         "contact_address": "International Office, THWS, 97421 Schweinfurt",
         "course_website": "fwi.thws.de/en/studies/master-of-business-and-engineering-mbee/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8604/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://fwi.thws.de/en/studies/master-of-business-and-engineering-mbee/admission",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not fully confirmed on official page (language requirements section not fully captured); third-party (unverified) cites GPA 2.5 or better (German scale).",
+          "qualifying_degree": "Bachelor's degree or diploma holders relevant to the programme's business/engineering context; English-taught, 3 semesters, can start 1 October."
+        },
+        "language_requirements": {
+          "ielts": "Not confirmed specifically for MBEE program; a related THWS pre-year language page cites IELTS 6.0, but that applies to the pre-year, not necessarily the Master's itself. Official MBEE admission page should be checked directly for 'Language requirements' section."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed in this research pass."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not explicitly stated; THWS public university standard semester fee likely applies, no separate tuition."
+        },
+        "exact_admission_regulations": "Official page states: 'If only one of these requirements is not met, admission to the MBEE degree programme is not possible' - i.e., all listed admission criteria are mandatory, no partial waivers."
       }
     },
     {
@@ -10492,6 +12600,23 @@ const DATABASE = {
         "contact_address": "Badstraße 21, 93413 Cham, Germany",
         "course_website": "https://th-deg.de/mcs-cham-m-en",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5378/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://th-deg.de/mcs-cham-m-en",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "GPA not mandatory for admission; if provided, a GPA of ~2.50 (German scale) may allow the Examination Committee to waive the eligibility admission test. Bachelor's degree requires at least 210 ECTS credits in relevant fields (industrial engineering, technical physics, electrical engineering, mechatronics); non-standard degrees reviewed individually by Examination Board.",
+          "qualifying_degree": "Bachelor's graduates (210 ECTS) in industrial engineering, technical physics, electrical engineering, mechatronics, or related fields."
+        },
+        "language_requirements": {
+          "ielts": "Conflicting figures: DAAD lists IELTS Academic 5.5 (or telc English B2, PTE Academic 59); other aggregator cites IELTS 6.5/CEFR B2. Official DIT requirements document accepts both IELTS General and Academic (NOT IELTS Indicator)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Cham campus has March start; deadline around 15 March per one flyer, though another source lists 15 January for summer deadline - dates may be outdated, confirm current cycle."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not confirmed; standard German Fachhochschule (no tuition beyond semester fee expected)."
+        },
+        "exact_admission_regulations": "Admission test (online or on-site) covering mathematics, physics, electrical engineering, control engineering, and computer science is the deciding factor for most applicants. A2 German required by end of studies (can be completed during program). Contact: studium-cham@th-deg.de."
       }
     },
     {
@@ -10557,6 +12682,23 @@ const DATABASE = {
         "contact_address": "09107 Chemnitz (no street address listed)",
         "course_website": "https://www.tu-chemnitz.de/etit/studium/studiengaenge/mMN",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4103/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.tu-chemnitz.de/etit/studium/stugang/index.php.en?page=m_mn",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official GPA cutoff found; university brochure describes requirement as an equivalent engineering degree, decided case-by-case.",
+          "qualifying_degree": "DAAD lists Bachelor's in Electrical Engineering and Information Technology from TU Chemnitz specifically (grade index 2-2), though university's own broader brochure suggests equivalent degrees from other institutions may also qualify - some ambiguity between sources."
+        },
+        "language_requirements": {
+          "ielts": "IELTS 5.5, TOEFL iBT 72, or PTE Academic 59 cited consistently across sources (unofficial but consistent)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed via official site in this pass."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (standard German public university); semester fee only."
+        },
+        "exact_admission_regulations": "German language certification not required (English-taught). Contact: admission@tu-chemnitz.de for degree-equivalence questions."
       }
     },
     {
@@ -10636,6 +12778,23 @@ const DATABASE = {
         ],
         "career_ecosystem": "Seamless transition into semiconductor R&D at Leibniz IHP, Fraunhofer institutes, and chip companies across Berlin-Brandenburg and Saxony.",
         "official_syllabus_url": "https://www.b-tu.de/en/micro-nano-electronics-ms/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.b-tu.de/micro-nano-electronics-ms/faq",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official GPA cutoff found; general requirement is a first professionally qualifying degree (min. Bachelor's) in a related subject - Examination Committee decides on equivalence, extra modules may be required if unsure.",
+          "qualifying_degree": "Bachelor's graduates in Physics, Electrical Engineering, or related field with curriculum comparable to BTU's own degrees (per DAAD listing); broader equivalence accepted per official regulations with committee review."
+        },
+        "language_requirements": {
+          "ielts": "IELTS Academic 6.0, TOEFL iBT 79, or Cambridge B/C accepted per official-linked admission guide; German language skills explicitly NOT required (English-taught program)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "20 April - 31 August (via myBTU) for applicants with German Master Entrance Qualification; deadline for non-German applicants not confirmed via official source in this pass."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (standard German public university, Brandenburg); semester fee only."
+        },
+        "exact_admission_regulations": "Official examination/study regulations PDF (Examination_and_Study_Regulations_MSc_Micro-_and_Nanoelectronics.pdf) is the authoritative source for exact degree-equivalence rules."
       }
     },
     {
@@ -10701,6 +12860,23 @@ const DATABASE = {
         "contact_address": "Schinkelstraße 2, 52062 Aachen, Germany",
         "course_website": "Faculty's Micro- and Nanoelectronics (MINA) page (URL not given directly)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4811/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found via official site (specific MINA program admission page not located; only general RWTH information found)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not confirmed specifically for MINA; general RWTH guidance (unverified) cites average grade of 2.5 or better (German scale) as a common benchmark, but requirements vary by department/faculty/module.",
+          "qualifying_degree": "Bachelor's graduates in Electrical Engineering and Information Technology or related field (per program title, 'Major of Electrical Engineering and Information Technology')."
+        },
+        "language_requirements": {
+          "ielts": "General RWTH postgraduate minimum: IELTS 6.5 overall with 6.0 in each component; results valid for 2 years, test report forms issued more than 2 years before intended start not accepted. Program-specific figure for MINA not separately confirmed."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (standard German public university, NRW); semester fee only (general RWTH policy)."
+        },
+        "exact_admission_regulations": "Requirements can differ significantly between RWTH departments and faculties; recommend direct contact with the MINA program office for exact figures, as no dedicated official page URL was identified in this research pass."
       }
     },
     {
@@ -10766,6 +12942,23 @@ const DATABASE = {
         "contact_address": "Zentrale Studienberatung (A32), Am Schwarzenberg-Campus 3 (E), 21073 Hamburg, Germany",
         "course_website": "tuhh.de (international study programmes, Microelectronics and Microsystems)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3751/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.tuhh.de/tuhh/en/education/degree-courses/international-study-programs/microelectronics-and-microsystems.html",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric GPA threshold published; TUHH states admission is 'highly competitive' and 'only applicants with a very high GPA are admitted' - GPA checked during online preliminary assessment against strict (unspecified) requirements.",
+          "qualifying_degree": "Bachelor's graduates in engineering, ideally with an Electrical Engineering focus."
+        },
+        "language_requirements": {
+          "ielts": "Official TUHH guidance: minimum overall IELTS (Academic) score of 6.5; TOEFL ITP and TOEFL Essentials NOT accepted; Cambridge Advanced English certificate accepted as alternative."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Some third-party (unverified) sources cite 1 March for winter-semester entry; not independently confirmed via official page in this pass."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (standard German public university, Hamburg); semester fee only."
+        },
+        "exact_admission_regulations": "Contact: study@tuhh.de for exact GPA threshold, as it is not published numerically. Official 'How to apply at TUHH' general guidance PDFs (updated annually) supplement program-specific admission requirements page."
       }
     },
     {
@@ -10831,6 +13024,23 @@ const DATABASE = {
         "contact_address": "Hans-Sommer-Straße 66, 38106 Braunschweig, Germany",
         "course_website": "https://www.tu-braunschweig.de/eitp/studieninteressierte/et/vertiefung-microelectronics-engineering",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11145/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.tu-braunschweig.de/eitp/studieninteressierte/et/vertiefung-microelectronics-engineering",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric GPA cutoff confirmed specifically for Microelectronics Engineering; related Quantum Technologies master's regulations state GPA is calculated from admission-relevant marks and factored into selection, implying similar practice may apply. Third-party (unverified) cites GPA 2.5 (German scale) as general TU Braunschweig benchmark.",
+          "qualifying_degree": "Bachelor's graduates in a related discipline (Electrical Engineering and Information Technology); Microelectronics Engineering is an elective specialization within the broader EIT Master's program, which can be completed in German or English (English option has extra requirements)."
+        },
+        "language_requirements": {
+          "ielts": "Not confirmed specifically for Microelectronics Engineering elective; related 2026 Quantum Technologies English regulations cite IELTS Band 6.5 or higher - likely comparable but not confirmed identical for this elective."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed via official site in this pass."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (standard German public university, Lower Saxony); semester fee only."
+        },
+        "exact_admission_regulations": "Admission regulations for this elective are documented in German only on the official site; recommend contacting the faculty's admissions office directly for exact IELTS/GPA figures."
       }
     },
     {
@@ -10896,6 +13106,23 @@ const DATABASE = {
         "contact_address": "Institute of Geodesy and Geoinformation, Nussallee 17, 53115 Bonn",
         "course_website": "moro.uni-bonn.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9921/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.moro.uni-bonn.de/apply/requirements",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official numeric GPA cutoff stated; program is described as 'open-admission' but both academic and language requirements must be fulfilled with the bachelor's degree (job experience or further degrees do not count toward fulfilling requirements).",
+          "qualifying_degree": "Bachelor's graduates with relevant academic background for mobile robotics (exact field requirements not fully captured); open-admission but subject to fulfilling stated academic and language criteria."
+        },
+        "language_requirements": {
+          "ielts": "Not stated numerically on official requirements page in available excerpts; third-party sources mention IELTS is required but give no specific minimum score - recommend checking moro.uni-bonn.de/apply/requirements directly for current figure."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed via official site in this pass."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (standard German public university, NRW); semester fee only."
+        },
+        "exact_admission_regulations": "Caution: a GPA figure of 2.5 (German scale) found during research actually belongs to a different, similarly named program (Autonomous Systems M.Sc. at Bonn-Rhein-Sieg University of Applied Sciences) - do NOT apply that figure to University of Bonn's Mobile Robotics program. Application via University of Bonn's own Application Portal."
       }
     },
     {
@@ -10961,6 +13188,23 @@ const DATABASE = {
         "contact_address": "01062 Dresden (no street address given)",
         "course_website": "https://tu-dresden.de/studium/vor-dem-studium/studienangebot/sins/sins_studiengang?autoid=35310",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11051/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://tu-dresden.de/sins/efv/ma-mobs",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No official GPA minimum found in TU Dresden's 2026 study/examination regulations documents; admission depends primarily on a special aptitude assessment (Eignungsfeststellungsverfahren) rather than a stated GPA cutoff. Third-party (unverified) figures of ~70% marks or GPA 2.5 (German equivalent) found but not confirmed officially.",
+          "qualifying_degree": "Bachelor's graduates meeting the program's special aptitude assessment criteria (Eignungsfeststellungsverfahren); program is part of the Verkehrswissenschaften (transport sciences) faculty."
+        },
+        "language_requirements": {
+          "ielts": "Official 2026 study regulations: IELTS overall band score of at least 7.0 (or TOEFL iBT at least 95, figures vary slightly between regulation versions - one version lists TOEFL iBT 5.0 which appears to be a typo/inconsistency in the source document). Alternative: a university degree completed entirely in English can substitute for a test certificate."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not confirmed precisely; subject to aptitude assessment regulations timeline."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (standard German public university, Saxony); semester fee only."
+        },
+        "exact_admission_regulations": "Admission requirements formally regulated by the 'Eignungsfeststellungsordnung' (aptitude assessment regulations) - this is the authoritative legal document, available as MOBS-2026-EFO PDF on tu-dresden.de."
       }
     },
     {
@@ -11026,6 +13270,23 @@ const DATABASE = {
         "contact_address": "Schlossplatz 19, 76131 Karlsruhe, Germany",
         "course_website": "https://www.hectorschool.kit.edu/master-mobility-systems-engineering-and-management.php",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4554/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hectorschool.kit.edu/master-mobility-systems-engineering-and-management.php",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated; requires a first academic degree (Bachelor, Master, or Diploma); detailed admission statutes (German PDF) referenced",
+          "qualifying_degree": "Working professionals developing/producing/integrating embedded systems in automotive, railway, other vehicle, or electronics/software industries; needs first academic degree plus at least 2 years professional experience"
+        },
+        "language_requirements": {
+          "ielts": "No specific score given; general English proficiency proof required"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "None; rolling admissions, program starts every October"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 36,000 total"
+        },
+        "exact_admission_regulations": "Part-time executive program but enrolled full-time; ~15 months coursework + 9-month thesis (often at employer); 90 ECTS, aaq accredited; one engineering module (EM5) held at BME/ZalaZONE Budapest, Hungary"
       }
     },
     {
@@ -11091,6 +13352,23 @@ const DATABASE = {
         "contact_address": "59494 Soest",
         "course_website": "fh-swf.de (systems engineering and engineering management MSc page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4062/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.fh-swf.de/de/international_3/programmes/systems_engineering_and_engineering_management__m_sc__/index.php",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's degree with minimum overall grade required per examination regulations; third-party sources suggest at least 'Good' (ECTS A/B) but exact official threshold not confirmed on page fetched",
+          "qualifying_degree": "Students seeking consecutive 3-semester, English-taught Systems/Advanced Engineering and Engineering Management master's; formerly called Systems Engineering and Engineering Management"
+        },
+        "language_requirements": {
+          "ielts": "TOEFL/IELTS minimum scores required per official regulations; exact scores not retrieved (page access limited)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Example cited for a recent summer intake: mid-May to 15 November (non-EU); beginning December to 31 January (EU) - confirm current cycle dates with university"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "NC-free (no admission restriction); non-EU applicants apply via uni-assist"
       }
     },
     {
@@ -11156,6 +13434,23 @@ const DATABASE = {
         "contact_address": "91058 Erlangen",
         "course_website": "https://www.at.study.fau.eu/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8925/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.at.study.fau.eu/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Described generically as 'the best choice for your academic future' in electrical engineering and computer science; no specific eligibility criteria listed on homepage"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site; aggregators mention English B2 level, no confirmed IELTS score"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site (aggregators suggest tuition-free, semester contribution only)"
+        },
+        "exact_admission_regulations": "Detailed admission/application information likely on the FAU 'Application and Enrolment' subpage (https://www.at.study.fau.eu/prospective-students/application-and-enrolment/), not retrieved"
       }
     },
     {
@@ -11221,6 +13516,23 @@ const DATABASE = {
         "contact_address": "Campus-Boulevard 89, 52074 Aachen, Germany",
         "course_website": "batteryengineering.rwth-aachen.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10395/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.batteryengineering.rwth-aachen.de/?page_id=64",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (page unreachable during fetch)",
+          "qualifying_degree": "Applicants need a first university degree in natural or engineering sciences providing sufficient foundational training (per DAAD-aligned description)"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "Program is under numerus clausus (research-oriented, intensive supervision) per official RWTH description; fully taught in English; do not confuse with the separate 'Battery Systems Engineering (BSE)' master"
       }
     },
     {
@@ -11286,6 +13598,23 @@ const DATABASE = {
         "contact_address": "Dieter-Görlitz-Platz 1, 94469 Deggendorf",
         "course_website": "th-deg.de/et-m-en",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3833/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.th-deg.de/et-m-en",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's degree in Electrical Engineering and/or Computer Science (or related subject) with at least 210 ECTS and an overall grade of at least 'good'",
+          "qualifying_degree": "Graduates with Bachelor's/Diplom in Electrical Engineering, Computer Science, or related field pursuing R&D career or academic path; professional experience not required"
+        },
+        "language_requirements": {
+          "ielts": "Not specified; taught in English; German A2 certificate mandatory at application from Summer Term 2027"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "15 October to 1 December for March start (note: page text has some inconsistency on annual vs. summer-term-only intake)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fees; only student union fee; non-EU/EEA students pay additional service fees (amount not stated)"
+        },
+        "exact_admission_regulations": "Mandatory aptitude test (written, possibly oral); online test fee ~27.30 USD via external provider; must choose focus area (ENS or Automation) at application; places limited"
       }
     },
     {
@@ -11351,6 +13680,23 @@ const DATABASE = {
         "contact_address": "Immerwahrstrasse 2a, 91058 Erlangen, Germany",
         "course_website": "https://www.aces.study.fau.eu/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8296/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.aces.study.fau.eu/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Interdisciplinary program combining AI/autonomous driving, connectivity, e-powertrain, and sustainable mobility/production technology strengths; no specific eligibility criteria stated on homepage"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "Detailed admission info likely under FAU's Prospective Students / Bachelor's and Master's application pages, not retrieved"
       }
     },
     {
@@ -11416,6 +13762,23 @@ const DATABASE = {
         "contact_address": "Neustadtswall 30, 28199 Bremen, Germany",
         "course_website": "https://www.hs-bremen.de/en/study/degree-programme/electronics-engineering-msc/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3752/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-bremen.de/en/study/degree-programme/electronics-engineering-msc/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on page",
+          "qualifying_degree": "Graduates in Electronics, Computer Science, RF Engineering and Communications, or related field wanting to specialize in intelligent systems/embedded technologies; prior degree of 210 ECTS (3-semester track, 90 CP) or 180 ECTS (4-semester track, 120 CP)"
+        },
+        "language_requirements": {
+          "ielts": "Not specified; programme entirely in English, 'No German required'"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated on page"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated on page"
+        },
+        "exact_admission_regulations": "Admission restricted; optional dual-study mode with limited availability; recommends checking degree classification via anabin database"
       }
     },
     {
@@ -11481,6 +13844,23 @@ const DATABASE = {
         "contact_address": "Lothstraße 34, 80335 München",
         "course_website": "sci.hm.edu (Micro- and Nanotechnology master's page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4814/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://hm.edu/en/your_stay_at_hm/students/fulltime/uebersichts____startseite_variante_31.en.html (department flyer: mediapool.hm.edu Flyer_Master_Micro-Nano_en.pdf)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's or Diploma in natural/engineering sciences (or similar) with overall grade of at least 'good'",
+          "qualifying_degree": "Graduates of natural or engineering sciences (or similar) from German or international institutions"
+        },
+        "language_requirements": {
+          "ielts": "Not specified on official HM pages; IELTS cited by a third-party aggregator but unverified"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "15 November to 15 January for March start; 2 May to 15 June for October start (per department flyer)"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "Program mostly taught in English but German A2 level is mandatory; program contact: Prof. Dr.-Ing. Christina Schindler (christina.schindler@hm.edu)"
       }
     },
     {
@@ -11546,6 +13926,23 @@ const DATABASE = {
         "contact_address": "Campus-Boulevard 30, 52074 Aachen, Germany",
         "course_website": "Programme's official site (RWTH Business School)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4757/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.business-school.rwth-aachen.de/en/apply/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated; requires degree certificate and transcript of records, no minimum grade given",
+          "qualifying_degree": "Applicants need at least 1 year of professional experience; CV, motivation letter, degree certificate, transcript, reference letter, and short video required"
+        },
+        "language_requirements": {
+          "ielts": "IELTS minimum 6.0 (or TOEFL iBT 90, Cambridge B2 First/C1/C2, PTE Academic min 60, or degree from UK/Ireland/Canada/USA/Australia/New Zealand)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Applications open October 1; final deadline 1 June (non-EU) / 31 August (EU); seats limited"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 30,000; Early Bird discounts: EUR 3,500 (by Dec 1), EUR 3,000 (by Feb 1), EUR 1,000 (by Apr 1); application fee EUR 50"
+        },
+        "exact_admission_regulations": "Winter semester intake only; full-time track requires academic or professional reference letter plus a short self-introduction video"
       }
     },
     {
@@ -11611,6 +14008,23 @@ const DATABASE = {
         "contact_address": "Campus-Boulevard 30, 52074 Aachen, Germany",
         "course_website": "https://www.business-school.rwth-aachen.de/en/master/management-engineering-in-technology-innovation-marketing-entrepreneurship-parttime/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4875/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.business-school.rwth-aachen.de/en/master/management-engineering-in-technology-innovation-marketing-entrepreneurship-parttime/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated; academic content requirements instead: STEM-related degree with at least 125 CP in relevant subjects (incl. 16 CP higher mathematics/statistics, 10 CP management/economics - deficits can be made up with free additional courses)",
+          "qualifying_degree": "Working professionals (consultants, project managers, engineers, product managers) with STEM-related degree and at least 1 year of professional work experience, part-time status proof (20+ hrs/week other responsibilities)"
+        },
+        "language_requirements": {
+          "ielts": "IELTS Academic overall 6.0 minimum, or TOEFL iBT 90 minimum; German applicants need B2 English proof (e.g., Abitur with continuous English instruction); exemptions for nationals/first-degree holders of USA, UK, Canada, Ireland, New Zealand, Australia"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Early Bird I: Dec 1, 2026; Non-EU final: June 1; EU final: Aug 31; study start: Oct 1, 2027"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 30,000 total, plus EUR 50 application fee; Early Bird discounts: EUR 3,500 (Dec 1), EUR 3,000 (Feb 1), EUR 1,000 (Apr 1); VDI Scholarship EUR 5,000 (Apr 1)"
+        },
+        "exact_admission_regulations": "APS certificate required for Chinese/Indian/Vietnamese applicants before enrollment; compulsory 5-day on-campus 'Cambridge Ecosystem Lab' trip; can switch once between part-time/full-time study"
       }
     },
     {
@@ -11676,6 +14090,23 @@ const DATABASE = {
         "contact_address": "Arcisstraße 21, 80333 München",
         "course_website": "cit.tum.de (Master's in Microelectronics and Chip Design page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9918/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.cit.tum.de/en/cit/studies/degree-programs/master-microelectronics-chip-design/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No fixed minimum GPA; bachelor's overall grade contributes up to 20 of 120 Stage 1 points (non-TUM grades converted via Bavarian formula); need at least 40 subject-specific points to proceed",
+          "qualifying_degree": "Applicants with/pending bachelor's in Electrical and Computer Engineering, Computer Science (minor in EE), or Physics, with sufficient background in math, electronics, and programming"
+        },
+        "language_requirements": {
+          "ielts": "Not specified exact score; requires 'English Language Proficiency' certificate per TUM's language-certificate page (third-party sources cite ~IELTS 6.5, unverified)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Feb 1 - May 31 submission window; non-EU applicants strongly advised to apply before March 31"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Non-EU/EEA/Swiss applicants pay tuition (amount not listed on page) plus semester fees; EU/EEA/Swiss pay only semester fees"
+        },
+        "exact_admission_regulations": "Two-stage selection: application review (reject <60 pts, interview 60-74, admit 75+) then ~20-min interview (in-person or Zoom); APS certification required for China/Vietnam/India degrees; tape-out participation restricted under EU/US export control laws for some students"
       }
     },
     {
@@ -11741,6 +14172,23 @@ const DATABASE = {
         "contact_address": "Hochschulstraße 12, 64289 Darmstadt",
         "course_website": "physik.tu-darmstadt.de (Master's Particle Accelerator Science page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10618/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/studiengang_378304.en.jsp",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated; requires Bachelor's degree in natural sciences/engineering of at least 180 CP",
+          "qualifying_degree": "Bachelor's graduates in natural sciences/engineering (180+ CP) including at least 20 CP math, 5 CP fundamentals of physics, 5 CP theoretical electrodynamics, 4 CP measurement technology/lab practicals"
+        },
+        "language_requirements": {
+          "ielts": "IELTS not mentioned; English B2 level required via equivalence table from TU Darmstadt Language Center, or an English-language bachelor's thesis"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated on page; program starts winter or summer semester; new program launching summer semester 2026"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated on page; links to a general 'Costs and budget' section"
+        },
+        "exact_admission_regulations": "No numerical admission restriction once prerequisites met; joint Rhein-Main-Universitaeten program - apply to TU Darmstadt first, then register with Goethe University Frankfurt (not with JGU Mainz); includes a programme-internal internship"
       }
     },
     {
@@ -11806,6 +14254,23 @@ const DATABASE = {
         "contact_address": "Bernburger Str. 55, 06366 Köthen / Anhalt, Germany",
         "course_website": "www.hs-anhalt.de/mpv",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6900/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-anhalt.de/en/study/orientation/degree-programs/detail/photovoltaics-engineering-science-master-of-science.html",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's degree (at least 7 semesters/210 credits suggested by third-party sources) in electrical engineering, electrical and information engineering, physics, engineering physics, materials science or similar",
+          "qualifying_degree": "Bachelor's graduates in electrical engineering, physics, engineering physics, materials science, or similar; applicants with knowledge gaps may need bridging modules of up to 30 ECTS"
+        },
+        "language_requirements": {
+          "ielts": "Sources conflict: IELTS 6.0 (with TOEFL iBT 90 or B2-level alternative) cited by one source, IELTS 6.5 by another; graduation from English-medium institution accepted as alternative"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Summer intake application window: 15 September to 15 January (per official page); third-party listing gives conflicting 15 Jan/15 Jul dates - confirm with university"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No tuition fee (confirmed free); only standard semester contribution"
+        },
+        "exact_admission_regulations": "Fully taught in English, 3 semesters; uni-assist required for applications; motivation letter should explain choice of program/university"
       }
     },
     {
@@ -11871,6 +14336,23 @@ const DATABASE = {
         "contact_address": "Wilhelmshöher Allee 73, 34121 Kassel, Germany",
         "course_website": "https://www.unikims.de/remena",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4412/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.unikims.com/master/renewable-energy-and-energy-efficiency/ (redirected from unikims.de/remena)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not specified; academic focus on STEM-related degree with at least 125 CP in relevant subjects, incl. 16 CP higher mathematics/statistics and 10 CP management/economics",
+          "qualifying_degree": "Working professionals with STEM-related degree, at least 1 year of professional work experience, and proof of part-time status (20+ hrs/week other responsibilities, e.g. job, maternity leave, caregiving)"
+        },
+        "language_requirements": {
+          "ielts": "IELTS (Academic) overall band 6.0 minimum, or TOEFL iBT 90 minimum; German applicants need B2-level English (CEFR); exemptions for nationals/degree holders from USA, UK, Canada, Ireland, New Zealand, Australia"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Early Bird I: Dec 1, 2026; non-EU final: June 1; EU final: Aug 31; study start: Oct 1, 2027"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 30,000 total; application fee EUR 50; Early Bird I EUR 3,500 (Dec 1), Early Bird II EUR 3,000 (Feb 1), Early Bird III EUR 1,000 (Apr 1); VDI Scholarship EUR 5,000 (Apr 1)"
+        },
+        "exact_admission_regulations": "Note: this page appears to describe KIT/Cambridge-affiliated MME-TIME-style program content nearly identical to entries 4757/4875 - possible content overlap/mislabeling on aggregator-redirected page; verify REMENA-specific details directly with University of Kassel/unikims"
       }
     },
     {
@@ -11936,6 +14418,23 @@ const DATABASE = {
         "contact_address": "Wüllnerstr. 2, 52062 Aachen, Germany",
         "course_website": "rohstoffe.rwth-aachen.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8462/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (rohstoffe.rwth-aachen.de unreachable; closest found: https://www.rohstoffe.rwth-aachen.de/cms/rohstoffe-und-entsorgungstechnik/studium/beratung/nachhaltige-rohstoff-und-energieversorg/~rlue/faq-nachhaltige-rohstoff-und-energiever/?lidx=1 via search snippet, not fetched)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Proven achievements must be comparable to Bachelor's programmes in raw materials engineering, sustainable raw materials and energy supply, or applied geosciences/georesource management at RWTH; Repository Safety specialisation requires at least 75 CP including 55 CP engineering fundamentals (math, mechanics, chemistry, electrical engineering)"
+        },
+        "language_requirements": {
+          "ielts": "English proficiency required (per DAAD-aligned description); no specific score found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "No formal admission restriction (NC-free) but prior knowledge sufficiency is checked per RWTH FAQ; specifics should be confirmed via rohstoffe.rwth-aachen.de FAQ page directly"
       }
     },
     {
@@ -12001,6 +14500,23 @@ const DATABASE = {
         "contact_address": "Mies-van-der-Rohe-Str. 17, 52056 Aachen, Germany",
         "course_website": "rwth-aachen.de (Water Security and Global Change M.Sc. page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11073/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found via official site (RWTH's own page for this joint program was not locatable; related joint-partner page at tu-dresden.de/bu/studium found but is TU Dresden's side of the joint IITM/RWTH/TUD program)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Joint master's program between TU Dresden, RWTH Aachen, and IIT Madras on Water Security and Global Change; basic requirement likely a recognized university degree plus English proficiency (by analogy to RWTH's related Sustainable Management - Water and Energy MSc)"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "Official examination regulation document exists ('Studiengangspezifische Pruefungsordnung fuer den gemeinsamen Masterstudiengang Water Security and Global Change') but admission section not retrieved; recommend checking RWTH Faculty of Civil Engineering page directly"
       }
     },
     {
@@ -12081,6 +14597,23 @@ const DATABASE = {
         ],
         "career_ecosystem": "Center of 'Silicon Saxony' — Europe's largest microelectronics cluster with Infineon, Bosch, GlobalFoundries, and TSMC's upcoming European foundry (ESMC). Outstanding job opportunities for chip design & RTL verification engineers.",
         "official_syllabus_url": "https://tu-dresden.de/ing/elektrotechnik/studium/studieren-an-der-fakultaet/studiengaenge/masters-programme-nanoelectronic-systems"
+      },
+      "official_website_data": {
+        "official_source_url": "https://tu-dresden.de/ing/elektrotechnik/studium/studieren-an-der-fakultaet/studiengaenge/masters-programme-nanoelectronic-systems?set_language=en",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Not stated on page beyond general program description"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "Taught in English; 2 years (4 semesters); covers 'More Moore', 'More than Moore', and 'Beyond Moore' concepts; page links to separate 'Prospective Students' and 'Application' sections for admission requirements/deadlines, which were not retrieved"
       }
     },
     {
@@ -12146,6 +14679,23 @@ const DATABASE = {
         "contact_address": "Walter-Flex-Str. 3, 57072 Siegen",
         "course_website": "https://www.uni-siegen.de/en/study/master/nanoscience-and-nanotechnology",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4872/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-siegen.de/en/study/master/nanoscience-and-nanotechnology",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's final grade generally 2.5 or better on German grading scale; degree equivalence checked by examination board",
+          "qualifying_degree": "Bachelor's degree holders in a related field; DAAD-EPOS scholarship track aimed at experts/executives from developing countries with university degree and 2+ years relevant career experience"
+        },
+        "language_requirements": {
+          "ielts": "B2 level English required: native-speaker status, IELTS 6.5 (min 6.0 per section), TOEFL iBT 85+, Cambridge FCE, or equivalent (e.g. PTE); certificate must be no more than 2 years old (1 year for DAAD-EPOS applicants)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not mentioned on page"
+        },
+        "exact_admission_regulations": "German Abitur with proven B2 English also accepted for EU applicants; recognized institution required, checked by examination board"
       }
     },
     {
@@ -12211,6 +14761,23 @@ const DATABASE = {
         "contact_address": "Geschwister-Scholl-Straße 15, 99423 Weimar, Germany",
         "course_website": "https://www.uni-weimar.de/en/civil-and-environmental-engineering/studies/master-degree-programmes/nhre/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3612/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-weimar.de/en/civil-and-environmental-engineering/studies/master-degree-programmes/nhre/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's final grade generally 2.5 or better on the German grading scale (examination board checks equivalence for international degrees)",
+          "qualifying_degree": "Bachelor's degree in Civil Engineering or related field; DAAD-EPOS scholarship track for experts/executives from developing countries with degree + 2 years relevant career experience"
+        },
+        "language_requirements": {
+          "ielts": "B2 level English required: native-speaker status, IELTS 6.5 (min 6.0 per section), TOEFL iBT 85+, Cambridge FCE, or equivalent (PTE); German Abitur with B2 English accepted for EU applicants; certificate max 2 years old (1 year for DAAD-EPOS)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter semester general: up to 30 Sept 2027; EU Bachelor's holders: portal opens 1 April, deadline 30 Sept; international (non-EPOS): portal opens 1 April, deadline 15 July via uni-assist; DAAD-EPOS: portal opens 1 July, deadline 15 Oct of prior year"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not mentioned on page"
+        },
+        "exact_admission_regulations": "Entrance examination included in admission procedure; Chinese/Vietnamese/Indian applicants need APS certificate; must submit Bachelor's thesis or equivalent project if not on transcript; DAAD-EPOS admission letters issued regardless of scholarship outcome"
       }
     },
     {
@@ -12276,6 +14843,23 @@ const DATABASE = {
         "contact_address": "Welcome Center, Alfons-Goppel-Platz 1, 95028 Hof, Germany",
         "course_website": "hof-university.com (Operational Excellence MBA and Eng programme page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4664/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (official Hof University program page not located; best third-party sources: mygermanuniversity.com, expatrio.com, collegedunia.com)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's in engineering sciences, min 180 ECTS; one source cites recommended 55% or CGPA 5.5/10 (unverified, third-party)",
+          "qualifying_degree": "Engineering Bachelor's graduates with at least 1 year of relevant work experience"
+        },
+        "language_requirements": {
+          "ielts": "IELTS 6.5 cited by multiple third-party sources (TOEFL iBT 90 also mentioned); one source states CEFR B2 with no IELTS figure - unverified via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Cited (unverified): WiSe application period April 15 - May 31; SuSe Nov 5 - Nov 30"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Conflicting figures across sources: EUR 3,300/semester (EUR 13,200 total over 4 semesters) vs. EUR 6,600/year - not confirmed via official site"
+        },
+        "exact_admission_regulations": "One source claims teaching language is German, conflicting with others stating English - this inconsistency could not be resolved without reaching the official Hof University page; recommend direct verification"
       }
     },
     {
@@ -12341,6 +14925,23 @@ const DATABASE = {
         "contact_address": "Richard-Stücklen-Straße 3, 91781 Weißenburg in Bayern, Germany",
         "course_website": "https://www.hs-ansbach.de/en/home",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11218/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (hs-ansbach.de homepage does not list a 'Polymer Technology and Management' program; closest matches found at other universities, e.g. Hochschule Aalen's 'Polymer Technology' M.Sc.)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site",
+          "qualifying_degree": "Not found via official site"
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site"
+        },
+        "exact_admission_regulations": "Program title/name may not match current Hochschule Ansbach offerings exactly - search found only an 'International Product and Service Management' master and a bachelor's 'Angewandte Kunststofftechnik' at Ansbach's Weissenburg site; could be a renamed/discontinued program or DAAD listing may be outdated. Recommend contacting Hochschule Ansbach directly or checking hs-ansbach.de 'Kunststoff'/'Polymer' program pages"
       }
     },
     {
@@ -12406,6 +15007,23 @@ const DATABASE = {
         "contact_address": "Platz der Deutschen Einheit 1, 03046 Cottbus, Germany",
         "course_website": "https://www.b-tu.de/en/powerengineering-ms",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3883/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.b-tu.de/en/powerengineering-ms",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on page",
+          "qualifying_degree": "Bachelor's in Power Engineering (electrical or thermal) or related engineering field (or equivalent), with strong math/physics/CS/basic electrical or mechanical engineering knowledge; branch-specific specialized knowledge needed depending on track (Electrical Power Engineering vs. Power Generation from Fossil and Renewable Fuels)"
+        },
+        "language_requirements": {
+          "ielts": "No specific IELTS score; requires a certificate of English proficiency meeting university language requirements (medium-of-instruction certificates and expired tests not accepted)"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not stated; program starts winter semester"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "No separate tuition; semester fee of EUR 391.80"
+        },
+        "exact_admission_regulations": "Admission without limits (no NC); no pre-study internship required; taught in English, full-time; double-degree option available; ASIIN accredited"
       }
     },
     {
@@ -12471,6 +15089,23 @@ const DATABASE = {
         "contact_address": "Am Lurzenhof 1, 84036 Landshut, Germany",
         "course_website": "https://www.haw-landshut.de/en/further-education/offers/masters-degree-programmes/process-management-and-resource-efficiency",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11139/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.haw-landshut.de/en/further-education/offers/masters-degree-programmes/process-management-and-resource-efficiency",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated; separate 'Admission requirements' subpage not retrieved",
+          "qualifying_degree": "Specialists and managers aiming to design sustainable value creation processes focused on reducing waste and increasing resource efficiency; part-time/extra-occupational format"
+        },
+        "language_requirements": {
+          "ielts": "Not stated; taught in English but specific proficiency level not given on page"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "15 April 2027 to 15 July 2027, for winter semester start"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 19,975, payable in five installments"
+        },
+        "exact_admission_regulations": "Open admission, no numerus clausus; normal duration 5 semesters, 90 ECTS; accredited, qualifies for doctoral studies; applications via primuss portal"
       }
     },
     {
@@ -12536,6 +15171,23 @@ const DATABASE = {
         "contact_address": "Schlossplatz 19, 76131 Karlsruhe",
         "course_website": "hectorschool.kit.edu (Master's in Production and Operations Management page)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4555/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hectorschool.kit.edu/POM.php",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on this page; refers to separate admission requirements page",
+          "qualifying_degree": "Future engineering executives in production, logistics, or plant engineering, typically from manufacturing, process industry, logistics suppliers, entrepreneurs, and business successors; requires first academic degree (Bachelor's, Master's, or Diploma) plus at least 2 years professional experience"
+        },
+        "language_requirements": {
+          "ielts": "No specific score named; general English language proficiency required"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "None; rolling admissions, program starts every October"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 36,000 total"
+        },
+        "exact_admission_regulations": "Strongly recommended preparatory crash course 'Probability and Statistics' (mid-Dec to mid-Jan) especially for those with weak probability background; aaq accredited; admission statutes published as German-language PDF"
       }
     },
     {
@@ -12601,6 +15253,23 @@ const DATABASE = {
         "contact_address": "Appelstraße 11A, 30167 Hannover",
         "course_website": "uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/quantum-engineering/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8284/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/quantum-engineering/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No numeric GPA/grade threshold stated",
+          "qualifying_degree": "Graduates of related degree (e.g., Electrical Engineering and Information Technology B.Sc. or Physics B.Sc., or comparable) including at least 20 ECTS mathematics, 8 ECTS quantum mechanics, and 5 ECTS wave optics or electrodynamics; recommended traits: experimental/practical orientation, interest in applied physics, strong math skills, interdisciplinary mindset"
+        },
+        "language_requirements": {
+          "ielts": "No IELTS score specified; international applicants need English C1 level; German applicants need no German-language certificate"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "German/EU first-year students: 1 June-15 July (winter) / 1 Dec-15 Jan (summer); Non-EU first-year students: 15 April-31 May (winter) / 15 Oct-30 Nov prior year (summer), VPD from uni-assist required"
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not mentioned on page"
+        },
+        "exact_admission_regulations": "Admission unrestricted - all qualified applicants admitted; taught in English; offered jointly with TU Braunschweig (some courses held there); part-time study and study-abroad stay optional"
       }
     },
     {
@@ -12666,6 +15335,23 @@ const DATABASE = {
         "contact_address": "57068 Siegen",
         "course_website": "uni-siegen.de/en/study/master/quantum-science",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8336/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-siegen.de/en/study/master/quantum-science",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on the page.",
+          "qualifying_degree": "Qualified bachelor's degree in physics, mathematics, computer science, electrical engineering, or similar scientific subject; equivalence assessed by exam board; also open to students without a physics bachelor's."
+        },
+        "language_requirements": {
+          "ielts": "No specific test/score listed; page only requires 'sufficient command of English.'"
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter (most applicants): 1 Apr - 30 Sep; Summer (most applicants): 1 Oct - 30 Mar; Winter (non-EU qualification): 1 Jan - 30 Apr; Summer (non-EU qualification): 1 Aug - 31 Oct."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not mentioned on the page."
+        },
+        "exact_admission_regulations": "Separate application required; international admission requirements on separate page; equivalence questions go to physics examination office."
       }
     },
     {
@@ -12731,6 +15417,23 @@ const DATABASE = {
         "contact_address": "Faculty of Civil Engineering, Mies-van-der-Rohe-Straße 1, 52074 Aachen, Germany",
         "course_website": "https://www.rse.rwth-aachen.de/index.html",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4881/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (rse.rwth-aachen.de unreachable due to certificate error; official academy.rwth-aachen.de page not located for this specific program)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site.",
+          "qualifying_degree": "First university degree providing necessary engineering background per exam regulations; credit point limits apply for additional requirements."
+        },
+        "language_requirements": {
+          "ielts": "IELTS Academic required; third-party sources suggest ~6.5 overall, 6.0 per component (unconfirmed on official page)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Reported (unofficial): Winter semester 1 Mar/15 Jul; Summer semester 1 Sep/15 Jan."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Conflicting third-party figures: possibly free, or 22,000 EUR if run via RWTH International Academy (unconfirmed)."
+        },
+        "exact_admission_regulations": "Official program site (rse.rwth-aachen.de) could not be fetched due to TLS certificate error; figures above are from third-party aggregators and should be verified."
       }
     },
     {
@@ -12796,6 +15499,23 @@ const DATABASE = {
         "contact_address": "Zur Schwedenschanze 15, 18435 Stralsund, Germany",
         "course_website": "hochschule-stralsund.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6455/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hochschule-stralsund.de/en/reemm",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's average of at least 1.8 required for direct admission; 1.9-2.3 individually assessed (requires ~500-word motivation letter); average 2.4 or lower rejected. Also, at least 3 of 4 core subject modules must be passed with grade >=2.7 (70%).",
+          "qualifying_degree": "Completed first degree in electrical engineering, energy technology, renewable energies, mechanical engineering, physics, or related field; specific coursework in measurement technology, control engineering, electrical fundamentals, electrical machines required; variants (3- or 4-semester) depend on ECTS and internship experience."
+        },
+        "language_requirements": {
+          "ielts": "B2 CEFR English proficiency required (IELTS not specifically named on official page)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Summer semester 2027: early Nov - 28 Feb 2027 (online application); uni-assist for foreign certificates: non-EU by 30 Nov 2026, EU by 28 Feb 2027."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not mentioned on the official page."
+        },
+        "exact_admission_regulations": "Admission Commission reviews applications; program taught entirely in English; applicants who haven't graduated yet can apply with current transcript."
       }
     },
     {
@@ -12861,6 +15581,23 @@ const DATABASE = {
         "contact_address": "Campus-Boulevard 30, 52074 Aachen, Germany",
         "course_website": "bit.ly/3JNeCQT",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4819/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-robotic-systems-engineering",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on the page.",
+          "qualifying_degree": "Bachelor's (B.Eng./B.Tech./B.Sc.) in mechanical engineering or related field (automotive, aerospace, energy, manufacturing, production engineering); at least 12 months relevant work experience by enrollment (6 months proof at application); fundamental knowledge in engineering (60 ECTS), math/natural sciences (25 ECTS), system sciences (16 ECTS)."
+        },
+        "language_requirements": {
+          "ielts": "Not mentioned; page only lists program language as English (no IELTS score specified)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Non-EU: 2 Dec - 1 Mar. EU/EEA, current RWTH students, German degree holders: 2 Dec - 15 Jul."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "24,000 EUR."
+        },
+        "exact_admission_regulations": "Requires GRE (Verbal 145, Quant 160, Analytical Writing 3) or completion of German Engineering College (GEC), which can substitute for GRE; program starts winter semester (October)."
       }
     },
     {
@@ -12926,6 +15663,23 @@ const DATABASE = {
         "contact_address": "Deggendorf Institute of Technology, Faculty of Applied Natural Sciences and Industrial Engineering, Badstraße 21, 93413 Cham",
         "course_website": "https://th-deg.de/ir-m-en (programme also linked to https://www.th-deg.de/mro-m-en)",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9838/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (th-deg.de/ir-m-en returned 404; official page could not be directly accessed)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site.",
+          "qualifying_degree": "Reported (unofficial): bachelor's degree in Mechatronics, Robotics, or closely related field, or equivalent qualification; admission test (online/on-site) covering math, physics, electronics, control engineering, and computer science reportedly required."
+        },
+        "language_requirements": {
+          "ielts": "Unconfirmed; third-party program slide mentions B2 English certificate if not a native speaker."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Conflicting unofficial reports: 15 Apr - 15 Jun or 15 Apr - 15 Jul for winter; 1 Oct - 1 Dec or 15 Nov - 15 Jan for summer."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Could not access th-deg.de/en/apply page content; recommend contacting studium-cham@th-deg.de to confirm exact requirements and deadlines."
       }
     },
     {
@@ -12991,6 +15745,23 @@ const DATABASE = {
         "contact_address": "Carl-Zeiss-Promenade 2, 07745 Jena",
         "course_website": "eah-jena.de/bildungsangebot/studiengang/master-scientific-instrumentation",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3796/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://eah-jena.de/bildungsangebot/studiengang/master-scientific-instrumentation",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "First academic degree overall grade of 3.0 or better; points calculated (4-grade)x15, max 50 points for study quality/fit plus max 15 for research work; need 55 of 110 possible points.",
+          "qualifying_degree": "Bachelor's (or equivalent) in a technical/science field, e.g. Feinwerktechnik, Physik, Elektrotechnik, Mechatronik, Medizintechnik, Maschinenbau, IT."
+        },
+        "language_requirements": {
+          "ielts": "TOEFL 550 (paper) / 79 (internet-based) or IELTS overall 6.0; test must be no more than 3 years old."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "1 Dec - 1 Apr for winter semester starting 1 Oct."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Semester contribution of EUR 350.05 only; no separate tuition fee mentioned."
+        },
+        "exact_admission_regulations": "Admission via aptitude procedure (Eignungsverfahren); university states it cannot pre-assess admission chances; up to 3 applications allowed; must be physically present at semester start unless written approval given."
       }
     },
     {
@@ -13056,6 +15827,23 @@ const DATABASE = {
         "contact_address": "Faculty of Electrical Engineering and Information Technology, Moltkestr. 30, 76133 Karlsruhe",
         "course_website": "h-ka.de/en/sstm/profile",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3758/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.h-ka.de/en/sstm/profile",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No minimum GPA stated; admission committee ranks applicants by marks in profile subjects (physics, chemistry, electronics, computer science, mathematics, control engineering, microprocessors, sensor-related subjects).",
+          "qualifying_degree": "Very good bachelor's degree in electronics, instrumentation, controlling, or automation technology, plus very good basic knowledge of natural sciences; pre-study work experience not required; ~25 students admitted per year."
+        },
+        "language_requirements": {
+          "ielts": "TOEFL 550 (paper) / 213 (computer-based) / 83 (internet-based) or equivalent; IELTS not mentioned; English-taught bachelor's alone doesn't count as proof."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Mid-November for non-EU applicants; 15 January for EU applicants."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Non-EU citizens: EUR 1,500 per semester (Baden-Württemberg state law); EU citizens: no fee."
+        },
+        "exact_admission_regulations": "GRE score strongly recommended; GATE recommended for Indian applicants if available; statement of purpose and recommendation letters optional."
       }
     },
     {
@@ -13121,6 +15909,23 @@ const DATABASE = {
         "contact_address": "Schellingstraße 24, 70174 Stuttgart, Germany",
         "course_website": "hft-stuttgart.com/studies/fields-of-study/architecture-and-design/master-smart-city-solutions",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7229/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hft-stuttgart.com/studies/fields-of-study/architecture-and-design/master-smart-city-solutions",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No minimum GPA stated; above-average grades expected, but social/professional achievements may offset average/below-average grades (explained via motivation letter).",
+          "qualifying_degree": "Mid-career professionals in architecture, urban design/planning, infrastructure, or engineering; professionally qualifying first degree (Bachelor's/Master's/Diplom) of at least 210 ECTS (180 ECTS holders must complete 30 additional ECTS first); at least 1 year relevant professional experience post-degree; no age limit; other disciplines assessed case by case."
+        },
+        "language_requirements": {
+          "ielts": "TOEFL iBT 4.5+ (test after 21 Jan 2026) or 86+ (before); or IELTS Academic 6.5+; or medium-of-instruction statement from a predominantly English-speaking country institution."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Phase 1: Nov - 28 Feb; Phase 2: May - 15 Jul; program starts mid-September."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 10,000 total. Full-time: EUR 4,000 (sem 1), 4,000 (sem 2), 2,000 (sem 3); Part-time (EU only): EUR 2,000/semester over 5 semesters; plus ~EUR 200/semester non-tuition fees and ~EUR 600 for compulsory field trips; extra semester costs EUR 1,000."
+        },
+        "exact_admission_regulations": "Structured admission interview (30-45 min) with program professor; 600-900 word academic essay plus motivation letter (max 1 page); APS certificate required for China/India/Vietnam applicants; non-EU applicants must show financial means (~EUR 11,208 blocked account, as of Nov 2022)."
       }
     },
     {
@@ -13186,6 +15991,23 @@ const DATABASE = {
         "contact_address": "Campus Feuchtwangen, 91555 Feuchtwangen, Germany",
         "course_website": "hs-ansbach.de/en/master/smart-energy-systems",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7252/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-ansbach.de/en/master/smart-energy-systems",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Overall examination grade of at least 2.3 in relevant first degree (usually 210 ECTS, minimum 180 ECTS accepted).",
+          "qualifying_degree": "Degrees in engineering sciences (e.g. Applied Engineering Sciences), electrical engineering, mechanical engineering, physics, computer science, supply engineering, or comparable fields."
+        },
+        "language_requirements": {
+          "ielts": "English is language of instruction; no specific IELTS/test score listed on page."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "1 May - 15 September for winter semester start (cut-off dates)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "EUR 1,000 per term for non-EU nationals."
+        },
+        "exact_admission_regulations": "Restricted admission (specific); VPD from uni-assist required for foreign applicants via PRIMUSS portal, needs 4-6 weeks; applicants with fewer than 210 ECTS may need extra time for missing modules."
       }
     },
     {
@@ -13251,6 +16073,23 @@ const DATABASE = {
         "contact_address": "Otto-Hahn-Allee 1, 28359 Bremen, Germany",
         "course_website": "http://www.uni-bremen.de/en/spst",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4771/"
+      },
+      "official_website_data": {
+        "official_source_url": "http://www.uni-bremen.de/en/spst",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on the page.",
+          "qualifying_degree": "First academic degree with at least 180 CP, including 90 CP in Physics OR 65 CP in Electrical Engineering, plus 16 CP in Mathematics; letter of motivation required."
+        },
+        "language_requirements": {
+          "ielts": "C1 CEFR English required; no IELTS score specified."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Main intake (winter, once/year): 30 April; 2nd semester (advanced students only): 15 January."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated; page only links to semester dues info (incl. semester ticket)."
+        },
+        "exact_admission_regulations": "Admission regulations published only in German; applications via online portal; instruction entirely in English."
       }
     },
     {
@@ -13316,6 +16155,23 @@ const DATABASE = {
         "contact_address": "An der Hochschule B1, 86633 Neuburg an der Donau, Germany",
         "course_website": "https://www.thi.de/en/faculties/sustainable-infrastructure/degree-programmes/sustainability-management-and-technologies-msc/",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9263/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.thi.de/en/faculties/sustainable-infrastructure/degree-programmes/sustainability-management-and-technologies-msc/",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "No minimum GPA set; for non-German applicants, Bachelor's GPA is a selection criterion in the orientation/selection process.",
+          "qualifying_degree": "Completed degree in business/economics, engineering, or natural sciences (business/economics focus) with at least 180 ECTS; relevant scientific/practical knowledge/experience; basic management/business administration knowledge; abstract/systemic thinking ability."
+        },
+        "language_requirements": {
+          "ielts": "English at B2 level; no specific IELTS score, but links to list of recognised English tests. German A1 required (provable until end of first semester)."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Summer semester 2027: 15 Oct 2026 - 15 Jan 2027 (online)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Non-EU/EEC applicants: EUR 1,200 per semester."
+        },
+        "exact_admission_regulations": "Online selection interview for shortlisted candidates (Oct 2026-Feb 2027); optional standardised test (GRE, GMAT, or dMAT for Indian applicants); Indian applicants need dMAT (EUR150) for APS/visa; THI does not work with agencies or request pre-admission payment."
       }
     },
     {
@@ -13381,6 +16237,23 @@ const DATABASE = {
         "contact_address": "Wilhelm-Leuschner Straße 13, 61169 Friedberg (Hessen), Germany",
         "course_website": "thm.de/wi/international/incoming/stem-msc",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10440/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.thm.de/site/en/education/courses-offered/sustainability-transformation-in-engineering-and-management-master.html (and thm.de/wi/international/incoming/stem-msc)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site.",
+          "qualifying_degree": "International applicants with Bachelor's degree from abroad; need university entrance qualification (HZB); indirect-HZB holders can gain direct entrance for engineering/CS at THM; direct-HZB or prep-college route via Pre-Study THM."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter semester: 1 Apr - 17 Jul; Summer semester: 1 Oct - 15 Jan."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site (unreliable third-party figure of ~EUR714/year should not be trusted)."
+        },
+        "exact_admission_regulations": "Restricted-admission (NC) program, 4 semesters full-time, taught in English at Friedberg campus; mentoring programme available for some subjects; THM Language Center offers German courses; recommend contacting stem@wi.thm.de for GPA/tuition/English specifics."
       }
     },
     {
@@ -13446,6 +16319,23 @@ const DATABASE = {
         "contact_address": "Kurt-Schumacher-Ring 18, 65197 Wiesbaden, Germany",
         "course_website": "https://www.hs-rm.de/en/engineering/degree-programs/masters-degrees/sustainable-and-digital-aviation",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10569/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-rm.de/en/engineering/degree-programs/masters-degrees/sustainable-and-digital-aviation",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated on the page.",
+          "qualifying_degree": "Bachelor's degree in STEM field (engineering, computer science, natural sciences); must work in an engineering/aviation-related role at least 20 hrs/week (part-time program); interest in sustainability, energy transition, digitalization, AI in aviation."
+        },
+        "language_requirements": {
+          "ielts": "Very good English at B2 level or higher required; no specific IELTS score listed."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "15 July for winter semester; 15 January for summer semester (same for German and foreign transcripts)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not mentioned on the page."
+        },
+        "exact_admission_regulations": "Restricted admission (numerus clausus); part-time program requiring concurrent employment; separate proof documents needed for German vs. international transcripts."
       }
     },
     {
@@ -13511,6 +16401,23 @@ const DATABASE = {
         "contact_address": "01062 Dresden",
         "course_website": "tu-dresden.de/mn/physik/studium/master-sep",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4388/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://tu-dresden.de/mn/physik/studium/master-sep",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found on official SEP page (page lacked admission requirement content).",
+          "qualifying_degree": "Reported (unofficial): first degree in physics, chemistry, electrical engineering, materials science, or related field."
+        },
+        "language_requirements": {
+          "ielts": "Conflicting unofficial figures: DAAD lists IELTS 7.0 overall (min 5 per section); a third-party listing says 6.5. Official page did not display this."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Reported (unofficial, third-party): no tuition fee, only semester contribution (~EUR300)."
+        },
+        "exact_admission_regulations": "Program being renamed for 2026/27 winter semester per TU Dresden's planned-changes page; aptitude assessment (Eignungsverfahren) regulations govern admission, handled by an Admissions Committee; official application/admission subpage (tu-dresden.de/mn/physik/studium/master-sep/application) exists but detailed content not retrievable in this session."
       }
     },
     {
@@ -13576,6 +16483,23 @@ const DATABASE = {
         "contact_address": "Munketoft 3b, 24937 Flensburg, Germany",
         "course_website": "https://www.uni-flensburg.de/sedev",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6085/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.uni-flensburg.de/sedev (and /sedev/admission)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site.",
+          "qualifying_degree": "Not explicitly listed beyond program name (M.Eng. in Sustainable Energy and Development)."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site (see /sedev/deadlines subpage, not retrievable in this session)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Application has three stages: online application, selection, and feedback; process graphic available as PDF on official site; recommend contacting department directly (Munketoft 3b, 24937 Flensburg, +49 461 805 2503)."
       }
     },
     {
@@ -13641,6 +16565,23 @@ const DATABASE = {
         "contact_address": "TU Dortmund University, Department of Electrical Engineering and Information Technology, 44227 Dortmund",
         "course_website": "etit.tu-dortmund.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8963/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (etit.tu-dortmund.de returned server error / insufficient admissions content)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site.",
+          "qualifying_degree": "Not found via official site."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Page navigation suggests an 'Information Application and...' subpage exists with these details, but it returned a server error (HTTP 500) when fetched."
       }
     },
     {
@@ -13706,6 +16647,23 @@ const DATABASE = {
         "contact_address": "Faculty of Civil Engineering, Mies-van-der-Rohe-Str. 1, 52074 Aachen, Germany",
         "course_website": "https://www.fb3.rwth-aachen.de/cms/bauingenieurwesen/Studium/Studiengaenge/Masterstudiengaenge/~ohjo/Sustainable-Management-Water-und-Energ/?lidx=1",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5229/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (fb3.rwth-aachen.de unreachable - connection refused)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site.",
+          "qualifying_degree": "Reported (unofficial): subject-specific prerequisite of ~19-20 CP in process engineering, energy technology, and water management (figures conflict across sources)."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site; program taught entirely in English per third-party sources."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Admission reported as local admission restriction with no entrance test/interview (unconfirmed); governed by course-specific examination regulation (Studiengangspezifische Prüfungsordnung); program ~4 semesters, starts winter semester."
       }
     },
     {
@@ -13771,6 +16729,23 @@ const DATABASE = {
         "contact_address": "Welcome Center, Alfons-Goppel-Platz 1, 95028 Hof, Germany",
         "course_website": "https://www.hof-university.com/studying-at-hof-university/our-degree-programs/sustainable-water-management-and-engineering-meng.html",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7220/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hof-university.com/studying-at-hof-university/our-degree-programs/sustainable-water-management-and-engineering-meng.html",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Minimum grade 2.5 on German scale for Bachelor's degree.",
+          "qualifying_degree": "Bachelor's degree or similar in engineering or natural sciences, at least 210 ECTS (or equivalent); minimum 5 credits each in environmental engineering, water technology, and chemistry (or equivalent)."
+        },
+        "language_requirements": {
+          "ielts": "TOEFL minimum 90, or IELTS 6.5 or above; German also required at minimum A1."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Winter semester: 15 Apr - 31 May (non-EU) / 1 May - 15 Jul (EU, per infobox - inconsistent). Summer semester: 5 Nov - 30 Nov (non-EU) / 15 Nov - 15 Jan (EU, per infobox)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "None (no tuition fee)."
+        },
+        "exact_admission_regulations": "Applicants with fewer than 210 ECTS can be admitted with a 20-week internship or additional Hof modules, requiring an extra (4th) semester; foreign certificates need uni-assist assessment; recommend sending documents 4 weeks before deadline; page's EU deadline info is internally inconsistent."
       }
     },
     {
@@ -13836,6 +16811,23 @@ const DATABASE = {
         "contact_address": "Schinkelstraße 2, 52062 Aachen, Germany",
         "course_website": "elektrotechnik.rwth-aachen.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5227/"
+      },
+      "official_website_data": {
+        "official_source_url": "Not found (elektrotechnik.rwth-aachen.de unreachable - connection refused)",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site.",
+          "qualifying_degree": "Not found via official site."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Could not reach official faculty website due to connection error; recommend retry or contacting RWTH EE/IT faculty directly."
       }
     },
     {
@@ -13901,6 +16893,23 @@ const DATABASE = {
         "contact_address": "Universitätsplatz 2, 39106 Magdeburg, Germany",
         "course_website": "https://www.sem.ovgu.de",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4827/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.sem.ovgu.de",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not stated in retrieved content (see 'Study Program at a Glance' section, not fully retrievable).",
+          "qualifying_degree": "Two applicant groups distinguished: international students without a German Bachelor's degree, and students with a German Bachelor's degree; no further prerequisites listed."
+        },
+        "language_requirements": {
+          "ielts": "Not stated; page mentions enrollment in a language course per language center requirements, but no English test thresholds given."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "International students without German Bachelor's (via uni-assist): 15 Apr or 15 Jun. Students with German Bachelor's (direct to university): 15 May or 15 Sep."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated in retrieved content."
+        },
+        "exact_admission_regulations": "Recommend checking 'Study Program at a Glance' section directly or contacting student advising for GPA/fee/English specifics."
       }
     },
     {
@@ -13966,6 +16975,23 @@ const DATABASE = {
         "contact_address": "Constantiaplatz 4, 26723 Emden, Germany",
         "course_website": "hs-emden-leer.de/en/current-students/faculties/technology/study-programs/technical-management",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3725/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-emden-leer.de/en/current-students/faculties/technology/study-programs/technical-management",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Not found via official site (page content truncated before program description).",
+          "qualifying_degree": "Not found via official site."
+        },
+        "language_requirements": {
+          "ielts": "Not found via official site."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Not found via official site (see 'Dates, Deadlines' subpage under Technology > Study, not retrieved)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not found via official site."
+        },
+        "exact_admission_regulations": "Page had an English version link ('DE | EN'); 'Enrolment process' page under Prospective Students and 'Immatrikulations- und Prüfungsamt' (admission office) are referenced but not retrieved in this session."
       }
     },
     {
@@ -14031,6 +17057,23 @@ const DATABASE = {
         "contact_address": "38855 Wernigerode",
         "course_website": "hs-harz.de/en/technology-and-innovation-management",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9682/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-harz.de/en/technology-and-innovation-management",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's GPA of 2.5 or better on German scale; overall first degree result must be 'Good' or better.",
+          "qualifying_degree": "First university degree of at least 180 ECTS (regular 4-semester track) or 210 ECTS (fast track, 3 semesters); degree related to industrial engineering, business informatics, technical management, or another engineering subject; at least 10 weeks relevant professional experience; letter of motivation (1-2 pages) required."
+        },
+        "language_requirements": {
+          "ielts": "B2 upper English level with recognized certificate; German recommended but not required."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Foreign degree (via uni-assist.de): winter 15 Jun, summer 15 Dec. German degree (via hs-harz.de): winter 15 Jul, summer 15 Jan."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Listed as 'n/a' on official page; separate page covers the semester contribution (not tuition per se)."
+        },
+        "exact_admission_regulations": "Restricted places; admission board weighs academic performance, language proficiency, and professional experience; winter 2026/27 admission process already closed; summer 2027 applications open early October."
       }
     },
     {
@@ -14096,6 +17139,23 @@ const DATABASE = {
         "contact_address": "Breitscheidstraße 2, Haus 4, Raum 0.08.1, 39114 Magdeburg",
         "course_website": "https://www.h2.de/en/studies/masters-programmes/water-engineering.html",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6349/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.h2.de/en/studies/masters-programmes/water-engineering.html",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Good or excellent university degree, minimum 2.0 in German grading system; must be completed in at least 7 semesters or 210 credits in Water Management, Civil Engineering, or strongly related field (180-credit holders can make up missing 30 credits in one semester before Master's starts).",
+          "qualifying_degree": "International, English-taught Master's aimed at graduates in Water Management, Civil Engineering, or closely related field. Page mentions unspecified 'special admission requirements.'"
+        },
+        "language_requirements": {
+          "ielts": "CEFR B2 level; accepted evidence: IELTS (5 points), Cambridge FCE (A-C), TOEIC (541 points), TOEFL iBT (87 points), UNIcert II, ALTE Level 3, or equivalent; exemptions for bilingual schooling, native speakers, or time at English-speaking institutions."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "Foreign qualifications via uni-assist: 30 November for summer semester (program start); admission granted end of January."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not mentioned on the page."
+        },
+        "exact_admission_regulations": "Program starts in summer semester, unusual for German master's programs (most start winter)."
       }
     },
     {
@@ -14161,6 +17221,23 @@ const DATABASE = {
         "contact_address": "Kanzleistr. 91-93, 24937 Flensburg",
         "course_website": "hs-flensburg.de/en/studieninteressierte/angebot/master/WE",
         "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/11121/"
+      },
+      "official_website_data": {
+        "official_source_url": "https://www.hs-flensburg.de/en/studieninteressierte/angebot/master/WE",
+        "admission_eligibility": {
+          "minimum_gpa_cutoff": "Bachelor's or Diplom grade of 'good' ('gut' in German system); if below, at least two favourable reference letters from professors required.",
+          "qualifying_degree": "Bachelor's or Diplom in Mechanical Engineering, Electrical Engineering, Electrical Energy Systems Engineering, or Renewable Energy Engineering; other fields admitted at admission board's discretion (possibly with additional classes); basic tech understanding and interest in teamwork suggested."
+        },
+        "language_requirements": {
+          "ielts": "No specific test/score listed; applicants must have 'good English skills' meeting program requirements."
+        },
+        "application_process": {
+          "winter_deadline_non_eu": "15 May for winter semester; 15 November for summer semester (first deadline recommended)."
+        },
+        "financial_costs": {
+          "tuition_non_eu": "Not stated; only mentions scholarship options (e.g. Deutschlandstipendium, EUR300/month)."
+        },
+        "exact_admission_regulations": "Entry depends on credit points: 180 CP bachelor's allows winter (1st semester) entry; 210 CP bachelor's needed for summer semester entry; non-German bachelor's applicants apply via uni-assist, German bachelor's/Diplom holders apply via online tool."
       }
     }
   ],
@@ -14226,7 +17303,3 @@ const DATABASE = {
     "RhineMain University — Career-integrated EE and Management — excluded: management-focused, not technical"
   ]
 };
-
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = DATABASE;
-}

@@ -279,6 +279,18 @@ h1{
   border-color: var(--accent);
   color: var(--accent);
 }
+.section-title{ display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+.src-tag{
+  font-size:.68rem;
+  font-weight:700;
+  padding:3px 9px;
+  border-radius:10px;
+  text-decoration:none;
+  white-space:nowrap;
+}
+.src-tag.daad{ background:rgba(91,140,255,.12); color:var(--accent); border:1px solid rgba(91,140,255,.3); }
+.src-tag.official{ background:rgba(62,207,142,.12); color:var(--good); border:1px solid rgba(62,207,142,.3); }
+.gpa-src-link{ font-size:.72rem; margin-left:8px; text-decoration:none; color:var(--danger); font-weight:600; }
 </style>
 </head>
 <body>
@@ -328,6 +340,13 @@ if (!prog) {
   const s = prog.services || {};
   const a = prog.about_university || {};
 
+  const daadUrl = (a.source_url && a.source_url.startsWith('http')) ? a.source_url : null;
+  const officialUrl = (prog.official_website_data && prog.official_website_data.official_source_url) ? prog.official_website_data.official_source_url : null;
+  const spoUrl = (prog.official_website_data && prog.official_website_data.official_spo_pdf) ? prog.official_website_data.official_spo_pdf : null;
+  const daadTag = daadUrl ? `<a class="src-tag daad" href="${daadUrl}" target="_blank" rel="noopener">🔗 সোর্স: DAAD পেজ</a>` : `<span class="src-tag daad" style="opacity:.5;">🔗 DAAD সোর্স নেই</span>`;
+  const officialTag = officialUrl ? `<a class="src-tag official" href="${officialUrl}" target="_blank" rel="noopener">🔗 সোর্স: ইউনিভার্সিটির অফিসিয়াল পেজ</a>` : `<span class="src-tag official" style="opacity:.5;">🔗 অফিসিয়াল সোর্স নেই</span>`;
+  const gpaSrcTag = spoUrl ? `<a class="gpa-src-link" href="${spoUrl}" target="_blank" rel="noopener">📄 সোর্স: SPO/PO রেগুলেশন PDF ↗</a>` : (officialUrl ? `<a class="gpa-src-link" href="${officialUrl}" target="_blank" rel="noopener">📄 সোর্স: অফিসিয়াল পেজ ↗</a>` : '');
+
   const fitClass = prog.gpa_fit || "unknown";
   const fitTitles = {
     good: "✅ Good fit (যোগ্যতার সাথে দারুন ম্যাচ)",
@@ -376,7 +395,7 @@ if (!prog) {
 
     <!-- Section 1: Overview -->
     <div class="section-block" id="sec-overview">
-      <div class="section-title"><span class="icon">📋</span> 1. Overview (সাধারণ পরিচিতি)</div>
+      <div class="section-title"><span><span class="icon">📋</span> 1. Overview (সাধারণ পরিচিতি)</span>${daadTag}</div>
       <div class="grid-info">
         <div class="info-item"><b>Degree Awarded</b><div class="val">${nf(o.degree_type)}</div></div>
         <div class="info-item"><b>Duration</b><div class="val">${nf(o.duration)}</div></div>
@@ -389,7 +408,7 @@ if (!prog) {
 
     <!-- Section 2: Course Details -->
     <div class="section-block" id="sec-course">
-      <div class="section-title"><span class="icon">📚</span> 2. Course Details & Curriculum</div>
+      <div class="section-title"><span><span class="icon">📚</span> 2. Course Details & Curriculum</span>${daadTag}</div>
       <div class="grid-info">
         <div class="info-item"><b>Combined Master's / PhD</b><div class="val">${nf(c.combined_masters_phd)}</div></div>
         <div class="info-item"><b>Joint / Double Degree</b><div class="val">${nf(c.joint_double_degree)}</div></div>
@@ -402,7 +421,7 @@ if (!prog) {
 
     <!-- Section 3: Costs / Funding -->
     <div class="section-block" id="sec-costs">
-      <div class="section-title"><span class="icon">💰</span> 3. Costs / Funding (ফি ও স্কলারশিপ)</div>
+      <div class="section-title"><span><span class="icon">💰</span> 3. Costs / Funding (ফি ও স্কলারশিপ)</span>${daadTag}</div>
       <div class="grid-info">
         <div class="info-item"><b>Tuition Fee</b><div class="val" style="color:var(--good);">${nf(f.tuition)}</div></div>
         <div class="info-item"><b>Semester Contribution Fee</b><div class="val">${nf(f.semester_fee)}</div></div>
@@ -415,12 +434,12 @@ if (!prog) {
 
     <!-- Section 4: Requirements / Registration -->
     <div class="section-block" id="sec-req">
-      <div class="section-title"><span class="icon">📝</span> 4. Requirements / Registration (ভর্তি ও ডেডলাইন)</div>
+      <div class="section-title"><span><span class="icon">📝</span> 4. Requirements / Registration (ভর্তি ও ডেডলাইন)</span>${daadTag}</div>
       <div class="grid-info">
         <div class="info-item"><b>Winter Intake Deadline</b><div class="val" style="color:var(--warn);">${nf(r.deadline_winter)}</div></div>
         <div class="info-item"><b>Summer Intake Deadline</b><div class="val">${nf(r.deadline_summer)}</div></div>
         <div class="info-item"><b>Submission Portal</b><div class="val">${nf(r.submission_portal)}</div></div>
-        <div class="info-item"><b>Minimum GPA Threshold</b><div class="val">${nf(r.gpa_requirement)}</div></div>
+        <div class="info-item"><b>Minimum GPA Threshold</b><div class="val">${nf(r.gpa_requirement)}${gpaSrcTag}</div></div>
         <div class="info-item"><b>Prerequisite Degree</b><div class="val">${nf(r.prerequisite_degree)}</div></div>
         <div class="info-item"><b>German Language Req</b><div class="val">${nf(r.german_requirement)}</div></div>
         <div class="info-item"><b>IELTS Academic Score</b><div class="val">${nf(r.ielts)}</div></div>
@@ -436,7 +455,7 @@ if (!prog) {
     <!-- Section: University Deep Info (Directly from University Official Website) -->
     ${prog.official_website_data ? `
     <div class="section-block" id="sec-official-data" style="border:1.5px solid var(--good);box-shadow:0 8px 30px rgba(62,207,142,.15);background:rgba(62,207,142,.03);">
-      <div class="section-title" style="color:var(--good);"><span class="icon">🏛️</span> অফিশিয়াল বিশ্ববিদ্যালয় ওয়েবসাইটের পূর্ণাঙ্গ ভর্তি ও প্রোগ্রাম ডেটা (Official Admission & Program Data)</div>
+      <div class="section-title" style="color:var(--good);"><span><span class="icon">🏛️</span> অফিশিয়াল বিশ্ববিদ্যালয় ওয়েবসাইটের পূর্ণাঙ্গ ভর্তি ও প্রোগ্রাম ডেটা (Official Admission & Program Data)</span>${officialTag}</div>
       
       <!-- Key Parameters Grid -->
       <div class="grid-info">
@@ -456,7 +475,7 @@ if (!prog) {
       <div class="grid-info" style="margin-bottom:12px;">
         <div class="info-item" style="grid-column: 1 / -1;"><b>Qualifying Degree</b><div class="val">${prog.official_website_data.admission_eligibility.qualifying_degree}</div></div>
         <div class="info-item"><b>Undergraduate ECTS Scope</b><div class="val">${prog.official_website_data.admission_eligibility.undergraduate_ects}</div></div>
-        <div class="info-item"><b>Minimum GPA Cutoff</b><div class="val" style="color:var(--danger);font-weight:700;">${prog.official_website_data.admission_eligibility.minimum_gpa_cutoff}</div></div>
+        <div class="info-item"><b>Minimum GPA Cutoff</b><div class="val" style="color:var(--danger);font-weight:700;">${prog.official_website_data.admission_eligibility.minimum_gpa_cutoff}${gpaSrcTag}</div></div>
         <div class="info-item"><b>Subject Prerequisites</b><div class="val">${prog.official_website_data.admission_eligibility.subject_prerequisites}</div></div>
         <div class="info-item"><b>Work Experience / GRE</b><div class="val">${prog.official_website_data.admission_eligibility.work_experience} | ${prog.official_website_data.admission_eligibility.aptitude_test_gre}</div></div>
       </div>
@@ -581,7 +600,7 @@ if (!prog) {
 
     <!-- Section 5: Services -->
     <div class="section-block" id="sec-services">
-      <div class="section-title"><span class="icon">🏠</span> 5. Services & Student Life</div>
+      <div class="section-title"><span><span class="icon">🏠</span> 5. Services & Student Life</span>${daadTag}</div>
       <div class="grid-info">
         <div class="info-item"><b>Accommodation Support</b><div class="val">${nf(s.accommodation)}</div></div>
         <div class="info-item"><b>Part-Time Work Opportunities</b><div class="val">${nf(s.part_time_work)}</div></div>
@@ -592,7 +611,7 @@ if (!prog) {
 
     <!-- Section 6: About the University -->
     <div class="section-block" id="sec-about">
-      <div class="section-title"><span class="icon">🏛️</span> 6. About the University & Contact Info</div>
+      <div class="section-title"><span><span class="icon">🏛️</span> 6. About the University & Contact Info</span>${daadTag}</div>
       <div class="grid-info">
         <div class="info-item"><b>Program Advisor / Contact</b><div class="val">${nf(a.contact_name)}</div></div>
         <div class="info-item"><b>Email</b><div class="val">${a.contact_email && a.contact_email!=='Not found' ? `<a href="mailto:${a.contact_email}" style="color:var(--accent);">${a.contact_email}</a>` : nf(a.contact_email)}</div></div>
