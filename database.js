@@ -34117,8 +34117,8 @@ const DATABASE = {
     "studienkolleg_note": "Not applicable — this only matters for HSC-only applicants; you already hold a completed BSc."
   },
   "gpa_conversion_info": {
-    "candidate_gpa": "2.8/4.0 (NSU, EEE)",
-    "german_scale_approx": "Using the modified Bavarian formula, 2.8/4.0 roughly converts to ~2.6–2.9 on the German 1.0(best)–4.0(worst) scale — weaker end of 'befriedigend' (satisfactory), bordering 'ausreichend' (sufficient). NOT in the 'gut' (good, ~2.0–2.5) range many competitive programs implicitly expect.",
+    "candidate_gpa": "2.83/4.0 (NSU, EEE — updated from latest Grade History, 133 credits passed)",
+    "german_scale_approx": "CORRECTED (earlier estimate used a non-standard formula and was too pessimistic). Using the official modified Bavarian formula with the standard Nmin=1.0 convention — German Grade = 1 + 3×(4.0-US_GPA)/(4.0-1.0) — a CGPA of 2.83/4.0 converts to approximately German 2.17-2.20 on the 1.0(best)-5.0(worst) scale. This IS within the 'gut' (good, ~2.0-2.5) range many German programs look for, not 'befriedigend' as previously stated. Different universities may use slightly different conventions, so treat this as a strong estimate, not a guarantee.",
     "pattern": "Few programs publish a hard numeric GPA cutoff, but recurring informal benchmarks (TU Dresden ~3.0/4.0, RUB ~3.0/4.0, RPTU ~3.5/4.0) suggest 2.8/4.0 sits at/slightly below the commonly-expected range, especially at TU9 schools (RWTH, KIT, TUM, TU Berlin).",
     "more_lenient_paths": "(1) Universities of Applied Sciences/Hochschulen (RWU, Reutlingen, Furtwangen, Esslingen) — weight practical/industry experience heavily; (2) 'aptitude/suitability assessment' programs rather than hard GPA cutoffs (Saarland, TUM); (3) conditional admission with catch-up modules for near-match degrees (FAU); (4) TU Chemnitz's notably lower B2/IELTS 5.5 bar suggests a less selective overall culture.",
     "weakest_fit": "TUHH Hamburg explicitly states only very-high-GPA applicants are admitted — clearest negative signal found. Use their free pre-check tool first.",
