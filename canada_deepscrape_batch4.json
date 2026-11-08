@@ -1,0 +1,357 @@
+[
+  {
+    "university": "École de technologie supérieure (ÉTS)",
+    "program_title": "Maîtrise en génie électrique (M.A.Sc. research profile)",
+    "official_url": "https://www.etsmtl.ca/programmes-formations/maitrise-genie-electrique",
+    "degree_type": "M.Sc.A. (thesis/research profile)",
+    "duration": "Normal: 6 full-time sessions (2 years); max 9 full-time/15 part-time sessions",
+    "admission_requirements": {
+      "gpa_requirement": "Cumulative average of at least 3.0/4.3 (M.Sc.A. thesis profile has no 2.8-3.0 review exception, unlike the M.Ing. project profile)",
+      "prior_degree": "Bachelor's or equivalent in electrical, mechanical, automated production, manufacturing, or industrial engineering, or related field",
+      "gre_required": "Not mentioned / Not required",
+      "other": "Applicants without the exact required degree may be admitted with equivalent knowledge/training/experience; remedial (propaedeutic) courses may be imposed if preparation judged insufficient."
+    },
+    "language_requirements": {
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "french_requirement": "Sufficient French proficiency required under ÉTS's language policy (M.Ing. is French-only)",
+      "exemptions": "For the M.Sc.A. (thesis) profile only, applicants may instead be admitted on sufficient English (English-language university diploma or English test) PROVIDED a supervisor agrees to supervise the thesis in English; must also complete a 3-credit French course outside the program."
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found (separate 'Coût des études' section exists but was not accessible in this pass)",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Program is 45 credits total (M.Sc.A.: 2 mandatory 0-credit workshops, 1 mandatory 3-credit activity, 12+ credits optional, 30-credit thesis)."
+    },
+    "deadlines": {
+      "fall": "August 1",
+      "winter": "December 1",
+      "notes": "Summer: April 1. Separate international-applicant deadlines exist on a linked page but were not captured in this pass."
+    },
+    "curriculum_notes": "Specialization areas include AI, power electronics, industrial control, microelectronics and micro-nanosystems, and computer vision. Facilities include ASIC/FPGA design software, an LTCC microfabrication lab, and a silicon photonics test bench. Exit options: short-program certificate after 15 credits, or DESS with added 15-credit project.",
+    "vlsi_rtl_relevance_notes": "No dedicated VLSI course list found on the main program page; microelectronics/micro-nanosystems is one of five listed specializations and ASIC/FPGA design tools are mentioned as available facilities, but specific course codes were not identified in this pass.",
+    "sources_consulted": [
+      "https://www.etsmtl.ca/programmes-formations/maitrise-genie-electrique"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "École Polytechnique de Montréal",
+    "program_title": "Maîtrise en génie électrique / M.A.Sc. Electrical Engineering",
+    "official_url": "https://www.polymtl.ca/admission/en/node/110",
+    "degree_type": "M.A.Sc. (research) or M.Eng. (course-based)",
+    "duration": "Not found (typically ~2 years full-time for MASc programs at Polytechnique, not independently confirmed this pass)",
+    "admission_requirements": {
+      "gpa_requirement": "Not found on the official page itself this pass; a Polytechnique internal document (moodle.polymtl.ca, undated) cites a general master's minimum average of 2.75/4.0 or 3.0/4.3, but this could not be confirmed as current or electrical-engineering-specific",
+      "prior_degree": "Undergraduate degree in engineering, or other certification deemed equivalent by Polytechnique Montréal",
+      "gre_required": "Not found",
+      "other": "Admissibility does not guarantee admission; research master's candidates must also secure a research supervisor's support before being admitted."
+    },
+    "language_requirements": {
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "french_requirement": "Primary language of instruction is French ('basic knowledge of the language is recommended' per official admissions page, not independently re-verified this pass due to a page-load failure)",
+      "exemptions": "Research-based programs (M.A.Sc./PhD) reportedly can be conducted in English via supervisor arrangement, similar to ÉTS — this is carried over from the prior sweep notes and was NOT independently re-confirmed in this deep-scrape pass because the official admissions page returned empty content on repeated fetch attempts."
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found. Third-party aggregator estimates range widely (CAD ~18,000-25,000/yr to CAD ~29,875 total for a different credential) and are NOT verified against the official site — treat as unreliable.",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Could not independently verify any tuition figure on polymtl.ca in this pass."
+    },
+    "deadlines": {
+      "fall": "Not found (one unverified third-party source cites March 1 / June 1 / November 15 for international graduate applications; not confirmed on official page)",
+      "winter": "Not found",
+      "notes": "Official admissions page (polymtl.ca/admission/en/node/110) returned empty/unreadable content on every fetch attempt in this pass despite being a valid, indexed URL."
+    },
+    "curriculum_notes": "Not found in this pass — official program-specific curriculum page was not successfully retrieved.",
+    "vlsi_rtl_relevance_notes": "Not found in this pass; Polytechnique Montréal is known to have microelectronics/VLSI-adjacent research groups per general reputation, but no specific course or lab was confirmed via official sources this pass.",
+    "sources_consulted": [
+      "https://www.polymtl.ca/admission/en/node/110"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Université de Sherbrooke",
+    "program_title": "Maîtrise en génie électrique (cours) — concentration Microélectronique et bio-ingénierie available",
+    "official_url": "https://www.usherbrooke.ca/genie/international/etudier-a-udes/programmes-reguliers/maitrise-de-type-cours/maitrise-de-type-cours-en-genie-electrique",
+    "degree_type": "M.Sc.A. (course-based, maîtrise de type cours)",
+    "duration": "Trimester-based; final integrative project ('projet d'essai') lasts 1-2 trimesters (4-8 months). Total program length not separately stated on this page.",
+    "admission_requirements": {
+      "gpa_requirement": "International regular candidates: engineering diploma at bac+5 level, average judged equivalent to 2,7/4,3 (specialty courses weighted more heavily than internship/research activities). UdeS graduates: minimum 2,7/4,3 cumulative average.",
+      "prior_degree": "Bachelor's/engineering diploma in electrical, computer, robotics engineering, or related engineering field (bac+5 level for international candidates)",
+      "gre_required": "Not mentioned",
+      "other": "Proof of the diploma required at program start for international candidates; specific disciplinary prerequisites may apply depending on track."
+    },
+    "language_requirements": {
+      "ielts": "Not mentioned on this page",
+      "toefl": "Not mentioned on this page",
+      "french_requirement": "Proof of sufficient French required if prior studies were in another language; attestation of language of instruction or a recognized test may be requested (linked list of accepted attestations, not itself retrieved)",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found — page links to separate tuition/cost-of-living pages not retrieved in this pass",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Page links to UdeS scholarship programs but no amounts given directly."
+    },
+    "deadlines": {
+      "fall": "International regular candidates: March 1 (all tracks, fall admission only)",
+      "winter": "Not applicable for international regular candidates (fall admission only); UdeS-graduate track allows winter at July 1 (international)",
+      "notes": "Other-Canadian-university candidates and dual-degree/international-regular candidates: fall-only admission, March 1 international deadline. No summer admission for any track."
+    },
+    "curriculum_notes": "Mainly advanced technical/scientific coursework ending in an integrative 'projet d'essai' in a research team or Quebec company focused on an industrial problem; funding possible but not guaranteed. Detailed course schedule is in linked PDFs not retrieved this pass. Required documents: CV, transcripts, motivation letter, professor recommendation form, French-language attestation if applicable.",
+    "vlsi_rtl_relevance_notes": "Program page itself does not mention VLSI/microelectronics in the retrieved text, but per the prior sweep notes, Université de Sherbrooke hosts the Interdisciplinary Institute of Technological Innovation (3IT) and the Laboratory of Nanotechnologies and Nanosystems (LN2, joint CNRS unit) — a strong microelectronics/VLSI research hub; Microelectronics and bio-engineering is listed elsewhere as one of two optional specialization fields for this program (not independently re-confirmed via official curriculum PDF in this pass).",
+    "sources_consulted": [
+      "https://www.usherbrooke.ca/genie/international/etudier-a-udes/programmes-reguliers/maitrise-de-type-cours/maitrise-de-type-cours-en-genie-electrique"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Université Laval",
+    "program_title": "Maîtrise en génie électrique (avec mémoire / M.Sc.)",
+    "official_url": "https://www.ulaval.ca/etudes/programmes/maitrise-en-genie-electrique",
+    "degree_type": "M.Sc. (thesis-based)",
+    "duration": "About 2 years full-time (estimated); full-time or part-time study allowed",
+    "admission_requirements": {
+      "gpa_requirement": "Cumulative average of at least 2.67/4.33, or equivalent",
+      "prior_degree": "Bachelor's in génie électrique, génie informatique, or génie physique, or equivalent diploma. Other science bachelor's degrees may be admitted but must complete a preparatory program (courses passed at B- / 2.67/4.33 minimum).",
+      "gre_required": "Not mentioned",
+      "other": "Meeting requirements does not guarantee admission — program director also weighs the full file and host lab's capacity/resources. Student must secure a thesis director during first registration session."
+    },
+    "language_requirements": {
+      "ielts": "Not mentioned",
+      "toefl": "Not mentioned",
+      "french_requirement": "Non-francophone applicants must score at least 361/699 on TCF-TP (and at least 8/20 on the writing section), OR pass FLS-2015 with a C or higher",
+      "exemptions": "Applicants who studied in French at primary/secondary level, or who hold a Québec DEC with the French exam, are exempt from the French test. English is NOT an admission requirement, but 'good ability to read English' is stated as needed for the program."
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found on this page",
+      "domestic_per_year_cad": "Not found on this page",
+      "notes": "Page refers to a separate 'Dates limites de dépôt' page for deadlines and presumably a separate tuition page, neither retrieved in this pass."
+    },
+    "deadlines": {
+      "fall": "Not specified exactly on this page (varies by application type)",
+      "winter": "Admission still possible for Winter 2027 per page text",
+      "notes": "Page refers to university's general 'Dates limites de dépôt' page for precise dates."
+    },
+    "curriculum_notes": "45 credits total; up to 16 credits of prior-learning recognition. Core courses: GEL-6001 (directed readings, 3 cr.), GEL-6500 (essai, 12 cr.), GSO-6082 (project management, 3 cr.). Final product is an 'essai' assessed by three internal examiners, no oral defence. Four optional concentrations (27 credits each, or none): Électrotechnique/électronique de puissance/commande industrielle; Communications optiques/photonique/métrologie; Radiocommunications et traitement de signal; Vision et systèmes numériques. Required docs: CV, letter of motivation, two assessment reports (non-Laval applicants), official French test results (non-francophones).",
+    "vlsi_rtl_relevance_notes": "Relevant courses found: GEL-7016 (Microélectronique numérique), GEL-7069 (Microélectronique analogique et mixte), GIF-7903 (Conception de systèmes numériques programmables / programmable digital systems design). No course explicitly titled 'VLSI' or 'embedded systems'. Laboratoire de vision et systèmes numériques is mentioned but not described as microelectronics-focused.",
+    "sources_consulted": [
+      "https://www.ulaval.ca/etudes/programmes/maitrise-en-genie-electrique"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Université du Québec en Outaouais (UQO)",
+    "program_title": "Maîtrise en génie électrique (profil avec mémoire) — specializations in power distribution networks and photonics/microelectronics",
+    "official_url": "https://etudier.uqo.ca/documents/programmes/PDF/7543.pdf",
+    "degree_type": "M.Ing./M.Sc. (thesis-based profile)",
+    "duration": "Not found precisely in this pass (45-credit master's program; typical UQO full-time duration ~2 years, not independently confirmed for program 7543)",
+    "admission_requirements": {
+      "gpa_requirement": "Minimum 3.0/4.3 cumulative average (per the related program 2071 text found via search: 'Être titulaire d'un baccalauréat en génie électrique ou en génie informatique, obtenu avec une moyenne cumulative d'au moins 3,0 (sur 4,3) ou l'équivalent')",
+      "prior_degree": "Bachelor's in electrical or computer engineering, or equivalent degree in a related field (e.g., project management, mathematics), assessed individually",
+      "gre_required": "Not mentioned",
+      "other": "Applicants lacking the standard background may be admitted with at least 15 additional university credits (min. 3.0/4.3 average), with bridging/preparatory coursework defined by the admissions committee case-by-case."
+    },
+    "language_requirements": {
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "french_requirement": "'Tous/tes les candidat·e·s doivent posséder une maîtrise suffisante du français qui répond à la politique linguistique de l'UQO' — applies to ALL applicants, not just domestic",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found on official sources this pass (a prior-sweep third-party aggregator figure of ~CAD 24,737/yr is UNVERIFIED and should not be relied upon)",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Direct PDF fetch of 7543.pdf returned only unreadable binary/compressed streams in this pass; information above is drawn from the related program-2071 text surfaced via search, which may differ slightly from program 7543's exact wording."
+    },
+    "deadlines": {
+      "fall": "Not found",
+      "winter": "Not found",
+      "notes": "Not found in this pass; official program PDF could not be read as text."
+    },
+    "curriculum_notes": "45-credit program leading to Maître ès sciences appliquées. Photonics/microelectronics named specialization courses include GEN6003 (photonic devices and materials, per related program 2071). Specializations: power distribution networks and photonics/microelectronics (per prior sweep notes).",
+    "vlsi_rtl_relevance_notes": "Photonics and microelectronics is one of two named specializations for this program per prior-sweep notes; GEN6003 (photonic devices and materials) identified as a relevant course in the related program-2071 listing, but this could not be directly confirmed for program code 7543 specifically in this pass.",
+    "sources_consulted": [
+      "https://etudier.uqo.ca/documents/programmes/PDF/7543.pdf",
+      "https://etudier.uqo.ca/documents/programmes/PDF/2071.pdf (related program, consulted via search for comparable admission language)"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Université du Québec à Trois-Rivières (UQTR)",
+    "program_title": "Maîtrise en génie électrique (avec mémoire) — program code 3824",
+    "official_url": "https://oraprdnt.uqtr.uquebec.ca/portail/docs/GSC885/O0006735300_GEGI___3824___Maitrise___2025.pdf",
+    "degree_type": "M.Sc. / M.Ing. (thesis-based)",
+    "duration": "Not found — PDF returned only unreadable binary/compressed data; outline indicated 11 pages covering Objectives, Special academic regulations, Study regime and duration, and Admission conditions, but none of these sections could be read as text.",
+    "admission_requirements": {
+      "gpa_requirement": "Not found. Could not be confirmed via official source in this pass despite the prior-sweep notes/third-party comparisons suggesting a figure in the 2.7-3.0/4.3 range (unverified for UQTR specifically).",
+      "prior_degree": "Not found via readable text this pass (program documented to exist, École d'ingénierie, code 3824, with-thesis profile, per prior sweep)",
+      "gre_required": "Not found",
+      "other": "Créneaux d'expertise scholarship for international engineering master's students reportedly exists per prior-sweep notes (2022 source, currency unverified)."
+    },
+    "language_requirements": {
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "french_requirement": "Program is French-medium per prior sweep notes; not independently re-confirmed via official text this pass",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Official program PDF is a scanned/compressed document (DynamicPDF-generated, created 2026-09-23) that could not be converted to readable text by the available tools in this pass."
+    },
+    "deadlines": {
+      "fall": "Not found",
+      "winter": "Not found",
+      "notes": "Not found. Contact listed in prior sweep notes: dir.cycles.sup.gegi@uqtr.ca"
+    },
+    "curriculum_notes": "Not found via readable text this pass.",
+    "vlsi_rtl_relevance_notes": "Not found via readable text this pass — no VLSI/microelectronics/embedded content could be confirmed or ruled out.",
+    "sources_consulted": [
+      "https://oraprdnt.uqtr.uquebec.ca/portail/docs/GSC885/O0006735300_GEGI___3824___Maitrise___2025.pdf"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Institut national de la recherche scientifique (INRS)",
+    "program_title": "Maîtrise en télécommunications (profil avec mémoire) — program code 3404",
+    "official_url": "https://inrs.ca/wp-content/uploads/3404-Maitrise-en-telecommunications-profil-avec-memoire-description-officielle.pdf",
+    "degree_type": "M.Sc. (thesis-based)",
+    "duration": "2 years full-time, 45 credits (33 for thesis per prior-sweep notes); mandatory research component ('Mémoire') listed at 27 credits in the PDF bookmark outline",
+    "admission_requirements": {
+      "gpa_requirement": "Not found as a specific number in readable text this pass",
+      "prior_degree": "Bachelor's in electrical engineering or equivalent (per prior sweep notes)",
+      "gre_required": "Not mentioned",
+      "other": "Elective block: choose 4 of a list of TEL-coded 3-credit courses (see curriculum notes). 12 mandatory credits including the required 'Mémoire' research component."
+    },
+    "language_requirements": {
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "french_requirement": "CONFLICTING official information found: INRS's degree-equivalency page states French proficiency is NOT a selection criterion for graduate admission, and admitted students get 2 years post-enrollment to reach working French via the International French Test. However, INRS's separate language-policy page states candidates who have not previously studied in French must provide an attestation of B2-level French to comply with Quebec's French Language Charter, and the program's own official description references the language policy (index 1-1) as an admission condition — it is unclear whether the B2 requirement applies at admission time or only post-enrollment.",
+      "exemptions": "Not found — recommend direct confirmation with INRS admissions on how the equivalency-page statement and the language-policy B2 requirement interact for this specific program."
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not found in this pass."
+    },
+    "deadlines": {
+      "fall": "Not found",
+      "winter": "Not found",
+      "notes": "Not found in this pass."
+    },
+    "curriculum_notes": "Elective courses (choose 4 of): TEL100 Digital signal processing, TEL101 Stochastic processes for signal processing, TEL102 Digital telecommunications, TEL122 Performance study, TEL130 Optimization, TEL221 Communication protocols, TEL222 Distributed systems engineering, TEL224 Protocol design, TEL241 Pattern recognition, TEL250 Speech communications, TEL260 Mobile radiocommunications, TEL261 Radiofrequency techniques, TEL262 Active circuits and microwave systems, TEL263 Fiber/wireless networks and entrepreneurial design, plus special-problems/seminar/directed-reading options (TEL300-355).",
+    "vlsi_rtl_relevance_notes": "No course explicitly titled VLSI, microelectronics, or embedded systems. Closest matches: TEL262 (Active circuits and microwave systems) and TEL261 (Radiofrequency techniques). Per prior-sweep notes, INRS confirms >60% of its student body is international from ~50 countries, and the institute is graduate/research-only (no undergrad programs) — adjacent to EE/ECE via wireless, optical, and sensor communications and ultrafast photonics.",
+    "sources_consulted": [
+      "https://inrs.ca/wp-content/uploads/3404-Maitrise-en-telecommunications-profil-avec-memoire-description-officielle.pdf",
+      "https://inrs.ca/en/studies/registrars-office/degree-equivalency/ (surfaced via search, re: French not being a selection criterion)"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "McMaster University",
+    "program_title": "Electrical and Computer Engineering (MASc, Co-op Available)",
+    "official_url": "https://www.eng.mcmaster.ca/ece/degree-options/electrical-and-computer-engineering-masc/",
+    "degree_type": "MASc (thesis-based)",
+    "duration": "2 years",
+    "admission_requirements": {
+      "gpa_requirement": "Anticipated admission range: minimum B+ (77-79%); not stated as a formal GPA cutoff on the program page",
+      "prior_degree": "Honours Bachelor's Degree (4 year) in Engineering, Sciences, or equivalent",
+      "gre_required": "Not mentioned / not required",
+      "other": "At least four graduate half-courses or equivalent (2+ at 700-level), plus thesis and oral defense. Must present a seminar and register for ECE 790: Graduate Seminars."
+    },
+    "language_requirements": {
+      "ielts": "6.5 overall, no section below 5.5 (per ECE's own English Language Requirements page, ece.mcmaster.ca)",
+      "toefl": "92 (internet-based), 237 (computer-based), or 580 (paper-based), with at least 20 in each section (per ECE's own English Language Requirements page)",
+      "french_requirement": "Not applicable",
+      "exemptions": "Note: McMaster's general international-student page separately states IELTS 6.5 overall / 6.0 minimum per component and does not accept TOEFL Essentials or MyBest scores — slightly different wording from the ECE-specific page; ECE-specific figures above should be treated as authoritative for this program."
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found on the program page",
+      "domestic_per_year_cad": "Not found on the program page",
+      "notes": "Program page refers to a separate 'How to Apply' page for tuition; not retrieved in this pass."
+    },
+    "deadlines": {
+      "fall": "Not found on the program page",
+      "winter": "Not found on the program page",
+      "notes": "Page refers to a separate 'How to Apply' page for deadlines."
+    },
+    "curriculum_notes": "Research areas: Biomedical information technology, Communications, Microelectronics, Networks, Signal Processing, Power Electronics & Electric Machines. Centre for Research in Micro- and Nano-systems offers fabrication, characterization, and integration facilities.",
+    "vlsi_rtl_relevance_notes": "'Microelectronics and VLSI' appears as a named research group in site navigation (not described in body text). 'Integrated, Embedded and Interconnected Systems' research group also appears in navigation. No VLSI/embedded-specific course titles found on this page.",
+    "sources_consulted": [
+      "https://www.eng.mcmaster.ca/ece/degree-options/electrical-and-computer-engineering-masc/",
+      "https://www.ece.mcmaster.ca/Grad_stuff/ECE_English_Language_Req.htm"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "McMaster University",
+    "program_title": "Electrical and Computer Engineering (MEng, Co-op Available)",
+    "official_url": "https://eng.mcmaster.ca/?p=24066",
+    "degree_type": "MEng (course-based)",
+    "duration": "16 months (full-time students can finish in about 1.5 years)",
+    "admission_requirements": {
+      "gpa_requirement": "Anticipated admission range: minimum B+ (77-79%); not stated as a formal GPA cutoff on the program page",
+      "prior_degree": "Honours Bachelor's Degree (4 year) in Engineering, Sciences, or equivalent",
+      "gre_required": "Not mentioned / not required",
+      "other": "Seven graduate half-courses or equivalent (at least four at 700-level, up to two 600-level courses approved by department). Must give a seminar, register for ECE 790, and defend a thesis/report orally (seminar graded Pass/Fail). Co-op option available: 4-12 months of work experience."
+    },
+    "language_requirements": {
+      "ielts": "6.5 overall, no section below 5.5 (per ECE's own English Language Requirements page)",
+      "toefl": "92 (internet-based), 237 (computer-based), or 580 (paper-based), with at least 20 in each section (per ECE's own English Language Requirements page)",
+      "french_requirement": "Not applicable",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found on the program page",
+      "domestic_per_year_cad": "Not found on the program page",
+      "notes": "Program page refers to a separate 'How to Apply' page for tuition."
+    },
+    "deadlines": {
+      "fall": "Not found on the program page",
+      "winter": "Not found on the program page",
+      "notes": "Page refers to a separate 'How to Apply' page for deadlines."
+    },
+    "curriculum_notes": "Page states program offers 'a wide range of specializations' without listing them explicitly. Research areas listed: biomedical information technology, computer-aided design, communications, computer engineering, image processing, microelectronics, microwaves and photonics, networks, signal processing.",
+    "vlsi_rtl_relevance_notes": "Same as MASc entry: 'Microelectronics and VLSI' and 'Integrated, Embedded and Interconnected Systems' research groups appear in ECE site navigation; Centre for Research in Micro- and Nano-systems offers fabrication/integration facilities. No specific VLSI/embedded course titles listed on this page; general ECE coursework is selectable toward these areas per prior-sweep notes.",
+    "sources_consulted": [
+      "https://eng.mcmaster.ca/?p=24066",
+      "https://www.ece.mcmaster.ca/Grad_stuff/ECE_English_Language_Req.htm"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universite de Moncton",
+    "program_title": "Maitrise es sciences appliquees (M.Sc.A.) - Genie electrique",
+    "official_url": "https://www.umoncton.ca/umcm-ingenierie-electrique/",
+    "degree_type": "M.Sc.A. (MASc equivalent, thesis-based)",
+    "duration": "2 years, 45 credits (30 credits thesis, 9 credits of 3 mandatory courses, 6 credits directed study in specialization) per prior-sweep notes",
+    "admission_requirements": {
+      "gpa_requirement": "Not found via official source in this pass",
+      "prior_degree": "Bachelor's degree in engineering (M.Sc.A. covers civil, electrical, and mechanical engineering)",
+      "gre_required": "Not mentioned",
+      "other": "Program built around a specialized research project; prepares students for both job market and doctoral studies. A dedicated graduate admissions brochure (umoncton.ca/fesr) exists but its PDF could not be read as text in this pass."
+    },
+    "language_requirements": {
+      "ielts": "Not applicable / not found",
+      "toefl": "Not applicable / not found",
+      "french_requirement": "Program is French-medium; Université de Moncton is the largest Canadian university entirely in French outside Quebec (per search results). Specific French-proficiency test/threshold for graduate admission not found in this pass.",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found precisely; university is described (via third-party/search context) as among the lowest-tuition Canadian universities for international students, but no specific CAD figure confirmed via official source",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not found via official tuition page in this pass."
+    },
+    "deadlines": {
+      "fall": "Not found via official source (a third-party aggregator states both fall and winter terms accept applications; unverified)",
+      "winter": "Not found via official source",
+      "notes": "Contact suggested: international@umoncton.ca per search results."
+    },
+    "curriculum_notes": "The official faculty page retrieved in this pass (umcm-ingenierie-electrique) primarily describes the undergraduate Bachelor's in Electrical Engineering (5-year, 162-credit program with regular, co-op, and industrial-systems/automation profiles) rather than the graduate M.Sc.A. Co-op profile: four paid 4-month internships, 10 semesters condensed into 9. No distinct graduate-program curriculum page was successfully retrieved in this pass.",
+    "vlsi_rtl_relevance_notes": "No VLSI, microelectronics, or embedded-systems course or research group named in the retrieved content. Closest named specialization areas are electronics ('électronique'), electrotechnology ('électrotechnique'), and communications — general, not VLSI-specific.",
+    "sources_consulted": [
+      "https://www.umoncton.ca/umcm-ingenierie-electrique/",
+      "https://www.umoncton.ca/fesr/sites/fesr.prod.umoncton.ca/files/wf/umoncton_sciences-appliquees.pdf"
+    ],
+    "scraped_on": "2026-11-08"
+  }
+]

@@ -263,5 +263,70 @@
     "official_url": "https://ie.edu/school-science-technology/news/ie-launches-master-in-software-engineering",
     "language_confirmation": "\"The 10-month English-language program will be held in person in Madrid.\"",
     "notes": "Software engineering (not hardware/RTL) — relevant to embedded-software-adjacent roles only; Tier C. IE University degrees are generally private/Propio titles; RUCT registration not confirmed, marked false/unknown pending verification. Find the current official program page on ie.edu for admissions/curriculum details (this citation is from IE's own news article, not the program's catalogue page, which could not be located directly)."
+  },
+  {
+    "university": "University of the Basque Country (UPV/EHU)",
+    "program_title": "Erasmus Mundus European Master for Industry in Microwave Electronics and Photonics (EMIMEP) — successor to EMIMEO",
+    "degree_type": "Erasmus Mundus Joint Master's Degree",
+    "ruct_registered": "unknown",
+    "department": "Department of Electricity and Electronics, Faculty of Science and Technology",
+    "city": "Bilbao (Year 2 specialization track; Year 1 at Limoges/Brescia)",
+    "tier_guess": "A",
+    "official_url": "https://ehu.eus/en/web/master/master-industry-microwave-electronics-photonics/accreditation (UPV/EHU partner page); consortium site erasmus-mundus.emimep.eu",
+    "language_confirmation": "Erasmus Mundus consortium page (erasmuscatalogue.com mirror of official EMIMEP info) states: 'Offered entirely in English and structured over two academic years (120 ECTS)' and lists 'Language of Instruction: English' in its key-details table. UPV/EHU is named as one of the four consortium partner universities (University of Limoges, University of Brescia, University of the Basque Country UPV/EHU, Friedrich Schiller University Jena), with Year 2 being a specialization at one chosen partner university.",
+    "international_students_confirmed": true,
+    "notes": "International admission confirmed via: 'EMIMEP invites students from around the world to gain experience at multiple European institutions.' Official BOE notice (Oct 2025, BOE-A-2025-19782) lists UPV/EHU as a participating university for this degree. Program is the renamed/relaunched version of the older Erasmus Mundus EMIMEO (Innovative Microwave Electronics and Optics) that UPV/EHU's Dept. of Electricity and Electronics previously promoted. UPV/EHU's own program page did not itself state the teaching language explicitly, so this entry relies on the consortium/partner-university page language; recommend a final direct check of erasmus-mundus.emimep.eu (WebFetch blocked by a certificate hostname mismatch) before treating as fully official-site-confirmed."
+  },
+  {
+    "university": "Harbour.Space University (Institute of Technology)",
+    "program_title": "Master's in Computer Science",
+    "degree_type": "MSc (private, unaccredited as Spanish official title - see notes)",
+    "ruct_registered": false,
+    "department": "Computer Science",
+    "city": "Barcelona",
+    "tier_guess": "B",
+    "official_url": "https://join.harbour.space/programmes/computer-science",
+    "language_confirmation": "Program listed with 'Language' field = 'English' on official harbour.space/join.harbour.space pages; Mastersportal aggregator also lists 'Taught in English'.",
+    "international_students_confirmed": true,
+    "notes": "Official page confirms discounted tuition tiers for 'Spanish and Thai nationals, as well as international students' implying international admission is standard. IMPORTANT CAVEAT: Wikipedia describes Harbour.Space as an unaccredited private institution that in 2025 transitioned from 'university' to 'Institute of Technology' status - it is NOT RUCT-registered as an official Spanish Máster Universitario. Include only if private/unaccredited credentials are acceptable to the research scope. Not purely Electrical/Electronics but Computer Science - borderline Tier B/C for this project's EE focus."
+  },
+  {
+    "university": "Harbour.Space University (Institute of Technology)",
+    "program_title": "Master's in Data Science",
+    "degree_type": "MSc (private, unaccredited - see notes)",
+    "ruct_registered": false,
+    "department": "Data Science",
+    "city": "Barcelona",
+    "tier_guess": "C",
+    "official_url": "https://harbour.space/barcelona/master/data-science",
+    "language_confirmation": "Listed as English-taught on official Harbour.Space program pages and aggregators (Mastersportal: 'Taught in English').",
+    "international_students_confirmed": true,
+    "notes": "Same institutional caveat as Computer Science entry above - not RUCT registered, private/unaccredited. Not EE-specific; included for completeness as it was explicitly requested to check carefully. Likely too tangential (data science, not EE) to be a strong match for this project."
+  },
+  {
+    "university": "Universitat Oberta de Catalunya (UOC) / joint with Universitat Rovira i Virgili (URV)",
+    "program_title": "University Master's Degree in Computational Engineering and Mathematics (Màster Universitari en Enginyeria Computacional i Matemàtica)",
+    "degree_type": "Máster Universitario (official, interuniversity online)",
+    "ruct_registered": "unknown",
+    "department": "Computational Engineering / Mathematics",
+    "city": "Online (Barcelona/Tarragona administration)",
+    "tier_guess": "C",
+    "official_url": "https://www.uoc.edu/en/studies/masters/masters-degree-computational-mathematical-engineering",
+    "language_confirmation": "Official UOC program page lists 'Language: English'. Student guide (slideshare, EIMT-UOC) states: 'the vehicular language for teaching the master is English.'",
+    "international_students_confirmed": true,
+    "notes": "Fully online program; URV is the degree-granting/coordinating university, UOC delivers teaching. Open to graduates in computer engineering, mathematics, telecommunications engineering, industrial engineering, statistics, physics. Not EE-specific (general computational engineering) - Tier C relevance at best. International/non-EU fee tiers shown on page implying international admission."
+  },
+  {
+    "university": "Universitat Rovira i Virgili (URV)",
+    "program_title": "University Master's Degree in Computer Security Engineering and Artificial Intelligence (Màster Universitari en Enginyeria de la Seguretat Informàtica i Intel·ligència Artificial)",
+    "degree_type": "Máster Universitario (official)",
+    "ruct_registered": "unknown",
+    "department": "School of Engineering (URV)",
+    "city": "Tarragona",
+    "tier_guess": "C",
+    "official_url": "https://www.urv.cat/en/studies/master/courses/computer-security-engineering/",
+    "language_confirmation": "Official URV program page explicitly states: 'Language of instruction: English.'",
+    "international_students_confirmed": false,
+    "notes": "Official page confirms English instruction explicitly ('Language of instruction: English') but does NOT explicitly confirm international-student admission on the page itself. Mentions non-EU degree-holders pay a one-time academic tax of €218.15 on first enrollment, which suggests non-EU/international students are accepted, but this is inferential, not an explicit admission statement. Per instruction, international_students_confirmed left as false/unconfirmed rather than assumed true -- recommend follow-up check of URV's 'International students' section before final inclusion. Program is computer/cybersecurity engineering, not core EE -- Tier C relevance at best."
   }
 ]

@@ -1,0 +1,15 @@
+[
+  {
+    "university": "University of the Basque Country (UPV/EHU)",
+    "program_title": "Erasmus Mundus European Master for Industry in Microwave Electronics and Photonics (EMIMEP) — successor to EMIMEO",
+    "degree_type": "Erasmus Mundus Joint Master's Degree",
+    "ruct_registered": "unknown",
+    "department": "Department of Electricity and Electronics, Faculty of Science and Technology",
+    "city": "Bilbao (Year 2 specialization track; Year 1 at Limoges/Brescia)",
+    "tier_guess": "A",
+    "official_url": "https://ehu.eus/en/web/master/master-industry-microwave-electronics-photonics/accreditation (UPV/EHU partner page); consortium site erasmus-mundus.emimep.eu",
+    "language_confirmation": "Erasmus Mundus consortium page (erasmuscatalogue.com mirror of official EMIMEP info) states: 'Offered entirely in English and structured over two academic years (120 ECTS)' and lists 'Language of Instruction: English' in its key-details table. UPV/EHU is named as one of the four consortium partner universities (University of Limoges, University of Brescia, University of the Basque Country UPV/EHU, Friedrich Schiller University Jena), with Year 2 being a specialization at one chosen partner university.",
+    "international_students_confirmed": true,
+    "notes": "International admission confirmed via: 'EMIMEP invites students from around the world to gain experience at multiple European institutions.' Official BOE notice (Oct 2025, BOE-A-2025-19782) lists UPV/EHU as a participating university for this degree. Program is the renamed/relaunched version of the older Erasmus Mundus EMIMEO (Innovative Microwave Electronics and Optics) that UPV/EHU's Dept. of Electricity and Electronics previously promoted. UPV/EHU's own program page did not itself state the teaching language explicitly, so this entry relies on the consortium/partner-university page language; recommend a final direct check of erasmus-mundus.emimep.eu (WebFetch blocked by a certificate hostname mismatch) before treating as fully official-site-confirmed."
+  }
+]

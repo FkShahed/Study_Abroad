@@ -1,0 +1,68 @@
+[
+  {
+    "university": "Harbour.Space University (Institute of Technology)",
+    "program_title": "Master's in Computer Science",
+    "degree_type": "MSc (private, unaccredited as Spanish official title - see notes)",
+    "ruct_registered": false,
+    "department": "Computer Science",
+    "city": "Barcelona",
+    "tier_guess": "B",
+    "official_url": "https://join.harbour.space/programmes/computer-science",
+    "language_confirmation": "Program listed with 'Language' field = 'English' on official harbour.space/join.harbour.space pages; Mastersportal aggregator also lists 'Taught in English'.",
+    "international_students_confirmed": true,
+    "notes": "Official page confirms discounted tuition tiers for 'Spanish and Thai nationals, as well as international students' implying international admission is standard. IMPORTANT CAVEAT: Wikipedia describes Harbour.Space as an unaccredited private institution that in 2025 transitioned from 'university' to 'Institute of Technology' status - it is NOT RUCT-registered as an official Spanish Máster Universitario. Include only if private/unaccredited credentials are acceptable to the research scope. Not purely Electrical/Electronics but Computer Science - borderline Tier B/C for this project's EE focus."
+  },
+  {
+    "university": "Harbour.Space University (Institute of Technology)",
+    "program_title": "Master's in Data Science",
+    "degree_type": "MSc (private, unaccredited - see notes)",
+    "ruct_registered": false,
+    "department": "Data Science",
+    "city": "Barcelona",
+    "tier_guess": "C",
+    "official_url": "https://harbour.space/barcelona/master/data-science",
+    "language_confirmation": "Listed as English-taught on official Harbour.Space program pages and aggregators (Mastersportal: 'Taught in English').",
+    "international_students_confirmed": true,
+    "notes": "Same institutional caveat as Computer Science entry above - not RUCT registered, private/unaccredited. Not EE-specific; included for completeness as it was explicitly requested to check carefully. Likely too tangential (data science, not EE) to be a strong match for this project."
+  },
+  {
+    "university": "Universitat Oberta de Catalunya (UOC) / joint with Universitat Rovira i Virgili (URV)",
+    "program_title": "University Master's Degree in Computational Engineering and Mathematics (Màster Universitari en Enginyeria Computacional i Matemàtica)",
+    "degree_type": "Máster Universitario (official, interuniversity online)",
+    "ruct_registered": "unknown",
+    "department": "Computational Engineering / Mathematics",
+    "city": "Online (Barcelona/Tarragona administration)",
+    "tier_guess": "C",
+    "official_url": "https://www.uoc.edu/en/studies/masters/masters-degree-computational-mathematical-engineering",
+    "language_confirmation": "Official UOC program page lists 'Language: English'. Student guide (slideshare, EIMT-UOC) states: 'the vehicular language for teaching the master is English.'",
+    "international_students_confirmed": true,
+    "notes": "Fully online program; URV is the degree-granting/coordinating university, UOC delivers teaching. Open to graduates in computer engineering, mathematics, telecommunications engineering, industrial engineering, statistics, physics. Not EE-specific (general computational engineering) - Tier C relevance at best. International/non-EU fee tiers shown on page implying international admission."
+  },
+  {
+    "university": "Universitat Rovira i Virgili (URV)",
+    "program_title": "University Master's Degree in Computer Security Engineering and Artificial Intelligence (Màster Universitari en Enginyeria de la Seguretat Informàtica i Intel·ligència Artificial)",
+    "degree_type": "Máster Universitario (official)",
+    "ruct_registered": "unknown",
+    "department": "School of Engineering (URV)",
+    "city": "Tarragona",
+    "tier_guess": "C",
+    "official_url": "https://www.urv.cat/en/studies/master/courses/computer-security-engineering/",
+    "language_confirmation": "Official URV program page explicitly states: 'Language of instruction: English.'",
+    "international_students_confirmed": false,
+    "notes": "Official page confirms English instruction explicitly ('Language of instruction: English') but does NOT explicitly confirm international-student admission on the page itself. Mentions non-EU degree-holders pay a one-time academic tax of €218.15 on first enrollment, which suggests non-EU/international students are accepted, but this is inferential, not an explicit admission statement. Per instruction, international_students_confirmed left as false/unconfirmed rather than assumed true -- recommend follow-up check of URV's 'International students' section before final inclusion. Program is computer/cybersecurity engineering, not core EE -- Tier C relevance at best."
+  },
+  {
+    "university": "Universitat Rovira i Virgili (URV)",
+    "program_title": "Master's Degree in Electric Vehicle Technologies",
+    "degree_type": "Máster Universitario (official, likely 'Máster Propio' - unconfirmed)",
+    "ruct_registered": "unknown",
+    "department": "School of Engineering (URV)",
+    "city": "Tarragona",
+    "tier_guess": "C",
+    "official_url": "https://www.urv.cat/en/studies/master/",
+    "language_confirmation": "NOT CONFIRMED on an official URV page in this sweep. Third-party aggregators (Mastersportal/Masterstudies) describe it as taught in English and note it is 'the first official master's degree in Spain specialising in electric cars,' but no official urv.cat program page with an explicit English-language statement was located/fetched in this session.",
+    "international_students_confirmed": false,
+    "notes": "EXCLUDED from firm confirmation per the project's strict rule requiring explicit English confirmation on an official page. Listed here only as a lead for follow-up: search urv.cat directly for the exact program URL and quote. Tier C (power electronics/EV, not core EE)."
+  }
+]
+

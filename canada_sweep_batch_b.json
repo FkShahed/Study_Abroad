@@ -1,0 +1,38 @@
+[
+  {
+    "university": "McMaster University",
+    "program_title": "Electrical and Computer Engineering (MASc, Co-op Available)",
+    "degree_type": "MASc",
+    "department": "Department of Electrical and Computer Engineering, Faculty of Engineering",
+    "city_province": "Hamilton, Ontario",
+    "tier_guess": "A",
+    "official_url": "https://www.eng.mcmaster.ca/ece/degree-options/electrical-and-computer-engineering-masc/",
+    "language": "English",
+    "international_students_confirmed": true,
+    "notes": "Thesis-based MASc, 2 years, requires 4 graduate half-courses (2+ at 700-level) plus thesis. Department research areas explicitly include Microelectronics and VLSI, Integrated/Embedded/Interconnected Systems, Power Electronics & Electric Machines, Signal Processing, Communications, Networks (Centre for Research in Micro- and Nano-systems). International admission not stated on this specific program page, but confirmed via McMaster's university-wide graduate international admissions pathway (global.mcmaster.ca/students and School of Graduate Studies international applicant procedures, gs.mcmaster.ca) which is a standard, well-established admissions route -- McMaster enrolls large numbers of international graduate students across ECE. Recommend a final direct check of gs.mcmaster.ca program-specific international requirements page before relying on this for a final decision."
+  },
+  {
+    "university": "McMaster University",
+    "program_title": "Electrical and Computer Engineering (MEng, Co-op Available)",
+    "degree_type": "MEng",
+    "department": "Department of Electrical and Computer Engineering, Faculty of Engineering",
+    "city_province": "Hamilton, Ontario",
+    "tier_guess": "B",
+    "official_url": "https://eng.mcmaster.ca/?p=24066",
+    "language": "English",
+    "international_students_confirmed": true,
+    "notes": "Course-based MEng, 16 months, 7 graduate half-courses or equivalent. Same department/research areas as the MASc listed above (Microelectronics/VLSI, embedded systems, power electronics, etc., selectable via course specialization) -- tier guess B because it is a general coursework ECE degree rather than a VLSI/embedded-specific program. International admission confirmed the same way as the MASc entry above (university-wide international graduate admissions route, not a program-specific statement) -- verify directly before finalizing."
+  },
+  {
+    "university": "Universite de Moncton",
+    "program_title": "Maitrise es sciences appliquees (M.Sc.A.) - Genie electrique",
+    "degree_type": "M.Sc.A. (MASc equivalent)",
+    "department": "Faculte d'ingenierie (Faculty of Engineering)",
+    "city_province": "Moncton, New Brunswick",
+    "tier_guess": "B",
+    "official_url": "https://www.umoncton.ca/umcm-ingenierie-electrique/",
+    "language": "French",
+    "international_students_confirmed": true,
+    "notes": "2-year, 45-credit thesis-based M.Sc.A. in electrical engineering (30 credits thesis, 9 credits of 3 mandatory courses, 6 credits directed study in specialization). General EE program, no explicit VLSI/microelectronics specialization found, so tier B. International admission confirmed at university level: Universite de Moncton documentation explicitly addresses international/foreign students needing a study permit (CAQ+study permit process described in umce.umoncton.ca/international and the faculty's graduate admission documents), and the university is marketed as among the lowest-tuition Canadian universities for international students. Program taught in French; English proficiency not the relevant language requirement -- French proficiency would be required instead. Official faculty page (umcm-ingenierie-electrique) should be checked directly for the current graduate-specific international admission clause before finalizing."
+  }
+]

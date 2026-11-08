@@ -8,7 +8,7 @@ const SPAIN_DB = {
       "Candidate list compiled by searching broadly across public and private Spanish universities, keeping ONLY programs whose official page explicitly confirms English as the language of instruction.",
       "Scope: VLSI/RTL/Microelectronics/Embedded Systems (Tier A), general Electrical/Telecom/Computer Engineering (Tier B), Mechatronics/Power/Management-adjacent (Tier C)."
     ],
-    "total_programs": 21,
+    "total_programs": 26,
     "description": "Spanish Master's programs (English-taught only) relevant to an RTL/VLSI/Embedded-focused EEE candidate, sourced directly from each university's official admissions pages."
   },
   "programs": [
@@ -1167,6 +1167,292 @@ const SPAIN_DB = {
         "the_world_rank": "Not researched yet"
       },
       "candidate_notes_source": "Software engineering (not hardware/RTL) — relevant to embedded-software-adjacent roles only; Tier C. IE University degrees are generally private/Propio titles; RUCT registration not confirmed, marked false/unknown pending verification. Find the current official program page on ie.edu for admissions/curriculum details (this citation is from IE's own news article, not the program's catalogue page, which could not be located directly)."
+    },
+    {
+      "id": "es-university-of-the-basque-country-upv-ehu-erasmus-mundus-european-master-for-industry-in-microwave-electronics-and-photonics-emimep-successor-to-emimeo-22",
+      "country": "Spain",
+      "title": "Erasmus Mundus European Master for Industry in Microwave Electronics and Photonics (EMIMEP) — successor to EMIMEO",
+      "university": "University of the Basque Country (UPV/EHU)",
+      "department": "Department of Electricity and Electronics, Faculty of Science and Technology",
+      "location": "Bilbao (Year 2 specialization track; Year 1 at Limoges/Brescia)",
+      "tier": "A",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "Grade requirement not published/found on official page.",
+      "overview": {
+        "degree_type": "Erasmus Mundus Joint Master's Degree (Master Universitario)",
+        "ruct_registered": "unknown",
+        "duration": "2 academic years (120 ECTS), based on consortium page references to 'first academic year' and 'second academic year'",
+        "language": "English",
+        "language_confirmation": "Erasmus Mundus consortium page (erasmuscatalogue.com mirror of official EMIMEP info) states: 'Offered entirely in English and structured over two academic years (120 ECTS)' and lists 'Language of Instruction: English' in its key-details table. UPV/EHU is named as one of the four consortium partner universities (University of Limoges, University of Brescia, University of the Basque Country UPV/EHU, Friedrich Schiller University Jena), with Year 2 being a specialization at one chosen partner university."
+      },
+      "course_details": {
+        "curriculum_notes": "Direct access to a detailed syllabus/course-list page was not achieved this session (accreditation page had only verification/RUCT documents; consortium site gave only partner/location structure, not module list). Known structural detail: Year 1 split between Limoges and Brescia; Year 2 specialization at a chosen partner (UPV/EHU Bilbao is one option), with 'Research and Industrial Week' (Cluj) and 'European Microwave Week' as cross-cohort events.",
+        "vlsi_rtl_relevance_notes": "Program core is microwave electronics and photonics (RF circuit design, microwave devices, photonic components, and their implementation in wired/wireless communications) per the consortium page's general description. This is strongly adjacent to RF/analog IC and photonic-IC design work, but a module-by-module curriculum (e.g., explicit RFIC, antenna, or photonic-integration course titles) could not be retrieved this session — syllabus pages behind EHU's site navigation ('Syllabus' link noted on the accreditation page) were not reachable/fetched."
+      },
+      "costs_funding": {
+        "tuition": "Not found on official pages. Third-party aggregators describe Erasmus Mundus scholarship holders receiving EUR 1,400/month for up to 24 months with enrolment fees covered, plus tuition waiver, travel/visa support, and health/travel insurance — but this is EM scholarship funding, not a stated base tuition figure, and is not independently verified against an official EMIMEP page this session. EUR/year (EU/EEA)",
+        "tuition_non_eu": "Not found",
+        "tuition_notes": "Self-funded (non-scholarship) applications are described as 'now open' on the consortium site, implying a self-pay track exists, but no fee amount was found. Erasmus Mundus scholarship competition is the primary funding route typically advertised for this consortium."
+      },
+      "requirements_registration": {
+        "grade_requirement": "Not found. No numeric GPA/grade threshold was published on any page reached (UPV/EHU accreditation page, EHU Erasmus Mundus apply page, or consortium emimeo.eu site).",
+        "prior_degree": "Program targets graduates in Electronics, Electrical Engineering, Telecommunications, Photonics, or Applied Physics (per third-party scholarship aggregator guides; not independently confirmed on an official page during this session).",
+        "entrance_exam": "Not found",
+        "credential_recognition_note": "Not found. No non-EU credential legalization/recognition requirement was stated on any page reached.",
+        "english_certificate_required": "Not explicitly confirmed on an official program page; third-party scholarship-aggregator guides (not official) list 'proof of English' among required documents alongside transcripts, CV, motivation letter, and references.",
+        "ielts": "Not found",
+        "toefl": "Not found",
+        "cambridge": "Not found",
+        "english_exemptions": "Not found",
+        "deadline_main_intake": "2026 cycle: EHU's own apply page states 'student applications are now open until Friday 13 March 2026.' A third-party guide cites a slightly different date (12 March 2026) for the general EMIMEP cycle — sources disagree by one day. Next full cycle (2027 intake) is reported by a third-party guide to open November 2026 with a March 2027 deadline, not yet officially published.",
+        "deadline_notes": "Erasmus Mundus scholarship application round for an earlier cycle was noted on the consortium site as opening '18 November 2024' with no closing date shown — this reference is for a prior admissions cycle and should not be relied on for 2026/27.",
+        "other_admission_notes": "Consortium: University of Limoges (coordinator), University of Brescia, UPV/EHU, Friedrich Schiller University Jena. Year 1: Limoges (semester) and Brescia (semester); Year 2: specialization at a chosen partner university including UPV/EHU (Bilbao). Students also attend a 'Research and Industrial Week' in Cluj (Year 1) and the 'European Microwave Week' at the start of Year 2."
+      },
+      "services": {},
+      "about_university": {},
+      "official_website_data": {
+        "official_source_url": "https://ehu.eus/en/web/master/master-industry-microwave-electronics-photonics/accreditation (UPV/EHU partner page); consortium site erasmus-mundus.emimep.eu",
+        "sources_consulted": [
+          "https://ehu.eus/en/web/master/master-industry-microwave-electronics-photonics/accreditation",
+          "https://www.ehu.eus/en/web/zientzia-teknologia-fakultatea/erasmus-mundus-apply",
+          "https://www.erasmus-master.emimeo.eu/",
+          "https://www.heysuccess.com/opportunity/European-Master-for-Industry-in-Microwave-Electronics-and-Photonics-(EMIMEP)-52702 (third-party, not an official source, used only for triangulation)",
+          "https://opportunityinside.com/scholarships/erasmus-mundus-emimep-scholarship-eu-2027.html (third-party, not an official source, used only for triangulation)"
+        ],
+        "scraped_on": "2026-11-08"
+      },
+      "ranking": {
+        "qs_world_rank": "Not researched yet",
+        "the_world_rank": "Not researched yet"
+      },
+      "candidate_notes_source": "International admission confirmed via: 'EMIMEP invites students from around the world to gain experience at multiple European institutions.' Official BOE notice (Oct 2025, BOE-A-2025-19782) lists UPV/EHU as a participating university for this degree. Program is the renamed/relaunched version of the older Erasmus Mundus EMIMEO (Innovative Microwave Electronics and Optics) that UPV/EHU's Dept. of Electricity and Electronics previously promoted. UPV/EHU's own program page did not itself state the teaching language explicitly, so this entry relies on the consortium/partner-university page language; recommend a final direct check of erasmus-mundus.emimep.eu (WebFetch blocked by a certificate hostname mismatch) before treating as fully official-site-confirmed."
+    },
+    {
+      "id": "es-harbour-space-university-institute-of-technology-master-s-in-computer-science-23",
+      "country": "Spain",
+      "title": "Master's in Computer Science",
+      "university": "Harbour.Space University (Institute of Technology)",
+      "department": "Computer Science",
+      "location": "Barcelona",
+      "tier": "B",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "Grade requirement not published/found on official page.",
+      "overview": {
+        "degree_type": "MSc (private, unaccredited as Spanish official title)",
+        "ruct_registered": false,
+        "duration": "Not explicitly stated as a total length; curriculum delivered in 3-week immersive modules rather than semesters. Degree is also offered at MEng level per the main harbour.space site.",
+        "language": "English",
+        "language_confirmation": "Program listed with 'Language' field = 'English' on official harbour.space/join.harbour.space pages; Mastersportal aggregator also lists 'Taught in English'."
+      },
+      "course_details": {
+        "curriculum_notes": "Core modules listed on the official programme page: Software Engineering (Java/Spring), Mobile Development, Modern Web Application, Modern Software Architectures, Distributed Systems & Clouds, Computer Networking. Teaching emphasis described as 80% practice / 20% theory, delivered in 3-week immersive modules.",
+        "vlsi_rtl_relevance_notes": "No VLSI/RTL/embedded/microelectronics content found — curriculum is software/web/distributed-systems focused, not hardware design. Low relevance to a VLSI/RTL background beyond general CS/software skills."
+      },
+      "costs_funding": {
+        "tuition": "Spanish citizens: €11,450 (50% off standard €22,900) if applying before 31 May 2026 for Sept 2026 start — discount tier, not a distinct EU-wide rate. EUR/year (EU/EEA)",
+        "tuition_non_eu": "International students: €17,125 (25% off standard €22,900) under the same early-application discount; standard/full tuition is €22,900 — currency not explicitly marked on the page but consistent with EUR elsewhere on the site.",
+        "tuition_notes": "Figures are per the Computer Science programme page; 'per year' framing is inferred since Harbour.Space does not structure in standard academic years — treat €22,900 as the base full-program/tier price referenced, not confirmed as strictly 'per year.' Early-bird discount deadline: 31 May 2026 for a September 2026 start."
+      },
+      "requirements_registration": {
+        "grade_requirement": "Not found — no GPA/grade threshold stated on official pages reached.",
+        "prior_degree": "Not explicitly stated for the Master's tier; the general admissions FAQ says technical programs (CS, Data Science, Front-end Development, Cyber Security) require 'a solid foundational knowledge of mathematics, statistics, and programming' and admission follows a 'holistic review' of preparedness and career potential, plus a Maths and Computer Science entrance test (per third-party Mastersportal listing, not confirmed on an official page this session) and a CV/diploma submission.",
+        "entrance_exam": "A 'Maths and Computer Science Test' is referenced by a third-party aggregator (Mastersportal) as part of the process; not confirmed directly on an official Harbour.Space page this session.",
+        "credential_recognition_note": "Not found",
+        "english_certificate_required": "Not found on official pages — no IELTS/TOEFL score was listed. A third-party Mastersportal summary explicitly states 'We are not aware of any English requirements for this programme,' which is a third-party inference, not an official confirmation of 'no requirement.'",
+        "ielts": "Not found",
+        "toefl": "Not found",
+        "cambridge": "Not found",
+        "english_exemptions": "Not found",
+        "deadline_main_intake": "Recommended start dates: 7 September 2026 (Barcelona) or 17 August 2026 (Bangkok campus). Rolling admission — 'you can start every three weeks throughout the year.'",
+        "deadline_notes": "Discounted tuition requires applying before 31 May 2026.",
+        "other_admission_notes": "Official process description (from join.harbour.space): submit application, attend an interview, receive a decision 'within a week.'"
+      },
+      "services": {},
+      "about_university": {},
+      "official_website_data": {
+        "official_source_url": "https://join.harbour.space/programmes/computer-science",
+        "sources_consulted": [
+          "https://join.harbour.space/programmes/computer-science",
+          "https://harbour.space/admissions",
+          "https://harbour.space/faq/what-admissions-criteria-does-harbourspace-use-to-select-its-students (referenced via search, not independently refetched)",
+          "https://www.mastersportal.com/studies/288800/computer-science.html (third-party aggregator, used only for triangulation)"
+        ],
+        "scraped_on": "2026-11-08"
+      },
+      "ranking": {
+        "qs_world_rank": "Not researched yet",
+        "the_world_rank": "Not researched yet"
+      },
+      "candidate_notes_source": "Official page confirms discounted tuition tiers for 'Spanish and Thai nationals, as well as international students' implying international admission is standard. IMPORTANT CAVEAT: Wikipedia describes Harbour.Space as an unaccredited private institution that in 2025 transitioned from 'university' to 'Institute of Technology' status - it is NOT RUCT-registered as an official Spanish Máster Universitario. Include only if private/unaccredited credentials are acceptable to the research scope. Not purely Electrical/Electronics but Computer Science - borderline Tier B/C for this project's EE focus."
+    },
+    {
+      "id": "es-harbour-space-university-institute-of-technology-master-s-in-data-science-24",
+      "country": "Spain",
+      "title": "Master's in Data Science",
+      "university": "Harbour.Space University (Institute of Technology)",
+      "department": "Data Science",
+      "location": "Barcelona",
+      "tier": "C",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "Grade requirement not published/found on official page.",
+      "overview": {
+        "degree_type": "MSc (private, unaccredited as Spanish official title)",
+        "ruct_registered": false,
+        "duration": "Not found as a total length. Original given URL returned HTTP 404 during this session; information below is drawn from the institution's general/parent site (harbour.space) describing the Data Science track generally, not this specific program page.",
+        "language": "English",
+        "language_confirmation": "Listed as English-taught on official Harbour.Space program pages and aggregators (Mastersportal: 'Taught in English')."
+      },
+      "course_details": {
+        "curriculum_notes": "Not found — program-specific curriculum could not be retrieved since the given URL 404'd. General site only names 'Data Science' as a track ('turning complex data into decisions and products') without a module list.",
+        "vlsi_rtl_relevance_notes": "Not found / likely low relevance — Data Science is a software/analytics track, not hardware-focused, consistent with the institution's general CS/Data Science/Cyber Security software-oriented curricula structure seen on the Computer Science program."
+      },
+      "costs_funding": {
+        "tuition": "Not found — the specific program page 404'd; general site shows only an 'Early Bird' promotion banner advertising €5,000 savings with no base figure disclosed. EUR/year (EU/EEA)",
+        "tuition_non_eu": "Not found",
+        "tuition_notes": "Could not confirm whether Data Science tuition matches the Computer Science program's referenced €22,900 base / discounted tiers (€17,125 international, €11,450 Spanish) since the Data Science page itself was unreachable (404)."
+      },
+      "requirements_registration": {
+        "grade_requirement": "Not found",
+        "prior_degree": "Not program-specific; general institutional FAQ states technical programmes require solid foundational math/stats/programming knowledge, with holistic review of applicant preparedness.",
+        "entrance_exam": "Not found (no program-specific confirmation; CS-track third-party listings mention a Maths/CS test, unconfirmed for Data Science specifically)",
+        "credential_recognition_note": "Not found",
+        "english_certificate_required": "Not found",
+        "ielts": "Not found",
+        "toefl": "Not found",
+        "cambridge": "Not found",
+        "english_exemptions": "Not found",
+        "deadline_main_intake": "Not found specific to Data Science. General site references upcoming Barcelona/Bangkok course sessions (e.g., 9 Nov–18 Dec 2026) and an Early Bird promotion, but no Data Science-specific intake date was retrieved.",
+        "deadline_notes": "Recommend re-attempting the original URL or searching Harbour.Space's current site map, since the given official_url is dead (404).",
+        "other_admission_notes": "The specific URL given (harbour.space/barcelona/master/data-science) returned a 404 Not Found when fetched directly; could not retrieve program-specific admission text. General harbour.space site confirms a 'Data Science' track exists at MEng/MSc/BEng/BSc levels."
+      },
+      "services": {},
+      "about_university": {},
+      "official_website_data": {
+        "official_source_url": "https://harbour.space/barcelona/master/data-science",
+        "sources_consulted": [
+          "https://harbour.space/barcelona/master/data-science (returned HTTP 404)",
+          "https://harbour.space/admissions",
+          "https://join.harbour.space/programmes/computer-science (used for institutional context only)"
+        ],
+        "scraped_on": "2026-11-08"
+      },
+      "ranking": {
+        "qs_world_rank": "Not researched yet",
+        "the_world_rank": "Not researched yet"
+      },
+      "candidate_notes_source": "Same institutional caveat as Computer Science entry above - not RUCT registered, private/unaccredited. Not EE-specific; included for completeness as it was explicitly requested to check carefully. Likely too tangential (data science, not EE) to be a strong match for this project."
+    },
+    {
+      "id": "es-universitat-oberta-de-catalunya-uoc-joint-with-universitat-rovira-i-virgili-urv-university-master-s-degree-in-computational-engineering-and-mathematics-m-ster-universitari-en-enginyeria-computacional-i-matem-tica-25",
+      "country": "Spain",
+      "title": "University Master's Degree in Computational Engineering and Mathematics (Màster Universitari en Enginyeria Computacional i Matemàtica)",
+      "university": "Universitat Oberta de Catalunya (UOC) / joint with Universitat Rovira i Virgili (URV)",
+      "department": "Computational Engineering / Mathematics",
+      "location": "Online (Barcelona/Tarragona administration)",
+      "tier": "C",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "Grade requirement not published/found on official page.",
+      "overview": {
+        "degree_type": "Máster Universitario (official, interuniversity online)",
+        "ruct_registered": "unknown",
+        "duration": "60 ECTS / 1 academic year full-time (per third-party aggregator breakdown: 18 ECTS compulsory + 24 ECTS electives + 18 ECTS final master's project = 60 ECTS); delivered fully online.",
+        "language": "English",
+        "language_confirmation": "Official UOC program page lists 'Language: English'. Student guide (slideshare, EIMT-UOC) states: 'the vehicular language for teaching the master is English.'"
+      },
+      "course_details": {
+        "curriculum_notes": "Per third-party aggregator breakdown: 18 ECTS compulsory core, 24 ECTS electives, 18 ECTS final master's project (60 ECTS total). Subject area: computational engineering and applied/computational mathematics (modelling, numerical methods, computational methods) rather than an EE/hardware program.",
+        "vlsi_rtl_relevance_notes": "Low direct relevance to VLSI/RTL/embedded/microelectronics — this is a computational/applied-mathematics and general computational-engineering program, not a hardware design degree. No microelectronics-specific coursework was found."
+      },
+      "costs_funding": {
+        "tuition": "Not found — direct program page could not be refetched this session (redirected to generic https://www.uoc.edu/en/studies). Third-party listings (yaq.es, educaweb.com) show only 'Request info' / 'Consultar precio' placeholders, no figure. EUR/year (EU/EEA)",
+        "tuition_non_eu": "Not found, though the program was previously noted (in the candidates file) to show distinct international/non-EU fee tiers on its official page — specific amounts were not re-extracted this session.",
+        "tuition_notes": "Recommend a fresh direct fetch of the official UOC program URL (it 301-redirected to the generic studies homepage during this session rather than serving the program page) to recover exact tuition figures."
+      },
+      "requirements_registration": {
+        "grade_requirement": "Not found — no numeric GPA/grade threshold located.",
+        "prior_degree": "Open to graduates in computer engineering, mathematics, telecommunications engineering, industrial engineering, statistics, or physics (per earlier-confirmed official UOC page text already in the candidates file; not independently re-extracted in full this session due to 301 redirect/404 issues on direct refetch).",
+        "entrance_exam": "Not found",
+        "credential_recognition_note": "Not found — non-EU credential legalization process not located on reachable pages.",
+        "english_certificate_required": "No formal certificate requirement found. A 2021/22 student guide (EIMT-UOC, via SlideShare) states 'the vehicular language for teaching the master is English' and that students must be able to read scientific-technical texts in English since some materials exist only in English — but this is informal guidance, not a stated IELTS/TOEFL/Cambridge threshold.",
+        "ielts": "Not found",
+        "toefl": "Not found",
+        "cambridge": "Not found",
+        "english_exemptions": "Not found",
+        "deadline_main_intake": "Not found this session.",
+        "deadline_notes": "Not found this session; prior candidate-file note referenced the program having distinct international fee tiers implying an established admissions calendar, but exact dates were not retrieved.",
+        "other_admission_notes": "URV is the degree-granting/coordinating university; UOC delivers the online teaching (joint interuniversity program)."
+      },
+      "services": {},
+      "about_university": {},
+      "official_website_data": {
+        "official_source_url": "https://www.uoc.edu/en/studies/masters/masters-degree-computational-mathematical-engineering",
+        "sources_consulted": [
+          "https://www.uoc.edu/en/studies/masters/masters-degree-computational-mathematical-engineering (301-redirected to https://www.uoc.edu/en/studies; program-specific content not recovered)",
+          "https://studies.uoc.edu/en/university-masters-degrees/computational-mathematical-engineering (301-redirected to https://www.uoc.edu/en/studies)",
+          "https://es.slideshare.net/eimtuoc/students-guide-mec-mat20212022 (student guide, third-party hosted, referenced via search for English-language note)"
+        ],
+        "scraped_on": "2026-11-08"
+      },
+      "ranking": {
+        "qs_world_rank": "Not researched yet",
+        "the_world_rank": "Not researched yet"
+      },
+      "candidate_notes_source": "Fully online program; URV is the degree-granting/coordinating university, UOC delivers teaching. Open to graduates in computer engineering, mathematics, telecommunications engineering, industrial engineering, statistics, physics. Not EE-specific (general computational engineering) - Tier C relevance at best. International/non-EU fee tiers shown on page implying international admission."
+    },
+    {
+      "id": "es-universitat-rovira-i-virgili-urv-university-master-s-degree-in-computer-security-engineering-and-artificial-intelligence-m-ster-universitari-en-enginyeria-de-la-seguretat-inform-tica-i-intel-lig-ncia-artificial-26",
+      "country": "Spain",
+      "title": "University Master's Degree in Computer Security Engineering and Artificial Intelligence (Màster Universitari en Enginyeria de la Seguretat Informàtica i Intel·ligència Artificial)",
+      "university": "Universitat Rovira i Virgili (URV)",
+      "department": "School of Engineering (URV)",
+      "location": "Tarragona",
+      "tier": "C",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "Grade requirement not published/found on official page.",
+      "overview": {
+        "degree_type": "Máster Universitario (official)",
+        "ruct_registered": "unknown",
+        "duration": "60 ECTS, one academic year; 10th edition runs 22/09/2026 to 16/06/2027. Offered in both face-to-face and online modes (40 total places, 20 per mode).",
+        "language": "English",
+        "language_confirmation": "Official URV program page explicitly states: 'Language of instruction: English.'"
+      },
+      "course_details": {
+        "curriculum_notes": "Covers information production/security, application security, machine learning, modelling, and problem-solving. Learning outcomes: designing safe intelligent systems, protecting information/user privacy, leading AI-based ICT projects, and conducting research in computer security and AI. No further page-level module breakdown was retrieved this session.",
+        "vlsi_rtl_relevance_notes": "Low direct relevance to VLSI/RTL/microelectronics — this is a cybersecurity + AI engineering program (software/systems security), not a hardware-design degree. Could be tangentially relevant to hardware-security/security-IP roles but no embedded or hardware-specific coursework was found."
+      },
+      "costs_funding": {
+        "tuition": "€1,308 (2026-27) for students from the EU, Iceland, Norway, Liechtenstein, Switzerland, Andorra, or Spanish residents. EUR/year (EU/EEA)",
+        "tuition_non_eu": "€2,913 (2026-27) for all other (non-EU) students, plus a one-time academic tax of €218.15 on first enrolment for holders of non-EU prior degrees.",
+        "tuition_notes": "Figures are official, confirmed on the URV program page directly."
+      },
+      "requirements_registration": {
+        "grade_requirement": "Not found on the main program page — page explicitly directs applicants to a separate 'Admission' section of the program site, which was not independently reached this session.",
+        "prior_degree": "Not stated in detail on the fetched page beyond general implication of a related engineering/CS background; see program's dedicated Admission section (not reached).",
+        "entrance_exam": "Not found",
+        "credential_recognition_note": "Not explicitly covered. Page states non-EU degree holders pay a one-time academic tax of €218.15 on first enrolment, which implies a credential-recognition/verification administrative step exists for non-EU applicants, but no explicit legalization/homologation process was described. Contact given: Student Office, +34 977 77 99 44.",
+        "english_certificate_required": "Not stated — page only confirms 'Language of instruction: English' without a certificate/score requirement.",
+        "ielts": "Not found",
+        "toefl": "Not found",
+        "cambridge": "Not found",
+        "english_exemptions": "Not found",
+        "deadline_main_intake": "Current cohort (10th edition) runs 22/09/2026–16/06/2027. Pre-registration for the 2027-28 academic course opens 'at the beginning of March 2027' — implying the 2026-27 cohort's own application window has already closed/was earlier in 2026.",
+        "deadline_notes": "No explicit historical deadline date for the current (2026-27) cohort was found; only the next cycle's pre-registration opening date is given.",
+        "other_admission_notes": "Pre-registration for the following (2027-28) academic course opens beginning of March 2027."
+      },
+      "services": {},
+      "about_university": {},
+      "official_website_data": {
+        "official_source_url": "https://www.urv.cat/en/studies/master/courses/computer-security-engineering/",
+        "sources_consulted": [
+          "https://www.urv.cat/en/studies/master/courses/computer-security-engineering/"
+        ],
+        "scraped_on": "2026-11-08"
+      },
+      "ranking": {
+        "qs_world_rank": "Not researched yet",
+        "the_world_rank": "Not researched yet"
+      },
+      "candidate_notes_source": "Official page confirms English instruction explicitly ('Language of instruction: English') but does NOT explicitly confirm international-student admission on the page itself. Mentions non-EU degree-holders pay a one-time academic tax of €218.15 on first enrollment, which suggests non-EU/international students are accepted, but this is inferential, not an explicit admission statement. Per instruction, international_students_confirmed left as false/unconfirmed rather than assumed true -- recommend follow-up check of URV's 'International students' section before final inclusion. Program is computer/cybersecurity engineering, not core EE -- Tier C relevance at best."
     }
   ],
   "aps_info": null,

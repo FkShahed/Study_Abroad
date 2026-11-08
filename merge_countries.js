@@ -5,7 +5,7 @@ function slugify(s){ return s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/
 
 // ---------- CANADA ----------
 const caCandidates = loadJSON('canada_candidates.json');
-const caDeep = [].concat(loadJSON('canada_deepscrape_batch1.json'), loadJSON('canada_deepscrape_batch2.json'), loadJSON('canada_deepscrape_batch3.json'));
+const caDeep = [].concat(loadJSON('canada_deepscrape_batch1.json'), loadJSON('canada_deepscrape_batch2.json'), loadJSON('canada_deepscrape_batch3.json'), loadJSON('canada_deepscrape_batch4.json'));
 
 function findDeep(deepArr, cand){
   return deepArr.find(d => d.university === cand.university && (d.program_title === cand.program_title || (d.official_url && cand.official_url && d.official_url === cand.official_url)))
@@ -104,7 +104,7 @@ caCandidates.forEach(cand => {
 
 // ---------- SPAIN ----------
 const esCandidates = loadJSON('spain_candidates.json');
-const esDeep = loadJSON('spain_deepscrape.json');
+const esDeep = [].concat(loadJSON('spain_deepscrape.json'), loadJSON('spain_deepscrape_batch2.json'));
 
 function gpaFitSpain(gradeReqRaw){
   if(!gradeReqRaw || /not found/i.test(gradeReqRaw)) return {fit:'unknown', note:'Grade requirement not published/found on official page.'};
