@@ -1449,16 +1449,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-coburg.de/en/study/master-programs/masters-degree-programs-in-engineering-computer-science/analytical-instruments-measurement-and-sensor-technology/faqs/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's in engineering/natural sciences with at least a 'good' or equivalent final grade (per official FAQ)",
-          "qualifying_degree": "Bachelor's graduates in engineering or natural sciences"
+          "qualifying_degree": "Bachelor's graduates in engineering or natural sciences",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering or natural sciences",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.0 (per aggregators); DAAD says proficiency at master's level required"
+          "ielts": "IELTS 6.0 (per aggregators); DAAD says proficiency at master's level required",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "~15 August for winter intake (per aggregator)"
+          "winter_deadline_non_eu": "~15 August for winter intake (per aggregator)",
+          "portal": "University's own online application portal (www3.primuss.de).",
+          "summer_deadline": "All applicants: 31 December",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "3,900 EUR/semester for international students (2,250 EUR/semester for partner-university students e.g. USST)"
+          "tuition_non_eu": "3,900 EUR/semester for international students (2,250 EUR/semester for partner-university students e.g. USST)",
+          "semester_contribution_fee": "About 160 EUR per semester, includes Coburg city bus tickets and trains to Bamberg and Bad Rodach",
+          "estimated_cost_of_living": "Blocked account showing 992 EUR/month for one year required for German visa; may be tight in larger cities",
+          "total_cost_per_semester": "International students: €3,900/semester; USST partner students: €2,250/semester; student service fee ~€110/semester (includes semester ticket)."
         },
         "exact_admission_regulations": "Official tuition figure notably higher than some aggregator claims of 'tuition-free'",
         "deep_recheck": {
@@ -1478,7 +1492,12 @@ const DATABASE = {
           "newly_found_info": "Found explicit tuition figures (€3,900/semester international; €2,250 for USST partner students) and the admission interview requirement (phone/Skype) with a ~4-week decision timeline - not previously in current_data. Also found explicit blocked-account estimate of €11,364/year (as of 08/2022, likely outdated).",
           "corrections": [],
           "notes": "No VPD/uni-assist requirement found for this program; it uses its own direct application + mandatory interview process instead."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Faculty of Applied Sciences and Health",
+        "intake_semester": "Winter",
+        "teaching_language": "English, including Master's thesis"
       }
     },
     {
@@ -1549,16 +1568,30 @@ const DATABASE = {
         "official_source_url": "https://www.hof-university.com (Hof University AI and Robotics MSc page - not directly fetched)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No confirmed official cutoff; one aggregator suggests 55%/CGPA 5.5/10 as recommended minimum",
-          "qualifying_degree": "Bachelor's graduates in engineering/CS with AI/robotics background"
+          "qualifying_degree": "Bachelor's graduates in engineering/CS with AI/robotics background",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Computer science, engineering, or natural sciences with IT fundamentals",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.5 / TOEFL iBT 90 (per multiple aggregators, not confirmed on official page)"
+          "ielts": "IELTS 6.5 / TOEFL iBT 90 (per multiple aggregators, not confirmed on official page)",
+          "toefl_ibt": "TOEFL iBT (before 2026): 90",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 required (Goethe-Zertifikat A1, ÖSD Zertifikat A1, telc Deutsch A1)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Two-step: uni-assist VPD assessment first (foreign degrees), then separate application to Hof University's own online portal.",
+          "summer_deadline": "5-30 November (all countries)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Tuition-free for all nationalities (public German university); ~450 EUR admin/semester fee"
+          "tuition_non_eu": "Tuition-free for all nationalities (public German university); ~450 EUR admin/semester fee",
+          "semester_contribution_fee": "Administrative fee of about 150 EUR per semester",
+          "estimated_cost_of_living": "About 800-1,000 EUR/month total: accommodation 350-550 EUR, mandatory health insurance ~120 EUR, food/personal expenses at least 350 EUR",
+          "total_cost_per_semester": "Not confirmed."
         },
         "exact_admission_regulations": "3 semesters, 210 ECTS, taught in English; summer semester applications via uni-assist",
         "deep_recheck": {
@@ -1585,7 +1618,12 @@ const DATABASE = {
             }
           ],
           "notes": "STILL UNRESOLVED: could not reach the actual official program page for this entry (URL in current_data is just the university homepage, not fetchable as a specific program page). Recommend manual lookup of the correct Hof University program URL in a follow-up pass."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time only",
+        "faculty_institute": "Not listed",
+        "intake_semester": "Summer",
+        "teaching_language": "English (all modules)"
       }
     },
     {
@@ -1656,16 +1694,30 @@ const DATABASE = {
         "official_source_url": "https://rptu.de/studienangebot/22925/Automation_%26_Control_(A%26C)-Elektrotechnik_und_Informationstechnik-master?lang=en",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official cutoff confirmed; aggregators cite ~2.5 German-equivalent GPA (unverified)",
-          "qualifying_degree": "Bachelor's in Electrical Engineering or equivalent related field"
+          "qualifying_degree": "Bachelor's in Electrical Engineering or equivalent related field",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering or related",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Recommended but not required"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.0 / TOEFL iBT 79 per aggregators; TOEFL or IELTS accepted, GRE recommended per DAAD"
+          "ielts": "IELTS 6.0 / TOEFL iBT 79 per aggregators; TOEFL or IELTS accepted, GRE recommended per DAAD",
+          "toefl_ibt": "TOEFL iBT (since 2026): 4.5 overall, 4.5 each section; TOEFL iBT (before 2026): 80 overall, 20 each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "~15 July for winter intake (varies by country of prior degree)"
+          "winter_deadline_non_eu": "~15 July for winter intake (varies by country of prior degree)",
+          "portal": "Two routes: German qualification -> studium.rptu.de; Foreign qualification -> rptu.de/international/master/prospective-students/application-admission.",
+          "summer_deadline": "1 May to 31 October (all countries)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fees; ~285 EUR/semester contribution"
+          "tuition_non_eu": "No tuition fees; ~285 EUR/semester contribution",
+          "semester_contribution_fee": "350 EUR per semester, includes Deutschland-Semesterticket, canteen discounts, university sports",
+          "estimated_cost_of_living": "About 850 EUR per month; assessment fee 60 EUR; recommended German language/orientation course 800 EUR",
+          "total_cost_per_semester": "Not stated on this page."
         },
         "exact_admission_regulations": "Official RPTU page located but detailed requirements not directly confirmed via fetch",
         "deep_recheck": {
@@ -1685,7 +1737,12 @@ const DATABASE = {
           "newly_found_info": "Confirmed explicitly that this program has NO admission restriction and NO aptitude test - a positive, previously-unconfirmed detail for applicant planning.",
           "corrections": [],
           "notes": "This program's main page is mostly a navigation hub; the dedicated foreign-qualification application subpage (rptu.de/international/master/prospective-students/application-admission) should be fetched in a follow-up pass to confirm/deny VPD/uni-assist use definitively - this was not reached this round due to time constraints."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time, 120 ECTS",
+        "faculty_institute": "Department of Electrical Engineering and Information Technology (EIT)",
+        "intake_semester": "Winter",
+        "teaching_language": "English (core programme English-only; electives/thesis English or German)"
       }
     },
     {
@@ -2251,16 +2308,30 @@ const DATABASE = {
         "official_source_url": "https://ika.rwth-aachen.de (RWTH Aachen Automotive Engineering MSc)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Conflicting figures across aggregators: GPA/aggregate 3.0-3.5 or similar; no official figure confirmed",
-          "qualifying_degree": "Bachelor's (or equivalent) in mechanical engineering or automotive engineering, with specific subject credit-point requirements"
+          "qualifying_degree": "Bachelor's (or equivalent) in mechanical engineering or automotive engineering, with specific subject credit-point requirements",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Mechanical or automotive engineering with specific credit distribution",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Required for non-EU/non-EEA applicants: Verbal Reasoning 145, Quantitative Reasoning 160, Analytical Writing 3. Exempt: EU/EEA citizens and students from German universities of any nationality."
         },
         "language_requirements": {
-          "ielts": "IELTS 6.0 generally cited (TOEFL iBT 90, PTE 60); one source says GRE required for non-EU"
+          "ielts": "IELTS 6.0 generally cited (TOEFL iBT 90, PTE 60); one source says GRE required for non-EU",
+          "toefl_ibt": "TOEFL iBT (before 2026): 90 total (Reading 18, Listening 17, Speaking 20, Writing 17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Non-EU applicants face earlier cut-off than commonly cited July date; program attracts high applicant volume"
+          "winter_deadline_non_eu": "Non-EU applicants face earlier cut-off than commonly cited July date; program attracts high applicant volume",
+          "portal": "Unconfirmed - conflicting claims between direct RWTH portal and uni-assist route.",
+          "summer_deadline": "Not offered (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Free for non-EU (semester contribution ~300 EUR, includes regional transport ticket)"
+          "tuition_non_eu": "Free for non-EU (semester contribution ~300 EUR, includes regional transport ticket)",
+          "semester_contribution_fee": "About 350 EUR per semester; covers student union/social services fees; includes semester ticket for public transport across Germany (excluding high-speed/long-distance), some buses into Belgium/Netherlands",
+          "estimated_cost_of_living": "At least 1,100 EUR per month (13,200 EUR/year) including rent, insurance, living expenses",
+          "total_cost_per_semester": "Not confirmed this pass."
         },
         "exact_admission_regulations": "3-semester MSc; official ika/RWTH pages not directly fetched due to tool limits",
         "deep_recheck": {
@@ -2280,7 +2351,12 @@ const DATABASE = {
           "newly_found_info": "None confirmed with high confidence; all info this pass comes from conflicting third-party aggregators since the official RWTH IKA page (ika.rwth-aachen.de) could not be reached/fetched.",
           "corrections": [],
           "notes": "STILL UNRESOLVED/UNREACHABLE: current_data's official_source_url (ika.rwth-aachen.de) was not successfully fetched this pass (noted in current_data itself as 'not directly fetched'). This program needs a dedicated follow-up fetch of the actual RWTH IKA/Faculty admissions page to resolve VPD status, language scores, and deadlines with confidence."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time only",
+        "faculty_institute": "Institute for Automotive Engineering (ika), Faculty of Mechanical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English (German helpful but not required; electives available in German for proficient students)"
       }
     },
     {
@@ -2351,16 +2427,30 @@ const DATABASE = {
         "official_source_url": "https://thi.de/en/studies/degree-programmes/details/automotive-production-engineering-meng",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official GPA cutoff confirmed; requires successful aptitude test (Eignungsverfahren)",
-          "qualifying_degree": "Bachelor's in industrial engineering, mechanical engineering, automotive engineering, or mechatronics (min. 210 ECTS)"
+          "qualifying_degree": "Bachelor's in industrial engineering, mechanical engineering, automotive engineering, or mechatronics (min. 210 ECTS)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Production, mechanical, industrial, or mechatronics engineering, 210 ECTS",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "English B2 level or higher required; no specific IELTS score confirmed"
+          "ielts": "English B2 level or higher required; no specific IELTS score confirmed",
+          "toefl_ibt": "TOEFL iBT (before 2026): 72 total (18/17/20/17); TOEFL iBT (since 2026): 4 total, minimum 4 each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "~15 January for summer intake (per aggregator)"
+          "winter_deadline_non_eu": "~15 January for summer intake (per aggregator)",
+          "portal": "International applicants: uni-assist (producing VPD) then THI's own portal. Indian applicants in certain fields must also submit the Digital Master Test (dMAT, €150) results.",
+          "summer_deadline": "15 October to 15 January (all countries)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Free for EU/German students; ~500 EUR/semester for third-country students (older figure of 1,200 EUR/semester unconfirmed)"
+          "tuition_non_eu": "Free for EU/German students; ~500 EUR/semester for third-country students (older figure of 1,200 EUR/semester unconfirmed)",
+          "semester_contribution_fee": "82 EUR per semester for student union (coverage not stated)",
+          "estimated_cost_of_living": "Health insurance ~150 EUR, liability insurance ~10 EUR, accommodation ~500-650 EUR, internet/mobile ~25 EUR, food ~200-300 EUR, broadcasting fee ~19 EUR, public transport (Deutschlandticket 2026) ~43 EUR; blocked account ~992 EUR/month for up to 12 months",
+          "total_cost_per_semester": "€1,200/semester for non-EU/EEC applicants (confirmed, matches current_data)."
         },
         "exact_admission_regulations": "3 semesters per THI's own page (one aggregator incorrectly states 18 months); capacity ~30 students/year",
         "deep_recheck": {
@@ -2387,7 +2477,12 @@ const DATABASE = {
             }
           ],
           "notes": "Second clear VPD confirmation at a THI program (same university as the user-flagged FH Dortmund miss, though different institution) - reinforces that THI consistently requires VPD across its master's programs for foreign-degree applicants."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time",
+        "faculty_institute": "Faculty of Engineering and Management",
+        "intake_semester": "Summer",
+        "teaching_language": "English"
       }
     },
     {
@@ -2458,16 +2553,30 @@ const DATABASE = {
         "official_source_url": "https://ostfalia.de/en/f/master/automotive-service-technology-and-processes (via DAAD listing)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official GPA cutoff confirmed on university site; one third-party guide cites 2.5 German-equivalent (unverified)",
-          "qualifying_degree": "Bachelor's or equivalent in a related technical field, plus minimum 1 year practical experience in a technical field"
+          "qualifying_degree": "Bachelor's or equivalent in a related technical field, plus minimum 1 year practical experience in a technical field",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Related technical field, 210 ECTS standard",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Good English skills required per DAAD; no specific IELTS score confirmed for ASTP itself"
+          "ielts": "Good English skills required per DAAD; no specific IELTS score confirmed for ASTP itself",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 at application (e.g. Goethe-Zertifikat A1); B1 required before internship (during/after 3rd semester); free course provided. Note: programme description says A2 at application, which conflicts with A1 requirement stated elsewhere."
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter-semester intake; program limited to 25 students"
+          "winter_deadline_non_eu": "Winter-semester intake; program limited to 25 students",
+          "portal": "Appears to be direct Ostfalia portal application, with uni-assist VPD possibly accepted/required as a prerequisite document if the applicant has one, per general Ostfalia policy - not confirmed as ASTP-specific.",
+          "summer_deadline": "Not offered (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "DAAD lists actual tuition: 1,400 EUR one-time registration + 4,900 EUR (sem 1-2) + 3,900 EUR (sem 3); conflicts with general Ostfalia 'no tuition' claim"
+          "tuition_non_eu": "DAAD lists actual tuition: 1,400 EUR one-time registration + 4,900 EUR (sem 1-2) + 3,900 EUR (sem 3); conflicts with general Ostfalia 'no tuition' claim",
+          "semester_contribution_fee": "234 EUR student services fee (coverage not stated)",
+          "estimated_cost_of_living": "15,542 to 20,082 EUR over 18 months; estimated total (tuition+living) 30,642-35,182 EUR; blocked account 11,904 EUR (~992 EUR/month) for 12 months (effective 1 Jan 2025)",
+          "total_cost_per_semester": "€1,400 one-time registration fee plus tuition of €4,900/€4,900/€3,900 across the 3 semesters (per visaflow and DAAD listing cross-check)."
         },
         "exact_admission_regulations": "Free German course offered to ASTP students; 3-semester program",
         "deep_recheck": {
@@ -2487,7 +2596,12 @@ const DATABASE = {
           "newly_found_info": "Exact tuition breakdown (€1,400 registration + €4,900/€4,900/€3,900 per semester) found - more detailed than likely present in current_data.",
           "corrections": [],
           "notes": "GAP: The dedicated Ostfalia 'Guide_ASTP-application-process_EN.pdf' - the most likely authoritative source for VPD/uni-assist status - could not be read this pass (binary PDF content wasn't extractable via WebFetch). Recommend a follow-up with a PDF-text-extraction tool or the 'ASTP_Admissionregulations_EN.pdf' for a definitive VPD answer, since conflicting deadline/language info across third-party sources could not be resolved."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time only",
+        "faculty_institute": "Faculty of Automotive Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%); free German course available"
       }
     },
     {
@@ -2558,16 +2672,30 @@ const DATABASE = {
         "official_source_url": "https://hs-coburg.de/en/study/master-programs/masters-degree-programs-in-engineering-computer-science/autonomous-driving",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "GPA requirement of 2.5 cited by one aggregator (grading scale unclear, possibly German scale)",
-          "qualifying_degree": "Bachelor's in engineering, computer science, or physics (per aggregator, min. ~60%)"
+          "qualifying_degree": "Bachelor's in engineering, computer science, or physics (per aggregator, min. ~60%)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Automotive engineering, mechatronics, IT/CS, mechanical/electrical engineering, physics, or related",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 5.5 floor cited by one aggregator; B2-level English generally required"
+          "ielts": "IELTS 5.5 floor cited by one aggregator; B2-level English generally required",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "International applicants: uni-assist certificate evaluation (VPD) issued to Coburg, then online application via university portal, followed by a mandatory introductory meeting.",
+          "summer_deadline": "Non-EU: 16 May to 2 December; EU: until 14 March",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Non-EU students pay extra tuition since Summer 2025 (per GradGermany); figures vary 1,500-3,000 EUR/semester across sources; official page not directly confirmed"
+          "tuition_non_eu": "Non-EU students pay extra tuition since Summer 2025 (per GradGermany); figures vary 1,500-3,000 EUR/semester across sources; official page not directly confirmed",
+          "semester_contribution_fee": "109 EUR (coverage not stated)",
+          "estimated_cost_of_living": "Not listed",
+          "total_cost_per_semester": "Non-EU students enrolling from summer semester 2025: €1,500/semester (new program-specific figure)."
         },
         "exact_admission_regulations": "VPD (Vorprüfungsdokumentation) required from Coburg for international applicants; SPO dated 22/06/2023 governs admission",
         "deep_recheck": {
@@ -2595,7 +2723,12 @@ const DATABASE = {
             }
           ],
           "notes": "Another clear VPD confirmation - this is a Coburg program (same university that hosts the AIMS program above, which by contrast does NOT use uni-assist/VPD) showing that VPD requirements vary even within the same university by program."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time",
+        "faculty_institute": "Mechanical Engineering and Automotive Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English (project supervision English by default, German available on request; thesis English or German)"
       }
     },
     {
@@ -2666,16 +2799,30 @@ const DATABASE = {
         "official_source_url": "https://www.h-brs.de/en/inf/studienangebot/master/autonomous-systems",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "GPA of 2.5 or better on German grading scale (per official programme flyer)",
-          "qualifying_degree": "Professional academic degree (Bachelor or equivalent) in computer science, mathematics, natural sciences, or engineering"
+          "qualifying_degree": "Professional academic degree (Bachelor or equivalent) in computer science, mathematics, natural sciences, or engineering",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Computer science, mathematics, natural sciences, or engineering",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "B2+ (IELTS Band 6.5) per official H-BRS programme page"
+          "ielts": "B2+ (IELTS Band 6.5) per official H-BRS programme page",
+          "toefl_ibt": "TOEFL iBT (from 2026): 88 total, min 4.5 per section; TOEFL iBT (before 2026): 88 total (Reading 22, Listening 20, Speaking 23, Writing 21)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "~15 July (summer) / 15 January (winter) per third-party listing"
+          "winter_deadline_non_eu": "~15 July (summer) / 15 January (winter) per third-party listing",
+          "portal": "International bachelor's/visa-required applicants: uni-assist. German bachelor's/no-visa applicants: Apollo portal (H-BRS's own system).",
+          "summer_deadline": "Visa-required applicants: 15 May-15 Jul; others: 15 May-15 Dec",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fees ('None' per official programme page)"
+          "tuition_non_eu": "No tuition fees ('None' per official programme page)",
+          "semester_contribution_fee": "About 300 EUR per semester, covers student admin fee, student union fee, public transport ticket valid in Bonn area and all NRW",
+          "estimated_cost_of_living": "About 850-1,000 EUR per month, covering accommodation, meals, health insurance, social welfare, registration fees, transport, books/supplies",
+          "total_cost_per_semester": "Only the standard semester fee is payable (no separate tuition); exact amount on a separate 'Semester fees and Administrative fees' page, not fetched this pass."
         },
         "exact_admission_regulations": "Official flyer confirms B2+/IELTS 6.5 and GPA 2.5 thresholds, among the most well-documented of this batch",
         "deep_recheck": {
@@ -2695,7 +2842,12 @@ const DATABASE = {
           "newly_found_info": "Found unusually precise and complex dual-track (uni-assist vs Apollo) deadline structure with a likely internal inconsistency (overlapping 15 Nov date) on the official page itself - worth independently verifying with the university before relying on it.",
           "corrections": [],
           "notes": "GAP: The 'Access requirements and online application' subpage (which likely has GPA/ECTS/VPD specifics) was linked but not fetched this pass due to time constraints - recommend follow-up."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Department of Computer Science, in cooperation with b-it and Fraunhofer IAIS",
+        "intake_semester": "Winter",
+        "teaching_language": "English throughout"
       }
     },
     {
@@ -2766,16 +2918,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-bayreuth.de/en/master/battery-materials-technology",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No GPA cutoff; eligibility defined by specific eligible Bachelor's degrees (Chemistry, Polymer and Colloid Chemistry, Biochemistry, Physics, etc. from University of Bayreuth or equivalent); conditional admission possible with supplementary coursework",
-          "qualifying_degree": "Bachelor's graduates in Chemistry, Polymer/Colloid Chemistry, Biochemistry, Physics, or related fields"
+          "qualifying_degree": "Bachelor's graduates in Chemistry, Polymer/Colloid Chemistry, Biochemistry, Physics, or related fields",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Chemistry, Polymer/Colloid Chemistry, Biochemistry, Physics, Materials Science/Engineering, or Engineering Science",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS Band 6.5 or equivalent; B2 minimum, higher level favorably evaluated (per official page)"
+          "ielts": "IELTS Band 6.5 or equivalent; B2 minimum, higher level favorably evaluated (per official page)",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 required (telc Deutsch A1, ÖSD Zertifikat A1, Goethe-Zertifikat A1)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not clearly confirmed; sources disagree on intake timing (one source says both semesters)"
+          "winter_deadline_non_eu": "Not clearly confirmed; sources disagree on intake timing (one source says both semesters)",
+          "portal": "Not explicitly confirmed this pass; likely via University of Bayreuth's own application guide/portal (forms.uni-bayreuth.de) rather than uni-assist, but not confirmed.",
+          "summer_deadline": "1 October to 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Tuition-free (public university); ~332 EUR/year likely represents semester contribution"
+          "tuition_non_eu": "Tuition-free (public university); ~332 EUR/year likely represents semester contribution",
+          "semester_contribution_fee": "165.84 EUR per semester, covers student services and student government, includes regional public transport semester ticket",
+          "estimated_cost_of_living": "Described as about average for Europe, lower than Munich/Berlin/Hamburg",
+          "total_cost_per_semester": "No tuition fees (confirmed 'University of Bayreuth does not charge tuition fees'); semester fee covers Studentenwerk Oberfranken + semester ticket, amount not given."
         },
         "exact_admission_regulations": "4-semester program taught in English; official page directly confirms IELTS 6.5 requirement",
         "deep_recheck": {
@@ -2795,7 +2961,12 @@ const DATABASE = {
           "newly_found_info": "Found specific country-targeted entrance-test encouragement (GRE, JAM/GATE for India, Unified Admissions Exam/CGPA for China) - a distinctive admission signal not in current_data. Also found the 150/180-credit (83.33%) early-application allowance.",
           "corrections": [],
           "notes": "GAP: uni-assist/VPD status not confirmed - the application guide subpage (forms.uni-bayreuth.de) needs a follow-up fetch to resolve definitively."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (two years), full-time",
+        "faculty_institute": "Faculty of Biology, Chemistry and Earth Sciences",
+        "intake_semester": "Winter",
+        "teaching_language": "English (thesis can be English or German)"
       }
     },
     {
@@ -2866,16 +3037,30 @@ const DATABASE = {
         "official_source_url": "https://www.batteryengineering.rwth-aachen.de/faq/ and https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-battery-systems-engineering",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Bachelor's degree holders; relevant work experience (min. ~1 year) generally required for this continuing-education program"
+          "qualifying_degree": "Bachelor's degree holders; relevant work experience (min. ~1 year) generally required for this continuing-education program",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering, Mechanical Engineering, Industrial Engineering, Materials Science, Computer Science, Physics, or Chemistry",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE General Test required (145 Verbal, 160 Quantitative, 3 Analytical Writing) or proof of GEC completion; GMAT not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site; program entirely taught in English, no German required"
+          "ielts": "Not found via official site; program entirely taught in English, no German required",
+          "toefl_ibt": "TOEFL iBT (since 2026): 4.5 overall, section scores of 4 each (Reading, Listening, Speaking, Writing) - figures unusual, verify with university",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Early-bird: 15 January (non-EU) / 15 April (EU)"
+          "winter_deadline_non_eu": "Early-bird: 15 January (non-EU) / 15 April (EU)",
+          "portal": "UNCONFIRMED. Program is run through the RWTH International Academy (a privately-organized continuing-education arm of RWTH), academically directed by the ISEA institute (Faculty of Electrical Engineering) - this institutional structure is a useful new detail.",
+          "summer_deadline": "Not offered (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "6,000 EUR/semester (24,000 EUR total for 4 semesters) per RWTH International Academy listing; early-bird 10% discount for applications by 15 Jan (non-EU) or 15 Apr (EU)"
+          "tuition_non_eu": "6,000 EUR/semester (24,000 EUR total for 4 semesters) per RWTH International Academy listing; early-bird 10% discount for applications by 15 Jan (non-EU) or 15 Apr (EU)",
+          "semester_contribution_fee": "About 300 EUR per semester, mandatory student body/social fee, includes semester ticket for NRW and South Limburg (Netherlands)",
+          "estimated_cost_of_living": "At least 900 to 1,000 EUR per month, covering food, accommodation, personal/social expenses, study costs",
+          "total_cost_per_semester": "Early-bird 10% tuition discount if applying by 15 January (non-EU) or 15 April (EU) - newly found, exact base tuition amount not confirmed."
         },
         "exact_admission_regulations": "This is a paid, private continuing-education program via RWTH International Academy, distinct from RWTH's standard tuition-free Bachelor's/Master's programs",
         "deep_recheck": {
@@ -2895,7 +3080,12 @@ const DATABASE = {
           "newly_found_info": "Found that BSE is run via RWTH's privately-organized International Academy (continuing education), with ISEA as academic director - this is an important structural detail suggesting the program may be fee-based/non-standard compared to typical consecutive master's programs, similar to the OVGU AI/Medical program's Steinbeis structure.",
           "corrections": [],
           "notes": "UNREACHABLE THIS PASS: official FAQ page (batteryengineering.rwth-aachen.de/faq/) returned a connection error. Given the 'RWTH International Academy' continuing-education structure found, strongly recommend re-attempting this fetch and checking academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-battery-systems-engineering directly, as tuition/VPD details likely differ substantially from a standard consecutive master's and current_data's tuition-free assumption (if any) may be wrong."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Not listed",
+        "intake_semester": "Winter",
+        "teaching_language": "English, entirely"
       }
     },
     {
@@ -2966,16 +3156,30 @@ const DATABASE = {
         "official_source_url": "https://www.haw-kiel.de/en/degree-courses/courses/battery-technologies/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (page content cut off before grade threshold)",
-          "qualifying_degree": "Bachelor's degree in Electrical Engineering, Mechatronics, or Industrial Engineering - Electrical Engineering"
+          "qualifying_degree": "Bachelor's degree in Electrical Engineering, Mechatronics, or Industrial Engineering - Electrical Engineering",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering, Mechatronics, or Industrial Engineering (EE), or closely related with ≥120 CP core competencies",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Required only for Bachelor's degrees from outside Bologna area: minimum 64th percentile Quantitative Reasoning; GMAT not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site; program taught in English (English proficiency likely required but unconfirmed)"
+          "ielts": "Not found via official site; program taught in English (English proficiency likely required but unconfirmed)",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Foreign entrance-qualification holders: apply via uni-assist (Casy portal referenced as HAW Kiel's own online system, casy.haw-kiel.de, used in parallel).",
+          "summer_deadline": "1 November to 15 January (all countries)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fees; ~397.7 EUR/semester contribution (per aggregator); 100 EUR one-time enrollment fee"
+          "tuition_non_eu": "No tuition fees; ~397.7 EUR/semester contribution (per aggregator); 100 EUR one-time enrollment fee",
+          "semester_contribution_fee": "Variable, 398 EUR per semester, including public transport ticket",
+          "estimated_cost_of_living": "Approx. 992 EUR per month, depending on personal needs",
+          "total_cost_per_semester": "No tuition mentioned; compulsory semester fee (covers Student Services Authority, student body, admin fee, semester travel ticket) with no amount given; non-refundable admin charge at enrolment."
         },
         "exact_admission_regulations": "M.Eng., 3 semesters, admission restricted (NC); intake in both summer and winter semesters; foreign applicants apply via uni-assist",
         "deep_recheck": {
@@ -2995,7 +3199,12 @@ const DATABASE = {
           "newly_found_info": "Found the precise German-scale GPA cutoff (≥2.99) and the GRE requirement specifically for non-Bologna bachelor's holders - a nuanced detail not likely in current_data. Also found the full 9-item required document checklist.",
           "corrections": [],
           "notes": "uni-assist used but not explicitly named 'VPD'; functionally equivalent given it's the standard uni-assist document-check process for foreign entrance qualifications."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time or part-time (studying alongside work)",
+        "faculty_institute": "Faculty of Computer Science and Electrical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English (all courses)"
       }
     },
     {
@@ -3066,16 +3275,30 @@ const DATABASE = {
         "official_source_url": "https://www.th-luebeck.de/en/studies/study-offer/degree-programs/biomedical-engineering-msc/overview",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "University or university of applied sciences degree in specific areas related to biomedical engineering (exact list not confirmed)"
+          "qualifying_degree": "University or university of applied sciences degree in specific areas related to biomedical engineering (exact list not confirmed)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Biomedical engineering, medical technology, electrical engineering, or related",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.0 (TOEFL iBT 80) per aggregators; not confirmed on official TH Lübeck page"
+          "ielts": "IELTS 6.0 (TOEFL iBT 80) per aggregators; not confirmed on official TH Lübeck page",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Not confirmed this pass; likely detailed on the linked external bme-master.com general-requirements page.",
+          "summer_deadline": "Not offered (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site (likely tuition-free per standard German public-university rule for EU students)"
+          "tuition_non_eu": "Not found via official site (likely tuition-free per standard German public-university rule for EU students)",
+          "semester_contribution_fee": "About 350 EUR per semester, includes free regional public transport ticket across Germany",
+          "estimated_cost_of_living": "About 1,000 EUR per month",
+          "total_cost_per_semester": "Not stated on this overview page."
         },
         "exact_admission_regulations": "Program run jointly with Universität zu Lübeck; bme-master.com is the program's dedicated site per DAAD listing (not independently verified here)",
         "deep_recheck": {
@@ -3095,7 +3318,12 @@ const DATABASE = {
           "newly_found_info": "Found that regulations changed as of WiSe 2025 (new 'Overall Regulations valid from WiSe 25' superseding a WiSe 21 version) - a timing detail worth flagging. Found the dedicated external bme-master.com general-requirements page as the authoritative admission-detail source, not previously identified.",
           "corrections": [],
           "notes": "GAP: The actual admission requirements (GPA, language, VPD/uni-assist, deadlines) live on the external bme-master.com/biomedical-engineering/application-admission/general-requirements.html page or the TH Lübeck 'Step-by-Step'/FAQ application pages, none of which were fetched this pass due to time constraints - strongly recommend a follow-up fetch of bme-master.com's general-requirements page specifically, since the program is run jointly with Universität zu Lübeck and may have unusual two-institution admission logistics."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Department of Applied Natural Sciences",
+        "intake_semester": "Winter",
+        "teaching_language": "English; some elective courses in German at both universities"
       }
     },
     {
@@ -3166,16 +3394,30 @@ const DATABASE = {
         "official_source_url": "RWTH Aachen Faculty of Electrical Engineering and Information Technology master's program (specific Biomedical Systems Engineering major page not located)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Bachelor of Science/Engineering graduates who have completed basic studies; this is a major chosen within RWTH's broader EEIT master's program, selectable after enrollment"
+          "qualifying_degree": "Bachelor of Science/Engineering graduates who have completed basic studies; this is a major chosen within RWTH's broader EEIT master's program, selectable after enrollment",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering/information technology with specific ECTS distribution",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE General Test required at application (exact minimum not stated); EU/EEA citizens and 'Bildungsinländer' exempt"
         },
         "language_requirements": {
-          "ielts": "Conflicting: IELTS 6.0-6.5/TOEFL iBT 90-100 cited across aggregators; not confirmed officially"
+          "ielts": "Conflicting: IELTS 6.0-6.5/TOEFL iBT 90-100 cited across aggregators; not confirmed officially",
+          "toefl_ibt": "TOEFL iBT Home Edition (since 2026): 4.5; TOEFL iBT (since 2026): 4.5; TOEFL iBT Home Edition (before 2026): 90; TOEFL iBT (before 2026): 90",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level; 8 ECTS German courses required unless B1+"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Apply to RWTH's general Electrical Engineering and Information Technology M.Sc. program (not a dedicated Biomedical Systems Engineering application); major is selected after enrollment.",
+          "summer_deadline": "EU: 2 December-15 January; Non-EU: 1 June-1 September",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fees; semester fee ~298.06 EUR (standard RWTH figure)"
+          "tuition_non_eu": "No tuition fees; semester fee ~298.06 EUR (standard RWTH figure)",
+          "semester_contribution_fee": "About 360 EUR per semester, includes public transport semester ticket across Germany (Deutschlandticket) extending into South Limburg, Netherlands",
+          "estimated_cost_of_living": "About 1,100 EUR per month covering food, accommodation, personal/study costs; non-EU single applicants must show 992 EUR/month at Aachen immigration office (as of 2026)",
+          "total_cost_per_semester": "Not confirmed this pass."
         },
         "exact_admission_regulations": "Biomedical Systems Engineering is one of five majors within RWTH's Electrical Engineering and Information Technology MSc, not a fully standalone degree",
         "deep_recheck": {
@@ -3195,7 +3437,12 @@ const DATABASE = {
           "newly_found_info": "IMPORTANT STRUCTURAL FINDING: confirmed (with reasonable confidence from multiple aggregators) that 'Biomedical Systems Engineering' is a MAJOR/specialization track within RWTH's general Electrical Engineering and Information Technology M.Sc. program, not an independently admissible degree program. This means applicants should apply to and research RWTH's general EE&IT Master's admission requirements, not look for a dedicated 'Biomedical Systems Engineering' application page - a significant clarification given current_data's official_source_url was itself described as 'not located.'",
           "corrections": [],
           "notes": "UNRESOLVED: no official RWTH page was found/fetched this pass confirming this major's exact admission process. Strongly recommend searching RWTH's Faculty 6 (Electrical Engineering and Information Technology) general Master's admission page directly as the correct official source, rather than searching for a 'Biomedical Systems Engineering'-specific page which likely does not exist independently."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English (exams in English or other language if examiner agrees); 8 ECTS German courses required unless B1+ proven"
       }
     },
     {
@@ -3266,16 +3513,30 @@ const DATABASE = {
         "official_source_url": "https://www.bbw-hochschule.de (Business Engineering in Digital Transformation M.Sc. page not directly located)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Not confirmed via official site; program is business/engineering/digital-transformation focused, open admission (no NC) per one aggregator"
+          "qualifying_degree": "Not confirmed via official site; program is business/engineering/digital-transformation focused, open admission (no NC) per one aggregator",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Not specified beyond reference to DAAD admission database",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (before 2026): 72 total (Reading 18, Listening 17, Speaking 20, Writing 17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter: ~15 Aug; Summer: ~15 Feb (per aggregator, one date cycle already passed/outdated)"
+          "winter_deadline_non_eu": "Winter: ~15 Aug; Summer: ~15 Feb (per aggregator, one date cycle already passed/outdated)",
+          "portal": "Not confirmed this pass; likely a direct bbw Hochschule application process given it's a private institution, but not confirmed.",
+          "summer_deadline": "EU: 15 March; Non-EU: 28 February",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "~7,680 EUR/year per one aggregator (unconfirmed); separate unexplained figure of 320 EUR/year also seen"
+          "tuition_non_eu": "~7,680 EUR/year per one aggregator (unconfirmed); separate unexplained figure of 320 EUR/year also seen",
+          "semester_contribution_fee": "Included in tuition",
+          "estimated_cost_of_living": "Not listed",
+          "total_cost_per_semester": "CONFLICTING: one source (Mastersportal) cites €7,680/year; GradGermany notes exact fee amounts are not published on bbw's public website at all, making the aggregator figure unverifiable."
         },
         "exact_admission_regulations": "4 semesters, full-time, taught in English per aggregators; official bbw page not reached",
         "deep_recheck": {
@@ -3295,7 +3556,12 @@ const DATABASE = {
           "newly_found_info": "Found that bbw Hochschule reportedly does NOT publish exact tuition fee amounts on its public website (per GradGermany) - this itself is a notable finding suggesting prospective applicants must contact the university directly for pricing.",
           "corrections": [],
           "notes": "STILL UNRESOLVED/UNREACHABLE: current_data's official_source_url (bbw-hochschule.de root) was never a working program-specific page, and this pass also could not locate the actual program page. All deadline/tuition info found this pass is stale, conflicting, or unverifiable. Strongly recommend manual search of bbw-hochschule.de's own site search for the exact program URL in a follow-up pass - this entry has the weakest data coverage in the batch."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only (less than 50% online)",
+        "faculty_institute": "Not listed",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -3366,16 +3632,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-emden-leer.de (Business Intelligence and Data Analytics master page not directly located)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Backgrounds in Computer Science/Software Engineering, IT, Data Science, or Business Administration with specialization in Information Systems/Quantitative Methods/Data Analytics"
+          "qualifying_degree": "Backgrounds in Computer Science/Software Engineering, IT, Data Science, or Business Administration with specialization in Information Systems/Quantitative Methods/Data Analytics",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Technical field (electrical/mechanical/chemical engineering, natural sciences, information science); 90 ECTS total workload",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "'Certified English proficiency required' per Zugangs- und Zulassungsordnung; no specific IELTS score confirmed"
+          "ielts": "'Certified English proficiency required' per Zugangs- und Zulassungsordnung; no specific IELTS score confirmed",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Intakes possible in both summer and winter semester"
+          "winter_deadline_non_eu": "Intakes possible in both summer and winter semester",
+          "portal": "Likely via uni-assist for foreign-degree applicants, per multiple (lower-confidence, third-party) sources; not confirmed on an official Hochschule Emden/Leer page.",
+          "summer_deadline": "EU: 1 December-15 January; Non-EU: 1 June-30 September",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "5,980 EUR/semester (11,960 EUR/year) per aggregator - notably high for a German public university, should be verified directly as it may reflect a specific cohort/pathway fee"
+          "tuition_non_eu": "5,980 EUR/semester (11,960 EUR/year) per aggregator - notably high for a German public university, should be verified directly as it may reflect a specific cohort/pathway fee",
+          "semester_contribution_fee": "Included in tuition fee; covers student union fee and semester public transport ticket valid across Germany",
+          "estimated_cost_of_living": "Emden relatively inexpensive; accommodation about 300-450 EUR per month",
+          "total_cost_per_semester": "CONFLICTING: EEC Global claims the program is 'tuition-free for all nationalities including Indian students' (consistent with it being a German public university in Niedersachsen); but MyGuide cites €5,980/semester and Studyabroad Updates cites €11,960/year - these figures (if real) would likely reflect a NON-EU-specific or outdated tuition fee, as Niedersachsen has historically been tuition-free for EU/EEA. This conflict could not be resolved this pass."
         },
         "exact_admission_regulations": "3 semesters (90 ECTS); international applicants apply via uni-assist",
         "deep_recheck": {
@@ -3395,7 +3675,12 @@ const DATABASE = {
           "newly_found_info": "Found the significant tuition conflict (tuition-free claim vs €5,980/semester vs €11,960/year claims) - this is an important discrepancy for the user to resolve directly with the university, since Lower Saxony's tuition-free policy status for non-EU students specifically has changed in recent years at various institutions.",
           "corrections": [],
           "notes": "UNRESOLVED/UNREACHABLE: official Hochschule Emden/Leer program page could not be located/fetched this pass (current_data's URL is a non-specific root domain). Strongly recommend a follow-up search for the exact program URL (likely under hs-emden-leer.de's international programs section) to resolve the tuition and uni-assist/VPD conflicts with confidence."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters full-time or 5 semesters part-time",
+        "faculty_institute": "Faculty of Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -3466,16 +3751,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-bremen.de/fb1/studium/studiengaenge/communication-and-information-technology-cit-msc",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official GPA cutoff found",
-          "qualifying_degree": "First degree in Electrical Engineering or a closely related field (Bachelor's with 180 ECTS or equivalent) in Electrical Engineering, Communications Technology, or related"
+          "qualifying_degree": "First degree in Electrical Engineering or a closely related field (Bachelor's with 180 ECTS or equivalent) in Electrical Engineering, Communications Technology, or related",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering or closely related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 7.0 / TOEFL iBT 95 / PTE 76 per aggregators (DAAD also references C1 level); not independently confirmed via direct official fetch"
+          "ielts": "IELTS 7.0 / TOEFL iBT 95 / PTE 76 per aggregators (DAAD also references C1 level); not independently confirmed via direct official fetch",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "~15 October annually, for courses starting the following spring (summer semester intake); 4-semester duration"
+          "winter_deadline_non_eu": "~15 October annually, for courses starting the following spring (summer semester intake); 4-semester duration",
+          "portal": "Online-Bewerbung (master application portal, linked but not fetched); governed by the Aufnahmeordnung PDF.",
+          "summer_deadline": "1 August to 15 October (all countries)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fees; semester contribution ~370-425 EUR (sources vary)"
+          "tuition_non_eu": "No tuition fees; semester contribution ~370-425 EUR (sources vary)",
+          "semester_contribution_fee": "About 420 EUR per semester, includes public transport ticket for Bremen and Germany for six months",
+          "estimated_cost_of_living": "On-campus accommodation ~600 EUR/month; refectory lunch from 3 EUR; students under 30: ~800-1,100 EUR/month (incl ~150 EUR health insurance); students over 30: ~900-1,300+ EUR/month (incl ~250-350+ EUR health insurance)",
+          "total_cost_per_semester": "No tuition amount given; links to 'Semesterbeitrag inkl. Semesterticket' page (not fetched) for the exact fee."
         },
         "exact_admission_regulations": "Official CIT program PDF exists at uni-bremen.de/fileadmin/.../CIT_E.pdf; applications submitted online directly to the university per official text",
         "deep_recheck": {
@@ -3495,7 +3794,12 @@ const DATABASE = {
           "newly_found_info": "Found that the program is SUMMER-SEMESTER-START only (deadline 15 October for the following summer start) rather than the more typical winter start - a notable and easily-missed detail for applicant planning. Also found the specific German-language core module names, which clarify the English program's technical content areas.",
           "corrections": [],
           "notes": "GAP: VPD/uni-assist status not confirmed - the Aufnahmeordnung PDF and the Online-Bewerbung portal page should be fetched in a follow-up pass to resolve this definitively, along with exact tuition/semester fee and document checklist."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Institute for Telecommunications and High-Frequency Techniques (ITH) and related institutes (IALB, IMSAS, ITEM, IAT)",
+        "intake_semester": "Summer",
+        "teaching_language": "English; includes a German language course"
       }
     },
     {
@@ -3566,16 +3870,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-ulm.de/ci-tech/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric GPA stated; requires a bachelor's or comparable degree with a 'significantly above-average grade'.",
-          "qualifying_degree": "Bachelor's or comparable degree in Electrical Engineering, Communications Engineering, Electronics, or closely related field; strong motivation for multicultural environment; self-test available to check prior knowledge."
+          "qualifying_degree": "Bachelor's or comparable degree in Electrical Engineering, Communications Engineering, Electronics, or closely related field; strong motivation for multicultural environment; self-test available to check prior knowledge.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering, Communications Engineering, Electronics or closely related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not found"
         },
         "language_requirements": {
-          "ielts": "No specific IELTS/TOEFL score listed; applicants must be fluent in English; certificate can be submitted after applying but by enrolment, proof of test registration required with application."
+          "ielts": "No specific IELTS/TOEFL score listed; applicants must be fluent in English; certificate can be submitted after applying but by enrolment, proof of test registration required with application.",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "15 August to 30 September application period (uni-assist for foreign degrees); no email/post applications."
+          "winter_deadline_non_eu": "15 August to 30 September application period (uni-assist for foreign degrees); no email/post applications.",
+          "portal": "German degree holders: uni-ulm online system directly. Foreign degree holders: uni-assist online portal. No email/post applications. Admission letters from November.",
+          "summer_deadline": "15 August to 30 September",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Non-EU/second-degree students: €1,500/semester tuition plus ~€182/semester admin and Studierendenwerk fees."
+          "tuition_non_eu": "Non-EU/second-degree students: €1,500/semester tuition plus ~€182/semester admin and Studierendenwerk fees.",
+          "semester_contribution_fee": "182 EUR per semester",
+          "estimated_cost_of_living": "About 945-1,000 EUR per month",
+          "total_cost_per_semester": "Non-EU/second-degree: €1,500/semester tuition + ~€182/semester admin/Studierendenwerk fees; living costs ~€1,000/month"
         },
         "exact_admission_regulations": "Admission letters start arriving in November; visa and proof of funds needed for international students; page's 'Admission Requirements: No restriction' field conflicts with stated degree/grade criteria.",
         "deep_recheck": {
@@ -3596,7 +3914,12 @@ const DATABASE = {
           "newly_found_info": "Prior-knowledge self-test PDF available. Admission regulations PDF (2025-08-04) found. Two study plans exist (FSPO2025 and FSPO2021). Tuition fee page and International Office page linked.",
           "corrections": [],
           "notes": "Main page plus application subpage consulted; no VPD terminology found despite uni-assist use."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Engineering, Computer Science & Psychology",
+        "intake_semester": "Summer",
+        "teaching_language": "English (100%); compulsory German for Foreigners courses; thesis in English or German"
       }
     },
     {
@@ -3667,16 +3990,30 @@ const DATABASE = {
         "official_source_url": "https://cme.studium.fau.de/application",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "FAU Bachelor's in ICT/Computational Engineering(TAF IT)/EEI: grade 2.30 or better for direct admission; 2.31-3.0 requires QFV test. Other degrees: average/final grade at least 2.5 ('good', German scale), generally need QFV.",
-          "qualifying_degree": "Engineering-related Bachelor's degree with at least one module passed 'good' or better in each of: engineering mathematics, signals and systems, digital communications, digital signal processing; solid foundation in math, signals/systems, communications, stochastic signals, programming (C/C++, MATLAB, Python)."
+          "qualifying_degree": "Engineering-related Bachelor's degree with at least one module passed 'good' or better in each of: engineering mathematics, signals and systems, digital communications, digital signal processing; solid foundation in math, signals/systems, communications, stochastic signals, programming (C/C++, MATLAB, Python).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering, ICT, computational engineering, telecommunication engineering or related",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not found"
         },
         "language_requirements": {
-          "ielts": "IELTS min 6.0; TOEFL iBT min 80 (PBT 547, CBT 210); or B2-level CEFR proof / Medium of Instruction Certificate. German not required."
+          "ielts": "IELTS min 6.0; TOEFL iBT min 80 (PBT 547, CBT 210); or B2-level CEFR proof / Medium of Instruction Certificate. German not required.",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter 2026/27 closed; no summer intake; winter 2027/28 portal open Feb 2027 to 15 July 2027, no late applications."
+          "winter_deadline_non_eu": "Winter 2026/27 closed; no summer intake; winter 2027/28 portal open Feb 2027 to 15 July 2027, no late applications.",
+          "portal": "Direct FAU campo portal; no uni-assist/VPD. Shortlisted candidates get ~30-min QFV interview.",
+          "summer_deadline": "Not listed",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No EU tuition stated; from summer semester 2027 non-EU students pay tuition per semester (amount not given) with exemptions; 100 EUR non-refundable application fee for non-EU applicants."
+          "tuition_non_eu": "No EU tuition stated; from summer semester 2027 non-EU students pay tuition per semester (amount not given) with exemptions; 100 EUR non-refundable application fee for non-EU applicants.",
+          "semester_contribution_fee": "82 EUR per semester; plus 100 EUR application processing fee for non-EU applicants starting winter 2026/27",
+          "estimated_cost_of_living": "About 1,106 EUR/month total (2021 survey, former West Germany): rent incl. utilities 410 EUR, food 198 EUR, clothing 46 EUR, travel 89 EUR, study materials 31 EUR, health insurance/medicine 100 EUR, telecommunications 31 EUR, leisure/culture/sports 65 EUR",
+          "total_cost_per_semester": "€100 non-refundable application fee for non-EU; tuition charged to non-EU first-time enrollees from summer 2027 with exemptions (amount not stated)"
         },
         "exact_admission_regulations": "Apply via campo portal only; APS certificate required for China/Vietnam/India applicants; final Bachelor's certificate due by Sept 30 enrolment deadline; optional GRE, German certificates, 2 recommendation letters; ~30-min interview for shortlisted candidates.",
         "deep_recheck": {
@@ -3698,7 +4035,12 @@ const DATABASE = {
           "newly_found_info": "FAQ and 'what skills should you bring' pages found. Confirmed FAU does NOT use uni-assist for this program.",
           "corrections": [],
           "notes": "Confirmed existing data was largely accurate."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (two years)",
+        "faculty_institute": "Department of Electrical Engineering (EEI)",
+        "intake_semester": "Winter",
+        "teaching_language": "English only; German-as-a-foreign-language courses included for students without German proficiency"
       }
     },
     {
@@ -3769,16 +4111,30 @@ const DATABASE = {
         "official_source_url": "Not found (RWTH Communications Engineering is now a major within 'Electrical Engineering and Information Technology' master; specific official admissions page not located)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site; third-party aggregator cites ~2.5 or better but unconfirmed.",
-          "qualifying_degree": "Students apply to the overarching 'Electrical Engineering and Information Technology' M.Sc.; once enrolled, choose Communications Engineering as one of five majors."
+          "qualifying_degree": "Students apply to the overarching 'Electrical Engineering and Information Technology' M.Sc.; once enrolled, choose Communications Engineering as one of five majors.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering/related with specific ECTS distribution (see above)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE General Test required at application; minimum score per current exam regulations (not stated); EU/EEA and Bildungsinländer exempt"
         },
         "language_requirements": {
-          "ielts": "Not found via official site; third-party sources conflict (IELTS 6.0/6.5, PTE 60, possible GRE) — unconfirmed."
+          "ielts": "Not found via official site; third-party sources conflict (IELTS 6.0/6.5, PTE 60, possible GRE) — unconfirmed.",
+          "toefl_ibt": "TOEFL iBT/Home Edition: since 2026, 4.5; before 2026, 90",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level for admission; must complete German courses worth 8 ECTS unless B1+ shown"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site; aggregators mention 1 March / 1 November deadlines, unconfirmed."
+          "winter_deadline_non_eu": "Not found via official site; aggregators mention 1 March / 1 November deadlines, unconfirmed.",
+          "portal": "Unconfirmed",
+          "summer_deadline": "EU/Iceland/Norway/Liechtenstein: 2 Dec-15 Jan; Non-EU/Switzerland/UK: 1 Jun-1 Sep",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "About 360 EUR per semester, includes nationwide Deutschlandticket plus South Limburg (Netherlands)",
+          "estimated_cost_of_living": "About 1,100 EUR/month (food, accommodation, personal/social expenses, study costs); non-EU single applicants must show min income of 992 EUR/month for residence permit extension (2026)",
+          "total_cost_per_semester": "Unconfirmed"
         },
         "exact_admission_regulations": "Standalone Communications Engineering master closed to new enrolments after 2015; now folded into broader EEIT program. DAAD listing remains primary source for specifics.",
         "deep_recheck": {
@@ -3798,7 +4154,12 @@ const DATABASE = {
           "newly_found_info": "None beyond what was already in current_official_data",
           "corrections": [],
           "notes": "Still unreachable; RWTH official page could not be located even with search."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English; some modules may be in another language per module catalogue; exams in English unless agreed otherwise"
       }
     },
     {
@@ -3869,16 +4230,30 @@ const DATABASE = {
         "official_source_url": "https://www.mach.kit.edu/english/5282.php",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on page; refers to linked 'Statutes for Admission' PDF.",
-          "qualifying_degree": "Motivated students with a background in engineering, natural sciences, or computer science."
+          "qualifying_degree": "Motivated students with a background in engineering, natural sciences, or computer science.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering with at least 40 ECTS engineering/natural sciences and 15 ECTS mathematics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not stated; program described as taught in English but no test/score specified."
+          "ielts": "Not stated; program described as taught in English but no test/score specified.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 90 total (Reading 18, Listening 17, Speaking 20, Writing 17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "None"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated; page refers to KIT degree program page for application/admission info."
+          "winter_deadline_non_eu": "Not stated; page refers to KIT degree program page for application/admission info.",
+          "portal": "Not stated on page; refers to KIT degree program page",
+          "summer_deadline": "Until 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated on page."
+          "tuition_non_eu": "Not stated on page.",
+          "semester_contribution_fee": "201 EUR per semester (coverage not stated)",
+          "estimated_cost_of_living": "Not listed",
+          "total_cost_per_semester": "Not stated"
         },
         "exact_admission_regulations": "Statutes for Admission and Studies/Examination Regulations available as linked PDFs; contact cme@mach.kit.edu for application questions.",
         "deep_recheck": {
@@ -3898,7 +4273,12 @@ const DATABASE = {
           "newly_found_info": "Module Handbook link found. Multiple contact routes identified by purpose.",
           "corrections": [],
           "notes": "Linked 'Application and Admission' subpage (seite404.php) returned a broken/placeholder path; unable to retrieve GPA/language/deadline/fee/VPD specifics this round."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, 120 CP (ECTS)",
+        "faculty_institute": "Department of Mechanical Engineering together with Department of Chemical and Process Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%); thesis may be in another language with committee approval"
       }
     },
     {
@@ -3969,16 +4349,30 @@ const DATABASE = {
         "official_source_url": "https://www.ief.uni-rostock.de/cse-msc",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "At least 85% of CGPA or comparable grade on another system; alternatively GATE score of at least 500 points.",
-          "qualifying_degree": "First professional degree (≥180 CP) in Computational Science and Engineering, Electrical Engineering, Information Technology, Mechanical Engineering, or Physics; solid math (linear algebra, calculus) and programming (C/C++, Fortran, Java, Python); specialization-specific coursework requirements (Computational Electrical Engineering / Mechanical Engineering / Physics)."
+          "qualifying_degree": "First professional degree (≥180 CP) in Computational Science and Engineering, Electrical Engineering, Information Technology, Mechanical Engineering, or Physics; solid math (linear algebra, calculus) and programming (C/C++, Fortran, Java, Python); specialization-specific coursework requirements (Computational Electrical Engineering / Mechanical Engineering / Physics).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Computational Science/Electrical/Information Technology/Mechanical Engineering, 180 CP minimum",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned; GATE score of at least 500 can strengthen application"
         },
         "language_requirements": {
-          "ielts": "TOEFL iBT at least 90, or IELTS at least 6.5 (native English speakers exempt); proof no older than 2 years; mandatory German course if native language isn't German."
+          "ielts": "TOEFL iBT at least 90, or IELTS at least 6.5 (native English speakers exempt); proof no older than 2 years; mandatory German course if native language isn't German.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 90 overall (Reading 24, Listening 22, Speaking 25, Writing 24)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated on page."
+          "winter_deadline_non_eu": "Not stated on page.",
+          "portal": "International: apply via UniAssist, then enroll at Uni Rostock after admission. German applicants from other unis enroll online; Rostock students re-register at Studierendensekretariat.",
+          "summer_deadline": "1 October to 30 November",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated on page."
+          "tuition_non_eu": "Not stated on page.",
+          "semester_contribution_fee": "333 EUR per semester, may rise each semester; includes semester ticket",
+          "estimated_cost_of_living": "Not listed",
+          "total_cost_per_semester": "Not mentioned on page"
         },
         "exact_admission_regulations": "Choose a specialization at application; starts winter (Oct 1) or summer (Apr 1) semester (Computational Physics winter-only); apply via UniAssist; accredited 25.06.2019–30.09.2027; contact cse.ief@uni-rostock.de.",
         "deep_recheck": {
@@ -3998,7 +4392,12 @@ const DATABASE = {
           "newly_found_info": "Specialization-specific prerequisite credit minimums (electromagnetic fields, math, programming per track) found. 'Applying to Master CSE' subpage link found.",
           "corrections": [],
           "notes": "Confirmed uni-assist use but VPD term absent from official text."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Computer Science and Electrical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English; lectures in English, some modules in German, can be completed entirely in English"
       }
     },
     {
@@ -4069,16 +4468,30 @@ const DATABASE = {
         "official_source_url": "Not found (official RWTH Computer Engineering admissions page not located; only third-party/related pages)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site.",
-          "qualifying_degree": "Completed Bachelor's (B.Sc./B.Eng. or equivalent) at an internationally recognised university, per secondary source."
+          "qualifying_degree": "Completed Bachelor's (B.Sc./B.Eng. or equivalent) at an internationally recognised university, per secondary source.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical/computer engineering with specific ECTS distribution",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE General Test required at application; EU/EEA and Bildungsinländer exempt"
         },
         "language_requirements": {
-          "ielts": "Not found via official site; program taught in English per secondary sources."
+          "ielts": "Not found via official site; program taught in English per secondary sources.",
+          "toefl_ibt": "TOEFL iBT/Home Edition: since 2026, 4.5; before 2026, 90",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required; must complete German courses worth 8 ECTS unless B1+ shown"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site; winter semester intake only, per secondary source."
+          "winter_deadline_non_eu": "Not found via official site; winter semester intake only, per secondary source.",
+          "portal": "Unconfirmed",
+          "summer_deadline": "EU/Iceland/Norway/Liechtenstein: 2 Dec-15 Jan; Non-EU/Switzerland/UK: 1 Jun-1 Sep",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "About 360 EUR per semester, includes nationwide Deutschlandticket plus South Limburg (Netherlands)",
+          "estimated_cost_of_living": "Estimated 1,100 EUR/month; non-EU single applicants must show min income 992 EUR/month for residence permit extension (2026)",
+          "total_cost_per_semester": "Unconfirmed"
         },
         "exact_admission_regulations": "No admission restriction (open admission) per secondary source; program contact: computer-engineering@rwth-aachen.de.",
         "deep_recheck": {
@@ -4098,7 +4511,12 @@ const DATABASE = {
           "newly_found_info": "None",
           "corrections": [],
           "notes": "Still unreachable, same as prior session."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (2 years), including thesis",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English; exams in English unless examiner agrees otherwise; some modules may be in German"
       }
     },
     {
@@ -4169,16 +4587,30 @@ const DATABASE = {
         "official_source_url": "https://www.b-tu.de/en/control-renewable-energy-systems-ms",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No minimum GPA stated; requires first university degree equivalent to 180 ECTS after at least 3 years of Bachelor's study.",
-          "qualifying_degree": "Graduates in Mechanical Engineering, Electrical Engineering, or Process Engineering; knowledge in automatic control mandatory."
+          "qualifying_degree": "Graduates in Mechanical Engineering, Electrical Engineering, or Process Engineering; knowledge in automatic control mandatory.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Not specified on this page",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not specified"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.5+; TOEFL CBT 220/ITP 550/iBT 80; Cambridge B2 First 173+ or C1 Advanced 160+; TOEIC 800+; exemption if university confirms English-taught degree; proof must be ≤3 years old."
+          "ielts": "IELTS 6.5+; TOEFL CBT 220/ITP 550/iBT 80; Cambridge B2 First 173+ or C1 Advanced 160+; TOEIC 800+; exemption if university confirms English-taught degree; proof must be ≤3 years old.",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "With scholarship: 31 Jan 2026; without scholarship: 15 May 2026. Degree must be completed before 31 July (non-EU) / 30 Sept (EU)."
+          "winter_deadline_non_eu": "With scholarship: 31 Jan 2026; without scholarship: 15 May 2026. Degree must be completed before 31 July (non-EU) / 30 Sept (EU).",
+          "portal": "Apply via EU-CORE portal (master-eu-core.ec-nantes.fr); joint program with Ecole Centrale Nantes and Univ. Zagreb",
+          "summer_deadline": "Not offered",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Listed 'Fees' of €340.80 (unclear whether semester fee or tuition)."
+          "tuition_non_eu": "Listed 'Fees' of €340.80 (unclear whether semester fee or tuition).",
+          "semester_contribution_fee": "391.80 EUR (BTU winter semester 2026/27), covers student services, Student Council, semester ticket incl. Deutschlandticket",
+          "estimated_cost_of_living": "780-1,000 EUR/month: rent incl. utilities 250-450 EUR, groceries 160-180 EUR, health insurance/medical 145 EUR, misc. 170-220 EUR",
+          "total_cost_per_semester": "Fees listed as €340.80 (confirmed as stated, nature unclear - likely consortium participation fee)"
         },
         "exact_admission_regulations": "Restricted admission; joint degree (4 semesters) with partner universities in Nantes (France) and Zagreb (Croatia) plus Cottbus; applications via EU-CORE portal.",
         "deep_recheck": {
@@ -4198,7 +4630,12 @@ const DATABASE = {
           "newly_found_info": "EU-CORE application portal URL and English-test-exemption portal URL found. Additional subpages: Access to Programme, Application-Fees-Scholarships, EU-CORE transfer info, Structure of Programme, Third Semester at BTU, Regulations/Module Catalogue.",
           "corrections": [],
           "notes": "Confirmed prior data; no VPD/uni-assist used for this joint program (EU-CORE portal instead)."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (two academic years, 120 ECTS)",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English (all modules); German language courses available"
       }
     },
     {
@@ -4269,16 +4706,30 @@ const DATABASE = {
         "official_source_url": "https://www.thm.de/site/studium/unsere-studienangebote/control-computer-and-communications-engineering-master-msc-iem-friedberg.html",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "First professional degree with final grade at least 2.5 ('gut') and at least 210 ECTS, or equivalent.",
-          "qualifying_degree": "Graduates in General Electrical Engineering, Communications Engineering and Computer Networks, Electrical and Information Engineering, Computer Engineering (Technische Informatik), or related fields."
+          "qualifying_degree": "Graduates in General Electrical Engineering, Communications Engineering and Computer Networks, Electrical and Information Engineering, Computer Engineering (Technische Informatik), or related fields.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering/ICT related, 210 ECTS",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "English B2 (CEFR): TOEFL iBT 85, IELTS 6.5+, TOEIC 785+, or Cambridge FCE 176+. International applicants also need basic German A1 (Goethe-Institut or equivalent)."
+          "ielts": "English B2 (CEFR): TOEFL iBT 85, IELTS 6.5+, TOEIC 785+, or Cambridge FCE 176+. International applicants also need basic German A1 (Goethe-Institut or equivalent).",
+          "toefl_ibt": "TOEFL iBT (before 2026): 85 total (Reading 18, Listening 17, Speaking 20, Writing 17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1, with official certificate (telc Deutsch A1, ÖSD Zertifikat A1, Goethe-Zertifikat A1)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "German applicants: 1 June–1 Sept (winter) / 1 Dec–1 Mar (summer). International applicants: 1 Apr–15 June (winter) / 1 Oct–15 Dec (summer), via uni-assist."
+          "winter_deadline_non_eu": "German applicants: 1 June–1 Sept (winter) / 1 Dec–1 Mar (summer). International applicants: 1 Apr–15 June (winter) / 1 Oct–15 Dec (summer), via uni-assist.",
+          "portal": "Foreign bachelor's applicants apply through uni-assist online portal",
+          "summer_deadline": "Uni-assist applicants: 1 October-15 December; German-degree applicants (direct): 1 December-1 March",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated (only semester contribution 'Semesterbeitrag' page linked, no amount given)."
+          "tuition_non_eu": "Not stated (only semester contribution 'Semesterbeitrag' page linked, no amount given).",
+          "semester_contribution_fee": "About 350 EUR per semester, includes free regional public transport, discounts for cafeterias, local outdoor pool, city theatre, bike rental",
+          "estimated_cost_of_living": "Rent 350-450 EUR (furnished room, plus deposit); health insurance ~140 EUR; groceries ~200 EUR; plus other expenses; minimum funds 992 EUR/month or blocked account of 11,904 EUR",
+          "total_cost_per_semester": "Semester fee only (amount not given), no tuition stated"
         },
         "exact_admission_regulations": "Admission committee determines need for mandatory EPE (English) or GF (German) module; full-time, English-taught, 3 semesters; offered at Friedberg and Gießen campuses.",
         "deep_recheck": {
@@ -4299,7 +4750,12 @@ const DATABASE = {
           "newly_found_info": "Dedicated uni-assist procedure subpage found (confirms process but not VPD terminology explicitly).",
           "corrections": [],
           "notes": "Confirmed uni-assist is used; could not confirm whether specifically a VPD document is required (page doesn't use that term)."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Information Technology-Electrical Engineering-Mechatronics (IEM) / Electrical Engineering & Information Technologies (EI)",
+        "intake_semester": "Winter",
+        "teaching_language": "English; all lectures in English except 'German as a Foreign Language' module"
       }
     },
     {
@@ -4561,16 +5017,30 @@ const DATABASE = {
         "official_source_url": "Not found (tu-chemnitz.de program page returned 404; details from TU Chemnitz flyer/search snippets)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (flyer requires vocationally-qualifying Bachelor's degree, no numeric grade stated).",
-          "qualifying_degree": "Vocationally-qualifying university Bachelor's degree in Electrical Engineering and Information Technology or equivalent program with comparable content focus."
+          "qualifying_degree": "Vocationally-qualifying university Bachelor's degree in Electrical Engineering and Information Technology or equivalent program with comparable content focus.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering and Information Technology",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Teaching language is English (100%); no specific test/score found via official source."
+          "ielts": "Teaching language is English (100%); no specific test/score found via official source.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 72 total (Reading 18, Listening 17, Speaking 20, Writing 17); TOEFL iBT (since 2026): 4 in each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1, with official certificate (telc Deutsch A1, ÖSD Zertifikat A1, Goethe-Zertifikat A1)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Program normally starts winter semester; uni-assist application portal reportedly opens early May 2026 per official page reference."
+          "winter_deadline_non_eu": "Program normally starts winter semester; uni-assist application portal reportedly opens early May 2026 per official page reference.",
+          "portal": "uni-assist for foreign applicants (except Erasmus/exchange or those with existing admission letter); own student services for German applicants",
+          "summer_deadline": "Not offered",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "About 340.50 EUR per semester, includes semester ticket for buses/trams in Chemnitz and regional trains across Germany",
+          "estimated_cost_of_living": "About 970 EUR per month for personal expenses",
+          "total_cost_per_semester": "Not found; uni-assist application fees apply"
         },
         "exact_admission_regulations": "2024 Studienordnung/Prüfungsordnung (dated 23 April 2024) are binding regulations for exact entry requirements; not fully retrievable in this session.",
         "deep_recheck": {
@@ -4590,7 +5060,12 @@ const DATABASE = {
           "newly_found_info": "Confirmed uni-assist requirement (with exceptions for exchange students); program flyer PDF location found",
           "corrections": [],
           "notes": "Official program page remains unreachable (404); relied on search aggregation of official-adjacent TU Chemnitz pages."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -4661,16 +5136,30 @@ const DATABASE = {
         "official_source_url": "https://hdbw-hochschule.com/master/digital-factory-and-operational-excellence",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No minimum GPA stated; 'No numerus clausus' for this programme.",
-          "qualifying_degree": "Bachelor's in Industrial Engineering, Business Administration (relevant focus), Production Management, Logistics Management, Mechanical Engineering, or comparable field (others considered via advisory service); ideally 210 ECTS (180-ECTS needs individual agreement); non-EU Bachelor's may require one-semester Pre-Master unless matching + 3+ years work experience."
+          "qualifying_degree": "Bachelor's in Industrial Engineering, Business Administration (relevant focus), Production Management, Logistics Management, Mechanical Engineering, or comparable field (others considered via advisory service); ideally 210 ECTS (180-ECTS needs individual agreement); non-EU Bachelor's may require one-semester Pre-Master unless matching + 3+ years work experience.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Industrial Engineering/Management/Logistics/Business Informatics/Mechanical Engineering, 210 ECTS expected",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not stated"
         },
         "language_requirements": {
-          "ielts": "English level B2 required via recognised test (TOEFL, IELTS, TOEIC, FCE, CPE, BEC) or official confirmation of English-taught Bachelor's; no minimum IELTS score given."
+          "ielts": "English level B2 required via recognised test (TOEFL, IELTS, TOEIC, FCE, CPE, BEC) or official confirmation of English-taught Bachelor's; no minimum IELTS score given.",
+          "toefl_ibt": "TOEFL Essentials: overall 8, 8 in each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Domestic/EU: 14 March (summer) / 30 Sept (winter). Non-EU: 15 Jan (summer) / 31 July (winter)."
+          "winter_deadline_non_eu": "Domestic/EU: 14 March (summer) / 30 Sept (winter). Non-EU: 15 Jan (summer) / 31 July (winter).",
+          "portal": "HDBW direct online application (/advice-application/apply-now)",
+          "summer_deadline": "Non-EU: by 15 January; EU/Iceland/Norway/Liechtenstein/Switzerland/UK: by 14 March",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "€790/month full-time (3 semesters) or €480/month part-time (5 semesters), all courses/exams included. No EU application fee; €100 non-EU application fee."
+          "tuition_non_eu": "€790/month full-time (3 semesters) or €480/month part-time (5 semesters), all courses/exams included. No EU application fee; €100 non-EU application fee.",
+          "semester_contribution_fee": "97 EUR per semester (compulsory, for Munich/Upper Bavaria Student Union); optional 43 EUR/month for regional public transport",
+          "estimated_cost_of_living": "At least 600 EUR/month rent (shared room in/near Munich) plus ~600 EUR/month personal expenses",
+          "total_cost_per_semester": "€790/month full-time(3 sem) or €480/month part-time(5 sem), all courses/exams included; €100 non-EU application fee, none for EU"
         },
         "exact_admission_regulations": "Required docs: motivation letter, CV, Bachelor's certificate, English proof; optional German courses via bfz; German not required.",
         "deep_recheck": {
@@ -4690,7 +5179,12 @@ const DATABASE = {
           "newly_found_info": "Non-EU Bachelor's holders require compulsory one-semester Pre-Master (waivable with matching degree + 3+ years work experience). Several admission/tuition/pre-master subpages identified.",
           "corrections": [],
           "notes": "Largely confirms prior data; no uni-assist/VPD used by this private institution."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 or 5 semesters (not specified which applies to full-time/part-time)",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English for lectures and thesis (100%); less than 50% online"
       }
     },
     {
@@ -4761,16 +5255,30 @@ const DATABASE = {
         "official_source_url": "https://uol.de/informatik/msc/des",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site.",
-          "qualifying_degree": "Suited to people wanting to work in IT and energy, with focus on energy transition and data-based approaches; no formal prerequisites listed on this page."
+          "qualifying_degree": "Suited to people wanting to work in IT and energy, with focus on energy transition and data-based approaches; no formal prerequisites listed on this page.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Computer science/engineering/electrical engineering, 180 CP",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not found"
         },
         "language_requirements": {
-          "ielts": "Not found via official site."
+          "ielts": "Not found via official site.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 72 total (Reading 18, Listening 17, Speaking 20, Writing 17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level; assessed by test or interview"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site."
+          "winter_deadline_non_eu": "Not found via official site.",
+          "portal": "/studiengang/bewerben/digitalised-energy-systems-master-630/freshman/de (online application portal)",
+          "summer_deadline": "Not offered",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "About 435 EUR per semester (coverage not stated)",
+          "estimated_cost_of_living": "About 1,000 EUR per month for accommodation, health insurance, food",
+          "total_cost_per_semester": "Not mentioned"
         },
         "exact_admission_regulations": "Application details on separate linked 'Bewerbung' page (uol.de/studiengang/bewerben/digitalised-energy-systems-master-630); study advice via Jörg Bremer, Department für Informatik.",
         "deep_recheck": {
@@ -4798,7 +5306,12 @@ const DATABASE = {
             }
           ],
           "notes": "Substantially filled in gaps that were 'not found' in current_official_data."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Department of Computing Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English; Master's theses may be written in German"
       }
     },
     {
@@ -4869,16 +5382,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/renewable-energy-and-electrical-power-engineering",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric GPA; bachelor's certificate should be 'good or excellent'.",
-          "qualifying_degree": "Internationally recognised bachelor's degree (≥3 years) in Electrical Engineering, Mechanical Engineering, Energy Technology, or related field (e.g. BSc EEIT or BSc Power Engineering); job experience not required; motivation letter weighted heavily; restricted admission with university selection procedure."
+          "qualifying_degree": "Internationally recognised bachelor's degree (≥3 years) in Electrical Engineering, Mechanical Engineering, Energy Technology, or related field (e.g. BSc EEIT or BSc Power Engineering); job experience not required; motivation letter weighted heavily; restricted admission with university selection procedure.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering, Mechanical Engineering, Energy Technology or related",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "English C1 required; no specific IELTS score mentioned (referred to general linked language-certificate page); German/Finnish not required but recommended."
+          "ielts": "English C1 required; no specific IELTS score mentioned (referred to general linked language-certificate page); German/Finnish not required but recommended.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 95 (Reading 24, Listening 22, Speaking 25, Writing 24)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "1 December (previous year) to 15 January (year of winter start) for first-year/non-EU/transfer students."
+          "winter_deadline_non_eu": "1 December (previous year) to 15 January (year of winter start) for first-year/non-EU/transfer students.",
+          "portal": "Apply via LUH's own portal; non-EU first-year applicants must also obtain VPD from uni-assist; partner university (LUT Finland) also reviews applications",
+          "summer_deadline": "Not offered",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not mentioned on page."
+          "tuition_non_eu": "Not mentioned on page.",
+          "semester_contribution_fee": "About 440 EUR per semester; covers Studentenwerk, AStA, semester ticket, administrative costs for Lower Saxony",
+          "estimated_cost_of_living": "About 965-1,106 EUR per month (rough averages, varies individually)",
+          "total_cost_per_semester": "Not mentioned on page"
         },
         "exact_admission_regulations": "Double degree: Year 1 Lappeenranta (Finland), Year 2 Hannover; thesis in Hannover; graduates get M.Sc. Power Engineering (Hannover) + M.Sc. Technology Energy Technology (Lappeenranta); non-EU applicants need uni-assist VPD; program starts 1 September yearly.",
         "deep_recheck": {
@@ -4905,7 +5432,12 @@ const DATABASE = {
             }
           ],
           "notes": "This program ALREADY had VPD noted correctly in current_official_data; re-verification confirms accuracy."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English (incl. thesis); native German speakers or German C1+ holders can take specialised courses in German in year 2"
       }
     },
     {
@@ -5441,16 +5973,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-kassel.de/uni/en/studium/electrical-communication-engineering-master.html (not directly fetched; found via search)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Minimum final mark of 2.5 or better (per multiple aggregators; not independently confirmed via direct fetch).",
-          "qualifying_degree": "Bachelor of Science (B.Sc.) in Electrical Engineering, Communications, or related area."
+          "qualifying_degree": "Bachelor of Science (B.Sc.) in Electrical Engineering, Communications, or related area.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering, Communications, or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Conflicting secondary data: CEFR B2, IELTS 5.5–6.5 or TOEFL iBT 72–87 depending on source; needs confirmation on official site."
+          "ielts": "Conflicting secondary data: CEFR B2, IELTS 5.5–6.5 or TOEFL iBT 72–87 depending on source; needs confirmation on official site.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 72 overall (Reading 18, Listening 17, Speaking 20, Writing 17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Conflicting secondary sources: Jan/March deadlines for non-EU/German applicants per DAAD listing vs. 15 July per another aggregator; unconfirmed."
+          "winter_deadline_non_eu": "Conflicting secondary sources: Jan/March deadlines for non-EU/German applicants per DAAD listing vs. 15 July per another aggregator; unconfirmed.",
+          "portal": "German-degree holders: university's own online master's portal. Foreign-degree holders: must apply via uni-assist AND pay the uni-assist fee (upload alone insufficient)",
+          "summer_deadline": "German certificates: 1 December-1 March; foreign certificates: 1 September-15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site (no tuition for EU typically; not confirmed for non-EU)."
+          "tuition_non_eu": "Not found via official site (no tuition for EU typically; not confirmed for non-EU).",
+          "semester_contribution_fee": "391.27 EUR (2026 summer semester), includes Deutschlandticket and canteen discounts",
+          "estimated_cost_of_living": "950-1,100 EUR per month (accommodation, food, health insurance, books, other)",
+          "total_cost_per_semester": "Not stated; general semester fee only, refers to student enquiries team"
         },
         "exact_admission_regulations": "As of summer semester 2024, program comprises 4 semesters and 120 credit points (previously 3 semesters/90 ECTS); GRE requirement disputed between sources; contact university's 'Information Studium' office for authoritative details.",
         "deep_recheck": {
@@ -5485,7 +6031,12 @@ const DATABASE = {
             }
           ],
           "notes": "Official URL was reachable this round (unlike prior session's note); good improvement in confirmation level."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (two years); first three for courses/seminars/lab training, fourth for thesis module",
+        "faculty_institute": "Faculty of Electrical Engineering/Computer Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -5556,16 +6107,30 @@ const DATABASE = {
         "official_source_url": "https://www.f05.uni-stuttgart.de/en/ei/prospective_students/eeng/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on page; links to separate 'Admission regulations' page.",
-          "qualifying_degree": "International two-year Master's in Electrical Engineering for students wanting an international environment; six specializations offered; no specific prerequisites stated on this page."
+          "qualifying_degree": "International two-year Master's in Electrical Engineering for students wanting an international environment; six specializations offered; no specific prerequisites stated on this page.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering and information technology or related",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not stated; page only says program 'can be completed entirely in English' and German proficiency not required."
+          "ielts": "Not stated; page only says program 'can be completed entirely in English' and German proficiency not required.",
+          "toefl_ibt": "TOEFL iBT/Home Edition: 95 (before 2026) or 5 (since 2026)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated on page."
+          "winter_deadline_non_eu": "Not stated on page.",
+          "portal": "General Uni Stuttgart master's application page (uni-stuttgart.de/en/study/application/master); admission-regulations subpage is just a navigation stub pointing to a PDF",
+          "summer_deadline": "15 May to 15 July",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not mentioned on page."
+          "tuition_non_eu": "Not mentioned on page.",
+          "semester_contribution_fee": "Approx. 200 EUR per semester (coverage not stated)",
+          "estimated_cost_of_living": "About 1,050 EUR per month; non-EU students must show sufficient finances for 12 months; EU citizens may apply for state-guaranteed loans",
+          "total_cost_per_semester": "UNVERIFIABLE"
         },
         "exact_admission_regulations": "Applications via university's general Master's application page; separate German-language 'Elektrotechnik und Informationstechnik' Master's also exists (not covered here).",
         "deep_recheck": {
@@ -5586,7 +6151,12 @@ const DATABASE = {
           "newly_found_info": "Found FAQ, Study Abroad, Module Manual, and Getting Started subpage links. Found that admission_regulations PDF exists at .../ei/dokumente/admissions_regulations_eeng.pdf but could not be fetched (likely PDF binary not renderable by WebFetch directly).",
           "corrections": [],
           "notes": "GPA/language/deadline/tuition/VPD specifics remain unconfirmed because the authoritative PDF could not be opened via WebFetch; recommend direct PDF download/parsing in a follow-up pass."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (first three study terms, fourth for thesis)",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -5657,16 +6227,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-kempten.de/en/faculty-of-electrical-engineering/degree-courses/master/electrical-engineering (admission details found via search of hs-kempten.de pages)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Secondary source: program expects a 'good' minimum final grade average (exact threshold not confirmed via direct fetch).",
-          "qualifying_degree": "First degree in Electrical Engineering or Information Technology with at least 180 ECTS (Bachelor's in electrical, telecommunication, or electronics engineering)."
+          "qualifying_degree": "First degree in Electrical Engineering or Information Technology with at least 180 ECTS (Bachelor's in electrical, telecommunication, or electronics engineering).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical, telecommunication, or electronics engineering",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not confirmed via official site; one secondary source claims German A1 required for international students, conflicting with English-taught DAAD listing."
+          "ielts": "Not confirmed via official site; one secondary source claims German A1 required for international students, conflicting with English-taught DAAD listing.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 75 overall (Reading 18, Listening 17, Speaking 20, Writing 17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level for application; A1 required during studies (course offered in 1st/2nd semester)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Per faculty application schedule: Dec 1 – Jan 15 (winter semester); May 15 – June 30 (summer semester)."
+          "winter_deadline_non_eu": "Per faculty application schedule: Dec 1 – Jan 15 (winter semester); May 15 – June 30 (summer semester).",
+          "portal": "MeinCampus online application portal (meincampus.hs-kempten.de)",
+          "summer_deadline": "15 November to 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Bavaria introduced tuition fees for non-EU/EEA students from WS 2025/26 per secondary source; non-EU applicants should confirm current fee."
+          "tuition_non_eu": "Bavaria introduced tuition fees for non-EU/EEA students from WS 2025/26 per secondary source; non-EU applicants should confirm current fee.",
+          "semester_contribution_fee": "115 EUR per semester (subject to change): 85 EUR student union membership + 30 EUR public transport pass",
+          "estimated_cost_of_living": "About 850 EUR per month in Kempten",
+          "total_cost_per_semester": "Not mentioned on page"
         },
         "exact_admission_regulations": "Foreign degrees require verification/validation by uni-assist; program listed as having restricted admission (NC).",
         "deep_recheck": {
@@ -5699,7 +6283,12 @@ const DATABASE = {
             }
           ],
           "notes": "IMPORTANT CORRECTION: prior data wrongly implied uni-assist/VPD was needed; official page says the opposite for this specific program."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters (two semesters lectures/lab training, third mainly thesis)",
+        "faculty_institute": "Faculty of Electrical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -5770,16 +6359,30 @@ const DATABASE = {
         "official_source_url": "https://www.tha.de/en/Electrical-Engineering/MEE.html (not directly fetched; details from SPO PDF search results)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Secondary/unconfirmed: one aggregator cites grade of 2.69 or better; official SPO (15 Oct 2024) states qualification requirement is 'a university degree' without stating numeric threshold directly in search snippet.",
-          "qualifying_degree": "University degree holders; secondary source (unverified) cites prior degree in mechatronics, electrical engineering, information technology, or mechanical engineering."
+          "qualifying_degree": "University degree holders; secondary source (unverified) cites prior degree in mechatronics, electrical engineering, information technology, or mechanical engineering.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical and Information Engineering, Mechatronics, or Computer Engineering, 210 ECTS",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site; language requirements reportedly handled under a separate 'pre-admission procedure statute' (content not retrieved)."
+          "ielts": "Not found via official site; language requirements reportedly handled under a separate 'pre-admission procedure statute' (content not retrieved).",
+          "toefl_ibt": "TOEFL iBT (before 2026): 80",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site."
+          "winter_deadline_non_eu": "Not found via official site.",
+          "portal": "THA online portal + VPD upload from uni-assist for foreign-degree holders; language certificate submitted directly to university (NOT via uni-assist)",
+          "summer_deadline": "15 November to 15 December",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "About 160 EUR per semester (coverage not specified)",
+          "estimated_cost_of_living": "700-950 EUR per month, varies by city; university publishes estimate on financing page",
+          "total_cost_per_semester": "No separate international tuition; semester fee €164.25"
         },
         "exact_admission_regulations": "Official SPO (Studien- und Prüfungsordnung) PDF dated SS25 and MEE handbook linked from tha.de hold authoritative current criteria; information events held each semester per DAAD listing.",
         "deep_recheck": {
@@ -5812,7 +6415,12 @@ const DATABASE = {
             }
           ],
           "notes": "HIGH PRIORITY FINDING - another explicit VPD requirement found, same gap pattern as FH Dortmund."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English only"
       }
     },
     {
@@ -5883,16 +6491,30 @@ const DATABASE = {
         "official_source_url": "https://www.ief.uni-rostock.de/ee-msc",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "At least 85% of CGPA or comparable grade under another system; alternatively GATE score of at least 500 points.",
-          "qualifying_degree": "First professional degree in Electrical Engineering with at least 180 credit points (LP) or equivalent from a Berufsakademie; documented knowledge in electromagnetic fields and waves (≥3 LP), mathematics (≥18 LP), programming/practical computer science (≥6 LP)."
+          "qualifying_degree": "First professional degree in Electrical Engineering with at least 180 credit points (LP) or equivalent from a Berufsakademie; documented knowledge in electromagnetic fields and waves (≥3 LP), mathematics (≥18 LP), programming/practical computer science (≥6 LP).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering or related, 180 CP, 24 CP math + 6 CP theoretical EE",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "TOEFL iBT at least 94, or IELTS at least 7.0 (native English speakers exempt); proof no more than 2 years old."
+          "ielts": "TOEFL iBT at least 94, or IELTS at least 7.0 (native English speakers exempt); proof no more than 2 years old.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 95 total (Reading 24, Listening 22, Speaking 25, Writing 24)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated on page; program starts winter (Oct 1) or summer (Apr 1) semester."
+          "winter_deadline_non_eu": "Not stated on page; program starts winter (Oct 1) or summer (Apr 1) semester.",
+          "portal": "International: uni-assist, then enroll at Uni Rostock after admission notice. German students from other unis: enroll online. Rostock's own students: re-register at Studierendensekretariat.",
+          "summer_deadline": "1 October to 30 November",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated on page."
+          "tuition_non_eu": "Not stated on page.",
+          "semester_contribution_fee": "333 EUR per semester, may increase each semester, includes semester ticket",
+          "estimated_cost_of_living": "Not given on page",
+          "total_cost_per_semester": "Not stated"
         },
         "exact_admission_regulations": "International applicants via UniAssist; instruction in English, some modules/exams in German; mandatory German course if native language isn't German; 4 semesters (120 LP); specializations: Information Technology and Power Engineering; contact ee.ief@uni-rostock.de.",
         "deep_recheck": {
@@ -5912,7 +6534,12 @@ const DATABASE = {
           "newly_found_info": "'Applying to Master EE' subpage link found; detailed prerequisite credit minimums confirmed",
           "corrections": [],
           "notes": "Largely confirms prior data; no VPD terminology found despite uni-assist use (consistent pattern across Rostock IEF programs)."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Computer Science and Electrical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%, some courses available in German); students choose major: Information Technology or Power Engineering"
       }
     },
     {
@@ -6314,16 +6941,30 @@ const DATABASE = {
         "official_source_url": "https://www.ovgu.de/en/Study/Study+Programmes/Master/Electrical+Engineering+and+Information+Technology.html",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor grade point average 'at most 2.0 on the German scale'.",
-          "qualifying_degree": "Qualified B.Sc. in Electrical Engineering or related field, with at least 15 CP Mathematics, 5 CP Physics, 20 CP Electronics and/or Information Technology."
+          "qualifying_degree": "Qualified B.Sc. in Electrical Engineering or related field, with at least 15 CP Mathematics, 5 CP Physics, 20 CP Electronics and/or Information Technology.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering, Information Technology or related",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No specific IELTS score; requires language certificate equivalent to B2 under OVGU Framework of reference; programme taught in English."
+          "ielts": "No specific IELTS score; requires language certificate equivalent to B2 under OVGU Framework of reference; programme taught in English.",
+          "toefl_ibt": "TOEFL iBT (before 2026): total 85 (Reading 18, Listening 17, Speaking 20, Writing 17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Deadline field present but no specific date given; enrollment in winter semester."
+          "winter_deadline_non_eu": "Deadline field present but no specific date given; enrollment in winter semester.",
+          "portal": "Not detailed on this page; refers to ovgu.de International Students / Full-Time Studies application forms/guidelines",
+          "summer_deadline": "Not offered",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated on page."
+          "tuition_non_eu": "Not stated on page.",
+          "semester_contribution_fee": "311.30 EUR, covers Studentenwerk services/student representatives; includes Deutschlandsemesterticket and campus cafeteria discounts, bus/tram travel within Magdeburg",
+          "estimated_cost_of_living": "At least 992 EUR per month (accommodation, living costs, health insurance, books, misc.); Magdeburg rents relatively low",
+          "total_cost_per_semester": "Not mentioned"
         },
         "exact_admission_regulations": "No restricted admission (open); 4 semesters; subject advisors Dr.-Ing. Martin Wilhelm and Prof. Dr.-Ing. Thilo Pionteck.",
         "deep_recheck": {
@@ -6343,7 +6984,12 @@ const DATABASE = {
           "newly_found_info": "FAQ subpage at eit.ovgu.de (International, EEIT) identified but not fetched for detail.",
           "corrections": [],
           "notes": "Largely confirms prior data; GPA requirement (2.0, stricter than most peers) reconfirmed. No VPD found."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English only"
       }
     },
     {
@@ -6609,6 +7255,33 @@ const DATABASE = {
           "newly_found_info": "None - no official_source_url was supplied in the input data for this entry, so no fetch was attempted",
           "corrections": [],
           "notes": "official_source_url and current_official_data were both null in input. Recommend a separate pass to locate RWTH Aachen's official page for this program before re-verifying."
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English (some modules may be in another language; exams in English or agreed language)",
+        "admission_eligibility": {
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering and Information Technology with specified ECTS distribution (see academic_requirements)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE General Test required at application (min score per current exam regulations, not stated); exempt for EU/EEA citizens and Bildungsinländer"
+        },
+        "language_requirements": {
+          "toefl_ibt": "TOEFL iBT/Home Edition (since 2026): 4.5; TOEFL iBT/Home Edition (before 2026): 90",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "International students must complete German courses worth 8 ECTS unless they prove B1 or higher; no minimum level otherwise required for admission"
+        },
+        "application_process": {
+          "portal": "Not checked",
+          "summer_deadline": "EU/Iceland/Norway/Liechtenstein: 2 Dec–15 Jan; Non-EU/Switzerland/UK: 1 June–1 Sept",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
+        },
+        "financial_costs": {
+          "semester_contribution_fee": "About 360 EUR per semester, includes a public transport semester ticket valid across Germany (Deutschlandticket) and covering South Limburg, Netherlands",
+          "estimated_cost_of_living": "Estimated 1,100 EUR per month (food, accommodation, personal/social expenses, study costs); non-EU residence permit requires min income of 992 EUR/month (2026)",
+          "total_cost_per_semester": "Not checked"
         }
       }
     },
@@ -6844,16 +7517,30 @@ const DATABASE = {
         "official_source_url": "Not found (program page returns 404; redirect target https://www.tu-chemnitz.de/etit/stugang/index.php?page=m_es also unavailable)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Not found via official site"
+          "qualifying_degree": "Not found via official site",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering and Information Technology or equivalent",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not stated"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (before 2026): 72 total (R18/L17/S20/W17); TOEFL iBT (since 2026): 4 total (4 each section)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 required, with official certificate such as telc Deutsch A1, ÖSD A1, or Goethe-Zertifikat A1"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Per third-party sources: international applicants apply via uni-assist (fee 75 EUR first program, 30 EUR per additional); German A-level/degree holders, exchange students, and German citizens apply directly via TU Chemnitz's own online portal",
+          "summer_deadline": "Not found",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "About 340.50 EUR per semester, includes semester ticket for Chemnitz buses/trams and regional trains across Germany during semester",
+          "estimated_cost_of_living": "About 970 EUR per month for personal expenses",
+          "total_cost_per_semester": "Not found; program is 120 ECTS over 4 semesters (2 years) per third-party sources"
         },
         "exact_admission_regulations": "TU Chemnitz Embedded Systems M.Sc. official page link from DAAD/university site is broken (404); could not independently confirm beyond DAAD listing.",
         "deep_recheck": {
@@ -6873,7 +7560,12 @@ const DATABASE = {
           "newly_found_info": "Clarified that the official program URL (tu-chemnitz.de/etit/stugang) is still broken/unreachable as in the prior pass; all info in this entry comes from third-party aggregators (mygermanuniversity, mastersportal, expatrio, msingermany) and should be treated as UNVERIFIED pending official site access, via archive.org or similar",
           "corrections": [],
           "notes": "Could not improve on 'Not found via official site' status since the official page remains inaccessible (404). Recommend trying Wayback Machine or a different TU Chemnitz subdomain in a future pass."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -6944,16 +7636,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-bremerhaven.de/esd",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "CGPA equivalent to German grade 2.3 or better (may be enhanced by 0.3 with ≥2 years relevant professional experience post-bachelor)",
-          "qualifying_degree": "Bachelor's in an engineering program (210 ECTS) with coursework in math/physics (15 ECTS), electrical engineering (10 ECTS), mechanical engineering (5 ECTS), programming (5 ECTS), control engineering (5 ECTS); enthusiastic about control engineering, mechanics, digital technology and software development"
+          "qualifying_degree": "Bachelor's in an engineering program (210 ECTS) with coursework in math/physics (15 ECTS), electrical engineering (10 ECTS), mechanical engineering (5 ECTS), programming (5 ECTS), control engineering (5 ECTS); enthusiastic about control engineering, mechanics, digital technology and software development",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Technical subject (engineering background)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "English B2 (CEFR) required; IELTS 6.0 or TOEFL iBT 72 or Bachelor's taught fully in English accepted as proof"
+          "ielts": "English B2 (CEFR) required; IELTS 6.0 or TOEFL iBT 72 or Bachelor's taught fully in English accepted as proof",
+          "toefl_ibt": "TOEFL iBT (since 2026): 4 overall, 4 each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A2 required, official certificate such as Goethe-Zertifikat A2 or ÖSD A2"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Non-EU applicants must submit via uni-assist by 31 December for summer semester start (program admits only in summer semester)"
+          "winter_deadline_non_eu": "Non-EU applicants must submit via uni-assist by 31 December for summer semester start (program admits only in summer semester)",
+          "portal": "Non-EU applicants: submit via uni-assist by 31 December for summer semester start (program admits summer semester only, admission-free/no quota). Other (EU/German) applicants: apply via the ecampus portal (https://ecampus.hs-bremerhaven.de)",
+          "summer_deadline": "Non-EU: 1 October–31 December; EU: 1 November–15 February",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated (public Hochschule; application-fee-free/admission-free per site, implying only standard semester contribution)"
+          "tuition_non_eu": "Not stated (public Hochschule; application-fee-free/admission-free per site, implying only standard semester contribution)",
+          "semester_contribution_fee": "420 EUR, includes semester ticket for local public transport nationwide",
+          "estimated_cost_of_living": "800–1,100 EUR/month: health insurance 110 EUR (non-EU); rent 350–500 EUR; food/other 350–450 EUR",
+          "total_cost_per_semester": "Not found - page does not mention tuition; only semester fees implied (public Hochschule)"
         },
         "exact_admission_regulations": "Also requires German A2 proof (Goethe/DSH/TestDaF/TELC/DAAD/UNIcert/ÖSD/DTZ or transcript). Admission-free (no quota) per site. Course delivered entirely in English.",
         "deep_recheck": {
@@ -6973,7 +7679,12 @@ const DATABASE = {
           "newly_found_info": "uni-assist portal link (https://www.uni-assist.de/en/?lid=3067&lvl=3&cHash=067bc47f2b0d2c1353a6e59515b21928); Master Info Online Event date 12.01.2027; student advisory contact phone/email; German program page link (/de/studium/studiengaenge/esd)",
           "corrections": [],
           "notes": "No separate 'admission requirements' subpage beyond the main ESD page was found to contain more detail; VPD term itself was not explicitly used, so field is marked 'implied, not explicit'."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Faculty 1 (Technology)",
+        "intake_semester": "Summer",
+        "teaching_language": "English (courses, labs, documentation, exams)"
       }
     },
     {
@@ -7044,16 +7755,30 @@ const DATABASE = {
         "official_source_url": "https://www.emerald.uliege.be/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (admission criteria subpage not retrievable in detail)",
-          "qualifying_degree": "Students with background in both geology and applied sciences (mining, metallurgy, chemistry); aims to train engineers with entrepreneurial mindset for green energy transition resource management"
+          "qualifying_degree": "Students with background in both geology and applied sciences (mining, metallurgy, chemistry); aims to train engineers with entrepreneurial mindset for green energy transition resource management",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering/geology/mining/chemical/metallurgical background; min 22.5 ECTS mathematics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not listed"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (before 2026): overall 87 (R22/L21/S22/W22)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Online application form hosted on emerald.uliege.be (apply-3/apply/ and apply/ pages); scholarship/fee-waiver requests submitted through the same online form",
+          "summer_deadline": "Not found",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site (fees & scholarships page referenced but details not extracted)"
+          "tuition_non_eu": "Not found via official site (fees & scholarships page referenced but details not extracted)",
+          "semester_contribution_fee": "Not included in tuition; varies by university",
+          "estimated_cost_of_living": "Not listed",
+          "total_cost_per_semester": "NEW exact figures (effective 2024): Non-European students 8,000 EUR/year (case-by-case waivers possible for self-funded students); European students 2,000 EUR/year (1,000 EUR/year if from one of the 4 partner universities); estimated living costs ~14,000 EUR/year. EMJM full grant (Call 2027): 33,600 EUR total (24 x 1,400 EUR monthly allowance) plus participation costs. EIT RawMaterials partial grant (Call 2027): 15,000 EUR (not currently available). University of Liege partial grant (Call 2026): 24 x 1,200 EUR/month + 1,000 EUR installation cost (does not cover tuition)"
         },
         "exact_admission_regulations": "Erasmus Mundus Joint Master (EMJM), EIT-labelled, 120 ECTS over 2 years across 4 partner European universities (incl. TU Bergakademie Freiberg), each delivering a degree.",
         "deep_recheck": {
@@ -7075,7 +7800,12 @@ const DATABASE = {
           "newly_found_info": "Full tuition figures, full scholarship structure (3 distinct grant types with amounts), full required-documents checklist, and exact language test score thresholds - none of this was in current_official_data, which only had generic descriptions",
           "corrections": [],
           "notes": "Degree-background admission criteria require Bachelor's in Engineering (>=3 yrs/180 ECTS, with geology basics) OR Bachelor's in Minerals/Mining/Chemical/Geological/Metallurgical/Materials Engineering OR Master's in Geology, plus >=22.5 ECTS university math."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, 120 ECTS",
+        "faculty_institute": "Faculty of Mechanical, Process and Energy Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English (courses, materials, assessments, thesis); internships may be in French or German"
       }
     },
     {
@@ -7146,16 +7876,30 @@ const DATABASE = {
         "official_source_url": "https://hectorschool.kit.edu/master-energy-engineering-and-management.php",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not GPA-based; based on first academic degree (Bachelor/Master/Diploma) plus professional experience, not grade threshold",
-          "qualifying_degree": "Working professionals/high potentials in energy sector (project managers, engineering executives) with first academic degree plus at least 2 years professional experience"
+          "qualifying_degree": "Working professionals/high potentials in energy sector (project managers, engineering executives) with first academic degree plus at least 2 years professional experience",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering, natural sciences, information science, or economics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "English language proficiency required (no specific IELTS score published on this page)"
+          "ielts": "English language proficiency required (no specific IELTS score published on this page)",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Rolling application — no fixed deadline"
+          "winter_deadline_non_eu": "Rolling application — no fixed deadline",
+          "portal": "Online application portal: https://hectorschool.applicationportal.org/home.html; rolling application, no fixed deadline, program starts every October",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 36,000 total (part-time, work-integrated Executive M.Sc.)"
+          "tuition_non_eu": "EUR 36,000 total (part-time, work-integrated Executive M.Sc.)",
+          "semester_contribution_fee": "Approx. 150 EUR per semester (contents not specified)",
+          "estimated_cost_of_living": "Approx. 1,000 EUR per month",
+          "total_cost_per_semester": "CONFIRMED: EUR 36,000 total (part-time Executive M.Sc.)"
         },
         "exact_admission_regulations": "Part-time Executive M.Sc., 90 ECTS, 15 months plus ~9-month thesis; one management module held at ESADE Business School, Barcelona; preparatory electrical engineering crash course recommended for those with limited EE background.",
         "deep_recheck": {
@@ -7175,7 +7919,12 @@ const DATABASE = {
           "newly_found_info": "Specific subpage URLs: /admission-requirements.php, /application-procedure.php, /costs-and-fees.php, /financial-support.php, /visa-information.php; exact preparatory course dates Nov 9-13, 2026",
           "corrections": [],
           "notes": "Subpages (admission-requirements.php, application-procedure.php) were identified but not individually fetched in this pass due to time; recommend a follow-up fetch of those exact URLs for deeper detail (deadlines/documents/visa)."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (part-time)",
+        "faculty_institute": "Technology Business School",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -7246,16 +7995,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-furtwangen.de/zukunft-studieren/studiengaenge/engineering-and-business-management",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated as numeric grade; admission based on first qualifying degree quality generally (no explicit CGPA cutoff found)",
-          "qualifying_degree": "Holders of a first professional degree (Bachelor, Master, Diploma or equivalent) in a relevant field such as engineering, natural sciences, computer science or business/economics; requires at least 2 years of professional experience after the degree"
+          "qualifying_degree": "Holders of a first professional degree (Bachelor, Master, Diploma or equivalent) in a relevant field such as engineering, natural sciences, computer science or business/economics; requires at least 2 years of professional experience after the degree",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Not specified; aimed at students with fewer than 210 ECTS, who can make up missing credits",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Very good English language skills required (no specific IELTS score published on this page)"
+          "ielts": "Very good English language skills required (no specific IELTS score published on this page)",
+          "toefl_ibt": "TOEFL iBT (before 2026): total 72 (R18/L17/S20/W17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Apply via https://www.hs-furtwangen.de/studium/studiengaenge/engineering-and-business-management/jetzt-fuer-ebm-bewerben; general application info at https://www.hs-furtwangen.de/studium/bewerbung; international applicants page at https://www.hs-furtwangen.de/studium/international",
+          "summer_deadline": "Non-EU: 15 November; EU: 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Voluntary practical semester costs ~€2,000; no explicit overall tuition figure found beyond standard public-university semester fees"
+          "tuition_non_eu": "Voluntary practical semester costs ~€2,000; no explicit overall tuition figure found beyond standard public-university semester fees",
+          "semester_contribution_fee": "176 EUR per semester, in addition to tuition",
+          "estimated_cost_of_living": "About 850 EUR per month",
+          "total_cost_per_semester": "NEW exact breakdown: Semester 1: EUR 5,900; Semester 2: EUR 5,900; Semester 3 (thesis): EUR 3,000; optional internship semester: EUR 2,000; semester contribution: EUR 176 (previously only the EUR 2,000 optional-practical-semester figure was known)"
         },
         "exact_admission_regulations": "90 ECTS program. Students without the required 210 ECTS at Bachelor level must make up missing credits individually, coordinated with the program dean.",
         "deep_recheck": {
@@ -7288,7 +8051,12 @@ const DATABASE = {
             }
           ],
           "notes": "Program is summer-intake only, not winter - this clarifies that 'winter_deadline_non_eu' as a field name is actually inapplicable; the real deadline is for summer-semester entry."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters (18 months), optional 4th semester for internship",
+        "faculty_institute": "Engineering and Technology (Rottweil)",
+        "intake_semester": "Winter",
+        "teaching_language": "English; German courses also offered"
       }
     },
     {
@@ -7359,16 +8127,30 @@ const DATABASE = {
         "official_source_url": "https://www.thi.de/studium/studienangebote/details/engineering-and-management-msc/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Admission based on average grade (Notendurchschnitt) of Bachelor's degree; required average depends on number of applicants and available capacity (no fixed numeric cutoff published)",
-          "qualifying_degree": "Bachelor's degree (≥210 ECTS) in Wirtschaftsingenieurwesen, Maschinenbau, Fahrzeugtechnik, Luft- und Raumfahrttechnik, Elektrotechnik, Informatik, or other engineering/technical discipline"
+          "qualifying_degree": "Bachelor's degree (≥210 ECTS) in Wirtschaftsingenieurwesen, Maschinenbau, Fahrzeugtechnik, Luft- und Raumfahrttechnik, Elektrotechnik, Informatik, or other engineering/technical discipline",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering/technology discipline, min 210 ECTS",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site (specific IELTS score not listed in extracted content)"
+          "ielts": "Not found via official site (specific IELTS score not listed in extracted content)",
+          "toefl_ibt": "TOEFL iBT (before 2026): 72 total (R18/L17/S20/W17); TOEFL iBT (since 2026): 4 each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Apply through THI's own online application system (not directly uni-assist); international applicants first get a VPD from uni-assist, then upload it to THI's portal. THI explicitly warns it does not work with agencies and never asks for money before the admission letter; legitimate emails only come from @thi.de addresses",
+          "summer_deadline": "Not found (winter intake primarily)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site (no tuition figure found in extracted content)"
+          "tuition_non_eu": "Not found via official site (no tuition figure found in extracted content)",
+          "semester_contribution_fee": "82 EUR per semester for student union",
+          "estimated_cost_of_living": "Health insurance ~150 EUR; liability insurance ~10 EUR; accommodation ~500–650 EUR; internet/mobile ~25 EUR; food ~200–300 EUR; broadcasting fee ~19 EUR; Deutschlandticket ~43 EUR; blocked account ~992 EUR/month for up to 12 months",
+          "total_cost_per_semester": "NEW: 1,200 EUR per semester for applicants from outside EU/EWG; recommended living budget 700-900 EUR/month for a single person"
         },
         "exact_admission_regulations": "All foreign applicants must submit documents via uni-assist for grade conversion (VPD). Indian applicants with Engineering/Commerce/Business bachelor's must additionally pass the Digital Master Test (dMAT, €150) for APS certificate/visa purposes.",
         "deep_recheck": {
@@ -7388,7 +8170,12 @@ const DATABASE = {
           "newly_found_info": "Exact tuition (1,200 EUR/semester for non-EU), two module handbook PDF links, contact form URL, explicit anti-fraud warning about agencies and @thi.de email domain, confirmation that uni-assist VPD processing can take up to 6 weeks",
           "corrections": [],
           "notes": "This program (THI Engineering and Management) already had VPD correctly flagged in current_official_data - this pass re-confirms and strengthens that with exact process description and tuition figure."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Not stated",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100% of courses"
       }
     },
     {
@@ -7459,16 +8246,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-bremen.de/emss",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Final grade corresponding to German mark 'good' or better (min. 2.5); for international students GPA of at least 3.00/4.00 or 7.50/10.00, or first class with distinction, or >70%",
-          "qualifying_degree": "Bachelor's, German 'Diplom', or equivalent first academic degree in Computer Science, Electronics Engineering, Space Technology, or related STEM fields"
+          "qualifying_degree": "Bachelor's, German 'Diplom', or equivalent first academic degree in Computer Science, Electronics Engineering, Space Technology, or related STEM fields",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Computer Science, Electronics Engineering, Space Technology, or related STEM field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "English proficiency min. B2 (CEFR); TOEFL or IELTS accepted as equivalent certificates; university certificate or interview with admission board accepted if English was medium of instruction"
+          "ielts": "English proficiency min. B2 (CEFR); TOEFL or IELTS accepted as equivalent certificates; university certificate or interview with admission board accepted if English was medium of instruction",
+          "toefl_ibt": "TOEFL iBT (since 2026): 4 in each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not explicitly stated numerically; one referenced update date 02.06.2026 found in admissions content"
+          "winter_deadline_non_eu": "Not explicitly stated numerically; one referenced update date 02.06.2026 found in admissions content",
+          "portal": "Applications submitted via the Campino system (https://campino.hs-bremen.de), window 1 June - 15 October (note: page frames this as a summer-semester-start program at Gdansk Tech, so confirm timing). Only HSB students already enrolled in CS, Electronics Engineering, or Aerospace Technologies master's programs may apply; max 15 candidates per partner university per year via an admission board",
+          "summer_deadline": "1 June to 15 October (all countries)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Semester fees only (public Hochschule; no separate tuition figure found)"
+          "tuition_non_eu": "Semester fees only (public Hochschule; no separate tuition figure found)",
+          "semester_contribution_fee": "Refer to HSB application and admission page; amount not given",
+          "estimated_cost_of_living": "Not mentioned",
+          "total_cost_per_semester": "Confirmed still not listed - only standard semester fee required at enrollment"
         },
         "exact_admission_regulations": "Engineering and Management of Space Systems (EMSS) at Hochschule Bremen; covers space law, systems engineering, ground segment, and includes interdisciplinary one-year project components.",
         "deep_recheck": {
@@ -7495,7 +8296,12 @@ const DATABASE = {
             }
           ],
           "notes": "This is an important structural correction: EMSS functions as an internal specialization/exchange track, not a program international applicants can apply to directly from scratch."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "School of Electrical Engineering and Computer Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100% of courses"
       }
     },
     {
@@ -7566,16 +8372,30 @@ const DATABASE = {
         "official_source_url": "https://www.srh-university.de/en/plp/meng-automation-robotics/e/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (no numeric GPA/grade threshold found in extracted content)",
-          "qualifying_degree": "Students seeking expert/leadership positions in international companies in Industry 4.0: automation, robotics, and 3D manufacturing; opportunity to earn Siemens Mechatronic Systems Certificate Program (SMSCP) certification"
+          "qualifying_degree": "Students seeking expert/leadership positions in international companies in Industry 4.0: automation, robotics, and 3D manufacturing; opportunity to earn Siemens Mechatronic Systems Certificate Program (SMSCP) certification",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering or natural sciences",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site (no specific IELTS score found in extracted content)"
+          "ielts": "Not found via official site (no specific IELTS score found in extracted content)",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Not described - only an information-request form is offered; no direct application portal/process found",
+          "summer_deadline": "Not listed; see programme website",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 840 per month for EU/EEA students"
+          "tuition_non_eu": "EUR 840 per month for EU/EEA students",
+          "semester_contribution_fee": "None",
+          "estimated_cost_of_living": "Not listed; discounted semester ticket/Deutschlandticket available",
+          "total_cost_per_semester": "NEW: Non-EU/non-EEA students: 'from EUR 6,500 per semester' (previously only the EU/EEA EUR 840/month figure was known)"
         },
         "exact_admission_regulations": "MEng program at SRH University (private); tuition quoted is monthly, differs from potential non-EU/EEA rate which was not found.",
         "deep_recheck": {
@@ -7602,7 +8422,12 @@ const DATABASE = {
             }
           ],
           "notes": "SRH's program pages are consistently thin on admission/application process detail across all three SRH entries in this chunk (6362, 6361, 6364) - site structure offers no linked admission-requirements or how-to-apply subpages, only a generic contact/info-request form."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not stated",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -7673,16 +8498,30 @@ const DATABASE = {
         "official_source_url": "https://www.srh-university.de/en/plp/meng-mobility-automotive-industry/e/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Students aiming to become mobility/automotive industry experts; focuses on project/change management, innovation, intercultural teams, communication and negotiation skills"
+          "qualifying_degree": "Students aiming to become mobility/automotive industry experts; focuses on project/change management, innovation, intercultural teams, communication and negotiation skills",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering or natural sciences",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Not described - only an information-request form",
+          "summer_deadline": "Not listed",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 840 per month for EU/EEA students"
+          "tuition_non_eu": "EUR 840 per month for EU/EEA students",
+          "semester_contribution_fee": "None listed",
+          "estimated_cost_of_living": "Not given; discounted semester ticket/Deutschlandticket available",
+          "total_cost_per_semester": "NEW: Non-EU/non-EEA students: EUR 6,800 per semester; EU/EEA students: EUR 840 per month"
         },
         "exact_admission_regulations": "MEng Engineering and Sustainable Technology Management — Mobility and Automotive Industry at SRH University (private).",
         "deep_recheck": {
@@ -7709,7 +8548,12 @@ const DATABASE = {
             }
           ],
           "notes": "Same site-structure limitation as other SRH entries - no admission/application subpages found."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not stated",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -7780,16 +8624,30 @@ const DATABASE = {
         "official_source_url": "https://www.srh-university.de/en/plp/meng-smart-building/e/n/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Students interested in digital building infrastructure and smart building technology management, construction/infrastructure innovation"
+          "qualifying_degree": "Students interested in digital building infrastructure and smart building technology management, construction/infrastructure innovation",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Architecture, HVAC, Computer Science, Electrical Engineering, or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Not described - only an information-request form",
+          "summer_deadline": "Not listed",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 840 per month for EU/EEA students"
+          "tuition_non_eu": "EUR 840 per month for EU/EEA students",
+          "semester_contribution_fee": "None",
+          "estimated_cost_of_living": "Not given; discounted semester ticket/Deutschlandticket available",
+          "total_cost_per_semester": "NEW: Non-EU/non-EEA students: EUR 6,949.98 per semester"
         },
         "exact_admission_regulations": "MEng Engineering and Sustainable Technology Management — Smart Building Technologies at SRH University (private).",
         "deep_recheck": {
@@ -7816,7 +8674,12 @@ const DATABASE = {
             }
           ],
           "notes": "Same site-structure limitation as other SRH entries."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not stated",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -7887,16 +8750,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-stuttgart.de/en/study/study-programs/Engineering-Cybernetics-M.Sc./",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (selection-criteria subpage content not extracted in detail)",
-          "qualifying_degree": "Not found via official site beyond general program description"
+          "qualifying_degree": "Not found via official site beyond general program description",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Related field with mathematics/modelling/systems and control focus",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (from 2026): 5 (as listed, unusual); TOEFL iBT (before 2026): 95",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site (an 'Application deadlines' subpage exists but detail not retrieved)"
+          "winter_deadline_non_eu": "Not found via official site (an 'Application deadlines' subpage exists but detail not retrieved)",
+          "portal": "Apply through University of Stuttgart's online Master's application system; must upload a transcript showing GPA to the 'C@MPUS' portal. Conditional admission generally requires ~110 ECTS credits at time of application (varies by program); proof of completed Bachelor's degree due by 31 March (winter) or 30 September (summer) for provisional admission, or risk de-registration",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site (standard low public-university semester fee implied; no figure confirmed)"
+          "tuition_non_eu": "Not found via official site (standard low public-university semester fee implied; no figure confirmed)",
+          "semester_contribution_fee": "Approximately 200 EUR per semester (contents not stated)",
+          "estimated_cost_of_living": "About 1,050 EUR per month; non-EU must prove 12 months of living expenses; EU citizens may apply for state-guaranteed loans",
+          "total_cost_per_semester": "Not found"
         },
         "exact_admission_regulations": "University of Stuttgart's Engineering Cybernetics M.Sc. page references separate 'Application deadlines' and 'Selection criteria' subpages that were not individually fetched; DAAD listing remains the more complete source for now.",
         "deep_recheck": {
@@ -7924,7 +8801,12 @@ const DATABASE = {
             }
           ],
           "notes": "Page is primarily in German; an English-taught version of the program exists at a separate URL not fetched this pass - recommend checking it for English-specific admission/language requirements."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, 120 ECTS",
+        "faculty_institute": "Institute for Systems Theory and Automatic Control",
+        "intake_semester": "Winter",
+        "teaching_language": "English; optional German-taught courses can be selected"
       }
     },
     {
@@ -7995,16 +8877,30 @@ const DATABASE = {
         "official_source_url": "Not found (srh-university.de generic domain given, specific program page not located)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Not found via official site"
+          "qualifying_degree": "Not found via official site",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering or natural sciences",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (before 2026): 87",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Not checked",
+          "summer_deadline": "Not listed; see programme website",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Likely similar to other SRH MEng programs (~EUR 840/month for EU/EEA, per sibling SRH programs), not independently confirmed for this exact program"
+          "tuition_non_eu": "Likely similar to other SRH MEng programs (~EUR 840/month for EU/EEA, per sibling SRH programs), not independently confirmed for this exact program",
+          "semester_contribution_fee": "None listed",
+          "estimated_cost_of_living": "Not listed",
+          "total_cost_per_semester": "Not checked"
         },
         "exact_admission_regulations": "DAAD hint was only the bare domain srh-university.de; specific program URL not identified within time available.",
         "deep_recheck": {
@@ -8022,7 +8918,12 @@ const DATABASE = {
           "newly_found_info": "None this pass - no usable URL was available in the input data",
           "corrections": [],
           "notes": "Recommend a WebSearch pass specifically for 'SRH University Engineering for Renewable Energy Water and Waste Management MEng' to locate the exact program page before re-verifying, similar to what the SRH sibling programs (6361/6362/6364) use as their URL pattern (srh-university.de/en/plp/...)."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not stated",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -8093,16 +8994,30 @@ const DATABASE = {
         "official_source_url": "Not found (th-rosenheim.de bare domain given, specific program page not located)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Not found via official site"
+          "qualifying_degree": "Not found via official site",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering and Information Technology, Mechatronics, Mechanical Engineering, Plastics Engineering, or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (before 2026): 72 total (R18/L17/S20/W17); TOEFL iBT Home Edition (before 2026): 72 total (same subscores)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A2 required, official certificate: DSD I, Goethe-Zertifikat A2, telc Deutsch A2, or ÖSD A2"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Not checked",
+          "summer_deadline": "With foreign qualification: 1 Sept–15 Jan for March start; With German qualification: 1 Nov–15 Jan for March start",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "97 EUR student union contribution per semester",
+          "estimated_cost_of_living": "About 992 EUR/month (~11,904 EUR/year), covering living expenses, accommodation, health insurance, other costs; blocked account presumed annual amount 11,904 EUR for non-EU",
+          "total_cost_per_semester": "Not checked"
         },
         "exact_admission_regulations": "DAAD hint was only a vague domain reference; specific official program page for Engineering Sciences at TH Rosenheim not located within time available.",
         "deep_recheck": {
@@ -8120,7 +9035,12 @@ const DATABASE = {
           "newly_found_info": "None this pass - no usable URL was available in the input data",
           "corrections": [],
           "notes": "Recommend a WebSearch pass for 'TH Rosenheim Engineering Sciences Master international' to locate the exact program page before re-verifying."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters full-time; 6 semesters part-time",
+        "faculty_institute": "Faculty of Engineering Sciences",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -8191,16 +9111,30 @@ const DATABASE = {
         "official_source_url": "https://eminent-master.eu/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (specific numeric GPA requirement not extracted)",
-          "qualifying_degree": "Students interested in embedded intelligence, functional/smart materials, sensor systems, and nanosystems engineering for applications from healthcare to space exploration"
+          "qualifying_degree": "Students interested in embedded intelligence, functional/smart materials, sensor systems, and nanosystems engineering for applications from healthcare to space exploration",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical/Electronic Engineering, Mechanical Engineering, Physics, Materials Science, or Computer Science, min 180 ECTS",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (before 2026): 93 (R18/L17/S20/W17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "None"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Apply via 'Apply now' link to University of Siegen's online portal (unisono); application period starts 1 November 2026, no closing date found on the page fetched",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "About 372 EUR per semester, covers 6-month public transport ticket nationwide, social services contribution, student activities",
+          "estimated_cost_of_living": "About 800–1,000 EUR/month (rent, health insurance, food, clothing, materials, phone/internet, travel, entertainment, sports)",
+          "total_cost_per_semester": "Not found; a separate 'Cost of Living' page is referenced but not fetched"
         },
         "exact_admission_regulations": "European Master's in Embedded Intelligence Nanosystems Engineering (EMINENT), University of Siegen is one consortium partner; page has a dedicated 'Application Requirements' section not fully extracted.",
         "deep_recheck": {
@@ -8220,7 +9154,12 @@ const DATABASE = {
           "newly_found_info": "Application opens 1 November 2026 and goes through University of Siegen's unisono portal specifically (not a generic consortium portal)",
           "corrections": [],
           "notes": "The /application-requirements/ URL guessed for this program returned 404 - the real subpage slug differs; recommend a WebSearch or site-navigation pass to find the correct 'Application Requirements', 'Important Dates', and 'Downloads' page URLs on eminent-master.eu before concluding GPA/language/tuition are truly absent."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (2 years), 120 ECTS",
+        "faculty_institute": "Department of Electrical Engineering and Computer Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English, including Master's thesis"
       }
     },
     {
@@ -8291,16 +9230,30 @@ const DATABASE = {
         "official_source_url": "https://master.eurec.be/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Not found via official site (general renewable energy focus per program name)"
+          "qualifying_degree": "Not found via official site (general renewable energy focus per program name)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering, mathematics, or physics; natural sciences with min 210 ECTS",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Applications handled through a dedicated login portal at https://master.eurec.be/how-to-apply/ (with account creation/password-reset sub-URLs)",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "Approx. 435 EUR per semester (contents not stated)",
+          "estimated_cost_of_living": "About 1,000 EUR/month (accommodation, health insurance, food)",
+          "total_cost_per_semester": "Not found this pass"
         },
         "exact_admission_regulations": "European Master's in Renewable Energy (EMRE), University of Oldenburg partner; site has a 'How to Apply' section not fully extracted within time available.",
         "deep_recheck": {
@@ -8320,7 +9273,12 @@ const DATABASE = {
           "newly_found_info": "Exact program length (1.5 years incl. 6-month practical project), full consortium university list, and existence of a sibling program (SESYM) for less-technical applicants",
           "corrections": [],
           "notes": "The How to Apply subpage (https://master.eurec.be/how-to-apply/) requires login/account creation and was not fetched this pass since it is behind an application portal gate rather than a plain informational page - admission/GPA/language/tuition/deadline details likely require either account creation or a separate public 'Admission' info page not found in the top-level navigation. Recommend trying a WebSearch for 'EMRE European Master Renewable Energy admission requirements IELTS deadline' to surface a plain-text info page."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Institute of Physics",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100% during core and specialisation semesters"
       }
     },
     {
@@ -8391,16 +9349,30 @@ const DATABASE = {
         "official_source_url": "https://hectorschool.kit.edu/master-financial-engineering.php",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not GPA-based; based on possession of first academic degree plus professional experience",
-          "qualifying_degree": "Working professionals with a first academic degree (Bachelor, Master, or Diploma) plus at least 2 years of professional experience, English proficiency"
+          "qualifying_degree": "Working professionals with a first academic degree (Bachelor, Master, or Diploma) plus at least 2 years of professional experience, English proficiency",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering, natural sciences, information science, or economics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "English language proficiency required (no specific IELTS score published on this page)"
+          "ielts": "English language proficiency required (no specific IELTS score published on this page)",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Rolling application — no fixed deadline"
+          "winter_deadline_non_eu": "Rolling application — no fixed deadline",
+          "portal": "Rolling application process; online application portal referenced but exact URL not re-extracted this pass (same portal as sibling Energy Engineering program: https://hectorschool.applicationportal.org/home.html)",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not explicitly stated on this page (sibling Energy Engineering program lists EUR 36,000; Financial Engineering likely similar but not confirmed on this page)"
+          "tuition_non_eu": "Not explicitly stated on this page (sibling Energy Engineering program lists EUR 36,000; Financial Engineering likely similar but not confirmed on this page)",
+          "semester_contribution_fee": "Approx. 150 EUR per semester (contents not specified)",
+          "estimated_cost_of_living": "Approx. 1,000 EUR per month",
+          "total_cost_per_semester": "CONFIRMED: EUR 36,000 total overall (same as sibling Energy Engineering program)"
         },
         "exact_admission_regulations": "Part-time Executive M.Sc., 90 ECTS, at HECTOR School of Engineering & Management, KIT.",
         "deep_recheck": {
@@ -8427,7 +9399,12 @@ const DATABASE = {
             }
           ],
           "notes": "Subpages for admission-requirements/application-procedure/costs-and-fees exist in the same URL pattern as the Energy Engineering sibling but were not individually re-fetched for this program."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (part-time)",
+        "faculty_institute": "Technology Business School",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -8498,16 +9475,30 @@ const DATABASE = {
         "official_source_url": "https://www.fbg.uni-hannover.de/gugmsc",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (requirements subpage not fully extracted)",
-          "qualifying_degree": "Not found via official site (program title indicates Geodesy and Geoinformatics specialization in Remote Sensing and GIS)"
+          "qualifying_degree": "Not found via official site (program title indicates Geodesy and Geoinformatics specialization in Remote Sensing and GIS)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Geodesy and Geoinformatics, engineering, Geosciences, or Geography",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (since 2026): 5 overall, 5 each section; TOEFL iBT Home Edition (since 2026): same",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "C1 required, official certificate: ÖSD C2, telc Deutsch C1 Hochschule (passed), Goethe-Zertifikat C2, DSD II, Studienkolleg Feststellungsprüfung German part (passed), TestDaF TDN4 each section, DSH-2"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Application for a study place (Studienplatzbewerbung) referenced via link to uni-hannover.de general application page; exact program-specific portal not found",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "Approx. 440 EUR, covers Studentenwerk, AStA, semester ticket, administrative costs for Lower Saxony",
+          "estimated_cost_of_living": "Average about 965–1,106 EUR per month",
+          "total_cost_per_semester": "Not found"
         },
         "exact_admission_regulations": "Leibniz University Hannover program page retrieved but detailed admission text not extracted within time available.",
         "deep_recheck": {
@@ -8527,7 +9518,12 @@ const DATABASE = {
           "newly_found_info": "Named program coordinators with phone numbers; links to Zugangsordnung (admission regs), Studienplatzbewerbung (application), Prufungsordnung (exam regs), and a Studienverlauf (curriculum) subpage",
           "corrections": [],
           "notes": "The Zugangsordnung GuG link (https://www.uni-hannover.de/de/studium/vor-dem-studium/bewerbung-und-zulassung/voraussetzungen-zum-studium/zugangsordnungen/) is a general regulations index, not the specific program's admission document - would need further navigation to find the GuG-specific PDF/page for exact GPA/deadline figures."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Civil Engineering and Geodetic Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English (all mandatory courses); German may help with some electives"
       }
     },
     {
@@ -8598,16 +9594,30 @@ const DATABASE = {
         "official_source_url": "https://www.gug.uni-bonn.de/en/master-ge",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (Requirements & Application subpage referenced but not fully extracted)",
-          "qualifying_degree": "Not found via official site; program covers space geodesy using satellites and extragalactic objects to study Earth system changes"
+          "qualifying_degree": "Not found via official site; program covers space geodesy using satellites and extragalactic objects to study Earth system changes",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Geodesy, Geoinformation, or related field with specified credit distribution",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (before 2026): 95 total (R24/L22/S25/W24); TOEFL iBT (since 2026): 5 total, 5 each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Apply through University of Bonn's own online application portal (not uni-assist)",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "About 350 EUR per semester, covers Deutschlandsemesterticket and statutory accident insurance, among other things",
+          "estimated_cost_of_living": "About 1,000 EUR per month, rent as largest expense",
+          "total_cost_per_semester": "Not mentioned on either page"
         },
         "exact_admission_regulations": "University of Bonn Geodetic Engineering page has a dedicated 'Requirements & Application' subpage (https://www.gug.uni-bonn.de likely sublink) that should be checked for full detail.",
         "deep_recheck": {
@@ -8635,7 +9645,12 @@ const DATABASE = {
             }
           ],
           "notes": "This was one of the more successful subpage follow-ups in this batch - the requirements-and-application subpage contained extensive detail absent from the main landing page, exactly matching the user's hypothesis about info being split across subpages."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not stated",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100% of courses"
       }
     },
     {
@@ -8706,16 +9721,30 @@ const DATABASE = {
         "official_source_url": "https://www.thi.de/studium/studienangebote/details/global-foresight-and-technology-management-msc",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Graduates aiming for roles in project leadership, product/technology management, innovation management, strategic analysis of future customer/technology/competition trends, business development, entrepreneurship, and sustainability management"
+          "qualifying_degree": "Graduates aiming for roles in project leadership, product/technology management, innovation management, strategic analysis of future customer/technology/competition trends, business development, entrepreneurship, and sustainability management",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering/management/IT/natural sciences/economics/sociology/business administration, min 210 ECTS",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (before 2026): total 72 (R18/L17/S20/W17); TOEFL iBT (since 2026): total 4 (R4/L4/S4/W4)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "None"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Apply via THI's own online application portal (PRIMUSS); German applicants follow separate master's guidance; international applicants submit bachelor's certificate to uni-assist first (which issues VPD), then upload VPD + other documents to PRIMUSS",
+          "summer_deadline": "15 October–15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "82 EUR per semester to student union",
+          "estimated_cost_of_living": "Health insurance ~150 EUR; liability insurance ~10 EUR; accommodation ~500-650 EUR; internet/mobile ~25 EUR; food ~200-300 EUR; German TV/radio fee ~19 EUR; Deutschlandticket ~43 EUR; blocked account ~992 EUR/month for up to 12 months",
+          "total_cost_per_semester": "NEW: EUR 1,200 per semester for non-EU/EEA students (same rate as sister THI program); recommended living budget EUR 700-900/month"
         },
         "exact_admission_regulations": "THI Global Foresight and Technology Management MSc; curriculum includes foresight/trend analysis, business ethics and technology assessment, and an interdisciplinary research seminar.",
         "deep_recheck": {
@@ -8754,7 +9783,12 @@ const DATABASE = {
             }
           ],
           "notes": "IMPORTANT: this program's current_official_data had NO mention of uni-assist/VPD at all, despite THI applying the same VPD policy university-wide (confirmed identical wording to the already-VPD-flagged sister program 7168). This is exactly the type of gap the user flagged for FH Dortmund - confirms the value of this re-verification pass."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Faculty of Engineering and Management",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -8825,16 +9859,30 @@ const DATABASE = {
         "official_source_url": "https://www.gpe.tu-berlin.de/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (Admission Requirements section exists but not fully extracted)",
-          "qualifying_degree": "Students seeking careers in global manufacturing/production engineering, with flexible curriculum across Production, Engineering, Management, Intercultural Communication and a Special Profile track"
+          "qualifying_degree": "Students seeking careers in global manufacturing/production engineering, with flexible curriculum across Production, Engineering, Management, Intercultural Communication and a Special Profile track",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering (Bachelor of Engineering or equivalent) plus 1 year professional experience",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (from 2026): 4.5 in each section (or total 4.5 with 4 each section as listed); TOEFL iBT (before 2026): 87 total (R22/L22/S21/W22)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required (advantageous but not required)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Not fully described; page refers to a separate '/application/' subpage (https://www.gpe.tu-berlin.de/application/) for exact steps, which was identified but not fetched this pass",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "About 350 EUR per semester, includes Berlin public transport ticket and TU Berlin administration fees",
+          "estimated_cost_of_living": "At least 1,200 EUR per month recommended (room/board, health insurance, books, supplies)",
+          "total_cost_per_semester": "Not found - referred to a separate Application page for program fees"
         },
         "exact_admission_regulations": "TU Berlin Global Production Engineering (GPE) M.Sc.; instruction in English with additional German language courses offered; strong industry/alumni network emphasis.",
         "deep_recheck": {
@@ -8862,7 +9910,12 @@ const DATABASE = {
             }
           ],
           "notes": "A professional-experience requirement (>=12 months post-bachelor) was newly found and was not in current_official_data at all - this is a meaningful eligibility gap filled."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Department for Sustainable Corporate Development, Institute for Machine Tools and Factory Management (IWF)",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100% of courses; German for Engineers available on request"
       }
     },
     {
@@ -8933,16 +9986,30 @@ const DATABASE = {
         "official_source_url": "https://www.b-tu.de/en/hybrid-electric-propulsion-ms/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site as numeric GPA; admission references a detailed subject-background requirement document ('details' link) rather than a flat grade cutoff",
-          "qualifying_degree": "Bachelor's degree in engineering, preferably mechanical engineering, aerospace engineering, electrical engineering, or energy engineering, or related fields"
+          "qualifying_degree": "Bachelor's degree in engineering, preferably mechanical engineering, aerospace engineering, electrical engineering, or energy engineering, or related fields",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Mechanical, aerospace, electrical, or energy engineering, or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS min. 6.0; TOEFL iBT min. 79; German Abitur accepted as proof for German applicants"
+          "ielts": "IELTS min. 6.0; TOEFL iBT min. 79; German Abitur accepted as proof for German applicants",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "None"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "'Apply now' button links to BTU's master's degree application page; detailed subject-background requirements linked separately at /access-to-the-programme/application#c360856 (not fetched this pass)",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site (public university; likely only semester contribution)"
+          "tuition_non_eu": "Not found via official site (public university; likely only semester contribution)",
+          "semester_contribution_fee": "391.80 EUR for winter 2026/27, covers student services, Student Council, semester ticket incl. Deutschlandticket",
+          "estimated_cost_of_living": "780-1,000 EUR/month: rent with utilities 250-450 EUR; groceries ~160-180 EUR; health insurance/medical/medication ~145 EUR; miscellaneous 170-220 EUR",
+          "total_cost_per_semester": "NEW: 'Fees' listed as EUR 391.80 - period/type not specified on the page (likely a semester contribution rather than full tuition, given BTU is a public university; flag for confirmation)"
         },
         "exact_admission_regulations": "BTU Cottbus-Senftenberg Hybrid Electric Propulsion Technology M.Sc.; first-of-its-kind program at BTU covering mechanical, electrical and control engineering aspects for aviation applications.",
         "deep_recheck": {
@@ -8962,7 +10029,12 @@ const DATABASE = {
           "newly_found_info": "Exact Cambridge/UniCert alternative-language-test equivalencies; a EUR 391.80 fee figure (unclear if full tuition or semester contribution)",
           "corrections": [],
           "notes": "The EUR 391.80 figure is ambiguous - likely the standard BTU semester contribution (Studentenwerk/admin fee) rather than tuition, since BTU is a tuition-free public university for this type of program; needs confirmation via the 'access-to-the-programme' subpage, which was not fetched."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not stated",
+        "intake_semester": "Winter",
+        "teaching_language": "English, all modules; German courses available"
       }
     },
     {
@@ -9033,16 +10105,30 @@ const DATABASE = {
         "official_source_url": "https://tu-dresden.de/hydro/ma-hse",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (no numeric GPA figure found in extracted content)",
-          "qualifying_degree": "Prepares students to lead water-focused development projects across cultures, sectors, and institutional frameworks worldwide (Hydro Science and Engineering)"
+          "qualifying_degree": "Prepares students to lead water-focused development projects across cultures, sectors, and institutional frameworks worldwide (Hydro Science and Engineering)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Natural sciences, engineering, or similar field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "English proficiency at C1 level required; IELTS, TOEFL, Cambridge English qualifications or equivalent certifications accepted; a Medium of Instruction (MOI) certificate alone is generally NOT sufficient"
+          "ielts": "English proficiency at C1 level required; IELTS, TOEFL, Cambridge English qualifications or equivalent certifications accepted; a Medium of Instruction (MOI) certificate alone is generally NOT sufficient",
+          "toefl_ibt": "TOEFL iBT (from 2026): 5 overall, 5 each section; TOEFL iBT (before 2026): 95 overall (R24/L22/S25/W24)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Specific application deadline referenced on page but exact date not captured in extracted text; see 'Deadlines for application' section"
+          "winter_deadline_non_eu": "Specific application deadline referenced on page but exact date not captured in extracted text; see 'Deadlines for application' section",
+          "portal": "Apply through TU Dresden's online application portal (standard route) or DAAD-EPOS portal (for DAAD scholarship Intake 2026); submit Application for Aptitude Assessment form; Admission Board decides; accepted students receive Zulassungsbescheid (admission letter) used for student visa (studies cannot begin on a tourist visa)",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "About 340 EUR per semester, includes Deutschlandticket, 30 min free city bike rental per use, cafeteria concessions, discounts for cultural/leisure activities in Dresden",
+          "estimated_cost_of_living": "About 850 EUR per month (rent, food, insurance, basic expenses)",
+          "total_cost_per_semester": "Not found - only living-cost estimates given (EUR 750-900/month; dorms EUR 250-350/month; semester fee includes public transport pass)"
         },
         "exact_admission_regulations": "TU Dresden HSE program; ECTS credit conversion details provided for applicants converting non-ECTS credit systems (e.g., US credit hours).",
         "deep_recheck": {
@@ -9069,7 +10155,12 @@ const DATABASE = {
             }
           ],
           "notes": "APS certificate requirement for China/Vietnam/India applicants was entirely new information, not previously captured."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Environmental Sciences, Department of Hydrosciences",
+        "intake_semester": "Winter",
+        "teaching_language": "English, courses and thesis"
       }
     },
     {
@@ -9140,16 +10231,30 @@ const DATABASE = {
         "official_source_url": "https://www.haw-kiel.de/studium/studienangebot/industrial-engineering",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "German grade of at least 2.3 (Note mindestens 2,3) for first qualifying engineering/technical-scientific degree",
-          "qualifying_degree": "Holders of a first completed professional qualifying engineering or technical-scientific degree (Hochschulstudium)"
+          "qualifying_degree": "Holders of a first completed professional qualifying engineering or technical-scientific degree (Hochschulstudium)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Not listed",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not listed"
         },
         "language_requirements": {
-          "ielts": "Not found via official site (no specific IELTS score found in extracted content)"
+          "ielts": "Not found via official site (no specific IELTS score found in extracted content)",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "None"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Submit online application through the Casy portal (casy.haw-kiel.de); Studierendensekretariat and examination office/committee review for formal and substantive completeness; if accepted, invitation to enroll issued; missing enrollment deadline forfeits the place",
+          "summer_deadline": "1 November to 15 March",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site (public Hochschule; likely only semester contribution)"
+          "tuition_non_eu": "Not found via official site (public Hochschule; likely only semester contribution)",
+          "semester_contribution_fee": "170.90 EUR (contents not specified)",
+          "estimated_cost_of_living": "992 EUR/month estimate (rent not included, varies by area); page links to Numbeo cost-of-living comparison for Kiel",
+          "total_cost_per_semester": "NEW, SIGNIFICANT: EUR 9,900 total tuition, including the master thesis - this program is NOT free as might be assumed for a public Hochschule; plus a per-semester mandatory contribution (Studentenwerk/student body/admin fee, amount not stated) and a non-refundable enrollment administration fee (amount not stated)"
         },
         "exact_admission_regulations": "HAW Kiel Industrial Engineering M.Sc.; also requires proof of qualified practical/professional experience of generally not less than one year.",
         "deep_recheck": {
@@ -9182,7 +10287,12 @@ const DATABASE = {
             }
           ],
           "notes": "IMPORTANT CORRECTION: current_official_data assumed this program was effectively tuition-free ('likely only semester contribution') because HAW Kiel is a public Hochschule, but the official page explicitly states a EUR 9,900 program tuition fee including the thesis - this assumption was wrong and should be corrected."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, 120 ECTS (longer if part-time)",
+        "faculty_institute": "Department of Mechanical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100% of courses"
       }
     },
     {
@@ -9253,16 +10363,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-fresenius.com/study-programs/industrial-engineering-and-international-management-master/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric GPA/CGPA stated; requires completed bachelor's degree with at least 180 ECTS credits.",
-          "qualifying_degree": "Bachelor's degree holders in engineering or a science subject, with at least 60 ECTS in STEM (Science, Technology, Engineering, Mathematics) and at least 10 ECTS from a thesis/final project/case study."
+          "qualifying_degree": "Bachelor's degree holders in engineering or a science subject, with at least 60 ECTS in STEM (Science, Technology, Engineering, Mathematics) and at least 10 ECTS from a thesis/final project/case study.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's degree with 180 ECTS, 60 CP in STEM subjects, 10 CP thesis/project",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No IELTS score given; requires English equivalent to CEFR Level B2."
+          "ielts": "No IELTS score given; requires English equivalent to CEFR Level B2.",
+          "toefl_ibt": "TOEFL iBT (before 2026): total 70, Reading 18, Listening 17, Speaking 20, Writing 17 (B2 level, example)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated; page only offers an 'Apply now' link."
+          "winter_deadline_non_eu": "Not stated; page only offers an 'Apply now' link.",
+          "portal": "Own online portal via 'Apply now'; applicants upload at least CV and secondary school leaving certificate (bachelor applicants) or CV and bachelor transcript (master applicants) within 10 days",
+          "summer_deadline": "Not found; refer to university's application page",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not specified on official page (links to a brochure/\"costs and financing\" request form with no figures)."
+          "tuition_non_eu": "Not specified on official page (links to a brochure/\"costs and financing\" request form with no figures).",
+          "semester_contribution_fee": "Included in tuition fees",
+          "estimated_cost_of_living": "Not found",
+          "total_cost_per_semester": "Not stated on official page or application-process page; only a brochure/request form"
         },
         "exact_admission_regulations": "Full-time M.Sc.; intakes in both winter and summer semesters; study advice service available for subject-specific requirements.",
         "deep_recheck": {
@@ -9283,7 +10407,12 @@ const DATABASE = {
           "newly_found_info": "Full curriculum module breakdown; 10-day document upload window after starting application; health insurance requirement at enrollment",
           "corrections": [],
           "notes": "Two fetches confirm no uni-assist/VPD requirement for this program; data is otherwise thin on official site, consistent with prior collection."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English, with all courses taught in English"
       }
     },
     {
@@ -9354,16 +10483,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-fresenius.com/study-programs/industrial-engineering-and-international-management-master/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric GPA stated; bachelor's degree with 180 ECTS required (one aggregator cites 180 ECTS minimum explicitly).",
-          "qualifying_degree": "STEM graduates — bachelor's in mathematics, computer science, natural sciences, or engineering."
+          "qualifying_degree": "STEM graduates — bachelor's in mathematics, computer science, natural sciences, or engineering.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's degree with 180 ECTS, 60 CP STEM, 10 CP thesis/project",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Language proficiency certificate required but exact test/score not named on official materials; CEFR B2 English implied."
+          "ielts": "Language proficiency certificate required but exact test/score not named on official materials; CEFR B2 English implied.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 70 overall, Reading 18, Listening 17, Speaking 20, Writing 17 (B2, example)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "None"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated; rolling intakes for both semesters (Summer/Winter)."
+          "winter_deadline_non_eu": "Not stated; rolling intakes for both semesters (Summer/Winter).",
+          "portal": "Same as 7127 - own portal via 'Apply now', 10-day document upload window",
+          "summer_deadline": "No deadline listed; details on university's application page",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Application fee of 595 EUR for non-EU applicants (per secondary sources); exact tuition not confirmed on official page."
+          "tuition_non_eu": "Application fee of 595 EUR for non-EU applicants (per secondary sources); exact tuition not confirmed on official page.",
+          "semester_contribution_fee": "Included in tuition fees",
+          "estimated_cost_of_living": "Not found",
+          "total_cost_per_semester": "Not confirmed on official page (secondary sources cite 595 EUR application fee for non-EU, unconfirmed officially)"
         },
         "exact_admission_regulations": "Identical program listing to id 7127 (same university/program, duplicate DAAD entry); taught in English, 4 semesters full-time.",
         "deep_recheck": {
@@ -9384,7 +10527,12 @@ const DATABASE = {
           "newly_found_info": "Confirms this is literally the same official page as 7127 (duplicate DAAD listing)",
           "corrections": [],
           "notes": "Identical official source to 7127; no VPD/uni-assist mention found."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English; all courses held in English"
       }
     },
     {
@@ -9455,16 +10603,30 @@ const DATABASE = {
         "official_source_url": "https://www.sle.kit.edu/english/vorstudium/master-industrial-engineering-management.php",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No fixed minimum grade; final exam grade counts for up to 30 of 90 ranking points. Must not have a final failure in a comparable master's program.",
-          "qualifying_degree": "Bachelor's (or equivalent) in business administration, economics, engineering, computer science, mathematics, or physics; minimum 3-year study period and 180 ECTS."
+          "qualifying_degree": "Bachelor's (or equivalent) in business administration, economics, engineering, computer science, mathematics, or physics; minimum 3-year study period and 180 ECTS.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in Business Administration, Economics, Engineering, Computer Science, Mathematics, or Physics; 180 ECTS min",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GMAT (Focus Edition) min 550, or GRE General min 315 (required aptitude test)"
         },
         "language_requirements": {
-          "ielts": "English CEFR B2 required for all applicants. IELTS overall 6.5 minimum (no section below 5.5). Alternatives: TOEFL iBT 90, TOEIC, Cambridge B2 First/C1/C2, UNIcert II, Pearson PTE Academic."
+          "ielts": "English CEFR B2 required for all applicants. IELTS overall 6.5 minimum (no section below 5.5). Alternatives: TOEFL iBT 90, TOEIC, Cambridge B2 First/C1/C2, UNIcert II, Pearson PTE Academic.",
+          "toefl_ibt": "Not mentioned",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "July 15 (winter term) / January 15 (summer term), for both first-semester and higher-semester, German/EU and non-EU applicants."
+          "winter_deadline_non_eu": "July 15 (winter term) / January 15 (summer term), for both first-semester and higher-semester, German/EU and non-EU applicants.",
+          "portal": "KIT's own application portal; summer-term portal opens Dec 1, 2026; ranking based on academic grade (30 pts) + aptitude test (60 pts)",
+          "summer_deadline": "Until 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated on page (links to separate 'Charges and Fees' section with no amount shown)."
+          "tuition_non_eu": "Not stated on page (links to separate 'Charges and Fees' section with no amount shown).",
+          "semester_contribution_fee": "Approximately 180 EUR per semester (contents not stated)",
+          "estimated_cost_of_living": "700 to 900 EUR per month, depending on individual circumstances",
+          "total_cost_per_semester": "Not found; Charges and Fees subpage link given but could not be fetched (socket error)"
         },
         "exact_admission_regulations": "Aptitude test required: GMAT Focus (min 550) or GRE (min 315), worth up to 60 of 90 ranking points. Capacity: 100 places/year. Enrollment deadline extensions possible in justified cases.",
         "deep_recheck": {
@@ -9484,7 +10646,12 @@ const DATABASE = {
           "newly_found_info": "Detailed ranking point system (30 academic + 60 aptitude test = 90 total); capacity 100 places/year; module handbook PDF link; several named contacts/offices",
           "corrections": [],
           "notes": "Tuition page fetch failed (socket hang up) - could not independently confirm tuition fee amount."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, 120 ECTS credits",
+        "faculty_institute": "Department of Business and Economics",
+        "intake_semester": "Winter",
+        "teaching_language": "English (Master's thesis must also be written in English)"
       }
     },
     {
@@ -9555,16 +10722,30 @@ const DATABASE = {
         "official_source_url": "https://www.dresdeninternationaluniversity.com/master/industrial-management-microelectronics",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Average grade of 'over 70%' required (not expressed as CGPA).",
-          "qualifying_degree": "Graduates/early-career professionals with a degree (≥210 ECTS or bachelor's) in electrical engineering, electronics, microelectronics, technology, mechatronics, physics, automation, IT, nanotechnology, or information technology; at least 1 year occupational experience and solid prior knowledge required."
+          "qualifying_degree": "Graduates/early-career professionals with a degree (≥210 ECTS or bachelor's) in electrical engineering, electronics, microelectronics, technology, mechatronics, physics, automation, IT, nanotechnology, or information technology; at least 1 year occupational experience and solid prior knowledge required.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "210 ECTS or Bachelor's in electrical engineering, electronics, microelectronics, technology, mechatronics, physics, or automation",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Advanced English: IELTS 6.0, TOEFL 570 (or 550 per eligibility checker), TOEFL iBT 4.0, or similar (page has internal inconsistency on TOEFL score)."
+          "ielts": "Advanced English: IELTS 6.0, TOEFL 570 (or 550 per eligibility checker), TOEFL iBT 4.0, or similar (page has internal inconsistency on TOEFL score).",
+          "toefl_ibt": "TOEFL 570, iBT 79",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "None"
         },
         "application_process": {
-          "winter_deadline_non_eu": "19 February 2027 (program starts April 2027)."
+          "winter_deadline_non_eu": "19 February 2027 (program starts April 2027).",
+          "portal": "DIU's own process: (1) online application form + document upload, (2) academic review by DIU, (3) pre-contract consultation, (4) study contract signed + first payment, (5) admission letter + visa prep materials. Apply via di-uni.de/studienberatung/application-form.",
+          "summer_deadline": "Not applicable (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "€895 per month plus a €500 thesis fee; Early Bird applicants (apply by Jan 3, 2027) get one month's payment waived."
+          "tuition_non_eu": "€895 per month plus a €500 thesis fee; Early Bird applicants (apply by Jan 3, 2027) get one month's payment waived.",
+          "semester_contribution_fee": "None, because DIU is not a member of the Studentenwerk",
+          "estimated_cost_of_living": "About 934 EUR per month, based on the BAföG rate; actual costs depend on lifestyle",
+          "total_cost_per_semester": "€895/month plus €500 thesis fee; Early Bird (apply by Jan 3, 2027) waives one month's payment"
         },
         "exact_admission_regulations": "APS registration required if applicable in country of origin. 3 semesters (18 months), 90 ECTS, full-time, Dresden, English-taught.",
         "deep_recheck": {
@@ -9593,7 +10774,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD/uni-assist used by DIU for this program based on 3 pages checked."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Engineering and Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -9664,16 +10850,30 @@ const DATABASE = {
         "official_source_url": "https://www.dresdeninternationaluniversity.com/master/industrial-management-microelectronics",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Average grade of 'over 70%' required (not expressed as CGPA) — same program family as id 6566 but part-time variant.",
-          "qualifying_degree": "Working professionals/graduates in electrical engineering, electronics, microelectronics, mechatronics, physics, automation, IT or related fields with ≥1 year occupational experience; designed for part-time study alongside employment."
+          "qualifying_degree": "Working professionals/graduates in electrical engineering, electronics, microelectronics, mechatronics, physics, automation, IT or related fields with ≥1 year occupational experience; designed for part-time study alongside employment.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "210 ECTS equivalent degree, relevant technical background",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.0, TOEFL iBT 4.0 / TOEFL 570 (eligibility checker lists 550), or similar advanced English level."
+          "ielts": "IELTS 6.0, TOEFL iBT 4.0 / TOEFL 570 (eligibility checker lists 550), or similar advanced English level.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "19 February 2027 (program starts April 2027), per the main program page (part-time specific page returned a redirect to the same program)."
+          "winter_deadline_non_eu": "19 February 2027 (program starts April 2027), per the main program page (part-time specific page returned a redirect to the same program).",
+          "portal": "Same 5-step DIU own-process as described for 6566 (part-time variant uses the identical page)",
+          "summer_deadline": "Not applicable (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "€895 per month plus €500 thesis fee (part-time schedule); Early Bird discount of one month's payment for applications by Jan 3, 2027."
+          "tuition_non_eu": "€895 per month plus €500 thesis fee (part-time schedule); Early Bird discount of one month's payment for applications by Jan 3, 2027.",
+          "semester_contribution_fee": "None; DIU is not a member of the Studentenwerk",
+          "estimated_cost_of_living": "Estimated as number of months multiplied by current BaföG rate (934 EUR/month since July 2022)",
+          "total_cost_per_semester": "€895/month plus €500 thesis fee (part-time schedule spread longer); Early Bird discount for Jan 3, 2027 applications"
         },
         "exact_admission_regulations": "Part-time structure spread over a longer duration than the standard 18-month track; APS registration required if applicable; personal advisory appointments available.",
         "deep_recheck": {
@@ -9695,7 +10895,12 @@ const DATABASE = {
           "newly_found_info": "Confirms part-time page is a redirect/duplicate of main program; same 5-step application process applies",
           "corrections": [],
           "notes": "Duplicate program listing, same official source and findings as 6566."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -9766,16 +10971,30 @@ const DATABASE = {
         "official_source_url": "https://www.etit.tu-darmstadt.de/ice/studies/prospective_students/admission_requirements/admissionrequirements.en.jsp (page returned 404 on fetch; details below from cached search results of this and related official TU Darmstadt pages)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric CGPA; admissions committee reviews degree certificate/transcripts to judge if candidate has right background. Reference degree is a B.Sc. Elektrotechnik und Informationstechnik from TU Darmstadt or equivalent.",
-          "qualifying_degree": "Bachelor's degree (B.Sc. Elektrotechnik und Informationstechnik or equivalent) with a suitable major in electrical/communication engineering."
+          "qualifying_degree": "Bachelor's degree (B.Sc. Elektrotechnik und Informationstechnik or equivalent) with a suitable major in electrical/communication engineering.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Related Bachelor's in electrical engineering, computer engineering, computer science, or communications engineering (or similar with sufficient background)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not listed"
         },
         "language_requirements": {
-          "ielts": "English at CEFR C1 level required (official FAQ); third-party sites cite IELTS 7 / TOEFL iBT 95 / PTE 76 but these are unconfirmed by the official site, which says the International Admission Office decides whether non-native speakers need a certificate."
+          "ielts": "English at CEFR C1 level required (official FAQ); third-party sites cite IELTS 7 / TOEFL iBT 95 / PTE 76 but these are unconfirmed by the official site, which says the International Admission Office decides whether non-native speakers need a certificate.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level; assessed by test or interview"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Official FAQ states only one intake per year, starting September, application between 1 June and 31 August (conflicts with third-party sites citing a winter-semester 15 March deadline — official FAQ should be treated as authoritative)."
+          "winter_deadline_non_eu": "Official FAQ states only one intake per year, starting September, application between 1 June and 31 August (conflicts with third-party sites citing a winter-semester 15 March deadline — official FAQ should be treated as authoritative).",
+          "portal": "Not confirmed independently; cached info suggests International Admission Office handles applications; online assessment test required",
+          "summer_deadline": "Not applicable (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "About 385 EUR per semester, covering administrative fees and the Deutschlandticket semester ticket (to be extended to all participating transport operators nationwide)",
+          "estimated_cost_of_living": "Roughly 900 to 1,100 EUR per month (rough estimate, varies with lifestyle and accommodation)",
+          "total_cost_per_semester": "Not found"
         },
         "exact_admission_regulations": "Online Assessment Test of core-topic background knowledge required; no numerical admission cap if entrance requirements are met.",
         "deep_recheck": {
@@ -9797,7 +11016,12 @@ const DATABASE = {
           "newly_found_info": "Confirmed via WebSearch that both the admission-requirements AND FAQ official URLs are now dead (404), worse than before",
           "corrections": [],
           "notes": "CRITICAL: both official URLs attempted (admission requirements page and FAQ page) returned 404. Could not independently verify VPD/uni-assist status or any other field this round. Existing data note about the dead link stands; this is one of the least-verifiable entries in the batch. Recommend trying https://www.etit.tu-darmstadt.de/studieren/studium_international_etit/international_master_programme_information_and_communication_engineering/index.en.jsp found via search but not fetched due to time constraints."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English (all first-year lectures in English, alongside German language courses; German-taught courses from second year)"
       }
     },
     {
@@ -9868,16 +11092,30 @@ const DATABASE = {
         "official_source_url": "https://tuhh.de/tuhh/en/studying/before-studying/degree-courses/international-study-programs/information-and-communication-systems/admission-requirements",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric threshold stated; requires 'a very good previous academic performance.'",
-          "qualifying_degree": "Bachelor's or equivalent degree in engineering, preferably electrical or computer engineering. TUHH's own B.Sc. graduates in Computer Science, Data Science, Computer Science in Engineering, or Electrical Engineering can continue directly (language requirements still apply)."
+          "qualifying_degree": "Bachelor's or equivalent degree in engineering, preferably electrical or computer engineering. TUHH's own B.Sc. graduates in Computer Science, Data Science, Computer Science in Engineering, or Electrical Engineering can continue directly (language requirements still apply).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Relevant Bachelor's degree (subject-specific PDF requirements not detailed on page)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not specified — requires 'sufficient proficiency in English' with a language certificate, but no named test/score (third-party sources suggest IELTS 6.5 / TOEFL iBT 90, unconfirmed officially)."
+          "ielts": "Not specified — requires 'sufficient proficiency in English' with a language certificate, but no named test/score (third-party sources suggest IELTS 6.5 / TOEFL iBT 90, unconfirmed officially).",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated on official admission-requirements page (other TUHH sources suggest Dec 1 – Feb 1 or March 1, inconsistent across documents)."
+          "winter_deadline_non_eu": "Not stated on official admission-requirements page (other TUHH sources suggest Dec 1 – Feb 1 or March 1, inconsistent across documents).",
+          "portal": "TUHH's own online application portal; applicants may only apply to one international Master's program at TUHH; documents as PDFs up to 7MB each",
+          "summer_deadline": "Not applicable (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated on official page."
+          "tuition_non_eu": "Not stated on official page.",
+          "semester_contribution_fee": "About 390 EUR (contents not stated)",
+          "estimated_cost_of_living": "About 1,000 EUR per month",
+          "total_cost_per_semester": "Not stated on official page"
         },
         "exact_admission_regulations": "Online self-test / GPA 'pre-check' strongly recommended before applying; subject-specific credit requirements published in a separate PDF (last confirmed version dated 2016).",
         "deep_recheck": {
@@ -9905,7 +11143,12 @@ const DATABASE = {
             }
           ],
           "notes": "No uni-assist/VPD used; TUHH runs its own portal."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English; German courses offered before and during the programme"
       }
     },
     {
@@ -9976,16 +11219,30 @@ const DATABASE = {
         "official_source_url": "https://www.tu-chemnitz.de/etit/studium/studiengaenge/mIS",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (page content only confirmed program title; linked admissions page at ../../stugang/index.php?page=m_is could not be resolved).",
-          "qualifying_degree": "Not found via official site."
+          "qualifying_degree": "Not found via official site.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in Electrical Engineering and Information Technology or equivalent",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site."
+          "ielts": "Not found via official site.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 72 total (Reading 18, Listening 17, Speaking 20, Writing 17); TOEFL iBT (since 2026): 4 in each section (as listed)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 required, official certificate; accepted: ÖSD Zertifikat A1, telc Deutsch A1, Goethe-Zertifikat A1"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site."
+          "winter_deadline_non_eu": "Not found via official site.",
+          "portal": "Two routes: TU-Portal (roughly late May-mid Sept) or uni-assist (roughly early April-July 15) depending on applicant origin; Studierendenservice confirms which applies",
+          "summer_deadline": "Not applicable (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "Approx. 340.50 EUR per semester; includes semester ticket for buses/trams in Chemnitz and regional trains across Germany; bank details sent after admission; payment possible after arrival by German bank card or transfer",
+          "estimated_cost_of_living": "Approx. 970 EUR per month for personal expenses",
+          "total_cost_per_semester": "Not stated; links to semester fee and second/extended study fee pages"
         },
         "exact_admission_regulations": "Official program page is minimal and redirects to a separate 'Studiengang' (program) page not reachable directly; DAAD listing remains the best available source for this entry.",
         "deep_recheck": {
@@ -10013,7 +11270,12 @@ const DATABASE = {
             }
           ],
           "notes": "Major improvement over prior 'not found' data; uni-assist is used as one of two application routes but VPD is not explicitly named - recommend treating as 'uni-assist used, VPD not confirmed'."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100% of courses"
       }
     },
     {
@@ -10084,16 +11346,30 @@ const DATABASE = {
         "official_source_url": "https://www.iuk.studium.fau.eu/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site.",
-          "qualifying_degree": "Applicants with a Bachelor's in ICT or a related subject; can start winter or summer semester; part-time study possible."
+          "qualifying_degree": "Applicants with a Bachelor's in ICT or a related subject; can start winter or summer semester; part-time study possible.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Not found specifically on this page",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not found"
         },
         "language_requirements": {
-          "ielts": "Not found via official site."
+          "ielts": "Not found via official site.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 80 total, Reading 18, Listening 17, Speaking 20, Writing 17",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated on main page (links to separate 'Application and enrolment' page not captured)."
+          "winter_deadline_non_eu": "Not stated on main page (links to separate 'Application and enrolment' page not captured).",
+          "portal": "FAU's own 'campo' portal; online qualification test required (offered twice during application period); no uni-assist mentioned",
+          "summer_deadline": "15 September to 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "82 EUR per semester, paid by all students; from winter 2026/27, non-EU applicants pay 100 EUR per application",
+          "estimated_cost_of_living": "About 1,106 EUR/month (2021 survey): rent with utilities 410 EUR, food 198 EUR, health insurance/doctor/medicine 100 EUR, travel 89 EUR, leisure/culture/sports 65 EUR, clothing 46 EUR, study materials 31 EUR, telecommunications 31 EUR",
+          "total_cost_per_semester": "Not found"
         },
         "exact_admission_regulations": "Three specialization tracks offered (only 'Embedded Systems' named on fetched content, others truncated); standard duration 4 semesters; contact: Studien-Service-Center EEI, Erlangen.",
         "deep_recheck": {
@@ -10122,7 +11398,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD/uni-assist found despite checking 3 pages including the dedicated international-students page."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Electrical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "Mostly English, with some German; some courses fully taught in English for international students"
       }
     },
     {
@@ -10193,16 +11474,30 @@ const DATABASE = {
         "official_source_url": "https://hectorschool.kit.edu/master-information-systems-engineering-and-management.php",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated; refers to a separate admission-requirements page/PDF for detail.",
-          "qualifying_degree": "Holders of a first academic degree (Bachelor, Master, or Diploma) plus at least 2 years of professional experience; typical backgrounds: Economics, Computer Science, Business Informatics, Information Management, Electrical/Mechanical Engineering, Mechatronics, Industrial Engineering and Management."
+          "qualifying_degree": "Holders of a first academic degree (Bachelor, Master, or Diploma) plus at least 2 years of professional experience; typical backgrounds: Economics, Computer Science, Business Informatics, Information Management, Electrical/Mechanical Engineering, Mechatronics, Industrial Engineering and Management.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering, natural sciences, information science, or economics degree (180 or 210 ECTS)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not named; only 'English language proficiency' required, no specific test/score given."
+          "ielts": "Not named; only 'English language proficiency' required, no specific test/score given.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "No fixed deadline — rolling admissions; program starts every October."
+          "winter_deadline_non_eu": "No fixed deadline — rolling admissions; program starts every October.",
+          "portal": "Program's own admissions process; rolling admissions, program starts every October",
+          "summer_deadline": "Not applicable (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "€36,000 total program fee (links to a separate tuition/financing page for payment details)."
+          "tuition_non_eu": "€36,000 total program fee (links to a separate tuition/financing page for payment details).",
+          "semester_contribution_fee": "Approximately 150 EUR per semester (contents not specified)",
+          "estimated_cost_of_living": "Approximately 1,000 EUR per month",
+          "total_cost_per_semester": "€36,000 total program fee (no breakdown found); separate costs-and-fees.php page exists but not fetched this round"
         },
         "exact_admission_regulations": "Part-time structure (students enrolled full-time); 15 months of modules + 6-month thesis, typically done in a company; 90 ECTS; optional crash courses in probability/statistics and programming recommended for less-experienced applicants.",
         "deep_recheck": {
@@ -10230,7 +11525,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD/uni-assist mention despite checking the dedicated admission-requirements subpage."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -10301,16 +11601,30 @@ const DATABASE = {
         "official_source_url": "https://www.th-owl.de/en/studies/available-courses/degree-programs/detail/information-technology/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No fixed GPA cutoff for bachelor's holders; for the English-proficiency alternative route, at least 'satisfactory' (3.0, German scale) grades in the last 4 semesters of secondary education.",
-          "qualifying_degree": "Holders of a bachelor's degree in electrical engineering, information technology, computer science, mechatronics, or a closely related field, with a technical college or general university entrance qualification."
+          "qualifying_degree": "Holders of a bachelor's degree in electrical engineering, information technology, computer science, mechatronics, or a closely related field, with a technical college or general university entrance qualification.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Not mentioned on this page",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No IELTS score specified; requires CEFR B2 English, documented per International Office rules, or 7+ years of English instruction in secondary education (with the 3.0 grade condition)."
+          "ielts": "No IELTS score specified; requires CEFR B2 English, documented per International Office rules, or 7+ years of English instruction in secondary education (with the 3.0 grade condition).",
+          "toefl_ibt": "TOEFL iBT (since 2026): listed as 4, Reading/Listening/Speaking/Writing each listed as 4 (unclear if section or overall)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Germany/EU: winter 04.05–15.10, summer 01.12–15.02. Non-EU: winter 01.04–01.06, summer 17.11–15.01. (Page noted applications currently closed at time of check.)"
+          "winter_deadline_non_eu": "Germany/EU: winter 04.05–15.10, summer 01.12–15.02. Non-EU: winter 01.04–01.06, summer 17.11–15.01. (Page noted applications currently closed at time of check.)",
+          "portal": "KIS applicant portal (kis-portal.th-owl.de); page points to a separate 'Entry Options' subpage (/en/studies/application-and-enrollment/options-for-admission/) not yet fetched for full process detail",
+          "summer_deadline": "Not listed; published on TH OWL website and futureworld.engineer",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "None (no tuition fee)."
+          "tuition_non_eu": "None (no tuition fee).",
+          "semester_contribution_fee": "Not stated on page; refer to TH OWL webpage for current amounts and components",
+          "estimated_cost_of_living": "Visa blocked account requirement is 11,904 EUR per year (992 EUR per month) since 1 January 2025",
+          "total_cost_per_semester": "None (no tuition fee) - confirmed"
         },
         "exact_admission_regulations": "Non-restricted admission; no preparatory courses required; full-time (part-time option also mentioned); taught in English at the Innovation Campus Lemgo; 4-semester standard duration.",
         "deep_recheck": {
@@ -10331,7 +11645,12 @@ const DATABASE = {
           "newly_found_info": "Full curriculum breakdown by semester; required statement of purpose; KIS applicant portal name; direct contact phone/email for Student Service Center",
           "corrections": [],
           "notes": "Entry Options subpage (likely to contain application process steps) was linked but not fetched this round due to scope; no VPD/uni-assist found in pages checked."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters full-time; part-time up to 8 semesters",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English, including the Master's thesis"
       }
     },
     {
@@ -10402,16 +11721,30 @@ const DATABASE = {
         "official_source_url": "https://www.frankfurt-university.de/en/studies/master-programs/information-technology-meng/for-prospective-students/ (direct fetch returned 404; details below from cached search results of official Frankfurt UAS sources)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "One official presentation cites an average mark of ≤2.0 (German scale, lower = better) as threshold.",
-          "qualifying_degree": "Holders of a first professionally qualifying degree in Electrical Engineering and Information Technology with a specialization in Information and Communication Technology, or a comparable subject area. Admission is restricted (competitive)."
+          "qualifying_degree": "Holders of a first professionally qualifying degree in Electrical Engineering and Information Technology with a specialization in Information and Communication Technology, or a comparable subject area. Admission is restricted (competitive).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering and Information Technology degree with ICT specialisation or comparable; at least 180 ECTS",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not fully confirmed; DAAD listing suggests some applicants may not need to prove English skills under certain conditions (text truncated in source)."
+          "ielts": "Not fully confirmed; DAAD listing suggests some applicants may not need to prove English skills under certain conditions (text truncated in source).",
+          "toefl_ibt": "TOEFL Essentials: 8 overall (8 each section); TOEFL iBT (since 2026): 4 overall (4 each section); TOEFL iBT (before 2026): 72 overall (Reading 18, Listening 17, Speaking 20, Writing 17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "None"
         },
         "application_process": {
-          "winter_deadline_non_eu": "15 April for winter semester (international applicants, per DAAD); some sources cite 15 October for summer intake; deadlines reported to vary by country of prior degree."
+          "winter_deadline_non_eu": "15 April for winter semester (international applicants, per DAAD); some sources cite 15 October for summer intake; deadlines reported to vary by country of prior degree.",
+          "portal": "Uni-assist portal for applicants with foreign qualifications; motivation letter and CV required; fill in the attachment provided in the uni-assist application portal; uni-assist review takes about 4-6 weeks and forwards complete applications even after the official deadline",
+          "summer_deadline": "Not applicable (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "Approx. 380 EUR per semester",
+          "estimated_cost_of_living": "About 1,000 to 1,200 EUR per month",
+          "total_cost_per_semester": "Not found"
         },
         "exact_admission_regulations": "Foreign qualifications checked via uni-assist.de; program runs 4 semesters, taught in English.",
         "deep_recheck": {
@@ -10438,7 +11771,12 @@ const DATABASE = {
             }
           ],
           "notes": "Both direct official URLs (program page and for-prospective-students subpage) returned 404 again this round, same as previous data collection. Could not independently verify VPD wording, only general uni-assist usage, via WebSearch of cached/indexed official content. This program uses uni-assist (confirmed) but explicit 'VPD' terminology not directly observed in available text - should be flagged as likely VPD-required given uni-assist dependency, pending direct page access."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty 2, Computer Science and Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English (all courses)"
       }
     },
     {
@@ -10509,16 +11847,30 @@ const DATABASE = {
         "official_source_url": "https://www.srh-university.de/en/plp/meng-information-technology/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on official page.",
-          "qualifying_degree": "Per related SRH pages: applicants with a bachelor's degree in electrical engineering, information technology, communication technology, or similar; selection via application review plus a personal/phone interview."
+          "qualifying_degree": "Per related SRH pages: applicants with a bachelor's degree in electrical engineering, information technology, communication technology, or similar; selection via application review plus a personal/phone interview.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in Electrical Engineering, Communication Engineering, Information Technology, Computer Engineering, Control Engineering, Electronics or similar",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not stated on official page (third-party sources cite IELTS 6.5 / TOEFL iBT 80, unconfirmed officially; personal interview may substitute for formal English test per other SRH program pages)."
+          "ielts": "Not stated on official page (third-party sources cite IELTS 6.5 / TOEFL iBT 80, unconfirmed officially; personal interview may substitute for formal English test per other SRH program pages).",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated; rolling application via online portal, with start dates of 1 April and 1 October."
+          "winter_deadline_non_eu": "Not stated; rolling application via online portal, with start dates of 1 April and 1 October.",
+          "portal": "Request information material form only; no application portal/process steps found",
+          "summer_deadline": "Not listed; refer to programme website",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EU/EEA students: €840 per month. Non-EU/non-EEA students: €6,949.98 per semester."
+          "tuition_non_eu": "EU/EEA students: €840 per month. Non-EU/non-EEA students: €6,949.98 per semester.",
+          "semester_contribution_fee": "None",
+          "estimated_cost_of_living": "About 950-1,000 EUR per month for personal expenses; discounted semester ticket or 'Deutschlandticket' available",
+          "total_cost_per_semester": "€840/month EU/EEA students; €6,949.98/semester non-EU/non-EEA students - confirmed exact figures"
         },
         "exact_admission_regulations": "Duration 4 semesters; location Heidelberg; free, non-binding information material available on request; successful interview leads to acceptance letter and study contract.",
         "deep_recheck": {
@@ -10538,7 +11890,12 @@ const DATABASE = {
           "newly_found_info": "List of curriculum focus areas (communication networks, robotics, embedded systems, etc.) not previously captured; exact tuition figures reconfirmed",
           "corrections": [],
           "notes": "Page remains thin on admission process; same gaps as before. Recommend searching for a related SRH admission-requirements subpage not linked from this page."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "Listed as 4 semesters, but description says three semesters (18 months) - page has internal conflict",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English; all courses held in English"
       }
     },
     {
@@ -10609,16 +11966,30 @@ const DATABASE = {
         "official_source_url": "https://www.infotech.uni-stuttgart.de/program/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on page; refers to the Study Regulations for grading details.",
-          "qualifying_degree": "Interdisciplinary graduate students with a B.Sc. or similar in Electrical Engineering, Computer Science, Computer Applications, Automation, or a related field."
+          "qualifying_degree": "Interdisciplinary graduate students with a B.Sc. or similar in Electrical Engineering, Computer Science, Computer Applications, Automation, or a related field.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's (3+ years) in computer science, communications, electrical engineering (communications), electronics engineering, information technology, or automation",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not stated; page only confirms all lectures/exams are in English."
+          "ielts": "Not stated; page only confirms all lectures/exams are in English.",
+          "toefl_ibt": "TOEFL iBT Home Edition (before 2026): 95; TOEFL iBT Home Edition (since 2026): 5; TOEFL iBT (before 2026): 95; TOEFL iBT (since 2026): 5",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated on this page (links to separate Application/Requirements/Selection Process sections not captured)."
+          "winter_deadline_non_eu": "Not stated on this page (links to separate Application/Requirements/Selection Process sections not captured).",
+          "portal": "Application via the program's own process (C@mpus system implied by 'adjunct form uploaded with C@mpus application'); applicants submit an adjunct/supplementary form plus bachelor documents",
+          "summer_deadline": "15 May to 15 July",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "International (non-EU/EEA) students: EUR 1,500/semester plus semester fees. Students pursuing a second degree in Germany: EUR 650/semester plus semester fees."
+          "tuition_non_eu": "International (non-EU/EEA) students: EUR 1,500/semester plus semester fees. Students pursuing a second degree in Germany: EUR 650/semester plus semester fees.",
+          "semester_contribution_fee": "About 200 EUR per semester",
+          "estimated_cost_of_living": "About 1,050 EUR per month; non-EU students must show enough funds for 12 months; EU citizens may apply for state-guaranteed loans during enrolment",
+          "total_cost_per_semester": "Non-EU/EEA: €1,500/semester + semester fees. Second-degree-in-Germany students: €650/semester + semester fees."
         },
         "exact_admission_regulations": "Program system-accredited and recognized by the Baden-Württemberg Ministry of Education and Science; qualifies graduates for doctoral programs in Germany; personalized accreditation confirmation available on request.",
         "deep_recheck": {
@@ -10652,7 +12023,12 @@ const DATABASE = {
             }
           ],
           "notes": "No uni-assist/VPD requirement found even on the dedicated Requirements subpage - this program appears to use its own application review with anabin verification instead."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty 5",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -10723,16 +12099,30 @@ const DATABASE = {
         "official_source_url": "https://www.thi.de/en/electrical-engineering-and-information-technology/degree-programmes/intelligent-aerial-systems-meng/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not specified numerically.",
-          "qualifying_degree": "Bachelor's degree (180 ECTS) in Electrical and Information Engineering, Aeronautical Engineering, Computer Science, or related engineering discipline."
+          "qualifying_degree": "Bachelor's degree (180 ECTS) in Electrical and Information Engineering, Aeronautical Engineering, Computer Science, or related engineering discipline.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's with 180 ECTS in Electrical and Information Technology, Aeronautical Engineering, Computer Science, or mathematics/science",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No IELTS score given; B2-level English certificate required unless Abitur/Bachelor's was taught in English or applicant is a native speaker of English; German A1 required by end of first semester."
+          "ielts": "No IELTS score given; B2-level English certificate required unless Abitur/Bachelor's was taught in English or applicant is a native speaker of English; German A1 required by end of first semester.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 72 total (Reading 18, Listening 17, Speaking 20, Writing 17); TOEFL iBT (since 2026): 4 total (4 each section)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No German proof needed for admission, but A1 level must be provided by end of first semester"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Summer semester 2027: 15 October 2026 – 15 January 2027 (program starts 15 March or 1 October; no winter deadline given)."
+          "winter_deadline_non_eu": "Summer semester 2027: 15 October 2026 – 15 January 2027 (program starts 15 March or 1 October; no winter deadline given).",
+          "portal": "International applicants (with foreign prior studies) apply via uni-assist portal for VPD; THI's own PRIMUSS online application portal also used (https://www3.primuss.de/cgi-bin/bew_anmeldung_v2/index.pl?...&FH=fhin); Indian applicants additionally need the Digital Master Test (dMAT, €150) for APS certificate/visa",
+          "summer_deadline": "15 October to 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Non-EU citizens: €1,200 per semester. EU fees not listed."
+          "tuition_non_eu": "Non-EU citizens: €1,200 per semester. EU fees not listed.",
+          "semester_contribution_fee": "82 EUR per semester, student union fee for all students",
+          "estimated_cost_of_living": "Health insurance ~150 EUR, liability insurance ~10 EUR, accommodation ~500-650 EUR, internet/mobile ~25 EUR, food ~200-300 EUR, German TV/radio fee ~19 EUR, public transport (Deutschlandticket 2026) ~43 EUR; blocked account ~992 EUR/month for up to 12 months typically required for non-EU visa",
+          "total_cost_per_semester": "Non-EU citizens: €1,200/semester; EU fees not listed"
         },
         "exact_admission_regulations": "Indian applicants with certain bachelor's backgrounds must provide a Digital Master Test (dMAT, €150). Non-EU applicants undergo a two-stage selection: curricular analysis then online interview (if ≥65 points). EU/German-degree holders admitted without aptitude test. 4 semesters, 120 ECTS, English-taught, not admission-restricted; dual study option available.",
         "deep_recheck": {
@@ -10759,7 +12149,12 @@ const DATABASE = {
             }
           ],
           "notes": "IMPORTANT FINDING matching the user's flagged pattern - this THI program (same university family as the FH Dortmund miss) explicitly requires a uni-assist VPD for applicants with foreign prior studies. This confirms VPD requirements are common and were under-surfaced in the original data collection for THI/FH programs generally."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -10830,16 +12225,30 @@ const DATABASE = {
         "official_source_url": "https://www.th-nuernberg.de/studiengang/intelligent-autonomous-systems-meng/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's grade of 2.5 or better (German scale).",
-          "qualifying_degree": "Relevant technical bachelor's degree with 210 ECTS, including at least 15 ECTS in programming; non-EU third-country applicants must also submit an English motivation letter (≤2,000 characters) and an English translation of their bachelor's thesis."
+          "qualifying_degree": "Relevant technical bachelor's degree with 210 ECTS, including at least 15 ECTS in programming; non-EU third-country applicants must also submit an English motivation letter (≤2,000 characters) and an English translation of their bachelor's thesis.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Not listed",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No IELTS score specified; requires B1+ (speaking) / B2 (reading) shown via CAE, IELTS, PTE, TOEFL, TOEIC, or German Abitur, with proof no more than 2 years old."
+          "ielts": "No IELTS score specified; requires B1+ (speaking) / B2 (reading) shown via CAE, IELTS, PTE, TOEFL, TOEIC, or German Abitur, with proof no more than 2 years old.",
+          "toefl_ibt": "TOEFL iBT (since 2026): listed as 4 total, 4 in each section (figures look unusual, may be data-entry issue; verify on official site)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 required, official certificate; accepted: Goethe-Zertifikat A1, ÖSD Zertifikat A1, telc Deutsch A1"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Summer semester: 15.11.2026 – 15.01.2027."
+          "winter_deadline_non_eu": "Summer semester: 15.11.2026 – 15.01.2027.",
+          "portal": "Not detailed on main page; subpages for Admission requirements, Application period, Application process, and Application FAQ were linked but not fetched this round",
+          "summer_deadline": "15 November to 15 January (all countries)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Non-EEA students pay a per-semester fee (amount not given on this page; refers to separate international semester fees page)."
+          "tuition_non_eu": "Non-EEA students pay a per-semester fee (amount not given on this page; refers to separate international semester fees page).",
+          "semester_contribution_fee": "82 EUR per semester (Studierendenwerkbeitrag, student services fee), payable by all students",
+          "estimated_cost_of_living": "700 to 1,000 EUR per month, including rent, insurance, food, books, and leisure",
+          "total_cost_per_semester": "No exact amount confirmed this round; non-EEA students pay a per-semester fee per the linked International Semester Fees page (not fetched)"
         },
         "exact_admission_regulations": "German A1 required (Goethe/ÖSD/telc). 3-semester program; 20 study places for summer 2026; program-specific admission; online/on-site info session 12 Nov 2026.",
         "deep_recheck": {
@@ -10859,7 +12268,12 @@ const DATABASE = {
           "newly_found_info": "Full compulsory/elective module list with two specialization tracks; 20 places available for summer 2026; specific motivation letter character limit",
           "corrections": [],
           "notes": "No VPD/uni-assist found, consistent with prior data; full module list newly captured."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Electrical Engineering, Precision Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -10930,16 +12344,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/studium/master/iisy/index.xml",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's degree grade of at least 2.7 (German scale).",
-          "qualifying_degree": "Bachelor's graduates with: 30 ECTS computer science fundamentals (algorithms, data structures, computer architecture), 10 ECTS mathematics (analysis, linear algebra, statistics), and 30 ECTS in intelligent systems methods (ML, AI, robotics, computer vision) or up to 10 ECTS interdisciplinary foundations (psychology, linguistics, philosophy)."
+          "qualifying_degree": "Bachelor's graduates with: 30 ECTS computer science fundamentals (algorithms, data structures, computer architecture), 10 ECTS mathematics (analysis, linear algebra, statistics), and 30 ECTS in intelligent systems methods (ML, AI, robotics, computer vision) or up to 10 ECTS interdisciplinary foundations (psychology, linguistics, philosophy).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "30 ECTS computer science foundations, 10 ECTS mathematics, 30 ECTS technical methods for intelligent systems (or up to 10 ECTS interdisciplinary foundations)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "CEFR B2 or higher; IELTS 5.5+, TOEFL iBT 72+ (admissions section) or 87+ (program overview — page is internally inconsistent), Cambridge First Certificate, or German Abitur accepted."
+          "ielts": "CEFR B2 or higher; IELTS 5.5+, TOEFL iBT 72+ (admissions section) or 87+ (program overview — page is internally inconsistent), Cambridge First Certificate, or German Abitur accepted.",
+          "toefl_ibt": "TOEFL iBT Home Edition (before 2026): total 72; Reading 18, Listening 17, Speaking 20, Writing 17",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Regular winter-semester application: 15 July. Early-start/recognition route: by 15 February (requires 20 LP of recognizable credits already earned)."
+          "winter_deadline_non_eu": "Regular winter-semester application: 15 July. Early-start/recognition route: by 15 February (requires 20 LP of recognizable credits already earned).",
+          "portal": "Not detailed; applicants submit a list of completed bachelor courses with ECTS per the 3 required knowledge areas; Studierendensekretariat handles the application",
+          "summer_deadline": "Not applicable (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not mentioned on page."
+          "tuition_non_eu": "Not mentioned on page.",
+          "semester_contribution_fee": "About 333 EUR per semester, a social fee including a semester public-transport ticket for Germany",
+          "estimated_cost_of_living": "Room in student halls/private housing ~290 EUR/month; health insurance and medical fees ~140 EUR/month; food ~150 EUR/month; total monthly living costs ~992 EUR; student residence room ~250 EUR/month; Mensa meal ~3 EUR",
+          "total_cost_per_semester": "Not mentioned"
         },
         "exact_admission_regulations": "120 LP, 4-semester M.Sc.; Double Degree with University of Bologna; early admission possible for Bielefeld B.Sc. students who can't finish by winter semester, decided case-by-case; contacts: iisy@techfak.uni-bielefeld.de.",
         "deep_recheck": {
@@ -10959,7 +12387,12 @@ const DATABASE = {
           "newly_found_info": "Double Degree program with University of Bologna (3rd semester abroad); specific specialization block names (INT/AI/ASE); page itself flags its own TOEFL inconsistency (87 vs 72+); multiple named contacts for different purposes",
           "corrections": [],
           "notes": "No VPD/uni-assist found. Note the program page itself admits the TOEFL figure inconsistency, matching the previously flagged internal inconsistency."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "About 60% English, 40% German; thesis may be written in either language; English-speaking branch guarantees courses for non-German speakers"
       }
     },
     {
@@ -11030,16 +12463,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-heilbronn.de/en/intelligent-mechatronic-systems-master",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's grade of 2.5 or better (German scale).",
-          "qualifying_degree": "A comparable first degree with a predominant engineering component (≥50%); requires documentation of an engineering project in intelligent mechatronic systems at bachelor level with supervisor confirmation. Non-German degrees require recognition via Studienkolleg Konstanz or uni-assist (VPD)."
+          "qualifying_degree": "A comparable first degree with a predominant engineering component (≥50%); requires documentation of an engineering project in intelligent mechatronic systems at bachelor level with supervisor confirmation. Non-German degrees require recognition via Studienkolleg Konstanz or uni-assist (VPD).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's degree with 210 ECTS (or 180 ECTS plus extra 30 ECTS or 6-month internship)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No IELTS score specified; only CEFR B2 English level required."
+          "ielts": "No IELTS score specified; only CEFR B2 English level required.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "June 15 and December 1 (admission is restricted); start possible winter or summer semester."
+          "winter_deadline_non_eu": "June 15 and December 1 (admission is restricted); start possible winter or summer semester.",
+          "portal": "Not fully detailed on main page (links to /en/master-application subpage not fetched); non-German degree holders must first obtain recognition (Studienkolleg Konstanz cert or uni-assist VPD) before applying",
+          "summer_deadline": "Until 1 December",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "€1,500, for non-EU/EEA students only."
+          "tuition_non_eu": "€1,500, for non-EU/EEA students only.",
+          "semester_contribution_fee": "188 EUR per semester (contents not stated)",
+          "estimated_cost_of_living": "About 1,000 EUR per month",
+          "total_cost_per_semester": "€1,500, non-EU/EEA students only - confirmed"
         },
         "exact_admission_regulations": "Requires 210 ECTS preferred (minimum 180 ECTS with conditions); engineering project submission (10–40 pages, ≤500-word abstract, cover sheet); APS certificate if applicable.",
         "deep_recheck": {
@@ -11059,7 +12506,12 @@ const DATABASE = {
           "newly_found_info": "Full engineering-project documentation specs (page count, abstract limit, cover sheet, supervisor confirmation process); this is the SAME confirmation pattern as the user-flagged FH Dortmund VPD gap - already captured in existing data, now independently re-verified",
           "corrections": [],
           "notes": "This entry's existing data ALREADY correctly captured the VPD/uni-assist requirement before this re-check - re-verification confirms it is accurate and matches the official page language precisely."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Faculty of Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English; courses held in English"
       }
     },
     {
@@ -11130,16 +12582,30 @@ const DATABASE = {
         "official_source_url": "https://www.oth-aw.de/en/studies/study-offers/study-programmes/master/international-energy-engineering",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's/diploma with final grade of 2.5 or better (German scale); non-German degrees converted via uni-assist.",
-          "qualifying_degree": "Bachelor's/diploma in an engineering-related field (energy technology, renewable energies, mechanical/electrical engineering, process or industrial engineering with technical focus); at least 20 ECTS in mathematics, electrical engineering, thermodynamics, fluid mechanics, chemistry, physics, or computer science/programming; aptitude assessment in energy technology based on thesis/project/practical experience."
+          "qualifying_degree": "Bachelor's/diploma in an engineering-related field (energy technology, renewable energies, mechanical/electrical engineering, process or industrial engineering with technical focus); at least 20 ECTS in mathematics, electrical engineering, thermodynamics, fluid mechanics, chemistry, physics, or computer science/programming; aptitude assessment in energy technology based on thesis/project/practical experience.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's degree in a technical subject; 180 ECTS Bachelor's can add a 30 ECTS bridge semester (programme extends to four semesters)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "CEFR B2 English; accepted scores: TOEFL iBT 80, IELTS (Cambridge) 6, or TOEIC 780. No proof needed if entrance qualification/degree was in English."
+          "ielts": "CEFR B2 English; accepted scores: TOEFL iBT 80, IELTS (Cambridge) 6, or TOEIC 780. No proof needed if entrance qualification/degree was in English.",
+          "toefl_ibt": "TOEFL iBT (listed as applying since 2026): 4 in reading, listening, speaking, and writing",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A2 required or recommended, no proof needed"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Summer semester (210-ECTS bachelors only, starts 15 March): 1 November – 1 December. Winter semester (starts 1 October, open to 180-ECTS bachelors too): 15 April – 1 June."
+          "winter_deadline_non_eu": "Summer semester (210-ECTS bachelors only, starts 15 March): 1 November – 1 December. Winter semester (starts 1 October, open to 180-ECTS bachelors too): 15 April – 1 June.",
+          "portal": "Primuss application system (not email/post); uni-assist for VPD processing (university-specific VPD required, up to 8 week turnaround)",
+          "summer_deadline": "1 November to 1 December",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Non-EU students: €587/semester (€87 semester fee + €500 tuition service fee). EU students: €87/semester. Non-EU applicants also pay a €50 application fee."
+          "tuition_non_eu": "Non-EU students: €587/semester (€87 semester fee + €500 tuition service fee). EU students: €87/semester. Non-EU applicants also pay a €50 application fee.",
+          "semester_contribution_fee": "87 EUR per semester, student union fee",
+          "estimated_cost_of_living": "Roughly 750 to 900 EUR per month",
+          "total_cost_per_semester": "Non-EU: €587/semester (€87 semester fee + €500 tuition service fee, applies from winter 2024/25); EU: €87/semester; non-EU also pay €50 application fee"
         },
         "exact_admission_regulations": "German A2 required by end of 2nd semester. 180-ECTS applicants must complete 30 ECTS via English-language 'bridge modules' in winter semester; VPD from uni-assist can take up to 8 weeks.",
         "deep_recheck": {
@@ -11166,7 +12632,12 @@ const DATABASE = {
             }
           ],
           "notes": "VPD requirement was already known for this entry; re-verification adds the important nuance that the VPD must be university-specific, directly relevant to the user's flagged concern about thoroughness."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters (or 4 with bridge semester)",
+        "faculty_institute": "Mechanical Engineering/Environmental Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English, for all courses"
       }
     },
     {
@@ -11237,16 +12708,30 @@ const DATABASE = {
         "official_source_url": "https://www.hft-stuttgart.com/studies/fields-of-study/architecture-and-design/master-international-project-management",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric CGPA; first degree must have 'above average' examination results.",
-          "qualifying_degree": "Professionals in construction, infrastructure, or engineering; first degree (architecture, civil engineering, construction, design, etc.) of ≥3 years full-time study with above-average results, carrying ≥210 CP (180 CP degrees need an additional 30 CP study task); at least 1 year relevant professional experience after first degree."
+          "qualifying_degree": "Professionals in construction, infrastructure, or engineering; first degree (architecture, civil engineering, construction, design, etc.) of ≥3 years full-time study with above-average results, carrying ≥210 CP (180 CP degrees need an additional 30 CP study task); at least 1 year relevant professional experience after first degree.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Architecture, civil engineering, construction, or design degree with 210 ECTS (or 180 CP plus extra 30 CP task)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not stated"
         },
         "language_requirements": {
-          "ielts": "IELTS Academic 6.5+ or TOEFL 550 (paper-based) / 213 (computer-based) / 80 (internet-based), required even if English was language of instruction."
+          "ielts": "IELTS Academic 6.5+ or TOEFL 550 (paper-based) / 213 (computer-based) / 80 (internet-based), required even if English was language of instruction.",
+          "toefl_ibt": "TOEFL iBT (from 2026): 4.5 in each section (possibly typo for total score); TOEFL iBT (before 2026): 80 total, 20 in each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A2 required or recommended, no proof needed"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter semester: 5 Nov–28 Feb and 5 May–15 Jul (overlapping windows listed). Summer semester: 5 May–31 Aug and 5 Nov–15 Jan."
+          "winter_deadline_non_eu": "Winter semester: 5 Nov–28 Feb and 5 May–15 Jul (overlapping windows listed). Summer semester: 5 May–31 Aug and 5 Nov–15 Jan.",
+          "portal": "Online application form (PDF download) via hft.hispro.de portal; applicants upload all required documents (not individually itemized beyond degree/experience/English proof)",
+          "summer_deadline": "5 November to 15 January, and 5 May to 31 August",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Full-time: €15,000 total (€6,000 + €6,000 + €3,000 across 3 semesters). Part-time (EU citizens/residents only): €15,000 total over 5 semesters (€3,000/semester). Additional ~€200/semester non-tuition fees, ~€1,500 compulsory field trips, €1,500 per extra semester."
+          "tuition_non_eu": "Full-time: €15,000 total (€6,000 + €6,000 + €3,000 across 3 semesters). Part-time (EU citizens/residents only): €15,000 total over 5 semesters (€3,000/semester). Additional ~€200/semester non-tuition fees, ~€1,500 compulsory field trips, €1,500 per extra semester.",
+          "semester_contribution_fee": "About 190 EUR per semester, can vary",
+          "estimated_cost_of_living": "Visa applicants must show about 992 EUR per month in available funds, covering rent, travel, food, clothing, learning materials, health insurance, phone/internet, broadcast licence fees, leisure; semester fees extra",
+          "total_cost_per_semester": "Full-time: €15,000 total (€6,000+€6,000+€3,000 across 3 semesters). Part-time (EU residents only): €15,000 over 5 semesters (€3,000/semester). Plus ~€200/semester non-tuition fees, ~€1,500 compulsory field trips, €1,500/extra semester, €176.50 student services + €14 student ID per semester."
         },
         "exact_admission_regulations": "No age limit, though dormitory placement harder over 30; non-consecutive program so no tuition exemption for Erasmus/refugee students; HFT scholarships only after starting studies.",
         "deep_recheck": {
@@ -11266,7 +12751,12 @@ const DATABASE = {
           "newly_found_info": "Full fee breakdown including non-tuition fees, field trip costs, extra-semester costs, student services/ID fees; M.Eng.+MBA double degree option with Edinburgh Napier University; named program staff with direct emails",
           "corrections": [],
           "notes": "No VPD/uni-assist mention found despite this being an international program with likely foreign applicants - may be worth a follow-up check of hft-stuttgart.de's general international-applicant process, which could use uni-assist at the university level even if not named on this specific program page."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters (full-time) or 5 semesters (part-time)",
+        "faculty_institute": "Faculty of Architecture and Design",
+        "intake_semester": "Winter",
+        "teaching_language": "English, throughout the programme"
       }
     },
     {
@@ -11337,16 +12827,30 @@ const DATABASE = {
         "official_source_url": "https://www.fh-wedel.de/it-engineering/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on page.",
-          "qualifying_degree": "Applicants typically need 210 ECTS (7 semesters); most hold 180-ECTS bachelor's and must complete bridge modules. Minimum 80 credits total in math/IT/science/engineering. 180-ECTS degrees: ≥10 ECTS math + ≥5 ECTS software development labs. 210-ECTS degrees: ≥20 ECTS math (incl. 5 engineering math + 5 discrete math), ≥10 ECTS software dev labs, plus advanced Java/C++ tested via entry assignment."
+          "qualifying_degree": "Applicants typically need 210 ECTS (7 semesters); most hold 180-ECTS bachelor's and must complete bridge modules. Minimum 80 credits total in math/IT/science/engineering. 180-ECTS degrees: ≥10 ECTS math + ≥5 ECTS software development labs. 210-ECTS degrees: ≥20 ECTS math (incl. 5 engineering math + 5 discrete math), ≥10 ECTS software dev labs, plus advanced Java/C++ tested via entry assignment.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's with 210 ECTS (or 180 ECTS plus 30 ECTS top-up); 80 credits math/IT/science/engineering with specific sub-requirements",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No IELTS score given; CEFR B2 level English proficiency mandatory."
+          "ielts": "No IELTS score given; CEFR B2 level English proficiency mandatory.",
+          "toefl_ibt": "TOEFL iBT (since 2026): overall 4, Reading 4, Listening 4, Speaking 4, Writing 4 (figures look unusual for TOEFL iBT scale)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "September 15 (winter semester, starts Oct 1); March 31 (summer semester, starts Apr 1) — for applicants with existing German residence permit; others should apply ~3 months earlier."
+          "winter_deadline_non_eu": "September 15 (winter semester, starts Oct 1); March 31 (summer semester, starts Apr 1) — for applicants with existing German residence permit; others should apply ~3 months earlier.",
+          "portal": "Separate application subpage (https://www.fh-wedel.de/studieren/international/incomings/degree-programme-it-engineering/application/) linked but not fetched this round",
+          "summer_deadline": "16 September to 31 March",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "538 EUR/month (non-EU citizens), 455 EUR/month (EU citizens), plus a transport pass fee."
+          "tuition_non_eu": "538 EUR/month (non-EU citizens), 455 EUR/month (EU citizens), plus a transport pass fee.",
+          "semester_contribution_fee": "79 EUR (Studentenwerk SH)",
+          "estimated_cost_of_living": "Accommodation 280 to 600 EUR/month; food 200 to 300 EUR/month; other expenses at least 100 EUR/month",
+          "total_cost_per_semester": "538 EUR/month non-EU; 455 EUR/month EU; plus transport pass fee - confirmed"
         },
         "exact_admission_regulations": "Full-time MSc, English-taught; standard duration 3 semesters (+1 preparatory semester for 180-ECTS applicants); ~25 first-year students admitted annually; free admission with possible selection process.",
         "deep_recheck": {
@@ -11366,7 +12870,12 @@ const DATABASE = {
           "newly_found_info": "Java/C++ entry assignment at start of first semester; two named focus-area tracks (IT Systems & Security, Smart Manufacturing); named contacts for program head and international office",
           "corrections": [],
           "notes": "No VPD/uni-assist found on main page; dedicated application subpage for this program was not fetched this round and may contain more detail - worth a follow-up given this is an international applicant pathway."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Computer Science / Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English only"
       }
     },
     {
@@ -11437,16 +12946,30 @@ const DATABASE = {
         "official_source_url": "https://www.tuhh.de/tuhh/en/studying/before-studying/degree-courses/international-study-programs/global-technology-and-innovation-management-entrepreneurship/admission-requirements",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric threshold stated; requires 'good previous academic performance.'",
-          "qualifying_degree": "Bachelor's or equivalent degree in engineering/science/technology, business engineering, business administration (incl. business informatics, business mathematics, business geography), or economics."
+          "qualifying_degree": "Bachelor's or equivalent degree in engineering/science/technology, business engineering, business administration (incl. business informatics, business mathematics, business geography), or economics.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in engineering, science and technology, business engineering, business administration, or economics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS minimum 6.5, or TOEFL minimum 577 (paper-based) / 90 (internet-based); TOEFL ITP not accepted."
+          "ielts": "IELTS minimum 6.5, or TOEFL minimum 577 (paper-based) / 90 (internet-based); TOEFL ITP not accepted.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not mentioned on official page (third-party sources cite March 1 or July 15, unconfirmed officially)."
+          "winter_deadline_non_eu": "Not mentioned on official page (third-party sources cite March 1 or July 15, unconfirmed officially).",
+          "portal": "TUHH's own portal (consistent with other TUHH international programs); specific-requirements subpage linked (/how-and-when-to-apply/specific-requirements) but not fetched",
+          "summer_deadline": "Not applicable (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not mentioned on official page."
+          "tuition_non_eu": "Not mentioned on official page.",
+          "semester_contribution_fee": "Approx. 390 EUR (contents not stated)",
+          "estimated_cost_of_living": "Around 1,000 EUR per month",
+          "total_cost_per_semester": "Not found"
         },
         "exact_admission_regulations": "Note: official direct domain g-time.org could not be reached (connection refused); data taken from TUHH's own admission-requirements page for this joint program.",
         "deep_recheck": {
@@ -11473,7 +12996,12 @@ const DATABASE = {
             }
           ],
           "notes": "Existing data for language requirements was already accurate. g-time.org (the program's dedicated domain) remained unreachable, consistent with prior note; TUHH admission-requirements page used as fallback, same as before. No VPD/uni-assist found."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (24 months)",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English; German courses offered before and during programme but not required"
       }
     },
     {
@@ -11544,16 +13072,30 @@ const DATABASE = {
         "official_source_url": "https://www.master-lscm.eu/ (page could not be reached — connection refused; details not independently verified beyond DAAD listing)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site.",
-          "qualifying_degree": "Not found via official site."
+          "qualifying_degree": "Not found via official site.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in science, engineering, or economics with technical profile",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site."
+          "ielts": "Not found via official site.",
+          "toefl_ibt": "TOEFL iBT (before 2026): 72 total (Reading 18, Listening 17, Speaking 20, Writing 17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "None; no minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site."
+          "winter_deadline_non_eu": "Not found via official site.",
+          "portal": "Per third-party listings, all admission/enrollment procedures for LSCM run through UAB following the process on master-lscm.eu (unreachable). Selection based on academic record + relevant work experience.",
+          "summer_deadline": "Not applicable (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "About 350 EUR per semester for semesters spent in Wildau; includes ticket for unlimited public transport in Berlin-Brandenburg region for that semester",
+          "estimated_cost_of_living": "Varies by country (Spain, Latvia, Germany); for Germany, about 992 EUR per month depending on accommodation",
+          "total_cost_per_semester": "Not found via official site (unreachable)"
         },
         "exact_admission_regulations": "Official program microsite (master-lscm.eu, TH Wildau) returned a connection error on fetch attempts; DAAD's listing remains the fallback source for this entry.",
         "deep_recheck": {
@@ -11574,7 +13116,12 @@ const DATABASE = {
           "newly_found_info": "Discovered via WebSearch that LSCM admissions may run through Universitat Autònoma de Barcelona (UAB) rather than TH Wildau directly, which would explain why standard TH Wildau uni-assist info doesn't directly apply - this is a significant structural finding not in the original data",
           "corrections": [],
           "notes": "master-lscm.eu remains completely unreachable (connection refused on 2 separate attempts). This is the one entry where the official source could not be accessed at all. The UAB-consortium finding is new and important context but is sourced from third-party listings, not verified directly. Recommend manual check of master-lscm.eu/admission and master-lscm.eu/enrollment from a different network, or contacting TH Wildau's international office directly."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Engineering and Natural Sciences",
+        "intake_semester": "Winter",
+        "teaching_language": "English (all courses in English)"
       }
     },
     {
@@ -11645,16 +13192,30 @@ const DATABASE = {
         "official_source_url": "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-management-and-engineering-computer-aided-mechanical-engineering",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No CGPA stated; instead requires GRE General Test minimum scores: Verbal Reasoning 145, Quantitative Reasoning 160, Analytical Writing 3 (German Engineering College/GEC graduates exempt).",
-          "qualifying_degree": "Bachelor's degree in mechanical engineering or related field (automotive, aerospace, energy, manufacturing, production engineering); at least 12 months relevant work experience by enrollment (6 months proof required at application); fundamental knowledge: 110 ECTS in engineering/math/natural sciences + 10 ECTS in management."
+          "qualifying_degree": "Bachelor's degree in mechanical engineering or related field (automotive, aerospace, energy, manufacturing, production engineering); at least 12 months relevant work experience by enrollment (6 months proof required at application); fundamental knowledge: 110 ECTS in engineering/math/natural sciences + 10 ECTS in management.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in mechanical engineering or related field, plus six months relevant work experience",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE General Test (Verbal 145, Quantitative 160, Analytical Writing 3) or proof of completion of German Engineering College; GMAT not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not stated; program is English-taught but no IELTS/TOEFL score is listed (German language learning 'strongly recommended')."
+          "ielts": "Not stated; program is English-taught but no IELTS/TOEFL score is listed (German language learning 'strongly recommended').",
+          "toefl_ibt": "TOEFL iBT (since 2026): 4.5 overall, with 4 in each of Reading, Listening, Speaking, Writing",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Non-EU applicants: December 2 – March 1. EU/EEA, current RWTH students, German degree holders: December 2 – July 15."
+          "winter_deadline_non_eu": "Non-EU applicants: December 2 – March 1. EU/EEA, current RWTH students, German degree holders: December 2 – July 15.",
+          "portal": "RWTH International Academy's own admission process; application and admission guide PDF linked; online one-on-one appointments bookable",
+          "summer_deadline": "Not applicable (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "€24,000 (course fees)."
+          "tuition_non_eu": "€24,000 (course fees).",
+          "semester_contribution_fee": "About 300 EUR per semester, student body and social fee including semester ticket for public transport in North Rhine-Westphalia and South Limburg (Netherlands)",
+          "estimated_cost_of_living": "At least 900 to 1,000 EUR per month, covering food, accommodation, personal expenses, study costs",
+          "total_cost_per_semester": "€24,000 course fees - confirmed"
         },
         "exact_admission_regulations": "2-year, 4-semester, 120 ECTS full-time program starting winter semester (October); international applicants strongly encouraged to complete the German Engineering College (GEC) beforehand; awarded by RWTH Aachen University via RWTH International Academy.",
         "deep_recheck": {
@@ -11674,7 +13235,12 @@ const DATABASE = {
           "newly_found_info": "Two named specialization tracks (MSE and Digital Engineering) not previously captured; one-on-one appointment booking option",
           "corrections": [],
           "notes": "No VPD/uni-assist found; this program uses its own RWTH International Academy process with GRE/GEC gating instead."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "RWTH International Academy",
+        "intake_semester": "Winter",
+        "teaching_language": "English; courses taught entirely in English"
       }
     },
     {
@@ -11745,16 +13311,30 @@ const DATABASE = {
         "official_source_url": "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-management-and-engineering-in-production-systems",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on page.",
-          "qualifying_degree": "Bachelor's degree in mechanical engineering or related field (automotive, aerospace, energy, manufacturing, industrial, production engineering); at least 12 months relevant work experience by enrollment (6 months proof required at application); fundamental knowledge in engineering/math/natural sciences plus management fundamentals."
+          "qualifying_degree": "Bachelor's degree in mechanical engineering or related field (automotive, aerospace, energy, manufacturing, industrial, production engineering); at least 12 months relevant work experience by enrollment (6 months proof required at application); fundamental knowledge in engineering/math/natural sciences plus management fundamentals.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in mechanical engineering or related discipline, plus six months relevant work experience",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE General Test (Verbal 145, Quantitative 160, Analytical Writing 3) listed as alternative to German Engineering College completion; GMAT not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not stated; program language listed as English only, no IELTS/TOEFL score given."
+          "ielts": "Not stated; program language listed as English only, no IELTS/TOEFL score given.",
+          "toefl_ibt": "TOEFL iBT (since 2026): 4.5 overall, with section scores Reading 4, Listening 4, Speaking 4, Writing 4",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Non-EU applicants: December 2 – March 1. EU/EEA, current RWTH students, German degree holders: December 2 – July 15."
+          "winter_deadline_non_eu": "Non-EU applicants: December 2 – March 1. EU/EEA, current RWTH students, German degree holders: December 2 – July 15.",
+          "portal": "Same RWTH International Academy process as sibling program 4598: Application and Admission Guide PDF, one-on-one appointment booking",
+          "summer_deadline": "Not applicable (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "€24,000 (course fees)."
+          "tuition_non_eu": "€24,000 (course fees).",
+          "semester_contribution_fee": "About 300 EUR per semester, student body and social fee including semester ticket for public transport in North Rhine-Westphalia and South Limburg (Netherlands)",
+          "estimated_cost_of_living": "At least 900 to 1,000 EUR per month, including food, accommodation, personal/social expenses, study costs",
+          "total_cost_per_semester": "€24,000 course fees - confirmed"
         },
         "exact_admission_regulations": "GRE General Test required (Verbal 145, Quantitative 160, Analytical Writing 3 minimum), GEC graduates exempt; full-time, 4 semesters (2 years), 120 ECTS, winter-semester start; awarded by RWTH Aachen University via RWTH International Academy.",
         "deep_recheck": {
@@ -11774,7 +13354,12 @@ const DATABASE = {
           "newly_found_info": "Full engineering/management compulsory course lists and ~27 elective options - much more detailed curriculum than previously captured",
           "corrections": [],
           "notes": "No VPD/uni-assist found, consistent with sibling program 4598."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "RWTH International Academy",
+        "intake_semester": "Winter",
+        "teaching_language": "English, for all courses"
       }
     },
     {
@@ -11845,16 +13430,30 @@ const DATABASE = {
         "official_source_url": "https://www.hectorschool.kit.edu/master-management-of-product-development.php",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not explicitly published; requires a first academic degree (Bachelor's, Master's, or Diploma)",
-          "qualifying_degree": "Working engineers/professionals seeking an executive master's; requires at least 1-2 years of professional work experience (exact amount varies by source: one official page says 2 years)"
+          "qualifying_degree": "Working engineers/professionals seeking an executive master's; requires at least 1-2 years of professional work experience (exact amount varies by source: one official page says 2 years)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "210 or 180 ECTS points depending on first degree; relevant professional field experience required",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.5 minimum, or TOEFL iBT 90, or proof of C1-level English (per official program PDF)"
+          "ielts": "IELTS 6.5 minimum, or TOEFL iBT 90, or proof of C1-level English (per official program PDF)",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Program starts every October"
+          "winter_deadline_non_eu": "Program starts every October",
+          "portal": "HECTOR School's own application portal (hectorschool.applicationportal.org); rolling admission, starts every October",
+          "summer_deadline": "Not found (program starts only in winter semester)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Conflicting figures found (approx. EUR 9,000/semester incl. fees per one source; others cite EUR 21,600-28,800/year); not confirmed on current official fee page"
+          "tuition_non_eu": "Conflicting figures found (approx. EUR 9,000/semester incl. fees per one source; others cite EUR 21,600-28,800/year); not confirmed on current official fee page",
+          "semester_contribution_fee": "Approx. 150 EUR per semester (what it includes is not stated)",
+          "estimated_cost_of_living": "Approx. 1,000 EUR per month",
+          "total_cost_per_semester": "EUR 36,000 total (confirms one of the conflicting figures; others were wrong)"
         },
         "exact_admission_regulations": "Executive/part-time format aimed at professionals; combines engineering and management; work experience requirement is a distinguishing feature versus typical full-time MSc programs.",
         "deep_recheck": {
@@ -11882,7 +13481,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD/uni-assist requirement found for this executive program."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (part-time, each module 10 days)",
+        "faculty_institute": "HECTOR School of Engineering & Management, Technology Business School",
+        "intake_semester": "Winter",
+        "teaching_language": "English (all courses held in English)"
       }
     },
     {
@@ -11953,16 +13557,30 @@ const DATABASE = {
         "official_source_url": "https://fiw.hs-wismar.de/en/bereiche/sal/degree-courses/marine-engineering-master-binational-msc/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Students enrolled in the cooperating program at ITS Institut Teknologi Sepuluh Nopember, Surabaya (Indonesia), pursuing marine engineering; binational double-degree structure"
+          "qualifying_degree": "Students enrolled in the cooperating program at ITS Institut Teknologi Sepuluh Nopember, Surabaya (Indonesia), pursuing marine engineering; binational double-degree structure",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "First academic degree in marine engineering or comparable",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not confirmed specifically for this binational Master's; a related Wismar regular (non-double-degree) master's lists IELTS 6.0"
+          "ielts": "Not confirmed specifically for this binational Master's; a related Wismar regular (non-double-degree) master's lists IELTS 6.0",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Applications sent to ITS Surabaya International Office per its.ac.id/international documents, not via uni-assist",
+          "summer_deadline": "Not found",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "ITS (Indonesia) side charges tuition of IDR 25,000,000 per semester, applying also to semesters spent at Hochschule Wismar; one aggregator cites ~1,500 EUR/semester equivalent"
+          "tuition_non_eu": "ITS (Indonesia) side charges tuition of IDR 25,000,000 per semester, applying also to semesters spent at Hochschule Wismar; one aggregator cites ~1,500 EUR/semester equivalent",
+          "semester_contribution_fee": "Included in the tuition fee",
+          "estimated_cost_of_living": "Not listed on the page (described generally as affordable)",
+          "total_cost_per_semester": "IDR 25,000,000 per semester charged by ITS (confirmed), applies even during semesters at Wismar"
         },
         "exact_admission_regulations": "Binational/double degree between Hochschule Wismar and ITS Surabaya; students must pass all first-year courses at ITS to proceed to the Wismar portion; data is sparse on the German side's own admission page, which is largely administrative.",
         "deep_recheck": {
@@ -11995,7 +13613,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD requirement found; process routes through ITS Indonesia, not German uni-assist."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Engineering, Department of Maritime Studies, Systems Engineering and Logistics",
+        "intake_semester": "Winter",
+        "teaching_language": "English (all lectures and seminars)"
       }
     },
     {
@@ -12066,16 +13689,30 @@ const DATABASE = {
         "official_source_url": "https://mbae.htw-berlin.de",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official GPA figure found; third-party sources suggest a bachelor's at approx. 55-60%+ or CGPA ~5.5/10, with an engineering background preferred",
-          "qualifying_degree": "Engineers/professionals seeking to combine business administration and engineering; most sources indicate 1-2 years (commonly cited as 3-5 years) of relevant work experience expected"
+          "qualifying_degree": "Engineers/professionals seeking to combine business administration and engineering; most sources indicate 1-2 years (commonly cited as 3-5 years) of relevant work experience expected",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's degree or higher, relevant field preferred",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Sources disagree: most commonly cited IELTS 7.0 overall (TOEFL iBT 95); one source cites 6.5"
+          "ielts": "Sources disagree: most commonly cited IELTS 7.0 overall (TOEFL iBT 95); one source cites 6.5",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Own online application form at mbae.htw-berlin.de/applying",
+          "summer_deadline": "Not found",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Conflicting: one source cites EUR 26,000 + EUR 650 contribution; another cites EUR 13,000 total + EUR 357.30 semester fee; DAAD lists ~EUR 306 semester contribution. Could not retrieve HTW Berlin's own fee page (site unreachable during this session)"
+          "tuition_non_eu": "Conflicting: one source cites EUR 26,000 + EUR 650 contribution; another cites EUR 13,000 total + EUR 357.30 semester fee; DAAD lists ~EUR 306 semester contribution. Could not retrieve HTW Berlin's own fee page (site unreachable during this session)",
+          "semester_contribution_fee": "Approx. 350 EUR per semester, including a public transport ticket",
+          "estimated_cost_of_living": "Approx. 992 EUR per month",
+          "total_cost_per_semester": "EUR 13,000 total for the degree plus ZbwS semester contribution (amount not specified)"
         },
         "exact_admission_regulations": "Executive-style MBA&E program; duration cited variably as 3-4 semesters/18 months/2 years across sources; direct site fetch failed (rate-limited), so these are third-party aggregator figures requiring verification.",
         "deep_recheck": {
@@ -12108,7 +13745,12 @@ const DATABASE = {
             }
           ],
           "notes": "1-year work experience requirement confirmed (vs 1-2/3-5 years cited before)."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters (4th semester applies if an internship is taken)",
+        "faculty_institute": "Division of Continuing Education",
+        "intake_semester": "Winter",
+        "teaching_language": "English (all courses, programme office services, and the Master's thesis)"
       }
     },
     {
@@ -12179,16 +13821,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-aalen.de/en/courses/149-Elektrotechnik",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric GPA cutoff found in official selection statute",
-          "qualifying_degree": "Bachelor's graduates in Electrical Engineering or related field"
+          "qualifying_degree": "Bachelor's graduates in Electrical Engineering or related field",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's degree in electrical engineering or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS minimum 6.0 (per official selection statute/Zulassungssatzung), alternatively PTE Academic B2 with minimum score 65"
+          "ielts": "IELTS minimum 6.0 (per official selection statute/Zulassungssatzung), alternatively PTE Academic B2 with minimum score 65",
+          "toefl_ibt": "TOEFL iBT Home Edition before 2026: total 72 (reading 18, listening 20, speaking 17, writing 17); from 2026: total 4.5, each section 4.5",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "uni-assist VPD required first, then online application portal (onlineportal.bewerbung.htw-aalen.de); applicants from India/China/Vietnam need APS certificate before VPD",
+          "summer_deadline": "1 October to 15 December",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Conflicting: one guide cites EUR 1,500/semester for non-EU students; another describes the program as tuition-free (public university). Official fee page not directly confirmed"
+          "tuition_non_eu": "Conflicting: one guide cites EUR 1,500/semester for non-EU students; another describes the program as tuition-free (public university). Official fee page not directly confirmed",
+          "semester_contribution_fee": "170 EUR per semester, includes a contribution to the student association",
+          "estimated_cost_of_living": "About 992 EUR per month for personal expenses",
+          "total_cost_per_semester": "EUR 1,500 international tuition fee + EUR 180 semester fee (Winter 2026/27), paid at enrollment"
         },
         "exact_admission_regulations": "Official admission regulation document (Zulassungssatzung) is the authoritative source for English-test equivalencies; confirm tuition directly with hs-aalen.de admissions.",
         "deep_recheck": {
@@ -12222,7 +13878,12 @@ const DATABASE = {
             }
           ],
           "notes": "IMPORTANT: VPD required - matches the gap pattern flagged by the user for FH Dortmund. This applies to ALL English-taught Aalen University master's programs, including the sister program 9738."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Faculty of Electronics and Computer Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English, for all courses"
       }
     },
     {
@@ -12293,16 +13954,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-aalen.de/en/study-programmes/engineering-sciences-future-technologies/master/advanced-systems-design/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric GPA/grade cutoff published; admission uses a Numerus Clausus (N.C.) selection procedure",
-          "qualifying_degree": "Bachelor's graduates in electrical engineering, optoelectronics, mechatronics, computer science, or related fields; requires a Bachelor's with at least 7 semesters standard study period (210 ECTS) and total educational career (school+university) of at least 15 years"
+          "qualifying_degree": "Bachelor's graduates in electrical engineering, optoelectronics, mechatronics, computer science, or related fields; requires a Bachelor's with at least 7 semesters standard study period (210 ECTS) and total educational career (school+university) of at least 15 years",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in electronics, electrical engineering, optics, optoelectronics, precision engineering, mechatronics, computer science, or related",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "English level B2 proof required (official program page); exact IELTS equivalency not captured in search results"
+          "ielts": "English level B2 proof required (official program page); exact IELTS equivalency not captured in search results",
+          "toefl_ibt": "TOEFL iBT before 2026: total 72 (Reading 18, Listening 20, Speaking 17, Writing 17); TOEFL iBT Home Edition since 2026: total 4.5, each section 4.5",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "15 December (for Summer term 2027 intake per official page); an older flyer also lists 15 June for Winter intake"
+          "winter_deadline_non_eu": "15 December (for Summer term 2027 intake per official page); an older flyer also lists 15 June for Winter intake",
+          "portal": "uni-assist VPD first, then onlineportal.bewerbung.htw-aalen.de",
+          "summer_deadline": "1 October to 15 December",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Conflicting: one aggregator lists EUR 3,000/year; another describes the program as tuition-free (public university); no official confirmation found"
+          "tuition_non_eu": "Conflicting: one aggregator lists EUR 3,000/year; another describes the program as tuition-free (public university); no official confirmation found",
+          "semester_contribution_fee": "170 EUR per semester, including student association contribution",
+          "estimated_cost_of_living": "About 992 EUR per month for personal expenses",
+          "total_cost_per_semester": "EUR 1,500 tuition + EUR 180 semester fee (same university-wide figures)"
         },
         "exact_admission_regulations": "Research-oriented 3-semester, 90-ECTS M.Sc.; program coordinator Prof. Dr. Heinrich Steinhart (Heinrich.Steinhart@hs-aalen.de); next official intake listed as Summer term 2027.",
         "deep_recheck": {
@@ -12336,7 +14011,12 @@ const DATABASE = {
             }
           ],
           "notes": "Confirms VPD requirement applies university-wide at Aalen, directly analogous to the FH Dortmund gap the user found."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time only",
+        "faculty_institute": "Faculty of Electronics and Computer Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English, all courses taught in English"
       }
     },
     {
@@ -12407,16 +14087,30 @@ const DATABASE = {
         "official_source_url": "https://www.maschinenbau.tu-darmstadt.de/bewerben_mb/bewerben_master/m__sc___aerospace/standardseite_184.en.jsp",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official numeric GPA threshold found; official page states admission depends on a multi-stage entrance examination assessing whether the applicant's Bachelor's/Diploma does not differ significantly from TU Darmstadt's own reference Bachelor's (Mechanical Engineering - Sustainable Engineering). Third-party sources mention GPA ~2.5/5.0 (70%+) unconfirmed",
-          "qualifying_degree": "Applicants with a Bachelor's/Diploma closely aligned with Mechanical Engineering - Sustainable Engineering; subject to entrance examination for non-equivalent degrees"
+          "qualifying_degree": "Applicants with a Bachelor's/Diploma closely aligned with Mechanical Engineering - Sustainable Engineering; subject to entrance examination for non-equivalent degrees",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in Mechanical Engineering, Aerospace Engineering, or equivalent",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No official score confirmed; third-party sources conflict, ranging IELTS 6.5 to 7.0 (TOEFL iBT 95 or PTE 64)"
+          "ielts": "No official score confirmed; third-party sources conflict, ranging IELTS 6.5 to 7.0 (TOEFL iBT 95 or PTE 64)",
+          "toefl_ibt": "TOEFL iBT Home Edition before 2026: total 95 (Reading 24, Listening 22, Speaking 25, Writing 24)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "TUCaN online portal (create guest account first); paper documents also required by exclusion deadline",
+          "summer_deadline": "Not specified on page; refer to university website",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (public university); only semester contribution (~EUR 300-590 per some aggregators, unconfirmed)"
+          "tuition_non_eu": "No tuition fee (public university); only semester contribution (~EUR 300-590 per some aggregators, unconfirmed)",
+          "semester_contribution_fee": "About 380 EUR per semester, covers administrative fees and the semester ticket (Deutschlandticket, being extended to all participating transport operators)",
+          "estimated_cost_of_living": "Estimated 700 to 900 EUR per month (varies with lifestyle and accommodation)",
+          "total_cost_per_semester": "Not stated on this page (public university, likely only semester contribution)"
         },
         "exact_admission_regulations": "Admission procedure is notably exam-based rather than simple GPA cutoff - a distinguishing feature; full regulations available in 'Regulations_MScAerospace_Senat_en_20210803.pdf' on the department site.",
         "deep_recheck": {
@@ -12443,7 +14137,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD mention found on main admission page."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Department of Mechanical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English; can be completed fully in English through English-taught electives; some German-taught mechanical engineering courses optional; Master's thesis must be in English"
       }
     },
     {
@@ -12514,16 +14213,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-ulm.de/einrichtungen/saps/studiengaenge/allgemeine-informationen/bewerbung-studium/artificial-intelligence-for-connected-industries",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric GPA found; admission requires prior study totaling at least 300 ECTS in total (Bachelor's + Master's combined)",
-          "qualifying_degree": "Part-time, English-taught program designed for working professionals in industry (not a typical full-time MSc); applicants with degrees from China, Vietnam, or India require an APS certificate"
+          "qualifying_degree": "Part-time, English-taught program designed for working professionals in industry (not a typical full-time MSc); applicants with degrees from China, Vietnam, or India require an APS certificate",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Academic degree with 180 ECTS (or equivalent) plus relevant professional experience",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not specifically published for AI4CI; a different Ulm program cites IELTS 7 as benchmark (unconfirmed for this program)"
+          "ielts": "Not specifically published for AI4CI; a different Ulm program cites IELTS 7 as benchmark (unconfirmed for this program)",
+          "toefl_ibt": "TOEFL iBT before 2026: 72 total (Reading 18, Listening 17, Speaking 20, Writing 17); TOEFL iBT Home Edition before 2026: same scores",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Admission possible in both semesters (Winter and Summer intake)"
+          "winter_deadline_non_eu": "Admission possible in both semesters (Winter and Summer intake)",
+          "portal": "Ulm campus portal (HISinOne-based); documents uploaded in portal only, no paper/fax/email",
+          "summer_deadline": "15 October to 15 November, and 1 December to 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 3,000 tuition fee (official program page); tuition waivers of up to 80% may be available during project funding periods, per program brochure. Note: conflicts with a general Ulm non-EU fee figure of EUR 1,500/semester cited elsewhere"
+          "tuition_non_eu": "EUR 3,000 tuition fee (official program page); tuition waivers of up to 80% may be available during project funding periods, per program brochure. Note: conflicts with a general Ulm non-EU fee figure of EUR 1,500/semester cited elsewhere",
+          "semester_contribution_fee": "182 EUR per semester",
+          "estimated_cost_of_living": "Not found (not listed)",
+          "total_cost_per_semester": "'Individual fees apply' - exact amount not on this page (program-page EUR3,000 figure from prior data not confirmed/denied here)"
         },
         "exact_admission_regulations": "Restricted/part-time professional master's (90 ECTS); admission may come with additional mathematics requirements to be completed by end of first semester; distinguishing feature is its part-time, industry-oriented design and tuition waiver option.",
         "deep_recheck": {
@@ -12551,7 +14264,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD required for this program."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "6 semesters (part-time, over 50% online)",
+        "faculty_institute": "School of Advanced Professional Studies",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -12622,16 +14340,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-ulm.de/en/in/faculty/studies/engineering/biomedical-engineering/master-in-biomedical-engineering/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No GPA figure published on official pages; admission is non-restricted (no Numerus Clausus) per one official page",
-          "qualifying_degree": "Not explicitly detailed beyond general engineering background implied by the course content; open admission (not restricted)"
+          "qualifying_degree": "Not explicitly detailed beyond general engineering background implied by the course content; open admission (not restricted)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's (3+ years) in biomedical engineering or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No specific IELTS score published on official pages; required language proficiency stated simply as 'German or English', with binding details deferred to admissions statutes"
+          "ielts": "No specific IELTS score published on official pages; required language proficiency stated simply as 'German or English', with binding details deferred to admissions statutes",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required; proof of German or English sufficient"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter semester: 1 June - 15 July; Summer semester: 1 December - 15 January"
+          "winter_deadline_non_eu": "Winter semester: 1 June - 15 July; Summer semester: 1 December - 15 January",
+          "portal": "Not confirmed in this session (linked admissions statutes PDF not fetched)",
+          "summer_deadline": "15 October to 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site (only administrative fee referenced, exact amount not retrieved)"
+          "tuition_non_eu": "Not found via official site (only administrative fee referenced, exact amount not retrieved)",
+          "semester_contribution_fee": "182 EUR per semester",
+          "estimated_cost_of_living": "Estimated 945 to 1,000 EUR per month in Ulm",
+          "total_cost_per_semester": "Not found"
         },
         "exact_admission_regulations": "Official admissions statutes (not retrieved in full) are the binding source for English/GPA specifics; program emphasizes application periods clearly, unlike many peers.",
         "deep_recheck": {
@@ -12651,7 +14383,12 @@ const DATABASE = {
           "newly_found_info": "Three named specialisation tracks (Sensors & Systems, Signals & Data, Mental Health Technologies); lateral-entry accommodation structure for international students lacking medicine background",
           "corrections": [],
           "notes": "Subpage with admission statutes/application details (bewerbung-und-immatrikulation) returned 404; recommend re-checking via FAQ page (also 404'd) or admission statutes PDF link found: uni-ulm.de/fileadmin/.../zulsatz_msc_bmt_27022025.pdf"
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Department of Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English; programme can also be completed entirely in German; proficiency in both described as highly beneficial"
       }
     },
     {
@@ -12722,16 +14459,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-offenburg.de/en/studies/master/communication-and-media-engineering",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not confirmed officially; third-party source cites minimum GPA of 2.5 (German scale) or 60-65%, requiring a Bachelor's (4 years, 130+ credits) plus HEC attestation for Pakistani applicants specifically - unconfirmed as a general rule",
-          "qualifying_degree": "Bachelor's graduates in a relevant engineering/communications field"
+          "qualifying_degree": "Bachelor's graduates in a relevant engineering/communications field",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in Electrical Engineering, Information Technology, or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS minimum 6.0; TOEFL iBT minimum 79 (consistent across multiple aggregator sources)"
+          "ielts": "IELTS minimum 6.0; TOEFL iBT minimum 79 (consistent across multiple aggregator sources)",
+          "toefl_ibt": "TOEFL iBT from 2026: 4 overall, 4 each section; TOEFL iBT Home Edition before 2026: 80 overall, 20 each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level; proficiency assessed by test or interview"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site (application only via HISinOne online portal)"
+          "winter_deadline_non_eu": "Not found via official site (application only via HISinOne online portal)",
+          "portal": "HISinOne portal; no uni-assist/VPD mentioned (surprising given APS requirement for China/India/Vietnam - should double check with Student Secretariat)",
+          "summer_deadline": "Not found",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 1,500 per semester state tuition fee for non-EU citizens (per DAAD/university listing); EUR 650/semester for EU citizens pursuing a second German Master's degree"
+          "tuition_non_eu": "EUR 1,500 per semester state tuition fee for non-EU citizens (per DAAD/university listing); EUR 650/semester for EU citizens pursuing a second German Master's degree",
+          "semester_contribution_fee": "150 EUR service contribution and 170 EUR administration fees",
+          "estimated_cost_of_living": "About 1,000 EUR per month, including about 400 EUR per month for accommodation",
+          "total_cost_per_semester": "EUR 80/semester admin fee + EUR 65 social contribution + EUR 25 student government (EU/general) + EUR 150/semester international flat fee + EUR 1,500/semester non-EU state tuition (or EUR 650 second-degree tuition if exempt). Non-EU living cost estimate ~EUR 11,904/year"
         },
         "exact_admission_regulations": "Applications accepted only through the university's HISinOne online application system; winter semester intake; 4-semester (~2 year) program taught in English.",
         "deep_recheck": {
@@ -12764,7 +14515,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD mentioned despite APS requirement for 3 countries - worth a follow-up call to Student Secretariat to confirm uni-assist isn't used."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Graduate School (developed jointly by Electrical Engineering and Information Technology dept and Media and Information Engineering dept)",
+        "intake_semester": "Winter",
+        "teaching_language": "English; German not required for studies but recommended for daily life and essential for PhD/working in Germany afterward"
       }
     },
     {
@@ -12835,16 +14591,30 @@ const DATABASE = {
         "official_source_url": "https://www.cit.tum.de/en/cit/studies/degree-programs/master-communications-electronics-engineering/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric cutoff published; official page requires a Bachelor's (or equivalent) from a university rated H+ on Anabin in electrical engineering/IT, with an 'excellent GPA' required as part of a two-stage selection process (weighing GPA, passed subjects, statement of purpose, two reference letters)",
-          "qualifying_degree": "Bachelor's graduates in electrical engineering and/or IT from a university recognized as 'H+' on Anabin database; TUM's own grade conversion tool recommended for GPA assessment"
+          "qualifying_degree": "Bachelor's graduates in electrical engineering and/or IT from a university recognized as 'H+' on Anabin database; TUM's own grade conversion tool recommended for GPA assessment",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in electrical/electronics engineering, IT, computer science, or closely related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No official score confirmed; third-party estimate IELTS 6.5-7.0 (TOEFL iBT 88)"
+          "ielts": "No official score confirmed; third-party estimate IELTS 6.5-7.0 (TOEFL iBT 88)",
+          "toefl_ibt": "TOEFL iBT Home Edition before 2026: 88; TOEFL iBT before 2026: 88",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "15 March recommended deadline for non-EU applicants; 31 May extended deadline for all applicants (per aggregator, unconfirmed officially)"
+          "winter_deadline_non_eu": "15 March recommended deadline for non-EU applicants; 31 May extended deadline for all applicants (per aggregator, unconfirmed officially)",
+          "portal": "uni-assist preliminary check/VPD (up to 4 weeks) -> TUMonline application portal",
+          "summer_deadline": "Not mentioned (no summer intake)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Conflicting third-party figures (EUR 6,000/semester vs EUR 8,000/year vs no tuition fee); not confirmed via official fee page"
+          "tuition_non_eu": "Conflicting third-party figures (EUR 6,000/semester vs EUR 8,000/year vs no tuition fee); not confirmed via official fee page",
+          "semester_contribution_fee": "97 EUR per semester (as of April 2026); what it covers not stated",
+          "estimated_cost_of_living": "No figure given; page refers to DAAD finances page",
+          "total_cost_per_semester": "Tuition applies to new non-EU students from WS2024/25 (exact amount not on this page; semester fee also applies, amount not given)"
         },
         "exact_admission_regulations": "Selection is a two-stage competitive process rather than a simple GPA/IELTS cutoff; official Study Handbook (PDF) available with full curriculum details.",
         "deep_recheck": {
@@ -12877,7 +14647,12 @@ const DATABASE = {
             }
           ],
           "notes": "IMPORTANT VPD finding - same pattern as FH Dortmund gap."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "School of Computation, Information and Technology (CIT)",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -12948,16 +14723,30 @@ const DATABASE = {
         "official_source_url": "Not found (tu-ilmenau.de official MSCSP page not located; description is vague per dataset)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Bachelor's graduates in Electrical Engineering or Computer Science"
+          "qualifying_degree": "Bachelor's graduates in Electrical Engineering or Computer Science",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's degree of at least 180 CP in electrical engineering, IT, media technology, or similar",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.5 (TOEFL iBT 79, CEFR C1) cited consistently across multiple aggregators for this specific program; note a different TU Ilmenau program (Research in Computer Systems Engineering) requires IELTS 7, not to be confused"
+          "ielts": "IELTS 6.5 (TOEFL iBT 79, CEFR C1) cited consistently across multiple aggregators for this specific program; note a different TU Ilmenau program (Research in Computer Systems Engineering) requires IELTS 7, not to be confused",
+          "toefl_ibt": "TOEFL iBT from 2026: 5 overall, 5 each section; TOEFL iBT before 2026: 95 overall (reading 24, listening 22, speaking 25, writing 24)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "None; native German speakers advised to spend one semester abroad before starting"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter Semester: 15 July; Summer Semester: 15 January (per aggregator, unconfirmed officially)"
+          "winter_deadline_non_eu": "Winter Semester: 15 July; Summer Semester: 15 January (per aggregator, unconfirmed officially)",
+          "portal": "TU Ilmenau application portal (account creation + document upload), per search summary",
+          "summer_deadline": "Not applicable (winter intake only, starting October)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (public university); semester contribution approx. EUR 100-275 (figures vary by source); application fee EUR 25 (one source cites EUR 75)"
+          "tuition_non_eu": "No tuition fee (public university); semester contribution approx. EUR 100-275 (figures vary by source); application fee EUR 25 (one source cites EUR 75)",
+          "semester_contribution_fee": "About 320 EUR per semester, includes a rail/bus ticket and reduced prices in canteens/cafeterias",
+          "estimated_cost_of_living": "About 860 EUR per month, including rent",
+          "total_cost_per_semester": "Not newly confirmed"
         },
         "exact_admission_regulations": "4-semester program; could not reach an official tu-ilmenau.de page specifically for MSCSP in this session; figures above are third-party aggregator consensus, not officially confirmed.",
         "deep_recheck": {
@@ -12977,7 +14766,12 @@ const DATABASE = {
           "newly_found_info": "Official short-profile and detailed program URLs identified for future direct fetch; minimum CEFR B1 figure cited by a third party (likely general university minimum, not program-specific) should not be trusted",
           "corrections": [],
           "notes": "Could not directly WebFetch the official tu-ilmenau.de page this session (only WebSearch performed); recommend a follow-up direct fetch of https://www.tu-ilmenau.de/en/study/before-the-study/range-of-courses/master/communications-and-signal-processing-msc and its linked admission regulations PDF (PS-2021-CSP-M-ER-STR-SP.pdf) to check for VPD/uni-assist specifically."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Communications Research Laboratory",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100% of courses"
       }
     },
     {
@@ -13048,16 +14842,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-kiel.de/en/tf/study/msc-eie",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official GPA cutoff found; Kiel's own 7-semester Bachelor's graduates are admitted without further technical requirements; other applicants referred to program website for specifics",
-          "qualifying_degree": "Primarily aimed at Kiel's own Bachelor's graduates (admitted without extra requirements); external applicants evaluated case by case"
+          "qualifying_degree": "Primarily aimed at Kiel's own Bachelor's graduates (admitted without extra requirements); external applicants evaluated case by case",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's degree comparable to Kiel's 7-semester Bachelor's in Electrical and Information Engineering",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS Academic overall 6.5 per one aggregator (not confirmed on official page, which defers to the program website)"
+          "ielts": "IELTS Academic overall 6.5 per one aggregator (not confirmed on official page, which defers to the program website)",
+          "toefl_ibt": "TOEFL iBT before 2026: 72 (only example given)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Summer deadline ~27 September; Winter deadline ~23 February (unconfirmed, third-party)"
+          "winter_deadline_non_eu": "Summer deadline ~27 September; Winter deadline ~23 February (unconfirmed, third-party)",
+          "portal": "Not detailed on pages fetched; subpage covered only administrative forms (thesis registration, exam forms, BAföG certificates), not pre-application uni-assist/VPD info",
+          "summer_deadline": "Varies by applicant's Bachelor's degree; see programme website",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee; only semester contribution (aggregators cite ~EUR 250/semester or ~EUR 534/year, unconfirmed)"
+          "tuition_non_eu": "No tuition fee; only semester contribution (aggregators cite ~EUR 250/semester or ~EUR 534/year, unconfirmed)",
+          "semester_contribution_fee": "403 EUR per semester, covers administration fee, nationwide semester transport ticket for trains/buses, reduced lunch prices, culture ticket, other student benefits; enrolment fee of 55 EUR charged on first enrolment",
+          "estimated_cost_of_living": "At least 992 EUR per month; 11,904 EUR (one year of living costs) required as proof for visa-required applicants and residence permit extensions",
+          "total_cost_per_semester": "Tuition-free; semester contribution + one-time enrolment fee apply (exact amounts not found; AStA fee page linked but not fetched)"
         },
         "exact_admission_regulations": "3-semester (30 ECTS described, likely typo for full program), English-taught program; official site directs most specifics to a separate application page not fully retrieved in this session.",
         "deep_recheck": {
@@ -13078,7 +14886,12 @@ const DATABASE = {
           "newly_found_info": "Program module group structure (core/specialisation/seminar/lab); Science and Technology Academy as resource for admitted international students",
           "corrections": [],
           "notes": "The 'Applications and certificates' subpage was NOT the right one for admission/VPD info (it's for enrolled students). Should check 'Start of study' subpage (/en/tf/study/msc-eie/students/start-of-study) next time, which was identified but not fetched."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time only",
+        "faculty_institute": "Faculty of Engineering, Department of Electrical and Information Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English (all courses)"
       }
     },
     {
@@ -13149,16 +14962,30 @@ const DATABASE = {
         "official_source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official numeric cutoff; one aggregator cites minimum GPA of 3.0, unconfirmed by university. Official page states if admission requirements not fully met, examination board may require up to 25 additional credits of coursework",
-          "qualifying_degree": "Bachelor's graduates in Electrical Engineering and Information Technology or a related subject from a German or international university (under PO 2020 regulations); this entry covers the Biomedical Engineering specialisation track"
+          "qualifying_degree": "Bachelor's graduates in Electrical Engineering and Information Technology or a related subject from a German or international university (under PO 2020 regulations); this entry covers the Biomedical Engineering specialisation track",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "180 ECTS Bachelor's with at least 25 CP mathematics and 50 CP IT/electrical engineering/electronics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Conflicting: aggregators cite IELTS 6.0 (TOEFL 85); language of instruction itself also disputed (some sources say German-taught requiring TestDaF 16/DSH level 2-3, others say English-taught) - contact studienberatung@ei.rub.de to confirm"
+          "ielts": "Conflicting: aggregators cite IELTS 6.0 (TOEFL 85); language of instruction itself also disputed (some sources say German-taught requiring TestDaF 16/DSH level 2-3, others say English-taught) - contact studienberatung@ei.rub.de to confirm",
+          "toefl_ibt": "TOEFL iBT: 4.5 for tests from 2026 onward, or 85 for tests before 2026",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "RUB's own application portal; register and apply directly (no uni-assist/VPD mentioned)",
+          "summer_deadline": "Non-EU applicants: 15 January; EU applicants: 1 March",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site (no tuition fee generally expected at RUB as public university; only semester contribution, amount not confirmed)"
+          "tuition_non_eu": "Not found via official site (no tuition fee generally expected at RUB as public university; only semester contribution, amount not confirmed)",
+          "semester_contribution_fee": "About 380 EUR per semester, includes a semester ticket for public transport in Germany",
+          "estimated_cost_of_living": "At least 950 EUR per month for personal and living expenses",
+          "total_cost_per_semester": "Not mentioned (public university; likely semester contribution only)"
         },
         "exact_admission_regulations": "Program offers multiple specialisation tracks (Biomedical Engineering, Communication Systems, Engineering Physics all share the same base MSc EIT program and admission page); language of instruction is ambiguous across sources and should be verified directly.",
         "deep_recheck": {
@@ -13192,7 +15019,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD found; applies equally to 11169 and 11128 (shared base program)."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (two years), 120 ECTS",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English; entire curriculum in English, some German-taught compulsory elective and free elective classes can also be attended"
       }
     },
     {
@@ -13263,16 +15095,30 @@ const DATABASE = {
         "official_source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Same as parent EIT program: no official numeric cutoff; up to 25 additional credits may be required if prerequisites are not fully met",
-          "qualifying_degree": "Bachelor's graduates in EE/IT or related field choosing the Communication Systems specialisation track within the MSc EIT program"
+          "qualifying_degree": "Bachelor's graduates in EE/IT or related field choosing the Communication Systems specialisation track within the MSc EIT program",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "180 ECTS Bachelor's with at least 25 CP mathematics and 50 CP IT/electrical engineering/electronics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Conflicting figures/language-of-instruction ambiguity as per base program (IELTS ~6.0 cited by aggregators, unconfirmed)"
+          "ielts": "Conflicting figures/language-of-instruction ambiguity as per base program (IELTS ~6.0 cited by aggregators, unconfirmed)",
+          "toefl_ibt": "TOEFL iBT: 4.5 (since 2026) or 85 (before 2026)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Same as sibling entry 11168 - RUB's own portal, no uni-assist/VPD mentioned",
+          "summer_deadline": "EU: 1 March; non-EU: 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "About 380 EUR per semester, includes a semester ticket for public transport in Germany",
+          "estimated_cost_of_living": "At least 950 EUR per month",
+          "total_cost_per_semester": "Not mentioned"
         },
         "exact_admission_regulations": "Shares base admission page/process with the other EIT specialisations (Biomedical Engineering, Engineering Physics); specialisation choice made within the single MSc EIT program structure.",
         "deep_recheck": {
@@ -13300,7 +15146,12 @@ const DATABASE = {
             }
           ],
           "notes": "See full detail under daad_id 11168 (shared source)."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (two years), 120 ECTS",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English; entire curriculum in English, some German-taught compulsory/free elective classes also available"
       }
     },
     {
@@ -13371,16 +15222,30 @@ const DATABASE = {
         "official_source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Same as parent EIT program: no official numeric cutoff; up to 25 additional credits may be required if prerequisites are not fully met",
-          "qualifying_degree": "Bachelor's graduates in EE/IT or related field choosing the Engineering Physics specialisation track within the MSc EIT program"
+          "qualifying_degree": "Bachelor's graduates in EE/IT or related field choosing the Engineering Physics specialisation track within the MSc EIT program",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "180 ECTS Bachelor's with at least 25 CP mathematics and 50 CP IT/electrical engineering/electronics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Conflicting figures/language-of-instruction ambiguity as per base program (IELTS ~6.0 cited by aggregators, unconfirmed)"
+          "ielts": "Conflicting figures/language-of-instruction ambiguity as per base program (IELTS ~6.0 cited by aggregators, unconfirmed)",
+          "toefl_ibt": "TOEFL iBT since 2026: 4.5; TOEFL iBT before 2026: 85",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Same as sibling entries - RUB's own portal",
+          "summer_deadline": "EU: 1 March; non-EU: 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "About 380 EUR per semester, includes a semester ticket for public transport in Germany",
+          "estimated_cost_of_living": "At least 950 EUR per month for personal and living expenses",
+          "total_cost_per_semester": "Not mentioned"
         },
         "exact_admission_regulations": "Shares base admission page/process with the other EIT specialisations (Biomedical Engineering, Communication Systems); specialisation choice made within the single MSc EIT program structure.",
         "deep_recheck": {
@@ -13408,7 +15273,12 @@ const DATABASE = {
             }
           ],
           "notes": "See full detail under daad_id 11168 (shared source)."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (two years), 120 ECTS",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English; full curriculum in English, some German-taught compulsory/free elective classes also available"
       }
     },
     {
@@ -13479,16 +15349,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-paderborn.de/en/studyoffer/course_of_study/electrical-systems-engineering-english-taught-program-master",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Minimum GPA ~2.5 (German scale) cited by multiple aggregators (unconfirmed officially); core requirement is a Bachelor's in electrical engineering or a closely related field from an accredited institution",
-          "qualifying_degree": "Bachelor's graduates in electrical engineering or a closely related field from an accredited institution"
+          "qualifying_degree": "Bachelor's graduates in electrical engineering or a closely related field from an accredited institution",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in Electrical Engineering or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE accepted as alternative to GPA route: at least 157 Qualitative Reasoning, at least 4.0 Analytical Writing; GMAT not mentioned"
         },
         "language_requirements": {
-          "ielts": "Conflicting: IELTS 6.5 (TOEFL iBT 80) cited by one source; IELTS 6.0 (TOEFL iBT 80) by another; TOEFL iBT 87+ cited by a third for non-EU applicants"
+          "ielts": "Conflicting: IELTS 6.5 (TOEFL iBT 80) cited by one source; IELTS 6.0 (TOEFL iBT 80) by another; TOEFL iBT 87+ cited by a third for non-EU applicants",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "uni-assist for applicants without German HS qualification; PAUL portal directly for Bildungsinländer",
+          "summer_deadline": "Not listed",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee; mandatory semester contribution cited as EUR 351.15 by one source, EUR 300 by an older source"
+          "tuition_non_eu": "No tuition fee; mandatory semester contribution cited as EUR 351.15 by one source, EUR 300 by an older source",
+          "semester_contribution_fee": "About 330 EUR per semester, includes the Deutschlandticket for regional public transport",
+          "estimated_cost_of_living": "Estimated total ~1,235 EUR/month: rent 400 EUR, health insurance ~160 EUR, food 350 EUR, free time at least 150 EUR, semester fee ~55 EUR/month, miscellaneous ~120 EUR",
+          "total_cost_per_semester": "Not stated (public; no tuition, semester contribution only, prior data cites EUR 351.15 unconfirmed here)"
         },
         "exact_admission_regulations": "Program taught in English per official examination regulations (po-ms-ese-en.pdf); non-EU applicants typically apply via uni-assist; one aggregator mentions GRE 157+ Quant for non-EU applicants, unconfirmed officially.",
         "deep_recheck": {
@@ -13515,7 +15399,12 @@ const DATABASE = {
             }
           ],
           "notes": "uni-assist is used but page doesn't specifically name 'VPD' - likely implied but not confirmed explicitly; recommend following up on uni-assist portal page directly."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (two years), full-time, fully on-site with voluntary online elements",
+        "faculty_institute": "Department of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English; programme can be completed entirely in English"
       }
     },
     {
@@ -13586,16 +15475,30 @@ const DATABASE = {
         "official_source_url": "https://www.tf.uni-freiburg.de/en/study-programs/embedded-systems/m-sc-embedded-systems-engineering",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official minimum GPA found; older admission regulation (2015, possibly outdated) requires foundation coursework covering at least 26 of 110 ECTS in mathematics, computer science, electrical engineering, microsystems engineering, and embedded systems",
-          "qualifying_degree": "Bachelor's graduates in embedded systems, information technology, computer engineering, computer science/engineering, electronics, or mechatronics"
+          "qualifying_degree": "Bachelor's graduates in embedded systems, information technology, computer engineering, computer science/engineering, electronics, or mechatronics",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in embedded systems, IT, computer engineering, electrical engineering, electronics, mechatronics, or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No specific IELTS/TOEFL score found; CEFR language requirement referenced but level not specified in retrieved content"
+          "ielts": "No specific IELTS/TOEFL score found; CEFR language requirement referenced but level not specified in retrieved content",
+          "toefl_ibt": "TOEFL iBT before 2026: 95 total (Reading 24, Listening 22, Speaking 25, Writing 24); TOEFL iBT Home Edition from 2026: 5 total (5 each section); TOEFL Essentials: 10 total (10 each section)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter semester: 1 March - 15 May (non-EU nationals); 1 March - 15 July (EU nationals)"
+          "winter_deadline_non_eu": "Winter semester: 1 March - 15 May (non-EU nationals); 1 March - 15 July (EU nationals)",
+          "portal": "Direct online application via campus.uni-freiburg.de (not uni-assist)",
+          "summer_deadline": "EU: 1 November to 15 January; non-EU: 1 November to 15 December",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition figure found on official pages; only general living-cost estimates available (e.g., ~EUR 120/month health insurance)"
+          "tuition_non_eu": "No tuition figure found on official pages; only general living-cost estimates available (e.g., ~EUR 120/month health insurance)",
+          "semester_contribution_fee": "190 EUR per semester: administrative fee 80 EUR, constituted student body contribution 7 EUR, student union contribution 103 EUR",
+          "estimated_cost_of_living": "About 850-1,000 EUR per month: private accommodation 350-700 EUR, student residences 250-550 EUR, personal expenses ~350 EUR, health insurance ~120 EUR, regional transport ticket ~96 EUR per semester",
+          "total_cost_per_semester": "EU/German: EUR 190/semester total (103 Studierendenwerk+80 admin+7 student council); Non-EU: EUR 1,690/semester total (1,500 tuition+190 fees); living costs ~EUR900-1000/month"
         },
         "exact_admission_regulations": "4-semester program, taught in English, can start in winter or summer semester; official admission regulation (Zulassungsordnung) document exists but detailed score requirements not captured in this session.",
         "deep_recheck": {
@@ -13628,7 +15531,12 @@ const DATABASE = {
             }
           ],
           "notes": "NOTABLE: No uni-assist/VPD requirement found for Freiburg's Embedded Systems Engineering MSc program, unlike the comparably-named FH Dortmund program that DID require VPD - these are different universities/programs despite similar names, so the user's flagged gap does not apply here. Worth double-checking Freiburg's own admission regulations PDF (Zulassungsordnung, linked) to be certain, since the page explicitly warns requirements may change."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Faculty of Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English; about 5% of elective courses are in German, but German not needed to complete the degree"
       }
     },
     {
@@ -13699,16 +15607,30 @@ const DATABASE = {
         "official_source_url": "https://www.thi.de/en/lifelong-learning/study-courses/global-engineering-and-management-msc/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site; requires a Bachelor's degree in engineering, IT, natural sciences, business, or management plus 210 ECTS credits (first of three listed admission requirements; other two not captured)",
-          "qualifying_degree": "Bachelor's graduates in engineering, information technology, natural science, business, or management seeking an internationally-oriented engineering management program"
+          "qualifying_degree": "Bachelor's graduates in engineering, information technology, natural science, business, or management seeking an internationally-oriented engineering management program",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in engineering, IT, natural science, business, or management; one year relevant work experience",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Conflicting: program taught fully in English; one source says no TOEFL/IELTS required, another cites IELTS 6.5 for 'a few THI programmes' without specifying which"
+          "ielts": "Conflicting: program taught fully in English; one source says no TOEFL/IELTS required, another cites IELTS 6.5 for 'a few THI programmes' without specifying which",
+          "toefl_ibt": "TOEFL iBT before 2026: 72 total (Reading 18, Listening 17, Speaking 20, Writing 17); TOEFL iBT since 2026: 4 total (each section 4)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "uni-assist preliminary exam for foreign qualifications, then THI's own online application",
+          "summer_deadline": "15 October 2026 to 15 January 2027",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Conflicting/unconfirmed: one source cites EUR 2,475 per semester (unusual for a German public university, flagged as needing verification); official tuition page not directly retrieved"
+          "tuition_non_eu": "Conflicting/unconfirmed: one source cites EUR 2,475 per semester (unusual for a German public university, flagged as needing verification); official tuition page not directly retrieved",
+          "semester_contribution_fee": "82 EUR per semester, a student union fee",
+          "estimated_cost_of_living": "Not listed",
+          "total_cost_per_semester": "EUR 2,475/semester study fee + EUR 82 administration fee - CONFIRMS the figure flagged as 'unusual/needing verification' in prior data"
         },
         "exact_admission_regulations": "Program duration cited as up to 7 semesters (~3.5 years) by one source, which seems unusually long for a standard MSc and should be verified; THI's official application portal (under studies/application) is the recommended source for binding figures.",
         "deep_recheck": {
@@ -13741,7 +15663,12 @@ const DATABASE = {
             }
           ],
           "notes": "This is a 'Lifelong Learning' continuing-education THI program (fee-based, like an executive program), which explains its distinct tuition structure vs standard public-university norms."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, part-time (alongside work), fully online",
+        "faculty_institute": "Executive Education",
+        "intake_semester": "Winter",
+        "teaching_language": "English; all courses, exams, correspondence, and communication in English"
       }
     },
     {
@@ -13812,16 +15739,30 @@ const DATABASE = {
         "official_source_url": "https://tum-asia.edu.sg/graduate-studies/master-green-electronics/ (also https://ntu.edu.sg/education/graduate-programme/joint-master-of-science-in-green-electronics)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No GPA admission cutoff found; the figure '2.5 CGPA' that appears in some sources is actually the minimum CGPA required for GRADUATION, not entry",
-          "qualifying_degree": "Bachelor's graduates in electronics, electrical engineering, or physics, or a closely related discipline (program duration of underlying bachelor's must be at least 3 years); requires 2 recommendation letters from professors or employers"
+          "qualifying_degree": "Bachelor's graduates in electronics, electrical engineering, or physics, or a closely related discipline (program duration of underlying bachelor's must be at least 3 years); requires 2 recommendation letters from professors or employers",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in Electronics, Electrical Engineering, or Physics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.5 or higher, or TOEFL 88 (100 minimum specifically noted for TUM-NTU joint degree programs per a TUM Asia blog post)"
+          "ielts": "IELTS 6.5 or higher, or TOEFL 88 (100 minimum specifically noted for TUM-NTU joint degree programs per a TUM Asia blog post)",
+          "toefl_ibt": "TOEFL iBT before 2026: 88",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Application window cited as 1 Oct - 31 Mar for an August intake (specific year varies; verify current cycle)"
+          "winter_deadline_non_eu": "Application window cited as 1 Oct - 31 Mar for an August intake (specific year varies; verify current cycle)",
+          "portal": "TUM Asia's own admissions process; NTU application fee SGD 50",
+          "summer_deadline": "Not applicable (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Conflicting figures: SGD 40,000 (before GST) per one source; SGD 26,393.34/year per another; others claim tuition-free (unreliable/outdated); official TUM Asia page is authoritative but exact current figure not fully confirmed"
+          "tuition_non_eu": "Conflicting figures: SGD 40,000 (before GST) per one source; SGD 26,393.34/year per another; others claim tuition-free (unreliable/outdated); official TUM Asia page is authoritative but exact current figure not fully confirmed",
+          "semester_contribution_fee": "Included in tuition fees",
+          "estimated_cost_of_living": "About 1,500 to 2,200 SGD per month, including accommodation (varies by individual)",
+          "total_cost_per_semester": "Total programme fee SGD 58,403.07 (incl. 9% GST) / SGD 53,580.80 before GST; registration fee SGD 5,000 before GST / SGD 5,450 after GST, paid in 3 installments (upon acceptance, 15 July, 1 Dec, 1 July following year)"
         },
         "exact_admission_regulations": "Joint degree between TUM Asia (Singapore) and Nanyang Technological University (NTU); 2-year, 4-semester structure including a 3-month internship and 6-month thesis.",
         "deep_recheck": {
@@ -13848,7 +15789,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD applicable - Singapore program under TUM Asia/NTU joint framework, not standard German domestic admission."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Not stated",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%); Master's theses also must be in English"
       }
     },
     {
@@ -13919,16 +15865,30 @@ const DATABASE = {
         "official_source_url": "https://tum-asia.edu.sg/graduate-studies/master-integrated-circuit-design/ (also https://ntu.edu.sg/eee/admissions/programmes/graduate-programmes/detail/joint-master-of-science-in-ic-design)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official GPA minimum found/confirmed",
-          "qualifying_degree": "Bachelor's graduates with a relevant engineering/science degree; requirements may differ by country, applicants advised to confirm with admission@tum-asia.edu.sg"
+          "qualifying_degree": "Bachelor's graduates with a relevant engineering/science degree; requirements may differ by country, applicants advised to confirm with admission@tum-asia.edu.sg",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in Electrical/Electronics Engineering or closely related discipline",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.5 minimum, or TOEFL iBT 100 (per Mastersportal/TUM Asia info)"
+          "ielts": "IELTS 6.5 minimum, or TOEFL iBT 100 (per Mastersportal/TUM Asia info)",
+          "toefl_ibt": "TOEFL iBT before 2026: 88",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "TUM Asia admissions; NTU application fee SGD 50 non-refundable",
+          "summer_deadline": "Not applicable (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "SGD 49,000 (before GST) per official TUM Asia program page for the most recent intake cited, noted as subject to revision; conflicting lower figures (SGD 28,078/year) from aggregators"
+          "tuition_non_eu": "SGD 49,000 (before GST) per official TUM Asia program page for the most recent intake cited, noted as subject to revision; conflicting lower figures (SGD 28,078/year) from aggregators",
+          "semester_contribution_fee": "Included in tuition fees",
+          "estimated_cost_of_living": "About 1,500 to 2,200 SGD per month, including accommodation (varies by individual)",
+          "total_cost_per_semester": "Total programme fee SGD 58,403.07 (incl. GST); registration fee SGD 5,450 after GST paid on acceptance; remainder in 3 installments (15 July, 1 Dec, 1 July following year) - CORRECTS prior SGD49,000 figure"
         },
         "exact_admission_regulations": "Joint 2-year degree jointly awarded by TUM and NTU; non-refundable NTU application fee cited as SGD 50 (one older source cites SGD 79); taught entirely in English.",
         "deep_recheck": {
@@ -13955,7 +15915,12 @@ const DATABASE = {
             }
           ],
           "notes": "Fee figure has apparently increased since whatever source produced the prior EUR49,000 claim; treat current SGD58,403.07 as most current."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Not stated",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%); Master's theses also must be in English"
       }
     },
     {
@@ -14026,16 +15991,30 @@ const DATABASE = {
         "official_source_url": "https://international-academy-for-german-engineering.de/product/management-of-smart-and-sustainable-energy-systems/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "One source describes requiring a first degree in business administration/economics, suggesting the program targets students with a management/business background applying technical energy-systems knowledge (consistent with the 'Academy' cooperation structure between the Faculty of Management/Economics)"
+          "qualifying_degree": "One source describes requiring a first degree in business administration/economics, suggesting the program targets students with a management/business background applying technical energy-systems knowledge (consistent with the 'Academy' cooperation structure between the Faculty of Management/Economics)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's/equivalent in business administration, economics, or comparable field; at least one year relevant professional experience",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.5 cited by one aggregator (unconfirmed officially); a different similarly-named RUB program cites IELTS 6"
+          "ielts": "IELTS 6.5 cited by one aggregator (unconfirmed officially); a different similarly-named RUB program cites IELTS 6",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Program's own application form; upload all documents at once",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 9,990/year cited by one aggregator (Studyportals); conflicts with typical RUB semester-contribution-only model seen in other RUB programs - needs verification as this appears to be a separate paid academy program (Akademie der Ruhr Universität) rather than a standard tuition-free public program"
+          "tuition_non_eu": "EUR 9,990/year cited by one aggregator (Studyportals); conflicts with typical RUB semester-contribution-only model seen in other RUB programs - needs verification as this appears to be a separate paid academy program (Akademie der Ruhr Universität) rather than a standard tuition-free public program",
+          "semester_contribution_fee": "Approx. 380 EUR per semester, includes a semester ticket for public transport in Germany",
+          "estimated_cost_of_living": "Minimum of 950 EUR per month",
+          "total_cost_per_semester": "EUR 14,985 total (EUR 4,995/semester) with early-bird EUR 13,985 if applied by 12 Jan 2027; semester administration/social fee ~EUR 380/semester - CONFIRMS this is the fee-charging Akademie structure flagged in prior data, with exact figures now"
         },
         "exact_admission_regulations": "Delivered via the 'International Academy for German Engineering' / Akademie der Ruhr Universität in cooperation with the Faculty of Management and Economics - a distinct fee-charging structure from RUB's standard public tuition-free Master's programs; program length cited variably as 18 months or 3 semesters across sources.",
         "deep_recheck": {
@@ -14068,7 +16047,12 @@ const DATABASE = {
             }
           ],
           "notes": "Confirms this is run through 'Akademie der Ruhr Universität' as a separate fee-charging structure, consistent with prior flagged note."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Akademie der Ruhr Universität / Faculty of Management and Economics",
+        "intake_semester": "Winter",
+        "teaching_language": "English (courses taught in English; no German required for admission)"
       }
     },
     {
@@ -14139,16 +16123,30 @@ const DATABASE = {
         "official_source_url": "https://www.ed.tum.de/en/ed/studies/degree-programs/materials-science-and-engineering-m-sc/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official minimum found; requires passing TUM's two-stage aptitude assessment procedure; one unconfirmed aggregator cites GPA ~2.5 (German scale)/70%",
-          "qualifying_degree": "Bachelor's graduates with proof of English proficiency and successful completion of TUM's aptitude assessment procedure; program taught up to 100% in English (teaching languages listed as English and German in official regulations)"
+          "qualifying_degree": "Bachelor's graduates with proof of English proficiency and successful completion of TUM's aptitude assessment procedure; program taught up to 100% in English (teaching languages listed as English and German in official regulations)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's (6+ semesters) in engineering, mechanical engineering, electrical engineering, computer science, civil/environmental engineering, chemical engineering, or comparable field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE General Test or GATE score required for applicants with degrees from Bangladesh, China, India, Iran, Pakistan, or non-Lisbon Recognition Convention states; recommended but not required for Lisbon signatory states; required point totals to be announced later"
         },
         "language_requirements": {
-          "ielts": "Conflicting: IELTS 6.5 minimum cited by one source; another cites TUM's general Master's range of IELTS 6.5 (recommended 7.0) or TOEFL iBT 88 (recommended 95)"
+          "ielts": "Conflicting: IELTS 6.5 minimum cited by one source; another cites TUM's general Master's range of IELTS 6.5 (recommended 7.0) or TOEFL iBT 88 (recommended 95)",
+          "toefl_ibt": "TOEFL iBT before 2026: 88; TOEFL iBT Home Edition before 2026: 88",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site; generally starts in winter semester"
+          "winter_deadline_non_eu": "Not found via official site; generally starts in winter semester",
+          "portal": "TUMonline application portal; VPD via uni-assist required for non-German-obtained qualifications before/during application",
+          "summer_deadline": "Not listed (no summer intake)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Conflicting figures: EUR 6,000/semester vs EUR 8,000/year cited by different aggregators; not confirmed via official fee page"
+          "tuition_non_eu": "Conflicting figures: EUR 6,000/semester vs EUR 8,000/year cited by different aggregators; not confirmed via official fee page",
+          "semester_contribution_fee": "Not stated; refer to TUM study fees page",
+          "estimated_cost_of_living": "Recommended budget of at least 1,200 EUR per month in Munich (per Numbeo link)",
+          "total_cost_per_semester": "Semester fee applies; non-EU students have separate fees; exact amounts not on this page"
         },
         "exact_admission_regulations": "Admission hinges on TUM's distinctive 2-stage aptitude assessment rather than a simple GPA/test-score cutoff; full program regulations (Fachprüfungsordnung) available as official PDF but not fully retrieved.",
         "deep_recheck": {
@@ -14181,7 +16179,12 @@ const DATABASE = {
             }
           ],
           "notes": "Another confirmed VPD case - TUM programs (MSCE 3768, this MSE 9047) consistently require VPD via uni-assist for foreign qualifications."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "TUM School of Engineering and Design",
+        "intake_semester": "Winter",
+        "teaching_language": "English; program can be studied up to 100% in English; German speakers can choose from more electives, some taught in German"
       }
     },
     {
@@ -14252,16 +16255,30 @@ const DATABASE = {
         "official_source_url": "Not found (official tu-ilmenau.de Micro- and Nanotechnologies MSc page description is vague per dataset; short profile found at tu-ilmenau.de/en/study/in-study/range-of-courses/master/micro-and-nanotechnologies-msc)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "One aggregator cites GPA ~2.5 (German)/70% equivalent, unconfirmed officially",
-          "qualifying_degree": "Bachelor's graduates in Physics, Electrical Engineering, Materials Science, or a related field"
+          "qualifying_degree": "Bachelor's graduates in Physics, Electrical Engineering, Materials Science, or a related field",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "180 ECTS Bachelor's in electrical/electronics/communications engineering, mechatronics, technical physics, materials science, or mechanical engineering",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.5 (TOEFL iBT 79) most commonly cited; one outlier source cites IELTS 7/TOEFL 95/PTE 76"
+          "ielts": "IELTS 6.5 (TOEFL iBT 79) most commonly cited; one outlier source cites IELTS 7/TOEFL 95/PTE 76",
+          "toefl_ibt": "TOEFL iBT Home Edition before 2026: total 95 (Reading 24, Listening 22, Speaking 25, Writing 24); TOEFL iBT since 2026: total 5 (each section 5)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level; compulsory German course for students with no German proficiency as part of curriculum"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Not confirmed this session",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (public university); semester contribution ~EUR 271.40 plus ~EUR 75 application fee cited by aggregators, not officially confirmed"
+          "tuition_non_eu": "No tuition fee (public university); semester contribution ~EUR 271.40 plus ~EUR 75 application fee cited by aggregators, not officially confirmed",
+          "semester_contribution_fee": "About 320 EUR per semester, includes a rail/bus ticket and reduced prices in canteens/cafeterias",
+          "estimated_cost_of_living": "About 860 EUR per month, including apartment rent",
+          "total_cost_per_semester": "Not newly confirmed"
         },
         "exact_admission_regulations": "4-semester program; could not locate full official admission statute in this session; figures are third-party aggregator consensus requiring verification against tu-ilmenau.de directly.",
         "deep_recheck": {
@@ -14281,7 +16298,12 @@ const DATABASE = {
           "newly_found_info": "Official program page conflicts on whether an aptitude test is required under certain conditions; examination regulations PDF identified (PS-2021-MNT-M-ER-STR-SP.pdf) but not fetched",
           "corrections": [],
           "notes": "Not directly fetched this session (WebSearch summary only). RECOMMEND a follow-up direct WebFetch of the official short-profile page and the PS-2021-MNT-M-ER-STR-SP.pdf admission regulations annex to confirm VPD/uni-assist status, GPA, deadlines, and fees, since this entry remains substantially unverified."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Department of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English; some electives may be offered in German"
       }
     },
     {
@@ -14352,16 +16374,30 @@ const DATABASE = {
         "official_source_url": "https://www.tf.uni-freiburg.de/mse",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No officially confirmed cutoff; requires Bachelor's in an engineering discipline (mechatronics, mechanical, electrical, or electronics engineering) or closely related field 'with an excellent cumulative GPA or final grade'; one unconfirmed aggregator cites CGPA minimum 7.0/10 (first class) for Indian applicants specifically",
-          "qualifying_degree": "Bachelor's graduates in mechatronics, mechanical, electrical, or electronics engineering, or closely related fields, with strong prior knowledge in mathematics, physics, chemistry, technical mechanics, electronics, and materials considered 'crucial'"
+          "qualifying_degree": "Bachelor's graduates in mechatronics, mechanical, electrical, or electronics engineering, or closely related fields, with strong prior knowledge in mathematics, physics, chemistry, technical mechanics, electronics, and materials considered 'crucial'",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in Mechatronics, Mechanical Engineering, Electrical Engineering, Electronics and Communication, or closely related discipline",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Conflicting: ranges cited from IELTS 6.5 (no band below 6.0) up to IELTS 7.0 for this research-intensive program specifically; TOEFL iBT 92-95 also cited"
+          "ielts": "Conflicting: ranges cited from IELTS 6.5 (no band below 6.0) up to IELTS 7.0 for this research-intensive program specifically; TOEFL iBT 92-95 also cited",
+          "toefl_ibt": "TOEFL iBT from 2026: 5 overall, 5 each section; TOEFL iBT Home Edition before 2026: 95 overall (Reading 24, Listening 22, Speaking 25, Writing 24)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Application deadlines approx. 1 May / 1 June, with an October (winter) start, per official flyer"
+          "winter_deadline_non_eu": "Application deadlines approx. 1 May / 1 June, with an October (winter) start, per official flyer",
+          "portal": "Direct electronic application via campus.uni-freiburg.de",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Approx. EUR 1,500/semester for non-EU students (Baden-Württemberg non-EU tuition policy since 2017), per multiple aggregators; not directly confirmed from official fee page in this session"
+          "tuition_non_eu": "Approx. EUR 1,500/semester for non-EU students (Baden-Württemberg non-EU tuition policy since 2017), per multiple aggregators; not directly confirmed from official fee page in this session",
+          "semester_contribution_fee": "190 EUR per semester: administrative fee 80 EUR, constituted student body contribution 7 EUR, student union contribution 103 EUR",
+          "estimated_cost_of_living": "About 850-1,000 EUR per month: private accommodation 350-700 EUR, student residences 250-550 EUR, private expenses ~350 EUR, health insurance ~120 EUR, regional transport ticket ~96 EUR per semester",
+          "total_cost_per_semester": "EU/German: EUR190/semester (103+80+7); Non-EU: EUR1,690/semester (1,500 tuition+190 fees); living costs ~EUR900-1,000/month"
         },
         "exact_admission_regulations": "GRE is 'highly recommended' per one aggregator, suggesting a strong quantitative score can offset an average GPA; program duration cited as both 2 years and 4 semesters across sources (consistent, just different units).",
         "deep_recheck": {
@@ -14394,7 +16430,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD/uni-assist requirement found - consistent with sister program 4360 (Embedded Systems Engineering) at same faculty (Freiburg Technical Faculty), suggesting Freiburg's Technical Faculty generally does not use uni-assist/VPD, unlike TUM and Aalen."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Faculty of Engineering (Technische Fakultät) / IMTEK",
+        "intake_semester": "Winter",
+        "teaching_language": "English; about 5% of electives taught in German but program completable without German"
       }
     },
     {
@@ -14465,16 +16506,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-paderborn.de/en/studyoffer/course_of_study/optoelectronics-and-photonics-master",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Minimum overall grade of 3.0 (German scale) or equivalent foreign grade cited by one aggregator (unconfirmed officially)",
-          "qualifying_degree": "Bachelor's graduates in Physics or an equivalent Natural Science/Engineering degree including physical and mathematical fundamentals and a quantum theory course; requires in-depth knowledge of linear algebra, analysis, Fourier series, differential equations, and vector analysis"
+          "qualifying_degree": "Bachelor's graduates in Physics or an equivalent Natural Science/Engineering degree including physical and mathematical fundamentals and a quantum theory course; requires in-depth knowledge of linear algebra, analysis, Fourier series, differential equations, and vector analysis",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Bachelor's in Physics or equivalent natural science/engineering degree with quantum theory course",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.0 minimum (or Cambridge CAE/CPE, TOEFL 550 paper-based/79 internet-based); CEFR B2 level required per official examination regulations"
+          "ielts": "IELTS 6.0 minimum (or Cambridge CAE/CPE, TOEFL 550 paper-based/79 internet-based); CEFR B2 level required per official examination regulations",
+          "toefl_ibt": "TOEFL iBT before 2026: 80 total, at least 20 each section (reading, listening, speaking, writing)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level"
         },
         "application_process": {
-          "winter_deadline_non_eu": "31 May for international applicants; 21 September for applications from Germany/EU (per official department page); enrollment possible for winter term only (program starts in October)"
+          "winter_deadline_non_eu": "31 May for international applicants; 21 September for applications from Germany/EU (per official department page); enrollment possible for winter term only (program starts in October)",
+          "portal": "Uni-Assist Online Portal (non-German qualification holders) or PAUL portal directly (Bildungsinländer, entering provisional grade 4.0)",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee; semester contribution approx. EUR 280-300 (figures vary slightly by source)"
+          "tuition_non_eu": "No tuition fee; semester contribution approx. EUR 280-300 (figures vary slightly by source)",
+          "semester_contribution_fee": "About 330 EUR per semester, includes the Deutschlandticket for regional public transport",
+          "estimated_cost_of_living": "Estimated total ~1,235 EUR/month: rent 400 EUR, health insurance ~160 EUR, food 350 EUR, free time at least 150 EUR, semester fee ~330 EUR per semester (55 EUR/month), miscellaneous ~120 EUR",
+          "total_cost_per_semester": "Not specified on this page; links to general fees/funding page (not fetched)"
         },
         "exact_admission_regulations": "Official examination regulations document (PO_MA_OOeP_24_English2.pdf) available on physik.uni-paderborn.de; distinguishing feature is the explicit quantum theory and advanced mathematics prerequisite knowledge requirement.",
         "deep_recheck": {
@@ -14507,7 +16562,12 @@ const DATABASE = {
             }
           ],
           "notes": "uni-assist confirmed required but VPD term itself not used - consistent pattern with sister program 7607 (Electrical Systems Engineering) at same university/department, suggesting Paderborn routes all non-German-qualification applicants through uni-assist without the German universities necessarily using the word 'VPD' explicitly on public pages, even though uni-assist's standard product for this purpose is called VPD."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Department of Physics",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100% of courses"
       }
     },
     {
@@ -14578,16 +16638,30 @@ const DATABASE = {
         "official_source_url": "https://uni-ulm.de/en/nawi/master/ps/m-sc-quantum-engineering-overview/requirements",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official numeric cutoff found; official page states no formal admission restriction (zulassungsfrei) and refers applicants to the Quantum Engineering admission statute. Third-party aggregators cite GPA ~2.7 (German scale), unconfirmed.",
-          "qualifying_degree": "Open to Bachelor's graduates in physics, electrical engineering, or related quantum/engineering disciplines; no formal admission restriction (zulassungsfrei)."
+          "qualifying_degree": "Open to Bachelor's graduates in physics, electrical engineering, or related quantum/engineering disciplines; no formal admission restriction (zulassungsfrei).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Physics, electrical engineering, nanotechnology, quantum technology, aerospace engineering, or related field; 15 ECTS math, 100 ECTS physics/EE",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not stated numerically on official requirements page (refers applicants to contact program coordinator); third-party sources cite IELTS 5.5 / TOEFL iBT 72+, unconfirmed."
+          "ielts": "Not stated numerically on official requirements page (refers applicants to contact program coordinator); third-party sources cite IELTS 5.5 / TOEFL iBT 72+, unconfirmed.",
+          "toefl_ibt": "TOEFL iBT (before 2026) 72 total (R18,L17,S20,W17); TOEFL iBT Home Edition (before 2026) 72 total; TOEFL iBT Home Edition (from 2026) 4 total",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter semester: 1 April - 15 May; Summer semester: 1 December - 15 January (per official 'how to apply' page)."
+          "winter_deadline_non_eu": "Winter semester: 1 April - 15 May; Summer semester: 1 December - 15 January (per official 'how to apply' page).",
+          "portal": "Applications via uni-assist for foreign higher-education qualifications; admissions statute is binding document",
+          "summer_deadline": "15 October to 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Program page lists approx. EUR 1,500/semester for non-EU students plus approx. EUR 160/semester administrative fee (third-party confirmation; EU/German students: none beyond standard semester fee)."
+          "tuition_non_eu": "Program page lists approx. EUR 1,500/semester for non-EU students plus approx. EUR 160/semester administrative fee (third-party confirmation; EU/German students: none beyond standard semester fee).",
+          "semester_contribution_fee": "182 EUR per semester",
+          "estimated_cost_of_living": "945-1,000 EUR per month in Ulm",
+          "total_cost_per_semester": "Not independently re-confirmed this pass; prior data of ~EUR1500/semester non-EU + ~EUR160 admin fee stands uncorrected"
         },
         "exact_admission_regulations": "Contact: quantum.engineering@uni-ulm.de. Admission statute (Zulassungsordnung) is the legally binding document for exact requirements.",
         "deep_recheck": {
@@ -14609,7 +16683,12 @@ const DATABASE = {
           "newly_found_info": "None new beyond existing data; main official requirements/how-to-apply URLs returned 404 this pass so could not verify further",
           "corrections": [],
           "notes": "Official page URLs in current_official_data returned 404 when fetched directly this pass (possibly temporary/geo issue). Could not independently verify VPD status - recommend re-attempting fetch or checking admissions statute PDF directly."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Physics Department (Institute of Quantum Technology with DLR)",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -14680,16 +16759,30 @@ const DATABASE = {
         "official_source_url": "https://www.th-rosenheim.de/fileadmin/formalia/Merkblaetter_Bewerbungsverfahren/Bewerbung_SoSe_2025/241029-application_checklist_M_IWT-EN.pdf",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No explicit numeric GPA stated in available excerpts; DAAD/university materials describe an 'above-average' Bachelor's degree (min. 6 semesters/180 ECTS) in Wood Technology or related field.",
-          "qualifying_degree": "Bachelor's graduates in Wood Technology, Timber Construction and Redevelopment, Interior Engineering, or related fields."
+          "qualifying_degree": "Bachelor's graduates in Wood Technology, Timber Construction and Redevelopment, Interior Engineering, or related fields.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Wood Technology, Wood Building and Construction, Interior Engineering, or related field; 90 CP total, Bachelor's of at least 210 ECTS required (180-209 ECTS applicants make up missing credits)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.5 cited by DAAD listing; some aggregators list 6.0 - verify exact figure on official checklist PDF."
+          "ielts": "IELTS 6.5 cited by DAAD listing; some aggregators list 6.0 - verify exact figure on official checklist PDF.",
+          "toefl_ibt": "TOEFL iBT/Home Edition (before 2026) 72 total (R18,L17,S20,W17); TOEFL iBT/Home Edition (since 2026) 4 in each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A2 (CEFR) required if lacking German-language university entrance qualification; DSD I, Goethe-Zertifikat A2, telc Deutsch A2, ÖSD A2"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed precisely; application handled via uni-assist with Master VPD preliminary assessment."
+          "winter_deadline_non_eu": "Not confirmed precisely; application handled via uni-assist with Master VPD preliminary assessment.",
+          "portal": "uni-assist for non-German-system degree holders; VPD required before application; processing recommended to allow 4-6 weeks",
+          "summer_deadline": "Not found",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee for degree itself; semester contribution only (reported ~EUR 85-170/semester by third parties; official fee page should be checked for exact current figure)."
+          "tuition_non_eu": "No tuition fee for degree itself; semester contribution only (reported ~EUR 85-170/semester by third parties; official fee page should be checked for exact current figure).",
+          "semester_contribution_fee": "97 EUR per semester (student union contribution)",
+          "estimated_cost_of_living": "About 992 EUR per month, or about 11,904 EUR per year",
+          "total_cost_per_semester": "Not newly confirmed; no tuition beyond semester fee previously noted stands"
         },
         "exact_admission_regulations": "Entrance exam/interview is usually required as part of admission (per DAAD listing). Application checklist PDF is the authoritative document on th-rosenheim.de.",
         "deep_recheck": {
@@ -14711,7 +16804,12 @@ const DATABASE = {
           "newly_found_info": "VPD requirement for uni-assist applicants CONFIRMED for this program (previously flagged as 'application via uni-assist with Master VPD preliminary assessment' in current_official_data - now independently corroborated via search of official checklist content)",
           "corrections": [],
           "notes": "PDF checklist could not be read directly by WebFetch tool (returns only metadata/compressed stream); VPD requirement confirmed instead via WebSearch snippet quoting the official checklist text."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters full-time; 4 to 6 semesters part-time",
+        "faculty_institute": "Department of Wood Technology and Construction",
+        "intake_semester": "Winter",
+        "teaching_language": "English, with some elective courses in German; thesis may be written in English or German"
       }
     },
     {
@@ -14782,16 +16880,30 @@ const DATABASE = {
         "official_source_url": "https://www.fh-dortmund.de/ese",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Overall grade of at least 2.5 (German grading system) cited for unrestricted admission with pre-check; conversion needed for non-German grading scales.",
-          "qualifying_degree": "Bachelor's/Diplom holders in Computer Science, Electrical Engineering, Information Technology, or closely related fields with sufficient background in embedded systems."
+          "qualifying_degree": "Bachelor's/Diplom holders in Computer Science, Electrical Engineering, Information Technology, or closely related fields with sufficient background in embedded systems.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Information Technology, Electrical Engineering, or (Technical) Computer Science",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.5 / TOEFL iBT 90 / CEFR C1 cited widely, though not directly confirmed on the fetched official page (WebFetch unavailable at time of research) - recommend confirming on fh-dortmund.de/ese directly."
+          "ielts": "IELTS 6.5 / TOEFL iBT 90 / CEFR C1 cited widely, though not directly confirmed on the fetched official page (WebFetch unavailable at time of research) - recommend confirming on fh-dortmund.de/ese directly.",
+          "toefl_ibt": "TOEFL iBT (before 2026) overall 90 (R18,L27,S27,W18)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Non-EU: approx. 1 April - 15 June; EU: mid-May - 15 July (figures vary by source; confirm on official site)."
+          "winter_deadline_non_eu": "Non-EU: approx. 1 April - 15 June; EU: mid-May - 15 July (figures vary by source; confirm on official site).",
+          "portal": "Two-step: (1) Pre-Check Service at https://precheck.go-study-europe.de/ui/student/main — submit documents for pre-check; (2) after passing, apply via FH Dortmund's own portal at https://portal.fh-dortmund.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?page=2",
+          "summer_deadline": "Not found (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fees (M.Eng., 4 semesters, 120 ECTS); only standard semester fee applies."
+          "tuition_non_eu": "No tuition fees (M.Eng., 4 semesters, 120 ECTS); only standard semester fee applies.",
+          "semester_contribution_fee": "Mandatory per semester, mid three-figure EUR range",
+          "estimated_cost_of_living": "Not found (linked to general Dortmund cost info)",
+          "total_cost_per_semester": "No tuition; social/semester contribution of EUR 346.80 per semester (current_official_data said semester fee applies without exact figure - NOW have exact figure)"
         },
         "exact_admission_regulations": "4-semester M.Eng. program; English-taught, no German language certificate required.",
         "deep_recheck": {
@@ -14831,7 +16943,12 @@ const DATABASE = {
             }
           ],
           "notes": "This is the program the user flagged as missing VPD info. Confirmed VPD is required for foreign certificate holders, stated explicitly on the main landing page. No separate admission-requirements or FAQ subpage exists beyond the linked 'requirements profile' (ese-ma-zu-wem-passts.php), which did not add VPD/GPA detail."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Computer Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%); assignments/thesis may be written in German"
       }
     },
     {
@@ -14902,16 +17019,30 @@ const DATABASE = {
         "official_source_url": "Not found via official site (hs-emden-leer.de program-specific page not reached; WebFetch unavailable)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Minimum grade equivalent to 2.5 (German scale) cited by aggregators for a relevant 4-year Bachelor's (Informatics, Industrial Informatics, Electrical Engineering).",
-          "qualifying_degree": "Bachelor's graduates (4-year) in Informatics, Industrial Informatics, Electrical Engineering, or related technical fields."
+          "qualifying_degree": "Bachelor's graduates (4-year) in Informatics, Industrial Informatics, Electrical Engineering, or related technical fields.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering, Computer Science, or Mechatronic Engineering (210 ECTS)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS overall 6.0 cited consistently across multiple sources; TOEFL/PTE also accepted per some listings."
+          "ielts": "IELTS overall 6.0 cited consistently across multiple sources; TOEFL/PTE also accepted per some listings.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site; one source mentions August intake, 3-semester program."
+          "winter_deadline_non_eu": "Not found via official site; one source mentions August intake, 3-semester program.",
+          "portal": "Local admission restriction; international applicants apply through uni-assist; application fee EUR75 first application / EUR30 each additional (per aggregator, unverified officially)",
+          "summer_deadline": "EU: until 15 January; Non-EU: until 30 November",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (standard for Lower Saxony public universities); semester contribution only."
+          "tuition_non_eu": "No tuition fee (standard for Lower Saxony public universities); semester contribution only.",
+          "semester_contribution_fee": "About 400 EUR per semester, covering student union fee and Semesterticket (local public transport, valid across Germany)",
+          "estimated_cost_of_living": "Accommodation about 300-450 EUR per month; generally lower than many German cities",
+          "total_cost_per_semester": "No tuition fee (standard Lower Saxony public university); semester fee only - unchanged"
         },
         "exact_admission_regulations": "Admission is locally restricted (university applies own selection criteria); applications via uni-assist. German language certification not required (English-medium program).",
         "deep_recheck": {
@@ -14939,7 +17070,12 @@ const DATABASE = {
             }
           ],
           "notes": "Official hs-emden-leer.de program page could not be located/fetched directly in this pass (404). All findings sourced from third-party aggregators via WebSearch; recommend a follow-up direct crawl of hs-emden-leer.de site search for 'Industrial Informatics'."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time",
+        "faculty_institute": "Faculty of Technology, Department of Electrical Engineering and Computer Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English, compulsory for all modules and courses"
       }
     },
     {
@@ -15010,16 +17146,30 @@ const DATABASE = {
         "official_source_url": "Not found via official site (SEATRANS-specific page not reached; general hs-wismar.de and its.ac.id pages found but not program-specific admission page)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site for SEATRANS specifically. Related Wismar maritime program requires a first professional qualification (Bachelor's/Diplom) in business or engineering sciences.",
-          "qualifying_degree": "Double-degree joint program between ITS Surabaya and Hochschule Wismar; targets students meeting Indonesian university admission rules plus German requirements; first 2 semesters at ITS Surabaya, final 2 (incl. thesis) at Wismar/Rostock."
+          "qualifying_degree": "Double-degree joint program between ITS Surabaya and Hochschule Wismar; targets students meeting Indonesian university admission rules plus German requirements; first 2 semesters at ITS Surabaya, final 2 (incl. thesis) at Wismar/Rostock.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Economics, logistics, or maritime engineering (180 ECTS)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not confirmed for SEATRANS; English is the language of instruction so proficiency is expected."
+          "ielts": "Not confirmed for SEATRANS; English is the language of instruction so proficiency is expected.",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required for admission; mandatory German course during programme"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site."
+          "winter_deadline_non_eu": "Not found via official site.",
+          "portal": "Joint admission: ITS Surabaya entrance process plus Hochschule Wismar examination regulations (MT_MA_DS_2025); contact seatrans@its.ac.id",
+          "summer_deadline": "Not found (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site for SEATRANS specifically."
+          "tuition_non_eu": "Not found via official site for SEATRANS specifically.",
+          "semester_contribution_fee": "Included in the tuition fee",
+          "estimated_cost_of_living": "Not found",
+          "total_cost_per_semester": "Not found this pass"
         },
         "exact_admission_regulations": "4-semester double degree; passing all first-year ITS courses is required to progress to the Wismar portion. Contact: seatrans@its.ac.id for details.",
         "deep_recheck": {
@@ -15047,7 +17197,12 @@ const DATABASE = {
             }
           ],
           "notes": "Program name ambiguity: some Wismar/aggregator pages call this 'Marine Engineering' while ITS and official exam regulations call it 'Marine Transportation' (SEATRANS) - could not fully disambiguate without direct site fetch, which was not reachable this pass."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Faculty of Engineering, Department of Maritime Studies, Systems Engineering and Logistics",
+        "intake_semester": "Winter",
+        "teaching_language": "English, for all courses; mandatory German course included"
       }
     },
     {
@@ -15118,16 +17273,30 @@ const DATABASE = {
         "official_source_url": "https://www.tf.uni-kiel.de/matwis/kielmat/en/programs/mse/application",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No confirmed official GPA cutoff; one aggregator (unverified) cites Bachelor's around 60%. Entry requires bachelor's in a technical/scientific field.",
-          "qualifying_degree": "Bachelor's graduates in materials science/engineering or related technical/scientific fields; this entry focuses on Biomedical Microsystems specialization."
+          "qualifying_degree": "Bachelor's graduates in materials science/engineering or related technical/scientific fields; this entry focuses on Biomedical Microsystems specialization.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Materials science, natural sciences, or engineering",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Conflicting figures: IELTS 6.5 (TOEFL 79) per one aggregator, CEFR B2 (~IELTS 5.5) per others. Official page not fully confirmed - verify directly on tf.uni-kiel.de."
+          "ielts": "Conflicting figures: IELTS 6.5 (TOEFL 79) per one aggregator, CEFR B2 (~IELTS 5.5) per others. Official page not fully confirmed - verify directly on tf.uni-kiel.de.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed; program is 4 semesters, taught in English."
+          "winter_deadline_non_eu": "Not confirmed; program is 4 semesters, taught in English.",
+          "portal": "Application portal named applise.tf.uni-kiel.de per search result; route (uni-assist vs direct) unresolved",
+          "summer_deadline": "Not found",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fees reported by most sources (standard for German public universities); only semester contribution (~EUR 381 per one source)."
+          "tuition_non_eu": "No tuition fees reported by most sources (standard for German public universities); only semester contribution (~EUR 381 per one source).",
+          "semester_contribution_fee": "403 EUR per semester, covering administration fees, nationwide semester ticket for regional trains/buses, reduced lunch prices, culture ticket, other student benefits; 55 EUR enrolment fee at first enrolment",
+          "estimated_cost_of_living": "At least 992 EUR per month; proof of funds 11,904 EUR per year required for visa/residence permit where applicable",
+          "total_cost_per_semester": "Conflicting application fee figures found: EUR55 non-EU fee vs. no application fee at all per different sources - unresolved; no tuition fee for degree itself (standard), semester fee ~EUR381 unchanged"
         },
         "exact_admission_regulations": "Program is restricted admission (NC) per one source; selection based on academic performance.",
         "deep_recheck": {
@@ -15147,7 +17316,12 @@ const DATABASE = {
           "newly_found_info": "Application portal name (applise.tf.uni-kiel.de); note that the official tf.uni-kiel.de/matwis/.../application URL now redirects to uni-kiel.de/en/tf/study/en/programs/mse/application (301), which itself returned 404 on fetch - site structure may have changed and needs re-crawling",
           "corrections": [],
           "notes": "Direct fetch of official application page failed in this pass (redirect target 404'd). This affects Kiel entries 11279/11280/11281 identically since they share the same official_source_url. Recommend a dedicated follow-up fetch of uni-kiel.de/en/tf/ pages via site navigation rather than direct deep link."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Faculty of Engineering, Department of Materials Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English (administration and organisation also in English)"
       }
     },
     {
@@ -15218,16 +17392,30 @@ const DATABASE = {
         "official_source_url": "https://www.tf.uni-kiel.de/matwis/kielmat/en/programs/mse/application",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Same as sibling Materials Science tracks (id 11279/11281): no confirmed official cutoff; aggregator figure ~60% Bachelor's average unverified.",
-          "qualifying_degree": "Bachelor's graduates in materials science/engineering or related field, this track focused on Business Administration specialization within Materials Science."
+          "qualifying_degree": "Bachelor's graduates in materials science/engineering or related field, this track focused on Business Administration specialization within Materials Science.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Materials science and business administration",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Conflicting: IELTS 6.5/TOEFL 79 vs. CEFR B2 (~5.5) across aggregators; confirm on official faculty page."
+          "ielts": "Conflicting: IELTS 6.5/TOEFL 79 vs. CEFR B2 (~5.5) across aggregators; confirm on official faculty page.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed; 4-semester, English-taught program."
+          "winter_deadline_non_eu": "Not confirmed; 4-semester, English-taught program.",
+          "portal": "Same as 11279: applise.tf.uni-kiel.de portal name found; uni-assist vs direct route unresolved",
+          "summer_deadline": "Not found",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fees (standard German public university); semester contribution ~EUR 381."
+          "tuition_non_eu": "No tuition fees (standard German public university); semester contribution ~EUR 381.",
+          "semester_contribution_fee": "403 EUR per semester, covering administration fees, nationwide semester ticket, reduced lunch prices, culture ticket, other benefits; 55 EUR enrolment fee at first enrolment",
+          "estimated_cost_of_living": "At least 992 EUR per month; proof of funds 11,904 EUR per year for visa/residence permit",
+          "total_cost_per_semester": "Same as 11279 - no tuition, semester fee ~EUR381, application fee conflicting"
         },
         "exact_admission_regulations": "Shares admission framework with other Kiel Materials Science specializations (restricted admission per one source).",
         "deep_recheck": {
@@ -15247,7 +17435,12 @@ const DATABASE = {
           "newly_found_info": "None beyond what applies to sibling track 11279 (shared admission page)",
           "corrections": [],
           "notes": "Shares official_source_url and admission framework with 11279/11281; could not independently re-verify this pass due to page redirect/404 issue noted above."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Faculty of Engineering, Department of Materials Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English (materials science courses all English; most business admin courses English, some German); administration also in English"
       }
     },
     {
@@ -15318,16 +17511,30 @@ const DATABASE = {
         "official_source_url": "https://www.tf.uni-kiel.de/matwis/kielmat/en/programs/mse/application",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Same as sibling tracks: no confirmed official cutoff; aggregator figure ~60% Bachelor's average unverified.",
-          "qualifying_degree": "Bachelor's graduates in materials science/engineering or related field; this track focused on Energy and Electronic Materials specialization."
+          "qualifying_degree": "Bachelor's graduates in materials science/engineering or related field; this track focused on Energy and Electronic Materials specialization.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Materials science, natural sciences, or engineering",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Conflicting: IELTS 6.5/TOEFL 79 vs. CEFR B2 (~5.5); confirm on official faculty page."
+          "ielts": "Conflicting: IELTS 6.5/TOEFL 79 vs. CEFR B2 (~5.5); confirm on official faculty page.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed; 4-semester, English-taught program."
+          "winter_deadline_non_eu": "Not confirmed; 4-semester, English-taught program.",
+          "portal": "Same as 11279/11280",
+          "summer_deadline": "Not found",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fees (standard German public university); semester contribution ~EUR 381."
+          "tuition_non_eu": "No tuition fees (standard German public university); semester contribution ~EUR 381.",
+          "semester_contribution_fee": "403 EUR per semester, covering administration fees, nationwide semester ticket, reduced lunch prices, culture ticket, other benefits; 55 EUR enrolment fee (first enrolment only)",
+          "estimated_cost_of_living": "At least 992 EUR per month; proof of 11,904 EUR (one year's living costs) required for visa/residence permit",
+          "total_cost_per_semester": "Same as 11279/11280"
         },
         "exact_admission_regulations": "Shares admission framework with other Kiel Materials Science specializations.",
         "deep_recheck": {
@@ -15347,7 +17554,12 @@ const DATABASE = {
           "newly_found_info": "None beyond sibling tracks",
           "corrections": [],
           "notes": "Shares official_source_url and admission framework with 11279/11280; could not independently re-verify this pass."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Faculty of Engineering, Department of Materials Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English, including administration and organisation"
       }
     },
     {
@@ -15418,16 +17630,30 @@ const DATABASE = {
         "official_source_url": "https://lsm.htw-berlin.de/en/applying/faq",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric GPA/grade threshold found on official pages; GMAT/GRE explicitly not required for admission.",
-          "qualifying_degree": "Bachelor's degree holders (min. 180 ECTS) with at least one year of relevant work experience after the Bachelor's; designed for working professionals in engineering/life sciences pursuing an MBA."
+          "qualifying_degree": "Bachelor's degree holders (min. 180 ECTS) with at least one year of relevant work experience after the Bachelor's; designed for working professionals in engineering/life sciences pursuing an MBA.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Life science engineering, biology, chemistry, pharmaceutics, food technology, environmental studies, or business (210 ECTS, 180 relevant)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No minimum band stated on official pages; IELTS or TOEFL accepted as proof of English per FAQ. Third-party (unverified) cites IELTS 6.5."
+          "ielts": "No minimum band stated on official pages; IELTS or TOEFL accepted as proof of English per FAQ. Third-party (unverified) cites IELTS 6.5.",
+          "toefl_ibt": "TOEFL iBT (before 2026) 87 total (R18,L17,S20,W17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Official page states application deadline 28 February (2027 cycle), with applications opening November 2026."
+          "winter_deadline_non_eu": "Official page states application deadline 28 February (2027 cycle), with applications opening November 2026.",
+          "portal": "Unresolved - conflicting claims of direct-to-university vs uni-assist route; recommend direct verification",
+          "summer_deadline": "Not found (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Official homepage lists EUR 18,500 for the full program (more recent figure); FAQ page lists EUR 16,000 payable in 3 installments plus ~EUR 360/semester fee. Figures conflict - confirm current amount with admissions office."
+          "tuition_non_eu": "Official homepage lists EUR 18,500 for the full program (more recent figure); FAQ page lists EUR 16,000 payable in 3 installments plus ~EUR 360/semester fee. Figures conflict - confirm current amount with admissions office.",
+          "semester_contribution_fee": "Approx. 360 EUR per semester",
+          "estimated_cost_of_living": "Approx. 1,000 to 1,200 EUR per month, covering rent, food, clothing, leisure, books, public transport, phone, internet, health insurance",
+          "total_cost_per_semester": "Not newly confirmed; prior conflicting EUR18,500 vs EUR16,000+installments figures stand uncorrected"
         },
         "exact_admission_regulations": "LSM Professional Enhancement Grant available, covering 50% of tuition for one student per intake. Program starts winter semester, taught in English.",
         "deep_recheck": {
@@ -15448,7 +17674,12 @@ const DATABASE = {
           "newly_found_info": "Additional accepted language certificates beyond IELTS/TOEFL: PTE, TOEIC, CAE, CPE, UNIcert all mentioned as generally accepted proof of English by one source",
           "corrections": [],
           "notes": "Official FAQ URL (lsm.htw-berlin.de/en/applying/faq) returned 404 this pass, could not re-verify directly despite being in current_official_data as the official source - site structure may have changed. Recommend checking lsm.htw-berlin.de navigation manually."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time",
+        "faculty_institute": "Division of Continuing Education",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -15519,16 +17750,30 @@ const DATABASE = {
         "official_source_url": "https://www.th-luebeck.de/en/studies/study-offer/degree-programs/mechanical-engineering-msc/overview",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's in Mechanical Engineering (or equivalent engineering degree) with 210 ECTS, OR 180 ECTS plus minimum grade/CGPA of 2.5 (German grading system); conditional admission possible for 180-ECTS holders.",
-          "qualifying_degree": "Bachelor's graduates in Mechanical Engineering or equivalent engineering degree, with at least 15 ECTS of transferable mechanical engineering coursework."
+          "qualifying_degree": "Bachelor's graduates in Mechanical Engineering or equivalent engineering degree, with at least 15 ECTS of transferable mechanical engineering coursework.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Mechanical Engineering (210 ECTS, or 180 with conditions)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "English level B2 required; IELTS Academic 5.5 given as an example acceptable score (per DAAD listing and official applicant info); Cambridge-equivalent also accepted."
+          "ielts": "English level B2 required; IELTS Academic 5.5 given as an example acceptable score (per DAAD listing and official applicant info); Cambridge-equivalent also accepted.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A2 required at application (ÖSD A2, Goethe-Zertifikat A2, telc Deutsch A2); expected to reach B1 during programme"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Summer semester: 1 November - 15 January (for applicants with German/EU degrees); winter intake deadlines differ - verify on official site."
+          "winter_deadline_non_eu": "Summer semester: 1 November - 15 January (for applicants with German/EU degrees); winter intake deadlines differ - verify on official site.",
+          "portal": "German-degree holders apply via TH Lübeck's own portal; non-German-degree holders apply via uni-assist. Restricted admission with limited competitive places per semester.",
+          "summer_deadline": "Listed on university website; not detailed on page",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (standard for German public university); semester fee applies."
+          "tuition_non_eu": "No tuition fee (standard for German public university); semester fee applies.",
+          "semester_contribution_fee": "Approx. 380 EUR per semester, including public transportation in Schleswig-Holstein",
+          "estimated_cost_of_living": "Approx. 900 EUR per month",
+          "total_cost_per_semester": "Not stated on either page checked"
         },
         "exact_admission_regulations": "Official applicant info PDF (MScMechEng-Info-for-applicants) is the authoritative source for exact ECTS/grade conversion and documentation.",
         "deep_recheck": {
@@ -15556,7 +17801,12 @@ const DATABASE = {
             }
           ],
           "notes": "VPD specifically was not named on either page; only general uni-assist routing was confirmed. The program application info PDF (MScMechEng-Info-for_applicants) likely has more detail but was not opened this pass."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters (90 ECTS), full-time",
+        "faculty_institute": "Department of Mechanical Engineering and Business Administration",
+        "intake_semester": "Winter",
+        "teaching_language": "English (courses); thesis projects in German companies require German too"
       }
     },
     {
@@ -15627,16 +17877,30 @@ const DATABASE = {
         "official_source_url": "https://hs-kl.de/angewandte-ingenieurwissenschaften/studiengaenge/master/mechanical-engineeringmechatronics/application-admission",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "210-ECTS (7-semester) Bachelor's with grades up to 2.8 on German grading scale; Examination Committee decides individually on edge cases.",
-          "qualifying_degree": "Bachelor's graduates in Mechanical Engineering, Mechatronics, or closely related engineering fields."
+          "qualifying_degree": "Bachelor's graduates in Mechanical Engineering, Mechatronics, or closely related engineering fields.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Mechanical engineering, mechatronics, or industrial engineering (mechanical specialisation), 210 ECTS",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not confirmed on official page; aggregators (unverified) cite IELTS 6.0 or equivalent (certificate not older than 24 months)."
+          "ielts": "Not confirmed on official page; aggregators (unverified) cite IELTS 6.0 or equivalent (certificate not older than 24 months).",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed via official source in this research pass."
+          "winter_deadline_non_eu": "Not confirmed via official source in this research pass.",
+          "portal": "Unresolved for HS Kaiserslautern - official admission-application page returned 404 on both direct URL variants tried",
+          "summer_deadline": "1 December (all countries)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (standard German public Fachhochschule); semester fee only."
+          "tuition_non_eu": "No tuition fee (standard German public Fachhochschule); semester fee only.",
+          "semester_contribution_fee": "Approx. 250 to 300 EUR",
+          "estimated_cost_of_living": "Approx. 750 to 800 EUR (period unspecified)",
+          "total_cost_per_semester": "Not newly confirmed"
         },
         "exact_admission_regulations": "Caution: do not confuse with University of Kaiserslautern-Landau (RPTU), a separate institution with different requirements.",
         "deep_recheck": {
@@ -15657,7 +17921,12 @@ const DATABASE = {
           "newly_found_info": "Note that applicants from India face additional specific admission rules per one aggregator (unverified) - new detail not in current_official_data",
           "corrections": [],
           "notes": "Could not reach the official hs-kl.de application-admission page this pass (404 on the URL in current_official_data). Recommend a fresh site-search crawl of hs-kl.de since the URL structure may have changed. Caution already noted in current_official_data about not confusing with RPTU remains valid and unresolved."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Department of Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English, with some modules in German (language follows module name)"
       }
     },
     {
@@ -15728,16 +17997,30 @@ const DATABASE = {
         "official_source_url": "https://hs-nordhausen.de/en/application/faq-bewerbung/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No program-specific GPA figure confirmed; official FAQ states each master's program has individual admission requirements set out in its own study and examination regulations (the 2.5 German-scale GPA found for this entry applies to a different program, Computer Engineering for IoT, not Mechatronics).",
-          "qualifying_degree": "Bachelor's graduates in Mechatronics, Mechanical Engineering, Electrical Engineering, Energy Technology, or related fields."
+          "qualifying_degree": "Bachelor's graduates in Mechatronics, Mechanical Engineering, Electrical Engineering, Energy Technology, or related fields.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Mechatronics, mechanical engineering, electrical engineering, energy technology, or related field; winter admission assumes 180-ECTS Bachelor's (120 ECTS programme); summer admission assumes 210-ECTS Bachelor's (90 ECTS programme)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "PTE Academic 60 / IELTS Academic 6 (per DAAD listing); TOEFL iBT ~79-80 also cited by aggregators. B2 level required overall, exemptions may apply - check course website."
+          "ielts": "PTE Academic 60 / IELTS Academic 6 (per DAAD listing); TOEFL iBT ~79-80 also cited by aggregators. B2 level required overall, exemptions may apply - check course website.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required; A1 or higher gives 0.1 grade increase on Bachelor's grade; certificates from Goethe-Institut, Schiller Language School, or ÖSD"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed via official source."
+          "winter_deadline_non_eu": "Not confirmed via official source.",
+          "portal": "Page only confirmed program name/link (hs-nordhausen.de/en/study-programmes/mechatronics/); did not yield application process detail in this pass",
+          "summer_deadline": "1 November to 31 March (all countries)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Effectively no tuition (EU students: EUR 0/semester per one source for 2026 entry); semester contribution ~EUR 255 (covers semester ticket etc.)."
+          "tuition_non_eu": "Effectively no tuition (EU students: EUR 0/semester per one source for 2026 entry); semester contribution ~EUR 255 (covers semester ticket etc.).",
+          "semester_contribution_fee": "328.80 EUR per semester (as of April 2026), includes Studierendenwerk Thüringen services",
+          "estimated_cost_of_living": "Not found (linked overview, no figures given)",
+          "total_cost_per_semester": "Not found this pass"
         },
         "exact_admission_regulations": "Applications for master's typically via university's QISPOS portal (per FAQ); some sources suggest international applicants may instead use uni-assist - confirm current route.",
         "deep_recheck": {
@@ -15757,7 +18040,12 @@ const DATABASE = {
           "newly_found_info": "None - the FAQ page fetch returned only a program listing/link, not substantive admission content",
           "corrections": [],
           "notes": "The FAQ page content retrieved was minimal/truncated; recommend fetching the actual program page (hs-nordhausen.de/en/study-programmes/mechatronics/) directly in a follow-up pass, as it was identified but not fetched."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 or 4 semesters, depending on admission semester, full-time only",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English; German courses part of curriculum"
       }
     },
     {
@@ -15828,16 +18116,30 @@ const DATABASE = {
         "official_source_url": "https://www.rwu.de/en/study/courses/mechatronics-en",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official numeric GPA cutoff confirmed; the official admission statute (2020) describes a GPA calculation where documented research/professional experience in mechatronics can add up to 0.3 grade points. Third-party sources (unverified) cite GPA 2.5 minimum.",
-          "qualifying_degree": "Bachelor's graduates in mechanical or electrical engineering, computer science, or similar fields."
+          "qualifying_degree": "Bachelor's graduates in mechanical or electrical engineering, computer science, or similar fields.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Mechanical or electrical engineering, mechatronics, computer science, or related field (210 ECTS)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Official flyer requires 'proven English language skills (TOEFL/IELTS)' without specifying a score; third-party sources (unverified) cite IELTS 6.5 (no band below 6.0) or TOEFL iBT 90."
+          "ielts": "Official flyer requires 'proven English language skills (TOEFL/IELTS)' without specifying a score; third-party sources (unverified) cite IELTS 6.5 (no band below 6.0) or TOEFL iBT 90.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required; intensive German course starts before lectures, continues during term"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter semester start; 40 places; application deadline around 15 April (per official flyer, year not specified - confirm current cycle)."
+          "winter_deadline_non_eu": "Winter semester start; 40 places; application deadline around 15 April (per official flyer, year not specified - confirm current cycle).",
+          "portal": "Step 1: register/apply online via RWU application portal; Step 2: send required documents by post (counts only if arrived within application period). Portal under maintenance 23-27 March 2026 (temporary, noted for awareness).",
+          "summer_deadline": "Not found (no summer intake listed)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee implied (standard German public Hochschule); standard semester fee applies."
+          "tuition_non_eu": "No tuition fee implied (standard German public Hochschule); standard semester fee applies.",
+          "semester_contribution_fee": "About 224 EUR per semester (coverage not stated)",
+          "estimated_cost_of_living": "At least 992 EUR per month",
+          "total_cost_per_semester": "All students pay semester fee; non-EU international students AND second-degree students also pay a tuition fee (Baden-Württemberg) - exact amount not given on this page"
         },
         "exact_admission_regulations": "Contact: application@rwu.de. Note: application portal reported as closed for maintenance in late March 2026 in one source - confirm current status.",
         "deep_recheck": {
@@ -15876,7 +18178,12 @@ const DATABASE = {
             }
           ],
           "notes": "No uni-assist/VPD requirement found for this program - applications go directly to RWU via online portal plus postal documents. This differs from several other programs in this chunk that do use uni-assist/VPD."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time",
+        "faculty_institute": "Not stated",
+        "intake_semester": "Winter",
+        "teaching_language": "English, held entirely in English"
       }
     },
     {
@@ -15947,16 +18254,30 @@ const DATABASE = {
         "official_source_url": "https://www.hochschule-bochum.de/en/mechatronics-msc-english/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official GPA cutoff found in available research (official page not fully fetched due to tool outage); requires a relevant Bachelor's degree.",
-          "qualifying_degree": "Bachelor's graduates in Mechatronics, Mechanical Engineering, Electrical Engineering, or related field (inferred from comparable Bochum/regional programs)."
+          "qualifying_degree": "Bachelor's graduates in Mechatronics, Mechanical Engineering, Electrical Engineering, or related field (inferred from comparable Bochum/regional programs).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Related engineering field (180 credit points minimum)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not confirmed with specific score on official page; general guidance says IELTS/TOEFL required with scores varying by program - check language requirements page directly."
+          "ielts": "Not confirmed with specific score on official page; general guidance says IELTS/TOEFL required with scores varying by program - check language requirements page directly.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 required for applicants from abroad (Goethe-Zertifikat A1, telc Deutsch A1, ÖSD Zertifikat A1)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed via official site."
+          "winter_deadline_non_eu": "Not confirmed via official site.",
+          "portal": "Not specified on this page; refers to /en/international/studying-at-bo-uas/international-applicants/ for details (not fetched this pass)",
+          "summer_deadline": "Not found (no summer intake listed)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not confirmed via official site; standard German public Hochschule (likely no/low tuition beyond semester fee)."
+          "tuition_non_eu": "Not confirmed via official site; standard German public Hochschule (likely no/low tuition beyond semester fee).",
+          "semester_contribution_fee": "About 360 EUR per semester, including semester ticket for public transport in Germany (Deutschlandticket)",
+          "estimated_cost_of_living": "At least 990-1,200 EUR per month for accommodation, food, health insurance, personal needs; Bochum moderately priced vs larger cities",
+          "total_cost_per_semester": "Not stated on this page"
         },
         "exact_admission_regulations": "Uni-Assist application process cited by one aggregator. For Indian applicants, an APS certificate may be required (per unverified consultancy source) - confirm with university.",
         "deep_recheck": {
@@ -15983,7 +18304,12 @@ const DATABASE = {
             }
           ],
           "notes": "The APS certificate claim for Indian applicants in current_official_data (sourced from 'unverified consultancy source') was NOT confirmed or denied on this official page - still unverified. Uni-Assist claim also not confirmed on this specific page."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, starting in winter semester",
+        "faculty_institute": "Electrical Engineering and Computer Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -16054,16 +18380,30 @@ const DATABASE = {
         "official_source_url": "https://www.th-luebeck.de/en/studies/study-offer/degree-programs/medical-microtechnology-msc/overview/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Minimum GPA of 2.5 (German grading system) per program's examination regulations (Sec. 5), for a relevant degree such as materials engineering or comparable field.",
-          "qualifying_degree": "Bachelor's graduates in materials engineering or comparable fields relevant to medical microtechnology."
+          "qualifying_degree": "Bachelor's graduates in materials engineering or comparable fields relevant to medical microtechnology.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering, Mechanical Engineering, Mechatronics Engineering, Physics, Physical Technology, Material Sciences, Computer Sciences, or equivalent",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Conflicting figures across sources: CEFR B2/IELTS 6.5/TOEFL iBT 79 (one aggregator) vs. IELTS overall 6.0 (another, for 2026 entry) vs. IELTS 6.5 no band below 6.0/TOEFL iBT 90+ (another). Official regulations also accept a prior degree taught entirely in English as alternative proof. Verify current exact figure on official site."
+          "ielts": "Conflicting figures across sources: CEFR B2/IELTS 6.5/TOEFL iBT 79 (one aggregator) vs. IELTS overall 6.0 (another, for 2026 entry) vs. IELTS 6.5 no band below 6.0/TOEFL iBT 90+ (another). Official regulations also accept a prior degree taught entirely in English as alternative proof. Verify current exact figure on official site.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed via official site in this research pass."
+          "winter_deadline_non_eu": "Not confirmed via official site in this research pass.",
+          "portal": "'Apply now' button links to general application step-by-step guide; no specific portal named on this page; admission-status queries go to named study coordinator",
+          "summer_deadline": "Not found (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (standard for German public universities, joint program with Universität zu Lübeck and University of Southern Denmark); semester fee applies."
+          "tuition_non_eu": "No tuition fee (standard for German public universities, joint program with Universität zu Lübeck and University of Southern Denmark); semester fee applies.",
+          "semester_contribution_fee": "About 350 EUR per semester, includes free public transport across Germany",
+          "estimated_cost_of_living": "Approx. 1,000 EUR per month",
+          "total_cost_per_semester": "Not stated on this page"
         },
         "exact_admission_regulations": "Joint program run by TH Lübeck, Universität zu Lübeck, and University of Southern Denmark (SDU) Sønderborg. Applications typically via uni-assist; APS certificate may be required for Indian applicants per unverified source.",
         "deep_recheck": {
@@ -16083,7 +18423,12 @@ const DATABASE = {
           "newly_found_info": "Named contacts (Silke Venker, Prof. Ulf Pilz) with direct emails/phones/room numbers; identification of external site mmt-master.de as the actual authoritative source for admission requirements (not previously flagged in current_official_data) - THIS EXTERNAL SITE SHOULD BE CHECKED IN A FOLLOW-UP as it likely contains the GPA/language/VPD details missing from th-luebeck.de itself",
           "corrections": [],
           "notes": "IMPORTANT: th-luebeck.de overview page does NOT itself contain GPA, language, or VPD/uni-assist details - these are deferred to an external site, mmt-master.de, which was not reached in this pass. The conflicting figures in current_official_data presumably originated from that external site or other PDFs; recommend fetching mmt-master.de directly to resolve."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Department of Applied Natural Sciences",
+        "intake_semester": "Winter",
+        "teaching_language": "English (all courses)"
       }
     },
     {
@@ -16154,16 +18499,30 @@ const DATABASE = {
         "official_source_url": "https://lmt.ovgu.de/en/Teaching/Study+Paths/Medical+Systems+Engineering/Prospective+students/FAQ.html",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Official OVGU FAQ: Bachelor's grade should be at least 'good' (up to 2.4 on German academic grading scale). This differs from third-party figures (~2.5) - official 2.4 figure should be relied upon.",
-          "qualifying_degree": "Bachelor's graduates in engineering/technical fields relevant to medical systems; admission is not restricted but additional study requirements (math, physics, computer science, or electrical engineering) may need to be completed within the first two semesters."
+          "qualifying_degree": "Bachelor's graduates in engineering/technical fields relevant to medical systems; admission is not restricted but additional study requirements (math, physics, computer science, or electrical engineering) may need to be completed within the first two semesters.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering, Information Technology, Computer Science, Medical Technology, or comparable (specific ECTS in math/physics/EE/CS as above)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE/GATE mandatory for applicants with Bachelor's from India, Bangladesh, or Pakistan: GRE General Test Quantitative Reasoning at least 158, Advanced Writing at least 3.5; GATE must be valid (two years) with mark above general qualifying score; IIT/IISc Bengaluru graduates exempt from GATE"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.5 (no band below 6.0) or TOEFL iBT 90 commonly cited; one third-party page cites general minimum IELTS 6.0 for OVGU master's admission broadly."
+          "ielts": "IELTS 6.5 (no band below 6.0) or TOEFL iBT 90 commonly cited; one third-party page cites general minimum IELTS 6.0 for OVGU master's admission broadly.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Program enrolls in the summer semester; exact deadline not confirmed via official source in this pass."
+          "winter_deadline_non_eu": "Program enrolls in the summer semester; exact deadline not confirmed via official source in this pass.",
+          "portal": "German applicants: OVGU online application then print enrolment/matriculation form. International applicants: uni-assist portal (opens 15 Oct) plus further info on a linked page (not independently fetched).",
+          "summer_deadline": "Via uni-assist by 15 December; applicants with international Bachelor's can apply from 15 October",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fees; semester fee of EUR 278.90 (covers Studentenwerk services and student representation), per official program page."
+          "tuition_non_eu": "No tuition fees; semester fee of EUR 278.90 (covers Studentenwerk services and student representation), per official program page.",
+          "semester_contribution_fee": "311.30 EUR per semester, covers Studentenwerk services and student representatives; includes Deutschlandsemesterticket, cafeteria discounts, other benefits",
+          "estimated_cost_of_living": "At least 992 EUR per month; low rents compared with many cities",
+          "total_cost_per_semester": "Not mentioned on this specific FAQ page (current_official_data's EUR278.90 semester fee figure not re-confirmed or denied here)"
         },
         "exact_admission_regulations": "4-semester program (note: some third-party sites incorrectly list 2-year/non-standard duration - official source confirms 4 semesters).",
         "deep_recheck": {
@@ -16190,7 +18549,12 @@ const DATABASE = {
             }
           ],
           "notes": "VPD not explicitly named despite uni-assist being confirmed as the international application route - worth a targeted follow-up on the linked uni-assist info subpage."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -16261,16 +18625,30 @@ const DATABASE = {
         "official_source_url": "https://fwi.thws.de/en/studies/master-of-business-and-engineering-mbee/admission",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not fully confirmed on official page (language requirements section not fully captured); third-party (unverified) cites GPA 2.5 or better (German scale).",
-          "qualifying_degree": "Bachelor's degree or diploma holders relevant to the programme's business/engineering context; English-taught, 3 semesters, can start 1 October."
+          "qualifying_degree": "Bachelor's degree or diploma holders relevant to the programme's business/engineering context; English-taught, 3 semesters, can start 1 October.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Industrial engineering, engineering, business, or logistics (210 ECTS, 20 ECTS in specific fundamentals)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not confirmed specifically for MBEE program; a related THWS pre-year language page cites IELTS 6.0, but that applies to the pre-year, not necessarily the Master's itself. Official MBEE admission page should be checked directly for 'Language requirements' section."
+          "ielts": "Not confirmed specifically for MBEE program; a related THWS pre-year language page cites IELTS 6.0, but that applies to the pre-year, not necessarily the Master's itself. Official MBEE admission page should be checked directly for 'Language requirements' section.",
+          "toefl_ibt": "TOEFL iBT Home Edition 83 (before 2026)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed in this research pass."
+          "winter_deadline_non_eu": "Not confirmed in this research pass.",
+          "portal": "Pre-evaluation via uni-assist (VPD) OR APS OR ZAST/ZAB depending on applicant's country/qualification type; official MBEE page states 'if only one of these requirements is not met, admission is not possible' (all criteria mandatory)",
+          "summer_deadline": "Not found (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not explicitly stated; THWS public university standard semester fee likely applies, no separate tuition."
+          "tuition_non_eu": "Not explicitly stated; THWS public university standard semester fee likely applies, no separate tuition.",
+          "semester_contribution_fee": "117.70 EUR per semester, includes semester ticket for free public transport in Schweinfurt",
+          "estimated_cost_of_living": "700 to 850 EUR",
+          "total_cost_per_semester": "Not confirmed; THWS public university standard semester fee likely applies, no separate tuition - unchanged from current_official_data"
         },
         "exact_admission_regulations": "Official page states: 'If only one of these requirements is not met, admission to the MBEE degree programme is not possible' - i.e., all listed admission criteria are mandatory, no partial waivers.",
         "deep_recheck": {
@@ -16298,7 +18676,12 @@ const DATABASE = {
             }
           ],
           "notes": "Official admission page URL in current_official_data now redirects to a 404 - site structure likely changed. This finding (VPD required) is exactly analogous to the FH Dortmund gap the user flagged, so is a significant catch for this entry."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time, modularised",
+        "faculty_institute": "Not listed",
+        "intake_semester": "Winter",
+        "teaching_language": "English (all courses)"
       }
     },
     {
@@ -16369,16 +18752,30 @@ const DATABASE = {
         "official_source_url": "https://th-deg.de/mcs-cham-m-en",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "GPA not mandatory for admission; if provided, a GPA of ~2.50 (German scale) may allow the Examination Committee to waive the eligibility admission test. Bachelor's degree requires at least 210 ECTS credits in relevant fields (industrial engineering, technical physics, electrical engineering, mechatronics); non-standard degrees reviewed individually by Examination Board.",
-          "qualifying_degree": "Bachelor's graduates (210 ECTS) in industrial engineering, technical physics, electrical engineering, mechatronics, or related fields."
+          "qualifying_degree": "Bachelor's graduates (210 ECTS) in industrial engineering, technical physics, electrical engineering, mechatronics, or related fields.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Mechatronics or closely related engineering discipline (210 ECTS)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GATE or GRE recommended (not mandatory) for applicants from countries not signatories to Lisbon Recognition Convention; test centre results only, home editions not accepted"
         },
         "language_requirements": {
-          "ielts": "Conflicting figures: DAAD lists IELTS Academic 5.5 (or telc English B2, PTE Academic 59); other aggregator cites IELTS 6.5/CEFR B2. Official DIT requirements document accepts both IELTS General and Academic (NOT IELTS Indicator)."
+          "ielts": "Conflicting figures: DAAD lists IELTS Academic 5.5 (or telc English B2, PTE Academic 59); other aggregator cites IELTS 6.5/CEFR B2. Official DIT requirements document accepts both IELTS General and Academic (NOT IELTS Indicator).",
+          "toefl_ibt": "TOEFL iBT 72 (before 2026)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum at entry; A2 certificate required by end of studies at latest"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Cham campus has March start; deadline around 15 March per one flyer, though another source lists 15 January for summer deadline - dates may be outdated, confirm current cycle."
+          "winter_deadline_non_eu": "Cham campus has March start; deadline around 15 March per one flyer, though another source lists 15 January for summer deadline - dates may be outdated, confirm current cycle.",
+          "portal": "Apply online via 'Apply Online' page (/en/apply); eligible applicants get emailed invitation to a WRITTEN entrance exam (online or on-campus Cham) covering math, physics, EE/electronics, systems theory, control engineering, computer science; GATE/GRE optional (test-centre reports only, no home editions) especially encouraged for applicants from non-Lisbon-Convention countries",
+          "summer_deadline": "15 October to 1 December (programme starting at Campus Cham)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not confirmed; standard German Fachhochschule (no tuition beyond semester fee expected)."
+          "tuition_non_eu": "Not confirmed; standard German Fachhochschule (no tuition beyond semester fee expected).",
+          "semester_contribution_fee": "87 EUR from summer semester 2027; 92 EUR from winter semester 2027/28 (coverage not stated)",
+          "estimated_cost_of_living": "About 950 EUR per month",
+          "total_cost_per_semester": "No tuition; student union fee; non-EU/EEA students pay semester service fees (no exact figures given)"
         },
         "exact_admission_regulations": "Admission test (online or on-site) covering mathematics, physics, electrical engineering, control engineering, and computer science is the deciding factor for most applicants. A2 German required by end of studies (can be completed during program). Contact: studium-cham@th-deg.de.",
         "deep_recheck": {
@@ -16405,7 +18802,12 @@ const DATABASE = {
             }
           ],
           "notes": "GPA-waiver claim from current_official_data not found on this page version - may be outdated or in a separate linked document not opened. No VPD/uni-assist mention found despite being a DIT program."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters (18 months)",
+        "faculty_institute": "Faculty of Applied Natural Sciences and Industrial Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English only; course-specific German and English courses included in study plan"
       }
     },
     {
@@ -16476,16 +18878,30 @@ const DATABASE = {
         "official_source_url": "https://www.tu-chemnitz.de/etit/studium/stugang/index.php.en?page=m_mn",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official GPA cutoff found; university brochure describes requirement as an equivalent engineering degree, decided case-by-case.",
-          "qualifying_degree": "DAAD lists Bachelor's in Electrical Engineering and Information Technology from TU Chemnitz specifically (grade index 2-2), though university's own broader brochure suggests equivalent degrees from other institutions may also qualify - some ambiguity between sources."
+          "qualifying_degree": "DAAD lists Bachelor's in Electrical Engineering and Information Technology from TU Chemnitz specifically (grade index 2-2), though university's own broader brochure suggests equivalent degrees from other institutions may also qualify - some ambiguity between sources.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering and Information Technology",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 5.5, TOEFL iBT 72, or PTE Academic 59 cited consistently across sources (unofficial but consistent)."
+          "ielts": "IELTS 5.5, TOEFL iBT 72, or PTE Academic 59 cited consistently across sources (unofficial but consistent).",
+          "toefl_ibt": "TOEFL iBT (before 2026) 72 total (R18,L17,S20,W17); TOEFL iBT (since 2026) 4 total (each section 4)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 required, with official certificate (telc Deutsch A1, ÖSD A1, or Goethe-Zertifikat A1)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed via official site in this pass."
+          "winter_deadline_non_eu": "Not confirmed via official site in this pass.",
+          "portal": "Two routes depending on applicant: uni-assist (winter, ~early April-15 July) OR TU application portal (winter, ~late May-mid September); which procedure applies determined via Student Services website",
+          "summer_deadline": "Not found (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (standard German public university); semester fee only."
+          "tuition_non_eu": "No tuition fee (standard German public university); semester fee only.",
+          "semester_contribution_fee": "About 340.50 EUR per semester, includes semester ticket for buses/trams in Chemnitz and regional trains across Germany",
+          "estimated_cost_of_living": "About 970 EUR per month",
+          "total_cost_per_semester": "No tuition fee (confirmed, standard German public university); exact semester contribution amount not given, links to a fees page not opened"
         },
         "exact_admission_regulations": "German language certification not required (English-taught). Contact: admission@tu-chemnitz.de for degree-equivalence questions.",
         "deep_recheck": {
@@ -16512,7 +18928,12 @@ const DATABASE = {
             }
           ],
           "notes": "This is a meaningful correction (prior data explicitly said German NOT required, which is wrong) - directly analogous in importance to the FH Dortmund VPD gap the user flagged, though for a different requirement type (German language progression requirement)."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -16597,16 +19018,30 @@ const DATABASE = {
         "official_source_url": "https://www.b-tu.de/micro-nano-electronics-ms/faq",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official GPA cutoff found; general requirement is a first professionally qualifying degree (min. Bachelor's) in a related subject - Examination Committee decides on equivalence, extra modules may be required if unsure.",
-          "qualifying_degree": "Bachelor's graduates in Physics, Electrical Engineering, or related field with curriculum comparable to BTU's own degrees (per DAAD listing); broader equivalence accepted per official regulations with committee review."
+          "qualifying_degree": "Bachelor's graduates in Physics, Electrical Engineering, or related field with curriculum comparable to BTU's own degrees (per DAAD listing); broader equivalence accepted per official regulations with committee review.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Physics, mathematics, electronics/electrical engineering, or systems/field theory",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS Academic 6.0, TOEFL iBT 79, or Cambridge B/C accepted per official-linked admission guide; German language skills explicitly NOT required (English-taught program)."
+          "ielts": "IELTS Academic 6.0, TOEFL iBT 79, or Cambridge B/C accepted per official-linked admission guide; German language skills explicitly NOT required (English-taught program).",
+          "toefl_ibt": "TOEFL iBT (from 2026) total 4.5 (R4,L5,S4,W5); TOEFL iBT (before 2026) total 79 (R19,L20,S19,W20)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "None"
         },
         "application_process": {
-          "winter_deadline_non_eu": "20 April - 31 August (via myBTU) for applicants with German Master Entrance Qualification; deadline for non-German applicants not confirmed via official source in this pass."
+          "winter_deadline_non_eu": "20 April - 31 August (via myBTU) for applicants with German Master Entrance Qualification; deadline for non-German applicants not confirmed via official source in this pass.",
+          "portal": "Foreign qualifications: uni-Assist; German qualifications: BTU's own myBTU portal",
+          "summer_deadline": "Not found (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (standard German public university, Brandenburg); semester fee only."
+          "tuition_non_eu": "No tuition fee (standard German public university, Brandenburg); semester fee only.",
+          "semester_contribution_fee": "391.80 EUR for winter semester 2026/27, covers student services organisation, Student Council, semester ticket (includes Deutschlandticket)",
+          "estimated_cost_of_living": "EUR 780 to 1,000 total per month (rent/utilities 250-450, groceries 160-180, health insurance/medical 145, misc 170-220)",
+          "total_cost_per_semester": "Not mentioned on this page (current_official_data's 'no tuition fee' standard-Brandenburg claim not re-confirmed or denied)"
         },
         "exact_admission_regulations": "Official examination/study regulations PDF (Examination_and_Study_Regulations_MSc_Micro-_and_Nanoelectronics.pdf) is the authoritative source for exact degree-equivalence rules.",
         "deep_recheck": {
@@ -16633,7 +19068,12 @@ const DATABASE = {
             }
           ],
           "notes": "APS certificate requirement for India/China/Vietnam/Mongolia applicants is new, significant required-document info not previously captured."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not stated",
+        "intake_semester": "Winter",
+        "teaching_language": "English; optional electives in German"
       }
     },
     {
@@ -16704,16 +19144,30 @@ const DATABASE = {
         "official_source_url": "Not found via official site (specific MINA program admission page not located; only general RWTH information found)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not confirmed specifically for MINA; general RWTH guidance (unverified) cites average grade of 2.5 or better (German scale) as a common benchmark, but requirements vary by department/faculty/module.",
-          "qualifying_degree": "Bachelor's graduates in Electrical Engineering and Information Technology or related field (per program title, 'Major of Electrical Engineering and Information Technology')."
+          "qualifying_degree": "Bachelor's graduates in Electrical Engineering and Information Technology or related field (per program title, 'Major of Electrical Engineering and Information Technology').",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering/information technology-related, with specific ECTS distribution across math/physics/EE/CS as above",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE General Test required at application; EU/EEA citizens and German 'Bildungsinländer' exempt"
         },
         "language_requirements": {
-          "ielts": "General RWTH postgraduate minimum: IELTS 6.5 overall with 6.0 in each component; results valid for 2 years, test report forms issued more than 2 years before intended start not accepted. Program-specific figure for MINA not separately confirmed."
+          "ielts": "General RWTH postgraduate minimum: IELTS 6.5 overall with 6.0 in each component; results valid for 2 years, test report forms issued more than 2 years before intended start not accepted. Program-specific figure for MINA not separately confirmed.",
+          "toefl_ibt": "TOEFL iBT/Home Edition (since 2026) 4.5; TOEFL iBT/Home Edition (before 2026) 90",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required; international students must complete German courses worth 8 ECTS unless B1+ proven"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site."
+          "winter_deadline_non_eu": "Not found via official site.",
+          "portal": "Unresolved - no MINA-specific program page located even via search; general RWTH International Office guidance suggested but not program-specific",
+          "summer_deadline": "EU/Iceland/Norway/Liechtenstein: 2 December to 15 January; Non-EU/Switzerland/UK: 1 June to 1 September",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (standard German public university, NRW); semester fee only (general RWTH policy)."
+          "tuition_non_eu": "No tuition fee (standard German public university, NRW); semester fee only (general RWTH policy).",
+          "semester_contribution_fee": "About 360 EUR per semester, includes public transport semester ticket (Deutschlandticket), covers travel into Netherlands including South Limburg",
+          "estimated_cost_of_living": "Estimated 1,100 EUR per month; proof of funds for non-EU residence permit extension at least 992 EUR per month (2026)",
+          "total_cost_per_semester": "No tuition fee (standard NRW public university) - unchanged"
         },
         "exact_admission_regulations": "Requirements can differ significantly between RWTH departments and faculties; recommend direct contact with the MINA program office for exact figures, as no dedicated official page URL was identified in this research pass.",
         "deep_recheck": {
@@ -16733,7 +19187,12 @@ const DATABASE = {
           "newly_found_info": "A more recent (June 2026) RWTH admissions presentation cites a general IELTS minimum of 6.0 (differs from current_official_data's 6.5-overall/6.0-per-component figure) plus TOEFL iBT 90+ and PTE 60+ as alternatives - should be flagged as a possible update to general RWTH language policy, though still not MINA-specific",
           "corrections": [],
           "notes": "Could not locate a dedicated official MINA program page via search in this pass either. This remains the weakest-confirmed entry in the chunk; recommend a dedicated browsing session on rwth-aachen.de navigating via the EE department's own site rather than general web search."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English; some modules may be taught in other languages per module catalogue"
       }
     },
     {
@@ -16804,16 +19263,30 @@ const DATABASE = {
         "official_source_url": "https://www.tuhh.de/tuhh/en/education/degree-courses/international-study-programs/microelectronics-and-microsystems.html",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric GPA threshold published; TUHH states admission is 'highly competitive' and 'only applicants with a very high GPA are admitted' - GPA checked during online preliminary assessment against strict (unspecified) requirements.",
-          "qualifying_degree": "Bachelor's graduates in engineering, ideally with an Electrical Engineering focus."
+          "qualifying_degree": "Bachelor's graduates in engineering, ideally with an Electrical Engineering focus.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Relevant subject (subject-specific PDF requirements)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Official TUHH guidance: minimum overall IELTS (Academic) score of 6.5; TOEFL ITP and TOEFL Essentials NOT accepted; Cambridge Advanced English certificate accepted as alternative."
+          "ielts": "Official TUHH guidance: minimum overall IELTS (Academic) score of 6.5; TOEFL ITP and TOEFL Essentials NOT accepted; Cambridge Advanced English certificate accepted as alternative.",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Some third-party (unverified) sources cite 1 March for winter-semester entry; not independently confirmed via official page in this pass."
+          "winter_deadline_non_eu": "Some third-party (unverified) sources cite 1 March for winter-semester entry; not independently confirmed via official page in this pass.",
+          "portal": "Pre-check required, December 1-March 1 (for winter-semester-only start, October); online application also December 1-March 1; detailed procedure on linked 'How and when to apply?' subpage (not fetched this pass)",
+          "summer_deadline": "Not found (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (standard German public university, Hamburg); semester fee only."
+          "tuition_non_eu": "No tuition fee (standard German public university, Hamburg); semester fee only.",
+          "semester_contribution_fee": "Approx. 390 EUR (coverage not stated)",
+          "estimated_cost_of_living": "Around 1,000 EUR per month",
+          "total_cost_per_semester": "Deferred to 'Further Information' subpage (not fetched)"
         },
         "exact_admission_regulations": "Contact: study@tuhh.de for exact GPA threshold, as it is not published numerically. Official 'How to apply at TUHH' general guidance PDFs (updated annually) supplement program-specific admission requirements page.",
         "deep_recheck": {
@@ -16840,7 +19313,12 @@ const DATABASE = {
             }
           ],
           "notes": "Should follow up by fetching the 'Admission Requirements' subpage directly (URL: /tuhh/en/studying/before-studying/degree-courses/international-study-programs/microelectronics-and-microsystems/admission-requirements) to get GPA/language/VPD specifics that this landing page defers to it."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (standard course length two years)",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English; German language courses offered before and during programme"
       }
     },
     {
@@ -16911,16 +19389,30 @@ const DATABASE = {
         "official_source_url": "https://www.tu-braunschweig.de/eitp/studieninteressierte/et/vertiefung-microelectronics-engineering",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric GPA cutoff confirmed specifically for Microelectronics Engineering; related Quantum Technologies master's regulations state GPA is calculated from admission-relevant marks and factored into selection, implying similar practice may apply. Third-party (unverified) cites GPA 2.5 (German scale) as general TU Braunschweig benchmark.",
-          "qualifying_degree": "Bachelor's graduates in a related discipline (Electrical Engineering and Information Technology); Microelectronics Engineering is an elective specialization within the broader EIT Master's program, which can be completed in German or English (English option has extra requirements)."
+          "qualifying_degree": "Bachelor's graduates in a related discipline (Electrical Engineering and Information Technology); Microelectronics Engineering is an elective specialization within the broader EIT Master's program, which can be completed in German or English (English option has extra requirements).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Not stated on this page",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not confirmed specifically for Microelectronics Engineering elective; related 2026 Quantum Technologies English regulations cite IELTS Band 6.5 or higher - likely comparable but not confirmed identical for this elective."
+          "ielts": "Not confirmed specifically for Microelectronics Engineering elective; related 2026 Quantum Technologies English regulations cite IELTS Band 6.5 or higher - likely comparable but not confirmed identical for this elective.",
+          "toefl_ibt": "TOEFL iBT 88 (before 2026)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed via official site in this pass."
+          "winter_deadline_non_eu": "Not confirmed via official site in this pass.",
+          "portal": "Apply through TU Braunschweig's own online application platform (tu-braunschweig.de/en/application) - no uni-assist mentioned",
+          "summer_deadline": "1 December to 15 January (all countries)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (standard German public university, Lower Saxony); semester fee only."
+          "tuition_non_eu": "No tuition fee (standard German public university, Lower Saxony); semester fee only.",
+          "semester_contribution_fee": "Approximately 440 EUR per semester, includes public transport semester ticket among other things",
+          "estimated_cost_of_living": "At least about 1,000 EUR per month",
+          "total_cost_per_semester": "CONFIRMED EXACT: EUR440.00 per semester tuition/fee for winter semester 2025/26 (fees can change each semester) - this is NEW and significant, since current_official_data said 'no tuition fee (standard Lower Saxony)' which appears to be WRONG"
         },
         "exact_admission_regulations": "Admission regulations for this elective are documented in German only on the official site; recommend contacting the faculty's admissions office directly for exact IELTS/GPA figures.",
         "deep_recheck": {
@@ -16953,7 +19445,12 @@ const DATABASE = {
             }
           ],
           "notes": "The EUR440/semester figure should be double-checked against whether it's a standard Lower-Saxony semester contribution (which is typically far lower, ~100-300 EUR) or an actual added program tuition fee - page presents it simply as 'the semester fee' without breakdown, worth flagging for the user to verify is not conflating tuition with standard contribution."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering, Information Technology, Physics",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -17024,16 +19521,30 @@ const DATABASE = {
         "official_source_url": "https://www.moro.uni-bonn.de/apply/requirements",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official numeric GPA cutoff stated; program is described as 'open-admission' but both academic and language requirements must be fulfilled with the bachelor's degree (job experience or further degrees do not count toward fulfilling requirements).",
-          "qualifying_degree": "Bachelor's graduates with relevant academic background for mobile robotics (exact field requirements not fully captured); open-admission but subject to fulfilling stated academic and language criteria."
+          "qualifying_degree": "Bachelor's graduates with relevant academic background for mobile robotics (exact field requirements not fully captured); open-admission but subject to fulfilling stated academic and language criteria.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Computer science, geodesy, electrical engineering, or applied mathematics (specific credit requirements as above)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not required for applicants with European Bachelor's; recommended for others: Quantitative Reasoning 160, Verbal Reasoning 145, Analytical Writing 3. National entrance exams for non-European applicants: India (JEE Advanced + All India Rank), China (Gaokao), Pakistan (ECAT or university-specific entry test)"
         },
         "language_requirements": {
-          "ielts": "Not stated numerically on official requirements page in available excerpts; third-party sources mention IELTS is required but give no specific minimum score - recommend checking moro.uni-bonn.de/apply/requirements directly for current figure."
+          "ielts": "Not stated numerically on official requirements page in available excerpts; third-party sources mention IELTS is required but give no specific minimum score - recommend checking moro.uni-bonn.de/apply/requirements directly for current figure.",
+          "toefl_ibt": "TOEFL iBT (since 2026) 5 overall (5 each section); TOEFL iBT (before 2026) 95 overall (R24,L22,S25,W24)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed via official site in this pass."
+          "winter_deadline_non_eu": "Not confirmed via official site in this pass.",
+          "portal": "Apply online through University of Bonn's Application Portal for Graduate Programs (application.uni-bonn.de, HISinOne); documents should NOT be sent by postal mail",
+          "summer_deadline": "Not found (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (standard German public university, NRW); semester fee only."
+          "tuition_non_eu": "No tuition fee (standard German public university, NRW); semester fee only.",
+          "semester_contribution_fee": "About 350 EUR per semester, covers Deutschlandsemesterticket and statutory accident insurance, among other things",
+          "estimated_cost_of_living": "About 1,000 EUR per month; rent is largest expense",
+          "total_cost_per_semester": "Not mentioned on this page; standard 'no tuition fee, NRW public university' assumption from current_official_data stands unconfirmed/uncorrected"
         },
         "exact_admission_regulations": "Caution: a GPA figure of 2.5 (German scale) found during research actually belongs to a different, similarly named program (Autonomous Systems M.Sc. at Bonn-Rhein-Sieg University of Applied Sciences) - do NOT apply that figure to University of Bonn's Mobile Robotics program. Application via University of Bonn's own Application Portal.",
         "deep_recheck": {
@@ -17066,7 +19577,12 @@ const DATABASE = {
             }
           ],
           "notes": "No uni-assist/VPD requirement found - this program uses its own direct application portal. The prior correction note in current_official_data (about not confusing with Bonn-Rhein-Sieg's Autonomous Systems 2.5 GPA figure) remains valid; the real University of Bonn figure is now confirmed as 2.0."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (24 months)",
+        "faculty_institute": "Institute of Geodesy and Geoinformation",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -17137,16 +19653,30 @@ const DATABASE = {
         "official_source_url": "https://tu-dresden.de/sins/efv/ma-mobs",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No official GPA minimum found in TU Dresden's 2026 study/examination regulations documents; admission depends primarily on a special aptitude assessment (Eignungsfeststellungsverfahren) rather than a stated GPA cutoff. Third-party (unverified) figures of ~70% marks or GPA 2.5 (German equivalent) found but not confirmed officially.",
-          "qualifying_degree": "Bachelor's graduates meeting the program's special aptitude assessment criteria (Eignungsfeststellungsverfahren); program is part of the Verkehrswissenschaften (transport sciences) faculty."
+          "qualifying_degree": "Bachelor's graduates meeting the program's special aptitude assessment criteria (Eignungsfeststellungsverfahren); program is part of the Verkehrswissenschaften (transport sciences) faculty.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Transportation engineering, transportation economics, mobility/transportation systems, civil/environmental/industrial engineering, or comparable",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Required for non-EU/EEA degree holders: at least 162 quantitative reasoning, 151 verbal reasoning; certificate no more than 5 years old, due by application deadline"
         },
         "language_requirements": {
-          "ielts": "Official 2026 study regulations: IELTS overall band score of at least 7.0 (or TOEFL iBT at least 95, figures vary slightly between regulation versions - one version lists TOEFL iBT 5.0 which appears to be a typo/inconsistency in the source document). Alternative: a university degree completed entirely in English can substitute for a test certificate."
+          "ielts": "Official 2026 study regulations: IELTS overall band score of at least 7.0 (or TOEFL iBT at least 95, figures vary slightly between regulation versions - one version lists TOEFL iBT 5.0 which appears to be a typo/inconsistency in the source document). Alternative: a university degree completed entirely in English can substitute for a test certificate.",
+          "toefl_ibt": "TOEFL iBT Home Edition (since 2026) overall 5 (R5,L5,S5,W5); TOEFL iBT (before 2026) overall 95 (R24,L22,S25,W24)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not confirmed precisely; subject to aptitude assessment regulations timeline."
+          "winter_deadline_non_eu": "Not confirmed precisely; subject to aptitude assessment regulations timeline.",
+          "portal": "Two-stage process: (1) register for aptitude assessment (Eignungsfeststellungsverfahren) with the faculty directly, submitting required documents by deadline; (2) apply to university via TU Dresden online application portal, receiving an application number. Non-EU applicants additionally use uni-assist e.V. for the application itself.",
+          "summer_deadline": "Not found (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (standard German public university, Saxony); semester fee only."
+          "tuition_non_eu": "No tuition fee (standard German public university, Saxony); semester fee only.",
+          "semester_contribution_fee": "About 340 EUR per semester (six months), includes public transport/regional train ticket valid across Germany, free 30-min bike rentals citywide, cafeteria concessions, discounts for cultural/leisure activities in Dresden",
+          "estimated_cost_of_living": "About 850 EUR per month (low compared to other large German cities)",
+          "total_cost_per_semester": "Not mentioned on this page; standard 'no tuition, Saxony' assumption stands unconfirmed/uncorrected"
         },
         "exact_admission_regulations": "Admission requirements formally regulated by the 'Eignungsfeststellungsordnung' (aptitude assessment regulations) - this is the authoritative legal document, available as MOBS-2026-EFO PDF on tu-dresden.de.",
         "deep_recheck": {
@@ -17179,7 +19709,12 @@ const DATABASE = {
             }
           ],
           "notes": "GRE requirement for non-EU/EEA applicants is a significant new finding, comparable in importance to a VPD-type gap, since it's a mandatory extra document previously undocumented."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters full-time; 8 semesters part-time",
+        "faculty_institute": "'Friedrich List' Faculty of Transport and Traffic Sciences",
+        "intake_semester": "Winter",
+        "teaching_language": "English (required modules); some supplementary modules may be in German"
       }
     },
     {
@@ -17250,16 +19785,30 @@ const DATABASE = {
         "official_source_url": "https://www.hectorschool.kit.edu/master-mobility-systems-engineering-and-management.php",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated; requires a first academic degree (Bachelor, Master, or Diploma); detailed admission statutes (German PDF) referenced",
-          "qualifying_degree": "Working professionals developing/producing/integrating embedded systems in automotive, railway, other vehicle, or electronics/software industries; needs first academic degree plus at least 2 years professional experience"
+          "qualifying_degree": "Working professionals developing/producing/integrating embedded systems in automotive, railway, other vehicle, or electronics/software industries; needs first academic degree plus at least 2 years professional experience",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering, natural sciences, information science, or economics (210 or 180 ECTS)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No specific score given; general English proficiency proof required"
+          "ielts": "No specific score given; general English proficiency proof required",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "None; rolling admissions, program starts every October"
+          "winter_deadline_non_eu": "None; rolling admissions, program starts every October",
+          "portal": "Own portal at hectorschool.applicationportal.org, rolling admissions, program starts every October",
+          "summer_deadline": "Not found",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 36,000 total"
+          "tuition_non_eu": "EUR 36,000 total",
+          "semester_contribution_fee": "Approx. 150 EUR per semester, contents not specified",
+          "estimated_cost_of_living": "Approx. 1,000 EUR per month",
+          "total_cost_per_semester": "EUR 36,000 total"
         },
         "exact_admission_regulations": "Part-time executive program but enrolled full-time; ~15 months coursework + 9-month thesis (often at employer); 90 ECTS, aaq accredited; one engineering module (EM5) held at BME/ZalaZONE Budapest, Hungary",
         "deep_recheck": {
@@ -17280,7 +19829,12 @@ const DATABASE = {
           "newly_found_info": "Exact TOEFL/IELTS score thresholds found (TOEFL 570PBT/230CBT/90iBT or IELTS 6.5); confirmed no uni-assist/VPD used - direct application portal instead",
           "corrections": [],
           "notes": "HECTOR School programs (also 4555) use their own direct application portal, not uni-assist - this should be explicit since VPD is a known gap area."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (part-time, 10 intensive modules of 10 days each)",
+        "faculty_institute": "HECTOR School, Technology Business School",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -17351,16 +19905,30 @@ const DATABASE = {
         "official_source_url": "https://www.fh-swf.de/de/international_3/programmes/systems_engineering_and_engineering_management__m_sc__/index.php",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's degree with minimum overall grade required per examination regulations; third-party sources suggest at least 'Good' (ECTS A/B) but exact official threshold not confirmed on page fetched",
-          "qualifying_degree": "Students seeking consecutive 3-semester, English-taught Systems/Advanced Engineering and Engineering Management master's; formerly called Systems Engineering and Engineering Management"
+          "qualifying_degree": "Students seeking consecutive 3-semester, English-taught Systems/Advanced Engineering and Engineering Management master's; formerly called Systems Engineering and Engineering Management",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering, mechanical engineering, mechatronics, or comparable with engineering/CS predominance; at least 10 ECTS in computer science",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "TOEFL/IELTS minimum scores required per official regulations; exact scores not retrieved (page access limited)"
+          "ielts": "TOEFL/IELTS minimum scores required per official regulations; exact scores not retrieved (page access limited)",
+          "toefl_ibt": "TOEFL iBT (before 2026): 90; TOEFL iBT (since 2026): 4.5 for Writing (possible page error)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Example cited for a recent summer intake: mid-May to 15 November (non-EU); beginning December to 31 January (EU) - confirm current cycle dates with university"
+          "winter_deadline_non_eu": "Example cited for a recent summer intake: mid-May to 15 November (non-EU); beginning December to 31 January (EU) - confirm current cycle dates with university",
+          "portal": "EU/EEA applicants use university portal directly; non-EU applicants apply via uni-assist; China/India/Vietnam applicants also need APS",
+          "summer_deadline": "EU: until 31 January; Non-EU: until 15 November",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "Approx. 322 EUR per semester, including a public transport ticket",
+          "estimated_cost_of_living": "Approx. 992 EUR per month, including accommodation and student health insurance; visa applicants must show this amount",
+          "total_cost_per_semester": "Not stated on page; links to 'About the Student Fees' page"
         },
         "exact_admission_regulations": "NC-free (no admission restriction); non-EU applicants apply via uni-assist",
         "deep_recheck": {
@@ -17387,7 +19955,12 @@ const DATABASE = {
             }
           ],
           "notes": "No explicit VPD mention but uni-assist confirmed required for non-EU."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -17458,16 +20031,30 @@ const DATABASE = {
         "official_source_url": "https://www.at.study.fau.eu/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Described generically as 'the best choice for your academic future' in electrical engineering and computer science; no specific eligibility criteria listed on homepage"
+          "qualifying_degree": "Described generically as 'the best choice for your academic future' in electrical engineering and computer science; no specific eligibility criteria listed on homepage",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering, mechatronics, computer science, or AI-related background",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site; aggregators mention English B2 level, no confirmed IELTS score"
+          "ielts": "Not found via official site; aggregators mention English B2 level, no confirmed IELTS score",
+          "toefl_ibt": "TOEFL iBT (before 2026): 80 overall, Reading 18, Listening 17, Speaking 20, Writing 17",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Campo portal (campo.fau.de / campo.fau.eu) - exclusive application channel for both BSc and MSc",
+          "summer_deadline": "15 September to 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site (aggregators suggest tuition-free, semester contribution only)"
+          "tuition_non_eu": "Not found via official site (aggregators suggest tuition-free, semester contribution only)",
+          "semester_contribution_fee": "82 EUR per semester for all students; application processing fee 100 EUR for non-EU applicants starting winter 2026/27",
+          "estimated_cost_of_living": "Approx. 1,106 EUR/month (2021 survey); breakdown: rent incl. utilities 410 EUR, food 198 EUR, clothing 46 EUR, travel 89 EUR, study materials 31 EUR, health insurance/medicine 100 EUR, telecom 31 EUR, leisure 65 EUR",
+          "total_cost_per_semester": "Not specified; only small semester contribution mentioned for BSc"
         },
         "exact_admission_regulations": "Detailed admission/application information likely on the FAU 'Application and Enrolment' subpage (https://www.at.study.fau.eu/prospective-students/application-and-enrolment/), not retrieved",
         "deep_recheck": {
@@ -17501,7 +20088,12 @@ const DATABASE = {
             }
           ],
           "notes": "Site itself has internal inconsistencies between main page and FAQ on language/deadline details - flagged by the fetch tool."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Electrical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -17572,16 +20164,30 @@ const DATABASE = {
         "official_source_url": "https://www.batteryengineering.rwth-aachen.de/?page_id=64",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (page unreachable during fetch)",
-          "qualifying_degree": "Applicants need a first university degree in natural or engineering sciences providing sufficient foundational training (per DAAD-aligned description)"
+          "qualifying_degree": "Applicants need a first university degree in natural or engineering sciences providing sufficient foundational training (per DAAD-aligned description)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Natural or engineering sciences",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Required for non-EU applicants instead of aptitude test (dMAT); minimum score not stated"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (before 2026): 90",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Unconfirmed - likely RWTH direct portal (RWTHonline) per one source, but not verified officially",
+          "summer_deadline": "No summer intake",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "Approx. 400 EUR per semester",
+          "estimated_cost_of_living": "Not stated",
+          "total_cost_per_semester": "Not found"
         },
         "exact_admission_regulations": "Program is under numerus clausus (research-oriented, intensive supervision) per official RWTH description; fully taught in English; do not confuse with the separate 'Battery Systems Engineering (BSE)' master",
         "deep_recheck": {
@@ -17601,7 +20207,12 @@ const DATABASE = {
           "newly_found_info": "None confirmed - official site remains unreachable; all info here is unverified aggregator-sourced",
           "corrections": [],
           "notes": "Official RWTH batteryengineering.rwth-aachen.de site returned ECONNREFUSED on direct fetch; could not independently verify. Recommend retry or manual check. Do not treat any new figure here as confirmed."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Institute for Power Electronics and Electrical Drives, Chair for Electrochemical Energy Conversion and Storage Systems",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%, 50/50 online and on-site"
       }
     },
     {
@@ -17672,16 +20283,30 @@ const DATABASE = {
         "official_source_url": "https://www.th-deg.de/et-m-en",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's degree in Electrical Engineering and/or Computer Science (or related subject) with at least 210 ECTS and an overall grade of at least 'good'",
-          "qualifying_degree": "Graduates with Bachelor's/Diplom in Electrical Engineering, Computer Science, or related field pursuing R&D career or academic path; professional experience not required"
+          "qualifying_degree": "Graduates with Bachelor's/Diplom in Electrical Engineering, Computer Science, or related field pursuing R&D career or academic path; professional experience not required",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not stated"
         },
         "language_requirements": {
-          "ielts": "Not specified; taught in English; German A2 certificate mandatory at application from Summer Term 2027"
+          "ielts": "Not specified; taught in English; German A2 certificate mandatory at application from Summer Term 2027",
+          "toefl_ibt": "TOEFL iBT: 72 (before 2026)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A2 required (telc Deutsch A2 or Goethe-Zertifikat A2); without A2 certificate, applicants cannot take the entrance test"
         },
         "application_process": {
-          "winter_deadline_non_eu": "15 October to 1 December for March start (note: page text has some inconsistency on annual vs. summer-term-only intake)"
+          "winter_deadline_non_eu": "15 October to 1 December for March start (note: page text has some inconsistency on annual vs. summer-term-only intake)",
+          "portal": "Direct application via th-deg.de/en/apply; includes mandatory aptitude test (written, possibly oral, or online version via external provider for USD 27.30)",
+          "summer_deadline": "15 October to 1 December",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fees; only student union fee; non-EU/EEA students pay additional service fees (amount not stated)"
+          "tuition_non_eu": "No tuition fees; only student union fee; non-EU/EEA students pay additional service fees (amount not stated)",
+          "semester_contribution_fee": "Student union fee approx. 87 EUR (summer 2027) / 92 EUR (winter 2027/28); application fee 60 EUR for non-EU/EEA students",
+          "estimated_cost_of_living": "About 950 EUR per month",
+          "total_cost_per_semester": "No tuition fee; only student union fee; non-EU/EEA pay additional service fees (amount not stated)"
         },
         "exact_admission_regulations": "Mandatory aptitude test (written, possibly oral); online test fee ~27.30 USD via external provider; must choose focus area (ENS or Automation) at application; places limited",
         "deep_recheck": {
@@ -17708,7 +20333,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD/uni-assist found for this program; appears DIT uses direct application."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering and Media Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -17779,16 +20409,30 @@ const DATABASE = {
         "official_source_url": "https://www.aces.study.fau.eu/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Interdisciplinary program combining AI/autonomous driving, connectivity, e-powertrain, and sustainable mobility/production technology strengths; no specific eligibility criteria stated on homepage"
+          "qualifying_degree": "Interdisciplinary program combining AI/autonomous driving, connectivity, e-powertrain, and sustainable mobility/production technology strengths; no specific eligibility criteria stated on homepage",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE (Physics/Mathematics subject test or General Test, FAU institution code 1344) or GATE strongly recommended for non-EU applicants (India, Pakistan, China); other standard tests assessed by admissions commission"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Campo portal (www.master.fau.de)",
+          "summer_deadline": "15 September to 30 October",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "82 EUR per semester; application fee 100 EUR for non-EU applicants from winter 2026/27",
+          "estimated_cost_of_living": "Approx. 1,106 EUR/month (2021 survey); rent 410 EUR, food 198 EUR, clothing 46 EUR, travel 89 EUR, study materials 31 EUR, health insurance 100 EUR, telecom 31 EUR, leisure 65 EUR",
+          "total_cost_per_semester": "EUR 6,000/semester for new non-EU students starting Summer semester 2027; EUR 100 application processing fee for non-EU applicants from Winter 2026/27"
         },
         "exact_admission_regulations": "Detailed admission info likely under FAU's Prospective Students / Bachelor's and Master's application pages, not retrieved",
         "deep_recheck": {
@@ -17816,7 +20460,12 @@ const DATABASE = {
             }
           ],
           "notes": "Significant new tuition info found that was entirely missing before."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Mechanical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English (can also be studied in German or fully in either)"
       }
     },
     {
@@ -17887,16 +20536,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-bremen.de/en/study/degree-programme/electronics-engineering-msc/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on page",
-          "qualifying_degree": "Graduates in Electronics, Computer Science, RF Engineering and Communications, or related field wanting to specialize in intelligent systems/embedded technologies; prior degree of 210 ECTS (3-semester track, 90 CP) or 180 ECTS (4-semester track, 120 CP)"
+          "qualifying_degree": "Graduates in Electronics, Computer Science, RF Engineering and Communications, or related field wanting to specialize in intelligent systems/embedded technologies; prior degree of 210 ECTS (3-semester track, 90 CP) or 180 ECTS (4-semester track, 120 CP)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering, electronics, information engineering, engineering physics, microsystems, mechatronics, instrumentation, computer science, or related",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not specified; programme entirely in English, 'No German required'"
+          "ielts": "Not specified; programme entirely in English, 'No German required'",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required, though basic knowledge of German listed among admission requirements"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated on page"
+          "winter_deadline_non_eu": "Not stated on page",
+          "portal": "CampInO portal; international applicants first obtain VPD from uni-assist.de, then submit application with VPD attached in CampInO",
+          "summer_deadline": "15 December to 15 January (3-semester); 1 June to 15 October (4-semester variant)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated on page"
+          "tuition_non_eu": "Not stated on page",
+          "semester_contribution_fee": "Approx. 440 EUR per semester, including a semester ticket for public transport in Bremen area",
+          "estimated_cost_of_living": "Food ~300 EUR/month, academic expenses ~30 EUR/month, health insurance ~80 EUR/month, total living expenses incl. rent ~800 EUR/month; library free",
+          "total_cost_per_semester": "Not stated on page"
         },
         "exact_admission_regulations": "Admission restricted; optional dual-study mode with limited availability; recommends checking degree classification via anabin database",
         "deep_recheck": {
@@ -17924,7 +20587,12 @@ const DATABASE = {
             }
           ],
           "notes": "IMPORTANT - this program had a VPD requirement gap similar to the FH Dortmund case the user flagged. Confirmed via official HSB admission page."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 or 4 semesters depending on prior qualification",
+        "faculty_institute": "School of Electrical Engineering and Computer Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -17995,16 +20663,30 @@ const DATABASE = {
         "official_source_url": "https://hm.edu/en/your_stay_at_hm/students/fulltime/uebersichts____startseite_variante_31.en.html (department flyer: mediapool.hm.edu Flyer_Master_Micro-Nano_en.pdf)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's or Diploma in natural/engineering sciences (or similar) with overall grade of at least 'good'",
-          "qualifying_degree": "Graduates of natural or engineering sciences (or similar) from German or international institutions"
+          "qualifying_degree": "Graduates of natural or engineering sciences (or similar) from German or international institutions",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Natural or engineering sciences; 180 ECTS, six theoretical semesters, 10 ECTS physics, 18-week internship",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not specified on official HM pages; IELTS cited by a third-party aggregator but unverified"
+          "ielts": "Not specified on official HM pages; IELTS cited by a third-party aggregator but unverified",
+          "toefl_ibt": "TOEFL iBT (before 2026): total 65, Reading 10, Listening 15, Speaking 20, Writing 20",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A2 required (DSD A2, telc Deutsch A2, Goethe-Zertifikat A2, or A2 in each of reading/listening/speaking/writing)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "15 November to 15 January for March start; 2 May to 15 June for October start (per department flyer)"
+          "winter_deadline_non_eu": "15 November to 15 January for March start; 2 May to 15 June for October start (per department flyer)",
+          "portal": "Direct online application through Hochschule München's own application tool (not uni-assist for this program)",
+          "summer_deadline": "15 November to 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "Approx. 100 EUR, contents not specified",
+          "estimated_cost_of_living": "Not stated",
+          "total_cost_per_semester": "Not found via official site"
         },
         "exact_admission_regulations": "Program mostly taught in English but German A2 level is mandatory; program contact: Prof. Dr.-Ing. Christina Schindler (christina.schindler@hm.edu)",
         "deep_recheck": {
@@ -18031,7 +20713,12 @@ const DATABASE = {
             }
           ],
           "notes": "Official URL in current_official_data returned 404 on direct fetch; info sourced from HM's international programs page and flyer via search instead."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters full-time, or 6 semesters part-time",
+        "faculty_institute": "Department of Applied Sciences and Mechatronics",
+        "intake_semester": "Winter",
+        "teaching_language": "English; theses can be in English or German (German typically needed for project studies/theses at German companies)"
       }
     },
     {
@@ -18102,16 +20789,30 @@ const DATABASE = {
         "official_source_url": "https://www.business-school.rwth-aachen.de/en/apply/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated; requires degree certificate and transcript of records, no minimum grade given",
-          "qualifying_degree": "Applicants need at least 1 year of professional experience; CV, motivation letter, degree certificate, transcript, reference letter, and short video required"
+          "qualifying_degree": "Applicants need at least 1 year of professional experience; CV, motivation letter, degree certificate, transcript, reference letter, and short video required",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "STEM field; 16 CP math/stats, 125 CP math/natural science/CS/engineering, 10 CP business admin",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS minimum 6.0 (or TOEFL iBT 90, Cambridge B2 First/C1/C2, PTE Academic min 60, or degree from UK/Ireland/Canada/USA/Australia/New Zealand)"
+          "ielts": "IELTS minimum 6.0 (or TOEFL iBT 90, Cambridge B2 First/C1/C2, PTE Academic min 60, or degree from UK/Ireland/Canada/USA/Australia/New Zealand)",
+          "toefl_ibt": "TOEFL iBT Home Edition (before 2026): 90; TOEFL iBT (before 2026): 90",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Applications open October 1; final deadline 1 June (non-EU) / 31 August (EU); seats limited"
+          "winter_deadline_non_eu": "Applications open October 1; final deadline 1 June (non-EU) / 31 August (EU); seats limited",
+          "portal": "my.rwthbusinessschool.de portal; process: 1) consultation/eligibility pre-check, 2) apply via program portal, 3) admission decision in 2-8 weeks, 4) accept offer, sign contract, pay first tuition installment",
+          "summer_deadline": "No summer intake (winter semester only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 30,000; Early Bird discounts: EUR 3,500 (by Dec 1), EUR 3,000 (by Feb 1), EUR 1,000 (by Apr 1); application fee EUR 50"
+          "tuition_non_eu": "EUR 30,000; Early Bird discounts: EUR 3,500 (by Dec 1), EUR 3,000 (by Feb 1), EUR 1,000 (by Apr 1); application fee EUR 50",
+          "semester_contribution_fee": "About 300 EUR per semester, includes semester ticket for NRW public transport",
+          "estimated_cost_of_living": "About 1,100 EUR/month, covering rent, food, clothing, study materials, health insurance, phone/internet, broadcasting fees, leisure (excludes semester contribution)",
+          "total_cost_per_semester": "EUR 30,000 total (confirmed); EUR 50 application fee; comparison table shows other RWTH Business School programs' costs (EMBA EUR 45,000, Full-time MBA EUR 35,000)"
         },
         "exact_admission_regulations": "Winter semester intake only; full-time track requires academic or professional reference letter plus a short self-introduction video",
         "deep_recheck": {
@@ -18131,7 +20832,12 @@ const DATABASE = {
           "newly_found_info": "Confirmed exact language test equivalency options (Cambridge, PTE, exempt countries) not previously fully listed; confirmed application process steps and processing time (2-8 weeks)",
           "corrections": [],
           "notes": "No VPD/uni-assist found - program uses RWTH Business School's own portal entirely."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "RWTH Business School, in cooperation with Cambridge Digital Innovation at Hughes Hall, University of Cambridge",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -18202,16 +20908,30 @@ const DATABASE = {
         "official_source_url": "https://www.business-school.rwth-aachen.de/en/master/management-engineering-in-technology-innovation-marketing-entrepreneurship-parttime/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated; academic content requirements instead: STEM-related degree with at least 125 CP in relevant subjects (incl. 16 CP higher mathematics/statistics, 10 CP management/economics - deficits can be made up with free additional courses)",
-          "qualifying_degree": "Working professionals (consultants, project managers, engineers, product managers) with STEM-related degree and at least 1 year of professional work experience, part-time status proof (20+ hrs/week other responsibilities)"
+          "qualifying_degree": "Working professionals (consultants, project managers, engineers, product managers) with STEM-related degree and at least 1 year of professional work experience, part-time status proof (20+ hrs/week other responsibilities)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "STEM field; 16 CP math/stats, 125 CP math/science/CS/engineering, 10 CP business admin",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS Academic overall 6.0 minimum, or TOEFL iBT 90 minimum; German applicants need B2 English proof (e.g., Abitur with continuous English instruction); exemptions for nationals/first-degree holders of USA, UK, Canada, Ireland, New Zealand, Australia"
+          "ielts": "IELTS Academic overall 6.0 minimum, or TOEFL iBT 90 minimum; German applicants need B2 English proof (e.g., Abitur with continuous English instruction); exemptions for nationals/first-degree holders of USA, UK, Canada, Ireland, New Zealand, Australia",
+          "toefl_ibt": "TOEFL iBT Home Edition (before 2026): 90; TOEFL iBT (before 2026): 90",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Early Bird I: Dec 1, 2026; Non-EU final: June 1; EU final: Aug 31; study start: Oct 1, 2027"
+          "winter_deadline_non_eu": "Early Bird I: Dec 1, 2026; Non-EU final: June 1; EU final: Aug 31; study start: Oct 1, 2027",
+          "portal": "Apply via program website's 'Apply' page; same RWTH Business School process as full-time (4757)",
+          "summer_deadline": "Not stated (no summer intake)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 30,000 total, plus EUR 50 application fee; Early Bird discounts: EUR 3,500 (Dec 1), EUR 3,000 (Feb 1), EUR 1,000 (Apr 1); VDI Scholarship EUR 5,000 (Apr 1)"
+          "tuition_non_eu": "EUR 30,000 total, plus EUR 50 application fee; Early Bird discounts: EUR 3,500 (Dec 1), EUR 3,000 (Feb 1), EUR 1,000 (Apr 1); VDI Scholarship EUR 5,000 (Apr 1)",
+          "semester_contribution_fee": "About 300 EUR per semester, includes NRW public transport ticket",
+          "estimated_cost_of_living": "Not stated",
+          "total_cost_per_semester": "EUR 30,000 total (confirmed), EUR 50 application fee; Early Bird I EUR 3,500 (1 Dec), II EUR 3,000 (1 Feb), III EUR 1,000 (1 Apr); VDI Scholarship EUR 5,000 (1 Apr)"
         },
         "exact_admission_regulations": "APS certificate required for Chinese/Indian/Vietnamese applicants before enrollment; compulsory 5-day on-campus 'Cambridge Ecosystem Lab' trip; can switch once between part-time/full-time study",
         "deep_recheck": {
@@ -18238,7 +20958,12 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD/uni-assist mention for this program."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "6 semesters (up to 6, part-time, studiable from anywhere, hybrid/can be fully online)",
+        "faculty_institute": "RWTH Business School, in cooperation with Cambridge Digital Innovation at Hughes Hall, University of Cambridge",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -18309,16 +21034,30 @@ const DATABASE = {
         "official_source_url": "https://www.cit.tum.de/en/cit/studies/degree-programs/master-microelectronics-chip-design/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No fixed minimum GPA; bachelor's overall grade contributes up to 20 of 120 Stage 1 points (non-TUM grades converted via Bavarian formula); need at least 40 subject-specific points to proceed",
-          "qualifying_degree": "Applicants with/pending bachelor's in Electrical and Computer Engineering, Computer Science (minor in EE), or Physics, with sufficient background in math, electronics, and programming"
+          "qualifying_degree": "Applicants with/pending bachelor's in Electrical and Computer Engineering, Computer Science (minor in EE), or Physics, with sufficient background in math, electronics, and programming",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical Engineering/IT, Computer Science (minor EE), or Physics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not listed"
         },
         "language_requirements": {
-          "ielts": "Not specified exact score; requires 'English Language Proficiency' certificate per TUM's language-certificate page (third-party sources cite ~IELTS 6.5, unverified)"
+          "ielts": "Not specified exact score; requires 'English Language Proficiency' certificate per TUM's language-certificate page (third-party sources cite ~IELTS 6.5, unverified)",
+          "toefl_ibt": "TOEFL iBT Home Edition (before 2026): 88; TOEFL iBT (before 2026): 88",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Feb 1 - May 31 submission window; non-EU applicants strongly advised to apply before March 31"
+          "winter_deadline_non_eu": "Feb 1 - May 31 submission window; non-EU applicants strongly advised to apply before March 31",
+          "portal": "Apply via TUMonline; separate uni-assist VPD submission also required as part of the document checklist; two-stage selection (application review then interview)",
+          "summer_deadline": "No summer intake",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Non-EU/EEA/Swiss applicants pay tuition (amount not listed on page) plus semester fees; EU/EEA/Swiss pay only semester fees"
+          "tuition_non_eu": "Non-EU/EEA/Swiss applicants pay tuition (amount not listed on page) plus semester fees; EU/EEA/Swiss pay only semester fees",
+          "semester_contribution_fee": "97 EUR (summer 2026) for Munich, Garching, Weihenstephan campuses; must be paid each semester before (re-)enrolment",
+          "estimated_cost_of_living": "Not estimated; refer to DAAD finances page",
+          "total_cost_per_semester": "Non-EU/EEA/Swiss pay tuition (amount not listed on page, see tum.de/en/studies/fees/tuition); EU/EEA/Swiss pay only semester fees"
         },
         "exact_admission_regulations": "Two-stage selection: application review (reject <60 pts, interview 60-74, admit 75+) then ~20-min interview (in-person or Zoom); APS certification required for China/Vietnam/India degrees; tape-out participation restricted under EU/US export control laws for some students",
         "deep_recheck": {
@@ -18345,7 +21084,12 @@ const DATABASE = {
             }
           ],
           "notes": "VPD requirement explicitly confirmed here - good example matching the user's FH Dortmund concern, now documented."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "School of Computation, Information and Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -18416,16 +21160,30 @@ const DATABASE = {
         "official_source_url": "https://www.tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/studiengang_378304.en.jsp",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated; requires Bachelor's degree in natural sciences/engineering of at least 180 CP",
-          "qualifying_degree": "Bachelor's graduates in natural sciences/engineering (180+ CP) including at least 20 CP math, 5 CP fundamentals of physics, 5 CP theoretical electrodynamics, 4 CP measurement technology/lab practicals"
+          "qualifying_degree": "Bachelor's graduates in natural sciences/engineering (180+ CP) including at least 20 CP math, 5 CP fundamentals of physics, 5 CP theoretical electrodynamics, 4 CP measurement technology/lab practicals",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Natural sciences or engineering; 20 CP math, 5 CP physics fundamentals, 5 CP theoretical electrodynamics, 4 CP measurement tech/lab",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not on page"
         },
         "language_requirements": {
-          "ielts": "IELTS not mentioned; English B2 level required via equivalence table from TU Darmstadt Language Center, or an English-language bachelor's thesis"
+          "ielts": "IELTS not mentioned; English B2 level required via equivalence table from TU Darmstadt Language Center, or an English-language bachelor's thesis",
+          "toefl_ibt": "Not given",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated on page; program starts winter or summer semester; new program launching summer semester 2026"
+          "winter_deadline_non_eu": "Not stated on page; program starts winter or summer semester; new program launching summer semester 2026",
+          "portal": "Online application at TU Darmstadt; after enrolling at TU Darmstadt, must separately register with Goethe University Frankfurt (checklist provided); registration at JGU Mainz NOT required despite being a listed partner",
+          "summer_deadline": "Not listed",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated on page; links to a general 'Costs and budget' section"
+          "tuition_non_eu": "Not stated on page; links to a general 'Costs and budget' section",
+          "semester_contribution_fee": "About 380 EUR per semester, covers administrative fees and Deutschlandticket semester ticket",
+          "estimated_cost_of_living": "Not given; links to TU Darmstadt costs/budget info",
+          "total_cost_per_semester": "Not stated; links to 'Costs and budget' general page"
         },
         "exact_admission_regulations": "No numerical admission restriction once prerequisites met; joint Rhein-Main-Universitaeten program - apply to TU Darmstadt first, then register with Goethe University Frankfurt (not with JGU Mainz); includes a programme-internal internship",
         "deep_recheck": {
@@ -18452,7 +21210,12 @@ const DATABASE = {
             }
           ],
           "notes": "uni-assist/VPD status still unconfirmed for this program - the international applicants formal requirements subpage was linked but not fetched due to scope; recommend follow-up fetch of https://www.tu-darmstadt.de/studieren/studieninteressierte/bewerbung_zulassung_tu/internationale_studierende/index.en.jsp"
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Physics; cooperation with Johannes Gutenberg University Mainz and Goethe University Frankfurt (Rhein-Main Universities alliance)",
+        "intake_semester": "Winter",
+        "teaching_language": "English (mandatory courses and many electives); some elective areas also in German"
       }
     },
     {
@@ -18523,16 +21286,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-anhalt.de/en/study/orientation/degree-programs/detail/photovoltaics-engineering-science-master-of-science.html",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's degree (at least 7 semesters/210 credits suggested by third-party sources) in electrical engineering, electrical and information engineering, physics, engineering physics, materials science or similar",
-          "qualifying_degree": "Bachelor's graduates in electrical engineering, physics, engineering physics, materials science, or similar; applicants with knowledge gaps may need bridging modules of up to 30 ECTS"
+          "qualifying_degree": "Bachelor's graduates in electrical engineering, physics, engineering physics, materials science, or similar; applicants with knowledge gaps may need bridging modules of up to 30 ECTS",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering, electrical/information engineering, physics, engineering physics, materials science, or similar; 210 ECTS/7 semesters",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Sources conflict: IELTS 6.0 (with TOEFL iBT 90 or B2-level alternative) cited by one source, IELTS 6.5 by another; graduation from English-medium institution accepted as alternative"
+          "ielts": "Sources conflict: IELTS 6.0 (with TOEFL iBT 90 or B2-level alternative) cited by one source, IELTS 6.5 by another; graduation from English-medium institution accepted as alternative",
+          "toefl_ibt": "TOEFL iBT (since 2026): listed as 4.5 overall and per section (likely page error)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required (helpful for daily life; German for Professional Practice I/II as credited elective)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Summer intake application window: 15 September to 15 January (per official page); third-party listing gives conflicting 15 Jan/15 Jul dates - confirm with university"
+          "winter_deadline_non_eu": "Summer intake application window: 15 September to 15 January (per official page); third-party listing gives conflicting 15 Jan/15 Jul dates - confirm with university",
+          "portal": "International applicants apply through uni-assist; university offers a FREE informal pre-check before paying uni-assist fee (email mpv@hs-anhalt.de before deadline)",
+          "summer_deadline": "15 September to 15 January (all countries)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No tuition fee (confirmed free); only standard semester contribution"
+          "tuition_non_eu": "No tuition fee (confirmed free); only standard semester contribution",
+          "semester_contribution_fee": "322.80 EUR from winter 2026 (96 EUR admin + 226.80 EUR regional bus/train semester ticket)",
+          "estimated_cost_of_living": "University cafeteria meal ~4 EUR; dormitory 250-320 EUR/month; health insurance 140 EUR/month",
+          "total_cost_per_semester": "No tuition fee (confirmed free), only standard semester contribution; conflicting reports on uni-assist application fee (~EUR 75 per one aggregator vs 'no fee' per another) - unresolved"
         },
         "exact_admission_regulations": "Fully taught in English, 3 semesters; uni-assist required for applications; motivation letter should explain choice of program/university",
         "deep_recheck": {
@@ -18559,7 +21336,12 @@ const DATABASE = {
             }
           ],
           "notes": "Could not directly fetch official page (404 error on provided URL); relied on search snippets describing official page content. Recommend manual re-verification of exact URL."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Cooperation with Fraunhofer Centre for Silicon Photovoltaics (CSP), Halle (Saale), and regional industry partners",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -18630,16 +21412,30 @@ const DATABASE = {
         "official_source_url": "https://www.unikims.com/master/renewable-energy-and-energy-efficiency/ (redirected from unikims.de/remena)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not specified; academic focus on STEM-related degree with at least 125 CP in relevant subjects, incl. 16 CP higher mathematics/statistics and 10 CP management/economics",
-          "qualifying_degree": "Working professionals with STEM-related degree, at least 1 year of professional work experience, and proof of part-time status (20+ hrs/week other responsibilities, e.g. job, maternity leave, caregiving)"
+          "qualifying_degree": "Working professionals with STEM-related degree, at least 1 year of professional work experience, and proof of part-time status (20+ hrs/week other responsibilities, e.g. job, maternity leave, caregiving)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering, natural sciences, mathematics, computer science, or law/business/social sciences with 10 credits quantitative",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS (Academic) overall band 6.0 minimum, or TOEFL iBT 90 minimum; German applicants need B2-level English (CEFR); exemptions for nationals/degree holders from USA, UK, Canada, Ireland, New Zealand, Australia"
+          "ielts": "IELTS (Academic) overall band 6.0 minimum, or TOEFL iBT 90 minimum; German applicants need B2-level English (CEFR); exemptions for nationals/degree holders from USA, UK, Canada, Ireland, New Zealand, Australia",
+          "toefl_ibt": "TOEFL Essentials: 8 overall, 8 in each of reading/listening/speaking/writing",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Early Bird I: Dec 1, 2026; non-EU final: June 1; EU final: Aug 31; study start: Oct 1, 2027"
+          "winter_deadline_non_eu": "Early Bird I: Dec 1, 2026; non-EU final: June 1; EU final: Aug 31; study start: Oct 1, 2027",
+          "portal": "German-degree holders use UNIKIMS Portal; international-degree holders use uni-assist",
+          "summer_deadline": "15 January (start March, Kassel)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 30,000 total; application fee EUR 50; Early Bird I EUR 3,500 (Dec 1), Early Bird II EUR 3,000 (Feb 1), Early Bird III EUR 1,000 (Apr 1); VDI Scholarship EUR 5,000 (Apr 1)"
+          "tuition_non_eu": "EUR 30,000 total; application fee EUR 50; Early Bird I EUR 3,500 (Dec 1), Early Bird II EUR 3,000 (Feb 1), Early Bird III EUR 1,000 (Apr 1); VDI Scholarship EUR 5,000 (Apr 1)",
+          "semester_contribution_fee": "About 396 EUR (2026 summer semester); covers free public transport and reduced refectory/cafeteria prices",
+          "estimated_cost_of_living": "950 to 1,100 EUR per month in Kassel or Witzenhausen, covering accommodation, food, health insurance, books, misc.",
+          "total_cost_per_semester": "EUR 10,000 total, or EUR 2,500 per semester"
         },
         "exact_admission_regulations": "Note: this page appears to describe KIT/Cambridge-affiliated MME-TIME-style program content nearly identical to entries 4757/4875 - possible content overlap/mislabeling on aggregator-redirected page; verify REMENA-specific details directly with University of Kassel/unikims",
         "deep_recheck": {
@@ -18678,7 +21474,12 @@ const DATABASE = {
             }
           ],
           "notes": "IMPORTANT: current_official_data for this entry was entirely wrong - it described a different program (MME-TIME/KIT-Cambridge style) rather than REMENA. This fetch corrects the record with REMENA's actual, distinct admission/tuition/curriculum details."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, 24 months overall",
+        "faculty_institute": "Faculty of Electrical Engineering / Computer Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -18749,16 +21550,30 @@ const DATABASE = {
         "official_source_url": "Not found (rohstoffe.rwth-aachen.de unreachable; closest found: https://www.rohstoffe.rwth-aachen.de/cms/rohstoffe-und-entsorgungstechnik/studium/beratung/nachhaltige-rohstoff-und-energieversorg/~rlue/faq-nachhaltige-rohstoff-und-energiever/?lidx=1 via search snippet, not fetched)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Proven achievements must be comparable to Bachelor's programmes in raw materials engineering, sustainable raw materials and energy supply, or applied geosciences/georesource management at RWTH; Repository Safety specialisation requires at least 75 CP including 55 CP engineering fundamentals (math, mechanics, chemistry, electrical engineering)"
+          "qualifying_degree": "Proven achievements must be comparable to Bachelor's programmes in raw materials engineering, sustainable raw materials and energy supply, or applied geosciences/georesource management at RWTH; Repository Safety specialisation requires at least 75 CP including 55 CP engineering fundamentals (math, mechanics, chemistry, electrical engineering)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "75 CP total: 55 CP engineering fundamentals, 20 CP technical basics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "English proficiency required (per DAAD-aligned description); no specific score found via official site"
+          "ielts": "English proficiency required (per DAAD-aligned description); no specific score found via official site",
+          "toefl_ibt": "TOEFL iBT (before 2026): 90 total, Reading 20, Listening 20, Speaking 30, Writing 20",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Not confirmed; official RWTH page for this specific specialisation remains unreachable",
+          "summer_deadline": "EU: 15 September-15 January; Non-EU: 1 May-1 September",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "About 300 EUR per semester, including public transport semester ticket; no special fee for international students",
+          "estimated_cost_of_living": "Not given; links to RWTH and Aachen cost-of-living resources",
+          "total_cost_per_semester": "Not found"
         },
         "exact_admission_regulations": "No formal admission restriction (NC-free) but prior knowledge sufficiency is checked per RWTH FAQ; specifics should be confirmed via rohstoffe.rwth-aachen.de FAQ page directly",
         "deep_recheck": {
@@ -18778,7 +21593,12 @@ const DATABASE = {
           "newly_found_info": "No significant new confirmed info beyond prior partial data; RWTH FAQ page (rohstoffe.rwth-aachen.de) confirms general admission is NC-free but requires prior-knowledge check - consistent with existing data",
           "corrections": [],
           "notes": "Could not reach official program page for Repository Safety specialisation; this entry remains largely unverified. Recommend a dedicated follow-up search/fetch attempt on rohstoffe.rwth-aachen.de directly."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Fachgruppe für Rohstoffe und Entsorgungstechnik",
+        "intake_semester": "Winter",
+        "teaching_language": "English (courses and thesis); some additional subjects may be in German"
       }
     },
     {
@@ -18849,16 +21669,30 @@ const DATABASE = {
         "official_source_url": "Not found via official site (RWTH's own page for this joint program was not locatable; related joint-partner page at tu-dresden.de/bu/studium found but is TU Dresden's side of the joint IITM/RWTH/TUD program)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Joint master's program between TU Dresden, RWTH Aachen, and IIT Madras on Water Security and Global Change; basic requirement likely a recognized university degree plus English proficiency (by analogy to RWTH's related Sustainable Management - Water and Energy MSc)"
+          "qualifying_degree": "Joint master's program between TU Dresden, RWTH Aachen, and IIT Madras on Water Security and Global Change; basic requirement likely a recognized university degree plus English proficiency (by analogy to RWTH's related Sustainable Management - Water and Energy MSc)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Civil, mechanical, environmental, hydro science, water resources, computational, agricultural/landscape engineering; 180 ECTS",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (before 2026): total 88, Reading 21, Listening 20, Speaking 22, Writing 21",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Not confirmed exactly; TU Dresden pages reference application deadlines but exact portal unclear",
+          "summer_deadline": "No summer intake",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "IITM: 36,400 INR/semester; TUD: 287 EUR/semester; RWTH: 358 EUR/semester; total 645 EUR + 36,400 INR per semester",
+          "estimated_cost_of_living": "About 850 EUR per month, covering rent, food, insurance, basic expenses",
+          "total_cost_per_semester": "Not found"
         },
         "exact_admission_regulations": "Official examination regulation document exists ('Studiengangspezifische Pruefungsordnung fuer den gemeinsamen Masterstudiengang Water Security and Global Change') but admission section not retrieved; recommend checking RWTH Faculty of Civil Engineering page directly",
         "deep_recheck": {
@@ -18885,7 +21719,12 @@ const DATABASE = {
             }
           ],
           "notes": "Still no official RWTH-side page found for this joint program; TU Dresden appears to be the lead administrative partner. Recommend checking tu-dresden.de/bu/studium pages directly for current application cycle."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Civil Engineering, Institute of Hydraulic Engineering and Water Resources Management; cooperation with Indian Institute of Technology Madras (IITM) and Dresden University of Technology (TUD); associated partners UNU-FLORES and AIT Bangkok",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -18971,16 +21810,30 @@ const DATABASE = {
         "official_source_url": "https://tu-dresden.de/ing/elektrotechnik/studium/studieren-an-der-fakultaet/studiengaenge/masters-programme-nanoelectronic-systems?set_language=en",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Not stated on page beyond general program description"
+          "qualifying_degree": "Not stated on page beyond general program description",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering, information technology, physics, or similar",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "German/EU-degree holders (German or EU/non-EU nationals with German degree) use selma portal; non-German graduates use uni-assist; repeat applicants use TUD online portal",
+          "summer_deadline": "No summer intake (winter only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "About 340 EUR per semester (6 months); includes Deutschlandticket, free 30-min bike rental, cafeteria concessions, cultural/leisure discounts",
+          "estimated_cost_of_living": "About 850 EUR per month, including rent, food, insurance, basic expenses",
+          "total_cost_per_semester": "Not mentioned on page"
         },
         "exact_admission_regulations": "Taught in English; 2 years (4 semesters); covers 'More Moore', 'More than Moore', and 'Beyond Moore' concepts; page links to separate 'Prospective Students' and 'Application' sections for admission requirements/deadlines, which were not retrieved",
         "deep_recheck": {
@@ -19008,7 +21861,12 @@ const DATABASE = {
             }
           ],
           "notes": "Good example of subpage-only information (the 'bewerbung' link) revealing uni-assist/deadline details completely absent from the main program page - validates the user's concern about needing to check subpages."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -19079,16 +21937,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-siegen.de/en/study/master/nanoscience-and-nanotechnology",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's final grade generally 2.5 or better on German grading scale; degree equivalence checked by examination board",
-          "qualifying_degree": "Bachelor's degree holders in a related field; DAAD-EPOS scholarship track aimed at experts/executives from developing countries with university degree and 2+ years relevant career experience"
+          "qualifying_degree": "Bachelor's degree holders in a related field; DAAD-EPOS scholarship track aimed at experts/executives from developing countries with university degree and 2+ years relevant career experience",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Physics, Chemistry, Nanoscience, or Electrical Engineering",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "B2 level English required: native-speaker status, IELTS 6.5 (min 6.0 per section), TOEFL iBT 85+, Cambridge FCE, or equivalent (e.g. PTE); certificate must be no more than 2 years old (1 year for DAAD-EPOS applicants)"
+          "ielts": "B2 level English required: native-speaker status, IELTS 6.5 (min 6.0 per section), TOEFL iBT 85+, Cambridge FCE, or equivalent (e.g. PTE); certificate must be no more than 2 years old (1 year for DAAD-EPOS applicants)",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "Own online portal (unisono.uni-siegen.de); postal mail and email NOT accepted; application period 1 Jan-30 Apr",
+          "summer_deadline": "No summer intake (winter only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not mentioned on page"
+          "tuition_non_eu": "Not mentioned on page",
+          "semester_contribution_fee": "About 372 EUR per semester; covers public transport ticket valid 6 months across Germany, social services contribution, student activities",
+          "estimated_cost_of_living": "800 to 1,000 EUR per month, including rent, health insurance, food, clothing, learning materials, phone/internet, travel, entertainment, sports",
+          "total_cost_per_semester": "Application is free of charge; no tuition/semester fee info given for this specific program on this page"
         },
         "exact_admission_regulations": "German Abitur with proven B2 English also accepted for EU applicants; recognized institution required, checked by examination board",
         "deep_recheck": {
@@ -19121,7 +21993,12 @@ const DATABASE = {
             }
           ],
           "notes": "GPA correction: official page states 2.7, not 2.5 as in current data - likely confused with the Bauhaus-Weimar NHRE program's 2.5 threshold (both programs share similar DAAD-EPOS-style boilerplate language)."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (2 years, 120 ECTS)",
+        "faculty_institute": "Physics, Chemistry, and Electrical Engineering departments (joint programme)",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -19192,16 +22069,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-weimar.de/en/civil-and-environmental-engineering/studies/master-degree-programmes/nhre/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's final grade generally 2.5 or better on the German grading scale (examination board checks equivalence for international degrees)",
-          "qualifying_degree": "Bachelor's degree in Civil Engineering or related field; DAAD-EPOS scholarship track for experts/executives from developing countries with degree + 2 years relevant career experience"
+          "qualifying_degree": "Bachelor's degree in Civil Engineering or related field; DAAD-EPOS scholarship track for experts/executives from developing countries with degree + 2 years relevant career experience",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Civil engineering or equivalent",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "B2 level English required: native-speaker status, IELTS 6.5 (min 6.0 per section), TOEFL iBT 85+, Cambridge FCE, or equivalent (PTE); German Abitur with B2 English accepted for EU applicants; certificate max 2 years old (1 year for DAAD-EPOS)"
+          "ielts": "B2 level English required: native-speaker status, IELTS 6.5 (min 6.0 per section), TOEFL iBT 85+, Cambridge FCE, or equivalent (PTE); German Abitur with B2 English accepted for EU applicants; certificate max 2 years old (1 year for DAAD-EPOS)",
+          "toefl_ibt": "TOEFL iBT (before 2026): 85 overall, Reading 23, Listening 22, Speaking 22, Writing 23",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter semester general: up to 30 Sept 2027; EU Bachelor's holders: portal opens 1 April, deadline 30 Sept; international (non-EPOS): portal opens 1 April, deadline 15 July via uni-assist; DAAD-EPOS: portal opens 1 July, deadline 15 Oct of prior year"
+          "winter_deadline_non_eu": "Winter semester general: up to 30 Sept 2027; EU Bachelor's holders: portal opens 1 April, deadline 30 Sept; international (non-EPOS): portal opens 1 April, deadline 15 July via uni-assist; DAAD-EPOS: portal opens 1 July, deadline 15 Oct of prior year",
+          "portal": "EU Bachelor's: campus portal, opens 1 Apr, deadline 30 Sep. International (non-DAAD-EPOS): uni-assist ONLY, opens 1 Apr, deadline 15 Jul. International with DAAD-EPOS: opens 1 Jul, deadline 15 Oct of prior year, admission for winter term following year",
+          "summer_deadline": "No summer intake (winter only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not mentioned on page"
+          "tuition_non_eu": "Not mentioned on page",
+          "semester_contribution_fee": "About 340 EUR per semester, funds student services/student council, includes Deutschlandticket, discounts at cafeteria/theatre/museums, sports complex access; student ID card 20 EUR one-time fee",
+          "estimated_cost_of_living": "About 1,000 EUR total: health insurance ~160 EUR, books/stationery ~70 EUR, rent ~350 EUR, meals ~220 EUR, other ~200 EUR; non-EU proof of funds 992 EUR/month",
+          "total_cost_per_semester": "Not mentioned on page"
         },
         "exact_admission_regulations": "Entrance examination included in admission procedure; Chinese/Vietnamese/Indian applicants need APS certificate; must submit Bachelor's thesis or equivalent project if not on transcript; DAAD-EPOS admission letters issued regardless of scholarship outcome",
         "deep_recheck": {
@@ -19221,7 +22112,12 @@ const DATABASE = {
           "newly_found_info": "Found exact TOEFL institution code (8968) and precise IELTS section-score minimum (6.0 each section, 6.5 overall) not previously fully detailed; confirmed program content/curriculum list",
           "corrections": [],
           "notes": "Current data for this entry was largely accurate already - confirms most details, adds exact TOEFL code and curriculum topic list."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time (part-time possible on request)",
+        "faculty_institute": "Faculty of Civil and Environmental Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English (German elective offered; DAAD-EPOS scholarship holders get German classes starting 2 months before semester)"
       }
     },
     {
@@ -19292,16 +22188,30 @@ const DATABASE = {
         "official_source_url": "Not found (official Hof University program page not located; best third-party sources: mygermanuniversity.com, expatrio.com, collegedunia.com)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's in engineering sciences, min 180 ECTS; one source cites recommended 55% or CGPA 5.5/10 (unverified, third-party)",
-          "qualifying_degree": "Engineering Bachelor's graduates with at least 1 year of relevant work experience"
+          "qualifying_degree": "Engineering Bachelor's graduates with at least 1 year of relevant work experience",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering sciences, 180 ECTS",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "IELTS 6.5 cited by multiple third-party sources (TOEFL iBT 90 also mentioned); one source states CEFR B2 with no IELTS figure - unverified via official site"
+          "ielts": "IELTS 6.5 cited by multiple third-party sources (TOEFL iBT 90 also mentioned); one source states CEFR B2 with no IELTS figure - unverified via official site",
+          "toefl_ibt": "TOEFL iBT: 90 (before 2026)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 required (telc Deutsch A1, ÖSD A1, or Goethe-Zertifikat A1); B1 needed to start internship; German taught during programme"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Cited (unverified): WiSe application period April 15 - May 31; SuSe Nov 5 - Nov 30"
+          "winter_deadline_non_eu": "Cited (unverified): WiSe application period April 15 - May 31; SuSe Nov 5 - Nov 30",
+          "portal": "Unconfirmed; aggregators suggest direct application to Hof University",
+          "summer_deadline": "5 November to 30 November",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Conflicting figures across sources: EUR 3,300/semester (EUR 13,200 total over 4 semesters) vs. EUR 6,600/year - not confirmed via official site"
+          "tuition_non_eu": "Conflicting figures across sources: EUR 3,300/semester (EUR 13,200 total over 4 semesters) vs. EUR 6,600/year - not confirmed via official site",
+          "semester_contribution_fee": "Administrative fee about 150 EUR per semester",
+          "estimated_cost_of_living": "Roughly 800-1,000 EUR/month: accommodation 350-550 EUR, mandatory health insurance ~120 EUR, food/personal expenses at least 350 EUR",
+          "total_cost_per_semester": "Conflicting: EUR 3,300/semester (EUR 13,200 over 4 semesters) cited by several; EUR 3,150/semester or EUR 6,600/year cited by others - unresolved, matches existing uncertainty in current data"
         },
         "exact_admission_regulations": "One source claims teaching language is German, conflicting with others stating English - this inconsistency could not be resolved without reaching the official Hof University page; recommend direct verification",
         "deep_recheck": {
@@ -19328,7 +22238,12 @@ const DATABASE = {
             }
           ],
           "notes": "Could not locate or fetch an official Hof University page for this program despite repeated attempts; this remains the weakest-verified entry in this batch. Recommend direct outreach to Hof University's international office."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Not specified",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -19399,16 +22314,30 @@ const DATABASE = {
         "official_source_url": "Not found (hs-ansbach.de homepage does not list a 'Polymer Technology and Management' program; closest matches found at other universities, e.g. Hochschule Aalen's 'Polymer Technology' M.Sc.)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site",
-          "qualifying_degree": "Not found via official site"
+          "qualifying_degree": "Not found via official site",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering, natural sciences, or related (polymer/plastics/materials/mechanical/chemical engineering preferred)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site"
+          "ielts": "Not found via official site",
+          "toefl_ibt": "TOEFL iBT (before 2026): 84; TOEFL iBT (since 2026): 4 (possible page error)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 required (Goethe-Zertifikat A1, telc Deutsch A1, or ÖSD A1)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site"
+          "winter_deadline_non_eu": "Not found via official site",
+          "portal": "N/A",
+          "summer_deadline": "1-30 November, all applicants",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site"
+          "tuition_non_eu": "Not found via official site",
+          "semester_contribution_fee": "82 EUR, contents not specified",
+          "estimated_cost_of_living": "Not listed",
+          "total_cost_per_semester": "N/A"
         },
         "exact_admission_regulations": "Program title/name may not match current Hochschule Ansbach offerings exactly - search found only an 'International Product and Service Management' master and a bachelor's 'Angewandte Kunststofftechnik' at Ansbach's Weissenburg site; could be a renamed/discontinued program or DAAD listing may be outdated. Recommend contacting Hochschule Ansbach directly or checking hs-ansbach.de 'Kunststoff'/'Polymer' program pages",
         "deep_recheck": {
@@ -19428,7 +22357,12 @@ const DATABASE = {
           "newly_found_info": "CONFIRMED (not newly found, but strongly reinforced): Hochschule Ansbach has NO master's program called 'Polymer Technology and Management'. Ansbach's only polymer-related offering is a part-time Bachelor's 'Angewandte Kunststofftechnik' (B.Eng.) at its Weissenburg/Bavarian Polymer Campus site. A job posting shows Ansbach is hiring an Endowed Professor (W2) of Polymer Engineering starting March 2027, suggesting the polymer master's may be a FUTURE/planned program not yet live, or the DAAD listing is outdated/premature. Johannes Kepler University Linz (Austria, NOT Germany) has a similarly-named 'Management in Polymer Technologies (MPT)' master's, and Hochschule Aalen has an unrelated 'Polymer Technology' M.Sc. - likely sources of the DAAD listing's confusion.",
           "corrections": [],
           "notes": "Recommend flagging this DAAD entry as likely erroneous/premature/mislabeled and contacting Hochschule Ansbach's Faculty of Technology directly to confirm whether this program will launch (possibly timed to the new W2 Polymer Engineering professorship starting March 2027) or should be removed/corrected to reference a different institution."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time, hybrid",
+        "faculty_institute": "Faculty of Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -19499,16 +22433,30 @@ const DATABASE = {
         "official_source_url": "https://www.b-tu.de/en/powerengineering-ms",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on page",
-          "qualifying_degree": "Bachelor's in Power Engineering (electrical or thermal) or related engineering field (or equivalent), with strong math/physics/CS/basic electrical or mechanical engineering knowledge; branch-specific specialized knowledge needed depending on track (Electrical Power Engineering vs. Power Generation from Fossil and Renewable Fuels)"
+          "qualifying_degree": "Bachelor's in Power Engineering (electrical or thermal) or related engineering field (or equivalent), with strong math/physics/CS/basic electrical or mechanical engineering knowledge; branch-specific specialized knowledge needed depending on track (Electrical Power Engineering vs. Power Generation from Fossil and Renewable Fuels)",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Power engineering-related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No specific IELTS score; requires a certificate of English proficiency meeting university language requirements (medium-of-instruction certificates and expired tests not accepted)"
+          "ielts": "No specific IELTS score; requires a certificate of English proficiency meeting university language requirements (medium-of-instruction certificates and expired tests not accepted)",
+          "toefl_ibt": "TOEFL iBT (before 2026): 79",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not stated; program starts winter semester"
+          "winter_deadline_non_eu": "Not stated; program starts winter semester",
+          "portal": "Apply via BTU's 'Apply now'/master programmes application page; admission is 'without admission limits' (no NC)",
+          "summer_deadline": "No summer intake",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "No separate tuition; semester fee of EUR 391.80"
+          "tuition_non_eu": "No separate tuition; semester fee of EUR 391.80",
+          "semester_contribution_fee": "391.80 EUR for winter semester 2026/27; covers student services, student council, semester ticket (incl. Deutschlandticket)",
+          "estimated_cost_of_living": "About 780 to 1,000 EUR/month: rent incl. utilities 250-450 EUR, groceries ~160-180 EUR, health insurance/medical ~145 EUR, misc. 170-220 EUR",
+          "total_cost_per_semester": "No separate tuition; semester fee of EUR 391.80 (confirmed)"
         },
         "exact_admission_regulations": "Admission without limits (no NC); no pre-study internship required; taught in English, full-time; double-degree option available; ASIIN accredited",
         "deep_recheck": {
@@ -19528,7 +22476,12 @@ const DATABASE = {
           "newly_found_info": "Found explicit statement that 'medium of instruction certificates' and expired language tests are NOT accepted - an important exclusion criterion not previously documented; found double-degree option and ASIIN accreditation confirmed with specific subpage links",
           "corrections": [],
           "notes": "Did not fetch the specific /admission subpage this round (budget) - recommend follow-up to confirm GPA and uni-assist/VPD status definitively, as these remain unconfirmed."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, winter semester intake only",
+        "faculty_institute": "Not specified beyond Bureau of International Studies (BIS) contact",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -19599,16 +22552,30 @@ const DATABASE = {
         "official_source_url": "https://www.haw-landshut.de/en/further-education/offers/masters-degree-programmes/process-management-and-resource-efficiency",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated; separate 'Admission requirements' subpage not retrieved",
-          "qualifying_degree": "Specialists and managers aiming to design sustainable value creation processes focused on reducing waste and increasing resource efficiency; part-time/extra-occupational format"
+          "qualifying_degree": "Specialists and managers aiming to design sustainable value creation processes focused on reducing waste and increasing resource efficiency; part-time/extra-occupational format",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Generally 210 ECTS or equivalent; 1 year qualified professional practice",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not stated"
         },
         "language_requirements": {
-          "ielts": "Not stated; taught in English but specific proficiency level not given on page"
+          "ielts": "Not stated; taught in English but specific proficiency level not given on page",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "15 April 2027 to 15 July 2027, for winter semester start"
+          "winter_deadline_non_eu": "15 April 2027 to 15 July 2027, for winter semester start",
+          "portal": "Apply via Primuss application portal (linked via 'Apply now' button)",
+          "summer_deadline": "Not stated (winter semester start only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 19,975, payable in five installments"
+          "tuition_non_eu": "EUR 19,975, payable in five installments",
+          "semester_contribution_fee": "Student union fee approx. 82 EUR per semester",
+          "estimated_cost_of_living": "Not quantified; accommodation and meals paid independently",
+          "total_cost_per_semester": "EUR 19,975 total, payable in five installments (confirmed, matches current data)"
         },
         "exact_admission_regulations": "Open admission, no numerus clausus; normal duration 5 semesters, 90 ECTS; accredited, qualifies for doctoral studies; applications via primuss portal",
         "deep_recheck": {
@@ -19628,7 +22595,12 @@ const DATABASE = {
           "newly_found_info": "Found direct link to dedicated 'Admission requirements' subpage (not yet fetched) and 'Fees' subpage for fuller cost breakdown; found specific contact person (Katharina Schiebel) not previously listed",
           "corrections": [],
           "notes": "IMPORTANT: a dedicated 'Admission requirements' subpage exists at /en/further-education/offers/masters-degree-programmes/process-management-and-resource-efficiency/admission-requirements but was NOT fetched due to task scope/budget constraints in this session. This is exactly the kind of subpage the user flagged as a risk area (cf. FH Dortmund VPD case) - strongly recommend a follow-up fetch of this specific URL to check for GPA cutoff, uni-assist/VPD requirement, and language test scores before finalizing this entry."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "5 semesters, part-time (study alongside work), more than 50% online",
+        "faculty_institute": "Further Education unit; practical work at TZ PULS, Dingolfing",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -19699,16 +22671,30 @@ const DATABASE = {
         "official_source_url": "https://www.hectorschool.kit.edu/POM.php",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on this page; refers to separate admission requirements page",
-          "qualifying_degree": "Future engineering executives in production, logistics, or plant engineering, typically from manufacturing, process industry, logistics suppliers, entrepreneurs, and business successors; requires first academic degree (Bachelor's, Master's, or Diploma) plus at least 2 years professional experience"
+          "qualifying_degree": "Future engineering executives in production, logistics, or plant engineering, typically from manufacturing, process industry, logistics suppliers, entrepreneurs, and business successors; requires first academic degree (Bachelor's, Master's, or Diploma) plus at least 2 years professional experience",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering, natural sciences, information science, or economics (180/210 ECTS)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No specific score named; general English language proficiency required"
+          "ielts": "No specific score named; general English language proficiency required",
+          "toefl_ibt": "Not listed",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "None; rolling admissions, program starts every October"
+          "winter_deadline_non_eu": "None; rolling admissions, program starts every October",
+          "portal": "Own portal at hectorschool.applicationportal.org, rolling admissions, program starts every October",
+          "summer_deadline": "Not listed",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 36,000 total"
+          "tuition_non_eu": "EUR 36,000 total",
+          "semester_contribution_fee": "Approx. 150 EUR per semester, contents not specified",
+          "estimated_cost_of_living": "Approx. 1,000 EUR per month",
+          "total_cost_per_semester": "EUR 36,000 total (confirmed)"
         },
         "exact_admission_regulations": "Strongly recommended preparatory crash course 'Probability and Statistics' (mid-Dec to mid-Jan) especially for those with weak probability background; aaq accredited; admission statutes published as German-language PDF",
         "deep_recheck": {
@@ -19736,7 +22722,12 @@ const DATABASE = {
             }
           ],
           "notes": "Sibling program to 4554 (HECTOR School) - shares identical admission/language/tuition structure, differs mainly in curriculum content and location of one off-campus module."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, part-time (combined with work)",
+        "faculty_institute": "HECTOR School, Technology Business School",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -19807,16 +22798,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/quantum-engineering/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No numeric GPA/grade threshold stated",
-          "qualifying_degree": "Graduates of related degree (e.g., Electrical Engineering and Information Technology B.Sc. or Physics B.Sc., or comparable) including at least 20 ECTS mathematics, 8 ECTS quantum mechanics, and 5 ECTS wave optics or electrodynamics; recommended traits: experimental/practical orientation, interest in applied physics, strong math skills, interdisciplinary mindset"
+          "qualifying_degree": "Graduates of related degree (e.g., Electrical Engineering and Information Technology B.Sc. or Physics B.Sc., or comparable) including at least 20 ECTS mathematics, 8 ECTS quantum mechanics, and 5 ECTS wave optics or electrodynamics; recommended traits: experimental/practical orientation, interest in applied physics, strong math skills, interdisciplinary mindset",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Physics, optical technologies, or engineering science; 20 ECTS math, 10 ECTS quantum mechanics, 5 ECTS wave optics/electrodynamics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No IELTS score specified; international applicants need English C1 level; German applicants need no German-language certificate"
+          "ielts": "No IELTS score specified; international applicants need English C1 level; German applicants need no German-language certificate",
+          "toefl_ibt": "TOEFL iBT Home Edition (since 2026): listed as 5 overall and per section; TOEFL iBT (since 2026): listed as 5 overall and per section (likely page error, verify with university)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "German/EU first-year students: 1 June-15 July (winter) / 1 Dec-15 Jan (summer); Non-EU first-year students: 15 April-31 May (winter) / 15 Oct-30 Nov prior year (summer), VPD from uni-assist required"
+          "winter_deadline_non_eu": "German/EU first-year students: 1 June-15 July (winter) / 1 Dec-15 Jan (summer); Non-EU first-year students: 15 April-31 May (winter) / 15 Oct-30 Nov prior year (summer), VPD from uni-assist required",
+          "portal": "Application via uni-hannover.de general application page; VPD for non-EU applicants via uni-assist",
+          "summer_deadline": "Non-EU: 15 October-30 November; EU: 1 December-15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not mentioned on page"
+          "tuition_non_eu": "Not mentioned on page",
+          "semester_contribution_fee": "About 440 EUR; covers Studentenwerk, AStA, semester ticket, administrative costs for Lower Saxony",
+          "estimated_cost_of_living": "On average about 965-1,106 EUR per month (guidance only; varies by programme)",
+          "total_cost_per_semester": "Not mentioned on page"
         },
         "exact_admission_regulations": "Admission unrestricted - all qualified applicants admitted; taught in English; offered jointly with TU Braunschweig (some courses held there); part-time study and study-abroad stay optional",
         "deep_recheck": {
@@ -19836,7 +22841,12 @@ const DATABASE = {
           "newly_found_info": "Found full curriculum module breakdown (compulsory/elective physics and EE modules, practical course, project/internship structure) not previously documented; confirmed joint offering with TU Braunschweig for EE elective modules specifically",
           "corrections": [],
           "notes": "This entry's current_official_data was already accurate and had correctly flagged the VPD requirement - this fetch reinforces/confirms it was correct, and adds full curriculum detail. Good example of data that was already correctly capturing the VPD gap the user is concerned about."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Cooperation with Technische Universität Braunschweig",
+        "intake_semester": "Winter",
+        "teaching_language": "English; Master's thesis can be written in English or German"
       }
     },
     {
@@ -19907,16 +22917,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-siegen.de/en/study/master/quantum-science",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on the page.",
-          "qualifying_degree": "Qualified bachelor's degree in physics, mathematics, computer science, electrical engineering, or similar scientific subject; equivalence assessed by exam board; also open to students without a physics bachelor's."
+          "qualifying_degree": "Qualified bachelor's degree in physics, mathematics, computer science, electrical engineering, or similar scientific subject; equivalence assessed by exam board; also open to students without a physics bachelor's.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "BSc in Physics, Mathematics, Computer Science, or Electrical Engineering",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No specific test/score listed; page only requires 'sufficient command of English.'"
+          "ielts": "No specific test/score listed; page only requires 'sufficient command of English.'",
+          "toefl_ibt": "iBT (before 2026): 88 total, Reading 18, Listening 17, Speaking 20, Writing 17",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter (most applicants): 1 Apr - 30 Sep; Summer (most applicants): 1 Oct - 30 Mar; Winter (non-EU qualification): 1 Jan - 30 Apr; Summer (non-EU qualification): 1 Aug - 31 Oct."
+          "winter_deadline_non_eu": "Winter (most applicants): 1 Apr - 30 Sep; Summer (most applicants): 1 Oct - 30 Mar; Winter (non-EU qualification): 1 Jan - 30 Apr; Summer (non-EU qualification): 1 Aug - 31 Oct.",
+          "portal": "Apply via Siegen's unisono application portal / 'Apply now' link on program page",
+          "summer_deadline": "General applicants: 1 August-31 October of preceding year; EU applicants: 1 October-31 March",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not mentioned on the page."
+          "tuition_non_eu": "Not mentioned on the page.",
+          "semester_contribution_fee": "About 372 EUR per semester, covering a 6-month public transport ticket valid across Germany, a social services contribution, and student activities.",
+          "estimated_cost_of_living": "800-1,000 EUR per month, covering rent, health insurance, food, clothing, learning materials, phone/internet, travel, entertainment, and sports.",
+          "total_cost_per_semester": "Not mentioned"
         },
         "exact_admission_regulations": "Separate application required; international admission requirements on separate page; equivalence questions go to physics examination office.",
         "deep_recheck": {
@@ -19936,7 +22960,12 @@ const DATABASE = {
           "newly_found_info": "Found direct admission subpage link (uni-siegen.de/nt/quantumscience/admission.html) and application portal link (unisono.uni-siegen.de) and examination regulation PDF link not previously noted.",
           "corrections": [],
           "notes": "Main page confirmed as before; separate admission subpage exists but was not fetched in this pass due to time constraints - recommend follow-up fetch for GPA/IELTS specifics."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Department of Physics",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -20007,16 +23036,30 @@ const DATABASE = {
         "official_source_url": "Not found (rse.rwth-aachen.de unreachable due to certificate error; official academy.rwth-aachen.de page not located for this specific program)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site.",
-          "qualifying_degree": "First university degree providing necessary engineering background per exam regulations; credit point limits apply for additional requirements."
+          "qualifying_degree": "First university degree providing necessary engineering background per exam regulations; credit point limits apply for additional requirements.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering background per ECTS breakdown above",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Required; EU/EEA nationals exempt"
         },
         "language_requirements": {
-          "ielts": "IELTS Academic required; third-party sources suggest ~6.5 overall, 6.0 per component (unconfirmed on official page)."
+          "ielts": "IELTS Academic required; third-party sources suggest ~6.5 overall, 6.0 per component (unconfirmed on official page).",
+          "toefl_ibt": "iBT 90 (before 2026)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Reported (unofficial): Winter semester 1 Mar/15 Jul; Summer semester 1 Sep/15 Jan."
+          "winter_deadline_non_eu": "Reported (unofficial): Winter semester 1 Mar/15 Jul; Summer semester 1 Sep/15 Jan.",
+          "portal": "Unconfirmed; RSE is a specialization within the 'Transport Engineering and Mobility' M.Sc.",
+          "summer_deadline": "Non-EU: until 1 September; EU: until 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Conflicting third-party figures: possibly free, or 22,000 EUR if run via RWTH International Academy (unconfirmed)."
+          "tuition_non_eu": "Conflicting third-party figures: possibly free, or 22,000 EUR if run via RWTH International Academy (unconfirmed).",
+          "semester_contribution_fee": "About 358 EUR per semester (social contribution to student services)",
+          "estimated_cost_of_living": "About 1,132 EUR per month, including the semester contribution.",
+          "total_cost_per_semester": "Not found officially"
         },
         "exact_admission_regulations": "Official program site (rse.rwth-aachen.de) could not be fetched due to TLS certificate error; figures above are from third-party aggregators and should be verified.",
         "deep_recheck": {
@@ -20037,7 +23080,12 @@ const DATABASE = {
           "newly_found_info": "Confirmed program is a specialization track within the broader 'Transport Engineering and Mobility' Master's rather than a standalone program - this is new structural info not in current_official_data.",
           "corrections": [],
           "notes": "rse.rwth-aachen.de still has TLS certificate error, unreachable via WebFetch. academy.rwth-aachen.de does not list this program. Official source remains inaccessible; same limitation as before."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Civil Engineering (Research Center Railways)",
+        "intake_semester": "Winter",
+        "teaching_language": "English; some electives in German"
       }
     },
     {
@@ -20108,16 +23156,30 @@ const DATABASE = {
         "official_source_url": "https://www.hochschule-stralsund.de/en/reemm",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's average of at least 1.8 required for direct admission; 1.9-2.3 individually assessed (requires ~500-word motivation letter); average 2.4 or lower rejected. Also, at least 3 of 4 core subject modules must be passed with grade >=2.7 (70%).",
-          "qualifying_degree": "Completed first degree in electrical engineering, energy technology, renewable energies, mechanical engineering, physics, or related field; specific coursework in measurement technology, control engineering, electrical fundamentals, electrical machines required; variants (3- or 4-semester) depend on ECTS and internship experience."
+          "qualifying_degree": "Completed first degree in electrical engineering, energy technology, renewable energies, mechanical engineering, physics, or related field; specific coursework in measurement technology, control engineering, electrical fundamentals, electrical machines required; variants (3- or 4-semester) depend on ECTS and internship experience.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering, energy technology, renewable energies, mechanical engineering, physics, or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "B2 CEFR English proficiency required (IELTS not specifically named on official page)."
+          "ielts": "B2 CEFR English proficiency required (IELTS not specifically named on official page).",
+          "toefl_ibt": "iBT since 2026: 4 in each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Summer semester 2027: early Nov - 28 Feb 2027 (online application); uni-assist for foreign certificates: non-EU by 30 Nov 2026, EU by 28 Feb 2027."
+          "winter_deadline_non_eu": "Summer semester 2027: early Nov - 28 Feb 2027 (online application); uni-assist for foreign certificates: non-EU by 30 Nov 2026, EU by 28 Feb 2027.",
+          "portal": "Online application via university portal (e-campus); foreign certificates via uni-assist starting early October",
+          "summer_deadline": "Non-EU: by 30 November; EU: by 28 February",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not mentioned on the official page."
+          "tuition_non_eu": "Not mentioned on the official page.",
+          "semester_contribution_fee": "131 EUR first semester, 107 EUR each later semester (full-time); Erasmus+ students pay 103 EUR/semester.",
+          "estimated_cost_of_living": "Non-EU proof of financing: 992 EUR/month (11,904 EUR/year); actual estimated living costs 600-750 EUR/month.",
+          "total_cost_per_semester": "Not mentioned on page"
         },
         "exact_admission_regulations": "Admission Commission reviews applications; program taught entirely in English; applicants who haven't graduated yet can apply with current transcript.",
         "deep_recheck": {
@@ -20137,7 +23199,12 @@ const DATABASE = {
           "newly_found_info": "Full detailed curriculum by track (3-sem, 4-sem w/ and w/o internship) with module-by-module breakdown; full contact directory (programme director, academic counselling, study office); subject module grade requirement (>=2.7 in 3 of 4 core modules).",
           "corrections": [],
           "notes": "All current data confirmed; significant new curriculum and contact detail added."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 or 4 semesters (4-semester variant adds internship, starts only in summer)",
+        "faculty_institute": "Faculty of Electrical Engineering and Computer Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English only (thesis also in English)"
       }
     },
     {
@@ -20208,16 +23275,30 @@ const DATABASE = {
         "official_source_url": "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-robotic-systems-engineering",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on the page.",
-          "qualifying_degree": "Bachelor's (B.Eng./B.Tech./B.Sc.) in mechanical engineering or related field (automotive, aerospace, energy, manufacturing, production engineering); at least 12 months relevant work experience by enrollment (6 months proof at application); fundamental knowledge in engineering (60 ECTS), math/natural sciences (25 ECTS), system sciences (16 ECTS)."
+          "qualifying_degree": "Bachelor's (B.Eng./B.Tech./B.Sc.) in mechanical engineering or related field (automotive, aerospace, energy, manufacturing, production engineering); at least 12 months relevant work experience by enrollment (6 months proof at application); fundamental knowledge in engineering (60 ECTS), math/natural sciences (25 ECTS), system sciences (16 ECTS).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Mechanical engineering or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "GRE General Test: 145 Verbal, 160 Quantitative, 3 Analytical Writing, or proof of German Engineering College completion"
         },
         "language_requirements": {
-          "ielts": "Not mentioned; page only lists program language as English (no IELTS score specified)."
+          "ielts": "Not mentioned; page only lists program language as English (no IELTS score specified).",
+          "toefl_ibt": "iBT since 2026: 4.5 total (sections 4 each, per page wording, not clearly separated from IELTS)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level; assessed by test or interview"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Non-EU: 2 Dec - 1 Mar. EU/EEA, current RWTH students, German degree holders: 2 Dec - 15 Jul."
+          "winter_deadline_non_eu": "Non-EU: 2 Dec - 1 Mar. EU/EEA, current RWTH students, German degree holders: 2 Dec - 15 Jul.",
+          "portal": "No named portal; application/admission guide PDF linked; intake@academy.rwth-aachen.de for inquiries",
+          "summer_deadline": "Not found",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "24,000 EUR."
+          "tuition_non_eu": "24,000 EUR.",
+          "semester_contribution_fee": "About 300 EUR per semester (student body/social fee incl. semester ticket for NRW and South Limburg)",
+          "estimated_cost_of_living": "Minimum 900-1,000 EUR per month.",
+          "total_cost_per_semester": "Confirmed: EUR 24,000 total tuition"
         },
         "exact_admission_regulations": "Requires GRE (Verbal 145, Quant 160, Analytical Writing 3) or completion of German Engineering College (GEC), which can substitute for GRE; program starts winter semester (October).",
         "deep_recheck": {
@@ -20237,7 +23318,12 @@ const DATABASE = {
           "newly_found_info": "Full compulsory curriculum list, 3 named specialization tracks, internship/research-project alternative, and full contact/address details not previously captured.",
           "corrections": [],
           "notes": "GRE requirement (145V/160Q/3AW) and GEC alternative confirmed exactly as in current data."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     },
     {
@@ -20308,16 +23394,30 @@ const DATABASE = {
         "official_source_url": "Not found (th-deg.de/ir-m-en returned 404; official page could not be directly accessed)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site.",
-          "qualifying_degree": "Reported (unofficial): bachelor's degree in Mechatronics, Robotics, or closely related field, or equivalent qualification; admission test (online/on-site) covering math, physics, electronics, control engineering, and computer science reportedly required."
+          "qualifying_degree": "Reported (unofficial): bachelor's degree in Mechatronics, Robotics, or closely related field, or equivalent qualification; admission test (online/on-site) covering math, physics, electronics, control engineering, and computer science reportedly required.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "210 ECTS in robotics or closely related engineering field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Optional, GATE or GRE recommended for non-Lisbon Convention degree holders (home editions not accepted)"
         },
         "language_requirements": {
-          "ielts": "Unconfirmed; third-party program slide mentions B2 English certificate if not a native speaker."
+          "ielts": "Unconfirmed; third-party program slide mentions B2 English certificate if not a native speaker.",
+          "toefl_ibt": "iBT (before 2026): 72",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum at entry; A2 certificate required by end of studies"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Conflicting unofficial reports: 15 Apr - 15 Jun or 15 Apr - 15 Jul for winter; 1 Oct - 1 Dec or 15 Nov - 15 Jan for summer."
+          "winter_deadline_non_eu": "Conflicting unofficial reports: 15 Apr - 15 Jun or 15 Apr - 15 Jul for winter; 1 Oct - 1 Dec or 15 Nov - 15 Jan for summer.",
+          "portal": "Unofficial: direct online application to DIT, no uni-assist per one aggregator",
+          "summer_deadline": "15 October-1 December",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "87 EUR (summer 2027), rising to 92 EUR from winter 2027/28; application fee (non-EU/EEA) 60 EUR",
+          "estimated_cost_of_living": "About 950 EUR per month.",
+          "total_cost_per_semester": "Not found via official site"
         },
         "exact_admission_regulations": "Could not access th-deg.de/en/apply page content; recommend contacting studium-cham@th-deg.de to confirm exact requirements and deadlines.",
         "deep_recheck": {
@@ -20338,7 +23438,12 @@ const DATABASE = {
           "newly_found_info": "New unofficial claim that uni-assist is NOT required for this program (conflicts with being flagged as a VPD-relevant risk area) - should be verified directly with studium-cham@th-deg.de given official page remains unreachable.",
           "corrections": [],
           "notes": "Official th-deg.de/ir-m-en still returns 404. Could not locate replacement official URL. Same limitation as before; recommend direct email contact."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Faculty of Applied Natural Sciences and Industrial Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -20409,16 +23514,30 @@ const DATABASE = {
         "official_source_url": "https://eah-jena.de/bildungsangebot/studiengang/master-scientific-instrumentation",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "First academic degree overall grade of 3.0 or better; points calculated (4-grade)x15, max 50 points for study quality/fit plus max 15 for research work; need 55 of 110 possible points.",
-          "qualifying_degree": "Bachelor's (or equivalent) in a technical/science field, e.g. Feinwerktechnik, Physik, Elektrotechnik, Mechatronik, Medizintechnik, Maschinenbau, IT."
+          "qualifying_degree": "Bachelor's (or equivalent) in a technical/science field, e.g. Feinwerktechnik, Physik, Elektrotechnik, Mechatronik, Medizintechnik, Maschinenbau, IT.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Natural or engineering science degree",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "TOEFL 550 (paper) / 79 (internet-based) or IELTS overall 6.0; test must be no more than 3 years old."
+          "ielts": "TOEFL 550 (paper) / 79 (internet-based) or IELTS overall 6.0; test must be no more than 3 years old.",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "1 Dec - 1 Apr for winter semester starting 1 Oct."
+          "winter_deadline_non_eu": "1 Dec - 1 Apr for winter semester starting 1 Oct.",
+          "portal": "EAH Jena Campusportal (campusportal.eah-jena.de): register once, submit application, up to 3 applications allowed, then accept/enroll (Immatrikulation) electronically, mail signed documents",
+          "summer_deadline": "Not found (none listed)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Semester contribution of EUR 350.05 only; no separate tuition fee mentioned."
+          "tuition_non_eu": "Semester contribution of EUR 350.05 only; no separate tuition fee mentioned.",
+          "semester_contribution_fee": "317.05 EUR per semester, includes Deutschlandticket free public transport",
+          "estimated_cost_of_living": "About 934 EUR per month, covering accommodation, health insurance, food, transport, monthly share of semester fee, miscellaneous.",
+          "total_cost_per_semester": "Confirmed: Semesterbeitrag EUR 350.05 only, no separate tuition"
         },
         "exact_admission_regulations": "Admission via aptitude procedure (Eignungsverfahren); university states it cannot pre-assess admission chances; up to 3 applications allowed; must be physically present at semester start unless written approval given.",
         "deep_recheck": {
@@ -20438,7 +23557,12 @@ const DATABASE = {
           "newly_found_info": "Full step-by-step application process (Campusportal registration through Immatrikulation and physical presence requirement), full semester-by-semester curriculum with 3 named specializations, dormitory application timing, and full contact roster.",
           "corrections": [],
           "notes": "No uni-assist/VPD used by this institution for this program - applies via own Campusportal instead."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Department of SciTec",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%); thesis can be in English or German"
       }
     },
     {
@@ -20509,16 +23633,30 @@ const DATABASE = {
         "official_source_url": "https://www.h-ka.de/en/sstm/profile",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No minimum GPA stated; admission committee ranks applicants by marks in profile subjects (physics, chemistry, electronics, computer science, mathematics, control engineering, microprocessors, sensor-related subjects).",
-          "qualifying_degree": "Very good bachelor's degree in electronics, instrumentation, controlling, or automation technology, plus very good basic knowledge of natural sciences; pre-study work experience not required; ~25 students admitted per year."
+          "qualifying_degree": "Very good bachelor's degree in electronics, instrumentation, controlling, or automation technology, plus very good basic knowledge of natural sciences; pre-study work experience not required; ~25 students admitted per year.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Relevant field (unspecified)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "TOEFL 550 (paper) / 213 (computer-based) / 83 (internet-based) or equivalent; IELTS not mentioned; English-taught bachelor's alone doesn't count as proof."
+          "ielts": "TOEFL 550 (paper) / 213 (computer-based) / 83 (internet-based) or equivalent; IELTS not mentioned; English-taught bachelor's alone doesn't count as proof.",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Mid-November for non-EU applicants; 15 January for EU applicants."
+          "winter_deadline_non_eu": "Mid-November for non-EU applicants; 15 January for EU applicants.",
+          "portal": "External portal hka-application.sensin.eu; register, apply, upload documents (paper copies later, originals shown only upon admission)",
+          "summer_deadline": "One intake per year in March; application deadline 15 January; visa applicants advised to apply by 15 November",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Non-EU citizens: EUR 1,500 per semester (Baden-Württemberg state law); EU citizens: no fee."
+          "tuition_non_eu": "Non-EU citizens: EUR 1,500 per semester (Baden-Württemberg state law); EU citizens: no fee.",
+          "semester_contribution_fee": "About 215 EUR per semester, covering student services fee, registration fee, and student union membership.",
+          "estimated_cost_of_living": "About 900 EUR per month for rent, food, transport, insurance, and books (excludes semester fee).",
+          "total_cost_per_semester": "Confirmed: EUR 1,500/semester non-EU; EU citizens no fee"
         },
         "exact_admission_regulations": "GRE score strongly recommended; GATE recommended for Indian applicants if available; statement of purpose and recommendation letters optional.",
         "deep_recheck": {
@@ -20538,7 +23676,12 @@ const DATABASE = {
           "newly_found_info": "Full required-documents checklist and full application-process description (external sensin.eu portal) not previously captured; confirmed ~25 students/year intake and no uni-assist use.",
           "corrections": [],
           "notes": "No uni-assist/VPD pathway for this program - applies directly via hka-application.sensin.eu."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Summer",
+        "teaching_language": "100% English"
       }
     },
     {
@@ -20609,16 +23752,30 @@ const DATABASE = {
         "official_source_url": "https://www.hft-stuttgart.com/studies/fields-of-study/architecture-and-design/master-smart-city-solutions",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No minimum GPA stated; above-average grades expected, but social/professional achievements may offset average/below-average grades (explained via motivation letter).",
-          "qualifying_degree": "Mid-career professionals in architecture, urban design/planning, infrastructure, or engineering; professionally qualifying first degree (Bachelor's/Master's/Diplom) of at least 210 ECTS (180 ECTS holders must complete 30 additional ECTS first); at least 1 year relevant professional experience post-degree; no age limit; other disciplines assessed case by case."
+          "qualifying_degree": "Mid-career professionals in architecture, urban design/planning, infrastructure, or engineering; professionally qualifying first degree (Bachelor's/Master's/Diplom) of at least 210 ECTS (180 ECTS holders must complete 30 additional ECTS first); at least 1 year relevant professional experience post-degree; no age limit; other disciplines assessed case by case.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Urban, planning, construction, infrastructure subjects (architecture, urban planning, civil engineering, business admin, management, or assessed others)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "TOEFL iBT 4.5+ (test after 21 Jan 2026) or 86+ (before); or IELTS Academic 6.5+; or medium-of-instruction statement from a predominantly English-speaking country institution."
+          "ielts": "TOEFL iBT 4.5+ (test after 21 Jan 2026) or 86+ (before); or IELTS Academic 6.5+; or medium-of-instruction statement from a predominantly English-speaking country institution.",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 recommended/required, no proof needed"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Phase 1: Nov - 28 Feb; Phase 2: May - 15 Jul; program starts mid-September."
+          "winter_deadline_non_eu": "Phase 1: Nov - 28 Feb; Phase 2: May - 15 Jul; program starts mid-September.",
+          "portal": "My University Portal (hft.hispro.de); Gmail addresses not accepted; English certificate can follow by 15 Jul",
+          "summer_deadline": "Not found (winter intake only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 10,000 total. Full-time: EUR 4,000 (sem 1), 4,000 (sem 2), 2,000 (sem 3); Part-time (EU only): EUR 2,000/semester over 5 semesters; plus ~EUR 200/semester non-tuition fees and ~EUR 600 for compulsory field trips; extra semester costs EUR 1,000."
+          "tuition_non_eu": "EUR 10,000 total. Full-time: EUR 4,000 (sem 1), 4,000 (sem 2), 2,000 (sem 3); Part-time (EU only): EUR 2,000/semester over 5 semesters; plus ~EUR 200/semester non-tuition fees and ~EUR 600 for compulsory field trips; extra semester costs EUR 1,000.",
+          "semester_contribution_fee": "About 190 EUR per semester (may vary slightly)",
+          "estimated_cost_of_living": "From 1 Jan 2026, international students must show 992 EUR/month (11,904 EUR/year).",
+          "total_cost_per_semester": "Confirmed: EUR 10,000 total both tracks; full-time 4000/4000/2000 per semester; part-time (EU only) 2000/semester x5; ~200/semester extra fees; ~600 field trips; blocked account ~11,208 EUR (Nov 2022 figure)"
         },
         "exact_admission_regulations": "Structured admission interview (30-45 min) with program professor; 600-900 word academic essay plus motivation letter (max 1 page); APS certificate required for China/India/Vietnam applicants; non-EU applicants must show financial means (~EUR 11,208 blocked account, as of Nov 2022).",
         "deep_recheck": {
@@ -20638,7 +23795,12 @@ const DATABASE = {
           "newly_found_info": "Confirmed APS requirement for China/India/Vietnam applicants applies to both application AND visa; found internal page inconsistency between FAQ's older TOEFL scores and the main listed scores - flagging for user awareness; full module-by-module curriculum breakdown.",
           "corrections": [],
           "notes": "No uni-assist/VPD for this program. Page itself has an internal contradiction about whether applications are portal-based or email-based ('we only accept applications by e-mail' vs portal description) - worth flagging to user."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters full-time or 5 semesters part-time",
+        "faculty_institute": "Faculty of Architecture and Design",
+        "intake_semester": "Winter",
+        "teaching_language": "English, entire programme"
       }
     },
     {
@@ -20709,16 +23871,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-ansbach.de/en/master/smart-energy-systems",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Overall examination grade of at least 2.3 in relevant first degree (usually 210 ECTS, minimum 180 ECTS accepted).",
-          "qualifying_degree": "Degrees in engineering sciences (e.g. Applied Engineering Sciences), electrical engineering, mechanical engineering, physics, computer science, supply engineering, or comparable fields."
+          "qualifying_degree": "Degrees in engineering sciences (e.g. Applied Engineering Sciences), electrical engineering, mechanical engineering, physics, computer science, supply engineering, or comparable fields.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Generally 210 ECTS, at least 180 ECTS, in relevant engineering/science field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "English is language of instruction; no specific IELTS/test score listed on page."
+          "ielts": "English is language of instruction; no specific IELTS/test score listed on page.",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A2, with official certificate (Goethe-Zertifikat A2; telc Deutsch A2; DSD A2)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "1 May - 15 September for winter semester start (cut-off dates)."
+          "winter_deadline_non_eu": "1 May - 15 September for winter semester start (cut-off dates).",
+          "portal": "PRIMUSS applicant portal + VPD from uni-assist (uni-assist.de) for foreign-qualification applicants",
+          "summer_deadline": "Not found (winter only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "EUR 1,000 per term for non-EU nationals."
+          "tuition_non_eu": "EUR 1,000 per term for non-EU nationals.",
+          "semester_contribution_fee": "72 EUR per semester (coverage not stated)",
+          "estimated_cost_of_living": "Not listed",
+          "total_cost_per_semester": "Confirmed: EUR 1,000/semester for non-EU nationals"
         },
         "exact_admission_regulations": "Restricted admission (specific); VPD from uni-assist required for foreign applicants via PRIMUSS portal, needs 4-6 weeks; applicants with fewer than 210 ECTS may need extra time for missing modules.",
         "deep_recheck": {
@@ -20738,7 +23914,12 @@ const DATABASE = {
           "newly_found_info": "This is the program the user's flagged VPD issue is analogous to, confirming the pattern: full module-by-module curriculum (previously only general ECTS mention), and a contact-info discrepancy between the program director named on the page vs. the 'Head of SES' on the staff directory.",
           "corrections": [],
           "notes": "VPD requirement for this program was ALREADY correctly captured in current_official_data (exact_admission_regulations field) - this one was handled correctly, unlike FH Dortmund ESE."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, full-time only",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%); thesis English or German"
       }
     },
     {
@@ -20809,16 +23990,30 @@ const DATABASE = {
         "official_source_url": "http://www.uni-bremen.de/en/spst",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on the page.",
-          "qualifying_degree": "First academic degree with at least 180 CP, including 90 CP in Physics OR 65 CP in Electrical Engineering, plus 16 CP in Mathematics; letter of motivation required."
+          "qualifying_degree": "First academic degree with at least 180 CP, including 90 CP in Physics OR 65 CP in Electrical Engineering, plus 16 CP in Mathematics; letter of motivation required.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "90 CP physics, or 65 CP electrical engineering + 16 CP mathematics",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "C1 CEFR English required; no IELTS score specified."
+          "ielts": "C1 CEFR English required; no IELTS score specified.",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Main intake (winter, once/year): 30 April; 2nd semester (advanced students only): 15 January."
+          "winter_deadline_non_eu": "Main intake (winter, once/year): 30 April; 2nd semester (advanced students only): 15 January.",
+          "portal": "Online application via University of Bremen's general master's application page",
+          "summer_deadline": "Not found",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated; page only links to semester dues info (incl. semester ticket)."
+          "tuition_non_eu": "Not stated; page only links to semester dues info (incl. semester ticket).",
+          "semester_contribution_fee": "About 425 EUR per semester, includes a 6-month semester ticket for public transport in Bremen and beyond.",
+          "estimated_cost_of_living": "About 1,100 EUR per month, covering rent, travel, food, clothing, learning materials, health insurance, phone/internet, broadcast fees, recreation.",
+          "total_cost_per_semester": "Not listed; only semester dues (incl. semester ticket) mentioned"
         },
         "exact_admission_regulations": "Admission regulations published only in German; applications via online portal; instruction entirely in English.",
         "deep_recheck": {
@@ -20838,7 +24033,12 @@ const DATABASE = {
           "newly_found_info": "Found direct links to German-only admission regulations (AO-MSc-Space-ST-12-23.pdf) and examination regulations (MPO-Space-ST-02-24) and English-language module guide/program scheme PDFs not previously listed; full contact roster.",
           "corrections": [],
           "notes": "Admission regulations PDF (German) was not opened in this pass - would need a PDF-specific fetch to check for uni-assist/VPD mention buried in formal regulations."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Physics and Electrical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English; German elective module available"
       }
     },
     {
@@ -20909,16 +24109,30 @@ const DATABASE = {
         "official_source_url": "https://www.thi.de/en/faculties/sustainable-infrastructure/degree-programmes/sustainability-management-and-technologies-msc/",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "No minimum GPA set; for non-German applicants, Bachelor's GPA is a selection criterion in the orientation/selection process.",
-          "qualifying_degree": "Completed degree in business/economics, engineering, or natural sciences (business/economics focus) with at least 180 ECTS; relevant scientific/practical knowledge/experience; basic management/business administration knowledge; abstract/systemic thinking ability."
+          "qualifying_degree": "Completed degree in business/economics, engineering, or natural sciences (business/economics focus) with at least 180 ECTS; relevant scientific/practical knowledge/experience; basic management/business administration knowledge; abstract/systemic thinking ability.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Not stated on this page (see course website/SPO)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Recommended, not mandatory"
         },
         "language_requirements": {
-          "ielts": "English at B2 level; no specific IELTS score, but links to list of recognised English tests. German A1 required (provable until end of first semester)."
+          "ielts": "English at B2 level; no specific IELTS score, but links to list of recognised English tests. German A1 required (provable until end of first semester).",
+          "toefl_ibt": "iBT before 2026: total 72 (Reading 18, Listening 17, Speaking 20, Writing 17); iBT from 2026: 4 in each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "None at A1 required for admission, but A1 proof required by end of first semester"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Summer semester 2027: 15 Oct 2026 - 15 Jan 2027 (online)."
+          "winter_deadline_non_eu": "Summer semester 2027: 15 Oct 2026 - 15 Jan 2027 (online).",
+          "portal": "Uni-assist application portal; THI online application page for direct applicants; for 3rd-country applicants there is also a video interview + online selection interview (Oct 2026-Feb 2027)",
+          "summer_deadline": "15 October-15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Non-EU/EEC applicants: EUR 1,200 per semester."
+          "tuition_non_eu": "Non-EU/EEC applicants: EUR 1,200 per semester.",
+          "semester_contribution_fee": "82 EUR per semester for student union",
+          "estimated_cost_of_living": "Health insurance ~150 EUR; liability insurance ~10 EUR; accommodation ~500-650 EUR; internet/mobile ~25 EUR; food ~200-300 EUR; German TV/radio fee ~19 EUR; Deutschlandticket (2026) ~43 EUR. Visa finances: blocked account ~992 EUR/month for up to 12 months.",
+          "total_cost_per_semester": "Confirmed: EUR 1,200/semester for non-EU/EEC applicants"
         },
         "exact_admission_regulations": "Online selection interview for shortlisted candidates (Oct 2026-Feb 2027); optional standardised test (GRE, GMAT, or dMAT for Indian applicants); Indian applicants need dMAT (EUR150) for APS/visa; THI does not work with agencies or request pre-admission payment.",
         "deep_recheck": {
@@ -20938,7 +24152,12 @@ const DATABASE = {
           "newly_found_info": "VPD/uni-assist fee mechanics explicitly explained (uni-assist charges a processing fee; only checks documents, doesn't admit); full semester-by-semester curriculum; dMAT requirement detail for Indian applicants layered on top of uni-assist VPD.",
           "corrections": [],
           "notes": "VPD/uni-assist requirement was already partially captured in current data via 'dMAT for Indian applicants' but the explicit uni-assist/VPD processing-fee mechanic is new detail."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time, 120 ECTS",
+        "faculty_institute": "Faculty of Sustainable Infrastructure",
+        "intake_semester": "Summer",
+        "teaching_language": "English, with some optional German-language courses"
       }
     },
     {
@@ -21009,16 +24228,30 @@ const DATABASE = {
         "official_source_url": "https://www.thm.de/site/en/education/courses-offered/sustainability-transformation-in-engineering-and-management-master.html (and thm.de/wi/international/incoming/stem-msc)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site.",
-          "qualifying_degree": "International applicants with Bachelor's degree from abroad; need university entrance qualification (HZB); indirect-HZB holders can gain direct entrance for engineering/CS at THM; direct-HZB or prep-college route via Pre-Study THM."
+          "qualifying_degree": "International applicants with Bachelor's degree from abroad; need university entrance qualification (HZB); indirect-HZB holders can gain direct entrance for engineering/CS at THM; direct-HZB or prep-college route via Pre-Study THM.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering, technical, business, or social sciences (180 ECTS)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not listed"
         },
         "language_requirements": {
-          "ielts": "Not found via official site."
+          "ielts": "Not found via official site.",
+          "toefl_ibt": "TOEFL Essentials: 8 overall, 8 in each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 (CEFR) for applicants whose first degree was not taught in German, e.g. telc Deutsch A1"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter semester: 1 Apr - 17 Jul; Summer semester: 1 Oct - 15 Jan."
+          "winter_deadline_non_eu": "Winter semester: 1 Apr - 17 Jul; Summer semester: 1 Oct - 15 Jan.",
+          "portal": "uni-assist portal (my.uni-assist.de) for foreign-degree applicants; THM Studiensekretariat page for Master's applications generally; HZB (university entrance qualification) must be checked via uni-assist's online tool first",
+          "summer_deadline": "1 October-15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site (unreliable third-party figure of ~EUR714/year should not be trusted)."
+          "tuition_non_eu": "Not found via official site (unreliable third-party figure of ~EUR714/year should not be trusted).",
+          "semester_contribution_fee": "About 350 EUR per semester, covers free regional public transport and discounts (cafeterias, outdoor pool, city theatre, bike rental).",
+          "estimated_cost_of_living": "Rent for furnished room: 350-450 EUR (plus deposit); health insurance ~140 EUR; groceries ~200 EUR. Minimum financial proof 992 EUR/month or blocked account 11,904 EUR for residence permit extension.",
+          "total_cost_per_semester": "Not found via official site (confirmed as before)"
         },
         "exact_admission_regulations": "Restricted-admission (NC) program, 4 semesters full-time, taught in English at Friedberg campus; mentoring programme available for some subjects; THM Language Center offers German courses; recommend contacting stem@wi.thm.de for GPA/tuition/English specifics.",
         "deep_recheck": {
@@ -21039,7 +24272,12 @@ const DATABASE = {
           "newly_found_info": "Found 'Pre-Study THM' bridging program for indirect-HZB holders, mentoring program for international students, Language Center German courses, and InternationalTalents career coaching service - none of these were in current_official_data.",
           "corrections": [],
           "notes": "Did not locate GPA, English test score, or tuition info despite checking two pages - recommend direct contact with stem@wi.thm.de as before. Discover-STEM subpage (linked) was not fetched and may contain curriculum/GPA details."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Department of Business Administration and Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English; German-taught electives possible if proficient"
       }
     },
     {
@@ -21110,16 +24348,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-rm.de/en/engineering/degree-programs/masters-degrees/sustainable-and-digital-aviation",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated on the page.",
-          "qualifying_degree": "Bachelor's degree in STEM field (engineering, computer science, natural sciences); must work in an engineering/aviation-related role at least 20 hrs/week (part-time program); interest in sustainability, energy transition, digitalization, AI in aviation."
+          "qualifying_degree": "Bachelor's degree in STEM field (engineering, computer science, natural sciences); must work in an engineering/aviation-related role at least 20 hrs/week (part-time program); interest in sustainability, energy transition, digitalization, AI in aviation.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Relevant field (unspecified)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not listed"
         },
         "language_requirements": {
-          "ielts": "Very good English at B2 level or higher required; no specific IELTS score listed."
+          "ielts": "Very good English at B2 level or higher required; no specific IELTS score listed.",
+          "toefl_ibt": "iBT Home Edition (since 2026): total 4.5, each section 4.5; iBT Home Edition (before 2026): total 86 (Reading 22, Listening 20, Speaking 23, Writing 21); iBT (since 2026) and iBT (before 2026) same values respectively",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "15 July for winter semester; 15 January for summer semester (same for German and foreign transcripts)."
+          "winter_deadline_non_eu": "15 July for winter semester; 15 January for summer semester (same for German and foreign transcripts).",
+          "portal": "Apply via 'application-and-enrollment' page; separate document paths for German vs. international transcripts",
+          "summer_deadline": "Until 15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not mentioned on the page."
+          "tuition_non_eu": "Not mentioned on the page.",
+          "semester_contribution_fee": "About 370 EUR per semester, includes the Deutschlandticket for local/regional public transport.",
+          "estimated_cost_of_living": "About 950 EUR per month (RheinMain area); visa/residence purposes require 992 EUR/month.",
+          "total_cost_per_semester": "Not mentioned (confirmed as before)"
         },
         "exact_admission_regulations": "Restricted admission (numerus clausus); part-time program requiring concurrent employment; separate proof documents needed for German vs. international transcripts.",
         "deep_recheck": {
@@ -21139,7 +24391,12 @@ const DATABASE = {
           "newly_found_info": "Full curriculum themes, blended-learning format with specific days (Fri PM + Sat), location at HOLM/Frankfurt Airport, admission statutes PDF link, module handbook PDF link.",
           "corrections": [],
           "notes": "Requirement of concurrent 20hr/week engineering/aviation employment confirmed (part-time program). International-transcript application subpage not fetched in this pass - recommend follow-up for uni-assist/VPD specifics since this is a strong candidate for a VPD requirement given it needs foreign-transcript handling."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -21210,16 +24467,30 @@ const DATABASE = {
         "official_source_url": "https://tu-dresden.de/mn/physik/studium/master-sep",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found on official SEP page (page lacked admission requirement content).",
-          "qualifying_degree": "Reported (unofficial): first degree in physics, chemistry, electrical engineering, materials science, or related field."
+          "qualifying_degree": "Reported (unofficial): first degree in physics, chemistry, electrical engineering, materials science, or related field.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Physics, chemistry, electrical engineering, materials science, or related field",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Conflicting unofficial figures: DAAD lists IELTS 7.0 overall (min 5 per section); a third-party listing says 6.5. Official page did not display this."
+          "ielts": "Conflicting unofficial figures: DAAD lists IELTS 7.0 overall (min 5 per section); a third-party listing says 6.5. Official page did not display this.",
+          "toefl_ibt": "iBT Home Edition (before 2026): 95 total (Reading 24, Listening 22, Speaking 25, Writing 24); iBT Home Edition (since 2026): 5 in each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site."
+          "winter_deadline_non_eu": "Not found via official site.",
+          "portal": "Not stated on this page; aptitude assessment (Eignungsverfahren) handled by an Admissions Committee",
+          "summer_deadline": "Not found (winter start only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Reported (unofficial, third-party): no tuition fee, only semester contribution (~EUR300)."
+          "tuition_non_eu": "Reported (unofficial, third-party): no tuition fee, only semester contribution (~EUR300).",
+          "semester_contribution_fee": "About 340 EUR per semester (six months), includes Deutschlandticket, free 30-min city bike rentals, cafeteria concessions, cultural/leisure discounts.",
+          "estimated_cost_of_living": "About 850 EUR per month, covering rent, food, insurance, basic expenses.",
+          "total_cost_per_semester": "Not mentioned (confirmed as before)"
         },
         "exact_admission_regulations": "Program being renamed for 2026/27 winter semester per TU Dresden's planned-changes page; aptitude assessment (Eignungsverfahren) regulations govern admission, handled by an Admissions Committee; official application/admission subpage (tu-dresden.de/mn/physik/studium/master-sep/application) exists but detailed content not retrievable in this session.",
         "deep_recheck": {
@@ -21239,7 +24510,12 @@ const DATABASE = {
           "newly_found_info": "Confirmed program is being renamed for 2026/27; the only application-related link on the page actually points to the OLDER OME program's application page (master-ome/application), not a SEP-specific one - suggesting the SEP program's own application subpage may not yet exist or is mislinked. This is a notable finding.",
           "corrections": [],
           "notes": "IMPORTANT: the admission/application link on the official SEP page incorrectly points to the OME (predecessor) program's application page, not a SEP-specific one. This could itself be a site error worth flagging. Could not retrieve admission/GPA/IELTS/deadline/tuition info as before."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Institute of Applied Physics / Center for Advancing Electronics Dresden (cfaed)",
+        "intake_semester": "Winter",
+        "teaching_language": "English, throughout"
       }
     },
     {
@@ -21310,16 +24586,30 @@ const DATABASE = {
         "official_source_url": "https://www.uni-flensburg.de/sedev (and /sedev/admission)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site.",
-          "qualifying_degree": "Not explicitly listed beyond program name (M.Eng. in Sustainable Energy and Development)."
+          "qualifying_degree": "Not explicitly listed beyond program name (M.Eng. in Sustainable Energy and Development).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Engineering degree, at least 7 semesters",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not stated"
         },
         "language_requirements": {
-          "ielts": "Not found via official site."
+          "ielts": "Not found via official site.",
+          "toefl_ibt": "iBT since 2026: 4.5 in each section (possible typo per page); iBT before 2026: total 80 (Reading 18, Listening 17, Speaking 20, Writing 17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site (see /sedev/deadlines subpage, not retrievable in this session)."
+          "winter_deadline_non_eu": "Not found via official site (see /sedev/deadlines subpage, not retrievable in this session).",
+          "portal": "Not stated on main page; /sedev/admission subpage link confirmed to exist",
+          "summer_deadline": "Not found (winter start only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "379.30 EUR per semester, covers Studentenwerk Schleswig-Holstein services, AStA activities, Deutschland-Semesterticket.",
+          "estimated_cost_of_living": "Suggested budget 800-1,000 EUR per month including rent. Visa funds requirement: at least 992 EUR/month or 11,172 EUR for 12 months.",
+          "total_cost_per_semester": "Not found via official site (confirmed as before)"
         },
         "exact_admission_regulations": "Application has three stages: online application, selection, and feedback; process graphic available as PDF on official site; recommend contacting department directly (Munketoft 3b, 24937 Flensburg, +49 461 805 2503).",
         "deep_recheck": {
@@ -21339,7 +24629,12 @@ const DATABASE = {
           "newly_found_info": "Confirmed SEDev succeeds three older programs (ARTES, SESAM, EEM) - useful context not in current data. Also found /sedev/faq and /sedev/academics and /sedev/who-we-are subpages not previously listed.",
           "corrections": [],
           "notes": "The /sedev/admission subpage (confirmed to exist via link) was NOT fetched in this pass due to time/scope constraints - this is the single most important follow-up needed for this program since it almost certainly contains GPA/language/deadline/uni-assist details."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (24-month programme)",
+        "faculty_institute": "Department of Sustainable Energy and Development",
+        "intake_semester": "Winter",
+        "teaching_language": "English"
       }
     },
     {
@@ -21410,16 +24705,30 @@ const DATABASE = {
         "official_source_url": "Not found (etit.tu-dortmund.de returned server error / insufficient admissions content)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site.",
-          "qualifying_degree": "Not found via official site."
+          "qualifying_degree": "Not found via official site.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering or comparable programme",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not found via official site."
+          "ielts": "Not found via official site.",
+          "toefl_ibt": "iBT before 2026: 95 total (Reading 24, Listening 22, Speaking 25, Writing 24); iBT since 2026: 5 in each section",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site."
+          "winter_deadline_non_eu": "Not found via official site.",
+          "portal": "TU Dortmund campus portal (campus.tu-dortmund.de) per official page per search result; uni-assist for international applicants per other official page (unverified firsthand)",
+          "summer_deadline": "Varies by applicant group; see TU Dortmund International Office website",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "About 320 EUR per semester (as of summer 2026), includes public transport season ticket.",
+          "estimated_cost_of_living": "Not given on page (refers to university finances website); accommodation about 250-400 EUR/month per Studierendenwerk Dortmund.",
+          "total_cost_per_semester": "Reported (search snippet of official page): no tuition fee, ~EUR 320 semester admin fee"
         },
         "exact_admission_regulations": "Page navigation suggests an 'Information Application and...' subpage exists with these details, but it returned a server error (HTTP 500) when fetched.",
         "deep_recheck": {
@@ -21440,7 +24749,12 @@ const DATABASE = {
           "newly_found_info": "Found working module-handbook and examination-regulation PDF links hosted at etit.tu-dortmund.de (previously the etit domain was reported as returning server errors); also found the general tu-dortmund.de program page URL (tu-dortmund.de/en/studies/degree-programs/sustainable-energy-systems-918) as a working alternative entry point, though its program-specific content did not load within this fetch's character limit.",
           "corrections": [],
           "notes": "etit.tu-dortmund.de PDF documents ARE reachable (unlike the HTML page which previously 500'd) - recommend a follow-up fetch of https://www.tu-dortmund.de/en/studies/degree-programs/sustainable-energy-systems-918 with an offset to get past the navigation boilerplate, as this call was cut off by content length."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Department of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%); optional German-taught courses with credit transfer approval; thesis must be English"
       }
     },
     {
@@ -21511,16 +24825,30 @@ const DATABASE = {
         "official_source_url": "Not found (fb3.rwth-aachen.de unreachable - connection refused)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site.",
-          "qualifying_degree": "Reported (unofficial): subject-specific prerequisite of ~19-20 CP in process engineering, energy technology, and water management (figures conflict across sources)."
+          "qualifying_degree": "Reported (unofficial): subject-specific prerequisite of ~19-20 CP in process engineering, energy technology, and water management (figures conflict across sources).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Natural sciences/hydraulics/general engineering background per ECTS breakdown above",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Required for non-EU/EEA applicants"
         },
         "language_requirements": {
-          "ielts": "Not found via official site; program taught entirely in English per third-party sources."
+          "ielts": "Not found via official site; program taught entirely in English per third-party sources.",
+          "toefl_ibt": "iBT 90 (before 2026)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site."
+          "winter_deadline_non_eu": "Not found via official site.",
+          "portal": "Unconfirmed",
+          "summer_deadline": "Not found (winter only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "About 358 EUR per semester (social contribution, not tuition).",
+          "estimated_cost_of_living": "About 1,132 EUR per month, including semester contribution.",
+          "total_cost_per_semester": "Reported (unofficial): no tuition"
         },
         "exact_admission_regulations": "Admission reported as local admission restriction with no entrance test/interview (unconfirmed); governed by course-specific examination regulation (Studiengangspezifische Prüfungsordnung); program ~4 semesters, starts winter semester.",
         "deep_recheck": {
@@ -21541,7 +24869,12 @@ const DATABASE = {
           "newly_found_info": "Found the mandatory mobility/exchange semester at Politecnico di Milano as part of the curriculum structure - this is new and significant info not in current_official_data. Prerequisite CP figures conflict between sources (19 vs 20 CP in process engineering/energy technology/water management).",
           "corrections": [],
           "notes": "fb3.rwth-aachen.de and the newly-tried lfi.rwth-aachen.de both unreachable (connection refused). Could not access any official RWTH page for this program in this session either. Mandatory Milan exchange semester is the key new finding."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters",
+        "faculty_institute": "Faculty of Civil Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English (fully); optional German course available"
       }
     },
     {
@@ -21612,16 +24945,30 @@ const DATABASE = {
         "official_source_url": "https://www.hof-university.com/studying-at-hof-university/our-degree-programs/sustainable-water-management-and-engineering-meng.html",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Minimum grade 2.5 on German scale for Bachelor's degree.",
-          "qualifying_degree": "Bachelor's degree or similar in engineering or natural sciences, at least 210 ECTS (or equivalent); minimum 5 credits each in environmental engineering, water technology, and chemistry (or equivalent)."
+          "qualifying_degree": "Bachelor's degree or similar in engineering or natural sciences, at least 210 ECTS (or equivalent); minimum 5 credits each in environmental engineering, water technology, and chemistry (or equivalent).",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "210 ECTS engineering/natural sciences, with environmental engineering/water technology/chemistry knowledge",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not stated"
         },
         "language_requirements": {
-          "ielts": "TOEFL minimum 90, or IELTS 6.5 or above; German also required at minimum A1."
+          "ielts": "TOEFL minimum 90, or IELTS 6.5 or above; German also required at minimum A1.",
+          "toefl_ibt": "iBT 90 (before 2026)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "A1 required, with official certificate (ÖSD Zertifikat A1, telc Deutsch A1, Goethe-Zertifikat A1)"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Winter semester: 15 Apr - 31 May (non-EU) / 1 May - 15 Jul (EU, per infobox - inconsistent). Summer semester: 5 Nov - 30 Nov (non-EU) / 15 Nov - 15 Jan (EU, per infobox)."
+          "winter_deadline_non_eu": "Winter semester: 15 Apr - 31 May (non-EU) / 1 May - 15 Jul (EU, per infobox - inconsistent). Summer semester: 5 Nov - 30 Nov (non-EU) / 15 Nov - 15 Jan (EU, per infobox).",
+          "portal": "Standard online application; foreign certificates need uni-assist assessment; recommend sending documents 4 weeks before deadline",
+          "summer_deadline": "EU: 15 November-15 January; Non-EU: 5 November-30 November",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "None (no tuition fee)."
+          "tuition_non_eu": "None (no tuition fee).",
+          "semester_contribution_fee": "Administrative fee approx. 150 EUR per semester",
+          "estimated_cost_of_living": "Estimated 800-1,000 EUR/month total: accommodation 350-550 EUR, mandatory health insurance ~120 EUR, food/personal expenses at least 350 EUR.",
+          "total_cost_per_semester": "Confirmed: no tuition fee"
         },
         "exact_admission_regulations": "Applicants with fewer than 210 ECTS can be admitted with a 20-week internship or additional Hof modules, requiring an extra (4th) semester; foreign certificates need uni-assist assessment; recommend sending documents 4 weeks before deadline; page's EU deadline info is internally inconsistent.",
         "deep_recheck": {
@@ -21641,7 +24988,12 @@ const DATABASE = {
           "newly_found_info": "None beyond confirming existing data; did not find a separate admission-requirements subpage with VPD-specific language in this pass.",
           "corrections": [],
           "notes": "Re-confirmed prior findings via same page; did not find additional subpages in this pass to resolve the EU-deadline inconsistency flagged previously."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English, all modules"
       }
     },
     {
@@ -21712,16 +25064,30 @@ const DATABASE = {
         "official_source_url": "Not found (elektrotechnik.rwth-aachen.de unreachable - connection refused)",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site.",
-          "qualifying_degree": "Not found via official site."
+          "qualifying_degree": "Not found via official site.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Electrical engineering with specific ECTS distribution above",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Required at time of application (minimum scores not stated on page); EU/EEA citizens and 'Bildungsinländer' exempt"
         },
         "language_requirements": {
-          "ielts": "Not found via official site."
+          "ielts": "Not found via official site.",
+          "toefl_ibt": "iBT Home Edition/iBT since 2026: 4.5; before 2026: 90",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required; mandatory German courses (8 ECTS) unless B1+ proven"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site."
+          "winter_deadline_non_eu": "Not found via official site.",
+          "portal": "Unconfirmed; program structure clarified: applicants apply for 'Electrical Engineering and Information Technology' M.Sc. generally, and choose the 'Systems Engineering and Automation' major AFTER admission/enrollment (confirmed structural point from search, consistent across both RWTH majors programs like RoboSys)",
+          "summer_deadline": "Non-EU/Switzerland/UK: 1 June-1 September; EU/Iceland/Norway/Liechtenstein: 2 December-15 January",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "About 360 EUR per semester, includes public transport semester ticket (Deutschlandticket), extends to South Limburg, Netherlands.",
+          "estimated_cost_of_living": "About 1,100 EUR per month; single non-EU applicants must show at least 992 EUR/month for residence permit extensions (2026).",
+          "total_cost_per_semester": "Not found via official site"
         },
         "exact_admission_regulations": "Could not reach official faculty website due to connection error; recommend retry or contacting RWTH EE/IT faculty directly.",
         "deep_recheck": {
@@ -21742,7 +25108,12 @@ const DATABASE = {
           "newly_found_info": "Confirmed the admission structure: this is a specialization chosen post-enrollment within the broader EE/IT Master's program, not a standalone application track - same pattern as RoboSys (4819) and Railway Systems Engineering (4881) at RWTH.",
           "corrections": [],
           "notes": "elektrotechnik.rwth-aachen.de still unreachable (connection refused). No new official access gained this session."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time",
+        "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
+        "intake_semester": "Winter",
+        "teaching_language": "English; some modules may be German (per module catalogue); exams in English unless agreed otherwise"
       }
     },
     {
@@ -21813,16 +25184,30 @@ const DATABASE = {
         "official_source_url": "https://www.sem.ovgu.de",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not stated in retrieved content (see 'Study Program at a Glance' section, not fully retrievable).",
-          "qualifying_degree": "Two applicant groups distinguished: international students without a German Bachelor's degree, and students with a German Bachelor's degree; no further prerequisites listed."
+          "qualifying_degree": "Two applicant groups distinguished: international students without a German Bachelor's degree, and students with a German Bachelor's degree; no further prerequisites listed.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "180 CP engineering or closely related field, with specific CP breakdown above",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "Not stated; page mentions enrollment in a language course per language center requirements, but no English test thresholds given."
+          "ielts": "Not stated; page mentions enrollment in a language course per language center requirements, but no English test thresholds given.",
+          "toefl_ibt": "iBT since 2026: 5 overall, minimum 5 in each of Reading/Listening/Speaking/Writing",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required; dedicated German course for engineers places students A1-B2"
         },
         "application_process": {
-          "winter_deadline_non_eu": "International students without German Bachelor's (via uni-assist): 15 Apr or 15 Jun. Students with German Bachelor's (direct to university): 15 May or 15 Sep."
+          "winter_deadline_non_eu": "International students without German Bachelor's (via uni-assist): 15 Apr or 15 Jun. Students with German Bachelor's (direct to university): 15 May or 15 Sep.",
+          "portal": "Two routes: international students without German Bachelor's apply via uni-assist (link: ovgu.de .../Applying+via+uni_assist); students with German Bachelor's apply directly to OVGU",
+          "summer_deadline": "Not found (winter start only)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated in retrieved content."
+          "tuition_non_eu": "Not stated in retrieved content.",
+          "semester_contribution_fee": "311.30 EUR per semester, funds Studentenwerk services and student representatives; includes free Deutschlandsemesterticket and student discounts (cafeteria etc.).",
+          "estimated_cost_of_living": "At least 992 EUR per month, covering accommodation, living costs, health insurance, books, misc.; Magdeburg rents relatively low; semester fee covers local bus/tram travel.",
+          "total_cost_per_semester": "Not found in retrieved content"
         },
         "exact_admission_regulations": "Recommend checking 'Study Program at a Glance' section directly or contacting student advising for GPA/fee/English specifics.",
         "deep_recheck": {
@@ -21842,7 +25227,12 @@ const DATABASE = {
           "newly_found_info": "Found several new deadline milestones beyond the application deadlines: enrollment-document deadline (30 Sep), arrival deadline (31 Oct), and exam-registration windows - not in current_official_data. Also found a direct 'Applying via uni-assist' subpage link.",
           "corrections": [],
           "notes": "'Study Program at a Glance' section (which should hold GPA/language/tuition/curriculum specifics) rendered only as an unexpanded menu in the fetch - recommend a follow-up fetch targeting the 'Prospective students' page (ovgu.de/Prospective+students.html) directly for this content."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Faculty of Mechanical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English only"
       }
     },
     {
@@ -21913,16 +25303,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-emden-leer.de/en/current-students/faculties/technology/study-programs/technical-management",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Not found via official site (page content truncated before program description).",
-          "qualifying_degree": "Not found via official site."
+          "qualifying_degree": "Not found via official site.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Technical field, 3.5 years study (electrical, mechanical, chemical engineering, natural sciences, information science)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not stated"
         },
         "language_requirements": {
-          "ielts": "Not found via official site."
+          "ielts": "Not found via official site.",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Not found via official site (see 'Dates, Deadlines' subpage under Technology > Study, not retrieved)."
+          "winter_deadline_non_eu": "Not found via official site (see 'Dates, Deadlines' subpage under Technology > Study, not retrieved).",
+          "portal": "Ecampus portal (ecampus.hs-emden-leer.de) identified as the application portal from navigation",
+          "summer_deadline": "EU: 1 December-15 January; Non-EU: 1 June-30 September",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not found via official site."
+          "tuition_non_eu": "Not found via official site.",
+          "semester_contribution_fee": "Included in tuition, covers student union fee and Semesterticket valid across Germany.",
+          "estimated_cost_of_living": "Described as fairly low; accommodation about 300-450 EUR/month.",
+          "total_cost_per_semester": "Not found via official site (confirmed as before)"
         },
         "exact_admission_regulations": "Page had an English version link ('DE | EN'); 'Enrolment process' page under Prospective Students and 'Immatrikulations- und Prüfungsamt' (admission office) are referenced but not retrieved in this session.",
         "deep_recheck": {
@@ -21942,7 +25346,12 @@ const DATABASE = {
           "newly_found_info": "Confirmed exact URLs for the Ecampus application portal and the 'Dates, Deadlines' and 'Enrolment process' subpages that were referenced only descriptively in current_official_data - these are concrete working links now.",
           "corrections": [],
           "notes": "Main program page content is still not retrievable (truncated by navigation boilerplate) in this session, same limitation as before. Recommend a follow-up fetch of the Dates/Deadlines and Enrolment process subpages directly, and/or the German program page, to get past the truncation."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters, 90 credit points (1.5 years)",
+        "faculty_institute": "Fachbereich Technik / Faculty Technology, Department of Mechanical Engineering",
+        "intake_semester": "Winter",
+        "teaching_language": "English, 100%"
       }
     },
     {
@@ -22013,16 +25422,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-harz.de/en/technology-and-innovation-management",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's GPA of 2.5 or better on German scale; overall first degree result must be 'Good' or better.",
-          "qualifying_degree": "First university degree of at least 180 ECTS (regular 4-semester track) or 210 ECTS (fast track, 3 semesters); degree related to industrial engineering, business informatics, technical management, or another engineering subject; at least 10 weeks relevant professional experience; letter of motivation (1-2 pages) required."
+          "qualifying_degree": "First university degree of at least 180 ECTS (regular 4-semester track) or 210 ECTS (fast track, 3 semesters); degree related to industrial engineering, business informatics, technical management, or another engineering subject; at least 10 weeks relevant professional experience; letter of motivation (1-2 pages) required.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Industrial engineering and management, business informatics, technical management, or another engineering subject",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "B2 upper English level with recognized certificate; German recommended but not required."
+          "ielts": "B2 upper English level with recognized certificate; German recommended but not required.",
+          "toefl_ibt": "iBT since 2026: 4 total, 4 in each section (possible typo per page); iBT before 2026: 72 total (Reading 18, Listening 17, Speaking 20, Writing 17)",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Foreign degree (via uni-assist.de): winter 15 Jun, summer 15 Dec. German degree (via hs-harz.de): winter 15 Jul, summer 15 Jan."
+          "winter_deadline_non_eu": "Foreign degree (via uni-assist.de): winter 15 Jun, summer 15 Dec. German degree (via hs-harz.de): winter 15 Jul, summer 15 Jan.",
+          "portal": "Foreign degree: uni-assist.de. German degree: hs-harz.de directly",
+          "summer_deadline": "15 June (via uni-assist)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Listed as 'n/a' on official page; separate page covers the semester contribution (not tuition per se)."
+          "tuition_non_eu": "Listed as 'n/a' on official page; separate page covers the semester contribution (not tuition per se).",
+          "semester_contribution_fee": "Approx. 130 EUR, including free regional public transportation.",
+          "estimated_cost_of_living": "Approx. 950 EUR per month.",
+          "total_cost_per_semester": "Confirmed: tuition listed as 'n/a'; separate semester-contribution fee page linked"
         },
         "exact_admission_regulations": "Restricted places; admission board weighs academic performance, language proficiency, and professional experience; winter 2026/27 admission process already closed; summer 2027 applications open early October.",
         "deep_recheck": {
@@ -22042,7 +25465,12 @@ const DATABASE = {
           "newly_found_info": "Full curriculum breakdown including the adjustment semester content (Industry 4.0, Research Fields in CS, Engineering Project, German language courses) for Regular Track students; FAQ page link; recognized-language-certificates document link.",
           "corrections": [],
           "notes": "No explicit VPD naming despite uni-assist usage; all other prior data confirmed accurately."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters (regular track) or 3 semesters (fast track)",
+        "faculty_institute": "Faculty of Automation and Computer Science",
+        "intake_semester": "Winter",
+        "teaching_language": "English; German courses included"
       }
     },
     {
@@ -22113,16 +25541,30 @@ const DATABASE = {
         "official_source_url": "https://www.h2.de/en/studies/masters-programmes/water-engineering.html",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Good or excellent university degree, minimum 2.0 in German grading system; must be completed in at least 7 semesters or 210 credits in Water Management, Civil Engineering, or strongly related field (180-credit holders can make up missing 30 credits in one semester before Master's starts).",
-          "qualifying_degree": "International, English-taught Master's aimed at graduates in Water Management, Civil Engineering, or closely related field. Page mentions unspecified 'special admission requirements.'"
+          "qualifying_degree": "International, English-taught Master's aimed at graduates in Water Management, Civil Engineering, or closely related field. Page mentions unspecified 'special admission requirements.'",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Water Management, Civil Engineering, or strongly related field; 210 credits (or 180 + make-up semester)",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "CEFR B2 level; accepted evidence: IELTS (5 points), Cambridge FCE (A-C), TOEIC (541 points), TOEFL iBT (87 points), UNIcert II, ALTE Level 3, or equivalent; exemptions for bilingual schooling, native speakers, or time at English-speaking institutions."
+          "ielts": "CEFR B2 level; accepted evidence: IELTS (5 points), Cambridge FCE (A-C), TOEIC (541 points), TOEFL iBT (87 points), UNIcert II, ALTE Level 3, or equivalent; exemptions for bilingual schooling, native speakers, or time at English-speaking institutions.",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "Foreign qualifications via uni-assist: 30 November for summer semester (program start); admission granted end of January."
+          "winter_deadline_non_eu": "Foreign qualifications via uni-assist: 30 November for summer semester (program start); admission granted end of January.",
+          "portal": "Uni-assist for foreign-qualification applicants; Onlinecampus portal (onlinecampus.h2.de) also referenced in site header",
+          "summer_deadline": "1-30 November (EU, non-EU, Iceland, Norway, Liechtenstein, Switzerland, UK)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not mentioned on the page."
+          "tuition_non_eu": "Not mentioned on the page.",
+          "semester_contribution_fee": "Approx. 328.80 EUR per semester, including semester ticket for public transport in Magdeburg.",
+          "estimated_cost_of_living": "Accommodation approx. 250 EUR/month; living costs approx. 250 EUR/month; visa applicants must prove 992 EUR/month.",
+          "total_cost_per_semester": "Not mentioned (confirmed as before)"
         },
         "exact_admission_regulations": "Program starts in summer semester, unusual for German master's programs (most start winter).",
         "deep_recheck": {
@@ -22142,7 +25584,12 @@ const DATABASE = {
           "newly_found_info": "Full semester-by-semester curriculum (previously not captured at all); confirmed program always starts in SUMMER semester (unusual, already flagged in current data) with admission decisions at end of January.",
           "corrections": [],
           "notes": "No explicit VPD naming found despite uni-assist usage; all prior data confirmed with full curriculum added."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "3 semesters",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%); additional German courses offered"
       }
     },
     {
@@ -22213,16 +25660,30 @@ const DATABASE = {
         "official_source_url": "https://www.hs-flensburg.de/en/studieninteressierte/angebot/master/WE",
         "admission_eligibility": {
           "minimum_gpa_cutoff": "Bachelor's or Diplom grade of 'good' ('gut' in German system); if below, at least two favourable reference letters from professors required.",
-          "qualifying_degree": "Bachelor's or Diplom in Mechanical Engineering, Electrical Engineering, Electrical Energy Systems Engineering, or Renewable Energy Engineering; other fields admitted at admission board's discretion (possibly with additional classes); basic tech understanding and interest in teamwork suggested."
+          "qualifying_degree": "Bachelor's or Diplom in Mechanical Engineering, Electrical Engineering, Electrical Energy Systems Engineering, or Renewable Energy Engineering; other fields admitted at admission board's discretion (possibly with additional classes); basic tech understanding and interest in teamwork suggested.",
+          "undergraduate_ects": "Not found via official site",
+          "subject_prerequisites": "Mechanical Engineering, Electrical Engineering, Electrical Energy Systems Engineering, or Renewable Energy Engineering",
+          "work_experience": "Not found via official site",
+          "aptitude_test_gre": "Not mentioned"
         },
         "language_requirements": {
-          "ielts": "No specific test/score listed; applicants must have 'good English skills' meeting program requirements."
+          "ielts": "No specific test/score listed; applicants must have 'good English skills' meeting program requirements.",
+          "toefl_ibt": "Not found",
+          "pte_academic": "Not found via official site",
+          "moi_exemption": "Not found via official site",
+          "german_language": "No minimum level required"
         },
         "application_process": {
-          "winter_deadline_non_eu": "15 May for winter semester; 15 November for summer semester (first deadline recommended)."
+          "winter_deadline_non_eu": "15 May for winter semester; 15 November for summer semester (first deadline recommended).",
+          "portal": "German bachelor's/Diplom holders: online application tool (cm.hs-flensburg.de, qisserver portal). Non-German bachelor's holders: uni-assist",
+          "summer_deadline": "1 January (applications usually open October/November; requires Bachelor's of 210 CP)",
+          "aps_certificate": "Bangladesh generally exempt from APS - verify directly"
         },
         "financial_costs": {
-          "tuition_non_eu": "Not stated; only mentions scholarship options (e.g. Deutschlandstipendium, EUR300/month)."
+          "tuition_non_eu": "Not stated; only mentions scholarship options (e.g. Deutschlandstipendium, EUR300/month).",
+          "semester_contribution_fee": "Approx. 374 EUR per semester (coverage not stated).",
+          "estimated_cost_of_living": "Not found",
+          "total_cost_per_semester": "Not mentioned (confirmed); Deutschlandstipendium EUR 300/month scholarship option mentioned"
         },
         "exact_admission_regulations": "Entry depends on credit points: 180 CP bachelor's allows winter (1st semester) entry; 210 CP bachelor's needed for summer semester entry; non-German bachelor's applicants apply via uni-assist, German bachelor's/Diplom holders apply via online tool.",
         "deep_recheck": {
@@ -22242,7 +25703,12 @@ const DATABASE = {
           "newly_found_info": "Full semester-by-semester curriculum with 4 named specialization majors (previously not captured); uni-assist application guide link (/en/node/309); program brochure PDF link.",
           "corrections": [],
           "notes": "No explicit VPD naming found despite uni-assist usage for non-German bachelor's holders; all prior data confirmed with full curriculum/majors added."
-        }
+        },
+        "total_ects": null,
+        "standard_duration": "4 semesters, full-time only",
+        "faculty_institute": "Not found",
+        "intake_semester": "Winter",
+        "teaching_language": "English (100%)"
       }
     }
   ],

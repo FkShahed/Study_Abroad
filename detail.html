@@ -459,12 +459,12 @@ if (!prog) {
       
       <!-- Key Parameters Grid -->
       <div class="grid-info">
-        <div class="info-item"><b>🎯 Degree Awarded & ECTS</b><div class="val" style="color:var(--good);font-weight:700;">${prog.official_website_data.degree_awarded || 'Master of Science'} (${prog.official_website_data.total_ects} ECTS)</div></div>
-        <div class="info-item"><b>⏳ Standard Duration</b><div class="val">${prog.official_website_data.standard_duration}</div></div>
-        <div class="info-item"><b>🏫 Faculty / Institute</b><div class="val">${prog.official_website_data.faculty_institute}</div></div>
+        <div class="info-item"><b>🎯 Degree Awarded & ECTS</b><div class="val" style="color:var(--good);font-weight:700;">${prog.official_website_data.degree_awarded || 'Master of Science'} (${prog.official_website_data.total_ects ? prog.official_website_data.total_ects + ' ECTS' : nf(null)})</div></div>
+        <div class="info-item"><b>⏳ Standard Duration</b><div class="val">${nf(prog.official_website_data.standard_duration)}</div></div>
+        <div class="info-item"><b>🏫 Faculty / Institute</b><div class="val">${nf(prog.official_website_data.faculty_institute)}</div></div>
         <div class="info-item"><b>📅 Intake Period</b><div class="val">${prog.official_website_data.intake_semester || 'Winter semester only'}</div></div>
         <div class="info-item"><b>🗣️ Teaching Language</b><div class="val" style="color:var(--good);">${prog.official_website_data.teaching_language || '100% English'}</div></div>
-        <div class="info-item"><b>💶 Tuition & Semester Fees</b><div class="val" style="color:var(--warn);font-weight:600;">${prog.official_website_data.financial_costs ? prog.official_website_data.financial_costs.total_cost_per_semester : (prog.official_website_data.gpa_conversion_benchmark || '')}</div></div>
+        <div class="info-item"><b>💶 Tuition & Semester Fees</b><div class="val" style="color:var(--warn);font-weight:600;">${nf(prog.official_website_data.financial_costs ? prog.official_website_data.financial_costs.total_cost_per_semester : prog.official_website_data.gpa_conversion_benchmark)}</div></div>
       </div>
 
       <!-- Admission Eligibility Section -->
@@ -473,15 +473,15 @@ if (!prog) {
         🎓 সুনির্দিষ্ট ভর্তির যোগ্যতা ও শর্তাবলি (Academic Eligibility & Prerequisites):
       </div>
       <div class="grid-info" style="margin-bottom:12px;">
-        <div class="info-item" style="grid-column: 1 / -1;"><b>Qualifying Degree</b><div class="val">${prog.official_website_data.admission_eligibility.qualifying_degree}</div></div>
-        <div class="info-item"><b>Undergraduate ECTS Scope</b><div class="val">${prog.official_website_data.admission_eligibility.undergraduate_ects}</div></div>
-        <div class="info-item"><b>Minimum GPA Cutoff</b><div class="val" style="color:var(--danger);font-weight:700;">${prog.official_website_data.admission_eligibility.minimum_gpa_cutoff}${gpaSrcTag}</div></div>
-        <div class="info-item"><b>Subject Prerequisites</b><div class="val">${prog.official_website_data.admission_eligibility.subject_prerequisites}</div></div>
-        <div class="info-item"><b>Work Experience / GRE</b><div class="val">${prog.official_website_data.admission_eligibility.work_experience} | ${prog.official_website_data.admission_eligibility.aptitude_test_gre}</div></div>
+        <div class="info-item" style="grid-column: 1 / -1;"><b>Qualifying Degree</b><div class="val">${nf(prog.official_website_data.admission_eligibility.qualifying_degree)}</div></div>
+        <div class="info-item"><b>Undergraduate ECTS Scope</b><div class="val">${nf(prog.official_website_data.admission_eligibility.undergraduate_ects)}</div></div>
+        <div class="info-item"><b>Minimum GPA Cutoff</b><div class="val" style="color:var(--danger);font-weight:700;">${nf(prog.official_website_data.admission_eligibility.minimum_gpa_cutoff)}${gpaSrcTag}</div></div>
+        <div class="info-item"><b>Subject Prerequisites</b><div class="val">${nf(prog.official_website_data.admission_eligibility.subject_prerequisites)}</div></div>
+        <div class="info-item"><b>Work Experience / GRE</b><div class="val">${nf(prog.official_website_data.admission_eligibility.work_experience)} | ${nf(prog.official_website_data.admission_eligibility.aptitude_test_gre)}</div></div>
       </div>
       ` : `
       <div style="font-size:.8rem;font-weight:700;color:var(--muted);text-transform:uppercase;margin:16px 0 6px;">📝 এক্স্যাক্ট অ্যাডমিশন রেগুলেশন (SPO / PO Guidelines):</div>
-      <div class="note-box good" style="font-size:.88rem;line-height:1.7;">${prog.official_website_data.exact_admission_regulations || ''}</div>
+      <div class="note-box good" style="font-size:.88rem;line-height:1.7;">${nf(prog.official_website_data.exact_admission_regulations)}</div>
       `}
 
       <!-- Language & Application Deadlines -->
@@ -491,11 +491,11 @@ if (!prog) {
         <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px;">
           <div style="font-weight:700;color:var(--accent);font-size:.88rem;margin-bottom:8px;border-bottom:1px dashed var(--border);padding-bottom:4px;">🗣️ ভাষা সংক্রান্ত শর্তাবলি (Language Criteria)</div>
           <ul style="padding-left:16px;margin:0;font-size:.84rem;line-height:1.7;">
-            <li><b>IELTS:</b> ${prog.official_website_data.language_requirements.ielts}</li>
-            <li><b>TOEFL:</b> ${prog.official_website_data.language_requirements.toefl_ibt}</li>
-            <li><b>PTE / Other:</b> ${prog.official_website_data.language_requirements.pte_academic || 'PTE accepted'}</li>
-            <li><b>MOI ছাড়:</b> ${prog.official_website_data.language_requirements.moi_exemption}</li>
-            <li><b>জার্মান ভাষা:</b> ${prog.official_website_data.language_requirements.german_language}</li>
+            <li><b>IELTS:</b> ${nf(prog.official_website_data.language_requirements.ielts)}</li>
+            <li><b>TOEFL:</b> ${nf(prog.official_website_data.language_requirements.toefl_ibt)}</li>
+            <li><b>PTE / Other:</b> ${nf(prog.official_website_data.language_requirements.pte_academic)}</li>
+            <li><b>MOI ছাড়:</b> ${nf(prog.official_website_data.language_requirements.moi_exemption)}</li>
+            <li><b>জার্মান ভাষা:</b> ${nf(prog.official_website_data.language_requirements.german_language)}</li>
           </ul>
         </div>
 
@@ -503,10 +503,10 @@ if (!prog) {
         <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px;">
           <div style="font-weight:700;color:var(--warn);font-size:.88rem;margin-bottom:8px;border-bottom:1px dashed var(--border);padding-bottom:4px;">📅 আবেদন প্রক্রিয়া ও ডেডলাইন (Deadlines)</div>
           <ul style="padding-left:16px;margin:0;font-size:.84rem;line-height:1.7;">
-            <li><b>আবেদন পোর্টাল:</b> ${prog.official_website_data.application_process.portal}</li>
-            <li><b>উইন্টার ডেডলাইন (Non-EU):</b> <span style="color:var(--danger);font-weight:700;">${prog.official_website_data.application_process.winter_deadline_non_eu}</span></li>
-            <li><b>সামার সেমিস্টার:</b> ${prog.official_website_data.application_process.summer_deadline}</li>
-            <li><b>APS সার্টিফিকেট:</b> <span style="color:var(--good);font-weight:600;">${prog.official_website_data.application_process.aps_certificate}</span></li>
+            <li><b>আবেদন পোর্টাল:</b> ${nf(prog.official_website_data.application_process.portal)}</li>
+            <li><b>উইন্টার ডেডলাইন (Non-EU):</b> <span style="color:var(--danger);font-weight:700;">${nf(prog.official_website_data.application_process.winter_deadline_non_eu)}</span></li>
+            <li><b>সামার সেমিস্টার:</b> ${nf(prog.official_website_data.application_process.summer_deadline)}</li>
+            <li><b>APS সার্টিফিকেট:</b> <span style="color:var(--good);font-weight:600;">${nf(prog.official_website_data.application_process.aps_certificate)}</span></li>
           </ul>
         </div>
       </div>
@@ -517,9 +517,9 @@ if (!prog) {
       <div style="background:rgba(255,200,87,.05);border:1px solid rgba(255,200,87,.3);border-radius:10px;padding:14px;margin-top:16px;">
         <div style="font-weight:700;color:var(--warn);font-size:.88rem;margin-bottom:6px;">💰 সম্পূর্ণ খরচ ও ফি বিবরণী (Tuition & Living Costs):</div>
         <div style="font-size:.85rem;line-height:1.7;">
-          • <b>টিউশন ফি (Non-EU):</b> ${prog.official_website_data.financial_costs.tuition_non_eu}<br>
-          • <b>সেমিস্টার কন্ট্রিবিউশন:</b> ${prog.official_website_data.financial_costs.semester_contribution_fee}<br>
-          • <b>জীবনযাত্রার মাসিক খরচ:</b> ${prog.official_website_data.financial_costs.estimated_cost_of_living}
+          • <b>টিউশন ফি (Non-EU):</b> ${nf(prog.official_website_data.financial_costs.tuition_non_eu)}<br>
+          • <b>সেমিস্টার কন্ট্রিবিউশন:</b> ${nf(prog.official_website_data.financial_costs.semester_contribution_fee)}<br>
+          • <b>জীবনযাত্রার মাসিক খরচ:</b> ${nf(prog.official_website_data.financial_costs.estimated_cost_of_living)}
         </div>
       </div>
       ` : ""}
