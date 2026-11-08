@@ -329,7 +329,8 @@ h1{
   <div style="padding:40px;text-align:center;">তথ্য লোড হচ্ছে...</div>
 </div>
 
-<script src="database.js"></script>
+<script src="germany_database.js"></script>
+<script src="canada_database.js"></script>
 <script>
 (function(){
   const saved = localStorage.getItem('study_abroad_theme');
@@ -353,17 +354,22 @@ const root = document.getElementById('root');
 
 function nf(v){ return (v===undefined || v===null || v==="" || v==="Not found") ? "<span style='color:var(--muted);font-style:italic;'>Not found</span>" : v; }
 
+// Combined dataset across all countries — same program `id`s stay unique per country database.
+const ALL_PROGRAMS = []
+  .concat((typeof GERMANY_DB !== 'undefined' && GERMANY_DB.programs) ? GERMANY_DB.programs : [])
+  .concat((typeof CANADA_DB !== 'undefined' && CANADA_DB.programs) ? CANADA_DB.programs : []);
+
 // Single Source of Truth Resolution
 let prog = null;
-if (typeof DATABASE !== 'undefined' && DATABASE.programs) {
+if (ALL_PROGRAMS.length) {
   if (progId) {
-    prog = DATABASE.programs.find(p => p.id === progId);
+    prog = ALL_PROGRAMS.find(p => p.id === progId);
   }
   if (!prog && source === 'daad') {
-    prog = DATABASE.programs.find(p => p.daad_id == paramIdx) || DATABASE.programs[paramIdx];
+    prog = ALL_PROGRAMS.find(p => p.daad_id == paramIdx) || ALL_PROGRAMS[paramIdx];
   }
   if (!prog && !isNaN(paramIdx)) {
-    prog = DATABASE.programs[paramIdx];
+    prog = ALL_PROGRAMS[paramIdx];
   }
 }
 

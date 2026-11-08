@@ -85,7 +85,7 @@ h1{font-size:1.4rem;margin:16px 0;}
   </div>
 </div>
 
-<script src="database.js"></script>
+<script src="germany_database.js"></script>
 <script>
 (function(){
   const saved = localStorage.getItem('study_abroad_theme');
@@ -100,7 +100,7 @@ function toggleTheme(){
   html.setAttribute('data-theme', next);
   localStorage.setItem('study_abroad_theme', next);
 }
-const DB = (typeof DATABASE !== 'undefined') ? DATABASE : {};
+const DB = (typeof GERMANY_DB !== 'undefined') ? GERMANY_DB : {};
 const a = DB.aps_info || {};
 document.getElementById('apsBox').innerHTML = `
   <p>${a.overview || ""}</p>

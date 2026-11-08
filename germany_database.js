@@ -1,4 +1,4 @@
-const DATABASE = {
+const GERMANY_DB = {
   "metadata": {
     "version": "3.0 (Unified Master Database)",
     "last_updated": "2026-11-07T21:23:02.229Z",

@@ -886,7 +886,7 @@ table.curriculum-table tr:last-child td{border-bottom:none;}
   </div>
 </div>
 
-<script src="database.js"></script>
+<script src="germany_database.js"></script>
 <script>
 (function(){
   const saved = localStorage.getItem('study_abroad_theme');
@@ -906,12 +906,12 @@ const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate fit"};
 
 function renderRecommended(){
   const el = document.getElementById('recommendedPrograms');
-  if (typeof DATABASE === 'undefined' || !DATABASE.programs) {
+  if (typeof GERMANY_DB === 'undefined' || !GERMANY_DB.programs) {
     el.innerHTML = '<p style="color:var(--muted);">প্রোগ্রাম ডাটা লোড হয়নি।</p>';
     return;
   }
   const fitRank = {good:0, moderate:1};
-  const items = DATABASE.programs
+  const items = GERMANY_DB.programs
     .filter(p => p.tier === 'A' && (p.gpa_fit === 'good' || p.gpa_fit === 'moderate'))
     .sort((a,b) => fitRank[a.gpa_fit] - fitRank[b.gpa_fit] || a.university.localeCompare(b.university));
 
