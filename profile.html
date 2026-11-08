@@ -185,6 +185,11 @@ table.curriculum-table tr:last-child td{border-bottom:none;}
 .rec-meta{display:flex;gap:10px;flex-wrap:wrap;font-size:.78rem;color:var(--muted);}
 .rec-fit-good{color:var(--good);font-weight:700;}
 .rec-fit-moderate{color:var(--warn);font-weight:700;}
+
+.curriculum-toggle summary::-webkit-details-marker{display:none;}
+.curriculum-toggle summary:hover{background:rgba(91,140,255,.05);}
+.curriculum-toggle[open] .toggle-indicator{background:var(--accent);color:#fff;border-color:var(--accent);}
+.curriculum-toggle[open] summary .toggle-indicator::after{content:" (বন্ধ করুন)";}
 </style>
 </head>
 <body>
@@ -389,32 +394,45 @@ table.curriculum-table tr:last-child td{border-bottom:none;}
 
   <!-- Academic Curriculum Mapping -->
   <div class="section">
-    <h2>🎓 তোমার ব্যাচেলর কারিকুলাম ও ECTS ম্যাপিং — তোমার আসল Transcript অনুযায়ী (প্রতিটা কোর্স)</h2>
-    <div class="card">
-      <p style="font-size:.88rem;margin-top:0;">
-        নিচে তোমার সম্পূর্ণ Grade History-এর প্রতিটা কোর্স (রিটেক সহ) তালিকাভুক্ত, generic/ideal curriculum না — তোমার আসল একাডেমিক রেকর্ড (১ ক্রেডিট ≈ ১.৫ ECTS হিসেবে):
-      </p>
+    <div class="card" style="padding:0;overflow:hidden;">
+      <details class="curriculum-toggle">
+        <summary style="padding:20px 24px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;list-style:none;user-select:none;">
+          <div style="display:flex;align-items:center;gap:12px;">
+            <span style="font-size:1.3rem;">🎓</span>
+            <div>
+              <div style="font-size:1.15rem;font-weight:800;color:var(--text);">ব্যাচেলর কারিকুলাম ও ECTS ম্যাপিং (কোর্স-বাই-কোর্স লিস্ট)</div>
+              <div style="font-size:.82rem;color:var(--muted);margin-top:3px;">আসল Transcript অনুযায়ী সম্পূর্ণ Grade History ও ১ ক্রেডিট ≈ ১.৫ ECTS কনভার্সন (ক্লিক করে বিস্তারিত দেখুন)</div>
+            </div>
+          </div>
+          <span class="toggle-indicator" style="background:var(--panel2);border:1px solid var(--border);color:var(--accent);font-size:.82rem;font-weight:700;padding:6px 14px;border-radius:20px;white-space:nowrap;">ক্লিক করে বিস্তারিত দেখুন ▾</span>
+        </summary>
 
-      <table class="curriculum-table">
-        <thead>
-          <tr>
-            <th>কোর্স কোড ও নাম</th>
-            <th>সেমিস্টার</th>
-            <th>ক্রেডিট</th>
-            <th>ECTS</th>
-            <th>গ্রেড</th>
-            <th>ক্যাটাগরি</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-    <td><b>MAT112:</b> Elementary Mathematics (Waiver — not counted in the 133 passed credits)</td>
-    <td>—</td>
-    <td>3.0</td>
-    <td>4.5 ECTS</td>
-    <td>Waived</td>
-    <td><span class="status-tag status-core">EEE Core</span></td>
-  </tr>
+        <div style="padding:10px 24px 24px;border-top:1px solid var(--border-light);">
+          <p style="font-size:.88rem;margin-top:4px;">
+            নিচে তোমার সম্পূর্ণ Grade History-এর প্রতিটা কোর্স (রিটেক সহ) তালিকাভুক্ত, generic/ideal curriculum না — তোমার আসল একাডেমিক রেকর্ড (১ ক্রেডিট ≈ ১.৫ ECTS হিসেবে):
+          </p>
+
+          <div style="overflow-x:auto;">
+            <table class="curriculum-table">
+              <thead>
+                <tr>
+                  <th>কোর্স কোড ও নাম</th>
+                  <th>সেমিস্টার</th>
+                  <th>ক্রেডিট</th>
+                  <th>ECTS</th>
+                  <th>গ্রেড</th>
+                  <th>ক্যাটাগরি</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+          <td><b>MAT112:</b> Elementary Mathematics (Waiver — not counted in the 133 passed credits)</td>
+          <td>—</td>
+          <td>3.0</td>
+          <td>4.5 ECTS</td>
+          <td>Waived</td>
+          <td><span class="status-tag status-core">EEE Core</span></td>
+        </tr>
           <tr>
     <td><b>EEE141:</b> Electrical Circuits</td>
     <td>Spring 2020</td>
@@ -858,9 +876,13 @@ table.curriculum-table tr:last-child td{border-bottom:none;}
         </tbody>
       </table>
 
-      <div class="notice-box">
-        💡 <b>সারাংশ:</b> মোট <b>133 ক্রেডিট</b> প্রকৃতপক্ষে পাস করা হয়েছে (≈ <b>199.5 ECTS</b>), MAT112 (waiver) বাদে। EEE465 (High Voltage Engineering) বাদ দিয়ে এর বদলে PBH101 সম্পন্ন করা হয়েছে, তাই তালিকায় নেই। VLSI/RTL/Digital সরাসরি সম্পর্কিত কোর্স (EEE111/311 Analog, EEE211 Digital Electronics, EEE221 Signals, EEE321 Communication, EEE411 VLSI Design, EEE413 Verilog HDL, EEE498R/499A/499B Design Project) সবুজ ট্যাগ দিয়ে চিহ্নিত — এগুলোই জার্মান প্রোগ্রামের subject-prerequisite ECTS চেক-এ সবচেয়ে বেশি কাজে লাগবে।
-      </div>
+          </div>
+
+          <div class="notice-box">
+            💡 <b>সারাংশ:</b> মোট <b>133 ক্রেডিট</b> প্রকৃতপক্ষে পাস করা হয়েছে (≈ <b>199.5 ECTS</b>), MAT112 (waiver) বাদে। EEE465 (High Voltage Engineering) বাদ দিয়ে এর বদলে PBH101 সম্পন্ন করা হয়েছে, তাই তালিকায় নেই। VLSI/RTL/Digital সরাসরি সম্পর্কিত কোর্স (EEE111/311 Analog, EEE211 Digital Electronics, EEE221 Signals, EEE321 Communication, EEE411 VLSI Design, EEE413 Verilog HDL, EEE498R/499A/499B Design Project) সবুজ ট্যাগ দিয়ে চিহ্নিত — এগুলোই জার্মান প্রোগ্রামের subject-prerequisite ECTS চেক-এ সবচেয়ে বেশি কাজে লাগবে।
+          </div>
+        </div>
+      </details>
     </div>
   </div>
 
