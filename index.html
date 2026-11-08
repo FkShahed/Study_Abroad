@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="bn">
 <head>
+<script>
+  (function(){
+    const saved = localStorage.getItem('study_abroad_theme');
+    if(saved){
+      document.documentElement.setAttribute('data-theme', saved);
+    }
+  })();
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Study in Germany — Master's Tracker</title>
@@ -400,9 +408,18 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:32px 20px;}
 
 <script src="database.js"></script>
 <script>
+(function(){
+  const saved = localStorage.getItem('study_abroad_theme');
+  if(saved){
+    document.documentElement.setAttribute('data-theme', saved);
+  }
+})();
 function toggleTheme(){
-  const html=document.documentElement;
-  html.setAttribute('data-theme', html.getAttribute('data-theme')==='light'?'dark':'light');
+  const html = document.documentElement;
+  const current = html.getAttribute('data-theme') || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  const next = current === 'light' ? 'dark' : 'light';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('study_abroad_theme', next);
 }
 const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate",borderline:"🟡 Borderline",risky:"🟠 Risky",weak:"🔴 Weak fit",unknown:"⚪ unreviewed",unclear:"⚪ Unclear"};
 
