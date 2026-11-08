@@ -159,6 +159,17 @@ table.curriculum-table tr:last-child td{border-bottom:none;}
 .status-core{background:rgba(91,140,255,.16);color:var(--accent);border:1px solid rgba(91,140,255,.3);}
 .status-vlsi{background:rgba(56,239,125,.16);color:var(--good);border:1px solid rgba(56,239,125,.35);}
 .notice-box{background:rgba(255,183,77,.1);border:1px solid rgba(255,183,77,.35);border-radius:10px;padding:14px 16px;font-size:.86rem;color:var(--warn);margin-top:16px;}
+.ects-group{background:var(--panel2);border:1px solid var(--border-light);border-radius:var(--radius-sm);margin-bottom:10px;overflow:hidden;}
+.ects-group summary{list-style:none;cursor:pointer;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:.92rem;}
+.ects-group summary::-webkit-details-marker{display:none;}
+.ects-group summary::before{content:"▸";margin-right:8px;color:var(--accent);transition:transform .15s;display:inline-block;}
+.ects-group[open] summary::before{transform:rotate(90deg);}
+.ects-group .ects-sum{color:var(--muted);font-weight:400;font-size:.82rem;white-space:nowrap;}
+.ects-group .ects-sum b{color:var(--text);font-weight:700;}
+.ects-group table.curriculum-table{margin:0;padding:0 16px 14px;font-size:.82rem;}
+.ects-group table.curriculum-table th{display:none;}
+.ects-group table.curriculum-table td{padding:8px 10px;border-bottom:1px solid var(--border-light);}
+.ects-group table.curriculum-table tr:last-child td{border-bottom:none;}
 .rec-card{display:block;background:var(--panel2);border:1px solid var(--border-light);border-radius:var(--radius-sm);padding:14px 16px;margin-bottom:10px;text-decoration:none;color:var(--text);transition:border-color .15s;}
 .rec-card:hover{border-color:var(--border-hover);}
 .rec-uni{color:var(--accent);font-weight:700;font-size:.72rem;text-transform:uppercase;letter-spacing:.03em;}
@@ -222,22 +233,115 @@ table.curriculum-table tr:last-child td{border-bottom:none;}
   <div class="section">
     <h2>📊 Quick Reference — সাবজেক্ট-এরিয়া অনুযায়ী ECTS ব্রেকডাউন</h2>
     <div class="card">
-      <p style="font-size:.84rem;color:var(--muted);margin:0 0 14px;">যেকোনো ইউনিভার্সিটির "minimum X ECTS in Mathematics / Electronics / Digital Systems" জাতীয় requirement-এর সাথে মেলানোর জন্য। (১ NSU ক্রেডিট = ১.৫ ECTS, EEE465 বাদ — PBH101 দিয়ে replaced)</p>
-      <table class="curriculum-table">
-        <thead>
-          <tr><th>সাবজেক্ট এরিয়া</th><th>ক্রেডিট</th><th>ECTS</th></tr>
-        </thead>
+      <p style="font-size:.84rem;color:var(--muted);margin:0 0 14px;">যেকোনো ইউনিভার্সিটির "minimum X ECTS in Mathematics / Electronics / Digital Systems" জাতীয় requirement-এর সাথে মেলানোর জন্য। প্রতিটা সারিতে ক্লিক করলে ভেতরের কোর্সগুলো দেখা যাবে। (১ NSU ক্রেডিট = ১.৫ ECTS, EEE465 বাদ — PBH101 দিয়ে replaced)</p>
+
+      <details class="ects-group">
+        <summary><span>🧮 Mathematics</span><span class="ects-sum">21.0 cr → <b>31.5 ECTS</b></span></summary>
+        <table class="curriculum-table"><tbody>
+          <tr><td>MAT116 — Pre-Calculus</td><td>Spring 2020</td><td>3.0</td><td>4.5</td><td>B+</td></tr>
+          <tr><td>MAT120 — Calculus and Analytic Geometry-I</td><td>Summer 2020</td><td>3.0</td><td>4.5</td><td>B+</td></tr>
+          <tr><td>MAT130 — Calculus and Analytic Geometry-II</td><td>Fall 2020</td><td>3.0</td><td>4.5</td><td>A-</td></tr>
+          <tr><td>MAT125 — Introduction to Linear Algebra</td><td>Spring 2021</td><td>3.0</td><td>4.5</td><td>A-</td></tr>
+          <tr><td>MAT250 — Calculus and Analytic Geometry IV</td><td>Summer 2021</td><td>3.0</td><td>4.5</td><td>B+</td></tr>
+          <tr><td>MAT350 — Engineering Mathematics</td><td>Fall 2021</td><td>3.0</td><td>4.5</td><td>A-</td></tr>
+          <tr><td>MAT361 — Probability and Statistics (retake, পাস)</td><td>Summer 2022</td><td>3.0</td><td>4.5</td><td style="color:var(--good);font-weight:700;">B+</td></tr>
+        </tbody></table>
+      </details>
+
+      <details class="ects-group">
+        <summary><span>⚛️ Physics</span><span class="ects-sum">8.0 cr → <b>12.0 ECTS</b></span></summary>
+        <table class="curriculum-table"><tbody>
+          <tr><td>PHY107 — General Physics-I</td><td>Spring 2021</td><td>3.0</td><td>4.5</td><td>B</td></tr>
+          <tr><td>PHY107L — Physics I Lab</td><td>Spring 2021</td><td>1.0</td><td>1.5</td><td>B</td></tr>
+          <tr><td>PHY108 — General Physics-II</td><td>Summer 2021</td><td>3.0</td><td>4.5</td><td>C+</td></tr>
+          <tr><td>PHY108L — General Physics-II Lab</td><td>Summer 2021</td><td>1.0</td><td>1.5</td><td>A</td></tr>
+        </tbody></table>
+      </details>
+
+      <details class="ects-group">
+        <summary><span>💻 Programming / Computing</span><span class="ects-sum">4.0 cr → <b>6.0 ECTS</b></span></summary>
+        <table class="curriculum-table"><tbody>
+          <tr><td>CSE115 — Programming Language I</td><td>Fall 2020</td><td>3.0</td><td>4.5</td><td>A</td></tr>
+          <tr><td>CSE115L — Programming Language I Lab</td><td>Fall 2020</td><td>1.0</td><td>1.5</td><td>A</td></tr>
+        </tbody></table>
+      </details>
+
+      <details class="ects-group">
+        <summary><span>🔌 Electrical Circuits & Analog Electronics</span><span class="ects-sum">17.0 cr → <b>25.5 ECTS</b></span></summary>
+        <table class="curriculum-table"><tbody>
+          <tr><td>EEE141 — Electrical Circuits</td><td>Spring 2020</td><td>3.0</td><td>4.5</td><td>B+</td></tr>
+          <tr><td>EEE141L — Electrical Circuits Lab</td><td>Spring 2020</td><td>1.0</td><td>1.5</td><td>B</td></tr>
+          <tr><td>EEE241 — Electrical Circuits II</td><td>Fall 2020</td><td>3.0</td><td>4.5</td><td>B+</td></tr>
+          <tr><td>EEE241L — Electrical Circuits II Lab</td><td>Fall 2020</td><td>1.0</td><td>1.5</td><td>A</td></tr>
+          <tr><td>EEE154 — Engineering Drawing</td><td>Spring 2021</td><td>1.0</td><td>1.5</td><td>B-</td></tr>
+          <tr><td>EEE111 — Analog Electronics</td><td>Summer 2021</td><td>3.0</td><td>4.5</td><td>A-</td></tr>
+          <tr><td>EEE111L — Analog Electronics Lab</td><td>Summer 2021</td><td>1.0</td><td>1.5</td><td>A-</td></tr>
+          <tr><td>EEE311 — Analog Electronics II</td><td>Fall 2021</td><td>3.0</td><td>4.5</td><td>A</td></tr>
+          <tr><td>EEE311L — Analog Electronics II Lab</td><td>Fall 2021</td><td>1.0</td><td>1.5</td><td>C</td></tr>
+        </tbody></table>
+      </details>
+
+      <details class="ects-group">
+        <summary><span>⚡ Power Systems / Control / EM Theory / Machines</span><span class="ects-sum">20.0 cr → <b>30.0 ECTS</b></span></summary>
+        <table class="curriculum-table"><tbody>
+          <tr><td>EEE312 — Power Electronics</td><td>Spring 2022</td><td>3.0</td><td>4.5</td><td>B</td></tr>
+          <tr><td>EEE361 — Theory of Electromagnetic Field (retake, পাস)</td><td>Fall 2022</td><td>3.0</td><td>4.5</td><td style="color:var(--good);font-weight:700;">A</td></tr>
+          <tr><td>EEE363 — Electrical Machines</td><td>Spring 2023</td><td>3.0</td><td>4.5</td><td>D</td></tr>
+          <tr><td>EEE363L — Electrical Machines Lab (retake, পাস)</td><td>Summer 2023</td><td>1.0</td><td>1.5</td><td style="color:var(--good);font-weight:700;">B</td></tr>
+          <tr><td>EEE342 — Control Engineering</td><td>Summer 2023</td><td>3.0</td><td>4.5</td><td>D</td></tr>
+          <tr><td>EEE342L — Control Engineering Lab</td><td>Summer 2023</td><td>1.0</td><td>1.5</td><td>D</td></tr>
+          <tr><td>EEE362 — Power Systems</td><td>Summer 2023</td><td>3.0</td><td>4.5</td><td>C-</td></tr>
+          <tr><td>EEE462 — Switchgear and Protection</td><td>Summer 2023</td><td>3.0</td><td>4.5</td><td>D</td></tr>
+        </tbody></table>
+      </details>
+
+      <details class="ects-group" open style="border-color:rgba(56,239,125,.4);background:rgba(56,239,125,.04);">
+        <summary><span style="color:var(--good);">🖥️ Digital Systems / VLSI / RTL / Signal Processing</span><span class="ects-sum">15.0 cr → <b>22.5 ECTS</b></span></summary>
+        <table class="curriculum-table"><tbody>
+          <tr><td>EEE211 — Digital Electronics</td><td>Fall 2022</td><td>3.0</td><td>4.5</td><td>B</td></tr>
+          <tr><td>EEE221 — Signals and Systems</td><td>Summer 2022</td><td>3.0</td><td>4.5</td><td>B+</td></tr>
+          <tr><td>EEE321 — Introduction to Communication Systems</td><td>Spring 2023</td><td>3.0</td><td>4.5</td><td>B</td></tr>
+          <tr><td>EEE411 — Introduction to VLSI Design</td><td>Spring 2023</td><td>3.0</td><td>4.5</td><td style="color:var(--good);font-weight:700;">B+</td></tr>
+          <tr><td>EEE413 — Verilog HDL: Modeling, Simulation and Synthesis</td><td>Spring 2024</td><td>3.0</td><td>4.5</td><td style="color:var(--good);font-weight:700;">B+</td></tr>
+        </tbody></table>
+      </details>
+
+      <details class="ects-group">
+        <summary><span>🛠️ Design Projects / Capstone / Research</span><span class="ects-sum">4.0 cr → <b>6.0 ECTS</b></span></summary>
+        <table class="curriculum-table"><tbody>
+          <tr><td>EEE299 — Junior Design</td><td>Spring 2023</td><td>1.0</td><td>1.5</td><td>B</td></tr>
+          <tr><td>EEE499A — Senior Design I</td><td>Summer 2023</td><td>1.5</td><td>2.25</td><td>A</td></tr>
+          <tr><td>EEE498R — Intern/Co-op/Directed Research</td><td>Spring 2024</td><td>0.0</td><td>0.0</td><td>A</td></tr>
+          <tr><td>EEE499B — Senior Design II</td><td>Spring 2024</td><td>1.5</td><td>2.25</td><td>B+</td></tr>
+        </tbody></table>
+      </details>
+
+      <details class="ects-group">
+        <summary><span>📘 General Education</span><span class="ects-sum">44.0 cr → <b>66.0 ECTS</b></span></summary>
+        <table class="curriculum-table"><tbody>
+          <tr><td>ENG102 — Introduction to Composition</td><td>Spring 2020</td><td>3.0</td><td>4.5</td><td>B-</td></tr>
+          <tr><td>BEN205 — Bengali Language and Literature</td><td>Summer 2020</td><td>3.0</td><td>4.5</td><td>B+</td></tr>
+          <tr><td>ENG103 — Intermediate Composition</td><td>Summer 2020</td><td>3.0</td><td>4.5</td><td>A-</td></tr>
+          <tr><td>PHI104 — Introduction to Ethics</td><td>Fall 2020</td><td>3.0</td><td>4.5</td><td>A-</td></tr>
+          <tr><td>HIS102 — Introduction to World Civilization</td><td>Summer 2021</td><td>3.0</td><td>4.5</td><td>B</td></tr>
+          <tr><td>HIS103 — Emergence of Bangladesh</td><td>Fall 2021</td><td>3.0</td><td>4.5</td><td>B</td></tr>
+          <tr><td>POL101 — Political Science</td><td>Fall 2021</td><td>3.0</td><td>4.5</td><td>B+</td></tr>
+          <tr><td>ECO101 — Introduction to Microeconomics</td><td>Spring 2022</td><td>3.0</td><td>4.5</td><td>B+</td></tr>
+          <tr><td>CHE101 — General Chemistry (retake, পাস)</td><td>Summer 2022</td><td>3.0</td><td>4.5</td><td style="color:var(--good);font-weight:700;">C+</td></tr>
+          <tr><td>CHE101L — General Chemistry Lab</td><td>Summer 2022</td><td>1.0</td><td>1.5</td><td>B+</td></tr>
+          <tr><td>BIO103 — Biology I</td><td>Fall 2022</td><td>3.0</td><td>4.5</td><td>B</td></tr>
+          <tr><td>BIO103L — Biology I Lab</td><td>Spring 2023</td><td>1.0</td><td>1.5</td><td>C-</td></tr>
+          <tr><td>ENV203 — Introduction to Geography</td><td>Spring 2023</td><td>3.0</td><td>4.5</td><td>C-</td></tr>
+          <tr><td>ENG111 — Public Speaking</td><td>Summer 2023</td><td>3.0</td><td>4.5</td><td>D</td></tr>
+          <tr><td>EEE452 — Engineering Economics and Management (retake, পাস)</td><td>Intersession 2023</td><td>3.0</td><td>4.5</td><td style="color:var(--good);font-weight:700;">D+</td></tr>
+          <tr><td>PBH101 — Introduction to Public Health</td><td>Spring 2025</td><td>3.0</td><td>4.5</td><td>D</td></tr>
+        </tbody></table>
+      </details>
+
+      <table class="curriculum-table" style="margin-top:10px;">
         <tbody>
-          <tr><td>🧮 Mathematics (Calculus I-IV, Linear Algebra, Eng. Math, Probability & Stats)</td><td>21.0</td><td><b>31.5</b></td></tr>
-          <tr><td>⚛️ Physics (General Physics I & II + Labs)</td><td>8.0</td><td><b>12.0</b></td></tr>
-          <tr><td>💻 Programming / Computing (CSE115 + Lab)</td><td>4.0</td><td><b>6.0</b></td></tr>
-          <tr><td>🔌 Electrical Circuits & Analog Electronics (EEE141/241/111/311 + Labs, Drawing)</td><td>17.0</td><td><b>25.5</b></td></tr>
-          <tr><td>⚡ Power Systems / Control / EM Theory / Machines (EEE312/342/362/462/363/361 + Labs)</td><td>20.0</td><td><b>30.0</b></td></tr>
-          <tr style="background:rgba(56,239,125,.08);"><td>🖥️ <b>Digital Systems / VLSI / RTL / Signal Processing</b> (EEE211 Digital, EEE221 Signals, EEE321 Comms, EEE411 VLSI Design, EEE413 Verilog HDL)</td><td>15.0</td><td><b>22.5</b></td></tr>
-          <tr><td>🛠️ Design Projects / Capstone / Research (Junior Design, Senior Design I-II, Directed Research)</td><td>4.0</td><td><b>6.0</b></td></tr>
-          <tr><td>📘 General Education (English, History, Political Science, Ethics, Economics, Chemistry, Biology, Geography, Public Health)</td><td>44.0</td><td><b>66.0</b></td></tr>
-          <tr style="border-top:2px solid var(--border);font-weight:700;"><td>মোট (Total Passed)</td><td>133.0</td><td><b>199.5</b></td></tr>
-          <tr style="opacity:.6;font-style:italic;"><td>MAT112 (Waiver, not counted)</td><td>3.0</td><td>—</td></tr>
+          <tr style="border-top:2px solid var(--border);font-weight:700;"><td>মোট (Total Passed)</td><td>133.0 ক্রেডিট</td><td><b>199.5 ECTS</b></td></tr>
+          <tr style="opacity:.6;font-style:italic;"><td>MAT112 (Waiver, not counted)</td><td>3.0 ক্রেডিট</td><td>—</td></tr>
         </tbody>
       </table>
     </div>
