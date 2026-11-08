@@ -128,16 +128,34 @@ h1{
 }
 .field.search{flex:2 1 230px;}
 .count{
-  display:inline-block;
-  background: var(--panel);
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  background: var(--panel2);
   backdrop-filter: var(--backdrop);
-  padding: 4px 16px;
-  border-radius: 20px;
-  border: 1px solid var(--border-light);
-  color:var(--muted);
-  font-size:.82rem;
+  padding: 8px 20px;
+  border-radius: 24px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: .95rem;
   font-weight: 600;
-  margin: 0 auto 16px;
+  margin: 0 auto 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  transition: all .2s ease;
+}
+.count .badge-num{
+  background: var(--accent);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 2px 10px;
+  border-radius: 14px;
+  letter-spacing: .02em;
+}
+.count .badge-total{
+  color: var(--muted);
+  font-size: .88rem;
+  font-weight: 500;
 }
 .count-wrapper{text-align: center;}
 
@@ -579,8 +597,15 @@ function applyFilters(){
   else if(sortBy==="fit") items.sort((a,b)=>(fitRank[a.gpa_fit]??4)-(fitRank[b.gpa_fit]??4));
   else if(sortBy==="name") items.sort((a,b)=>a.university.localeCompare(b.university));
 
-  document.getElementById('cardsContainer').innerHTML = items.map(renderCard).join("");
-  document.getElementById('resultCount').textContent = `${items.length} / ${ALL_ITEMS.length} টি মাস্টার্স প্রোগ্রাম (সব কান্ট্রি মিলিয়ে)`;
+  document.getElementById('cardsContainer').innerHTML = items.length ? items.map(renderCard).join("") : `<tr><td colspan="6" style="text-align:center;padding:40px;color:var(--muted);font-size:.95rem;">🔍 আপনার নির্বাচিত ফিল্টারে কোনো প্রোগ্রাম খুঁজে পাওয়া যায়নি। ফিল্টার রিসেট করে আবার চেষ্টা করুন।</td></tr>`;
+
+  const total = ALL_ITEMS.length;
+  const countEl = document.getElementById('resultCount');
+  if (items.length === total) {
+    countEl.innerHTML = `মোট <span class="badge-num">${items.length}</span> টি মাস্টার্স প্রোগ্রাম প্রদর্শিত হচ্ছে`;
+  } else {
+    countEl.innerHTML = `ফিল্টারে পাওয়া গেছে: <span class="badge-num">${items.length} টি</span> <span class="badge-total">(মোট ${total} টির মধ্যে)</span>`;
+  }
   syncURLFromFilters();
 }
 
