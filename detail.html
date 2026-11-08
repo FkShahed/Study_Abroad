@@ -188,15 +188,12 @@ h1{
 
 /* Section Layout */
 .section-block{
-  background:var(--panel);
-  backdrop-filter: var(--backdrop);
-  -webkit-backdrop-filter: var(--backdrop);
-  border:1px solid var(--border);
-  box-shadow: var(--glass-shadow);
-  border-radius:var(--radius);
-  padding:24px;
-  margin-bottom:24px;
-  scroll-margin-top:76px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin-bottom: 28px;
+  scroll-margin-top: 76px;
 }
 .section-title{
   display:flex;
@@ -212,19 +209,22 @@ h1{
 }
 .section-title span.icon{font-size:1.35rem;}
 
-.grid-info{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-bottom:16px;}
+.grid-info{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-bottom:16px;}
 .info-item{
   background:var(--panel2);
   border:1px solid var(--border-light);
   border-radius:var(--radius-sm);
   padding:12px 15px;
   transition: border-color .15s;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 .info-item:hover{
   border-color: var(--border-hover);
 }
 .info-item b{display:block;color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px;font-weight:700;}
-.info-item .val{font-size:.9rem;font-weight:600;}
+.info-item .val{font-size:.9rem;font-weight:600;overflow-wrap:break-word;word-break:break-word;}
 
 .longbox{
   background:var(--panel2);
@@ -235,6 +235,9 @@ h1{
   line-height:1.75;
   margin-bottom:14px;
   white-space:pre-line;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
 }
 .longbox.empty{color:var(--muted);font-style:italic;}
 
@@ -246,8 +249,28 @@ h1{
   font-size:.88rem;
   line-height:1.65;
   margin-bottom:16px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
 }
 .note-box.fit{background:rgba(255,183,77,.1);border-left-color:var(--warn);}
+.note-box.good{background:rgba(56,239,125,.1);border-left-color:var(--good);}
+.note-box.bad{background:rgba(255,82,82,.1);border-left-color:var(--bad);}
+
+@media (max-width: 768px) {
+  .container{max-width:100%;padding:16px 10px 60px;}
+  .header-card{padding:16px 14px;}
+  h1{font-size:1.35rem;}
+  .grid-info{grid-template-columns:1fr;gap:10px;}
+  .section-title{font-size:1.05rem;}
+  .quick-links{flex-direction:column;}
+  .quick-btn{width:100%;justify-content:center;box-sizing:border-box;}
+  .tags{gap:6px;}
+  .tag{font-size:.68rem;padding:4px 9px;}
+  .tab-btn{padding:7px 12px;font-size:.76rem;}
+  .info-item{padding:10px 12px;}
+  .longbox{padding:12px 14px;font-size:.84rem;}
+}
 .note-box.good{background:rgba(56,239,125,.1);border-left-color:var(--good);}
 
 .quick-links{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap;}
@@ -454,7 +477,7 @@ if (!prog) {
 
     <!-- Section: University Deep Info (Directly from University Official Website) -->
     ${prog.official_website_data ? `
-    <div class="section-block" id="sec-official-data" style="border:1.5px solid var(--good);box-shadow:0 8px 30px rgba(62,207,142,.15);background:rgba(62,207,142,.03);">
+    <div class="section-block" id="sec-official-data" style="border-top:2px solid var(--good);padding-top:20px;margin-bottom:30px;">
       <div class="section-title" style="color:var(--good);"><span><span class="icon">🏛️</span> অফিশিয়াল বিশ্ববিদ্যালয় ওয়েবসাইটের পূর্ণাঙ্গ ভর্তি ও প্রোগ্রাম ডেটা (Official Admission & Program Data)</span>${officialTag}</div>
       
       <!-- Key Parameters Grid -->
@@ -608,7 +631,7 @@ ${prog.official_website_data.deep_recheck ? `
 
     <!-- Section: University Deep Info (Directly from University Official Website) -->
     ${prog.university_deep_info ? `
-    <div class="section-block" id="sec-deep-official" style="border:1.5px solid var(--accent);box-shadow:0 8px 30px rgba(91,140,255,.18);">
+    <div class="section-block" id="sec-deep-official" style="border-top:2px solid var(--accent);padding-top:20px;margin-bottom:30px;">
       <div class="section-title" style="color:var(--accent);"><span class="icon">🔬</span> অফিসিয়াল বিশ্ববিদ্যালয় ডিপ-রিসার্চ ও ল্যাব ইনফো (Direct Official Site)</div>
       
       <div class="grid-info">
