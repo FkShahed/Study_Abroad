@@ -537,8 +537,7 @@ if (!prog) {
         <span class="tag fit-${fitClass}">${fitTitles[fitClass] || fitClass}</span>
         <span class="tag" style="background:var(--panel2);border:1px solid var(--border);">${o.language || 'English'}</span>
         <span class="tag" style="background:var(--panel2);border:1px solid var(--border);">${f.tuition && f.tuition !== 'None' ? 'Tuition: ' + f.tuition : 'Tuition Free (০ ইউরো)'}</span>
-        ${prog.ranking && prog.ranking.qs_world_rank && !/not ranked/i.test(prog.ranking.qs_world_rank) ? `<span class="tag" style="background:rgba(91,140,255,.12);border:1px solid rgba(91,140,255,.3);color:var(--accent);">🌍 QS World: ${prog.ranking.qs_world_rank}</span>` : ""}
-        ${prog.ranking && /not ranked/i.test(prog.ranking.qs_world_rank||'') ? `<span class="tag" style="background:var(--panel2);border:1px solid var(--border);color:var(--muted);">🏫 Applied Sciences (unranked in QS/THE)</span>` : ""}
+        ${prog.ranking && prog.ranking.qs_world_rank ? `<span class="tag" style="background:rgba(91,140,255,.12);border:1px solid rgba(91,140,255,.3);color:var(--accent);">🏆 ${prog.ranking.qs_world_rank.split('(')[0].trim()}</span>` : ""}
       </div>
 
       ${prog.ranking ? `

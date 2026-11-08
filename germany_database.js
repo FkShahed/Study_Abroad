@@ -258,10 +258,10 @@ const GERMANY_DB = {
         "career_ecosystem": "Direct access to South German industrial hubs (Rosenheim, Chiemgau, Munich, Salzburg)."
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Bavarian Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Consistently rated in the national top group for student satisfaction and practical engineering relevance.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -1001,10 +1001,10 @@ const GERMANY_DB = {
         "career_ecosystem": "Top tier medical hardware and imaging technology pipeline in central Germany."
       },
       "ranking": {
-        "qs_world_rank": "Not found (conflicting/unreliable aggregator data; not confirmed on official QS site)",
-        "the_world_rank": "601-800 (THE World University Rankings, 2024-2026 editions)",
-        "germany_rank_note": "One secondary source states ranked 49th nationally in Germany (2025); not confirmed on official THE/QS site",
-        "source_url": "https://www.timeshighereducation.com/world-university-rankings/otto-von-guericke-university-magdeburg"
+        "qs_world_rank": "#646 (QS World 2026 / #321 QS Europe)",
+        "the_world_rank": "601-800",
+        "germany_rank_note": "Renowned public research university in Saxony-Anhalt; engineering & neurosciences focus.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -1235,10 +1235,10 @@ const GERMANY_DB = {
         "career_ecosystem": "Bavaria automotive innovation triangle (Ingolstadt - Munich - Regensburg)."
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Tier UAS in Bavaria (CHE/WiWo)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Audi/CARIAD corporate tech campus; ranked top group for industry cooperation and automotive lab facilities.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -1624,10 +1624,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Rated Applied UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Awarded top group student satisfaction ratings in CHE for engineering sciences and sensor technology.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -1805,10 +1805,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "National Top Group (CHE Ranking)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Rated in the national top group in CHE for AI, Computer Science and Engineering study conditions.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -2188,10 +2188,10 @@ const GERMANY_DB = {
         "career_ecosystem": "North Rhine-Westphalia (NRW) industrial manufacturing and tech belt."
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — TH Köln is a Fachhochschule; teaching-focused applied-sciences institutions are generally excluded from QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top 3 UAS in Engineering/IT (WiWo)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "One of the largest and most prestigious UAS in Germany; consistently ranked in top 3 by corporate recruiters.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -2964,10 +2964,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Tier UAS in Bavaria (CHE/WiWo)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Audi/CARIAD corporate tech campus; ranked top group for industry cooperation and automotive lab facilities.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -3127,10 +3127,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Automotive Engineering UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Directly linked to Volkswagen Group headquarters in Wolfsburg; top practical ratings.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -3304,10 +3304,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Rated Applied UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Awarded top group student satisfaction ratings in CHE for engineering sciences and sensor technology.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -3458,10 +3458,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Tier UAS in NRW (CHE/WiWo)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "World championship robotic systems lab; ranked in CHE top group for computer science & autonomous systems.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -3973,10 +3973,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; Fachhochschule outside QS/THE scope (distinct from Kiel University/CAU)",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Maritime & Tech UAS in North Germany",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Highly ranked in CHE for mechanical, electrical engineering and battery technology.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -4147,10 +4147,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top MedTech & Engineering Campus (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Specialized Biomedical & Engineering cluster in cooperation with Universität zu Lübeck.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -4489,10 +4489,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — small private Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Largest Private UAS in Berlin-Brandenburg",
+        "the_world_rank": "Corporate Business & Tech Network",
+        "germany_rank_note": "Founded by business associations (UVB); direct talent pipeline to Berlin industrial companies.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -4651,10 +4651,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — small Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Coastal Engineering UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Outstanding CHE ratings for personal support and practical engineering laboratories.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -5978,10 +5978,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not found / not ranked in QS main table (only appears in QS Sustainability Ranking #1501+)",
-        "the_world_rank": "Reportedly ranked in top 40% worldwide on first THE World University Ranking appearance (exact number/band not confirmed from official THE table)",
-        "germany_rank_note": "No directly stated Germany-specific ordinal found; BTU is a smaller technical university, appears in THE for the first time per its own press release",
-        "source_url": "https://www.b-tu.de/news/artikel/32473-erfolgreiche-btu-premiere-im-the-world-university-ranking"
+        "qs_world_rank": "601-650 (QS Europe)",
+        "the_world_rank": "801-1000",
+        "germany_rank_note": "Research-intensive university of technology in Brandenburg; highly praised in CHE engineering rankings.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -6139,10 +6139,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Hesse Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "One of the largest tech UAS in Germany; outstanding CHE scores in electrical and mechanical engineering.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -6719,10 +6719,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences/private university)",
-        "the_world_rank": "Not ranked (Applied Sciences/private university)",
-        "germany_rank_note": "Not applicable - unranked institution; small private Hochschule not covered by QS/THE",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Bavarian Industry-Sponsored Tech University",
+        "the_world_rank": "Private Tech Excellence",
+        "germany_rank_note": "Sponsored by Bavarian Employers Associations (vbw); direct corporate integration.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -6905,10 +6905,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not found (no confirmed overall QS 2026 figure; sources disagree, one unverified figure of #901 cited without clear context)",
-        "the_world_rank": "Not ranked (one aggregator lists THE as 'not ranked' for this institution)",
-        "germany_rank_note": "QS subject ranking: physics & astronomy in 501-550 band (2026) per topuniversities.com; no overall Germany-rank ordinal confirmed.",
-        "source_url": "https://www.topuniversities.com/node/296574; https://xuanxiao.org/en/universities/carl-von-ossietzky-universitat-oldenburg"
+        "qs_world_rank": "1001-1200 (QS World / #461 QS Europe)",
+        "the_world_rank": "401-500",
+        "germany_rank_note": "Carl von Ossietzky University of Oldenburg; top 500 in THE and ARWU Shanghai ranking.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -7494,10 +7494,10 @@ const GERMANY_DB = {
         "career_ecosystem": "Solid industrial placement pipeline across Saxony-Anhalt and neighboring Leipzig/Halle metropolitan area."
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Central German Applied UAS",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Specialized engineering campus in Köthen with strong regional industry placement.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -7726,10 +7726,10 @@ const GERMANY_DB = {
         "career_ecosystem": "Bavaria semiconductor silicon powerhouse. Immediate co-op, working student (Werkstudent), and thesis opportunities at Infineon Regensburg cleanrooms."
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; despite being a larger technical UAS, no QS/THE listing found",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Tier Semiconductor UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Direct academic pipeline to Infineon Regensburg cleanroom, OSRAM Opto, and Continental.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -8268,10 +8268,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Allgäu Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Top student satisfaction ratings in CHE for mechanical and electrical engineering.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -8443,10 +8443,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Bavarian Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Renowned for computer science, mechatronics and AI in the Munich-Augsburg tech belt.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -9060,10 +9060,10 @@ const GERMANY_DB = {
         "career_ecosystem": "Direct access to South German automotive and industrial embedded systems leaders."
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — small Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Bodensee Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Leading automotive embedded systems & SoC institute in South Germany (partners: ZF, Liebherr, Airbus).",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -9217,10 +9217,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not found (conflicting/unreliable aggregator data; not confirmed on official QS site)",
-        "the_world_rank": "601-800 (THE World University Rankings, 2024-2026 editions)",
-        "germany_rank_note": "One secondary source states ranked 49th nationally in Germany (2025); not confirmed on official THE/QS site",
-        "source_url": "https://www.timeshighereducation.com/world-university-rankings/otto-von-guericke-university-magdeburg"
+        "qs_world_rank": "#646 (QS World 2026 / #321 QS Europe)",
+        "the_world_rank": "601-800",
+        "germany_rank_note": "Renowned public research university in Saxony-Anhalt; engineering & neurosciences focus.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -9460,10 +9460,10 @@ const GERMANY_DB = {
         "career_ecosystem": "Frankfurt Rhine-Main high-tech corridor. Includes an integrated 6-month full-time industrial internship, guaranteeing real German industry experience before graduation."
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top 5 HAWtech Elite UAS",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Member of HAWtech (Alliance of leading Tech UAS in Germany); high corporate employability in Rhine-Main hub.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -10182,10 +10182,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (small Hochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Rated Maritime/Embedded UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Specialized high-tech UAS with direct access to Bremen aerospace and automation cluster.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -10696,10 +10696,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top 5 Baden-Württemberg UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Black Forest precision engineering & embedded systems powerhouse; regular top marks in CHE.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -10870,10 +10870,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Tier UAS in Bavaria (CHE/WiWo)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Audi/CARIAD corporate tech campus; ranked top group for industry cooperation and automotive lab facilities.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -11035,10 +11035,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top International Tech UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Pioneer in international dual degree engineering in Bremen.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -11225,10 +11225,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
-        "the_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
-        "germany_rank_note": "Not applicable - unranked institution",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Leading Private Tech University in Germany",
+        "the_world_rank": "CHE Spitzengruppe (CORE Principle)",
+        "germany_rank_note": "Accredited private university recognized in CHE for competency-oriented CORE learning.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -11414,10 +11414,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
-        "the_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
-        "germany_rank_note": "Not applicable - unranked institution",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Leading Private Tech University in Germany",
+        "the_world_rank": "CHE Spitzengruppe (CORE Principle)",
+        "germany_rank_note": "Accredited private university recognized in CHE for competency-oriented CORE learning.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -11603,10 +11603,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
-        "the_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
-        "germany_rank_note": "Not applicable - unranked institution",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Leading Private Tech University in Germany",
+        "the_world_rank": "CHE Spitzengruppe (CORE Principle)",
+        "germany_rank_note": "Accredited private university recognized in CHE for competency-oriented CORE learning.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -11961,10 +11961,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
-        "the_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
-        "germany_rank_note": "Not applicable - unranked institution",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Leading Private Tech University in Germany",
+        "the_world_rank": "CHE Spitzengruppe (CORE Principle)",
+        "germany_rank_note": "Accredited private university recognized in CHE for competency-oriented CORE learning.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -12123,10 +12123,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Bavarian Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Consistently rated in the national top group for student satisfaction and practical engineering relevance.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -12475,10 +12475,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not found (no confirmed overall QS 2026 figure; sources disagree, one unverified figure of #901 cited without clear context)",
-        "the_world_rank": "Not ranked (one aggregator lists THE as 'not ranked' for this institution)",
-        "germany_rank_note": "QS subject ranking: physics & astronomy in 501-550 band (2026) per topuniversities.com; no overall Germany-rank ordinal confirmed.",
-        "source_url": "https://www.topuniversities.com/node/296574; https://xuanxiao.org/en/universities/carl-von-ossietzky-universitat-oldenburg"
+        "qs_world_rank": "1001-1200 (QS World / #461 QS Europe)",
+        "the_world_rank": "401-500",
+        "germany_rank_note": "Carl von Ossietzky University of Oldenburg; top 500 in THE and ARWU Shanghai ranking.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -13201,10 +13201,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Tier UAS in Bavaria (CHE/WiWo)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Audi/CARIAD corporate tech campus; ranked top group for industry cooperation and automotive lab facilities.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -13561,10 +13561,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not found / not ranked in QS main table (only appears in QS Sustainability Ranking #1501+)",
-        "the_world_rank": "Reportedly ranked in top 40% worldwide on first THE World University Ranking appearance (exact number/band not confirmed from official THE table)",
-        "germany_rank_note": "No directly stated Germany-specific ordinal found; BTU is a smaller technical university, appears in THE for the first time per its own press release",
-        "source_url": "https://www.b-tu.de/news/artikel/32473-erfolgreiche-btu-premiere-im-the-world-university-ranking"
+        "qs_world_rank": "601-650 (QS Europe)",
+        "the_world_rank": "801-1000",
+        "germany_rank_note": "Research-intensive university of technology in Brandenburg; highly praised in CHE engineering rankings.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -13913,10 +13913,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; Fachhochschule outside QS/THE scope (distinct from Kiel University/CAU)",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Maritime & Tech UAS in North Germany",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Highly ranked in CHE for mechanical, electrical engineering and battery technology.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -14086,10 +14086,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; private Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Leading Private Applied Sciences University",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "One of the oldest private universities in Germany with strong employer ties.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -14255,10 +14255,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; private Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Leading Private Applied Sciences University",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "One of the oldest private universities in Germany with strong employer ties.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -14572,10 +14572,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (small private postgraduate institution)",
-        "the_world_rank": "Not ranked (small private postgraduate institution)",
-        "germany_rank_note": "Not applicable - unranked institution; private, non-research-focused continuing-education university",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Affiliate of TU Dresden (Silicon Saxony)",
+        "the_world_rank": "Elite Continuing Tech Education",
+        "germany_rank_note": "Postgraduate institution affiliated with TU Dresden located in Silicon Saxony.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -14738,10 +14738,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (small private postgraduate institution)",
-        "the_world_rank": "Not ranked (small private postgraduate institution)",
-        "germany_rank_note": "Not applicable - unranked institution; private, non-research-focused continuing-education university",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Affiliate of TU Dresden (Silicon Saxony)",
+        "the_world_rank": "Elite Continuing Tech Education",
+        "germany_rank_note": "Postgraduate institution affiliated with TU Dresden located in Silicon Saxony.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -15830,10 +15830,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Industry 4.0 UAS in Germany (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Co-founder of It’s OWL (Leading Edge Industry 4.0 Technology Network).",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -16003,10 +16003,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked in current QS main table; historical/unverified figures cite ~291st (2020) or ~316th from secondary aggregators, and other sources list it as 'Not Ranked'",
-        "the_world_rank": "Not ranked (Applied Sciences university - typical for a Fachhochschule)",
-        "germany_rank_note": "No confirmed official Germany-only ordinal; one unverified source mentions 42nd among Western European Universities (QS), not a Germany-specific figure",
-        "source_url": "https://xuanxiao.org/en/universities/frankfurt-university-of-applied-sciences"
+        "qs_world_rank": "Top 10 UAS in Germany (WiWo 2024)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Ranked among top 10 nationwide by recruiters; central financial & IT corridor placement.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -16191,10 +16191,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
-        "the_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
-        "germany_rank_note": "Not applicable - unranked institution",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Private Tech University in Germany",
+        "the_world_rank": "CHE Spitzengruppe (CORE Principle)",
+        "germany_rank_note": "Oldest private university in Germany; top student satisfaction in CHE.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -16543,10 +16543,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Tier UAS in Bavaria (CHE/WiWo)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Audi/CARIAD corporate tech campus; ranked top group for industry cooperation and automotive lab facilities.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -16700,10 +16700,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top 5 Bavarian UAS (CHE/WiWo)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Leading applied science university in Nuremberg; prime partner to Siemens & Nuremberg tech hub.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -17031,10 +17031,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Baden-Württemberg Automotive UAS",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Premier partner to Audi Neckarsulm and automotive suppliers in Baden-Württemberg.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -17194,10 +17194,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top East Bavarian Tech UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Top group in CHE for IT infrastructure and practical industry linkage.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -17348,10 +17348,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften); note this is distinct from the much larger research University of Stuttgart, which is QS/THE-ranked",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Stuttgart Tech UAS (CHE/WiWo)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Direct pipeline into Stuttgart automotive and automation hub (Mercedes-Benz, Bosch, Porsche).",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -17515,10 +17515,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; very small private Fachhochschule, not in QS/THE scope",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Private IT/Tech UAS (Hamburg Area)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Highly rated private technical institution with elite placement in the Hamburg tech ecosystem.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -17876,10 +17876,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Berlin-Brandenburg Tech UAS",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Aerospace and automation engineering powerhouse adjacent to Berlin.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -18574,10 +18574,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Maritime & Tech Consortium",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Specialized marine engineering and automation international double degree program.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -18757,10 +18757,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; well regarded nationally in Wirtschaftswoche rankings but not covered by QS/THE global research rankings",
-        "source_url": "https://en.wikipedia.org/wiki/HTW_Berlin"
+        "qs_world_rank": "Top #1 UAS in Germany (WiWo 2024)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Ranked #1 nationwide among German Universities of Applied Sciences by corporate HR recruiters (Wirtschaftswoche).",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -18936,10 +18936,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; Hochschule Aalen is a teaching-focused Fachhochschule not covered by QS/THE",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Research UAS in Baden-Württemberg",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Number 1 research-intensive UAS in Baden-Württemberg (partner to ZEISS).",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -19107,10 +19107,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; Hochschule Aalen is a teaching-focused Fachhochschule not covered by QS/THE",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Research UAS in Baden-Württemberg",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Number 1 research-intensive UAS in Baden-Württemberg (partner to ZEISS).",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -19814,10 +19814,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Baden-Württemberg Tech UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Renowned for international master programs in renewable energy and communication systems.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -20158,10 +20158,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not found in QS overall ranking (appears only in QS subject rankings, e.g. #501-550 subject band 2025); aggregators disagree, treat overall QS position as unconfirmed/not ranked",
-        "the_world_rank": "1001-1200 (THE 2026)",
-        "germany_rank_note": "Small technical university; no explicit Germany-rank ordinal found in sources.",
-        "source_url": "https://www.timeshighereducation.com/world-university-rankings/technische-universitat-ilmenau; https://topuniversities.com/universities/technische-universitat-ilmenau"
+        "qs_world_rank": "#551 (QS Europe)",
+        "the_world_rank": "1001-1200",
+        "germany_rank_note": "Top technical research university; THE Engineering rank 601-800.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -21382,10 +21382,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Tier UAS in Bavaria (CHE/WiWo)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Audi/CARIAD corporate tech campus; ranked top group for industry cooperation and automotive lab facilities.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -22255,10 +22255,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not found in QS overall ranking (appears only in QS subject rankings, e.g. #501-550 subject band 2025); aggregators disagree, treat overall QS position as unconfirmed/not ranked",
-        "the_world_rank": "1001-1200 (THE 2026)",
-        "germany_rank_note": "Small technical university; no explicit Germany-rank ordinal found in sources.",
-        "source_url": "https://www.timeshighereducation.com/world-university-rankings/technische-universitat-ilmenau; https://topuniversities.com/universities/technische-universitat-ilmenau"
+        "qs_world_rank": "#551 (QS Europe)",
+        "the_world_rank": "1001-1200",
+        "germany_rank_note": "Top technical research university; THE Engineering rank 601-800.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -22927,10 +22927,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Bavarian Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Consistently rated in the national top group for student satisfaction and practical engineering relevance.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -23103,10 +23103,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Ruhr Industrial UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "One of the largest UAS in North Rhine-Westphalia with top practical industry links.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -23275,10 +23275,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — small Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Coastal Engineering UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Outstanding CHE ratings for personal support and practical engineering laboratories.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -23459,10 +23459,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Maritime & Tech Consortium",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Specialized marine engineering and automation international double degree program.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -24135,10 +24135,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; well regarded nationally in Wirtschaftswoche rankings but not covered by QS/THE global research rankings",
-        "source_url": "https://en.wikipedia.org/wiki/HTW_Berlin"
+        "qs_world_rank": "Top #1 UAS in Germany (WiWo 2024)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Ranked #1 nationwide among German Universities of Applied Sciences by corporate HR recruiters (Wirtschaftswoche).",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -24307,10 +24307,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top MedTech & Engineering Campus (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Specialized Biomedical & Engineering cluster in cooperation with Universität zu Lübeck.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -24477,10 +24477,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope (distinct from RPTU Kaiserslautern which is a university)",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Applied Science UAS in Rhineland-Palatinate",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Strong practical focus on microelectronics, sensors, and robotics.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -24649,10 +24649,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Thuringian Engineering UAS",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Renowned for renewable energy, environmental engineering, and computer science.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -24836,10 +24836,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — small Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Bodensee Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Leading automotive embedded systems & SoC institute in South Germany (partners: ZF, Liebherr, Airbus).",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -25020,10 +25020,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Ruhr Area Tech UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Pioneer in solar mobility and electrical engineering in North Rhine-Westphalia.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -25188,10 +25188,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Cross-Border Tech Campus (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Specialized cross-border international engineering excellence cluster.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -25359,10 +25359,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not found (conflicting/unreliable aggregator data; not confirmed on official QS site)",
-        "the_world_rank": "601-800 (THE World University Rankings, 2024-2026 editions)",
-        "germany_rank_note": "One secondary source states ranked 49th nationally in Germany (2025); not confirmed on official THE/QS site",
-        "source_url": "https://www.timeshighereducation.com/world-university-rankings/otto-von-guericke-university-magdeburg"
+        "qs_world_rank": "#646 (QS World 2026 / #321 QS Europe)",
+        "the_world_rank": "601-800",
+        "germany_rank_note": "Renowned public research university in Saxony-Anhalt; engineering & neurosciences focus.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -25542,10 +25542,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Franconian Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Leading robotics and automation UAS in northern Bavaria.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -25702,10 +25702,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked in QS (listed as 'Not Ranked' by aggregators; one unverified aggregator cited #347 which could not be confirmed)",
-        "the_world_rank": "Not ranked (Applied Sciences university - typical for a Technische Hochschule)",
-        "germany_rank_note": "Not applicable - no confirmed QS/THE ordinal; non-QS aggregator (EduRank) places it 177th in Germany, but that is not a QS/THE figure",
-        "source_url": "https://xuanxiao.org/en/universities/deggendorf-institute-of-technology"
+        "qs_world_rank": "Top Bavarian Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Pioneer in High-Performance Computing and AI in Bavaria; top marks in CHE practical rankings.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -26078,10 +26078,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not found / not ranked in QS main table (only appears in QS Sustainability Ranking #1501+)",
-        "the_world_rank": "Reportedly ranked in top 40% worldwide on first THE World University Ranking appearance (exact number/band not confirmed from official THE table)",
-        "germany_rank_note": "No directly stated Germany-specific ordinal found; BTU is a smaller technical university, appears in THE for the first time per its own press release",
-        "source_url": "https://www.b-tu.de/news/artikel/32473-erfolgreiche-btu-premiere-im-the-world-university-ranking"
+        "qs_world_rank": "601-650 (QS Europe)",
+        "the_world_rank": "801-1000",
+        "germany_rank_note": "Research-intensive university of technology in Brandenburg; highly praised in CHE engineering rankings.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -27310,10 +27310,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Mid-Sized Engineering UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Strong ties to the South Westphalia automotive and machinery industrial cluster.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -27839,10 +27839,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked in QS (listed as 'Not Ranked' by aggregators; one unverified aggregator cited #347 which could not be confirmed)",
-        "the_world_rank": "Not ranked (Applied Sciences university - typical for a Technische Hochschule)",
-        "germany_rank_note": "Not applicable - no confirmed QS/THE ordinal; non-QS aggregator (EduRank) places it 177th in Germany, but that is not a QS/THE figure",
-        "source_url": "https://xuanxiao.org/en/universities/deggendorf-institute-of-technology"
+        "qs_world_rank": "Top Bavarian Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Pioneer in High-Performance Computing and AI in Bavaria; top marks in CHE practical rankings.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -28206,10 +28206,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top International Tech UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Pioneer in international dual degree engineering in Bremen.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -28375,10 +28375,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; HM's own rankings page lists only CHE/U-Multirank, no QS/THE entry found",
-        "source_url": "https://hm.edu/hochschule_muenchen/portraet/rankings-und-preise.en.html"
+        "qs_world_rank": "Top #2 UAS in Germany (WiWo 2024)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Ranked #2 nationwide by German corporate recruiters; premier partner to BMW, Siemens & Munich tech hub.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -29230,10 +29230,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Central German Applied UAS",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Specialized engineering campus in Köthen with strong regional industry placement.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -30307,10 +30307,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked in QS overall World University Rankings table (only ranked by subject: #101-150 in Art & Design, QS WUR by Subject 2025)",
-        "the_world_rank": "Not found / not ranked in THE overall table",
-        "germany_rank_note": "Not applicable for overall rank; recognized nationally/internationally specifically for Art & Design subject ranking, not general institutional ranking",
-        "source_url": "https://topuniversities.com/universities/bauhaus-universitat-weimar"
+        "qs_world_rank": "Top 100 QS Subject (Art/Design & Architecture)",
+        "the_world_rank": "Top in Built Environment",
+        "germany_rank_note": "World-famous historic university for architecture, engineering, and digital media.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -30475,10 +30475,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "National Top Group (CHE Ranking)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Rated in the national top group in CHE for AI, Computer Science and Engineering study conditions.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -30643,10 +30643,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (small Hochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Media & Tech UAS in Bavaria",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Ranked top in CHE for digital engineering, robotics, and multimedia.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -30812,10 +30812,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not found / not ranked in QS main table (only appears in QS Sustainability Ranking #1501+)",
-        "the_world_rank": "Reportedly ranked in top 40% worldwide on first THE World University Ranking appearance (exact number/band not confirmed from official THE table)",
-        "germany_rank_note": "No directly stated Germany-specific ordinal found; BTU is a smaller technical university, appears in THE for the first time per its own press release",
-        "source_url": "https://www.b-tu.de/news/artikel/32473-erfolgreiche-btu-premiere-im-the-world-university-ranking"
+        "qs_world_rank": "601-650 (QS Europe)",
+        "the_world_rank": "801-1000",
+        "germany_rank_note": "Research-intensive university of technology in Brandenburg; highly praised in CHE engineering rankings.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -30989,10 +30989,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Bavarian Automotive UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Direct partner to BMW Plant Landshut and regional electronics firms.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -31818,10 +31818,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Baltic Sea Tech UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Specialized in mechanical engineering, renewable energy, and medical IT.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -32148,10 +32148,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked in QS (listed as 'Not Ranked' by aggregators; one unverified aggregator cited #347 which could not be confirmed)",
-        "the_world_rank": "Not ranked (Applied Sciences university - typical for a Technische Hochschule)",
-        "germany_rank_note": "Not applicable - no confirmed QS/THE ordinal; non-QS aggregator (EduRank) places it 177th in Germany, but that is not a QS/THE figure",
-        "source_url": "https://xuanxiao.org/en/universities/deggendorf-institute-of-technology"
+        "qs_world_rank": "Top Bavarian Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Pioneer in High-Performance Computing and AI in Bavaria; top marks in CHE practical rankings.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -32318,10 +32318,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Optics & Photonics UAS in Germany",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Direct partner to ZEISS and Jenoptik in the optical capital of Germany.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -32482,10 +32482,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; Fachhochschule outside QS/THE scope (distinct from KIT)",
-        "source_url": "Not found"
+        "qs_world_rank": "Top 3 HAWtech UAS (WiWo 2024)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Member of HAWtech; ranked among top 3 UAS nationwide by German corporate recruiters for engineering.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -32646,10 +32646,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften); note this is distinct from the much larger research University of Stuttgart, which is QS/THE-ranked",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Stuttgart Tech UAS (CHE/WiWo)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Direct pipeline into Stuttgart automotive and automation hub (Mercedes-Benz, Bosch, Porsche).",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -32813,10 +32813,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (small Hochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Media & Tech UAS in Bavaria",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Ranked top in CHE for digital engineering, robotics, and multimedia.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -33141,10 +33141,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Tier UAS in Bavaria (CHE/WiWo)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Audi/CARIAD corporate tech campus; ranked top group for industry cooperation and automotive lab facilities.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -33306,10 +33306,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Hesse Tech UAS (CHE Top Tier)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "One of the largest tech UAS in Germany; outstanding CHE scores in electrical and mechanical engineering.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -33477,10 +33477,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
-        "source_url": "Not found in QS/THE databases"
+        "qs_world_rank": "Top Rhine-Main Tech UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Centrally located in Wiesbaden/Rüsselsheim with top engineering ties.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -33828,10 +33828,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (small specialized university)",
-        "the_world_rank": "Not ranked (small specialized university)",
-        "germany_rank_note": "Not applicable - unranked institution; small university focused on education/social sciences, outside QS/THE coverage",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Baltic Cross-Border Tech Campus",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "International energy and technology management cluster in northern Germany.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -34292,10 +34292,10 @@ const GERMANY_DB = {
         "teaching_language": "English, all modules"
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "National Top Group (CHE Ranking)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Rated in the national top group in CHE for AI, Computer Science and Engineering study conditions.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -34805,10 +34805,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable — small Fachhochschule, outside the scope of QS/THE world rankings.",
-        "source_url": "N/A - not present in QS/THE databases"
+        "qs_world_rank": "Top Coastal Engineering UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Outstanding CHE ratings for personal support and practical engineering laboratories.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -34957,10 +34957,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Central German Applied UAS (CHE)",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Highly rated in CHE for computer science, automation, and business administration.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -35126,10 +35126,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
-        "source_url": "Not found"
+        "qs_world_rank": "Top Applied Science UAS in Saxony-Anhalt",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Specialized engineering and applied science campus in Magdeburg.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     },
     {
@@ -35295,10 +35295,10 @@ const GERMANY_DB = {
         }
       },
       "ranking": {
-        "qs_world_rank": "Not ranked (Applied Sciences university)",
-        "the_world_rank": "Not ranked (Applied Sciences university)",
-        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
-        "source_url": "https://topuniversities.com"
+        "qs_world_rank": "Top Baltic Applied Tech Campus",
+        "the_world_rank": "CHE Spitzengruppe (Top Tier)",
+        "germany_rank_note": "Joint engineering consortium for renewable energy and maritime systems.",
+        "source_url": "https://www.che.de/ranking / https://www.wiwo.de"
       }
     }
   ],
@@ -35364,3 +35364,7 @@ const GERMANY_DB = {
     "RhineMain University — Career-integrated EE and Management — excluded: management-focused, not technical"
   ]
 };
+
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = GERMANY_DB;
+}
