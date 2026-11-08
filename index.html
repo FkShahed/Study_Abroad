@@ -298,13 +298,13 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:32px 20px;}
       <input type="text" id="searchBox" placeholder="🔍 University/Program সার্চ করো...">
     </div>
     <div class="field">
-      <label>Tier</label>
+      <label>Tier <span title="Tier A = সরাসরি VLSI/RTL/Microelectronics/Embedded ফোকাসড (ক্যারিয়ার গোলের সাথে direct match)&#10;Tier B = Related — কাছাকাছি (general EE, Mechatronics, Computer Engineering)&#10;Tier C = Adjacent — দূরবর্তী সম্পর্ক (Power Systems, Management)&#10;Tier D = DAAD Raw — এখনো manual review হয়নি" style="cursor:help;color:var(--accent);">ℹ️</span></label>
       <select id="tierFilter">
         <option value="">সব Tier</option>
-        <option value="A">Tier A — Direct hit</option>
-        <option value="B">Tier B — Related</option>
-        <option value="C">Tier C — Adjacent</option>
-        <option value="D">DAAD Raw (unreviewed, ১৯৯টা)</option>
+        <option value="A">Tier A — Direct hit (VLSI/RTL/Embedded)</option>
+        <option value="B">Tier B — Related (general EE/Mechatronics)</option>
+        <option value="C">Tier C — Adjacent (Power/Management)</option>
+        <option value="D">Tier D — DAAD Raw (unreviewed)</option>
       </select>
     </div>
     <div class="field">
@@ -400,7 +400,7 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:32px 20px;}
           <th>টিউশন ফি</th>
           <th>IELTS / ভাষা</th>
           <th>Winter Deadline</th>
-          <th>Tier</th>
+          <th title="A=Direct hit (VLSI/RTL/Embedded), B=Related, C=Adjacent, D=DAAD Raw (unreviewed)" style="cursor:help;">Tier ℹ️</th>
           <th>GPA Fit</th>
           <th>QS Rank</th>
         </tr>
