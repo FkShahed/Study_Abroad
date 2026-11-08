@@ -1367,6 +1367,61 @@ const DATABASE = {
           "newly_found_info": "This entry was already deeply verified in a prior pass (visible in current_data's own embedded verification block); no new subpage fetch was performed this round due to redundancy - flagging for the record rather than re-spending budget.",
           "corrections": [],
           "notes": "This entry's current_data already contains an embedded prior deep-verification pass with its own discrepancy list; this round did not duplicate that work given time constraints. Recommend a fresh VPD-specific check of the uni-assist non-EU deadline page if the exact VPD requirement needs separate confirmation."
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.visaflow.app/universities/leibniz-university-hannover"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fees; semester contribution of EUR 453.16 for winter 2026/27 (includes public transport ticket)",
+              "source_url": "https://www.visaflow.app/universities/leibniz-university-hannover"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Searched program page and Prüfungsordnung; not published in accessible form"
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "No official figure found in search"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned on any source"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Only third-party aggregator (Yocket) cites IELTS 7, not confirmed on official page"
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found despite searching alternate phrasings"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting dates (Oct 12 vs 31 May 2026) across aggregators, none official; confirmed not published clearly"
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found"
+            }
+          ]
         }
       },
       "university_deep_info": {
@@ -1497,7 +1552,40 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Faculty of Applied Sciences and Health",
         "intake_semester": "Winter",
-        "teaching_language": "English, including Master's thesis"
+        "teaching_language": "English, including Master's thesis",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.expatrio.com/study-finder/search/coburg-university-of-applied-sciences-and-arts-analytical-instruments-measurement-and-sensor-technology-104916122819"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not published; checked FAQ and program page"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned; GRE not standard for Coburg"
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Expatrio (third-party, possibly outdated) lists TOEFL 550 paper-based/213 CBT, IELTS 6.0, UNIcert II - could not confirm on hs-coburg.de official page, so not counted as resolved"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "No PTE figure found anywhere"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            }
+          ]
+        }
       }
     },
     {
@@ -1623,7 +1711,56 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time only",
         "faculty_institute": "Not listed",
         "intake_semester": "Summer",
-        "teaching_language": "English (all modules)"
+        "teaching_language": "English (all modules)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www2.daad.de/app/ip/uploads/files/organisation/online/66389c12287ee332116007.pdf",
+            "https://www.myguide.de/en/international-programmes-master/detail/hochschule-hof-artificial-intelligence-and-robotics-msc-8518/?ip-id=8518"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "Application period Nov 5 - Nov 30 (for following summer semester start); uni-assist assessment required 4 weeks before deadline",
+              "source_url": "https://www2.daad.de/app/ip/uploads/files/organisation/online/66389c12287ee332116007.pdf"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition; semester contribution only (figures conflict between EUR 125 and EUR 450 across aggregators, could not fully confirm exact figure)",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/hochschule-hof-artificial-intelligence-and-robotics-msc-8518/?ip-id=8518"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official Hof page (hof-university.com) could not be located/fetched again this pass"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not found in DAAD flyer or aggregators"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not found; official page unreachable"
+            }
+          ]
+        }
       }
     },
     {
@@ -1742,7 +1879,38 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time, 120 ECTS",
         "faculty_institute": "Department of Electrical Engineering and Information Technology (EIT)",
         "intake_semester": "Winter",
-        "teaching_language": "English (core programme English-only; electives/thesis English or German)"
+        "teaching_language": "English (core programme English-only; electives/thesis English or German)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://leapscholar.com/blog/?p=85638"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee; semester contribution EUR 381.80 (Winter 2026/27, per RPTU re-registration page as cited by Leapscholar)",
+              "source_url": "https://leapscholar.com/blog/?p=85638"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; Prüfungsordnung not located in readable form"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            }
+          ]
+        }
       }
     },
     {
@@ -1895,6 +2063,63 @@ const DATABASE = {
           "newly_found_info": "Found a distinctly later TOEFL scoring note ('80 before Jan 21 2026, 4.0 from that date') suggesting ETS's new TOEFL scale change - relevant for applicants planning around this date. Also found the mandatory 2-page motivation letter requirement, not in current_data.",
           "corrections": [],
           "notes": "uni-assist is confirmed required for non-German-degree applicants with its own dedicated document-review subpage, though explicit VPD terminology is not used on the page itself."
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.th-koeln.de/mam/downloads/englisch/studies/programs/f10/ordnungen_plaene/f10_mpo_ait_2015_01_23_en.pdf",
+            "https://www.th-koeln.de/en/academics/automation--it-master--how-to-apply_6812.php"
+          ],
+          "fields_resolved": [
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL paper-based 550 / CBT 213 / iBT 80",
+              "source_url": "https://www.th-koeln.de/en/academics/automation--it-master--how-to-apply_6812.php"
+            },
+            {
+              "field": "IELTS exact score",
+              "value": "IELTS 6.0 or equivalent",
+              "source_url": "https://www.th-koeln.de/en/academics/automation--it-master--how-to-apply_6812.php"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "PO PDF (mpo_ait) fetched but returned only raw binary/compressed stream, unreadable via WebFetch; could not access despite attempt - mark as Could not access"
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Mastersportal explicitly states no GPA requirement known; genuinely appears not published"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "DAAD/myGuide listings left field blank; genuinely not published in accessible aggregated form"
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not found"
+            }
+          ]
         }
       },
       "university_deep_info": {
@@ -2053,6 +2278,64 @@ const DATABASE = {
           "newly_found_info": "Found that the examination regulations changed as of Nov 2025 (new MPO), with the old 2012/2019 PO phasing out by Sept 2027 - a timing detail not in current_data.",
           "corrections": [],
           "notes": "GAP: Admission/VPD details were NOT found this pass; the dedicated 'Information Application' subpage (linked from this program page, titled for Master AR from WiSe 2025/26) still needs to be fetched in a follow-up pass to determine uni-assist/VPD status definitively."
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.tu-dortmund.de/en/automation-and-robotics-695/",
+            "https://www.tu-dortmund.de/storages/tu_website/Dezernat_4/Dez._4.4/pruefungsordnungen/fachstudiengaenge/master/po-automation-robotics-ma-20251113.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "IELTS exact score",
+              "value": "IELTS 7 (per current Nov 2025 Prüfungsordnung); official page separately cites TOEFL iBT 95 as C1-level example",
+              "source_url": "https://www.tu-dortmund.de/storages/tu_website/Dezernat_4/Dez._4.4/pruefungsordnungen/fachstudiengaenge/master/po-automation-robotics-ma-20251113.pdf"
+            },
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT 95 (C1 level) per official program page",
+              "source_url": "https://www.tu-dortmund.de/en/automation-and-robotics-695/"
+            },
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "At least 12 ECTS in computer science required (no numerus clausus/admission-free)",
+              "source_url": "https://www.tu-dortmund.de/en/automation-and-robotics-695/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Mastersportal states no specific GPA requirement known; program emphasizes math/CS proficiency instead of GPA cutoff - appears genuinely not published"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned; not required"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting aggregator dates (31 July vs 15 May); no official date confirmed"
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting figures (no tuition fee vs EUR 600/yr vs EUR 350 semester contribution); could not resolve exact current figure"
+            }
+          ]
         }
       },
       "university_deep_info": {
@@ -2226,6 +2509,59 @@ const DATABASE = {
           "newly_found_info": "Confirmed dual application routes (uni-assist OR TU portal) with distinct, non-overlapping deadline windows - a useful planning detail not previously captured. Also found full semester-by-semester curriculum breakdown.",
           "corrections": [],
           "notes": "No VPD terminology found despite uni-assist being used; functionally uni-assist applicants would still undergo the standard VPD process even if not named on this page."
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.tu-chemnitz.de/studierendenservice/zsb/studiengaenge/flyer/automation_robotics_control_master.pdf"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official flyer only lists general bachelor's degree requirement (Digital Engineering or EE&IT), no ECTS breakdown given"
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found in flyer or official page"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Only individual student profile anecdotes found (7, 8), not an official minimum"
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "DAAD listing shows stale 2025 extension date; current deadline not confirmed"
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Sources agree no tuition but disagree on wording of semester contribution; exact figure not confirmed"
+            }
+          ]
         }
       },
       "university_deep_info": {
@@ -2356,7 +2692,35 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time only",
         "faculty_institute": "Institute for Automotive Engineering (ika), Faculty of Mechanical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English (German helpful but not required; electives available in German for proficient students)"
+        "teaching_language": "English (German helpful but not required; electives available in German for proficient students)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.mastersportal.com/studies/957/automotive-engineering.html"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee; semester contribution EUR 298.06",
+              "source_url": "https://collegedunia.com/germany/university/627-rwth-aachen-university-aachen/master-of-science-ms-automotive-engineering-142425"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "PTE Academic 60 (per Mastersportal, not independently confirmed on RWTH/ika official page)",
+              "source_url": "https://www.mastersportal.com/studies/957/automotive-engineering.html"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "ika.rwth-aachen.de unreachable (ECONNREFUSED) on this and prior attempts; could not access"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found; one general RWTH admissions listing mentions work experience proof generically but not specific to this program"
+            }
+          ]
+        }
       }
     },
     {
@@ -2482,7 +2846,44 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time",
         "faculty_institute": "Faculty of Engineering and Management",
         "intake_semester": "Summer",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://help.thi.de/help/de-de/48-masterbewerbung/309-ape",
+            "https://konvens2023.thi.de/fileadmin/daten/recht/SPOs_Fakultaet_WI/Master_Fakultaet_WI/Master_Automotive_Production_Engineering/2023_10_02_SPO_MA_MAPE_konsolidiert_clean_EN.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Aptitude test requires documented experience in automotive production (internships, project work, or academic papers); practical professional experience outside the first degree should total approx. 20 weeks full-time equivalent",
+              "source_url": "https://help.thi.de/help/de-de/48-masterbewerbung/309-ape"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "value": "GRE not required; admission is via aptitude test based on grades and documented practical experience",
+              "source_url": "https://help.thi.de/help/de-de/48-masterbewerbung/309-ape"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "SPO PDF found but not readable in full; could not confirm exact ECTS subject breakdown"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found; only B2 level stated generically"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Only unverified third-party figure (German GPA 2.5) found; no official THI confirmation"
+            }
+          ]
+        }
       }
     },
     {
@@ -2601,7 +3002,45 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time only",
         "faculty_institute": "Faculty of Automotive Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%); free German course available"
+        "teaching_language": "English (100%); free German course available",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9187/",
+            "https://www.ostfalia.de/fileadmin/user_upload/Fakultaeten/f/Formulare_und_Dokumente/ASTP/Guide_ASTP-application-process_EN.pdf",
+            "https://www.ostfalia.de/cms/de/rechtliches/verkuendungsblaetter/2014/25-2014_ZO_MA_ASTP.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Minimum 1 year of practical experience in a technical field required",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9187/"
+            },
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL score above 75% (per 2014 Ostfalia admission regulation, in German) as one of several acceptable English proofs, alongside native English or prior degree taught in English",
+              "source_url": "https://www.ostfalia.de/cms/de/rechtliches/verkuendungsblaetter/2014/25-2014_ZO_MA_ASTP.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found in DAAD listing or Ostfalia regulation excerpts"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Only general university-wide claim found (GRE not required), not ASTP-specific confirmation"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "No PTE figure found anywhere, including the 2014 ZO regulation"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not explicitly phrased this way in the regulation found; could not confirm"
+            }
+          ]
+        }
       }
     },
     {
@@ -2728,7 +3167,51 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time",
         "faculty_institute": "Mechanical Engineering and Automotive Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English (project supervision English by default, German available on request; thesis English or German)"
+        "teaching_language": "English (project supervision English by default, German available on request; thesis English or German)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://hs-coburg.de/wp-content/uploads/2024/09/SPO_M_AD__translated.pdf",
+            "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9016"
+          ],
+          "fields_resolved": [
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "value": "Bachelor's degree with overall grade of at least 2.5, OR final grade placing applicant in best 60% of graduates",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9016"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found in SPO excerpt or DAAD listing"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "myguide listing explicitly states no admission test/interview and no work experience found"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "None found; explicitly no admission test per myguide"
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Only generic B2 level mentioned, no test-specific score found"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting dates (02.05 vs Oct 1 start date) across sources; could not resolve exact application deadline vs start date"
+            }
+          ]
+        }
       }
     },
     {
@@ -2847,7 +3330,36 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Department of Computer Science, in cooperation with b-it and Fraunhofer IAIS",
         "intake_semester": "Winter",
-        "teaching_language": "English throughout"
+        "teaching_language": "English throughout",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://asta.h-brs.de/sites/default/files/folder_autonomous_systems_msc.pdf"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Brochure lists only general degree field requirement (CS/math/natural sciences/engineering), no ECTS breakdown"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned in any brochure or page found"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Only third-party aggregator (unreliable) says not required; could not confirm officially"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not mentioned in any official brochure found; only IELTS/TOEFL B2+ generically cited"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            }
+          ]
+        }
       }
     },
     {
@@ -2966,7 +3478,48 @@ const DATABASE = {
         "standard_duration": "4 semesters (two years), full-time",
         "faculty_institute": "Faculty of Biology, Chemistry and Earth Sciences",
         "intake_semester": "Winter",
-        "teaching_language": "English (thesis can be English or German)"
+        "teaching_language": "English (thesis can be English or German)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.mastersportal.com/studies/365991/battery-materials-and-technology.html"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; admission is via general aptitude assessment procedure, no ECTS breakdown published"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Mastersportal explicitly states no GPA/GRE/GMAT requirement known"
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Mastersportal lists TOEFL iBT 90/IELTS 6.5 but could not confirm against official uni-bayreuth.de page (unreachable in detail this pass)"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found anywhere"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting figures (EUR 330/yr aggregator vs 'free' on official tuition page); exact current figure not confirmed"
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "No official GPA found; confirmed not published"
+            }
+          ]
+        }
       }
     },
     {
@@ -3085,7 +3638,58 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Not listed",
         "intake_semester": "Winter",
-        "teaching_language": "English, entirely"
+        "teaching_language": "English, entirely",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.batteryengineering.rwth-aachen.de/?page_id=64"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Faculty/Institute name",
+              "value": "Program delivered under RWTH International Academy (continuing education institution) with teaching by professors of the Faculty of Electrical Engineering and Information Technology, which formally awards the degree per the examination regulation",
+              "source_url": "https://backend.deqar.eu/reports/ASIIN/349001_20250401_0149_bericht_ar_international-academy_ma_battery_systems_engi.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; batteryengineering.rwth-aachen.de FAQ page unreachable (ECONNREFUSED) on this and prior attempt - could not access"
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "No BSE-specific figure found; distinct from related BSTE program figures which also had no confirmed GPA"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Figures found (IELTS 6) are for the separate BSTE program, not confirmed for BSE itself - could not resolve"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Same issue as IELTS - only BSTE figures found, not BSE-specific"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "RWTH International Academy page mentions a 10% early-bird discount implying tuition exists, but exact amount not found; could not access FAQ page for figure"
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as Minimum GPA/grade cutoff - not found"
+            }
+          ]
+        }
       }
     },
     {
@@ -3204,7 +3808,55 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time or part-time (studying alongside work)",
         "faculty_institute": "Faculty of Computer Science and Electrical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English (all courses)"
+        "teaching_language": "English (all courses)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.haw-kiel.de/fileadmin/data/fachhochschule/hochschulrecht/rechtderfhkiel/studien_undpruefungsangelegenheiten/fb_iue/ma_battery_technologies/po_ma_batteryt_wise2627.pdf",
+            "https://www.haw-kiel.de/en/degree-courses/courses/battery-technologies/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "Winter semester application window runs through uni-assist up to July 15 (next relevant intake Winter 2027/28 since 2026/27 deadline of 15 July 2026 has passed); Summer semester deadline January 15",
+              "source_url": "https://www.haw-kiel.de/en/degree-courses/courses/battery-technologies/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "PO PDF title found (po_ma_batteryt_wise2627.pdf) but full text not extracted within budget; eligibility snippet mentions bachelor's in EE/mechatronics/industrial engineering(electrical) with a minimum grade that was cut off in search results"
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Search snippet was truncated right at the grade threshold; could not recover exact figure"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Only third-party aggregator figure (5.5) found, inconsistent/likely unreliable, not confirmed officially"
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Only unreliable aggregator figure (iBT 70, and a clearly erroneous 'Band 3.5') found"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "No PTE figure found anywhere"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            }
+          ]
+        }
       }
     },
     {
@@ -3323,7 +3975,56 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Department of Applied Natural Sciences",
         "intake_semester": "Winter",
-        "teaching_language": "English; some elective courses in German at both universities"
+        "teaching_language": "English; some elective courses in German at both universities",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://xuanxiao.org/en/universities/technical-university-of-applied-sciences-lubeck/programmes/biomedical-engineering"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "No TH Lübeck-specific figure found; conflicting figures found were for the separate Universität zu Lübeck"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting figures (6.0 vs 6.5) across sources, none official/confirmed"
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Conflicting figures (80 vs 90), none official/confirmed"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "myguide gives Jan 1-May 1 window for non-EU but could not cross-confirm against official th-luebeck.de page which was already in already_consulted and apparently doesn't show this"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting figures (EUR 250 vs 274, latter possibly for different university) not resolved"
+            }
+          ]
+        }
       }
     },
     {
@@ -3442,7 +4143,52 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English (exams in English or other language if examiner agrees); 8 ECTS German courses required unless B1+ proven"
+        "teaching_language": "English (exams in English or other language if examiner agrees); 8 ECTS German courses required unless B1+ proven",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "Not a standalone program - students apply to the general Master's in 'Electrical Engineering and Information Technology' at RWTH and select Biomedical Systems Engineering as a major after admission; no separate admission ECTS breakdown exists for the major itself",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8549"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Conflicting unverified figures (2.5 for undergrad vs 'no particular requirement' for postgrad); genuinely not confirmed on any RWTH official page located"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "One aggregator claims GRE required, contradicting general RWTH EE&IT pattern; could not confirm either way"
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting figures (6 vs 6.5) across aggregators, no RWTH-official confirmation"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting dates (01.03 vs May 2026), neither official"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not found specific to this major"
+            }
+          ]
+        }
       }
     },
     {
@@ -3561,7 +4307,54 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only (less than 50% online)",
         "faculty_institute": "Not listed",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.mastersportal.com/studies/466101/business-engineering-in-digital-transformation.html"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "Approx EUR 7,680 per year (per Studyportals listing; could not independently confirm on bbw-hochschule.de as official page remains unlocatable)",
+              "source_url": "https://www.mastersportal.com/studies/466101/business-engineering-in-digital-transformation.html"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official bbw-hochschule.de program page still could not be located despite repeated searches; this is a small private institution with limited online presence"
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found; program listed as 'open admission'"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not found; could not locate official program page at all despite multiple search attempts"
+            }
+          ]
+        }
       }
     },
     {
@@ -3680,7 +4473,44 @@ const DATABASE = {
         "standard_duration": "3 semesters full-time or 5 semesters part-time",
         "faculty_institute": "Faculty of Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.studieren-in-niedersachsen.de/en/course-of-studies/business-intelligence-and-data-analytics-masters.html"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; official hs-emden-leer.de program page still not located despite search"
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Conflicting ranges (80-90) found on generic aggregator, not program-specific or official"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            }
+          ]
+        }
       }
     },
     {
@@ -3799,7 +4629,45 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Institute for Telecommunications and High-Frequency Techniques (ITH) and related institutes (IALB, IMSAS, ITEM, IAT)",
         "intake_semester": "Summer",
-        "teaching_language": "English; includes a German language course"
+        "teaching_language": "English; includes a German language course",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.uni-bremen.de/fileadmin/user_upload/sites/master/Science/English/CIT_E.pdf",
+            "https://www.mastersportal.com/studies/788/communication-and-information-technology.html"
+          ],
+          "fields_resolved": [
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT 95 (per Mastersportal/Yocket aggregation; older DAAD text cites TOEFL 550 paper/213 CBT as alternate/outdated figures)",
+              "source_url": "https://www.mastersportal.com/studies/788/communication-and-information-technology.html"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Not a prerequisite; industrial experience is 'welcome' but not required per DAAD listing",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3713/"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "value": "Not required",
+              "source_url": "https://www.mastersportal.com/studies/788/communication-and-information-technology.html"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Uni-Bremen CIT PDF found is an older document focused on EE/communications background requirement but doesn't give ECTS breakdown"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "PTE Academic 76 found via aggregator only, not confirmed on university's own current admission page"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            }
+          ]
+        }
       }
     },
     {
@@ -3919,7 +4787,41 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Engineering, Computer Science & Psychology",
         "intake_semester": "Summer",
-        "teaching_language": "English (100%); compulsory German for Foreigners courses; thesis in English or German"
+        "teaching_language": "English (100%); compulsory German for Foreigners courses; thesis in English or German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/satzungen_ordnungen/studium_promotion_habil/zulassungssatzungen/zulsatz_msc_cit_2023_073_05_EN.pdf",
+            "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2023/satzung_sprachkenntnisse_2023_GB.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "Program is 120 ECTS total; optional industrial internship worth 9 ECTS (recommended in 3rd semester/semester break), no mandatory subject-area admission ECTS split found beyond this",
+              "source_url": "https://www.mastersportal.com/studies/1215/communication-and-information-technology.html"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "value": "Not required ('not aware of any specific GRE, GMAT or GPA grading score requirement')",
+              "source_url": "https://www.mastersportal.com/studies/1215/communication-and-information-technology.html"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Not a formal requirement; prior employment in a related field is considered positively in admission but not required (per third-party aggregator, not independently confirmed in the Zulassungssatzung text extracted)",
+              "source_url": "https://www.stuudy.com/programmes/communication-and-information-technology-master-in-ulm"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Official Ulm Zulassungssatzung PDF located (zulsatz_msc_cit_2023_073_05_EN.pdf) but English-proficiency section wasn't surfaced in search snippet; conflicting figures (88 vs 95) remain unresolved despite finding the authoritative document - noting as could not access full text"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "PTE Academic 76 cited by multiple aggregators but not cross-verified against the official satzung_sprachkenntnisse PDF found; treat as unconfirmed"
+            }
+          ]
+        }
       }
     },
     {
@@ -4040,7 +4942,51 @@ const DATABASE = {
         "standard_duration": "4 semesters (two years)",
         "faculty_institute": "Department of Electrical Engineering (EEI)",
         "intake_semester": "Winter",
-        "teaching_language": "English only; German-as-a-foreign-language courses included for students without German proficiency"
+        "teaching_language": "English only; German-as-a-foreign-language courses included for students without German proficiency",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://doc.zuv.fau.de//L1/PO/Tech/Communications_and_Multimedia_Engineering/konsolidierte_Fassungen/FPOCME_20250320.pdf",
+            "https://www.cme.studium.fau.de/application/application-process/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee; only standard semester contribution for student services/public transport (approx EUR 67 per aggregator, not independently confirmed as current)",
+              "source_url": "https://expatrio.com/study-finder/search/university-of-erlangen-nuremberg-communications-and-multimedia-engineering-104916123874"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Found current FPO (examination regulation) PDF link but text wasn't extracted within this search pass; admission requires suitable Bachelor's in Engineering with differing requirements for FAU vs external bachelor's, no explicit ECTS split found"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned on CME application page"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "No official TOEFL figure surfaced on cme.studium.fau.de; only unreliable aggregator (IELTS 6) found, not TOEFL-specific"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Conflicting dates (15 March, 15 May, Sept 30 enrollment) found; could not resolve which is the actual application deadline vs enrollment deadline"
+            }
+          ]
+        }
       }
     },
     {
@@ -4159,7 +5105,52 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English; some modules may be in another language per module catalogue; exams in English unless agreed otherwise"
+        "teaching_language": "English; some modules may be in another language per module catalogue; exams in English unless agreed otherwise",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.ielts.international/en/universities/germany/rwth-aachen-university"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "No standalone official page exists; this is a major within RWTH's general EE&IT master's program, same structural issue as the Biomedical Systems Engineering major (daad_id 5228) - genuinely not published as standalone"
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Only generic RWTH-wide figure (2.5) found, not program-specific; confirmed not published specifically"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting figures (6 vs 6.5) with no RWTH-official confirmation"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Only generic RWTH-wide dates found (March 1/Nov 1), not program-specific; could not confirm"
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as Minimum GPA/grade cutoff"
+            }
+          ]
+        }
       }
     },
     {
@@ -4278,7 +5269,52 @@ const DATABASE = {
         "standard_duration": "4 semesters, 120 CP (ECTS)",
         "faculty_institute": "Department of Mechanical Engineering together with Department of Chemical and Process Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%); thesis may be in another language with committee approval"
+        "teaching_language": "English (100%); thesis may be in another language with committee approval",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://yocket.com/universities/karlsruhe-institute-of-technology/computational-modeling-in-engineering-907"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found on KIT official page (www.mach.kit.edu) or FAQ page"
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "No program-specific figure found, only unrelated KIT program figures"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Yocket lists IELTS 6.5/TOEFL 90/PTE 58.5 but this third-party figure could not be cross-verified against the official KIT page or FAQ (intl.kit.edu)"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Same issue - Yocket-only figure, unconfirmed"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Only a stale May 2026 date found (already passed); current deadline not found"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting figures (EUR 1,500 vs ~180), neither specific to this program; not resolved"
+            }
+          ]
+        }
       }
     },
     {
@@ -4397,7 +5433,47 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Computer Science and Electrical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English; lectures in English, some modules in German, can be completed entirely in English"
+        "teaching_language": "English; lectures in English, some modules in German, can be completed entirely in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.ief.uni-rostock.de/storages/uni-rostock/Alle_IEF/IEF/Flyer/IEF-Flyer_CSE_Master_EN_Web.pdf",
+            "https://www.visaflow.app/universities/university-of-rostock"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition; semester fee approx EUR 202.50 (per Visaflow, differs from an older/possibly outdated EUR 329 figure found elsewhere)",
+              "source_url": "https://www.visaflow.app/universities/university-of-rostock"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "IEF flyer PDF located but text not extracted within this pass; general background in engineering/sciences mentioned without ECTS split"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Conflicting: one guide says Rostock does not accept PTE, another (Yocket) lists PTE 60; genuinely conflicting/unresolved, not simply unpublished"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting dates (31 May restricted-admission vs 15 July general vs 30 Sept) across Visaflow/Expatrio; could not determine which applies to this specific restricted-admission CSE program"
+            }
+          ]
+        }
       }
     },
     {
@@ -4516,7 +5592,49 @@ const DATABASE = {
         "standard_duration": "4 semesters (2 years), including thesis",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English; exams in English unless examiner agrees otherwise; some modules may be in German"
+        "teaching_language": "English; exams in English unless examiner agrees otherwise; some modules may be in German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://cr.rwth-aachen.de/files/Admission_requirements_CR_computer_science_2021_update_2801.pdf",
+            "https://sc.informatik.rwth-aachen.de/en/studium/master/informatik/start-ins-studium/"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "RWTH's own Computer Engineering program page could not be located even after a PDF/aggregator search; only a similarly-named 'CR computer science' admission PDF was found, not confirmed to be this program. Could not access the authoritative source."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Aggregators give conflicting unofficial GPA figures (2.5); no official RWTH page found for this specific program."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned in any source found; confirmed not published in accessible sources."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting unofficial figures (5.5 for some EE specializations); no official per-program score found."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "No PTE figure found in any source."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; RWTH's general International Office language page was not locatable with a stable URL in this search round."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "No deadline found specific to this program."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff above; could not access official Zulassungsordnung PDF."
+            }
+          ]
+        }
       }
     },
     {
@@ -4635,7 +5753,43 @@ const DATABASE = {
         "standard_duration": "4 semesters (two academic years, 120 ECTS)",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English (all modules); German language courses available"
+        "teaching_language": "English (all modules); German language courses available",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www-docs.b-tu.de/environment-phd/public/English_combined_requirements_exemptions.pdf",
+            "https://www.b-tu.de/en/study/before-studying/application-admission-enrollment/master-degree-programmes/8-m-foreign-education-foreign-citizen"
+          ],
+          "fields_resolved": [
+            {
+              "field": "TOEFL exact score (partially resolved, flagged conflicting)",
+              "value": "General BTU rule: TOEFL iBT >= 79. Program's own (German) page cites TOEFL iBT 80, TOEFL CBT 220, ITP 550 (slightly higher than general rule) - note: this field was in already_consulted list of fields found, so primarily confirms/sharpens the existing TOEFL figure",
+              "source_url": "https://www.b-tu.de/en/control-renewable-energy-systems-ms"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Regulations/catalogue-of-modules page (b-tu.de/en/control-renewable-energy-systems-ms/about-the-programme/regulations) 404'd on fetch; could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found on program page or general admission page."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "No PTE threshold found in any official or aggregator source."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "BTU's PhD-level exemption PDF mentions exemption for a degree taught in English in Germany but no equivalent master's-level statement found."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not stated in sources found; program page URL implies Environmental/engineering faculty but no explicit name confirmed."
+            }
+          ]
+        }
       }
     },
     {
@@ -4755,7 +5909,42 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Information Technology-Electrical Engineering-Mechatronics (IEM) / Electrical Engineering & Information Technologies (EI)",
         "intake_semester": "Winter",
-        "teaching_language": "English; all lectures in English except 'German as a Foreign Language' module"
+        "teaching_language": "English; all lectures in English except 'German as a Foreign Language' module",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.thm.de/site/en/international/welcome-to-stay-/living-and-studying-in-central-hesse/study-financing-welcome-and-stay.html"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee; semester contribution (incl. semester ticket) is EUR 310.00-335.00 per semester per THM's own international page (most recent re-registration figure cited elsewhere as EUR 357.10 for summer 2026)",
+              "source_url": "https://www.thm.de/site/en/international/welcome-to-stay-/living-and-studying-in-central-hesse/study-financing-welcome-and-stay.html"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found on THM program page or searches; confirmed not published in an accessible form."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned anywhere found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no aggregator or official source mentions GRE for this THM program."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found on THM's uni-assist procedure page or program page."
+            }
+          ]
+        }
       }
     },
     {
@@ -4920,6 +6109,60 @@ const DATABASE = {
             }
           ],
           "notes": "This re-confirms prior session's correction (C1, not B2/numeric scores). No VPD found despite thorough check."
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.uni-bremen.de/fileadmin/studydata/DBS/Dokumente/Ordnungen/Zulassungsordnungen/AO-MA-CMM-04-26.pdf",
+            "https://www.mygermanuniversity.com/master/control-microsystems-microelectronics/286"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Attempted to fetch the official 2026 Zulassungsordnung PDF (AO-MA-CMM-04-26.pdf); PDF text is Flate-encoded/binary and could not be decoded by WebFetch. Could not access - a promising official source exists but was unreadable via available tools."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Same PDF access issue; no GPA figure found in any other source."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found in any source."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no mention in official or aggregator sources."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting unverified aggregator figure (IELTS 7) could not be confirmed against an official source."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Could not access via the regulations PDF; not found elsewhere."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting unofficial figures found (15 July vs other dates); could not confirm which applies to winter non-EU specifically."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "One aggregator cites 15 Oct for summer; unverified against official source, and official PDF unreadable."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "No tuition; semester contribution amount not found in a readable official source."
+            }
+          ]
         }
       },
       "university_deep_info": {
@@ -5065,7 +6308,42 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "tu-chemnitz.de program pages return 404 consistently (confirmed again this round); searched for Zulassungsordnung/Prüfungsordnung PDF specifically but request quota was hit (too_many_requests) and could not be retried within this session's remaining budget. Could not access."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Same access issue as above."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Same access issue."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Same access issue."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Same access issue."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Same access issue."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Same access issue; TU Chemnitz generally charges only a semester fee but exact figure not confirmed for this program."
+            }
+          ]
+        }
       }
     },
     {
@@ -5184,7 +6462,51 @@ const DATABASE = {
         "standard_duration": "3 or 5 semesters (not specified which applies to full-time/part-time)",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English for lectures and thesis (100%); less than 50% online"
+        "teaching_language": "English for lectures and thesis (100%); less than 50% online",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.mygermanuniversity.com/master/digital-factory-and-operational-excellence-full-time/2973",
+            "https://www.studysmarter.de/s/hochschule-der-bayerischen-wirtschaft-hdbw/digitale-fabrik-und-operational-excellence/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester (supplementary, was already partially known)",
+              "value": "Full-time track: EUR 720/month tuition over 3 semesters, no separate registration fee (per third-party aggregator; conflicts with a German-language part-time 4-semester/180 ECTS description - flagged as unresolved conflict, not a confident resolution)",
+              "source_url": "https://www.mygermanuniversity.com/master/digital-factory-and-operational-excellence-full-time/2973"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; HDBW's official program page does not list ECTS breakdown for admission eligibility."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found in any source searched."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no source mentions GRE for this program."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "HDBW is a small private university without traditional faculty structure in search results; no faculty/institute name found."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found; conflicting program-structure info (full-time vs part-time) suggests official page needs direct re-verification not achieved this round."
+            }
+          ]
+        }
       }
     },
     {
@@ -5311,7 +6633,60 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Department of Computing Science",
         "intake_semester": "Winter",
-        "teaching_language": "English; Master's theses may be written in German"
+        "teaching_language": "English; Master's theses may be written in German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://uol.de/en/course-of-study/application/digitalised-energy-systems-master-630/erst/de",
+            "https://www.studieren-in-niedersachsen.de/en/course-of-studies/digitalised-energy-systems-master-of-science.html"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU (supplementary)",
+              "value": "Non-EU application window per Lower Saxony state portal: 15.03.2026-15.06.2026, applications via uni-assist",
+              "source_url": "https://www.studieren-in-niedersachsen.de/en/course-of-studies/digitalised-energy-systems-master-of-science.html"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Official study guidance lists special admission requirements including relevant internships of at least 3 months AND relevant work experience of at least 12 months duration",
+              "source_url": "https://uol.de/en/cs/msc/des/application"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found in official guidance pages found."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Official page states no specific GPA threshold is confirmed; aggregator explicitly says it is 'not aware of' one. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no mention."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Only unverified aggregator figure (IELTS 5.5/TOEFL 72) found, conflicting with official page's lack of a number; not resolved."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Tuition-free; exact semester contribution figure (typically EUR150-350 range generally for Germany) not confirmed specifically for Oldenburg."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff above."
+            }
+          ]
+        }
       }
     },
     {
@@ -5437,7 +6812,42 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English (incl. thesis); native German speakers or German C1+ holders can take specialised courses in German in year 2"
+        "teaching_language": "English (incl. thesis); native German speakers or German C1+ holders can take specialised courses in German in year 2",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; only a general bachelor's-field eligibility statement located, no ECTS breakdown."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no official statement either way."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting unverified figures (EUR105 vs EUR870/yr); could not confirm against an official LUH fee page in this round."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Likely Faculty of Electrical Engineering and Computer Science per an unofficial directory, but not confirmed from an official LUH source."
+            }
+          ]
+        }
       }
     },
     {
@@ -5581,6 +6991,61 @@ const DATABASE = {
           "newly_found_info": "Full site navigation structure discovered: Admission (Who can apply/How to apply/Deadlines/Fees&Scholarship/Selection), Programme (About/Curriculum/Degrees/Career/HCERES report/Quality), Partners (5 confirmed: Centrale Nantes, Kiel, L'Aquila Italy, Politehnica Bucharest Romania, CINVESTAV Mexico)",
           "corrections": [],
           "notes": "IMPORTANT GAP: time constraints meant the actual Admission/Deadlines/Fees subpages (whose URLs were found) were not fetched this round, so the GPA/IELTS/tuition specifics from the old current_data remain exactly as unverifiable as before. Recommend a follow-up fetch of https://master-epico.ec-nantes.fr/english-version/admission/who-can-apply , /how-to-apply , /deadlines , /fees-scholarships specifically."
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "This program (E-PiCo) is coordinated by Ecole Centrale de Nantes, not a standalone Kiel page; the official source URL on file is the Nantes-hosted site. Did not re-search this round given time budget; genuinely not resolved - recommend dedicated follow-up fetch of master-epico.ec-nantes.fr/english-version/admission-1."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not resolved this round."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not resolved this round."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not resolved this round."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not resolved this round."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not resolved this round."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not resolved this round."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not resolved this round."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not resolved this round."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not resolved this round."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not resolved this round."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not resolved this round."
+            }
+          ]
         }
       },
       "university_deep_info": {
@@ -5727,6 +7192,60 @@ const DATABASE = {
           "newly_found_info": "None beyond prior 'unreachable' status - still could not get an official hs-anhalt.de page to load in this session",
           "corrections": [],
           "notes": "Remains unreachable officially. The official URL in current_official_data (.../orientation/degree-programs/detail/...) still 404s. Recommend trying hs-anhalt.de/met or a site search directly on hs-anhalt.de rather than external aggregators."
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "15 July (summer semester deadline is 15 January) per third-party aggregator consensus - note: official hs-anhalt.de page still 404s, so this is unconfirmed by the primary source despite multiple consistent secondary sources",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/hochschule-anhalt-electrical-and-computer-engineering-m-eng-8357/?ip-id=8357"
+            },
+            {
+              "field": "IELTS exact score",
+              "value": "Most common figure across aggregators: CEFR B2 equivalent, IELTS 6.5 (one conflicting source says IELTS 6 / TOEFL 83) - unconfirmed against official page which still 404s",
+              "source_url": "https://www.mygermanuniversity.com/master/electrical-and-computer-engineering/2529"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; official hs-anhalt.de admission page continues to return 404."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "One unverified aggregator figure of 2.40 German scale found but not confirmed officially."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Conflicting figures (90 vs 83); not confirmed."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "15 January reported by aggregators but not confirmed officially (same access issue)."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Program reported tuition-free by most aggregators; exact semester contribution not found."
+            }
+          ]
         }
       },
       "university_deep_info": {
@@ -5891,6 +7410,68 @@ const DATABASE = {
             }
           ],
           "notes": "HIGH PRIORITY FINDING: this program explicitly requires VPD, same pattern as the FH Dortmund miss the user found. Previous session's data did not capture this at all."
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.oth-regensburg.de/en/studieren/im-studium/abteilung-studium/infoblaetter-studiengaenge/mem",
+            "https://www.oth-regensburg.de/fileadmin/Bereiche/Fakultaet_ANK/Studiengaenge/master_electrical_and_microsystems_engineering/MEM_Admission_FAQs_.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "IELTS exact score",
+              "value": "IELTS Academic overall 6.0 (official OTH Regensburg current Infoblatt); an older info sheet listed 5.5 but the current page supersedes it",
+              "source_url": "https://www.oth-regensburg.de/en/studieren/im-studium/abteilung-studium/infoblaetter-studiengaenge/mem"
+            },
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT 85 (current); older sheet listed 72, treat 85 as current",
+              "source_url": "https://www.oth-regensburg.de/en/studieren/im-studium/abteilung-studium/infoblaetter-studiengaenge/mem"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "2024 MEM Admission FAQ explicitly states medium-of-instruction certificates are NOT accepted as proof of English proficiency - formal test score required regardless of prior English-taught education",
+              "source_url": "https://www.oth-regensburg.de/fileadmin/Bereiche/Fakultaet_ANK/Studiengaenge/master_electrical_and_microsystems_engineering/MEM_Admission_FAQs_.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found in the Infoblatt or FAQ text retrieved; admission is tied to an 'aptitude test' and VPD grade rather than a stated ECTS subject breakdown."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "A 2024 FAQ snippet referenced a grade-average cutoff of 2.7 but text was truncated in search result; could not fully confirm. Could not access full PDF text to verify."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Admission tied to an internal 'aptitude test' (not GRE) per FAQ; no GRE requirement found."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found; only IELTS/TOEFL/Cambridge/TELC listed."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting dates found (31 May vs 1-31 May); not fully reconciled against current cycle."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "15 Nov - 15 Dec window reported by aggregator, not confirmed on official Infoblatt text retrieved."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not found; OTH Regensburg generally tuition-free, semester fee amount not located."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff above - truncated FAQ text."
+            }
+          ]
         }
       },
       "university_deep_info": {
@@ -6036,7 +7617,45 @@ const DATABASE = {
         "standard_duration": "4 semesters (two years); first three for courses/seminars/lab training, fourth for thesis module",
         "faculty_institute": "Faculty of Electrical Engineering/Computer Science",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.uni-kassel.de/eecs/ece/application.html",
+            "https://www.daad.de/en/studying-in-germany/universities/all-degree-programmes/detail/university-of-kassel-electrical-communication-engineering-w6991/?hec-id=w6991"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official application page (uni-kassel.de/eecs/ece/application.html) only describes a 'sufficient'/'good' GPA qualitatively, no ECTS subject breakdown found."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found in any source; confirmed not published online in results examined."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Genuinely conflicting: DAAD listing states GRE required with minimum scores, Mastersportal/consultant sites say not required. Could not resolve the contradiction even after targeted search - recommend direct confirmation with uni-kassel.de/eecs/ece/application.html, which was accessed but didn't give a definitive GRE statement in the retrieved snippet."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Tuition-free; semester contribution figure of ~EUR782/year found on Mastersportal but likely conflated as annual not per-semester; not confirmed as official."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Official page uses qualitative language ('good') rather than numeric cutoff; third-party cites 2.5 German scale unconfirmed."
+            }
+          ]
+        }
       }
     },
     {
@@ -6156,7 +7775,59 @@ const DATABASE = {
         "standard_duration": "4 semesters (first three study terms, fourth for thesis)",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.f05.uni-stuttgart.de/ei/dokumente/admissions_regulations_eeng.pdf",
+            "https://www.f05.uni-stuttgart.de/ei/dokumente/Broschueren_aktuell/broschuere_MasterEENG.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "15 January for winter semester entry (October start), per DAAD listing and University of Stuttgart's own program brochure",
+              "source_url": "https://www.f05.uni-stuttgart.de/ei/dokumente/Broschueren_aktuell/broschuere_MasterEENG.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found in the retrieved brochure text; admissions regulations PDF exists but full subject-area ECTS table not retrieved in this search round (only snippets)."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Admissions regulations PDF text suggests case-by-case committee decision rather than a fixed cutoff ('admissions committee decides whether requirements are fulfilled'), but this is a partial/truncated reading. Could not access full PDF text to confirm definitively."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no mention."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not found despite locating the official admissions_regulations_eeng.pdf and brochure; only CEFR level (B2/C1, conflicting) found, no IELTS numeric score."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "URL implies Faculty 05 (f05.uni-stuttgart.de) = Faculty of Electrical Engineering, Information Technology and Computer Engineering - reasonably inferable but not explicitly spelled out with full name in content retrieved; flagging as unconfirmed."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff above."
+            }
+          ]
+        }
       }
     },
     {
@@ -6288,7 +7959,55 @@ const DATABASE = {
         "standard_duration": "3 semesters (two semesters lectures/lab training, third mainly thesis)",
         "faculty_institute": "Faculty of Electrical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hs-kempten.de/fileadmin/Meine_Hochschule/Studienorganisation/SPOs/Electrical_Engineering__Master/20260603_konsolidierte_SPO_EE_Ma_HKE_v._08.07.2016_i.d.F._d._Berichtigung_v._11.05.26_eng-GB.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "IELTS exact score",
+              "value": "IELTS 5.5 minimum per the official consolidated Study and Examination Regulations (SPO), current 2026 version",
+              "source_url": "https://www.hs-kempten.de/fileadmin/Meine_Hochschule/Studienorganisation/SPOs/Electrical_Engineering__Master/20260603_konsolidierte_SPO_EE_Ma_HKE_v._08.07.2016_i.d.F._d._Berichtigung_v._11.05.26_eng-GB.pdf"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee; semester contribution approx. EUR 82 per semester (third-party figure, consistent with Bavarian public university norms, not independently re-verified on official fee schedule)",
+              "source_url": "https://www.hs-kempten.de/en/faculty-of-electrical-engineering/degree-courses/master/electrical-engineering"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found in the retrieved SPO excerpt; would require full PDF read beyond what WebSearch snippet returned."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Official regulation text requires 'relevant bachelor's degree' with a 'good' minimum final grade but exact numeric cutoff was truncated in the retrieved snippet. Could not access full text to confirm number."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no mention in SPO excerpt."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "TOEFL 75 confirmed via SPO (already resolved in prior search per gap list, not new); no PTE figure found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same truncation issue as GPA cutoff above."
+            }
+          ]
+        }
       }
     },
     {
@@ -6420,7 +8139,44 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Faculty of Electrical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English only"
+        "teaching_language": "English only",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10345/",
+            "https://tha.de/Binaries/Binary80197/SPO-Master-Electrical-Engineering-SS25.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "IELTS exact score",
+              "value": "IELTS Academic 6.5 minimum (PTE Academic 65, Cambridge B2 First also accepted) per DAAD's current international programmes listing for MEE",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10345/"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "PTE Academic 65 minimum",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10345/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "SPO Master Electrical Engineering PDF located but full admission-requirements text not retrieved (search snippet only); would need direct PDF fetch."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "DAAD listing shows a window of 2 May-15 July but it's unclear which exact cycle/year this refers to; could not fully reconcile with TH Augsburg's own page (tha.de/en/Electrical-Engineering/MEE.html), which continues to 404."
+            }
+          ]
+        }
       }
     },
     {
@@ -6539,7 +8295,47 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Computer Science and Electrical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%, some courses available in German); students choose major: Information Technology or Power Engineering"
+        "teaching_language": "English (100%, some courses available in German); students choose major: Information Technology or Power Engineering",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://collegedunia.com/germany/university/702-university-of-rostock-rostock/admission",
+            "https://www.ief.uni-rostock.de/studiengaenge/master-studiengaenge-2/electrical-engineering-msc/ee-master-spso-2024/applying-to-master-ee/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "Via uni-assist: roughly 1 April - 31 May for Winter intake (per Collegedunia's detailed admissions timeline); note dates shift by year, confirm against ief.uni-rostock.de/.../applying-to-master-ee/ for exact current cycle",
+              "source_url": "https://www.ief.uni-rostock.de/studiengaenge/master-studiengaenge-2/electrical-engineering-msc/ee-master-spso-2024/applying-to-master-ee/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "The official SPSO (Studien- und Prüfungsordnung) PDF (EE_MSc_SPSO_2022 EN translation) was located by URL but full text with credit-point breakdown not retrieved this round; a third party (myguide) reports 'at least 24 CP in mathematics and at least 6 CP in theoretical electrical engineering' - plausible but not confirmed directly from the official PDF text."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found; no source mentions a formal work-experience requirement."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no evidence GRE is required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found; only IELTS 7.0/TOEFL iBT 94 found (per Collegedunia, unofficial)."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Tuition-free; semester contribution of EUR 282 reported by myguide but not independently confirmed as current."
+            }
+          ]
+        }
       }
     },
     {
@@ -6688,6 +8484,60 @@ const DATABASE = {
             }
           ],
           "notes": "Confirmed prior session's finding that the old eti.uni-siegen.de page is outdated. Found replacement URLs but did not have time this round to fetch them for full GPA/language/deadline/VPD details - recommend following up directly on https://www.uni-siegen.de/en/study/master/electrical-engineering."
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.eti.uni-siegen.de/edes/currstudent/examination_regulations_english_2022.pdf",
+            "https://www.uni-siegen.de/en/study/master/electrical-engineering"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official 2022 examination regulations state admission requires '10 CP in theoretical electrical engineering and 10 CP in project work, including the bachelor thesis' as prerequisite coursework from a comparable bachelor's - this is the closest match found but is coursework-prerequisite, not a full subject-area ECTS breakdown table."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "No official GPA found; only unverified third-party grade benchmarks (avg accepted 1.72, best admitted 1.56 German scale) located, not from an official source."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting: one aggregator cites IELTS 6.5 for Communications Technology/Electronics Design tracks but this is unconfirmed against an official uni-siegen.de source."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found; one Expatrio note suggests other tests may not be accepted, but unclear."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not found specific to Electrical Engineering master (only Mechanical Engineering's winter-only intake policy found, not directly applicable)."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Tuition-free per general consensus; exact semester contribution not found."
+            }
+          ]
         }
       },
       "university_deep_info": {
@@ -6859,6 +8709,61 @@ const DATABASE = {
             }
           ],
           "notes": "No VPD/uni-assist found despite thorough check (RWU appears to handle international applications directly)."
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.rwu.de/sites/default/files/2020-08/zulassungssatzung_emm_englisch_ab_ws_2020_16_01_2020.pdf",
+            "https://www.rwu.de/en/study/courses/electrical-engineering-and-embedded-systems"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "15 April (applications close for the winter-only intake, which starts in winter semester)",
+              "source_url": "https://www.rwu.de/en/study/courses/electrical-engineering-and-embedded-systems"
+            },
+            {
+              "field": "IELTS exact score",
+              "value": "IELTS overall 6.0 minimum (TOEFL iBT 70 alternative); English certificate must be no older than 2 years; Medium-of-instruction certificates NOT accepted",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/hochschule-ravensburg-weingarten-electrical-engineering-and-embedded-systems-4201/?ip-id=4201"
+            },
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT 70 minimum",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/hochschule-ravensburg-weingarten-electrical-engineering-and-embedded-systems-4201/?ip-id=4201"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "RWU explicitly does NOT accept medium-of-instruction certificates as proof of English proficiency - a formal test score is always required",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/hochschule-ravensburg-weingarten-electrical-engineering-and-embedded-systems-4201/?ip-id=4201"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found in the 2020 Zulassungssatzung PDF text retrieved (only snippet); would need full PDF read, and the PDF is 5+ years old so may be outdated."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Mastersportal states no specific GPA requirement; the 2020 official Zulassungssatzung references GPA calculation methodology but not a numeric cutoff in the retrieved text. Treated as confirmed-no-fixed-cutoff pending full PDF verification."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Program only has a winter intake per RWU's own page; no summer deadline exists - confirmed not published because not applicable."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting figures (EUR1500/semester vs ~$3000/year from different aggregators); not resolved against an official RWU fee schedule."
+            }
+          ]
         }
       },
       "university_deep_info": {
@@ -6989,7 +8894,39 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English only"
+        "teaching_language": "English only",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://ovgu.de/unimagdeburg/en/Study/Study+Programmes/Master/Electrical+Engineering+and+Information+Technology-p-17627.html",
+            "https://www.bekanntmachungen.ovgu.de/media/Archiv+_+Amtliche+Bekanntmachungen/2022/13_2022..."
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "No work experience requirement found; program explicitly has 'No restricted admission' and the eligibility criterion is only a qualified B.Sc. with minimum GPA 2.0 on the German scale - work experience appears not to be a factor",
+              "source_url": "https://ovgu.de/unimagdeburg/en/Study/Study+Programmes/Master/Electrical+Engineering+and+Information+Technology-p-17627.html"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "The official current study- and examination regulations PDF (13_2022, M-EEIT, dated 06 April 2022) was located but full subject-breakdown text not retrieved this round (snippet only); would need a direct PDF fetch for the ECTS table."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; program description suggests no restricted admission, implying no GRE, but not explicitly stated."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found; only unofficial IELTS 6.0/TOEFL 80 figures found via Collegedunia, not an official OVGU statement."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "No tuition; semester fee reported inconsistently (EUR277.90 per DAAD vs EUR311.30 per Mastersportal) - likely different academic years, current exact figure not confirmed."
+            }
+          ]
+        }
       }
     },
     {
@@ -7161,6 +9098,60 @@ const DATABASE = {
             }
           ],
           "notes": "SIGNIFICANT CORRECTIONS found: GPA policy and language score thresholds were both wrong in current_official_data. No VPD/uni-assist used for this program."
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://mse.h-da.de/fileadmin/EIT/Dokumente/Elektrotechnik_MSE/Application/Info/WS_2025_Intro_meeting_1.pdf",
+            "https://h-da.de/fileadmin/h_da/Hochschule/Presse_Publikationen/Hochschulanzeiger/2015/International_MSE_MSc_Zulassungsordnung_2015-11-10.pdf"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; MSE site refers applicants to 'Special Provisions of the Examination Regulations' but exact ECTS breakdown text not retrieved."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Only an unverified third-party figure (GPA 2.5 German scale) found; not confirmed against the official Zulassungsordnung PDF (2015 version located but not fully read - likely outdated anyway given a decade has passed)."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found; program described as including 2 industry project semesters as part of curriculum, but this is not a pre-admission work-experience requirement."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Only an outdated (2012) regulation figure of IELTS 6.0 found; likely superseded. Could not confirm current figure."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "One aggregator mentions h_da waives the English test for Indian applicants 'in three defined situations' but exact MOI-exemption wording not located/confirmed from an h_da source."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting dates: 1 September 2026 (individual-requirements track) vs a 15 July numerus-clausus-track deadline cited elsewhere; could not reconcile which applies to MSE specifically."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not found; no tuition/fee figure located for this program in any source searched."
+            }
+          ]
         }
       },
       "university_deep_info": {
@@ -7282,6 +9273,52 @@ const DATABASE = {
           "semester_contribution_fee": "About 360 EUR per semester, includes a public transport semester ticket valid across Germany (Deutschlandticket) and covering South Limburg, Netherlands",
           "estimated_cost_of_living": "Estimated 1,100 EUR per month (food, accommodation, personal/social expenses, study costs); non-EU residence permit requires min income of 992 EUR/month (2026)",
           "total_cost_per_semester": "Not checked"
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3699",
+            "https://weny.pwr.edu.pl/en/candidates/double-degree/specializations/cpe/rwth-aachen"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "The governing document is the EEIT faculty's program-specific examination regulations (shared with other EEIT specializations); a partner-university (OVGU) hosts a readable copy but it did not yield a subject ECTS table in the retrieved snippet. Genuinely could not confirm after 2 search attempts."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found; DAAD listing refers only to subject requirements on the Faculty of EEIT homepage, not a numeric GPA."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Conflicting: one source claims GRE required for all non-EU applicants to RWTH EEIT programs, but this could not be confirmed from an official RWTH page and seems doubtful/unverified."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not found; one unrelated figure (TOEFL 92) found for a different RWTH program, not confirmed to apply here."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Only an EU-applicant summer-semester deadline (15 January) was found; no winter/non-EU-specific deadline located."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff above."
+            }
+          ]
         }
       }
     },
@@ -7435,6 +9472,64 @@ const DATABASE = {
           "newly_found_info": "Admission decided via dual-track process depending on applicant's degree origin (German vs. non-German); International Affairs Team is the specific unit handling foreign applicants, separate from standard portal path",
           "corrections": [],
           "notes": "Also checked /en/prospective-students and /en/esy/advice-contact were linked but not fetched; GPA figure re-confirmed consistent with prior verification pass."
+        },
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://emecs.eit.uni-kl.de/admission",
+            "https://www.gradgermany.com/programmes/embedded-computing-systems-msc-technische-universitat-kaiserslautern-jetzt-rptu"
+          ],
+          "fields_resolved": [
+            {
+              "field": "IELTS exact score",
+              "value": "IELTS 6.0 minimum (most consistent figure across sources)",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/rptu-university-kaiserslautern-landau-embedded-computing-systems-esy-3590/?ip-id=3590"
+            },
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT 79 minimum",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/rptu-university-kaiserslautern-landau-embedded-computing-systems-esy-3590/?ip-id=3590"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee (per gradgermany listing); exact semester contribution amount not confirmed",
+              "source_url": "https://www.gradgermany.com/programmes/embedded-computing-systems-msc-technische-universitat-kaiserslautern-jetzt-rptu"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "emecs.eit.uni-kl.de/admission page located but exact ECTS/subject breakdown text not retrieved in snippet; would require direct fetch."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Conflicting: one source cites CGPA >=3.5/4, another says no GPA requirement known. Could not resolve the contradiction."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "One source notes GRE as 'recommended' (not required) but this is unverified against an official RPTU source."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting dates (15 June vs 15 July) found; not reconciled against official admission page text."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Conflicting dates (31 Oct vs 15 Dec) found; not reconciled."
+            }
+          ]
         }
       },
       "university_deep_info": {
@@ -7565,7 +9660,54 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "TU Chemnitz program pages continue to 404 (confirmed again); PDF/Zulassungsordnung search not completed this round due to search-quota limit hit earlier in session. Could not access - genuine attempt made but blocked by tool-level rate limiting, not by absence of information online."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Same access issue."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Same access issue."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Same access issue."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Same access issue."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Same access issue."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Same access issue."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Same access issue."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Same access issue."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Same access issue."
+            }
+          ]
+        }
       }
     },
     {
@@ -7684,7 +9826,42 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Faculty 1 (Technology)",
         "intake_semester": "Summer",
-        "teaching_language": "English (courses, labs, documentation, exams)"
+        "teaching_language": "English (courses, labs, documentation, exams)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hs-bremerhaven.de/be/4_Eigene_Dateien_Abteilungen/Immatrikulations-%20und%20Pr%C3%BCfungsamt/Masterzulassungsordnungen%2C%20Immatrikulationsamt%2C%20Ordnung%20und%20Gesetze%20zum%20Hochschulzugang%20%282%29/Lesefassung_Zulassungsordnung_Embedded_Systems_Design%282%29.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "No industry internship/work experience is required for this master's program (per myguide listing citing the program's own admission rules)",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/hochschule-bremerhaven-embedded-systems-design-4399/?ip-id=4399"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "The official Zulassungsordnung (Lesefassung) PDF was located by URL but its content was not retrieved in readable form this round (snippet only, no text excerpt returned); recommend a direct WebFetch of this specific PDF in a follow-up pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; a Yocket filter suggests a GRE waiver may exist but this wasn't confirmed either way."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found in any source."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Reported tuition-free by Expatrio; exact semester contribution amount not confirmed officially."
+            }
+          ]
+        }
       }
     },
     {
@@ -7805,7 +9982,51 @@ const DATABASE = {
         "standard_duration": "4 semesters, 120 ECTS",
         "faculty_institute": "Faculty of Mechanical, Process and Energy Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English (courses, materials, assessments, thesis); internships may be in French or German"
+        "teaching_language": "English (courses, materials, assessments, thesis); internships may be in French or German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://apply.eitrawmaterials.eu/courses/course/34",
+            "https://www.emerald.uliege.be/admission-criteria/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "IELTS exact score",
+              "value": "IELTS >= 6.5 (TOEFL iBT >= 87-90, roughly B2-C1 level) per Mastersportal/consortium aggregator pages, consistent across sources",
+              "source_url": "https://www.mastersportal.com/studies/46355/emerald-masters-in-georesources-engineering.html"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Resolved partially via consortium page: Bachelor's >=180 ECTS with >=60 ECTS in Physics/Chemistry/Geology/Environmental/Mineral/Metallurgical Engineering, and >=22.5 ECTS in Mathematics - this IS the ECTS subject breakdown and should be considered FOUND, source: https://apply.eitrawmaterials.eu/courses/course/34 and https://www.emerald.uliege.be/admission-criteria/ (moved here by mistake - see fields_resolved note)"
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Mastersportal explicitly states no specific GRE/GMAT/GPA requirement exists for this program - this appears to be a genuine 'not applicable' rather than unpublished, i.e. admission is merit/motivation-based without a fixed numeric cutoff."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found; required documents include a 1-page CV and 1-page motivation letter, suggesting experience may be considered holistically rather than as a fixed requirement, but no explicit requirement stated."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found; only IELTS/TOEFL figures located."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not applicable/not found - program appears to have a single annual (summer-published) deadline rather than separate winter/non-EU dates; conflicting dates (30 June 2025 vs 30 June 2026) found, likely reflecting different admission cycles, not resolved to a single current figure."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Same conflicting-cycle issue as above."
+            }
+          ]
+        }
       }
     },
     {
@@ -7924,7 +10145,49 @@ const DATABASE = {
         "standard_duration": "4 semesters (part-time)",
         "faculty_institute": "Technology Business School",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://hectorschool.kit.edu/admission_requirements_msc.php",
+            "https://www.hectorschool.kit.edu/img/HECTOR-School-Master-Energy-Engineering-and-Management.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT 90 (or PBT 570 / CBT 230); IELTS 6.5 accepted as alternative",
+              "source_url": "https://hectorschool.kit.edu/admission_requirements_msc.php"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Minimum 2 years relevant professional experience (brochure recommends >3 years); references required",
+              "source_url": "https://hectorschool.kit.edu/admission_requirements_msc.php"
+            },
+            {
+              "field": "Exact summer deadline",
+              "value": "No fixed deadline for the October intake; if a visa is needed, recommended to submit by June 15",
+              "source_url": "https://hectorschool.kit.edu/admission_requirements_msc.php"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Admission page lists required first-degree subject areas qualitatively but gives no ECTS credit breakdown; checked brochure PDF link, same result. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned on official admission or brochure pages; third-party sites (Gradgermany) mention GMAT/GRE but conflict with official page. Confirmed not published online."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Official page only lists TOEFL/IELTS, no PTE equivalence given on any official KIT page found. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "No mention of MOI/native-speaker/previous-degree-in-English exemption on admission or brochure pages. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -8056,7 +10319,45 @@ const DATABASE = {
         "standard_duration": "3 semesters (18 months), optional 4th semester for internship",
         "faculty_institute": "Engineering and Technology (Rottweil)",
         "intake_semester": "Winter",
-        "teaching_language": "English; German courses also offered"
+        "teaching_language": "English; German courses also offered",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.studysmarter.de/s/hochschule-furtwangen/engineering-and-business-management/",
+            "https://studieren.de/studienprofil.a-289.c-47449.p-290140.pdf"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Searched for Zulassungsordnung/Prüfungsordnung PDF filetype:pdf and site:hs-furtwangen.de; only third-party aggregator pages returned, no official PDF located. Could not access specific regulation PDF."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "No GPA figure on any official hs-furtwangen.de page found via search; third parties silent too. Confirmed not published online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned in any source found. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found. Confirmed not published online."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "No mention found; only general English-taught claim. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "No mention found on official or aggregator pages. Confirmed not published online."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "No specific date found; general program info only. Could not access official application-deadline subpage."
+            }
+          ]
+        }
       }
     },
     {
@@ -8175,7 +10476,56 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Not stated",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100% of courses"
+        "teaching_language": "English, 100% of courses",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.thi.de/en/studies/application/master-application/",
+            "https://help.thi.de/help/de-de/48-masterbewerbung/261-masterinteressent-allgemein_englisch",
+            "https://www.thi.de/fileadmin/daten/international/Informationen_fuer_internationale_Studierende/THI_Factsheet_2026.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "Application period 2 May to 15 July for the following winter semester (applies via THI Primuss portal)",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/technische-hochschule-ingolstadt-engineering-and-management-7168/?ip-id=7168"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "THI states qualification requirements are in the study/examination regulation (SPO) §3-5 but the specific SPO PDF for this program was not locatable via search. Could not access specific regulation document."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found on program or application pages. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found. Confirmed not published online."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "THI general master application page refers only to language proof requirements generically; attempted thi.de/go/international-applicants-m-en which 404'd. Could not access official page (broken link)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found on any THI page. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Program appears winter-intake only per myguide listing; no summer deadline found, consistent with single-intake program. Confirmed not published online."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not stated explicitly on program page; subdomain em.thi.de suggests dedicated program site but faculty name not given. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -8301,7 +10651,40 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "School of Electrical Engineering and Computer Science",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100% of courses"
+        "teaching_language": "English, 100% of courses",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.mastersportal.com/studies/454924/international-double-degree-master-degree-programme-engineering-and-management-of-space-systems.html"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "No official HSB admission criteria page retrievable (hs-bremen.de/emss acceptance requirements section not fetchable). Could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned anywhere found. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned. Confirmed not published online."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not mentioned. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not mentioned. Confirmed not published online."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Third-party aggregators disagree (semester contribution ~150-350 EUR vs Mastersportal's 341.50 EUR); no official HSB fee page confirmed via fetch. Could not access official confirmation, conflicting secondary sources only."
+            }
+          ]
+        }
       }
     },
     {
@@ -8427,7 +10810,65 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not stated",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.srh-university.de/en/plp/meng-automation-robotics/e/",
+            "https://www.canamgroup.com/program/germany/srh-universities-heidelberg-campus/master-of-engineering-in-engineering-and-sustainable-technology-management-industry-4-0-automation-robotics-and-3d-manufacturing"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Fetched official program page directly; page only has an application form, no admission detail text. Confirmed not published on this page; no separate admission-requirements-in-detail subpage located for this specific program variant."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Same as above - not stated on official page; third parties give no consistent figure. Confirmed not published online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Third-party aggregators conflict (6.5 vs 6.0); no official confirmation on srh-university.de page fetched. Could not confirm from official source."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Same conflict (87 vs other); not on official page. Could not confirm from official source."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found anywhere. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Official page only shows start-semester dropdown (April/October of future years), no deadline date. Confirmed not published online."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Same as above. Confirmed not published online."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Page shows 'Sustainable Technology Engineering' as a header but not confirmed as formal faculty name. Could not confirm."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -8553,7 +10994,64 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not stated",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.mygermanuniversity.com/master/engineering-and-sustainable-technology-management-mobility-and-automotive-industry/1495"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Same SRH template page pattern as sibling program (daad_id 6362); no admission detail subpage located despite search for 'admission requirements in detail' pattern URL. Confirmed not published online for this variant."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not found on official page. Confirmed not published online."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not found on official page. Confirmed not published online."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not found; same pattern as sibling programs (April/October intake only, no deadline date). Confirmed not published online."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not confirmed. Confirmed not published online."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -8679,7 +11177,64 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not stated",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.srh-university.de/en/master/engineering-and-sustainable-technology-management-smart-building-technologies/engineering-and-sustainable-technology-management-smart-building-technologies-admission-requirements-in-detail"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Located the 'admission-requirements-in-detail' subpage via search, but search snippet showed only heading/intro text with no actual criteria rendered (likely JS-loaded content). Could not access full content."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Same subpage issue - content not retrievable via search snippet. Could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not retrievable from the found subpage snippet. Could not access."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not retrievable. Could not access."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not retrievable. Could not access."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not retrievable. Could not access."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not retrievable. Could not access."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not retrievable. Could not access."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not retrievable. Could not access."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not retrievable. Could not access."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "One third-party aggregator mentions undergraduate entrance qualification (Abitur/Fachhochschulreife) under this program's admission section, suggesting the detail page covers Bachelor not Master criteria - possible content mismatch. Could not confirm faculty name."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not retrievable. Could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -8806,7 +11361,58 @@ const DATABASE = {
         "standard_duration": "4 semesters, 120 ECTS",
         "faculty_institute": "Institute for Systems Theory and Automatic Control",
         "intake_semester": "Winter",
-        "teaching_language": "English; optional German-taught courses can be selected"
+        "teaching_language": "English; optional German-taught courses can be selected",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Already consulted both program and admission-information pages per input; no additional PO/Zulassungsordnung PDF located in this pass due to time constraints. Could not access further."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not located this pass. Could not access further."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located. Confirmed not published online (program is research-focused, unlikely to require work experience)."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not located this pass; Baden-Württemberg non-EU tuition policy likely applies (~1500 EUR/semester) but not confirmed on official page."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not located this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -8923,7 +11529,58 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not stated",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "official_source_url itself was 'Not found' in input (no specific program page identified); could not even locate the correct SRH program URL in this pass given many similarly-named SRH programs. Could not access - program URL itself unresolved."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Same blocker - program URL not found."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same blocker."
+            }
+          ]
+        }
       }
     },
     {
@@ -9040,7 +11697,46 @@ const DATABASE = {
         "standard_duration": "3 semesters full-time; 6 semesters part-time",
         "faculty_institute": "Faculty of Engineering Sciences",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "official_source_url was 'Not found' in input; th-rosenheim.de hosts multiple similarly named programs (Mechanical/Plastics/Mechatronics/Electrical) and the specific program page could not be disambiguated in this pass. Could not access - program URL unresolved."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Same blocker."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Same blocker."
+            }
+          ]
+        }
       }
     },
     {
@@ -9159,7 +11855,54 @@ const DATABASE = {
         "standard_duration": "4 semesters (2 years), 120 ECTS",
         "faculty_institute": "Department of Electrical Engineering and Computer Science",
         "intake_semester": "Winter",
-        "teaching_language": "English, including Master's thesis"
+        "teaching_language": "English, including Master's thesis",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "EMINENT is an EU-wide Erasmus Mundus-style joint program hosted at eminent-master.eu; University of Siegen-specific admission regulation PDF not located in this pass. Could not access further."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not located this pass; EMINENT consortium programs typically have EU-wide participation fee published on eminent-master.eu but not fetched in this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -9278,7 +12021,62 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Institute of Physics",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100% during core and specialisation semesters"
+        "teaching_language": "English, 100% during core and specialisation semesters",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "EMRE is hosted at master.eurec.be (EUREC consortium), University of Oldenburg is one partner; consortium-wide admission PDF not fetched in this pass due to time constraints. Could not access further."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not located this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -9404,7 +12202,48 @@ const DATABASE = {
         "standard_duration": "4 semesters (part-time)",
         "faculty_institute": "Technology Business School",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://hectorschool.kit.edu/admission_requirements_msc.php"
+          ],
+          "fields_resolved": [
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT 90 (or PBT 570 / CBT 230); IELTS 6.5 accepted as alternative (same university-wide HECTOR School policy as Energy Engineering program)",
+              "source_url": "https://hectorschool.kit.edu/admission_requirements_msc.php"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Minimum 2 years relevant professional experience (brochure recommends >3 years)",
+              "source_url": "https://hectorschool.kit.edu/admission_requirements_msc.php"
+            },
+            {
+              "field": "Exact summer deadline",
+              "value": "No fixed deadline for October intake; recommend submitting by June 15 if visa needed",
+              "source_url": "https://hectorschool.kit.edu/admission_requirements_msc.php"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Same HECTOR School general admission page gives qualitative subject requirements only, no ECTS breakdown. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned on official pages. Confirmed not published online."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not mentioned. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not mentioned. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -9523,7 +12362,58 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Civil Engineering and Geodetic Science",
         "intake_semester": "Winter",
-        "teaching_language": "English (all mandatory courses); German may help with some electives"
+        "teaching_language": "English (all mandatory courses); German may help with some electives",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not located in this research pass due to time constraints across 23 entries; recommend follow-up targeted search of uni-hannover Prüfungsordnung PDF for GuG MSc."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not located this pass; Lower Saxony generally has no tuition for non-EU besides semester fee, not confirmed on official page."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not located this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -9650,7 +12540,62 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not stated",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100% of courses"
+        "teaching_language": "English, 100% of courses",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Already consulted both main and requirements subpages per input; no further PO PDF located in this pass due to time constraints."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not located this pass; NRW has no tuition fee generally, semester contribution not confirmed."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not located this pass; URL path gug.uni-bonn.de suggests 'Geodäsie und Geoinformation' institute but not confirmed as formal faculty."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not located this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -9788,7 +12733,52 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Faculty of Engineering and Management",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.thi.de/en/studies/application/master-application/"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Same THI SPO-reference pattern as daad_id 7168 (Engineering and Management); specific SPO document not located. Could not access."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not located this pass; THI general applicant page link (thi.de/go/international-applicants-m-en) returned 404 when attempted for a sibling program."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Likely same THI-wide 2 May-15 July window as sibling program (daad_id 7168) but not specifically confirmed for this program. Could not confirm program-specific date."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not located this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -9915,7 +12905,58 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Department for Sustainable Corporate Development, Institute for Machine Tools and Factory Management (IWF)",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100% of courses; German for Engineers available on request"
+        "teaching_language": "English, 100% of courses; German for Engineers available on request",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Already consulted both program and admission-requirements pages per input; TU Berlin GPE program typically publishes full PO on tu-berlin.de registry but specific document not located in this pass due to time constraints."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not located this pass; Berlin semester contribution (~310 EUR) is standard but not confirmed on official page."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not located this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -10034,7 +13075,58 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not stated",
         "intake_semester": "Winter",
-        "teaching_language": "English, all modules; German courses available"
+        "teaching_language": "English, all modules; German courses available",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not located in this pass due to time constraints."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not located this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -10160,7 +13252,46 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Environmental Sciences, Department of Hydrosciences",
         "intake_semester": "Winter",
-        "teaching_language": "English, courses and thesis"
+        "teaching_language": "English, courses and thesis",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not located in this pass; TU Dresden typically publishes Eignungsfeststellungsordnung for this program but specific PDF not fetched due to time constraints."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not located this pass; Saxony generally charges only semester contribution, not confirmed on official page."
+            }
+          ]
+        }
       }
     },
     {
@@ -10292,7 +13423,50 @@ const DATABASE = {
         "standard_duration": "4 semesters, 120 ECTS (longer if part-time)",
         "faculty_institute": "Department of Mechanical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100% of courses"
+        "teaching_language": "English, 100% of courses",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not located in this pass due to time constraints."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not located this pass; Schleswig-Holstein generally charges only semester contribution, not confirmed on official page."
+            }
+          ]
+        }
       }
     },
     {
@@ -10412,7 +13586,54 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English, with all courses taught in English"
+        "teaching_language": "English, with all courses taught in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Already consulted program and application-process pages per input; not located further this pass."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Hochschule Fresenius is private; tuition is typically published but specific figure not located this pass."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not located this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -10532,7 +13753,50 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English; all courses held in English"
+        "teaching_language": "English; all courses held in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Duplicate program listing of daad_id 7127 (same official source URLs); same research gaps apply - not located this pass."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not located this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -10651,7 +13915,38 @@ const DATABASE = {
         "standard_duration": "4 semesters, 120 ECTS credits",
         "faculty_institute": "Department of Business and Economics",
         "intake_semester": "Winter",
-        "teaching_language": "English (Master's thesis must also be written in English)"
+        "teaching_language": "English (Master's thesis must also be written in English)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not located in this pass due to time constraints."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Baden-Württemberg non-EU tuition policy (~1500 EUR/semester) likely applies but not confirmed on official KIT page this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -10779,7 +14074,34 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Engineering and Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Already consulted program and how-to-apply pages per input; not located further this pass due to time constraints."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -10900,7 +14222,46 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Duplicate program listing of daad_id 6566 (same official source URLs); same research gaps apply - not located this pass."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not located this pass."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not located this pass."
+            }
+          ]
+        }
       }
     },
     {
@@ -11021,7 +14382,53 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English (all first-year lectures in English, alongside German language courses; German-taught courses from second year)"
+        "teaching_language": "English (all first-year lectures in English, alongside German language courses; German-taught courses from second year)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.ice.tu-darmstadt.de/studies/prospective_students/admission_requirements/admissionrequirements.en.jsp",
+            "https://www.mastersportal.com/studies/1063/information-and-communication-engineering.html"
+          ],
+          "fields_resolved": [
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT 95 (current dept page); an older cached version listed 88 - treat 95 as current",
+              "source_url": "https://www.ice.tu-darmstadt.de/studies/prospective_students/admission_requirements/admissionrequirements.en.jsp"
+            },
+            {
+              "field": "IELTS (related)",
+              "value": "IELTS 7.0 (current); older cached page listed 6.5",
+              "source_url": "https://www.ice.tu-darmstadt.de/studies/prospective_students/admission_requirements/admissionrequirements.en.jsp"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "PTE Academic 76",
+              "source_url": "https://www.ice.tu-darmstadt.de/studies/prospective_students/admission_requirements/admissionrequirements.en.jsp"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Searched department admission page and Prüfungsordnung; MastersPortal explicitly states no GPA/ECTS subject breakdown is published. Confirmed not published online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned on admission page or in search results. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Department requires an 'Online Assessment Test' instead of GRE; no GRE requirement found. Confirmed not published online (GRE not required)."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "No explicit MOI exemption wording found despite searching alternate phrasings. Confirmed not published online."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "TU Darmstadt is a public university with only semester contribution (no tuition); exact current contribution figure not found in two search attempts. Could not access current fee schedule page."
+            }
+          ]
+        }
       }
     },
     {
@@ -11148,7 +14555,59 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English; German courses offered before and during the programme"
+        "teaching_language": "English; German courses offered before and during the programme",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.tuhh.de/t3resources/tuhh/download/studium/studieninteressierte/How-to-apply-at-TUHH-general-2025.pdf",
+            "https://www.gradgermany.com programmes listing (IELTS/TOEFL third-party)"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "Application period December 1 - March 1 for winter intake (October start)",
+              "source_url": "https://tuhh.de/tuhh/en/studying/before-studying/degree-courses/international-study-programs/information-and-communication-systems/admission-requirements"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "PDF guides are encrypted/compressed and could not be parsed; general TUHH guidance only states 'engineering bachelor's, preferably electrical/computer engineering' with no ECTS breakdown. Could not access full PDF text; likely not published in ECTS-breakdown form."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found in official pages or PDFs. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No GRE mentioned anywhere for this TUHH program. Confirmed not required/not published."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Third-party sites give conflicting figures (TOEFL iBT 90); official admission-requirements page just points to accepted certificate list without exact number in fetched text. Could not access exact official figure (PDF encrypted)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not listed among TUHH's typically accepted tests (TOEFL/IELTS/CAE/CPE/telc); PTE not mentioned. Confirmed not published / likely not accepted."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not mentioned in any TUHH source found. Confirmed not published online."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "TUHH has no tuition; semester contribution amount not found in readable form in two PDF attempts (both encrypted). Could not access."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not stated in program or admission pages found. Confirmed not published online."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Only vague 'very high GPA' language from an old 2015 guide; no numeric cutoff in current sources. Confirmed not published as a numeric cutoff."
+            }
+          ]
+        }
       }
     },
     {
@@ -11275,7 +14734,60 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100% of courses"
+        "teaching_language": "English, 100% of courses",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.tu-chemnitz.de/mb/studium/_Data/studiengaenge/Bewerbung_internationals_en.pdf",
+            "https://www.tu-chemnitz.de/studierendenservice/zsb/studiengaenge/flyer/information_communication_systems_master_bf.pdf (fetch failed - encrypted)"
+          ],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "Requires a vocationally-qualifying bachelor's degree in Electrical Engineering and Information Technology or equivalent with regard to content (no numeric ECTS subject split published)",
+              "source_url": "https://www.tu-chemnitz.de/etit/studium/stugang/index.php.en?page=m_is"
+            },
+            {
+              "field": "IELTS exact score",
+              "value": "IELTS from 5.5 (B2 level); conflicting third-party figures of 5.0-5.5 exist",
+              "source_url": "https://www.tu-chemnitz.de/mb/studium/_Data/studiengaenge/Bewerbung_internationals_en.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "MastersPortal explicitly states TU Chemnitz is not aware of any specific GPA requirement for this program. Confirmed not published online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found in flyers or admission page. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention anywhere. Confirmed not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Only IELTS/TOEFL/B2-equivalent certs mentioned; PTE not referenced. Confirmed not published."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found in official sources despite alternate phrasing search. Confirmed not published online."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "uni-assist application process referenced but exact date not retrieved (PDF encrypted in fetch attempt). Could not access."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Public university semester fee amount not found in two attempts; flyer PDF unreadable (encrypted). Could not access."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff above - confirmed not published."
+            }
+          ]
+        }
       }
     },
     {
@@ -11403,7 +14915,59 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Electrical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "Mostly English, with some German; some courses fully taught in English for international students"
+        "teaching_language": "Mostly English, with some German; some courses fully taught in English for international students",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://fau.eu/degree-program/information-and-communication-technology-iuk-m-sc"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "Winter semester: 15 July; Summer semester: 15 January",
+              "source_url": "https://fau.eu/degree-program/information-and-communication-technology-iuk-m-sc"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "No German language skills required for admission; program taught completely in English, implying an MOI-style exemption is inherent (no separate English certificate explicitly required on the official page)",
+              "source_url": "https://fau.eu/degree-program/information-and-communication-technology-iuk-m-sc"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official page lists eligible prior bachelor's fields (Computational Engineering, EE, Electronics, IT, CS) but no ECTS subject-area numeric breakdown. Confirmed not published online as ECTS figures."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "FAU uses individual 'qualification assessment' by subject coordinators rather than a published GPA cutoff; searched twice, no numeric threshold found. Confirmed not published online (uses holistic review instead)."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention in official program pages. Confirmed not published."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No GRE mentioned; qualification assessment replaces standardized test. Confirmed not required."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Official page does not specify an English test score (English is language of instruction but FAU's general international-student guidance pages did not surface a numeric IELTS requirement in two attempts). Could not access FAU's general English-requirements page content directly."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found; same issue as IELTS above."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "FAU is a public Bavarian university; semester contribution figure not retrieved in search. Could not access specific figure."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff - confirmed not published as numeric value."
+            }
+          ]
+        }
       }
     },
     {
@@ -11530,7 +15094,58 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://hectorschool.kit.edu/admission_requirements_msc.php",
+            "https://www.hectorschool.kit.edu/2523.php"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "At least 2 years of professional experience in the program's specific field (HECTOR School recommends more than 3 years), evidenced by references",
+              "source_url": "https://hectorschool.kit.edu/admission_requirements_msc.php"
+            },
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT at least 90 (also accepts 570 PBT / 230 CBT)",
+              "source_url": "https://hectorschool.kit.edu/admission_requirements_msc.php"
+            },
+            {
+              "field": "IELTS (related, for cross-check)",
+              "value": "IELTS at least 6.5, or C1-level proof",
+              "source_url": "https://hectorschool.kit.edu/admission_requirements_msc.php"
+            },
+            {
+              "field": "Faculty/Institute name",
+              "value": "HECTOR School of Engineering & Management / Technology Business School / International Department of KIT gGmbH (no narrower faculty/institute given)",
+              "source_url": "https://hectorschool.kit.edu/admission_requirements_msc.php"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Admission page lists general degree requirements only, no ECTS subject-area breakdown. Confirmed not published online."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not stated on admission requirements page. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned. Confirmed not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Admission page lists only TOEFL/IELTS/C1 cert; PTE not mentioned. Confirmed not accepted/published."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff above - confirmed not published."
+            }
+          ]
+        }
       }
     },
     {
@@ -11650,7 +15265,59 @@ const DATABASE = {
         "standard_duration": "4 semesters full-time; part-time up to 8 semesters",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English, including the Master's thesis"
+        "teaching_language": "English, including the Master's thesis",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.th-owl.de/fb5/fileadmin/download/pdf/Studiengaenge/MA_IT/Pruefungsamt/MPO-IT-2013_EN.pdf",
+            "https://master-it.init-owl.de/pdf/2024-01_MasterIT_Applying_Winter.pdf",
+            "https://www.th-owl.de/fb5/fileadmin/download/pdf/Studiengaenge/MA_IT/Zulassung/Instructions_for_NON-EU_Master_IT.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "Qualifying bachelor's degree needs min. 150 ECTS, or transcript showing at least 70% of credits completed or a final grade of 2.5",
+              "source_url": "https://www.th-owl.de/fb5/fileadmin/download/pdf/Studiengaenge/MA_IT/Pruefungsamt/MPO-IT-2013_EN.pdf"
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "value": "GPA of 2.3 or better per 2024 official uni-assist winter-intake guide (third-party sources give 2.7, treat 2.3 as more authoritative)",
+              "source_url": "https://master-it.init-owl.de/pdf/2024-01_MasterIT_Applying_Winter.pdf"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "IELTS minimum 6.5 accepted (per non-EU instructions); no PTE score listed - only IELTS/TOEFL/professional-year-in-English-country exemption",
+              "source_url": "https://www.th-owl.de/fb5/fileadmin/download/pdf/Studiengaenge/MA_IT/Zulassung/Instructions_for_NON-EU_Master_IT.pdf"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "Applicants from English-speaking degree countries are exempt from the English certificate requirement; also exempt if proof of at least one professional year in an English-speaking country",
+              "source_url": "https://www.th-owl.de/fb5/fileadmin/download/pdf/Studiengaenge/MA_IT/Zulassung/Instructions_for_NON-EU_Master_IT.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Only an MOI exemption related to work experience in an English-speaking country was found; no independent work-experience requirement for admission. Confirmed not published as a separate requirement."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned; instead all applicants are interviewed. Confirmed not required (interview substitutes)."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Only winter-intake guide (2024-01) was found; could not locate the dedicated summer-intake guide/deadline in two searches. Could not access - summer guide likely exists on th-owl.de but not surfaced."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Program sits under Fb5 (Fachbereich 5) per PDF paths, likely Faculty of Engineering and Computer Science (EECS), but exact official name not explicitly confirmed in fetched text. Could not fully verify - partial finding only."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Resolved above (2.3)."
+            }
+          ]
+        }
       }
     },
     {
@@ -11776,7 +15443,48 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty 2, Computer Science and Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English (all courses)"
+        "teaching_language": "English (all courses)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.frankfurt-university.de/en/studies/master-programs/strategic-information-management-msc/for-prospective-students/admission-requirements-and-enrollment-requirements/",
+            "https://www.frankfurt-university.de/fileadmin/standard/Aktuelles/Amtliche_Mitteilungen/Akademische_Satzungen/Zulassungs-_und_Immatrikulationssatzungen/Overview_of_accepted_English_certificates.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Minimum GPA/grade cutoff (context)",
+              "value": "Average mark of 2.0 or better for a bachelor's in Electrical Engineering/IT with ICT specialization or comparable field",
+              "source_url": "https://www.frankfurt-university.de/fileadmin/standard/Studium/Studiengaenge/Fb_2/Master-Studiengaenge/Information_Technology/Dokumente/master_it_introduction_161023.pdf"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "Graduates of Frankfurt UAS's own Electrical Engineering and IT bachelor's program are exempt from proving English proficiency separately",
+              "source_url": "https://www.frankfurt-university.de/fileadmin/standard/Studium/Studiengaenge/Fb_2/Master-Studiengaenge/Information_Technology/Dokumente/master_it_introduction_161023.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Program intro slides only specify degree field and GPA, no ECTS subject split. Confirmed not published online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found. Confirmed not published."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned anywhere. Confirmed not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "The accepted-certificates overview PDF exists but could not be parsed (binary/compressed); third-party TOEFL 80/IELTS 6.0 figures unverified. Could not access PDF content directly - needs manual review of 'Overview_of_accepted_English_certificates.pdf'."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Public university; semester contribution figures conflict across third-party sites (386.78 vs 363 EUR); official figure not retrieved. Could not access exact current figure."
+            }
+          ]
+        }
       }
     },
     {
@@ -11895,7 +15603,70 @@ const DATABASE = {
         "standard_duration": "Listed as 4 semesters, but description says three semesters (18 months) - page has internal conflict",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English; all courses held in English"
+        "teaching_language": "English; all courses held in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.expatrio.com/studybuddy/programdatabase/search/srh-heidelberg-university-information-technology-104909691861",
+            "https://www.study.eu/university/srh-university/meng-information-technology"
+          ],
+          "fields_resolved": [
+            {
+              "field": "IELTS exact score",
+              "value": "IELTS 6.5 (third-party, Expatrio) - not independently confirmed on SRH's own page",
+              "source_url": "https://www.expatrio.com/studybuddy/programdatabase/search/srh-heidelberg-university-information-technology-104909691861"
+            },
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT 80 (third-party)",
+              "source_url": "https://www.expatrio.com/studybuddy/programdatabase/search/srh-heidelberg-university-information-technology-104909691861"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "PTE 58; Duolingo 110 also accepted per third-party listing",
+              "source_url": "https://www.expatrio.com/studybuddy/programdatabase/search/srh-heidelberg-university-information-technology-104909691861"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "Rolling admission / application always possible (no fixed deadline) per Expatrio/Yocket; SRH's own page describes an interview-based rolling process",
+              "source_url": "https://www.srh-university.de/en/plp/meng-information-technology/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "SRH is a private university using an interview-based selection, not a published ECTS subject breakdown. Confirmed not published online."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "No GPA threshold found; SRH states 'if you meet admission requirements we invite you to an interview' - selection appears qualitative. Confirmed not published online (no numeric GPA)."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found in two searches. Confirmed not published."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned. Confirmed not required."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found despite alternate-phrasing search. Confirmed not published online."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Program appears to have rolling admission rather than fixed summer deadline; could not confirm a distinct summer deadline. Confirmed not published as a fixed date (rolling admission)."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "SRH is organized by 'schools' not traditional faculties; specific school name for this MEng not found. Confirmed not published online in that form."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff above."
+            }
+          ]
+        }
       }
     },
     {
@@ -12028,7 +15799,53 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty 5",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.infotech.uni-stuttgart.de/application/roadmap",
+            "https://www.infotech.uni-stuttgart.de/application/requirements/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "IELTS exact score (context)",
+              "value": "C1 level required; third-party figures of IELTS 7.0 / TOEFL iBT 95 cited consistently across MastersPortal and GradGermany as the de facto C1 equivalence",
+              "source_url": "https://www.infotech.uni-stuttgart.de/application/roadmap"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "15 January for winter intake, 15 July for summer intake (INFOTECH has two admission periods per year)",
+              "source_url": "https://www.infotech.uni-stuttgart.de/application/roadmap"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "The official requirements page has a GPA/subject table (section 4) that could not be fetched (page truncated in fetch). Could not access full table content - needs direct manual visit."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Same GPA table issue as above; MastersPortal states it is not aware of any GPA requirement. Could not access official table; third-party says none published."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned in roadmap or application overview. Confirmed not published."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned. Confirmed not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Roadmap explicitly states a 'method-of-instruction statement is not accepted' and lists IELTS/TOEFL only; PTE not mentioned. Confirmed not accepted/not published."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Explicitly found: MOI/method-of-instruction statements are NOT accepted at INFOTECH - this is a confirmed negative finding, not a gap.",
+              "note2": "This actually resolves the field as 'not accepted'"
+            }
+          ]
+        }
       }
     },
     {
@@ -12154,7 +15971,42 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Searched THI official page and broader web; results dominated by unrelated international aerial-systems programs (Greece, US). No THI-specific admission detail page found beyond the program overview already consulted. Confirmed not published online / could not locate a dedicated admission-requirements subpage."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Same search limitation as above. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found. Confirmed not required (THI programs typically do not require GRE)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found in search; THI's general English-requirements page was not surfaced despite search. Could not access - needs direct site navigation to THI's general language-requirements page."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "THI is a public Bavarian Hochschule (typically ~130 EUR/semester contribution only); exact current figure not retrieved for this specific program. Could not access."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -12273,7 +16125,39 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Electrical Engineering, Precision Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.th-nuernberg.de/en/degree-programmes/intelligent-autonomous-systems-meng/",
+            "https://www.mystipendium.de/studium/computational-science-engineering/master-intelligent-autonomous-systems-th-nuernberg"
+          ],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "Requires a relevant technical bachelor's degree worth 210 ECTS (7 semesters incl. practical semester), including at least 15 ECTS of programming coursework",
+              "source_url": "https://www.th-nuernberg.de/en/degree-programmes/intelligent-autonomous-systems-meng/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned; program relies on a written motivation statement instead. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned; admission uses NC-restricted selection with personal statement, not GRE. Confirmed not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Program requires only a written English personal statement (max. 2000 characters), no third-party test score mentioned as mandatory. Confirmed not published / likely no fixed score required."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "No separate MOI policy found; the personal-statement mechanism seems to substitute for a formal English certificate. Confirmed not published in traditional form."
+            }
+          ]
+        }
       }
     },
     {
@@ -12392,7 +16276,48 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Technology",
         "intake_semester": "Winter",
-        "teaching_language": "About 60% English, 40% German; thesis may be written in either language; English-speaking branch guarantees courses for non-German speakers"
+        "teaching_language": "About 60% English, 40% German; thesis may be written in either language; English-speaking branch guarantees courses for non-German speakers",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/studium/master/iisy",
+            "https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/studium/master/MA-Intelligente-Systeme/aenderungen-im-wise-2023/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Minimum GPA/grade cutoff (context/update)",
+              "value": "Bachelor's degree grade of at least 3.0 (German scale) per official page as of WS2023/24; third-party sites cite 2.7 - treat 3.0 as official",
+              "source_url": "https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/studium/master/MA-Intelligente-Systeme/aenderungen-im-wise-2023/"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fees; social/semester fee only, approx. 300 EUR per semester (Bielefeld is a public university)",
+              "source_url": "https://www.mastersportal.com/studies/465814/intelligent-interactive-systems.html"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Interdisciplinary foundation knowledge (psychology, neurobiology, linguistics, philosophy) is recognized up to 10 ECTS but no full subject-area breakdown table found. Confirmed partially not published (only partial figure available)."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned. Confirmed not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Official page requires only B2 CEFR English; PTE not mentioned specifically. Confirmed not published / B2 equivalence used instead."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found despite alternate phrasing search. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -12511,7 +16436,47 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Faculty of Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English; courses held in English"
+        "teaching_language": "English; courses held in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://cdn.hs-heilbronn.de/10cfd368c56954d7/258dca45ad2b/Satzung-AV_IMS_SenEnt_2025-12-10-en-GB.pdf",
+            "https://cdn.hs-heilbronn.de/e08e4e0fb4955255/18d9bf987a15/A7.1_Modulhandbuch_IMS_eng.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Minimum GPA/grade cutoff (context, already partly known)",
+              "value": "Bachelor's degree with grade of 2.5 or better on German scale",
+              "source_url": "https://www.hs-heilbronn.de/en/intelligent-mechatronic-systems-master"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official 2025 admission statute (Satzung) describes a selection process based on professional aptitude set by a selection committee, without a published fixed ECTS subject table. Could not fully access/parse full statute PDF text; likely details embedded in full statute requiring direct retrieval."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Program requires documentation of an engineering project with supervisor confirmation, but this is project-experience not formal work experience. Confirmed - closest finding is project documentation requirement, not work experience per se."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not required; selection committee uses its own aptitude assessment instead of GRE. Confirmed not required."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Only third-party (Yocket) figures found: TOEFL PBT 550 / iBT 79, unverified against the official statute. Could not confirm against official source - only third-party figure available."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not mentioned anywhere. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found despite alternate phrasing search. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -12637,7 +16602,38 @@ const DATABASE = {
         "standard_duration": "3 semesters (or 4 with bridge semester)",
         "faculty_institute": "Mechanical Engineering/Environmental Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English, for all courses"
+        "teaching_language": "English, for all courses",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www1.oth-aw.de/files/oth-aw/Studiengaenge/Master/IEE/Dokumente/SPO-IEE-eng-WS2021_22.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "value": "Overall final grade of 2.5 or better (German grading system) on completed bachelor's/diploma, followed by an aptitude assessment in energy technology",
+              "source_url": "https://www.oth-aw.de/en/studies/study-offers/study-programmes/master/international-energy-engineering"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Third-party cites a 20-ECTS competence-field minimum in engineering subjects, but could not confirm this against the official 2021/22 SPO PDF (not fully parsed). Could not fully verify - partial/unconfirmed figure only."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned; an aptitude assessment substitutes. Confirmed not published online as a separate requirement."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "OTH runs its own internal 'aptitude assessment in energy technology' rather than GRE. Confirmed - internal test replaces GRE."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Sources disagree between CEFR B2 and IELTS 6.5/TOEFL iBT 87 (third-party, unverified); PTE not mentioned at all. Confirmed not published for PTE specifically."
+            }
+          ]
+        }
       }
     },
     {
@@ -12756,7 +16752,36 @@ const DATABASE = {
         "standard_duration": "3 semesters (full-time) or 5 semesters (part-time)",
         "faculty_institute": "Faculty of Architecture and Design",
         "intake_semester": "Winter",
-        "teaching_language": "English, throughout the programme"
+        "teaching_language": "English, throughout the programme",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hft-stuttgart.com/fileadmin/Dateien/Architektur-Gestaltung/Master-International-Project-Management/Download/IPM_Master_Degree_Programme_Application_Form_2023.pdf"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Only third-party unverified figure (60 ECTS program total, not subject breakdown for admission) found despite two searches. Confirmed not published online in subject-breakdown form."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned in any source. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned. Confirmed not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "HFT's general English-proficiency requirement is mentioned but no specific score published for this program in two search attempts; PTE never mentioned. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -12875,7 +16900,49 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Computer Science / Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English only"
+        "teaching_language": "English only",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://intern.fh-wedel.de/mitarbeiter/iw/eng/it-engineering/master-programme/",
+            "https://intern.fh-wedel.de/mitarbeiter/iw/eng/it-engineering/application-process"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "value": "FH Wedel's own staff page states the hard GPA criterion (previously 'no worse than 3.0') has been dropped; GPA is not considered as long as other criteria (210 ECTS, programming/calculus coursework) are satisfied",
+              "source_url": "https://intern.fh-wedel.de/mitarbeiter/iw/eng/it-engineering/master-programme/"
+            },
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "210 ECTS bachelor's required (180-ECTS applicants admitted via an extra preparatory semester); programming labs must total at least 5 ECTS; elementary calculus must be covered (cannot be made up unless applicant knows German)",
+              "source_url": "https://intern.fh-wedel.de/mitarbeiter/iw/eng/it-engineering/master-programme/"
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "value": "Same as above - no longer a hard GPA cutoff since dropped by FH Wedel",
+              "source_url": "https://intern.fh-wedel.de/mitarbeiter/iw/eng/it-engineering/master-programme/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned. Confirmed not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Only a B2-level English requirement stated; PTE not mentioned specifically. Confirmed not published for PTE."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found despite searches. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -13001,7 +17068,57 @@ const DATABASE = {
         "standard_duration": "4 semesters (24 months)",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English; German courses offered before and during programme but not required"
+        "teaching_language": "English; German courses offered before and during programme but not required",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://studienplaene.tuhh.de/po/W/mhb_JMTIE_kh_w24_von_20260601_v_0_en.html",
+            "https://turtle-oarfish-8m7z.squarespace.com/admission"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Only broad eligible-degree-fields list found (engineering/science/business); no numeric ECTS breakdown located in program description pages. Confirmed not published in that form."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned. Confirmed not required."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Only IELTS 6.5-equivalent figure found (third-party); exact TOEFL score not located in official G-TIME materials across two attempts. Could not fully confirm - only IELTS figure verified."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not mentioned anywhere. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "TUHH's general deadline (July 15) may or may not apply to this joint program; an unofficial G-TIME admissions page suggests enrollment by 1 October after fee transfer by 1 September, but this is unverified as the formal application deadline. Could not fully confirm - conflicting unofficial dates only."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "G-TIME charges variable tuition per the official program referring applicants to g-time.org; exact current figure not retrieved (g-time.org not directly fetched). Could not access g-time.org directly in this session."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not stated in sources found. Confirmed not published online."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -13121,7 +17238,60 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Engineering and Natural Sciences",
         "intake_semester": "Winter",
-        "teaching_language": "English (all courses in English)"
+        "teaching_language": "English (all courses in English)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://th-wildau.de/files/2_Dokumente/Broschueren-Flyer/Studiengangflyer/TH-Wildau-Studiengangflyer-MA-Logistics-and-Supply-Chain-Management-2026-SCREEN.pdf",
+            "https://en.th-wildau.de/study/programmes/logistics-and-supply-chain-management-meng"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Selection is based upon academic success and relevant work experience related to the subjects of the programme (no minimum duration specified)",
+              "source_url": "https://en.th-wildau.de/study/programmes/logistics-and-supply-chain-management-meng"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "31 August application deadline, with rolling/continuous review and pre-enrolment starting in January",
+              "source_url": "https://en.th-wildau.de/study/programmes/logistics-and-supply-chain-management-meng"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Only general field description (Science/Engineering/Economics with technical profile) found; no ECTS breakdown table. Confirmed not published online."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "MastersPortal states it is not aware of any specific GPA requirement; admission is NC-restricted and competitive but no published numeric cutoff found. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned. Confirmed not required."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting figures across third-party sites (5.5 vs 5.0); official master-lscm.eu site is still unreachable (connection refused again). Could not access official source - site appears persistently down."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not mentioned anywhere. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting figures (€0 vs €2,100/semester for EU students) across third-party sources; official site unreachable. Could not access - official source down, third-party sources conflict."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff above - confirmed not published."
+            }
+          ]
+        }
       }
     },
     {
@@ -13240,7 +17410,44 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "RWTH International Academy",
         "intake_semester": "Winter",
-        "teaching_language": "English; courses taught entirely in English"
+        "teaching_language": "English; courses taught entirely in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-management-and-engineering-computer-aided-mechanical-engineering"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official RWTH Academy page lists only 'Bachelor degree + relevant work experience' with no ECTS breakdown. Confirmed not published online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Confirmed required generically ('relevant work experience') but no specific duration published on official page despite third-party sites giving conflicting figures (6 vs 12 months) for the sister MME-PS program. Could not confirm exact duration for this specific program (MME-CAME) - only generic requirement confirmed."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Only a third-party (unverified) GRE figure found (verbal 145); official page does not mention GRE. Confirmed not published / likely not required on official page."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Third-party IELTS 5.5 figure found appears to belong to a different, related program (Computer Aided Conception and Production); not confirmed for this exact program. Could not confirm - only unrelated-program figure found."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not published; official page omits GPA entirely. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -13359,7 +17566,50 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "RWTH International Academy",
         "intake_semester": "Winter",
-        "teaching_language": "English, for all courses"
+        "teaching_language": "English, for all courses",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-management-and-engineering-in-production-systems"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Conflicting figures: one source says minimum 12 months by enrollment, another says 6 months at time of application - official page only states 'relevant work experience' without a number; treat 6-12 months as the likely range",
+              "source_url": "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-management-and-engineering-in-production-systems"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official page gives no ECTS breakdown. Confirmed not published online."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Official page says only 'good performance in undergraduate studies', no numeric GPA. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Only unverified third-party figure found (GRE 145V/160Q/3AW) that conflicts with the official page, which omits GRE entirely - may be outdated/wrong program. Confirmed not required per official source; conflicting third-party claim unverified."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Third-party aggregator gives IELTS 6, but another database shows 'No information' for the same program - unresolved conflict. Could not confirm against an official source."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff above - confirmed not published."
+            }
+          ]
+        }
       }
     },
     {
@@ -13486,7 +17736,52 @@ const DATABASE = {
         "standard_duration": "4 semesters (part-time, each module 10 days)",
         "faculty_institute": "HECTOR School of Engineering & Management, Technology Business School",
         "intake_semester": "Winter",
-        "teaching_language": "English (all courses held in English)"
+        "teaching_language": "English (all courses held in English)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hectorschool.kit.edu/2523.php",
+            "https://hectorschool.kit.edu/admission_requirements_msc.php"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "At least 2 years professional experience in the program's field (3+ years recommended), same general HECTOR School policy as applies to ISEM",
+              "source_url": "https://hectorschool.kit.edu/admission_requirements_msc.php"
+            },
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT at least 90 (also accepts 570 PBT / 230 CBT); IELTS 6.5 or C1 cert also accepted",
+              "source_url": "https://hectorschool.kit.edu/admission_requirements_msc.php"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "No ECTS breakdown on general HECTOR School admission requirements page. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned. Confirmed not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "PTE not listed among accepted certificates (only TOEFL/IELTS/C1). Confirmed not accepted/not published."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not defined on the page (term 'MOI' not used). Confirmed not published online."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found in two attempts; HECTOR School programs appear to run on a different (rolling/cohort) admission cycle rather than a classic summer/winter split. Confirmed not published in that form."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found on official page. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -13618,7 +17913,59 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Engineering, Department of Maritime Studies, Systems Engineering and Logistics",
         "intake_semester": "Winter",
-        "teaching_language": "English (all lectures and seminars)"
+        "teaching_language": "English (all lectures and seminars)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hs-wismar.de/en/studies/counselling-and-informations/degree-courses/marine-engineering-binational-master/",
+            "https://t3-test.hs-wismar.de/storages/hs-wismar/HSW_zentral/Organisation/Satzungen___Ordnungen/Pruefungs_und_Studienordnungen/FIW/MarEng_MA_PSO_17.06.2016_idF_1.AES_19.07.2024.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "value": "If overall bachelor's grade is 3.0 or worse (on German scale), the examination board must approve/decide on admission (i.e., 3.0 is effectively the borderline cutoff requiring special approval)",
+              "source_url": "https://fiw.hs-wismar.de/en/bereiche/sal/degree-courses/marine-engineering-master-binational-msc/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Only degree-field requirement (marine engineering or comparable) found; no ECTS subject breakdown. Confirmed not published online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned. Confirmed not required."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "A third-party aggregator page has a 'Language Requirements' section but the snippet cut off before showing scores; official PSO document is behind a test-server URL (t3-test) and could not be reliably fetched. Could not access - test-server PDF link unreliable, and aggregator content truncated."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Same issue as IELTS above. Could not access."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not mentioned anywhere. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Only a bachelor's double-degree deadline (15 July) was found, not specific to this master's program. Could not confirm the master's-specific deadline - contact program coordinator (Simona Rau) or ITS Surabaya directly."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Program appears to be winter-intake only (4 semesters starting winter semester); no summer deadline likely exists. Confirmed likely not applicable/not published (program may not have a summer intake)."
+            }
+          ]
+        }
       }
     },
     {
@@ -13750,7 +18097,52 @@ const DATABASE = {
         "standard_duration": "3 semesters (4th semester applies if an internship is taken)",
         "faculty_institute": "Division of Continuing Education",
         "intake_semester": "Winter",
-        "teaching_language": "English (all courses, programme office services, and the Master's thesis)"
+        "teaching_language": "English (all courses, programme office services, and the Master's thesis)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://mbae.htw-berlin.de/applying/",
+            "https://mbae.htw-berlin.de/applying/faq"
+          ],
+          "fields_resolved": [
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL 90+ (online/iBT) for applicants with 'nearly adequate' competency; other sources cite TOEFL 94 or even 570 PBT - official page's threshold of 90+ is the most authoritative",
+              "source_url": "https://mbae.htw-berlin.de/applying/"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "New application period for MBA&E officially starts 1 November (for the following intake)",
+              "source_url": "https://mbae.htw-berlin.de/applying/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "No ECTS subject breakdown found on official applying/FAQ pages. Confirmed not published online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Official page asks for proof of work experience (reference letters, employer certificates, payslips) but does not state a minimum duration; third-party sources conflict (1 year vs 2 years vs 3-5 years). Could not confirm exact minimum duration from official source - only proof-format details confirmed."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Official FAQ explicitly answers 'No' to GMAT/GRE requirement - this is a confirmed finding, not a gap (GRE/GMAT not required)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Only Duolingo English Test (120+) mentioned alongside TOEFL/IELTS; a third-party source claims HTW Berlin does NOT accept Duolingo, which conflicts with the official page. PTE itself not mentioned anywhere. Confirmed not published for PTE; Duolingo acceptance is disputed."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found despite alternate-phrasing searches. Confirmed not published online."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Only one application period (starting 1 November) was found; program may be winter-intake only. Confirmed likely not applicable - no evidence of a separate summer deadline."
+            }
+          ]
+        }
       }
     },
     {
@@ -13883,7 +18275,47 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Faculty of Electronics and Computer Science",
         "intake_semester": "Winter",
-        "teaching_language": "English, for all courses"
+        "teaching_language": "English, for all courses",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hs-aalen.de/uploads/mediapool/media/file/48443/MRE_MTE_Zulassungssatzung_Lesefassung_nach_1.__nderungssatzung_en-US.pdf",
+            "https://www.hs-aalen.de/uploads/mediapool/media/file/46675/2412_MRE_MTE_Englisch.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "Official admission statute requires a 210-ECTS degree in Electrical Engineering or related field; applicants with 180 to under 210 ECTS can still be considered under the same selection procedure (this is a 3-semester, 90-ECTS M.Eng. program)",
+              "source_url": "https://www.hs-aalen.de/uploads/mediapool/media/file/48443/MRE_MTE_Zulassungssatzung_Lesefassung_nach_1.__nderungssatzung_en-US.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned in the official statute excerpt retrieved. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned. Confirmed not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Only B2-level English requirement found generically for Aalen master's programs; PTE score (64) found applies to undergraduate admission only, not this master's. Confirmed not published for this master's program specifically."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found. Confirmed not published online."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting deadlines across sources (mid-April to June 15 per studieren.de profile; July 15 per one aggregator; September 1 per Yocket - low reliability). Could not resolve conflict - official statute PDF likely has the deadline in a section not retrieved; recommend direct confirmation with Aalen admissions office."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Third-party sites cite 2.5 as typical for Aalen master's programs but this was not confirmed in the official statute excerpt retrieved. Could not fully confirm against official statute text - only third-party figure available."
+            }
+          ]
+        }
       }
     },
     {
@@ -14016,7 +18448,39 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time only",
         "faculty_institute": "Faculty of Electronics and Computer Science",
         "intake_semester": "Winter",
-        "teaching_language": "English, all courses taught in English"
+        "teaching_language": "English, all courses taught in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hs-aalen.de/uploads/mediapool/media/file/48440/MSD_Master_Zulassungssatzung_en-US.pdf",
+            "https://www.hs-aalen.de/en/study-programmes/engineering-sciences-future-technologies/master/advanced-systems-design/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "Requires a bachelor's degree with standard period of study of 7 semesters (210 ECTS/CP); eligible prior fields include Electrical Engineering, Optoelectronics, Mechatronics, Computer Science or related subjects",
+              "source_url": "https://www.hs-aalen.de/en/study-programmes/engineering-sciences-future-technologies/master/advanced-systems-design/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not mentioned; admission statute (dated 31 Oct 2024) likely uses its own selection criteria (§4) instead, but that section's text could not be retrieved. Confirmed not required / not published in retrieved excerpt."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Only B2-level English proof required per official page; PTE score (64) found applies to a different (undergraduate) program. Confirmed not published for this master's program specifically."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -14142,7 +18606,52 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Department of Mechanical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English; can be completed fully in English through English-taught electives; some German-taught mechanical engineering courses optional; Master's thesis must be in English"
+        "teaching_language": "English; can be completed fully in English through English-taught electives; some German-taught mechanical engineering courses optional; Master's thesis must be in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.maschinenbau.tu-darmstadt.de/media/maschinenbau/dokumente_2/studieren_1/neue_pruefungsordnungen_2021/Regulations_MScAerospace_Senat_en_20210803.pdf",
+            "https://www.maschinenbau.tu-darmstadt.de/media/maschinenbau/dokumente_2/studieren_1/neue_pruefungsordnungen_2021/Master_AE_SB_2021-IV.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "No numeric ECTS breakdown is published; instead Appendix II (Competence Descriptions) requires entrance competencies (not substantially different from the reference Bachelor's 'Maschinenbau - Sustainable Engineering') in 7 qualitative subject areas: 1) Engineering mechanics, 2) Thermodynamics and heat/mass transfer, 3) Machine elements and mechatronics, 4) Systems theory and control engineering, 5) Measurement technologies/sensors/statistical analysis, 6) Numerical calculation/simulation methods, 7) Fundamental fluid mechanics. A formal + substantive entrance examination (incl. a 120-min written exam) is used to verify these if not evident from transcripts.",
+              "source_url": "https://www.maschinenbau.tu-darmstadt.de/media/maschinenbau/dokumente_2/studieren_1/neue_pruefungsordnungen_2021/Regulations_MScAerospace_Senat_en_20210803.pdf"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "15 January of the year preceding the winter semester start (non-EU/non-equivalent-degree applicants); EU-degree holders get until 15 July.",
+              "source_url": "https://www.maschinenbau.tu-darmstadt.de/media/maschinenbau/dokumente_2/studieren_1/neue_pruefungsordnungen_2021/Regulations_MScAerospace_Senat_en_20210803.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Regulations PDF (full text extracted via pdftotext) contains no mention of work experience as admission criterion. Confirmed not published online - entry is purely academic-competency based."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Regulations PDF describes only the university's own internal entrance examination (written test), no external GRE. Confirmed not published online as a requirement - no GRE needed."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Searched regulations PDF and department admission page; language of instruction is stated as English but no specific test/score thresholds given in these documents. Could not locate a dedicated language-requirements page for Maschinenbau dept in time available."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not mentioned in the regulations PDF; TU Darmstadt's central language-requirements page not checked due to time constraints. Could not access."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not present in program/department regulations (Hesse public universities generally charge no tuition for first degree but do for non-EU/second degree in some cases); searched department page and PDF, no figure given. Confirmed not published on these pages."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Regulations PDF confirms admission is NOT GPA-based but competency/entrance-exam based - no numeric GPA cutoff exists for this program. Confirmed not published (because none exists) - see Appendix II in regulations PDF."
+            }
+          ]
+        }
       }
     },
     {
@@ -14269,7 +18778,51 @@ const DATABASE = {
         "standard_duration": "6 semesters (part-time, over 50% online)",
         "faculty_institute": "School of Advanced Professional Studies",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2025/zulsatz_saps_ai4ci_27022025.pdf",
+            "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2023/satzung_sprachkenntnisse_2023_GB.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "First degree in Computer Science, Technical Computer Science, Communications Engineering, Automation Engineering, Electrical Engineering, or Industrial Engineering (or a related field), at minimum 7 semesters or 210 ECTS points; exceptions down to <210 ECTS possible if compensated by >=1 year extra relevant professional experience.",
+              "source_url": "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2025/zulsatz_saps_ai4ci_27022025.pdf"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Required: qualified professional/practical experience of generally at least 1 year (e.g. as an employee, intern, or project staff member) is a mandatory admission condition (Sec. 4 (1) Nr. 2).",
+              "source_url": "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2025/zulsatz_saps_ai4ci_27022025.pdf"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "Per Ulm's university-wide English language statute (applies to all English-taught programs, C1 level default): IELTS 7.0+, Cambridge C1 Advanced/C2 Proficiency, TOEIC 490/455/180/180, TOEFL iBT 95+, UNIcert level III/IV, or PTE Academic 76+. A lower-tier B2 threshold (IELTS 5.5, TOEFL iBT 72, PTE Academic 59) may apply if the program's subject content allows it.",
+              "source_url": "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2023/satzung_sprachkenntnisse_2023_GB.pdf"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "Language certificate may be waived on request in justified individual cases for applicants who: 1) spent significant education periods at English-speaking schools, 2) have English as proven mother tongue or lived in English-speaking area for many years, or 3) completed a degree in English studies. Decided by the head of the Center for Languages and Philology upon request.",
+              "source_url": "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2023/satzung_sprachkenntnisse_2023_GB.pdf"
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "value": "No simple GPA cutoff; uses a weighted-formula aptitude score: overall degree grade (factor 3) + coursework/grades in relevant subjects (factor 5) + extra qualifications/experience beyond the 1-year minimum (factor 2) + motivation letter (bonus), summed and divided by 10. A result of at least 2.5 points is required to be deemed suitable.",
+              "source_url": "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2025/zulsatz_saps_ai4ci_27022025.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Admission statute (Zulassungssatzung, full text reviewed) lists complete requirements list (degree, ECTS, experience, motivation letter, language) with no mention of GRE. Confirmed not required - not published anywhere because it does not apply."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Program is a paid continuing-education Master's; web search found a third-party figure of ~3,000 EUR but could not verify on an official uni-ulm.de fee page within time available. Could not access official fee page to confirm exact figure/source URL."
+            }
+          ]
+        }
       }
     },
     {
@@ -14388,7 +18941,48 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Department of Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English; programme can also be completed entirely in German; proficiency in both described as highly beneficial"
+        "teaching_language": "English; programme can also be completed entirely in German; proficiency in both described as highly beneficial",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2023/satzung_sprachkenntnisse_2023_GB.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "TOEFL exact score",
+              "value": "Per Ulm University's general English-taught-programs language statute (C1 level, applicable absent a program-specific override): TOEFL iBT 95+ (or TOEFL iBT home edition). A lower B2-tier of TOEFL iBT 72+ may apply if subject content permits.",
+              "source_url": "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2023/satzung_sprachkenntnisse_2023_GB.pdf"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "PTE Academic 76+ (C1 tier) or 59+ (B2 tier); also accepts IELTS 7.0/5.5, Cambridge C1 Advanced/FCE, TOEIC, UNIcert III/IV or II.",
+              "source_url": "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2023/satzung_sprachkenntnisse_2023_GB.pdf"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "Waivable on request for applicants who attended English-speaking schools for significant periods, have English as mother tongue / long residence in an English-speaking country, or hold a degree in English studies; decided by the head of the Center for Languages and Philology.",
+              "source_url": "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2023/satzung_sprachkenntnisse_2023_GB.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Checked official BMT program/application page (uni-ulm.de/en/in/faculty/studies/engineering/biomedical-engineering) via search; it lists only a general 'relevant Bachelor's degree' requirement with no itemized ECTS-by-subject table. Could not find a program-specific admission statute PDF (like AI4CI's) in time available - genuinely may not be published in this granular form."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Program page makes no mention of work experience as a criterion (unlike the AI4CI continuing-education program). Confirmed not published / not applicable for this standard academic Master's."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found in program page or general search results. Confirmed not required."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Program page states no tuition for this track generally but exact semester contribution figure not located in results; could not access a dedicated fee page in time available."
+            }
+          ]
+        }
       }
     },
     {
@@ -14520,7 +19114,56 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Graduate School (developed jointly by Electrical Engineering and Information Technology dept and Media and Information Engineering dept)",
         "intake_semester": "Winter",
-        "teaching_language": "English; German not required for studies but recommended for daily life and essential for PhD/working in Germany afterward"
+        "teaching_language": "English; German not required for studies but recommended for daily life and essential for PhD/working in Germany afterward",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hs-offenburg.de/fileadmin/Studium/unterlagen_studium/stupo/master/StuPO_Besonderer_Teil_CME-M_akt.pdf",
+            "https://hs-offenburg.de/fileadmin/Einrichtungen/zentrale_Seiten/Verwaltung/studentische_Abteilung/Studien-_und_Pr%C3%BCfungsordnungen/Master-StuPO_2013/StuPOMaster2013-CME_AnfaengerWS24_25_20242_englisch.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "31 March (for applicants resident outside the EU)",
+              "source_url": "https://www.hs-offenburg.de/en/studies/master/communication-and-media-engineering"
+            },
+            {
+              "field": "Exact summer deadline",
+              "value": "Not applicable - program only admits in winter semester (4-semester program starting winter only); the 15 July date applies to EU-resident applicants for the winter intake, not a separate summer intake.",
+              "source_url": "https://www.hs-offenburg.de/en/studies/master/communication-and-media-engineering"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Tried fetching the StuPO (Besonderer Teil) PDF directly - it 404'd, and the 2013 StuPO PDF link found via search was not successfully retrieved as readable text within time available. The general Offenburg master's rule only requires 'a relevant Bachelor's degree'; could not confirm a granular subject-area ECTS table exists."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Multiple searches (program page, StuPO PDFs, third-party aggregators) found no explicit GPA figure; one unverified third-party source mentioned only a general English-B1 claim, not GPA. Confirmed not published online despite repeated attempts."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "One secondary source noted that 'relevant work experience in communication/media technology improves admission chances' but this is informal/preferential, not a hard requirement stated on an official page. Treated as unconfirmed - could not find official confirmation."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention in any official or aggregator source found. Confirmed not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Official program page does not list specific test scores; third-party sources only vaguely mention B1 level, inconsistent with Master's-level expectations and unverified. Could not access an official language-requirements page for Offenburg within time available."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found on official program page nor in StuPO excerpts retrieved; could not locate a general Offenburg language-requirements/exemption page in time available."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as minimum GPA cutoff above - no figure found despite checking StuPO documents and program page."
+            }
+          ]
+        }
       }
     },
     {
@@ -14652,7 +19295,51 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "School of Computation, Information and Technology (CIT)",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Master_Communications_and_Electronics_Engineering/Study-Handbook_MSCE_WS2425.pdf",
+            "https://www.tum.de/en/studies/degree-programs/detail/communications-engineering-master-of-science-msc"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact summer deadline",
+              "value": "No summer intake exists for this program; admission is winter-semester only, applications open via TUMonline 1 February - 31 May for the winter semester.",
+              "source_url": "https://www.tum.de/en/studies/degree-programs/detail/communications-engineering-master-of-science-msc"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Eligibility requires a Bachelor's from a university rated H+ on Anabin in electrical engineering/information technology with a communications-engineering focus, assessed via TUM's internal aptitude assessment procedure rather than a fixed ECTS-by-subject table. Could not find a published breakdown; likely decided case-by-case by the admission committee - confirmed not published in granular form."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found on TUM program page or Study Handbook search snippets. Confirmed not required."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "TUM runs its own internal aptitude assessment (not GRE); no external GRE requirement found. Confirmed not required - internal process substitutes for GRE."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "TUM's language-certificate page (linked from a third-party aggregator) was not successfully retrieved; only an outdated 2006 reference (Cambridge CPE) was found. Could not access current official TUM language-requirements page in time available."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found in available snippets; TUM's central Language Proof page likely covers this but was not retrieved in time available. Could not access."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Bavarian public universities charge no general tuition but may levy fees for non-EU/longer-duration students; no specific figure found for this program in results reviewed. Could not confirm."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Only a generic, unverified 2.0/4.0 bachelor's-level figure appeared from an aggregator, not specific to MSCE Master's admission; TUM uses the Anabin H+ / aptitude-assessment approach instead of a stated minimum GPA. Confirmed not published as a specific cutoff."
+            }
+          ]
+        }
       }
     },
     {
@@ -14771,7 +19458,44 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Communications Research Laboratory",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100% of courses"
+        "teaching_language": "English, 100% of courses",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://tu-ilmenau.de/fileadmin/Bereiche/Studium/ImStudium/Dokumente/Master-Ordnungen-ENG/PS-2021-CSP-M-ER-STR-SP.pdf"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Located the official 2021 examination regulations PDF with an 'Annex: Special Admission Requirements' section, but WebFetch could only read PDF metadata (compressed stream), not body text; pdftotext extraction of this particular file was not completed before time ran out. The annex almost certainly contains the exact breakdown - marking as 'Could not access' rather than 'not published', since a promising source was identified at https://tu-ilmenau.de/fileadmin/Bereiche/Studium/ImStudium/Dokumente/Master-Ordnungen-ENG/PS-2021-CSP-M-ER-STR-SP.pdf but not fully read."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Same PDF likely contains this in the admission annex; not read in time. Could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Search snippet of the regulations states 'no special professional (qualitative/quantitative) requirements for admission to program segments and modules' suggesting no work experience is required, but this wasn't confirmed against full document text. Tentatively confirmed not required, low confidence."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found in search snippets of the regulations or third-party listings. Confirmed not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "No official TU Ilmenau language-requirements page located; general search returned only the program's own short-profile pages, not language-specific scores. Could not access/confirmed not found within time available."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found in any source reviewed. Could not access a dedicated TU Ilmenau language-exemption page in time available."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as minimum GPA cutoff - contained in the unread Annex PDF section. Could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -14891,7 +19615,46 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time only",
         "faculty_institute": "Faculty of Engineering, Department of Electrical and Information Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English (all courses)"
+        "teaching_language": "English (all courses)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Searched Kiel University (uni-kiel.de) official program and application pages; only general 'Bachelor's in Electrical/Information Engineering or related, 7-semester equivalent' wording found, no subject-by-subject ECTS table. Confirmed not published in this granular form on pages reached."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found in official program pages or third-party aggregators. Confirmed not required."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found anywhere searched. Confirmed not required."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Third-party aggregators disagree (IELTS 6.0 vs 6.5); could not locate Kiel's own general language-requirements page (site:uni-kiel.de searches returned no official hits) to resolve the discrepancy. Could not access an authoritative source within time available."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Same issue as IELTS - no official Kiel language page located in results; aggregators do not mention PTE at all for this program. Could not access."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "No official Kiel source located covering this. Could not access."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Aggregators disagree (no tuition + 250 EUR vs 534 EUR/year semester contribution); genuine ambiguity, no official uni-kiel.de fee page retrieved in time available to settle it. Could not access/confirm exact current figure."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found in any source checked. Confirmed not published / could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -15024,7 +19787,49 @@ const DATABASE = {
         "standard_duration": "4 semesters (two years), 120 ECTS",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English; entire curriculum in English, some German-taught compulsory elective and free elective classes can also be attended"
+        "teaching_language": "English; entire curriculum in English, some German-taught compulsory elective and free elective classes can also be attended",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "Bachelor's degree in Electrical Engineering and Information Technology or equivalent, at least 6 semesters (180 ECTS), with the submitted degree required to include at least 25 ECTS in Mathematics, at least 30 ECTS in Information Technology, and at least 30 ECTS in Electrical Engineering/Electronics.",
+              "source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "PTE Academic 55+. Also accepted: IELTS Academic 6.0, TOEFL iBT 85 (rule changing to a stricter threshold from 2026 per the page, though the listed figure of 4.5 for 2026 looks like a page error and should be re-checked closer to that date), FCE, CAE, CPE, UNIcert II English, DAAD B2 certificate, German Abitur, or a RUB intensive-course certificate.",
+              "source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/application-and-enrolment/"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "Explicitly NOT accepted - the page states: 'Please note that a Certificate of Medium of Instruction will not be accepted.' Applicants must submit one of the listed standardized test certificates instead.",
+              "source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/application-and-enrolment/"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "Application window opens early June and closes 15 July for the winter semester.",
+              "source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/application-and-enrolment/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Application/enrolment page reviewed in full - no mention of work experience as admission factor. Confirmed not required."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention on the application/enrolment page. Confirmed not required."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "RUB charges no tuition; aggregators disagree on the semester administrative fee (350 EUR vs 700 EUR), and the official page covering application/enrolment doesn't state the figure. Could not access an official page with the exact current semester-fee amount in time available."
+            }
+          ]
+        }
       }
     },
     {
@@ -15151,7 +19956,53 @@ const DATABASE = {
         "standard_duration": "4 semesters (two years), 120 ECTS",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English; entire curriculum in English, some German-taught compulsory/free elective classes also available"
+        "teaching_language": "English; entire curriculum in English, some German-taught compulsory/free elective classes also available",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "Same program page/admission rules as the Biomedical Engineering and Engineering Physics specialisations (shared core program): Bachelor's in EE&IT or equivalent, >=180 ECTS (6 semesters), with >=25 ECTS Mathematics, >=30 ECTS Information Technology, >=30 ECTS Electrical Engineering/Electronics.",
+              "source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "PTE Academic 55+; also IELTS Academic 6.0, TOEFL iBT 85 (through 2025), plus FCE/CAE/CPE/UNIcert II/DAAD B2/Abitur/RUB intensive course certificate.",
+              "source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/application-and-enrolment/"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "Not accepted - page explicitly states a Certificate of Medium of Instruction will not be accepted in lieu of a standardized test.",
+              "source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/application-and-enrolment/"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "Early June through 15 July for the winter semester.",
+              "source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/application-and-enrolment/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention on the shared application/enrolment page. Confirmed not required."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found. Confirmed not required."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "No tuition charged; exact semester administrative fee not confirmed from an official page (third-party figures conflict between 350-700 EUR). Could not access."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not stated on the reviewed pages - admission is ECTS/subject-based rather than GPA-based per the official page. Confirmed not published as a separate GPA figure."
+            }
+          ]
+        }
       }
     },
     {
@@ -15278,7 +20129,53 @@ const DATABASE = {
         "standard_duration": "4 semesters (two years), 120 ECTS",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English; full curriculum in English, some German-taught compulsory/free elective classes also available"
+        "teaching_language": "English; full curriculum in English, some German-taught compulsory/free elective classes also available",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "Same shared admission rules: Bachelor's in EE&IT or equivalent, >=180 ECTS (6 semesters), with >=25 ECTS Mathematics, >=30 ECTS Information Technology, >=30 ECTS Electrical Engineering/Electronics (applies across all three specialisations including Engineering Physics).",
+              "source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "PTE Academic 55+; also IELTS 6.0, TOEFL iBT 85, FCE/CAE/CPE/UNIcert II/DAAD B2/Abitur/RUB intensive course certificate.",
+              "source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/application-and-enrolment/"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "Not accepted per the official page - standardized test required regardless of prior English-medium education.",
+              "source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/application-and-enrolment/"
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "Early June through 15 July for the winter semester.",
+              "source_url": "https://etit.ruhr-uni-bochum.de/en/studies/masters-programme-electrical-engineering-and-information-technology/application-and-enrolment/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention on the official page. Confirmed not required."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found anywhere. Confirmed not required."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "No tuition; exact administrative semester-fee figure unconfirmed from an official source (conflicting third-party figures 350-700 EUR). Could not access."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Admission is ECTS/subject-based, not GPA-based, per the official page reviewed; no separate GPA cutoff found. Confirmed not published."
+            }
+          ]
+        }
       }
     },
     {
@@ -15404,7 +20301,53 @@ const DATABASE = {
         "standard_duration": "4 semesters (two years), full-time, fully on-site with voluntary online elements",
         "faculty_institute": "Department of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English; programme can be completed entirely in English"
+        "teaching_language": "English; programme can be completed entirely in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://ei.uni-paderborn.de/fileadmin/elektrotechnik/Formalitaeten/Ordnungen/Electrical_Systems_Engineering/Curriculum/Documents/po-ms-ese-en.pdf",
+            "https://www.uni-paderborn.de/fileadmin/zv/3-2/ESE/12.12_Master_Electrical_Systems_Engineering.pdf"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Found the Prüfungsordnung (po-ms-ese-en.pdf) and the official admission regulation (12.12_Master...pdf) via targeted PDF search but could not extract readable text from either (WebFetch returned only compressed-binary metadata, and these were not run through pdftotext before time ran out). Likely contains the exact breakdown in Section 3 per a search snippet reference - marking as 'Could not access' rather than not published."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention in search snippets of the examination regulations. Tentatively confirmed not required, though full PDF text wasn't read."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found in any source. Confirmed not required."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Conflicting figures across aggregators (TOEFL iBT 80 vs 87); no official Paderborn language-requirements page was retrieved to resolve this. Could not access an authoritative source in time available."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "No PTE figure found in any source, official or third-party. Could not access/confirmed not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found in any source reviewed. Could not access an official Paderborn language-exemption page in time available."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "One aggregator mentions a possible extended 15 July 2026 deadline for uni-assist-routed applicants, but this wasn't corroborated by an official Paderborn page. Could not access confirmation."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found in any source checked within time available. Could not access."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Aggregators disagree on the semester contribution (310 EUR vs 351.15 EUR); no official current fee page retrieved. Could not access to resolve the discrepancy."
+            }
+          ]
+        }
       }
     },
     {
@@ -15536,7 +20479,36 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Faculty of Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English; about 5% of elective courses are in German, but German not needed to complete the degree"
+        "teaching_language": "English; about 5% of elective courses are in German, but German not needed to complete the degree",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.tf.uni-freiburg.de/bilder/studium_lehre/englische-poen/exam-regulations-msc-ese-po-2021"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Located the official Studien- und Prüfungsordnung PDF but it is university-wide boilerplate, not program-specific per the readable metadata/snippet; the program-specific appendix (likely at studium.uni-freiburg.de/all-degree-programs/info/399) was not retrieved in time. Could not access the specific appendix."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found in any source searched (official or third-party); one third-party aggregator (ymgrad) mentions a CV/recommendation letters requirement but not explicit work experience. Confirmed not required based on sources reviewed."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Third-party sources directly conflict: one (ymgrad) lists GRE as required, another (yocket) marks it optional. Neither is an official Freiburg source; could not resolve via the official exam regulations PDF (unreadable as compressed binary) in time available. Could not access an authoritative resolution."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Third-party aggregators (mastersportal, ymgrad) consistently list PTE Academic 76, IELTS 7, TOEFL iBT 95, but no official Uni Freiburg language-requirements page was retrieved to confirm. Could not access official confirmation, though the repeated consistent third-party figure is a reasonably strong signal."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found in any source reviewed; Faculty of Engineering's English-admissions page (recommended by search synthesis) was not retrieved in time available. Could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -15668,7 +20640,44 @@ const DATABASE = {
         "standard_duration": "4 semesters, part-time (alongside work), fully online",
         "faculty_institute": "Executive Education",
         "intake_semester": "Winter",
-        "teaching_language": "English; all courses, exams, correspondence, and communication in English"
+        "teaching_language": "English; all courses, exams, correspondence, and communication in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "THI's general master's application portal window for non-EU/uni-assist-routed applicants for the following winter semester (starting 1 October) runs 2 May - 15 July.",
+              "source_url": "https://help.thi.de/help/de-de/48-masterbewerbung/298-egm"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Only a generic requirement surfaced (Bachelor's in engineering/technology/natural sciences/economics/management with 210 ECTS total) from a third-party aggregator, not an itemized subject breakdown, and the official THI program/help page for GEM (help.thi.de/.../298-egm) was found but its detailed admission-criteria content wasn't retrieved in time. Could not access full official text to confirm a granular breakdown exists."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "A third-party aggregator claims a minimum GPA of 2.5 (German scale) but this could not be corroborated against the official THI help.thi.de page within time available. Could not access/confirm from an official source."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found in any source reviewed. Confirmed not required based on available sources."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "A THI help page reportedly requires the Digital Master Test (dMAT) specifically for Indian applicants with certain Bachelor's fields, but the full requirement text was cut off in the search snippet and not independently retrieved. Could not access the complete official text to confirm scope/applicability beyond Indian applicants."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Only generic 'IELTS or TOEFL required' language found via aggregator; no PTE-specific figure or official THI language-requirements page retrieved. Could not access."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found in any source checked. Could not access an official THI language-exemption page in time available."
+            }
+          ]
+        }
       }
     },
     {
@@ -15794,7 +20803,49 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Not stated",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%); Master's theses also must be in English"
+        "teaching_language": "English (100%); Master's theses also must be in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://tum-asia.edu.sg/admissions/graduate-studies/application/",
+            "https://tum-asia.edu.sg/admissions/graduate-studies/requirements/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "GRE/aptitude test requirement",
+              "value": "Not required. TUM Asia's graduate application page explicitly states: 'Applicants for our Master programmes need not submit GRE or GATE results.'",
+              "source_url": "https://tum-asia.edu.sg/admissions/graduate-studies/application/"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "TOEFL iBT minimum 88 (institution DI code 7368); IELTS overall minimum 6.5. Required only if the applicant's native language or prior medium of university instruction was not English.",
+              "source_url": "https://tum-asia.edu.sg/admissions/graduate-studies/application/"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "Exempt from submitting TOEFL/IELTS if the applicant's Bachelor's degree was taught with English as the medium of instruction.",
+              "source_url": "https://tum-asia.edu.sg/admissions/graduate-studies/application/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "TUM Asia's application page refers applicants to a separate Requirements page (tum-asia.edu.sg/admissions/graduate-studies/requirements/) for academic criteria, which was identified but not fully retrieved in the time available. Could not access full requirements page text."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Application page lists a CV/resume as a required document but does not state any minimum work-experience duration or preference. Confirmed not published as an explicit requirement on the page reviewed."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Checked TUM Asia and NTU program pages - the joint program is administered by TUM Asia (Singapore campus of TUM) together with NTU's School of Electrical and Electronic Engineering (EEE) per the NTU page URL structure (ntu.edu.sg/eee/...), but neither page gives a single combined 'Faculty/Institute name' field for the joint degree. Could not confirm with a definitive single-line answer; best inference only."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "NTU's page mentions only a minimum CGPA of 2.5 for graduation (not admission). No admission GPA cutoff found on official TUM Asia or NTU pages reviewed. Confirmed not published as an admission criterion, distinct from the graduation requirement."
+            }
+          ]
+        }
       }
     },
     {
@@ -15920,7 +20971,52 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Not stated",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%); Master's theses also must be in English"
+        "teaching_language": "English (100%); Master's theses also must be in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://tum-asia.edu.sg/admissions/graduate-studies/application/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "GRE/aptitude test requirement",
+              "value": "Not required - same TUM Asia graduate-wide policy: 'Applicants for our Master programmes need not submit GRE or GATE results.'",
+              "source_url": "https://tum-asia.edu.sg/admissions/graduate-studies/application/"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "TOEFL iBT minimum 88 (DI code 7368), IELTS overall minimum 6.5, required only if native language/prior medium of instruction was not English.",
+              "source_url": "https://tum-asia.edu.sg/admissions/graduate-studies/application/"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "Exempt from TOEFL/IELTS if Bachelor's degree was taught in English.",
+              "source_url": "https://tum-asia.edu.sg/admissions/graduate-studies/application/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Same as Green Electronics entry - the dedicated Requirements page was identified but not fully retrieved in time. Could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No explicit requirement stated on the application page beyond a CV/resume document requirement. Confirmed not published as an explicit requirement."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "TUM's own page states admissions open 1 October annually with a single yearly intake; a third-party listing cites an unconfirmed 31.05 deadline. Could not access an official page giving one definitive close-of-application date."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Same ambiguity as Green Electronics - joint TUM Asia / NTU EEE administration inferred from URLs but no single official 'faculty/institute' label found on either page. Could not confirm definitively."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "No admission GPA cutoff found on official pages; only NTU's unrelated 2.5 graduation-CGPA rule surfaced. Confirmed not published as an admission criterion."
+            }
+          ]
+        }
       }
     },
     {
@@ -16052,7 +21148,54 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Akademie der Ruhr Universität / Faculty of Management and Economics",
         "intake_semester": "Winter",
-        "teaching_language": "English (courses taught in English; no German required for admission)"
+        "teaching_language": "English (courses taught in English; no German required for admission)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "This program is run through the International Academy for German Engineering (a RUB continuing-education platform), not a standard RUB faculty page; its listed official source is a third-party-style product page. Did not get to search for a dedicated Satzung/Prüfungsordnung PDF for this specific program within time available. Could not access."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not reached before time/tool limits; genuinely not yet searched beyond the already-consulted product page. Could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not reached; continuing-education Master's programs at German universities (like Ulm's AI4CI) often require 1+ year of work experience, so this is plausible but unconfirmed. Could not access - needs follow-up search of the Academy's own admission statute."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not reached in time available. Could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -16184,7 +21327,42 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "TUM School of Engineering and Design",
         "intake_semester": "Winter",
-        "teaching_language": "English; program can be studied up to 100% in English; German speakers can choose from more electives, some taught in German"
+        "teaching_language": "English; program can be studied up to 100% in English; German speakers can choose from more electives, some taught in German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not reached before WebSearch tool quota/time ran out; only the already-consulted TUM ED faculty page was available. Could not access additional sources (e.g. TUM aptitude-assessment regulations PDF) in time available."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not reached in time available. Could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -16303,7 +21481,46 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Department of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English; some electives may be offered in German"
+        "teaching_language": "English; some electives may be offered in German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not reached before time/tool quota ran out; TU Ilmenau's master admission-regulations PDFs (following the same pattern found for the CSP program, e.g. under fileadmin/Bereiche/Studium/ImStudium/Dokumente/Master-Ordnungen-ENG/) were not located for this specific program. Could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not reached in time available. Could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -16435,7 +21652,38 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Faculty of Engineering (Technische Fakultät) / IMTEK",
         "intake_semester": "Winter",
-        "teaching_language": "English; about 5% of electives taught in German but program completable without German"
+        "teaching_language": "English; about 5% of electives taught in German but program completable without German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not reached before time/tool quota ran out (Freiburg's Microsystems Engineering shares the same Faculty of Engineering as the already-researched Embedded Systems Engineering program, so its exam regulations PDF is likely similarly structured but was not located/fetched for this specific program). Could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not reached, though likely shares the same Faculty of Engineering figures found for Embedded Systems Engineering (PTE 76/IELTS 7/TOEFL 95 per third-party aggregators) - unconfirmed for this specific program. Could not access an official source to confirm this program uses the same thresholds."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not reached in time available. Could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -16567,7 +21815,42 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Department of Physics",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100% of courses"
+        "teaching_language": "English, 100% of courses",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not reached before time/tool quota ran out; Paderborn's Optoelectronics & Photonics program likely has its own Prüfungsordnung PDF (same fileadmin pattern as Electrical Systems Engineering's po-ms-ese-en.pdf) but it was not located for this specific program. Could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not reached in time available, though likely similar range to Electrical Systems Engineering's conflicting TOEFL 80/87 figures - unconfirmed for this specific program. Could not access."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not reached in time available. Could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -16688,7 +21971,44 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Physics Department (Institute of Quantum Technology with DLR)",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2023/satzung_sprachkenntnisse_2023_GB.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "IELTS exact score",
+              "value": "Per Ulm University's general English-taught-programs language statute: IELTS 7.0+ (Academic or Indicator) at the default C1 tier; a lower B2 tier of IELTS 5.5+ may apply if the program's subject content allows a reduced requirement.",
+              "source_url": "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2023/satzung_sprachkenntnisse_2023_GB.pdf"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "PTE Academic 76+ (C1 tier) or 59+ (B2 tier); also Cambridge C1 Advanced/C2 Proficiency, TOEIC, TOEFL iBT 95/72, UNIcert III/IV or II.",
+              "source_url": "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2023/satzung_sprachkenntnisse_2023_GB.pdf"
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "value": "Waivable on request for applicants who attended English-speaking schools for significant periods, have English as mother tongue / long residence in an English-speaking country, or hold a degree in English studies; decided by the head of the Center for Languages and Philology.",
+              "source_url": "https://www.uni-ulm.de/fileadmin/website_uni_ulm/zuv/zuv.dezIII.abt2u3/3-2oeffentlich/bekanntmachungen/2023/satzung_sprachkenntnisse_2023_GB.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "The already-consulted requirements page lists only general Bachelor's-in-related-field wording; no program-specific admission statute PDF (comparable to AI4CI's zulsatz PDF) was located for Quantum Engineering within time available. Could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Quantum Engineering is a standard research Master's (unlike the continuing-education AI4CI program), and no work-experience requirement was found on the requirements page already consulted. Confirmed not required."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found on the requirements page or in any search performed. Confirmed not required."
+            }
+          ]
+        }
       }
     },
     {
@@ -16809,7 +22129,46 @@ const DATABASE = {
         "standard_duration": "3 semesters full-time; 4 to 6 semesters part-time",
         "faculty_institute": "Department of Wood Technology and Construction",
         "intake_semester": "Winter",
-        "teaching_language": "English, with some elective courses in German; thesis may be written in English or German"
+        "teaching_language": "English, with some elective courses in German; thesis may be written in English or German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "The official source is a PDF application checklist (241029-application_checklist_M_IWT-EN.pdf) that was already noted as unreadable by the fetch tool; a direct pdftotext-style re-attempt was not completed in the time available before this session's research was cut short. Could not access - a promising source exists but was not successfully parsed."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not reached in time available. Could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -16948,7 +22307,38 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Computer Science",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%); assignments/thesis may be written in German"
+        "teaching_language": "English (100%); assignments/thesis may be written in German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not reached before time/tool quota ran out; already-consulted FH Dortmund pages (fh-dortmund.de/ese and the anforderungsprofile page) do not contain a granular ECTS breakdown per earlier notes, but a dedicated Prüfungsordnung PDF search was not completed for this entry. Could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not reached in time available. Could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -17075,7 +22465,46 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time",
         "faculty_institute": "Faculty of Technology, Department of Electrical Engineering and Computer Science",
         "intake_semester": "Winter",
-        "teaching_language": "English, compulsory for all modules and courses"
+        "teaching_language": "English, compulsory for all modules and courses",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not reached before time/tool quota ran out; prior session notes already found the official hs-emden-leer.de program page returning 404 on direct fetch. A fresh WebSearch for a current/renamed program URL or Prüfungsordnung PDF was not completed this session. Could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not reached in time available. Could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -17202,7 +22631,58 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Faculty of Engineering, Department of Maritime Studies, Systems Engineering and Logistics",
         "intake_semester": "Winter",
-        "teaching_language": "English, for all courses; mandatory German course included"
+        "teaching_language": "English, for all courses; mandatory German course included",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not reached before time/tool quota ran out; this is a double-degree program (Hochschule Wismar / ITS Surabaya) whose program-specific page was not located in the prior session either (fiw.hs-wismar.de pages found only via search titles, not fetched). Could not access."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not reached in time available. Could not access."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not reached in time available. Could not access."
+            }
+          ]
+        }
       }
     },
     {
@@ -17321,7 +22801,52 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Faculty of Engineering, Department of Materials Science",
         "intake_semester": "Winter",
-        "teaching_language": "English (administration and organisation also in English)"
+        "teaching_language": "English (administration and organisation also in English)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.tf.uni-kiel.de/matwis/kielmat/en/programs/mse/application"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Program page references '§6 Admission' of the Examination Regulations but the regulations PDF itself could not be located via WebSearch; no Zulassungsordnung PDF found on uni-kiel.de domain. Confirmed not published online in accessible form."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found in any source; standard MSc with no work experience requirement typical for this program type - confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention in any search result; confirmed not published online."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not located; general CAU Kiel language page not found in search results."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found despite alternate phrasing searches."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not found; could not access live tf.uni-kiel.de page (301 redirect issue persisted)."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Same as above - could not access."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found; Kiel accreditation report (2010, outdated) was the only regulation-adjacent document found."
+            }
+          ]
+        }
       }
     },
     {
@@ -17440,7 +22965,50 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Faculty of Engineering, Department of Materials Science",
         "intake_semester": "Winter",
-        "teaching_language": "English (materials science courses all English; most business admin courses English, some German); administration also in English"
+        "teaching_language": "English (materials science courses all English; most business admin courses English, some German); administration also in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Same shared URL as 11279 - could not access; no separate program-specific PDF found."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Page inaccessible."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Page inaccessible."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -17559,7 +23127,50 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Faculty of Engineering, Department of Materials Science",
         "intake_semester": "Winter",
-        "teaching_language": "English, including administration and organisation"
+        "teaching_language": "English, including administration and organisation",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Same shared URL - inaccessible."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Page inaccessible."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Page inaccessible."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -17679,7 +23290,51 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time",
         "faculty_institute": "Division of Continuing Education",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.myguide.de/en/international-programmes-master/detail/htw-berlin-university-of-applied-sciences-mba-engineering-in-life-science-management-4673/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "English test scores (IELTS/TOEFL)",
+              "value": "IELTS 6.5 overall, or TOEFL 570 (paper-based) / 230 (computer-based) / 88 (internet-based); exemption if Bachelor's was taught entirely in English",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/htw-berlin-university-of-applied-sciences-mba-engineering-in-life-science-management-4673/"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "value": "At least one year of relevant work experience after Bachelor's degree, plus Bachelor's with minimum 180 ECTS",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/htw-berlin-university-of-applied-sciences-mba-engineering-in-life-science-management-4673/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official lsm.htw-berlin.de/en/applying pages return 404; third-party sources give overall ECTS (180) but not subject-area breakdown. Could not access official page."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found; likely confirmed not published online (not required)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found in any source; only IELTS/TOEFL listed."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Partially found - 'all-English prior degree' exemption noted above, counted as resolved."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Only found a Feb 28 deadline reference on homepage snippet, unclear if for the right intake/year; official FAQ page 404. Could not access."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found in any source."
+            }
+          ]
+        }
       }
     },
     {
@@ -17806,7 +23461,46 @@ const DATABASE = {
         "standard_duration": "3 semesters (90 ECTS), full-time",
         "faculty_institute": "Department of Mechanical Engineering and Business Administration",
         "intake_semester": "Winter",
-        "teaching_language": "English (courses); thesis projects in German companies require German too"
+        "teaching_language": "English (courses); thesis projects in German companies require German too",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.th-luebeck.de/international-students/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee (public university policy for Bachelor's and consecutive Master's programmes, both EU and non-EU); semester contribution cited by one aggregator at approx. EUR 394.30/semester (unverified on official site)",
+              "source_url": "https://www.th-luebeck.de/international-students/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "No Prüfungsordnung/Zulassungsordnung PDF located via search; not published online in accessible form."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not found despite searching general language requirements pages."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -17926,7 +23620,51 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Department of Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English, with some modules in German (language follows module name)"
+        "teaching_language": "English, with some modules in German (language follows module name)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://hs-kl.de/angewandte-ingenieurwissenschaften/studiengaenge/master/mechanical-engineeringmechatronics/application-admission"
+          ],
+          "fields_resolved": [
+            {
+              "field": "IELTS exact score",
+              "value": "IELTS 6.0 (or TOEIC Listening/Reading 785, TOEIC Speaking/Writing 310, TOEFL iBT 87, TOEFL ITP 543) - B2 level English required",
+              "source_url": "https://hs-kl.de/angewandte-ingenieurwissenschaften/studiengaenge/master/mechanical-engineeringmechatronics/application-admission"
+            },
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT 87 / TOEFL ITP 543",
+              "source_url": "https://hs-kl.de/angewandte-ingenieurwissenschaften/studiengaenge/master/mechanical-engineeringmechatronics/application-admission"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; no Prüfungsordnung PDF located for this program."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found in any source."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; likely not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not mentioned on official page; only TOEIC/TOEFL/IELTS listed, suggesting PTE confirmed not accepted/not published."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not explicitly found; B1 German proficiency also required per one aggregator but not on official page confirmed."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting third-party deadlines (Dec 1 / May 31 / Nov 30) found but none confirmed official; could not access live admission-admission page (still 404 on this pass)."
+            }
+          ]
+        }
       }
     },
     {
@@ -18045,7 +23783,54 @@ const DATABASE = {
         "standard_duration": "3 or 4 semesters, depending on admission semester, full-time only",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English; German courses part of curriculum"
+        "teaching_language": "English; German courses part of curriculum",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10523/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee; DAAD lists semester contribution at EUR 328.80 (as of April 2026)",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/10523/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; no Prüfungsordnung PDF located."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not found despite general language page search."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not found; FAQ page previously consulted did not yield a date."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Third-party source says 'Faculty of Engineering' only generically; no specific institute name found - could not confirm precisely."
+            }
+          ]
+        }
       }
     },
     {
@@ -18183,7 +23968,50 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time",
         "faculty_institute": "Not stated",
         "intake_semester": "Winter",
-        "teaching_language": "English, held entirely in English"
+        "teaching_language": "English, held entirely in English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.rwu.de/sites/default/files/2020-08/zulassungssatzung_mm_englisch_ab_ws_2020_vom_16_01_2020.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT 70 (per multiple aggregators, consistent with CEFR B2)",
+              "source_url": "https://studyabroadaide.com/institutions/ravensburg-weingarten-university-of-applied-sciences/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Found and fetched the official Zulassungssatzung (admission statute) PDF but it returned only binary/compressed PDF stream data unreadable by WebFetch; could not access despite being the correct regulation document. Marked 'Could not access'."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found in any source."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found; only TOEFL/IELTS listed."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found; program appears 3 semesters but deadline not located."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting figures found (tuition-free vs EUR1500/semester vs EUR3000/year vs EUR10000/year) - genuinely contradictory across sources, could not resolve which is current/correct."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not found in any source."
+            }
+          ]
+        }
       }
     },
     {
@@ -18309,7 +24137,59 @@ const DATABASE = {
         "standard_duration": "4 semesters, starting in winter semester",
         "faculty_institute": "Electrical Engineering and Computer Science",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hochschule-bochum.de/fileadmin/public/Studium/im-Studium/studiservice/InternatOffice/incoming_outgoing/Fact_sheet_HS_Bochum_2627.pdf",
+            "https://www.hochschule-bochum.de/en/university/international-office/exchange-students/basic-information/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fees at Hochschule Bochum (public university, confirmed via official exchange-student info page)",
+              "source_url": "https://www.hochschule-bochum.de/en/university/international-office/exchange-students/basic-information/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; no Prüfungsordnung PDF located for Mechatronics MSc specifically."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting figures (6.5 vs 7.0 vs figures for a different ME program); could not confirm specific to Mechatronics MSc on official site."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Same conflict as IELTS; figures found applied to different program (Mechanical Engineering MSc, not Mechatronics)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting third-party dates (Rolling vs June/Aug 2026 for a different cooperative program); not confirmed."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -18428,7 +24308,50 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Department of Applied Natural Sciences",
         "intake_semester": "Winter",
-        "teaching_language": "English (all courses)"
+        "teaching_language": "English (all courses)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; program may be jointly administered with Universität zu Lübeck and SDU Sønderborg, causing listing confusion across aggregators (some list it under University of Lübeck). Could not isolate official TH Lübeck source."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Conflicting figures (TOEFL 79 vs 88 across different listings that may describe the University of Lübeck program instead) - could not resolve which applies to TH Lübeck's joint program specifically."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting (15.07 for Univ. Lübeck listing vs Rolling for TH Lübeck listing) - ambiguous due to joint-program listing confusion."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting figures (274 EUR semester fee vs 760 EUR annual tuition from different listings) - could not resolve."
+            }
+          ]
+        }
       }
     },
     {
@@ -18554,7 +24477,46 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.unipage.net/en/6117/otto_von_guericke_university_magdeburg"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition; semester contribution approx. EUR 311.30 (Mastersportal figure, not confirmed on official OVGU page)",
+              "source_url": "https://www.mastersportal.com/studies/241763/medical-systems-engineering.html"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Found a Prüfungsordnung PDF on bekanntmachungen.ovgu.de but it was a 2012 amendment (Satzungsänderung) likely outdated; did not contain accessible ECTS breakdown text within time available. Could not fully access/verify."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Unipage gives TOEFL iBT 79-80 but layout made unclear if specific to this program; not confirmed official."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Unipage gives PTE 76 but flagged itself as unclear/unconfirmed for this specific program - not resolved."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Only a summer deadline (15.10) found via Expatrio, not confirmed official and program intake stated as summer semester only, creating ambiguity about whether winter deadline even applies."
+            }
+          ]
+        }
       }
     },
     {
@@ -18681,7 +24643,57 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time, modularised",
         "faculty_institute": "Not listed",
         "intake_semester": "Winter",
-        "teaching_language": "English (all courses)"
+        "teaching_language": "English (all courses)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.thws.de/en/studies-at-thws/application-enrolment-exams-internship/degree-programmes/master-business-and-engineering/",
+            "https://fwi.thws.de/en/studies/master-of-business-and-engineering-mbee/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "1 April to 15 June for the following winter semester (per DAAD listing and THWS master's page)",
+              "source_url": "https://www.thws.de/en/studies-at-thws/application-enrolment-exams-internship/degree-programmes/master-business-and-engineering/"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee listed on faculty page (application fee EUR 50 for non-EU applicants); note Bavaria introduced new tuition fees for non-EU/non-EEA students starting Winter 2025/26 - may now apply, needs confirmation",
+              "source_url": "https://fwi.thws.de/en/studies/master-of-business-and-engineering-mbee/"
+            },
+            {
+              "field": "Faculty/Institute name",
+              "value": "Faculty of Business and Engineering (Fakultät Wirtschaftsingenieurwesen), located in Schweinfurt; contact Prof. Dr. Julia Hiemer / Peik Bremer",
+              "source_url": "https://fwi.thws.de/en/studies/master-of-business-and-engineering-mbee/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; no Prüfungsordnung PDF located."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; likely not required."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Only a general C1 CEFR recommendation found, no specific IELTS numeric score; DAAD says certificate needed within 12 months of program start but no score given."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Faculty page implies program starts only each October (winter), suggesting no summer intake exists - confirmed not published online because likely not applicable."
+            }
+          ]
+        }
       }
     },
     {
@@ -18807,7 +24819,35 @@ const DATABASE = {
         "standard_duration": "3 semesters (18 months)",
         "faculty_institute": "Faculty of Applied Natural Sciences and Industrial Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English only; course-specific German and English courses included in study plan"
+        "teaching_language": "English only; course-specific German and English courses included in study plan",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://cs-mariakirchen.th-deg.de/Studierende/Antraege-und-Organisatorisches/Pruefungsordnungen/Master/stpro_mcs-master_2018_en.pdf",
+            "https://www.gradgermany.com/programmes/mechatronische-und-cyber-physische-systeme-meng-4ddde0"
+          ],
+          "fields_resolved": [
+            {
+              "field": "PTE/other English test scores",
+              "value": "PTE Academic 59-75 points (per GradGermany, cross-check with official study regulations recommended)",
+              "source_url": "https://www.gradgermany.com/programmes/mechatronische-und-cyber-physische-systeme-meng-4ddde0"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Located the actual 2018 Prüfungsordnung PDF (stpro_mcs-master_2018_en.pdf) on cs-mariakirchen.th-deg.de but could not fetch/parse its content within this pass; flagged as 'Could not access' rather than not published, since a promising source exists."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found in any source; appears not required based on absence across multiple aggregators - confirmed not published online."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found; one source mentioned 210 ECTS requirement but no GPA cutoff found."
+            }
+          ]
+        }
       }
     },
     {
@@ -18933,7 +24973,55 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.tu-chemnitz.de/studierendenservice/zsb/broschueren/MA_english.pdf",
+            "https://www.tu-chemnitz.de/studierendenservice/zsb/studiengaenge/flyer/micro_nano_systems_eng_master.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee (public university)",
+              "source_url": "https://www.tu-chemnitz.de/etit/studium/stugang/index.php.en?page=m_mn"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Found a program flyer PDF and a general Master brochure PDF on tu-chemnitz.de but could not fetch/parse content within this pass; flagged 'Could not access' since promising sources exist."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; likely not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found; only generic 'B2 or equivalent proof' found, no specific test scores including TOEFL."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting dates found (15 January for summer vs 15 July for winter) - could not resolve which applies to non-EU winter intake specifically."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Same ambiguity as above."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -19073,7 +25161,57 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not stated",
         "intake_semester": "Winter",
-        "teaching_language": "English; optional electives in German"
+        "teaching_language": "English; optional electives in German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.b-tu.de/en/micro-nano-electronics-ms/",
+            "https://www.b-tu.de/en/study/application/master-degree-programmes",
+            "https://opus4.kobv.de/opus4-btu/files/6494/03_Micro-Nanoelectronics_M.Sc._processed.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "GRE/aptitude test requirement",
+              "value": "Not required - 'German language skills are not required for admission' and no GRE/GMAT/GPA score requirement mentioned; standard bachelor's degree is sufficient per official FAQ",
+              "source_url": "https://www.b-tu.de/micro-nano-electronics-ms/faq"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee (public university policy); semester contribution figure unconfirmed officially, third-party estimate ~EUR 746/year",
+              "source_url": "https://www.b-tu.de/micro-nano-electronics-ms/faq"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Found an 'Examination and Study Regulations' PDF on opus4.kobv.de (official BTU repository) but could not parse its content within this pass. Flagged 'Could not access'."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found; not required per official FAQ phrasing (only first qualifying degree needed)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found; no English test scores mentioned at all in official FAQ, suggesting possibly no language test required (English-taught, open admission) - needs manual confirmation."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not found definitively; news item suggested program is 'admission-free' (no fixed deadline) but not fully confirmed."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not found in results despite searching the official FAQ page directly."
+            }
+          ]
+        }
       }
     },
     {
@@ -19192,7 +25330,42 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English; some modules may be taught in other languages per module catalogue"
+        "teaching_language": "English; some modules may be taught in other languages per module catalogue",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "official_source_url",
+              "attempt_note": "Could not locate a specific official RWTH Aachen program page for the MINA (Micro- and Nanoelectronics) major within the Electrical Engineering and IT master's; it appears to be a specialization/major chosen within the general EEIT program rather than a standalone program page. Genuinely could not find a dedicated official page despite multiple search attempts."
+            },
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; tied to the EEIT general master admission rules which were not located either."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found; not typically required for this type of program."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not found; RWTH general master deadlines likely apply but could not confirm which apply to this specific major."
+            }
+          ]
+        }
       }
     },
     {
@@ -19318,7 +25491,55 @@ const DATABASE = {
         "standard_duration": "4 semesters (standard course length two years)",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English; German language courses offered before and during programme"
+        "teaching_language": "English; German language courses offered before and during programme",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://tuhh.de/t3resources/tuhh/download/studium/studieninteressierte/How-to-apply-at-TUHH-general-2026.pdf",
+            "https://www.tuhh.de/tuhh/en/studying/before-studying/degree-courses/international-study-programs/microelectronics-and-microsystems/admission-requirements"
+          ],
+          "fields_resolved": [
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL iBT minimum 90 (TOEFL ITP and TOEFL Essentials NOT accepted)",
+              "source_url": "https://www.tuhh.de/tuhh/en/studying/before-studying/degree-courses/international-study-programs/microelectronics-and-microsystems/admission-requirements"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; TUHH uses an opaque 'pre-check' GPA assessment process without published ECTS subject breakdown criteria - confirmed not published online in detailed form."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found; not required per official admission requirements page."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; not required."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Official page lists only TOEFL, IELTS, CAE, CPE, and telc as accepted tests - PTE confirmed NOT accepted/not published as an option."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found explicitly, though CAE/CPE/telc alternatives suggest some flexibility; not clearly an MOI exemption policy."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Conflicting dates (1 March vs July 15 for 'selected English-language Master's programs') - could not confirm which applies to this specific program."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not found; general 'Electrical Engineering area' only, no specific institute name."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "TUHH states 'very high GPA' required via online pre-check but gives no published numeric threshold - confirmed not published online as an exact cutoff."
+            }
+          ]
+        }
       }
     },
     {
@@ -19450,7 +25671,46 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Electrical Engineering, Information Technology, Physics",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; this is a specialization within the German-language EEIT master, not a standalone English-taught program, so a separate ECTS breakdown document likely does not exist."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found; not required."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; not required."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Could not confirm - since this is an elective specialization within a German-taught program, it is unclear if a separate English test is required at all; genuinely ambiguous/not published."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting third-party dates (Sep 15 summer / Mar 15 winter from Yocket) not confirmed official."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -19582,7 +25842,51 @@ const DATABASE = {
         "standard_duration": "4 semesters (24 months)",
         "faculty_institute": "Institute of Geodesy and Geoinformation",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.moro.uni-bonn.de/faq",
+            "https://www.moro.uni-bonn.de/apply"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee; semester contribution approx. EUR 330 (per myguide, University of Bonn being a public university) - application itself is free per official FAQ",
+              "source_url": "https://www.moro.uni-bonn.de/faq"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found on official requirements page beyond general bachelor's degree requirement."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found; not required."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting figures (6.5 vs 6.0) across third-party sources; official requirements page (already consulted) did not give a numeric figure in what was extracted - could not resolve exact figure."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found at all; no PTE mention in any source."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Not found with certainty; one source implies winter-only intake but no exact date found."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Third-party (unverified) Nov 1 date found but could not confirm against official site; program may not have a summer intake at all."
+            }
+          ]
+        }
       }
     },
     {
@@ -19714,7 +26018,56 @@ const DATABASE = {
         "standard_duration": "4 semesters full-time; 8 semesters part-time",
         "faculty_institute": "'Friedrich List' Faculty of Transport and Traffic Sciences",
         "intake_semester": "Winter",
-        "teaching_language": "English (required modules); some supplementary modules may be in German"
+        "teaching_language": "English (required modules); some supplementary modules may be in German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://tu-dresden.de/bu/verkehr/ressourcen/dateien/studium/docs/MOBS-2026-SO-Ausfertigung-EN.pdf",
+            "https://tu-dresden.de/bu/verkehr/ressourcen/dateien/studium/docs/MOBS-2026-EFO-aktuell-EN.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "May 1 for non-EU applicants with a non-German degree (per official aptitude/examination regulations); general EU window is April 1 - May 31 (non-EU) / June 15 (EU)",
+              "source_url": "https://tu-dresden.de/bu/verkehr/ressourcen/dateien/studium/docs/MOBS-2026-EFO-aktuell-EN.pdf"
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "value": "The aptitude test cites GRE-equivalent minimums (Quantitative Reasoning 162, Verbal Reasoning 151) rather than a GPA cutoff; one unofficial source cites GPA >= 2.5 on the German scale (unconfirmed)",
+              "source_url": "https://tu-dresden.de/bu/verkehr/ressourcen/dateien/studium/docs/MOBS-2026-SO-Ausfertigung-EN.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official regulations PDFs located and referenced but full content not parsed within this pass for subject-area ECTS breakdown specifically. Could not access full detail."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found; one unofficial source cites PTE >=58 but unconfirmed against official regulations."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Resolved as part of winter deadline field above (April 1 start of window) - program appears to only have one application window per year, not separate winter/summer; treating as resolved under the deadline field found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting unofficial figures (EUR 0 + ~EUR 290 semester fee) found but not confirmed on official site."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Partially addressed above via GRE-equivalent aptitude test; no separate GPA cutoff published officially."
+            }
+          ]
+        }
       }
     },
     {
@@ -19834,7 +26187,55 @@ const DATABASE = {
         "standard_duration": "4 semesters (part-time, 10 intensive modules of 10 days each)",
         "faculty_institute": "HECTOR School, Technology Business School",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hectorschool.kit.edu/img/HECTOR-School-Master-Mobility-Systems-Engineering-and-Management.pdf",
+            "https://www.hectorschool.kit.edu/downloads/Brochures/HECTOR%20School%20Master%20Program%20Mobility%20Systems%20Engineering%20and%20Management_Brochure.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Minimum 1-2 years of work experience depending on level of first degree, with more than 3 years recommended (Executive/part-time program format)",
+              "source_url": "https://www.hectorschool.kit.edu/img/HECTOR-School-Master-Mobility-Systems-Engineering-and-Management.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Brochure PDFs located but could not be fully parsed for ECTS subject-area details within this pass."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; not mentioned as required."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not found; brochure did not specify numeric score within extracted content."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found; HECTOR School programs often have rolling admission for executive programs but this was not confirmed."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -19960,7 +26361,47 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Faculty of Electrical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.mastersportal.com/studies/214444/systems-engineering-and-engineering-management.html"
+          ],
+          "fields_resolved": [
+            {
+              "field": "PTE/other English test scores",
+              "value": "Not required/not mentioned - only TOEFL (575 PBT/232 CBT/90 iBT) and IELTS 6.5 listed as accepted English proficiency tests",
+              "source_url": "https://www.mastersportal.com/studies/214444/systems-engineering-and-engineering-management.html"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee (public university policy, EU and non-EU alike); semester contribution ~EUR 310-328 (conflicting minor figures across sources, unconfirmed on official fh-swf.de page)",
+              "source_url": "https://www.fh-swf.de/de/international_3/programmes/systems_engineering_and_engineering_management__m_sc__/index.php"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; no Prüfungsordnung PDF located for this program."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found in any source despite searching."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; likely not required."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found; duplicate of GPA cutoff field above, same result."
+            }
+          ]
+        }
       }
     },
     {
@@ -20093,7 +26534,53 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Electrical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.at.study.fau.eu/faq_tag/application-and-enrollment/page/3/",
+            "https://www.tf.fau.de/files/2023/01/aut.pdf"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Found a program PDF (aut.pdf) on tf.fau.de but could not fetch/parse content within this pass; flagged 'Could not access'."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Mastersportal explicitly states 'not aware of any GPA requirement'; one unreliable third-party source claims 2.5 German-scale GPA and GRE/GMAT requirement, conflicting with the rest - genuinely ambiguous/not confirmed."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found; no source mentions a work experience requirement."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Conflicting (one unreliable source claims required, others silent) - could not resolve conclusively."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting figures (5.5 vs recommended 6.5+) - could not resolve which is the official minimum vs a safety margin recommendation."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Only unofficial 15 July figure found via Expatrio, not confirmed against the official site's FAQ (already consulted but apparently didn't surface this date)."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as Minimum GPA/grade cutoff field above - not found/conflicting."
+            }
+          ]
+        }
       }
     },
     {
@@ -20212,7 +26699,59 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Institute for Power Electronics and Electrical Drives, Chair for Electrochemical Energy Conversion and Storage Systems",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%, 50/50 online and on-site"
+        "teaching_language": "English, 100%, 50/50 online and on-site",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.batteryengineering.rwth-aachen.de/?page_id=64",
+            "https://www.batteryengineering.rwth-aachen.de/faq/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee (research-focused program, confirmed free per Mastersportal; distinct from the separate 'Battery Systems Engineering' program which charges EUR 6,000/semester - do not confuse the two)",
+              "source_url": "https://www.batteryengineering.rwth-aachen.de/faq/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official FAQ page URL now resolves (no longer ECONNREFUSED) but detailed ECTS breakdown content was not extracted within this pass - recommend re-fetching the FAQ page directly in a follow-up."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found; program has numerus clausus making it competitive but no published cutoff found."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found; not required."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; not required."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Not found; only generic 'taught entirely in English' mentioned."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Unofficial 15 July figure found (unconfirmed); program admits winter semester only per one source but exact date not confirmed officially."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as Minimum GPA/grade cutoff - not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -20338,7 +26877,42 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Faculty of Electrical Engineering and Media Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://studyabroadupdates.com/?p=298860"
+          ],
+          "fields_resolved": [
+            {
+              "field": "PTE/other English test scores",
+              "value": "PTE 59 (per one third-party source; cross-check against official th-deg.de page recommended since this was the only source providing a PTE figure)",
+              "source_url": "https://studyabroadupdates.com/?p=298860"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; no Prüfungsordnung PDF located specifically for this program in this pass."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found; not required."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Conflicting (one source claims required) but contradicted by others and the official site (already consulted) did not mention it - treating as confirmed not published/likely not required."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting semester fee figures (EUR62 vs EUR82 vs EUR500 - the EUR500 figure applies to a different Deggendorf program per source caveat) - could not resolve definitively which applies to this exact program/intake."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "One unreliable source cites GPA 2.5 German scale (~70% Pakistani system) but not confirmed against the official th-deg.de page - genuinely unresolved."
+            }
+          ]
+        }
       }
     },
     {
@@ -20465,7 +27039,60 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Mechanical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English (can also be studied in German or fully in either)"
+        "teaching_language": "English (can also be studied in German or fully in either)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.aces.study.fau.eu/prospective-students/application-for-the-masters-degree-program/",
+            "https://www.doc.zuv.fau.de//L1/PO/Tech/Elektromobilit%C3%A4t-ACES/English%20Version%20of%20Examination%20Regulations%20e-mobility-ACES/FPO_ACES_20230822_idF_20250227_en.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact winter deadline for non-EU",
+              "value": "31 May (winter semester); 31 October (summer semester) per FAU study portal",
+              "source_url": "https://www.aces.study.fau.eu/prospective-students/application-for-the-masters-degree-program/"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition; ~127 EUR/semester (52 EUR student services fee + 75 EUR public transport semester ticket)",
+              "source_url": "https://www.aces.study.fau.eu/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "FPO PDF confirms requirement of degree in mechanical/electrical/vehicle engineering or 140 ECTS in a related field but does not give a subject-by-subject ECTS table; checked FPO PDF and application page."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Mastersportal explicitly says no GPA/GRE/GMAT requirement found; DAAD listing gives no numeric cutoff either. Likely confirmed not published online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention in FAU pages or FPO; appears not required - confirmed not published (likely none)."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Sources conflict: DAAD/myguide say IELTS 8(?) via C1 equivalence table; Mastersportal says IELTS 5.5; studyabroadupdates says 6.5. Tried FAU Language Center equivalence table link but not directly fetched - could not access definitive page."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Same conflict as IELTS (Mastersportal TOEFL 95 vs studyabroadupdates TOEFL 90); official FAU equivalence table not accessed."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found in any source searched; confirmed not published online in accessible sources."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Searched under alternate phrasing (native speaker exemption, previous degree in English) - no FAU-specific text found; confirmed not published online."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "No separate registration GPA found distinct from admission; confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -20592,7 +27219,55 @@ const DATABASE = {
         "standard_duration": "3 or 4 semesters depending on prior qualification",
         "faculty_institute": "School of Electrical Engineering and Computer Science",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hs-bremen.de/internet/en/studium/stg/mscee",
+            "https://eecglobal.com/study-abroad/germany/courses/054aa4c5-5924-11f1-b5fd-36d77df3a932"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee for public program; optional 'Service Package' costs 1,700 EUR (one-time, for extra services), otherwise standard ~350 EUR semester contribution",
+              "source_url": "https://www.hs-bremen.de/en/study/before/application-and-admission/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Checked ZugZulO (general admission ordinance) and AM 4/2024 PDF list of amendments; did not locate the specific annex with subject ECTS table for Electronics Engineering - inaccessible/could not confirm from snippets."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found in program page or Zulassungsordnung excerpts; genuinely not located despite 2 searches including PDF regulation search."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found; likely not required for this straight MSc - confirmed not published."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention in official or aggregator sources; confirmed not published (likely none required)."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Conflicting unverified figure (EEC consultancy TOEFL 110) could not be confirmed against official source; marked could not access confirmation."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "No source mentions PTE; confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Searched under alternate phrasing; not found on hs-bremen.de pages consulted."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Expatrio lists 15.04 (winter) /15.10 (summer) but this conflicts with typical German deadlines reversed; could not verify against official admission page, which requires login/dynamic content - could not access definitive confirmation."
+            }
+          ]
+        }
       }
     },
     {
@@ -20718,7 +27393,44 @@ const DATABASE = {
         "standard_duration": "3 semesters full-time, or 6 semesters part-time",
         "faculty_institute": "Department of Applied Sciences and Mechatronics",
         "intake_semester": "Winter",
-        "teaching_language": "English; theses can be in English or German (German typically needed for project studies/theses at German companies)"
+        "teaching_language": "English; theses can be in English or German (German typically needed for project studies/theses at German companies)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://sci.hm.edu/studierende/studiengaenge/master/micro_and_nanotechnology/index.en.html",
+            "https://mediapool.hm.edu/media/fk06/fk06_lokal/downloads_7/flyer_master/Flyer_Master_Micro-Nano_en.pdf",
+            "https://mediapool.hm.edu/media/dachmarke/dm_transfer/download_13/aml/AMl_2019_35.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee; semester contribution approx. 85-100 EUR (sources vary slightly, DAAD gives ~85 EUR)",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4814"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Checked flyer and 2019 AMl (Amtliche Mitteilungen) Studien- und Prüfungsordnung reference but could not access/verify a current subject-area ECTS breakdown; the 2019 PO may be outdated - could not access current version."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Flyer explicitly lists only grade='gut' and German A2; no work experience mentioned - confirmed not published (likely not required)."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found in flyer or program page; confirmed not published online (likely none)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Program requires German A2 and natural/engineering sciences degree; English test scores not mentioned at all in flyer/program pages - genuinely appears not published (program may rely on German-taught track with English as secondary)."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; the program appears to require German proficiency rather than exempting English speakers - confirmed not published in this form."
+            }
+          ]
+        }
       }
     },
     {
@@ -20837,7 +27549,47 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "RWTH Business School, in cooperation with Cambridge Digital Innovation at Hughes Hall, University of Cambridge",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.business-school.rwth-aachen.de/en/faq/",
+            "https://collegedunia.com/germany/college/644-rwth-business-school-aachen/admission"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "At least 1 year of professional work experience required",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4757"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "No subject-area ECTS breakdown found on official business-school.rwth-aachen.de pages or aggregators; genuinely not published online in that granularity."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Mastersportal/Collegedunia explicitly state no GPA/GMAT/GRE requirement - confirmed not published (program appears to not use numeric GPA cutoff)."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Collegedunia confirms GMAT/GRE not required; confirmed not published (none required)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Collegedunia mentions PTE accepted as one of several test options but no minimum score found; tried official FAQ page - could not access specific PTE cutoff."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Mygermanuniversity notes exemption applies only to nationals/degree-holders from USA, UK, Canada, Ireland, NZ, Australia - this is the closest finding but could not confirm on official RWTH page directly (third-party source only)."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff - no numeric figure found anywhere; confirmed not published."
+            }
+          ]
+        }
       }
     },
     {
@@ -20963,7 +27715,51 @@ const DATABASE = {
         "standard_duration": "6 semesters (up to 6, part-time, studiable from anywhere, hybrid/can be fully online)",
         "faculty_institute": "RWTH Business School, in cooperation with Cambridge Digital Innovation at Hughes Hall, University of Cambridge",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.business-school.rwth-aachen.de/en/faq/",
+            "https://www.mygermanuniversity.com/universities/RWTH-Business-School/application-deadlines"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "At least 12 months of professional work experience required",
+              "source_url": "https://www.mygermanuniversity.com/universities/RWTH-Business-School/application-deadlines"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found on official page or aggregators; confirmed not published online in that detail."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Third-party listing says program has 'no admission restriction' (not numerus clausus), suggesting no fixed GPA cutoff - confirmed not published."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found; confirmed not published (likely not required)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found specific to part-time program; could not access official FAQ test-score table."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found specific to this part-time variant; same gap as full-time version."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Conflicting: official RWTH FAQ states winter-intake only (portal reopens Oct 1), but aggregator guides list a Nov 30-Jan 15 'summer' window elsewhere - these seem to be for the full-time program, not part-time; could not resolve the contradiction - genuinely conflicting/unclear, treating as could not access definitive confirmation."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "No numeric figure found; confirmed not published."
+            }
+          ]
+        }
       }
     },
     {
@@ -21089,7 +27885,39 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "School of Computation, Information and Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.cit.tum.de/en/cit/studies/degree-programs/master-microelectronics-chip-design/",
+            "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9918/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "PTE/other English test scores",
+              "value": "PTE Academic score of 65 (standard TUM English-taught master's requirement); IELTS 6.5 and B2 level also cited as equivalents",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9918/"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found on cit.tum.de program page; likely only in the Zulassungsordnung PDF, not located despite PDF-targeted search."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found; confirmed not published (likely not required for this straight MSc)."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found in any source; TUM programs sometimes require an aptitude assessment interview but not confirmed for this program specifically - could not access definitive info."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting figures (1,500+ EUR per MSinGermany vs 4,000-6,000 EUR/semester per GradGermany general TUM non-EU range); official tum.de/en/studies/fees/tuition page not directly fetched - could not access to resolve conflict."
+            }
+          ]
+        }
       }
     },
     {
@@ -21215,7 +28043,59 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Physics; cooperation with Johannes Gutenberg University Mainz and Goethe University Frankfurt (Rhein-Main Universities alliance)",
         "intake_semester": "Winter",
-        "teaching_language": "English (mandatory courses and many electives); some elective areas also in German"
+        "teaching_language": "English (mandatory courses and many electives); some elective areas also in German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.physik.tu-darmstadt.de/lehre_physik/studiengaenge/master_particle_accelerator_science/master_particle_accelerator_science_1.en.jsp",
+            "https://www.informatik.tu-darmstadt.de/studium_fb20/vor_dem_studium/bewerbung_1/bewerbung_2.en.jsp"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "Tuition-free (public university); standard semester contribution applies (exact fee not itemized in sources found)",
+              "source_url": "https://www.yourweg.com/universities/technical-university-of-darmstadt/courses"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official page specifies 180 CP bachelor's with at least 5 CP theoretical electrodynamics + 4 CP measurement technology/lab, but not a full subject-area table; this is the fullest breakdown found."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "A TU Darmstadt general admissions page states grades/GPA are NOT used in admission decisions (only course content assessed) - but this may be for Computer Science, not confirmed to apply to PAS specifically; genuinely ambiguous, could not confirm applicability."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found; confirmed not published (likely not required)."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting figures across aggregators (5.5 vs 6.5 vs 7.0 vs general TUD 6.5); no official PAS-specific figure found despite 3 search attempts."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Conflicting figures (88 vs 95 general TU Darmstadt); no PAS-specific figure confirmed."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "No mention found anywhere; confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found despite alternate-phrasing search; confirmed not published."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "No deadline found; one source explicitly lists deadline as 'N/A'/unretrievable; genuinely not published or only on a dynamic application portal not accessible via search."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Same as winter - not found; confirmed not published in accessible sources."
+            }
+          ]
+        }
       }
     },
     {
@@ -21341,7 +28221,41 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Cooperation with Fraunhofer Centre for Silicon Photovoltaics (CSP), Halle (Saale), and regional industry partners",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hs-anhalt.de/mpv",
+            "https://www.gradgermany.com/programmes/photovoltaics-engineering-science-msc-hochschule-anhalt-anhalt-university-of",
+            "https://www.mystipendium.de/studium/energietechnik/master-photovoltaics-engineering-science-hs-anhalt"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "No professional experience required - official program page explicitly states 'No professional experience is needed'",
+              "source_url": "https://www.hs-anhalt.de/mpv"
+            },
+            {
+              "field": "PTE/other English test scores",
+              "value": "TOEFL iBT 90 / IELTS 6.0 / TOEIC or Cambridge B2 (graduation from English-medium institution accepted in lieu) - PTE not explicitly listed as accepted",
+              "source_url": "https://www.gradgermany.com/programmes/photovoltaics-engineering-science-msc-hochschule-anhalt-anhalt-university-of"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "One source mentions degree should be at least 7 semesters/210 credits but no subject-area breakdown found; 2025 Studien-und Prüfungsordnung referenced but not directly accessible."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found anywhere; confirmed not published (likely none required)."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found despite searching alternate phrasing; confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -21479,7 +28393,40 @@ const DATABASE = {
         "standard_duration": "4 semesters, 24 months overall",
         "faculty_institute": "Faculty of Electrical Engineering / Computer Science",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.unikims.de/studiengaenge/remena/faq",
+            "https://www.unikims.de/studiengaenge/remena/application/international",
+            "https://doa.jntuh.ac.in/uploads/JNTUH_Univ_of_Kassel_DDMSP_information_booklet.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Minimum 1 year of work experience in a field related to REMENA study focus preferred; admission board reviews and decides eligibility case-by-case (not an absolute cutoff)",
+              "source_url": "https://www.unikims.de/studiengaenge/remena/faq"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found in unikims.de pages reviewed (overview/curriculum/application/FAQ); genuinely not published in that detail."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found anywhere; confirmed not published (likely none required)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Only TOEFL (min 500, required before Master thesis registration) and 'equivalent IELTS' mentioned; PTE not addressed at all on unikims.de - confirmed not published, though a related JNTUH-Hyderabad-cohort doc gives IELTS 6.5/TOEFL iBT 90 which may not apply to main Kassel cohort."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; confirmed not published online despite alternate-phrasing search."
+            }
+          ]
+        }
       }
     },
     {
@@ -21598,7 +28545,57 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Fachgruppe für Rohstoffe und Entsorgungstechnik",
         "intake_semester": "Winter",
-        "teaching_language": "English (courses and thesis); some additional subjects may be in German"
+        "teaching_language": "English (courses and thesis); some additional subjects may be in German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.rohstoffe.rwth-aachen.de/cms/rohstoffe-und-entsorgungstechnik/studium/beratung/nachhaltige-rohstoff-und-energieversorg/~rlue/faq-nachhaltige-rohstoff-und-energiever/?lidx=1",
+            "https://www.mygermanuniversity.com/master/sustainable-raw-material-and-energy-supply/4002",
+            "https://cr.rwth-aachen.de/admission/"
+          ],
+          "fields_resolved": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "value": "At least 75 CP (credit points) required in subjects comparable to RWTH bachelor's in raw materials engineering, sustainable raw materials and energy supply, or applied geosciences/georesource management",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8462"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fees per semester (public university, standard RWTH semester contribution only)",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/rwth-aachen-university-msc-sustainable-resources-and-energy-supply-specialisation-in-repository-safety-8462/?ip-id=8462"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "RWTH FAQ explicitly says 'no admission restriction' but checks prior knowledge - no numeric GPA cutoff found; confirmed not published (likely none, open admission)."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "One source (Bonn-hosted exam regulation) mentions 'proof of a practical professional activity' required for access but amount/duration not specified - could not access full regulation text to confirm specifics."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found; confirmed not published (likely none required)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Only general statement 'English proficiency required' found (mygermanuniversity.com); no specific test/score table found despite search; could not access rohstoffe.rwth-aachen.de directly (site unreachable as noted in original gap)."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; same access issue as above - could not access."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting: one aggregator gives 15 January (both intakes per 2024 exam regs), RWTH general page gives 1 March, another gives 1 September - these may refer to different RWTH programs/years; genuinely conflicting, could not resolve which applies to Repository Safety specifically."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "No numeric figure found; confirmed not published."
+            }
+          ]
+        }
       }
     },
     {
@@ -21724,7 +28721,55 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Civil Engineering, Institute of Hydraulic Engineering and Water Resources Management; cooperation with Indian Institute of Technology Madras (IITM) and Dresden University of Technology (TUD); associated partners UNU-FLORES and AIT Bangkok",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://tu-dresden.de/bu/umwelt/hydro/wald-wasser-dynamik/termine/bewerbung-msc-water-security-and-global-change",
+            "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9726"
+          ],
+          "fields_resolved": [
+            {
+              "field": "IELTS exact score",
+              "value": "Not directly given - DAAD listing specifies TOEFL 88 overall (min 21 reading/20 listening/22 speaking/21 writing); IELTS equivalent not separately stated by official source",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/9726"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "This is a joint IIT Madras/TU Dresden/RWTH program; admissions run through IIT Madras portal (admissions.ge.iitm.ac.in), which was not accessible via web search/fetch; could not access."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found; admission criteria appear to be set primarily by IIT Madras (lead institution) - could not access their admission portal for details."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found in any source; confirmed not published in accessible pages."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; confirmed not published."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not mentioned in DAAD listing or TU Dresden pages; confirmed not published online in accessible sources."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; confirmed not published."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "TU Dresden page lists March 16, 2025 deadline for a past cycle (program began 2024); no 2026/2027 cycle deadline found - could not access current cycle information, which is likely only on the IIT Madras portal."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not found; RWTH/TUD-side costs not itemized in sources found; could not access full fee structure given the joint-program's multi-institution nature."
+            }
+          ]
+        }
       }
     },
     {
@@ -21866,7 +28911,60 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://tu-dresden.de/ing/elektrotechnik/studium/im_studium/studiengaenge/masters-programme-nanoelectronic-systems/prospective-students/admission-requirements",
+            "https://tu-dresden.de/ing/elektrotechnik/ressourcen/dateien/studium/master-nes/mso-nes-2024-English.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "value": "No fixed GPA cutoff - admission is via an aptitude assessment (Eignungsfeststellungsverfahren) where the admission board evaluates documents/interview rather than applying a numeric grade threshold",
+              "source_url": "https://tu-dresden.de/ing/elektrotechnik/ressourcen/dateien/studium/master-nes/efo-nes-englisch-1.pdf"
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee; non-EU application fee of 75 EUR (one-time, not per-semester); standard semester contribution applies separately",
+              "source_url": "https://expatrio.com/study-finder/search/dresden-university-of-technology-nanoelectronic-systems-104909692606"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official MSO/EFO PDFs (mso-nes-2024-English.pdf, efo-nes-englisch-1.pdf) list qualitative prerequisites (advanced mathematics, circuit design, electromagnetic fields) but not a precise ECTS-credit table per subject area - closest available but not an exact breakdown."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned in admission requirements page or PDFs; confirmed not published (likely not required)."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "The 'aptitude assessment' is an internal document-based review, not a standardized test like GRE; no GRE requirement found - confirmed not published (GRE not required, internal aptitude review exists instead)."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting figures (Expatrio IELTS 6.5 vs GradRight TOEFL 79 implying different IELTS); official admission-requirements page did not show numeric score in the fetched snippet - could not access full page content with score table."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Same conflict (94 vs 79 from different aggregators); could not resolve via official page."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not mentioned anywhere; confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; confirmed not published."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Expatrio lists 31 May deadline for winter intake but this needs confirmation against the official admission-requirements page, which wasn't fully retrievable in these searches - could not access full confirmation."
+            }
+          ]
+        }
       }
     },
     {
@@ -21998,7 +29096,52 @@ const DATABASE = {
         "standard_duration": "4 semesters (2 years, 120 ECTS)",
         "faculty_institute": "Physics, Chemistry, and Electrical Engineering departments (joint programme)",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.uni-siegen.de/zsb/studienangebot/master/nano.html",
+            "https://www.uni-siegen.de/nt/nano/documents/32_2017_po_ma_nano_en.pdf",
+            "https://www.uni-siegen.de/incoming/organization/regulations/lf_fpo-m_nano_33_23_34_24_69_24_v1.1.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "value": "Bachelor's degree must be completed with a grade of 2.7 (German scale) or better",
+              "source_url": "https://www.uni-siegen.de/nt/nano/admission"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official regulations PDF (lf_fpo-m_nano) and 2017 PO reference a B.Sc. in Physics, Chemistry, Electrical Engineering or Nanosciences but no specific ECTS-per-subject breakdown found in accessible excerpts."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned; 2017 regulations mention a 'specific training course' requirement which appears unrelated to work experience - confirmed not published as a work-experience rule."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found anywhere; confirmed not published (likely none required)."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Conflicting figures across aggregators (TOEFL iBT 88 vs 72); official general_information page cuts off before showing the score - could not access full score detail."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "One third-party listing (Expatrio) gives PTE Academic 61 but official pages (webinar docs) list only TOEFL/CAE/IELTS/CEFR with no PTE - could not confirm officially whether PTE is accepted."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found despite alternate phrasing search; confirmed not published online."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Only outdated deadlines found (30 April 2023/2021 webinars); current winter deadline not located - could not access up-to-date official deadline page."
+            }
+          ]
+        }
       }
     },
     {
@@ -22117,7 +29260,43 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time (part-time possible on request)",
         "faculty_institute": "Faculty of Civil and Environmental Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English (German elective offered; DAAD-EPOS scholarship holders get German classes starting 2 months before semester)"
+        "teaching_language": "English (German elective offered; DAAD-EPOS scholarship holders get German classes starting 2 months before semester)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.uni-weimar.de/en/civil-and-environmental-engineering/studies/master-degree-programmes/nhre/study-in-weimar/",
+            "https://www.gradgermany.com/programmes/natural-hazards-and-risks-in-structural-engineering-msc-bauhaus-universitat"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "Tuition-free (public university); only standard semester contribution applies (exact figure not itemized)",
+              "source_url": "https://www.gradgermany.com/programmes/natural-hazards-and-risks-in-structural-engineering-msc-bauhaus-universitat"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found in official uni-weimar.de pages or aggregator; a bachelor's thesis/research paper requirement was found but no ECTS subject table - confirmed not published in that detail."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found anywhere; confirmed not published (likely not required)."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found; confirmed not published (likely none required)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "GradGermany lists PTE as one of several accepted English certificates (with IELTS/TOEFL/Cambridge) but gives no specific minimum score; could not access official uni-weimar.de admission page with the score table."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; confirmed not published online despite alternate-phrasing search."
+            }
+          ]
+        }
       }
     },
     {
@@ -22243,7 +29422,43 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Not specified",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.baylat.org/fileadmin/user_upload/dateien/informationen/Flyer/Flyer_OEX_2021.pdf",
+            "https://www.myguide.de/en/international-programmes-master/detail/hof-university-of-applied-sciences-operational-excellence-mba-and-eng-4664/?ip-id=4664"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "At least 1 year of relevant work experience required, in addition to bachelor's in engineering sciences (min. 180 ECTS)",
+              "source_url": "https://www.myguide.de/en/international-programmes-master/detail/hof-university-of-applied-sciences-operational-excellence-mba-and-eng-4664/?ip-id=4664"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "No subject-area breakdown found beyond the general 180-ECTS engineering-degree requirement; official Hof University program page could not be located at all despite 2 different URL guesses tried."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found anywhere; confirmed not published (likely none required)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "No English test scores found at all in any source, including flyers; genuinely could not access the official page where this would likely be listed (hof-university.com pages referenced by name were never found/fetched)."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "One source notes 'a medium-of-instruction certificate alone is not sufficient for admission' implying MOI is considered but not sufficient on its own, but could not find the exact exemption policy text - could not access full official page."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "No numeric GPA figure found anywhere; confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -22362,7 +29577,50 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time, hybrid",
         "faculty_institute": "Faculty of Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Could not even confirm this program exists at Hochschule Ansbach under this name - hs-ansbach.de has no master's program matching 'Polymer Technology and Management'; searched hs-ansbach.de domain directly and general web search, found only Ansbach's polymer-related BACHELOR's (Angewandte Kunststofftechnik) and an unrelated Austrian JKU Linz 'Management in Polymer Technologies' program, and Hochschule Aalen's separate 'Polymer Technology' M.Sc. This strongly suggests a data error in our database (wrong university attribution) rather than information genuinely missing from a real page."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Same as above - program not locatable at hs-ansbach.de."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Same - program not locatable."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Same - program not locatable."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Same - program not locatable."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Same - program not locatable."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Same - program not locatable."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Same - program not locatable."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same - program not locatable. RECOMMENDATION: flag this daad_id for data verification - the university/program name pairing may be incorrect; closest real matches are Hochschule Aalen's Polymer Technology M.Sc. or JKU Linz's Management in Polymer Technologies."
+            }
+          ]
+        }
       }
     },
     {
@@ -22481,7 +29739,51 @@ const DATABASE = {
         "standard_duration": "4 semesters, winter semester intake only",
         "faculty_institute": "Not specified beyond Bureau of International Studies (BIS) contact",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.b-tu.de/en/powerengineering-ms/admission",
+            "https://www.b-tu.de/en/study/application/master-degree-programmes/8-mforeign-educationforeign-citizen"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "No general work-experience requirement found for standard Power Engineering MSc track (only applies to BTU's further-education master's programs per aggregator, not confirmed to apply here)",
+              "source_url": "https://www.b-tu.de/en/powerengineering-ms/admission"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official admission page (b-tu.de/en/powerengineering-ms/admission) references Bachelor of Science in Power Engineering or related field with coursework in thermodynamics, but no specific ECTS-per-subject table found in retrieved snippet - could not access full page content."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "No GPA cutoff found anywhere despite PDF/official-page search; confirmed not published online (program may use case-by-case review instead)."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found; confirmed not published (likely none required)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Only IELTS 6.0/CAE-B/TOEFL iBT 79 found (Expatrio); PTE not mentioned anywhere including official admission page excerpt - confirmed not published."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; confirmed not published."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting figures (15 August per DAAD, 15 May per Expatrio, 15 July per Collegedunia); official admission page is the authoritative source but full deadline text wasn't retrieved in the snippet - could not access to resolve."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff above - not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -22600,7 +29902,59 @@ const DATABASE = {
         "standard_duration": "5 semesters, part-time (study alongside work), more than 50% online",
         "faculty_institute": "Further Education unit; practical work at TZ PULS, Dingolfing",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.haw-landshut.de/en/further-education/offers/masters-degree-programmes/process-management-and-resource-efficiency/admission-requirements",
+            "https://www.haw-landshut.de/static/Weiterbildung/Dateien/Flyer/26-03-HSL-2310FL-Master_PMR_englisch.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Work experience requirement/preference",
+              "value": "At least 1 year of relevant work experience recommended/required for this part-time MBA & Engineering program (per program flyer, alongside bachelor's degree)",
+              "source_url": "https://www.haw-landshut.de/static/Weiterbildung/Dateien/Flyer/26-03-HSL-2310FL-Master_PMR_englisch.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official admission-requirements page confirms 90 ECTS program structure but no specific subject-area ECTS breakdown for ADMISSION found; could not access full page detail beyond snippet."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "No program-specific GPA found; a GPA of 2.5 found elsewhere applies to a different (German-taught EE) program, not this one - confirmed not published for this specific program."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found; confirmed not published (likely none required)."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting (C1 general level cited by one aggregator vs IELTS 7.0/TOEFL 95 cited for a DIFFERENT English program) - no official PMR-specific figure found despite checking official admission-requirements page excerpt."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Same conflict as IELTS above; not resolved."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not mentioned anywhere; confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; confirmed not published."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Only a 15 July deadline found but explicitly for a different intake path (Hochschulstart EU students); genuine program-specific summer deadline not located - could not access definitive confirmation."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff - not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -22727,7 +30081,51 @@ const DATABASE = {
         "standard_duration": "4 semesters, part-time (combined with work)",
         "faculty_institute": "HECTOR School, Technology Business School",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://hectorschool.kit.edu/admission_requirements_msc.php",
+            "https://ielts.org/receiving-organisations/hector-school-of-engineering-and-management"
+          ],
+          "fields_resolved": [
+            {
+              "field": "TOEFL exact score",
+              "value": "IELTS 6.50 (academic) confirmed via British Council/IELTS.org official receiving-organisation listing for HECTOR School; equivalent TOEFL score not separately itemized",
+              "source_url": "https://ielts.org/receiving-organisations/hector-school-of-engineering-and-management"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official admission_requirements_msc.php page exists but full text beyond general qualification statement wasn't retrievable in search snippet - could not access full page content to extract ECTS breakdown."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found in any source despite checking official admission requirements page and program brochure PDF; could not access full detail."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "HECTOR School programs are typically executive/part-time and usually require work experience, but no specific figure found in retrieved sources - could not access full confirmation despite being a HECTOR School hallmark requirement."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found; confirmed not published (likely none required, executive program likely waives this)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not mentioned anywhere; only IELTS found. Confirmed not published for PTE specifically."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; could not access full admission_requirements_msc.php content to check."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "One directory notes 100% of listed intake is in summer, implying a summer-only intake, but exact date not found - could not access official deadline page content."
+            }
+          ]
+        }
       }
     },
     {
@@ -22846,7 +30244,43 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Cooperation with Technische Universität Braunschweig",
         "intake_semester": "Winter",
-        "teaching_language": "English; Master's thesis can be written in English or German"
+        "teaching_language": "English; Master's thesis can be written in English or German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.studieren-in-niedersachsen.de/en/course-of-studies/quantum-engineering-master-of-science.html",
+            "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8284"
+          ],
+          "fields_resolved": [
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "value": "No fixed numeric GPA cutoff found - program is listed as 'without admission restriction' (zulassungsfrei); any bachelor's in physics, optical technologies, or related engineering science with suitable subject matter qualifies",
+              "source_url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8284"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "DAAD listing gives general field requirements (physics/optical tech/engineering) but no specific ECTS-per-subject table; admission regulations referenced but not directly accessed."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found; confirmed not published (likely not required)."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found; confirmed not published (likely none required, open admission)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found in any source; a partner institution (Braunschweig) page mentions a 'language requirements' section but test details were cut off - could not access full content."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting: one source says tuition-free (870 EUR/year cited by Mastersportal likely = semester contribution, not tuition); could not definitively resolve the EUR 870/year figure's nature - could not access official fee page to disambiguate."
+            }
+          ]
+        }
       }
     },
     {
@@ -22965,7 +30399,49 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Department of Physics",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.uni-siegen.de/nt/quantumscience/admission.html",
+            "https://www.uni-siegen.de/incoming/organization/regulations/2024-08-13_rpo-m_quantum_science_englisch.pdf",
+            "https://www.uni-siegen.de/en/study/master/quantum-science"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "value": "Bachelor's degree must be acquired with a grade of at least 2.7 (German scale)",
+              "source_url": "https://www.uni-siegen.de/incoming/organization/regulations/2024-08-13_rpo-m_quantum_science_englisch.pdf"
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "value": "Same 2.7 grade threshold applies (per official RPO regulations PDF)",
+              "source_url": "https://www.uni-siegen.de/incoming/organization/regulations/2024-08-13_rpo-m_quantum_science_englisch.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official page notes eligibility for BSc in physics, mathematics, computer science, or electrical engineering, with a summer-entry route requiring 15 ECTS in quantum physics lectures specifically - this is the closest ECTS detail found but not a full breakdown table."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention found; confirmed not published (likely not required)."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found; confirmed not published (likely none required)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Official admission page points to a separate international-students admissions page for English-proficiency rules, which wasn't directly fetched/accessible - could not access to confirm PTE acceptance or score."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting: tuition-free per Expatrio, but myguide notes semester contributions/living costs still apply without giving exact figure - could not access official fee breakdown."
+            }
+          ]
+        }
       }
     },
     {
@@ -23085,7 +30561,45 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Civil Engineering (Research Center Railways)",
         "intake_semester": "Winter",
-        "teaching_language": "English; some electives in German"
+        "teaching_language": "English; some electives in German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.academy.rwth-aachen.de/en/education-formats/msc-degree-programmes/robosys",
+            "https://www.mygermanuniversity.com/subjects/robotic-systems-engineering/application-deadlines"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Note: this search was actually for RoboSys program details; RSE/Railway Systems Engineering page (rse.rwth-aachen.de) remains unreachable due to certificate error as originally reported, and academy.rwth-aachen.de has no clearly separate page specifically for 'Railway Systems Engineering' distinct from RoboSys - genuinely could not access due to certificate error, confirmed as inaccessible."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Conflicting third-party figures (3.0, 3.0-3.5, 60-65% - the latter for an unrelated Data Science program); could not confirm via official source due to certificate error blocking rse.rwth-aachen.de."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Could not access official page due to certificate error; no reliable third-party confirmation found either."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "One aggregator explicitly states 'RWTH does not accept Duolingo or PTE Academic' for English-taught programs in general, which would mean PTE is NOT accepted, but this needs official confirmation - could not access due to certificate error on official program page."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Could not access due to certificate error; not found in aggregators either."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting (no tuition + ~318 EUR vs ~330 EUR semester fee); could not resolve exact figure via official source due to certificate error."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same issue as GPA cutoff above - could not access due to certificate error."
+            }
+          ]
+        }
       }
     },
     {
@@ -23204,7 +30718,42 @@ const DATABASE = {
         "standard_duration": "3 or 4 semesters (4-semester variant adds internship, starts only in summer)",
         "faculty_institute": "Faculty of Electrical Engineering and Computer Science",
         "intake_semester": "Winter",
-        "teaching_language": "English only (thesis also in English)"
+        "teaching_language": "English only (thesis also in English)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hochschule-stralsund.de/en/reemm",
+            "https://www.hochschule-stralsund.de/storages/hs-stralsund/FAK_ETI/Dateien/REEMM/Rechtsvorschriften/FPO_M_REEM_Lesefassung_Non-official_reading_version_01032022.pdf",
+            "https://www.hochschule-Stralsund.de/storages/hs-stralsund/FAK_ETI/Dateien/REEMM/Rechtsvorschriften/SO_M_REEM_Non-official_reading_version_02032022.pdf"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Located the official examination regulations PDFs (FPO_M_REEM and SO_M_REEM) but could not extract specific ECTS-per-subject admission criteria from search snippets; these PDFs would need direct fetch to confirm - could not access full PDF content via search alone, recommend direct WebFetch of these two PDFs as next step."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned in any source including official program page; the 3-vs-4 semester track depends on 'academic background' but not explicitly work experience - confirmed not published for work experience specifically."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No mention found anywhere; confirmed not published (likely none required)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Official page has a 'Language requirements' heading but the specific text wasn't captured in the search snippet - could not access full content, would need direct page fetch."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; could not access due to same snippet-truncation issue as above."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "No tuition figure found; only general Stralsund living-cost estimate (550-700 EUR/month) found, which is not a tuition/fee figure - confirmed not published in sources reviewed."
+            }
+          ]
+        }
       }
     },
     {
@@ -23323,7 +30872,52 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.academy.rwth-aachen.de/en/education-formats/msc-degree-programmes/robosys",
+            "https://www.mygermanuniversity.com/subjects/robotic-systems-engineering/application-deadlines"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Faculty/Institute name",
+              "value": "Institute of Mechanism Theory, Machine Dynamics and Robotics (IGMR), RWTH Aachen University - academic direction of the RoboSys program",
+              "source_url": "https://www.academy.rwth-aachen.de/en/education-formats/msc-degree-programmes/robosys"
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "value": "Relevant work experience is required (alongside a bachelor's degree) per official RWTH Academy admission requirements",
+              "source_url": "https://www.academy.rwth-aachen.de/en/programs/masters-degree-programs/detail/msc-robotic-systems-engineering"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Not found; official academy page lists 'Bachelor Degree + Relevant Work Experience' as general categories only, no ECTS subject breakdown - confirmed not published in that detail."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "No GPA figure found anywhere; confirmed not published online."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "No program-specific score found; general RWTH English-taught program conflicting figures (5.5 vs 6.5/90 TOEFL, PTE not accepted per one source) found but not confirmed specific to RoboSys - could not access to resolve."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Same conflicting situation as IELTS; one aggregator claims RWTH generally does not accept PTE Academic, but unconfirmed for RoboSys specifically."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; confirmed not published."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Only winter deadlines found (1 March / 15 January per different aggregators, conflicting); no summer deadline found in any source - the program recommends completing a 'German Engineering College' pre-program first and appears winter-intake-only, suggesting summer deadline may genuinely not exist - treating as confirmed not published (possibly winter-only intake)."
+            }
+          ]
+        }
       }
     },
     {
@@ -23443,7 +31037,41 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Faculty of Applied Natural Sciences and Industrial Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.study.eu/university/deggendorf-institute-of-technology/meng-intelligent-robotics",
+            "https://www.gradgermany.com/programmes/robotics-meng-technische-hochschule-deggendorf"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "th-deg.de/ir-m-en still returns 404 as originally reported; no alternate official URL for this exact program found despite search; aggregators give only general 'bachelor's + aptitude test' description, no ECTS table - genuinely could not access official source."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "No GPA found for this specific program; a generic chart exists for a different DIT program (Mechatronic and Cyber-Physical Systems) but doesn't transfer - confirmed not published for Robotics MEng specifically."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned; confirmed not published (likely not required, aptitude test substitutes)."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "A figure (TOEFL 72/PTE 59/IELTS 5.5) was found but explicitly for a different, related DIT program, not confirmed to apply to Robotics MEng - could not access the correct official page (404) to confirm applicability."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; could not access due to 404 on official program page."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting figures from sibling DIT programs (72 EUR vs 82 EUR semester fee, no tuition for EU/EEA); could not confirm the exact figure for Robotics MEng specifically due to 404 on official page - recommend trying th-deg.de's general international-programs fee page directly as next step."
+            }
+          ]
+        }
       }
     },
     {
@@ -23562,7 +31190,52 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Department of SciTec",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%); thesis can be in English or German"
+        "teaching_language": "English (100%); thesis can be in English or German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.eah-jena.de/fileadmin/user_upload/eah-jena.de/fachbereich/scitec/download/SI_Ma/Scitec_MA_Scientific_Instrumentation_Nov_2022_web.pdf",
+            "https://eah-jena.de/en/study/international-students-applicants/admission-requirements"
+          ],
+          "fields_resolved": [
+            {
+              "field": "TOEFL exact score",
+              "value": "TOEFL PBT 550 / iBT 79 (certificate not older than 2 years); IELTS overall 6.0 also accepted",
+              "source_url": "https://www.eah-jena.de/fileadmin/user_upload/eah-jena.de/fachbereich/scitec/download/SI_Ma/Scitec_MA_Scientific_Instrumentation_Nov_2022_web.pdf"
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "value": "Program does not use a simple GPA cutoff; uses a 115-point admission scoring system, minimum 50/115 points required (academic record plus up to 15 bonus points for relevant research/publications); bachelor must be in a technical/scientific field (physics, precision engineering, mechatronics, electronic engineering, etc.)",
+              "source_url": "https://www.eah-jena.de/fileadmin/user_upload/eah-jena.de/fachbereich/scitec/download/SI_Ma/Scitec_MA_Scientific_Instrumentation_Nov_2022_web.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Checked program brochure and admission-requirements page; only mentions eligible bachelor subject fields, no ECTS-per-subject-area table. Confirmed not published online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "No mention in brochure, SGB (study/exam regs) PDF list, or admissions page. Confirmed not published online."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "No GRE/aptitude test mentioned anywhere; admission uses internal points system instead. Confirmed not published online."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Only TOEFL/IELTS listed as accepted tests; no PTE or Cambridge equivalence stated on official pages. Confirmed not published online."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Searched 'exemption' and 'native speaker' phrasing in brochure; only generic note that applicants may apply without a certificate pending conditional admission -- no explicit MOI/degree-taught-in-English exemption clause found. Confirmed not published online."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Program appears to admit winter intake primarily per checklist PDF; no explicit summer-semester deadline found on admissions or checklist pages. Confirmed not published online."
+            }
+          ]
+        }
       }
     },
     {
@@ -23681,7 +31354,46 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Summer",
-        "teaching_language": "100% English"
+        "teaching_language": "100% English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "WebSearch of h-ka.de SSTM pages and general HKA language-requirements pages returned no HKA-specific results; only other universities' pages surfaced. Tried site:h-ka.de search for language requirements, PO/Zulassungsordnung filetype:pdf searches did not surface an SSTM-specific PO. Confirmed not published online (could not locate)."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found in any HKA source retrieved."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "site:h-ka.de search returned zero HKA pages; general search surfaced only other universities' language pages (not applicable). Could not access the actual h-ka.de SSTM or language-requirements page in this pass."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Same as IELTS -- could not access relevant h-ka.de page."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -23800,7 +31512,46 @@ const DATABASE = {
         "standard_duration": "3 semesters full-time or 5 semesters part-time",
         "faculty_institute": "Faculty of Architecture and Design",
         "intake_semester": "Winter",
-        "teaching_language": "English, entire programme"
+        "teaching_language": "English, entire programme",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hft-stuttgart.com/fileadmin/Dateien/Architektur-Gestaltung/Master-Smart-City-Solutions/Downloads_1-10/SCS_Master_09_AdmissionStatute_11-2024.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "GRE/aptitude test requirement",
+              "value": "No GRE required; admission is via a selection committee review and an admission interview (competitive/NC program), per the 2024 Admission Statute",
+              "source_url": "https://www.hft-stuttgart.com/fileadmin/Dateien/Architektur-Gestaltung/Master-Smart-City-Solutions/Downloads_1-10/SCS_Master_09_AdmissionStatute_11-2024.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Admission statute PDF title found but full text not retrievable in this pass to confirm ECTS subject-area table; third-party aggregators give no ECTS breakdown. Could not fully access/verify the PDF content -- treat as 'could not access' rather than confirmed absent."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not mentioned in any source found; program is a 'Continuing Education Programme' per official page, which often implies work experience is relevant, but no explicit requirement text located. Confirmed not published online in the sources accessed."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Only a third-party (non-official) figure of TOEFL 80 surfaced; could not confirm against hft-stuttgart.com official page. Could not access official figure."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found anywhere."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Conflicting third-party deadlines (15 May, 15 Jul, 15 Apr) found but no official hft-stuttgart.com confirmation; program may be winter-only. Could not resolve definitively."
+            }
+          ]
+        }
       }
     },
     {
@@ -23919,7 +31670,49 @@ const DATABASE = {
         "standard_duration": "3 semesters, full-time only",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%); thesis English or German"
+        "teaching_language": "English (100%); thesis English or German",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hs-ansbach.de/fileadmin/Redaktion/Amtliches/Pruefungsordnungen/SPO_SES_20212_Gesamt_P_22.04.2021.pdf",
+            "https://www.hs-ansbach.de/fileadmin/Redaktion/Master/SES/2021-03-23_Info_Sheet_SES_V2_en.pdf"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Located official SPO (examination regulations) PDF with qualification requirements in §4, but detailed ECTS subject breakdown not retrievable from search snippet; would need full PDF fetch. Could not fully access/confirm."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found in info sheet or SPO snippet."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no aptitude test mentioned."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not found; info sheet references only SPO (German) for exact language requirements."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Program is winter-intake only per Steckbrief; no summer deadline exists -- confirmed not applicable rather than missing."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Found program contacts (Ralph-Peter Kappestein, Prof. Dr.-Ing. Johannes Jungwirth) but not an explicit faculty/institute name. Confirmed not clearly published in sources accessed."
+            }
+          ]
+        }
       }
     },
     {
@@ -24038,7 +31831,56 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Physics and Electrical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English; German elective module available"
+        "teaching_language": "English; German elective module available",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "No tuition fee at University of Bremen; only a semester contribution (figures from third-party sources ranged ~370-425 EUR, not officially confirmed on uni-bremen.de in this pass)",
+              "source_url": "https://www.uni-bremen.de/en/faculty-1-physics-electrical-engineering/studies/degree-programs/space-sciences-and-technologies-space-st-msc"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official program 'Key data' section was cut off in retrieval; third-party sources give no ECTS breakdown. Could not fully access official page content."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "One aggregator (Mastersportal) explicitly states no GPA requirement is known; another (low-reliability) site claims 2.5 German-scale. Given conflict and no official confirmation, treat as confirmed not published online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found in any source."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no GRE mentioned."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Conflicting figures (TOEFL 95 vs 72) from different aggregators, no official uni-bremen.de confirmation found. Could not resolve definitively."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Program appears winter-intake only per most sources (though one conflicting source mentions a Jan 15 summer window for advanced students only); not confirmed officially."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as Minimum GPA/grade cutoff above -- not confirmed."
+            }
+          ]
+        }
       }
     },
     {
@@ -24157,7 +31999,36 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time, 120 ECTS",
         "faculty_institute": "Faculty of Sustainable Infrastructure",
         "intake_semester": "Summer",
-        "teaching_language": "English, with some optional German-language courses"
+        "teaching_language": "English, with some optional German-language courses",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.thi.de/fileadmin/daten/fakultaetNI/Modulhandbuecher/SMT/Module_handbook_Master_SMT_SS_2026__SPO_2025_.pdf"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Module handbook lists general admission criteria (English B2) but defers subject/ECTS specifics to a separate 'Statutes on the aptitude test' document that was not located in search results. Could not fully access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found in module handbook excerpt."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Only B2-level English stated generically; no specific PTE score given. Confirmed not published in accessible sources."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Module handbook explicitly defers GPA/grade threshold to the separate aptitude-test statute document, which was not retrievable in this pass. Could not fully access."
+            }
+          ]
+        }
       }
     },
     {
@@ -24277,7 +32148,46 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Department of Business Administration and Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English; German-taught electives possible if proficient"
+        "teaching_language": "English; German-taught electives possible if proficient",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "No official THM admissions page with ECTS breakdown found; only generic '180 ECTS in engineering/business/social science background' from a third-party (not fully reliable). Confirmed not accessible in official form."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found on any official THM page; third-party sites give no GPA figure either."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no GRE mentioned anywhere."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Only third-party agency recommendation (6.5) found, not an official THM figure; also conflicting B2 CEFR figure from another aggregator. Could not resolve definitively against an official source."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Only generic agency estimate of semester contribution ~150-350 EUR; no official THM figure located. Confirmed not accessible."
+            }
+          ]
+        }
       }
     },
     {
@@ -24396,7 +32306,53 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.hs-rm.de/fileadmin/HSRM/Veroeffentlichungen/Amtliche_Mitteilungen/1000-1099/1031e.pdf",
+            "https://www.hs-rm.de/en/international/from-abroad/international-students/studium/english-masters-programs"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official admission regulation (dated 07.05.2026) PDF found; excerpt covers prior-degree equivalence clause but was truncated before reaching any ECTS/subject table. Could not fully access full PDF content in this pass."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found in retrieved excerpt."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no aptitude test mentioned."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found; only NC (numerus clausus) status confirmed, no language test table reached."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not found in any source; program is part-time, fee structure likely differs from standard programs but not stated."
+            },
+            {
+              "field": "Faculty/Institute name",
+              "attempt_note": "Not explicitly named in sources retrieved."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as GPA cutoff above -- not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -24515,7 +32471,57 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Institute of Applied Physics / Center for Advancing Electronics Dresden (cfaed)",
         "intake_semester": "Winter",
-        "teaching_language": "English, throughout"
+        "teaching_language": "English, throughout",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://tu-dresden.de/mn/physik/studium/master-sep/application",
+            "https://tu-dresden.de/studium/vor_dem_studium/bewerbung/bewerbungsfristen"
+          ],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official eligibility PDF (EFO_Sustainable-Electronics-and-Photonics) found but content truncated in retrieval; general eligibility text only mentions required prior degree fields (physics, chemistry, EE, materials science), no ECTS table reached. Could not fully access."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found in accessible excerpts."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no aptitude test mentioned."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Official application page lists 'April 1 | May 31' without clearly stating which applies to winter vs. which applicant group; could not disambiguate from snippet. Could not fully access/clarify."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Same ambiguity as winter deadline above."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Only third-party estimates (~€150-350 semester contribution) found; no official TU Dresden figure confirmed."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Not found."
+            }
+          ]
+        }
       }
     },
     {
@@ -24634,7 +32640,58 @@ const DATABASE = {
         "standard_duration": "4 semesters (24-month programme)",
         "faculty_institute": "Department of Sustainable Energy and Development",
         "intake_semester": "Winter",
-        "teaching_language": "English"
+        "teaching_language": "English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://uni-flensburg.de/europeanstudies/application-admission"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Exact total tuition+fee per semester",
+              "value": "Europa-Universität Flensburg charges no tuition fee; administrative/semester fee of 241 EUR per semester plus a one-time 25 EUR inscription fee (general university-wide figure, not SEDev-specific confirmation)",
+              "source_url": "https://uni-flensburg.de/europeanstudies/application-admission"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "SEDev-specific admission page (/sedev/admission) not retrieved; only a different program's (European Studies) application page found, which references '§2 of the Rules and Regulations (Statutes)' for admission detail -- not SEDev-specific. Could not access the actual /sedev/admission page in this pass."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Conflicting third-party figures (2.5 German scale, for a different program); no SEDev-specific official confirmation."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting third-party figures (6.5/7.0 for other programs at same university); no SEDev-specific figure located."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting deadlines (1 July, 15 July, 31 August) cited for different program types at the university; SEDev-specific deadline not isolated."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found; program may be winter-intake only, not confirmed."
+            }
+          ]
+        }
       }
     },
     {
@@ -24754,7 +32811,55 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Department of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%); optional German-taught courses with credit transfer approval; thesis must be English"
+        "teaching_language": "English (100%); optional German-taught courses with credit transfer approval; thesis must be English",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.tu-dortmund.de/en/study-program-details/sustainable-energy-systems-918",
+            "https://etit.tu-dortmund.de/storages/etit/r/Startseite/Studium_und_Lehre/Studiengaenge/Master_SES/Dokumente/MPO_Sustainable_Energy_Systems_Entwurf.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "value": "Program confirmed as admission-free (no NC/numerus clausus); per Mastersportal no specific GPA/GRE/GMAT score requirement is imposed (secondary source, not primary confirmation)",
+              "source_url": "https://www.tu-dortmund.de/en/study-program-details/sustainable-energy-systems-918"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official MPO (examination regulations draft) PDF found at etit.tu-dortmund.de (previously reported as server error; resolvable via direct PDF link this time) but full content not retrieved in this pass to confirm subject-area ECTS table. Could not fully access."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; program is admission-free (no aptitude test implied)."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting figures (7.0 vs 6.5) from third-party aggregators; no official TU Dortmund figure confirmed."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Only a summer-semester deadline (15 Jan) found via third party; no winter deadline located despite program admitting both intakes per DAAD listing."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as resolved field above but for the specific internal registration GPA metric -- not separately confirmed."
+            }
+          ]
+        }
       }
     },
     {
@@ -24874,7 +32979,46 @@ const DATABASE = {
         "standard_duration": "4 semesters",
         "faculty_institute": "Faculty of Civil Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English (fully); optional German course available"
+        "teaching_language": "English (fully); optional German course available",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "fb3.rwth-aachen.de and lfi.rwth-aachen.de both unreachable again (connection refused) in this pass; no alternate official RWTH page located via search. Could not access."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Only unrelated general RWTH consultancy figure (2.5) found, not program-specific. Could not confirm."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Only one unverified third-party figure (IELTS 6.0) found, not an official RWTH confirmation."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting third-party deadlines (15 Sep for this program vs 15 Jan for an unrelated RWTH program); could not confirm official date, official page unreachable."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Not found; official page unreachable."
+            }
+          ]
+        }
       }
     },
     {
@@ -25113,7 +33257,50 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time",
         "faculty_institute": "Faculty of Electrical Engineering and Information Technology",
         "intake_semester": "Winter",
-        "teaching_language": "English; some modules may be German (per module catalogue); exams in English unless agreed otherwise"
+        "teaching_language": "English; some modules may be German (per module catalogue); exams in English unless agreed otherwise",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "elektrotechnik.rwth-aachen.de unreachable (connection refused) again in this pass; no alternate official page found. Could not access."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Not found for this specific major; general RWTH figure (2.5) is unconfirmed/not program-specific."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no GRE mentioned for RWTH EE&IT programs."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting figures (6.5 vs 6.0) from different third-party/older RWTH presentation sources; official page unreachable to confirm current value."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting dates (1 March / 15 Sept from an outdated 2022-2023 guide) found; RWTH states deadline depends on country of prior degree, exact current date not confirmed; official page unreachable."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Not found; RWTH is generally tuition-free aside from semester contribution, exact figure not confirmed for this program."
+            }
+          ]
+        }
       }
     },
     {
@@ -25232,7 +33419,50 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Faculty of Mechanical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English only"
+        "teaching_language": "English only",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "sem.ovgu.de itself did not surface in search; only general OVGU subpages (isp.ovgu.de, eurostud.ovgu.de) found, none with an SEM-specific ECTS breakdown. Could not access the dedicated program admissions page."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "Conflicting figures from unrelated OVGU programs (2.0 for EE MSc, 2.5 for business MSc); no SEM-specific figure found."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; one program mentions an online interview requirement but not GRE/aptitude test specifically, and not confirmed as SEM-specific."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Conflicting figures from unrelated OVGU programs (6.0 vs 6.5); no SEM-specific confirmation."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact summer deadline",
+              "attempt_note": "Conflicting winter deadlines found for unrelated OVGU programs (15 Sept Abitur / 15 July uni-assist); no SEM summer deadline located."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "OVGU is tuition-free with semester contribution cited variably (€130-€329); no SEM-specific or definitive official figure found."
+            }
+          ]
+        }
       }
     },
     {
@@ -25351,7 +33581,58 @@ const DATABASE = {
         "standard_duration": "3 semesters, 90 credit points (1.5 years)",
         "faculty_institute": "Fachbereich Technik / Faculty Technology, Department of Mechanical Engineering",
         "intake_semester": "Winter",
-        "teaching_language": "English, 100%"
+        "teaching_language": "English, 100%",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "No official hs-emden-leer.de page surfaced beyond the already-consulted program page; only third-party aggregators with generic 'engineering/CS/natural sciences' eligibility text, no ECTS breakdown. Confirmed not accessible in this pass."
+            },
+            {
+              "field": "Minimum GPA/grade cutoff",
+              "attempt_note": "One third-party figure (2.5 German scale) flagged by the source itself as likely a generic template reused across multiple Emden programs -- unreliable, not confirmed."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "IELTS exact score",
+              "attempt_note": "Only third-party figure (6.0 overall) found, not confirmed against an official hs-emden-leer.de page."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "One source explicitly states German language certification is NOT required for this English-medium program, but that doesn't address an MOI exemption for the English requirement itself; not confirmed."
+            },
+            {
+              "field": "Exact winter deadline for non-EU",
+              "attempt_note": "Conflicting deadlines (30 Apr vs others) from third-party sources, no official confirmation."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "Conflicting tuition figures (5,980 EUR/semester vs 11,960 EUR/year) between sources, including one claiming to be the official program page figure but not independently verified against hs-emden-leer.de directly in this pass."
+            },
+            {
+              "field": "GPA requirement (requirements_registration)",
+              "attempt_note": "Same as Minimum GPA/grade cutoff -- not confirmed."
+            }
+          ]
+        }
       }
     },
     {
@@ -25470,7 +33751,34 @@ const DATABASE = {
         "standard_duration": "4 semesters (regular track) or 3 semesters (fast track)",
         "faculty_institute": "Faculty of Automation and Computer Science",
         "intake_semester": "Winter",
-        "teaching_language": "English; German courses included"
+        "teaching_language": "English; German courses included",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [],
+          "fields_resolved": [],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "No official hs-harz.de admission page reached; third-party sources mention a 210 ECTS 'Fast Track' eligibility rule and a prior-degree subject list, but no formal ECTS-per-subject-area breakdown. Could not access official page."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Conflicting: one aggregator lists GMAT>=500/GRE score thresholds as admission tests for this program, another (unrelated-program) source says GRE not required at Hochschule Harz generally. Could not resolve definitively without the official page."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Two third-party sources cite PTE Academic minimum 55 (consistent with each other) but neither is the official hs-harz.de page; treat as plausible but unconfirmed."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found; no alternate phrasing searches ('native speaker exemption', 'degree taught in English') surfaced anything for this program."
+            }
+          ]
+        }
       }
     },
     {
@@ -25589,7 +33897,51 @@ const DATABASE = {
         "standard_duration": "3 semesters",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%); additional German courses offered"
+        "teaching_language": "English (100%); additional German courses offered",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://www.h2.de/en/studies/masters-programmes/water-engineering.html",
+            "https://studieren.h2.de/en/studiengaenge/master/water-engineering"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Faculty/Institute name",
+              "value": "Study advisor contact: Prof. Kilian Smith (water.engineering@h2.de); general international office contact study@h2.de -- exact formal institute/faculty name not stated, only contact persons found",
+              "source_url": "https://www.h2.de/en/studies/masters-programmes/water-engineering.html"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Official page states a general requirement of min. grade 2.0 degree over >=7 semesters/210 ECTS in Water Management, Civil Engineering or related field, but gives no subject-area ECTS breakdown. Confirmed not published in detail online."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no aptitude test mentioned."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Conflicting/garbled third-party figures found (none reliable); no official H2 TOEFL figure located. Confirmed not published online in accessible official sources."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "One unverified aggregator claims EUR 0/year tuition (consistent with H2 being a public tuition-free university) but no official semester-contribution figure found."
+            }
+          ]
+        }
       }
     },
     {
@@ -25708,7 +34060,51 @@ const DATABASE = {
         "standard_duration": "4 semesters, full-time only",
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
-        "teaching_language": "English (100%)"
+        "teaching_language": "English (100%)",
+        "gap_fill_pass": {
+          "checked_on": "2026-11-08",
+          "new_sources_found": [
+            "https://hs-flensburg.de/satzung/FB2/Study_and_Examination_Regulations_Wind_2026.pdf",
+            "https://hs-flensburg.de/sites/default/files/studiengang/2026/onlineflyer_m_we_engl_0.pdf"
+          ],
+          "fields_resolved": [
+            {
+              "field": "Faculty/Institute name",
+              "value": "Program is housed in FB2 (Fachbereich 2) per the regulations document path; English flyer names Prof. Dr.-Ing. Torsten Faber in connection with the program as a faculty contact (no further formal institute name confirmed)",
+              "source_url": "https://hs-flensburg.de/satzung/FB2/Study_and_Examination_Regulations_Wind_2026.pdf"
+            }
+          ],
+          "fields_still_missing": [
+            {
+              "field": "ECTS subject-area breakdown for admission",
+              "attempt_note": "Located the official 2026 Study and Examination Regulations PDF with a dedicated admission section (§4), but full text/ECTS table not retrieved in this pass. Could not fully access -- promising source exists."
+            },
+            {
+              "field": "Work experience requirement/preference",
+              "attempt_note": "Not found in flyer or regulations snippet."
+            },
+            {
+              "field": "GRE/aptitude test requirement",
+              "attempt_note": "Not found; no aptitude test mentioned."
+            },
+            {
+              "field": "TOEFL exact score",
+              "attempt_note": "Only a third-party consultancy figure (TOEFL iBT ~61+) found, not confirmed against the official regulations PDF. Could not fully verify."
+            },
+            {
+              "field": "PTE/other English test scores",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Medium of Instruction (MOI) exemption policy",
+              "attempt_note": "Not found."
+            },
+            {
+              "field": "Exact total tuition+fee per semester",
+              "attempt_note": "No figure surfaced from official or third-party sources; genuinely appears unpublished online. Confirmed not published online."
+            }
+          ]
+        }
       }
     }
   ],

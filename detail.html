@@ -622,6 +622,23 @@ ${prog.official_website_data.deep_recheck ? `
         </div>` : ''}
       </div>
       ` : ""}
+${prog.official_website_data.gap_fill_pass ? `
+      <div style="margin-top:16px;background:rgba(126,227,184,.05);border:1px solid rgba(126,227,184,.3);border-radius:10px;padding:14px;">
+        <div style="font-weight:700;font-size:.85rem;margin-bottom:8px;">Targeted gap-filling pass (${prog.official_website_data.gap_fill_pass.checked_on}) - hunted for fields still missing after earlier passes</div>
+        ${(prog.official_website_data.gap_fill_pass.fields_resolved||[]).length ? `
+        <div style="font-size:.82rem;font-weight:700;color:var(--good);text-transform:uppercase;margin-bottom:6px;">Newly resolved:</div>
+        <ul style="padding-left:18px;margin:0 0 10px;font-size:.84rem;line-height:1.7;">
+          ${prog.official_website_data.gap_fill_pass.fields_resolved.map(f => '<li><b>' + f.field + ':</b> ' + f.value + (f.source_url ? ' <a href="' + f.source_url + '" target="_blank" rel="noopener" style="color:var(--accent);">[source]</a>' : '') + '</li>').join('')}
+        </ul>` : '<div style="font-size:.84rem;color:var(--muted);margin-bottom:10px;">No additional fields resolved in this pass.</div>'}
+        ${(prog.official_website_data.gap_fill_pass.fields_still_missing||[]).length ? `
+        <details>
+          <summary style="font-size:.8rem;cursor:pointer;color:var(--muted);">${prog.official_website_data.gap_fill_pass.fields_still_missing.length} field(s) genuinely not found after targeted search (click to see why)</summary>
+          <ul style="padding-left:18px;margin:8px 0 0;font-size:.8rem;line-height:1.6;color:var(--muted);">
+            ${prog.official_website_data.gap_fill_pass.fields_still_missing.map(f => '<li><b>' + f.field + ':</b> ' + f.attempt_note + '</li>').join('')}
+          </ul>
+        </details>` : ''}
+      </div>
+      ` : ""}
 <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap;">
         <a class="quick-btn" href="${prog.official_website_data.official_source_url}" target="_blank" rel="noopener">🌐 বিশ্ববিদ্যালয়ের মূল প্রোগ্রাম পেজ ↗</a>
         ${prog.official_website_data.official_spo_pdf ? `<a class="quick-btn" href="${prog.official_website_data.official_spo_pdf}" target="_blank" rel="noopener">📄 অফিশিয়াল পরীক্ষা নীতিমালা (SPO PDF) ↗</a>` : ""}
