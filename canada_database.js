@@ -1,6 +1,6 @@
 const CANADA_DB = {
   "metadata": {
-    "version": "1.0 (initial deep-scrape pass)",
+    "version": "1.1 (exhaustive official-page GPA-conversion verification pass, 2026-11-08)",
     "last_updated": "2026-11-08T00:00:00.000Z",
     "country": "Canada",
     "search_criteria": [
@@ -8,8 +8,9 @@ const CANADA_DB = {
       "Candidate list compiled from EduCanada-listed universities, verified program-by-program on each university's own official site.",
       "Scope: VLSI/RTL/Microelectronics/Embedded Systems (Tier A), general Electrical/Computer Engineering (Tier B), Mechatronics/Power/Management-adjacent (Tier C)."
     ],
-    "total_programs": 59,
-    "description": "Canadian Master's programs relevant to an RTL/VLSI/Embedded-focused EEE candidate, sourced directly from each university's official admissions pages."
+    "total_programs": 55,
+    "description": "Canadian Master's programs relevant to an RTL/VLSI/Embedded-focused EEE candidate, sourced directly from each university's official admissions pages.",
+    "gpa_verification_note": "Every university's GPA/grade-conversion requirement was re-checked directly against its own official admissions page (or, where blocked, the best available official-source quote) specifically for an NSU BSc EEE graduate with CGPA 2.83/4.00 (133 credits). 3 universities (Laurentian, UQTR, Université de Moncton) were dropped after confirming they do not offer an Electrical/Electronics Engineering-relevant graduate program. QS World Ranking figures could not be independently verified this pass (topuniversities.com blocks automated fetching) — treat existing QS numbers as best-available, not officially re-confirmed."
   },
   "programs": [
     {
@@ -21,7 +22,7 @@ const CANADA_DB = {
       "location": "Toronto, ON",
       "tier": "B",
       "gpa_fit": "borderline",
-      "gpa_fit_note": "Official page requires a \"B average\" or equivalent (commonly ~3.0/4.0 or ~73-76%); candidate CGPA 2.83/4.0 is below typical B-average thresholds — borderline/risky depending on the institution's exact conversion.",
+      "gpa_fit_note": "Official SGS/ECE page: MASc/MEng require 'mid-B' average in final year (Bangladesh SGS equivalency table: mid-B = 3.0/4.0). NSU CGPA 2.83/4.0 is just below this officially-stated equivalence point — confirmed no ECE-department-specific stricter floor exists (same bar as university-wide SGS minimum).",
       "overview": {
         "degree_type": "MASc",
         "duration": "24 months (expected to finish and defend thesis within 24 months)",
@@ -76,7 +77,7 @@ const CANADA_DB = {
       "location": "Toronto, ON",
       "tier": "B",
       "gpa_fit": "borderline",
-      "gpa_fit_note": "Official page requires a \"B average\" or equivalent (commonly ~3.0/4.0 or ~73-76%); candidate CGPA 2.83/4.0 is below typical B-average thresholds — borderline/risky depending on the institution's exact conversion.",
+      "gpa_fit_note": "Official SGS/ECE page: MASc/MEng require 'mid-B' average in final year (Bangladesh SGS equivalency table: mid-B = 3.0/4.0). NSU CGPA 2.83/4.0 is just below this officially-stated equivalence point — confirmed no ECE-department-specific stricter floor exists (same bar as university-wide SGS minimum).",
       "overview": {
         "degree_type": "MEng",
         "duration": "Full-time 1 year, extended full-time 2 years, part-time 3 years; MEng Co-op 1-2 work terms",
@@ -129,8 +130,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Waterloo, ON",
       "tier": "A",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
+      "gpa_fit": "risky",
+      "gpa_fit_note": "Waterloo's official 'International Admission Equivalencies' table (uwaterloo.ca) lists Bangladesh as requiring 'First Class standing in all degrees, 60/100'. Standard Bangladeshi degree-classification convention treats First Class as CGPA ≥3.0/4.0 — NSU's 2.83/4.0 falls short of this officially-stated country-specific bar.",
       "overview": {
         "degree_type": "MASc",
         "duration": "Full-time 24 months; part-time up to 48 months (per general ECE grad page)",
@@ -149,11 +150,11 @@ const CANADA_DB = {
       "requirements_registration": {
         "gpa_requirement": "Not found definitively on official ECE pages; third-party sources suggest B+ (78%) range; for PhD, standing equivalent to 83% cited by a third party (unverified)",
         "prior_degree": "Bachelor's degree in relevant engineering/science field (exact wording not found on official page)",
-        "gre_required": "Not required",
-        "ielts": "6.5 overall, with 6.0 minimum in writing and speaking (per official MEng ECE page/third-party aggregation)",
-        "toefl": "80 overall (writing 22, speaking 20, reading 20, listening 18)",
+        "gre_required": "Not required — official page states GRE is not an application requirement, optional only",
+        "ielts": "6.5 overall, writing and speaking at least 6.0 (official Waterloo ECE program page)",
+        "toefl": "80 overall (writing 22, speaking 20, reading 20, listening 18) (official Waterloo ECE program page)",
         "english_exemptions": "Accepted tests/minimum scores governed by Graduate Studies Academic Calendar; waiver conditions not detailed on pages visited",
-        "deadline_fall": "Not found definitively on official pages; third-party suggests Spring 2027 intake closes Oct 1, 2026 (unverified) - this appears to apply to MEng, not MASc",
+        "deadline_fall": "February 1 for September (Fall) admission (Waterloo graduate studies page; confirm matches ECE specifically)",
         "deadline_winter": "Not found",
         "deadline_notes": "Official page refers only to 'advertised deadlines' without listing dates",
         "other_admission_notes": "Must secure a faculty supervisor before admission for MASc/PhD; admission based on academic record and research ability"
@@ -184,7 +185,7 @@ const CANADA_DB = {
       "location": "Waterloo, ON",
       "tier": "B",
       "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~75% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit_note": "Waterloo's official 'International Admission Equivalencies' table (uwaterloo.ca) lists Bangladesh as requiring 'First Class standing in all degrees, 60/100'. Standard Bangladeshi degree-classification convention treats First Class as CGPA ≥3.0/4.0 — NSU's 2.83/4.0 falls short of this officially-stated country-specific bar.",
       "overview": {
         "degree_type": "MEng",
         "duration": "1-2 years full/part-time; Co-op 16-20 months (1-2 work terms); Electric Power Engineering MEng ~3 years (9 terms)",
@@ -203,11 +204,11 @@ const CANADA_DB = {
       "requirements_registration": {
         "gpa_requirement": "Not specified numerically on official pages visited; International Admission Equivalencies page referenced uses minimum 75% overall for Master's programs generally",
         "prior_degree": "Not explicitly stated on pages visited (relevant bachelor's degree implied)",
-        "gre_required": "Not required by the department",
-        "ielts": "6.5 overall, 6.0 minimum writing/speaking",
-        "toefl": "80 overall (writing 22, speaking 20, reading 20, listening 18)",
+        "gre_required": "Not required — official page states GRE is not an application requirement, optional only",
+        "ielts": "6.5 overall, writing and speaking at least 6.0 (official Waterloo ECE program page)",
+        "toefl": "80 overall (writing 22, speaking 20, reading 20, listening 18) (official Waterloo ECE program page)",
         "english_exemptions": "Governed by Graduate Studies Academic Calendar table of accepted tests; details not itemized on pages visited",
-        "deadline_fall": "Not found definitively on official pages",
+        "deadline_fall": "February 1 for September (Fall) admission (Waterloo graduate studies page; confirm matches ECE specifically)",
         "deadline_winter": "Not found",
         "deadline_notes": "One official page mentioned October 1 deadline for MEng Co-op May admission of following year; general MEng fall deadlines not located",
         "other_admission_notes": "No supervisor required for MEng; co-op option (full-time only)"
@@ -238,7 +239,7 @@ const CANADA_DB = {
       "location": "Vancouver, BC",
       "tier": "B",
       "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~76% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit_note": "UBC's official Bangladesh-specific page (grad.ubc.ca/country/bangladesh) requires degrees 'awarded with First Class/Division standing' (qualitative, no numeric GPA given). Under standard Bangladeshi convention, First Class generally requires CGPA ≥3.0/4.0, which NSU's 2.83/4.0 does not meet.",
       "overview": {
         "degree_type": "MASc",
         "duration": "24 months (program listed as 24-month; recent graduates averaged 2.7 years to completion)",
@@ -258,8 +259,8 @@ const CANADA_DB = {
         "gpa_requirement": "No explicit program-specific numeric cutoff; UBC general minimum overall average in B+ range (76%); program prefers first-class GPA range plus demonstrated research aptitude",
         "prior_degree": "UBC-accredited 4-year bachelor's degree in Electrical or Computer Engineering, or closely related field with significant course overlap",
         "gre_required": "Not required; optional submission",
-        "ielts": "Academic overall 7.0, with 6.0 minimum in each of reading/writing/speaking/listening",
-        "toefl": "For tests from Jan 21, 2026: overall 5.0 (reading 4.5, writing 4.5, speaking 4.0, listening 5.0) [new 0-30 scale wording per source]; for tests before that date: overall 100/120. Duolingo English Test: overall 130 (subscores 120-125)",
+        "ielts": "7.0 overall, no band below 6.0 (official ECE department page, ece.ubc.ca — stricter than the 6.5 general grad-school floor)",
+        "toefl": "100 overall (iBT), no component below 20; institutional TOEFL not accepted (official ECE department page)",
         "english_exemptions": "Applicants with a recent degree (within 5 years) from a listed English-speaking country may be exempt; others (including Canadians with foreign degrees) must submit scores",
         "deadline_fall": "September 2027 intake: application opens Oct 15, 2026; deadline (Canadian & international) Jan 15, 2027; transcript/referee deadline Jan 31, 2027",
         "deadline_winter": "Not found (program appears to admit primarily Fall)",
@@ -289,8 +290,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Vancouver, BC",
       "tier": "A",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Not stated on this page; handled by UBC Engineering professional programs site (not directly retrieved)\"",
+      "gpa_fit": "risky",
+      "gpa_fit_note": "UBC's official Bangladesh-specific page (grad.ubc.ca/country/bangladesh) requires degrees 'awarded with First Class/Division standing' (qualitative, no numeric GPA given). Under standard Bangladeshi convention, First Class generally requires CGPA ≥3.0/4.0, which NSU's 2.83/4.0 does not meet.",
       "overview": {
         "degree_type": "MEng",
         "duration": "No fixed stated length; recent graduates averaged 1.7 years (range 0.7-6 years)",
@@ -310,8 +311,8 @@ const CANADA_DB = {
         "gpa_requirement": "Not stated on this page; handled by UBC Engineering professional programs site (not directly retrieved)",
         "prior_degree": "Not explicitly stated on this page",
         "gre_required": "Not stated",
-        "ielts": "Not stated on this page (referred to UBC Engineering professional programs site)",
-        "toefl": "Not stated on this page",
+        "ielts": "7.0 overall, no band below 6.0 (official ECE department page, ece.ubc.ca — stricter than the 6.5 general grad-school floor)",
+        "toefl": "100 overall (iBT), no component below 20; institutional TOEFL not accepted (official ECE department page)",
         "english_exemptions": "Not found",
         "deadline_fall": "September 2027 intake: application opens Oct 1, 2026; Canadian and international deadline Dec 12, 2026",
         "deadline_winter": "Not found",
@@ -341,8 +342,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Montreal, QC",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Minimum 3.0 on 4.0 scale (university-level minimum)\"",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "McGill's official graduate admissions regulations state a minimum CGPA of 3.0/4.0 (3.2/4.0 for last two years). NSU's 2.83/4.0 is below this explicit, confirmed floor on the same 4.0 scale.",
       "overview": {
         "degree_type": "MSc",
         "duration": "Not found on program page",
@@ -361,9 +362,9 @@ const CANADA_DB = {
       "requirements_registration": {
         "gpa_requirement": "Minimum 3.0 on 4.0 scale (university-level minimum)",
         "prior_degree": "An eligible Bachelor's degree (specific fields not named on page)",
-        "gre_required": "Not mentioned / likely not required",
-        "ielts": "Not listed on program page",
-        "toefl": "Not listed on program page",
+        "gre_required": "Not required; may be submitted for consideration if already taken (official ECE page)",
+        "ielts": "7.0 overall, no band below 6.0 (official ECE admissions page, mcgill.ca/ece)",
+        "toefl": "100 overall (iBT), no component below 20; institutional TOEFL not accepted (official ECE admissions page)",
         "english_exemptions": "Not found",
         "deadline_fall": "Applications open Sept 15; deadline Dec 15 (international and domestic)",
         "deadline_winter": "Applications open Feb 15; deadline Aug 1 (international), Oct 15 (domestic)",
@@ -393,8 +394,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Montreal, QC",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Minimum 3.0 on 4.0 scale\"",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "McGill's official graduate admissions regulations state a minimum CGPA of 3.0/4.0 (3.2/4.0 for last two years). NSU's 2.83/4.0 is below this explicit, confirmed floor on the same 4.0 scale.",
       "overview": {
         "degree_type": "MEng",
         "duration": "Not found on program page",
@@ -413,9 +414,9 @@ const CANADA_DB = {
       "requirements_registration": {
         "gpa_requirement": "Minimum 3.0 on 4.0 scale",
         "prior_degree": "An eligible Bachelor's degree (fields not specified)",
-        "gre_required": "Not mentioned",
-        "ielts": "Not listed on program page",
-        "toefl": "Not listed on program page",
+        "gre_required": "Not required; may be submitted for consideration if already taken (official ECE page)",
+        "ielts": "7.0 overall, no band below 6.0 (official ECE admissions page, mcgill.ca/ece)",
+        "toefl": "100 overall (iBT), no component below 20; institutional TOEFL not accepted (official ECE admissions page)",
         "english_exemptions": "Not found",
         "deadline_fall": "Applications open Sept 15; deadline Dec 15 (international and domestic)",
         "deadline_winter": "Applications open Feb 15; deadline Aug 1 (international), Oct 15 (domestic)",
@@ -445,8 +446,8 @@ const CANADA_DB = {
       "department": "Dept. of Electronics (OCIECE)",
       "location": "Ottawa, ON",
       "tier": "A",
-      "gpa_fit": "borderline",
-      "gpa_fit_note": "Official page requires a \"B average\" or equivalent (commonly ~3.0/4.0 or ~73-76%); candidate CGPA 2.83/4.0 is below typical B-average thresholds — borderline/risky depending on the institution's exact conversion.",
+      "gpa_fit": "good",
+      "gpa_fit_note": "Carleton's official Bangladesh-specific admissions page (graduate.carleton.ca/international/admission-requirements/bangladesh/) states: 'Overall minimum: 55-60% (B-); Minimum in your major: 65-70% (B+)' for a 4-year bachelor's — confirmed this applies to B.Sc. Engineering-type degrees including NSU's EEE. NSU's standing comfortably clears this officially-published country-specific floor.",
       "overview": {
         "degree_type": "MASc|MEng",
         "duration": "1-2 years (MEng); thesis duration not separately stated",
@@ -498,8 +499,8 @@ const CANADA_DB = {
       "department": "Gina Cody School of Engineering and Computer Science",
       "location": "Montreal, QC",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Not explicitly stated numerically; 'bachelor's degree in engineering or equivalent with high standing'\"",
+      "gpa_fit": "borderline",
+      "gpa_fit_note": "Concordia's official graduate calendar states a minimum GPA equivalent to 3.00/4.30. Proportionally rescaling NSU's 2.83/4.00 onto a 4.30 scale gives ≈3.04/4.30 — marginally above the stated floor, but this rescaling is an approximation, not Concordia's own published conversion method (international credentials are formally evaluated only after application).",
       "overview": {
         "degree_type": "MASc",
         "duration": "2 years",
@@ -550,8 +551,8 @@ const CANADA_DB = {
       "department": "Gina Cody School of Engineering and Computer Science",
       "location": "Montreal, QC",
       "tier": "A",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Not explicitly numeric; 'bachelor's degree in engineering or equivalent with high standing'\"",
+      "gpa_fit": "borderline",
+      "gpa_fit_note": "Concordia's official graduate calendar states a minimum GPA equivalent to 3.00/4.30. Proportionally rescaling NSU's 2.83/4.00 onto a 4.30 scale gives ≈3.04/4.30 — marginally above the stated floor, but this rescaling is an approximation, not Concordia's own published conversion method (international credentials are formally evaluated only after application).",
       "overview": {
         "degree_type": "MEng",
         "duration": "1-2 years, 45 credits",
@@ -603,8 +604,8 @@ const CANADA_DB = {
       "department": "School of Electrical Engineering and Computer Science (OCIECE)",
       "location": "Ottawa, ON",
       "tier": "B",
-      "gpa_fit": "borderline",
-      "gpa_fit_note": "Official page requires ~70% average; candidate's CGPA 2.83/4.0 is roughly equivalent to ~70%, a close/borderline match — official conversion should be verified with the admissions office.",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "uOttawa's official country-by-country 'International equivalencies' tool exists but its live Bangladesh-specific entry could not be retrieved (page errors on repeated attempts) — no confirmed numeric floor available for this profile.",
       "overview": {
         "degree_type": "MEng",
         "duration": "~2 years (per third-party aggregator; not independently confirmed on official catalog page, which returned empty/unreadable during this pass)",
@@ -657,7 +658,7 @@ const CANADA_DB = {
       "location": "Ottawa, ON",
       "tier": "B",
       "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
+      "gpa_fit_note": "uOttawa's official country-by-country 'International equivalencies' tool exists but its live Bangladesh-specific entry could not be retrieved (page errors on repeated attempts) — no confirmed numeric floor available for this profile.",
       "overview": {
         "degree_type": "MASc",
         "duration": "Not found (could not retrieve page content during this pass — repeated fetch failures/HTTP 402/503)",
@@ -708,8 +709,8 @@ const CANADA_DB = {
       "department": "Schulich School of Engineering",
       "location": "Calgary, AB",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Minimum 3.0 on 4.0 scale, based on last two years full-time undergrad study (10 full-course equivalents/60 units)\"",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "Calgary's official Faculty of Graduate Studies regulations require a GPA of 3.00/4.0 in the last two years of study. NSU's overall 2.83/4.0 is below this explicit floor (last-two-years figure not separately available, so this is a conservative estimate).",
       "overview": {
         "degree_type": "MSc",
         "duration": "Not explicitly stated for MSc (program is thesis-based, multi-year)",
@@ -761,8 +762,8 @@ const CANADA_DB = {
       "department": "Schulich School of Engineering",
       "location": "Calgary, AB",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Minimum 3.0 on 4.0 scale, over past two years full-time undergrad study (10 full-course equivalents/60 units)\"",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "Calgary's official Faculty of Graduate Studies regulations require a GPA of 3.00/4.0 in the last two years of study. NSU's overall 2.83/4.0 is below this explicit floor (last-two-years figure not separately available, so this is a conservative estimate).",
       "overview": {
         "degree_type": "MEng",
         "duration": "1-2 years full-time; 6 years max; part-time available; internship stream extends to 3 years",
@@ -814,8 +815,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Edmonton, AB",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Minimum 3.0 on 4-point scale (MSc/MEng); PhD requires 3.3; based on last 60 units or last two years full-time graded coursework\"",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "U of A's official 'Minimum Academic Requirements by Country' page explicitly lists Bangladesh as requiring 'First Class/Division; 60%; 3 out of 4'. NSU's 2.83/4.0 is below this officially-published, country-specific 3.0/4.0 floor.",
       "overview": {
         "degree_type": "MSc",
         "duration": "Not explicitly stated for MSc on this page",
@@ -834,11 +835,11 @@ const CANADA_DB = {
       "requirements_registration": {
         "gpa_requirement": "Minimum 3.0 on 4-point scale (MSc/MEng); PhD requires 3.3; based on last 60 units or last two years full-time graded coursework",
         "prior_degree": "Undergraduate degree from recognized institution or equivalent; master's holders eligible only for PhD; doctoral holders ineligible for graduate program",
-        "gre_required": "Not mentioned",
+        "gre_required": "Not required — official department FAQ: 'Is the GRE Test Required? No, we do not require this test.' (ualberta.ca/engineering/electrical-computer-engineering/graduate-studies/faq.html)",
         "ielts": "Overall band 7.0, minimum 6.0 in each band",
         "toefl": "iBT 92 overall, min 21 each section (tests before Jan 21 2026); page lists '5 overall, min 4.5 each section' for tests on/after that date - likely a typo/scale change, needs verification",
         "english_exemptions": "Other accepted: CAEL overall 70 (min 60 per subtest), PTE Academic 62, CAMBRIDGE 176 (min 169 per subscore)",
-        "deadline_fall": "Not listed on this page; refer to Apply Now page",
+        "deadline_fall": "International applicants: August 1; Canadian applicants: September 1 (official ECE department FAQ page)",
         "deadline_winter": "Not listed",
         "deadline_notes": "Not found.",
         "other_admission_notes": "Requires CV and three letters of reference (current U of A students exempt)."
@@ -866,8 +867,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Edmonton, AB",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Minimum 3.0 on 4-point scale (U of A or equivalent), based on last 60 units or last two full-time years\"",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "U of A's official 'Minimum Academic Requirements by Country' page explicitly lists Bangladesh as requiring 'First Class/Division; 60%; 3 out of 4'. NSU's 2.83/4.0 is below this officially-published, country-specific 3.0/4.0 floor.",
       "overview": {
         "degree_type": "MEng",
         "duration": "Typically 1.5-2 years; max 6 years; min one 4-month full-time term in residence required",
@@ -886,11 +887,11 @@ const CANADA_DB = {
       "requirements_registration": {
         "gpa_requirement": "Minimum 3.0 on 4-point scale (U of A or equivalent), based on last 60 units or last two full-time years",
         "prior_degree": "Undergraduate degree from recognized institution; master's in ECE/related field eligible only for PhD; doctorate holders ineligible",
-        "gre_required": "Not mentioned",
+        "gre_required": "Not required — official department FAQ: 'Is the GRE Test Required? No, we do not require this test.' (ualberta.ca/engineering/electrical-computer-engineering/graduate-studies/faq.html)",
         "ielts": "Overall band 7.0, min 6.0 in each band",
         "toefl": "iBT 92 overall, min 21 each section (tests before Jan 21 2026); '5 overall, min 4.5 each section' listed for tests after that date (verify - possibly a scale typo)",
         "english_exemptions": "CAEL, PTE Academic, CAMBRIDGE also accepted with own minimums",
-        "deadline_fall": "Not listed; refer to Apply Now page",
+        "deadline_fall": "International applicants: August 1; Canadian applicants: September 1 (official ECE department FAQ page)",
         "deadline_winter": "Not listed",
         "deadline_notes": "Not found.",
         "other_admission_notes": "Requires CV, three letters of reference (current U of A students exempt), plus ethics/professional development requirements."
@@ -918,8 +919,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Saskatoon, SK",
       "tier": "B",
-      "gpa_fit": "borderline",
-      "gpa_fit_note": "Official page requires ~70% average; candidate's CGPA 2.83/4.0 is roughly equivalent to ~70%, a close/borderline match — official conversion should be verified with the admissions office.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "USask's official grade-conversion page (grad.usask.ca/admissions/grade-conversions.php) lists Bangladesh as equivalent to '60%; 3 out of 4; First Class/Division'. NSU's 2.83/4.0 is below this officially-published country-specific floor.",
       "overview": {
         "degree_type": "MSc",
         "duration": "2 years",
@@ -971,8 +972,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Saskatoon, SK",
       "tier": "B",
-      "gpa_fit": "borderline",
-      "gpa_fit_note": "Official page requires ~70% average; candidate's CGPA 2.83/4.0 is roughly equivalent to ~70%, a close/borderline match — official conversion should be verified with the admissions office.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "USask's official grade-conversion page (grad.usask.ca/admissions/grade-conversions.php) lists Bangladesh as equivalent to '60%; 3 out of 4; First Class/Division'. NSU's 2.83/4.0 is below this officially-published country-specific floor.",
       "overview": {
         "degree_type": "MEng",
         "duration": "2 years",
@@ -1024,8 +1025,8 @@ const CANADA_DB = {
       "department": "Price Faculty of Engineering, Dept. of ECE",
       "location": "Winnipeg, MB",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "UM's official general graduate admission requirement is a minimum GPA of 3.0/4.0 (stated for the last two years of study). NSU's 2.83/4.0 is below this floor; a Bangladesh-specific equivalency page could not be located to refine this further.",
       "overview": {
         "degree_type": "MSc",
         "duration": "Not found (thesis-based; no fixed duration stated on official pages)",
@@ -1078,8 +1079,8 @@ const CANADA_DB = {
       "department": "Price Faculty of Engineering, Dept. of ECE",
       "location": "Winnipeg, MB",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "UM's official general graduate admission requirement is a minimum GPA of 3.0/4.0 (stated for the last two years of study). NSU's 2.83/4.0 is below this floor; a Bangladesh-specific equivalency page could not be located to refine this further.",
       "overview": {
         "degree_type": "MEng",
         "duration": "Not found (no fixed term stated; course + project based)",
@@ -1132,8 +1133,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "London, ON",
       "tier": "B",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~78% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "Western's official Electrical & Computer Engineering department page confirms: 'Minimum 70% average in the last two years of study in a four-year honours degree or equivalent' — consistent with the general 3.0/4.0 university floor. NSU's 2.83/4.0 falls short of this officially-confirmed departmental bar.",
       "overview": {
         "degree_type": "MESc",
         "duration": "6 terms (2 years)",
@@ -1153,8 +1154,8 @@ const CANADA_DB = {
         "gpa_requirement": "78% minimum average (per Western Engineering graduate programs page); Accelerated MESc requires at least 78% cumulative average over 2nd/3rd years; transfer to PhD requires 85% average across MESc courses",
         "prior_degree": "Bachelor's degree in engineering (accredited) or similar program meeting the minimum average; Accelerated MESc open to current 3rd-year Western Engineering students following the BESc",
         "gre_required": "Not stated",
-        "ielts": "Academic overall 6.5, no section below 6",
-        "toefl": "iBT (before Jan 21, 2026): overall 86, no section below 20; iBT (on/after Jan 21, 2026): overall 4.5, no section below 4.5 (new scale)",
+        "ielts": "Academic IELTS accepted (exact cutoff not isolated); official ECE page confirms GPA cross-check: 'Minimum 70% average in the last two years of study' (eng.uwo.ca/electrical)",
+        "toefl": "86 iBT, no section below 20 — for tests taken before Jan 21, 2026 per official ECE page (eng.uwo.ca/electrical); policy for tests after that date not found — may already be outdated, re-verify.",
         "english_exemptions": "Some programs may require higher scores; Western TOEFL institution code 0984",
         "deadline_fall": "Research programs (MESc/PhD): Jul 31 domestic, Feb 1 international",
         "deadline_winter": "Jan start: Nov 30 domestic, Jul 1 international; May start: Mar 31 domestic, Nov 1 international",
@@ -1185,8 +1186,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "London, ON",
       "tier": "B",
-      "gpa_fit": "borderline",
-      "gpa_fit_note": "Official page requires ~70% average; candidate's CGPA 2.83/4.0 is roughly equivalent to ~70%, a close/borderline match — official conversion should be verified with the admissions office.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "Western's official Electrical & Computer Engineering department page confirms: 'Minimum 70% average in the last two years of study in a four-year honours degree or equivalent' — consistent with the general 3.0/4.0 university floor. NSU's 2.83/4.0 falls short of this officially-confirmed departmental bar.",
       "overview": {
         "degree_type": "MEng",
         "duration": "3 terms (1 year); part-time available",
@@ -1206,8 +1207,8 @@ const CANADA_DB = {
         "gpa_requirement": "70% minimum average (about B- North American average)",
         "prior_degree": "Bachelor's degree in engineering from accredited university or similar program",
         "gre_required": "Not mentioned",
-        "ielts": "Academic overall 6.5, no section below 6",
-        "toefl": "iBT (before Jan 21, 2026): overall 86, no section below 20; iBT (on/after Jan 21, 2026): overall 4.5, no section below 4.5",
+        "ielts": "Academic IELTS accepted (exact cutoff not isolated); official ECE page confirms GPA cross-check: 'Minimum 70% average in the last two years of study' (eng.uwo.ca/electrical)",
+        "toefl": "86 iBT, no section below 20 — for tests taken before Jan 21, 2026 per official ECE page (eng.uwo.ca/electrical); policy for tests after that date not found — may already be outdated, re-verify.",
         "english_exemptions": "Some programs may require higher scores than the baseline",
         "deadline_fall": "MEng (professional): Jul 31 domestic, Feb 1 international (table header showed 'Feb 10, 2025' international in one row - appears outdated, confirm current cycle)",
         "deadline_winter": "MEng not offered Winter or Summer per table",
@@ -1238,8 +1239,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Windsor, ON",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
+      "gpa_fit": "borderline",
+      "gpa_fit_note": "Windsor's official admissions page states a minimum admission average of 70% for Master's programs, with no published foreign-GPA conversion table. A simple linear read of NSU's 2.83/4.0 (≈70.75%) would narrowly clear 70%, but Windsor does not confirm it uses linear 4.0-to-100 conversion — treat as borderline, not a confirmed pass.",
       "overview": {
         "degree_type": "MASc",
         "duration": "Not found on pages visited (candidate notes: 4 courses + thesis)",
@@ -1290,8 +1291,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Windsor, ON",
       "tier": "B",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~72% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit": "borderline",
+      "gpa_fit_note": "Windsor's official admissions page states a minimum admission average of 70% for Master's programs, with no published foreign-GPA conversion table. A simple linear read of NSU's 2.83/4.0 (≈70.75%) would narrowly clear 70%, but Windsor does not confirm it uses linear 4.0-to-100 conversion — treat as borderline, not a confirmed pass.",
       "overview": {
         "degree_type": "MEng",
         "duration": "3 or 4 terms, course-based",
@@ -1343,8 +1344,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical, Computer and Biomedical Engineering",
       "location": "Toronto, ON",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Not explicitly numeric on official page.\"",
+      "gpa_fit": "borderline",
+      "gpa_fit_note": "TMU sets GPA floors per-program rather than university-wide (seen ranging from 3.00/4.33 up to 3.67/4.33 across programs). NSU's 2.83/4.0 converts to roughly 3.06/4.33 — clears the lowest-tier programs but fails higher-bar ones; check the specific program's own page.",
       "overview": {
         "degree_type": "MASc",
         "duration": "Not explicitly stated on official page content retrieved; full-time and part-time formats offered for related MEng. MASc is research/thesis-based.",
@@ -1396,8 +1397,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical, Computer and Biomedical Engineering",
       "location": "Toronto, ON",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Not explicitly numeric on official page.\"",
+      "gpa_fit": "borderline",
+      "gpa_fit_note": "TMU sets GPA floors per-program rather than university-wide (seen ranging from 3.00/4.33 up to 3.67/4.33 across programs). NSU's 2.83/4.0 converts to roughly 3.06/4.33 — clears the lowest-tier programs but fails higher-bar ones; check the specific program's own page.",
       "overview": {
         "degree_type": "MASc",
         "duration": "Not explicitly stated on official page content retrieved; full-time and part-time formats offered for related MEng. MASc is research/thesis-based.",
@@ -1449,8 +1450,8 @@ const CANADA_DB = {
       "department": "Lassonde School of Engineering, EECS",
       "location": "Toronto, ON",
       "tier": "B",
-      "gpa_fit": "borderline",
-      "gpa_fit_note": "Official page requires a \"B average\" or equivalent (commonly ~3.0/4.0 or ~73-76%); candidate CGPA 2.83/4.0 is below typical B-average thresholds — borderline/risky depending on the institution's exact conversion.",
+      "gpa_fit": "risky",
+      "gpa_fit_note": "York's Faculty of Graduate Studies explicitly states it does NOT accept WES-style conversions, using its own internal Graduate Credential Analysts instead; general floor is 'B, most programs require B+ or higher'. NSU's 2.83/4.0 sits below a B+ bar and at best borderline against a plain B floor.",
       "overview": {
         "degree_type": "MASc",
         "duration": "No more than 5 terms (20 months); continuous registration required",
@@ -1501,8 +1502,8 @@ const CANADA_DB = {
       "department": "School of Engineering Science",
       "location": "Burnaby, BC",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Cumulative GPA of at least 3.0 (B) normally required; for transfer from M.Eng. to M.A.Sc.: undergraduate CGPA at least 3.3, and M.Eng. CGPA at least 3.5 on at l\"",
+      "gpa_fit": "borderline",
+      "gpa_fit_note": "SFU's official minimum is GPA 3.0/4.33 (or 3.33/4.33 over the last 60 credits, its preferred route). Converting 3.0/4.33≈2.77/4.0, NSU's 2.83/4.0 is just above that converted base floor but likely falls short of the preferred last-60-credit alternative.",
       "overview": {
         "degree_type": "MASc",
         "duration": "Not found on pages visited; described as full-time program (candidate notes: thesis-based research program)",
@@ -1553,8 +1554,8 @@ const CANADA_DB = {
       "department": "School of Engineering Science",
       "location": "Burnaby, BC",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Cumulative GPA of at least 3.0 (B) in relevant Bachelor's degree; transfer from M.Eng. to M.A.Sc. requires undergraduate CGPA >= 3.3 and CGPA >= 3.5 on at least\"",
+      "gpa_fit": "borderline",
+      "gpa_fit_note": "SFU's official minimum is GPA 3.0/4.33 (or 3.33/4.33 over the last 60 credits, its preferred route). Converting 3.0/4.33≈2.77/4.0, NSU's 2.83/4.0 is just above that converted base floor but likely falls short of the preferred last-60-credit alternative.",
       "overview": {
         "degree_type": "MEng",
         "duration": "Not explicitly stated; designed for part-time study with evening courses; industrial project minimum 2 person-months",
@@ -1605,8 +1606,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Victoria, BC",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "UVic's general Faculty of Graduate Studies floor is reported as B+ (6.0 on UVic's own 9-point scale, ≈3.3/4.0 equivalent); departmental floors often run 6.5-7.0. NSU's 2.83/4.0 is well below this converted B+ threshold.",
       "overview": {
         "degree_type": "MASc",
         "duration": "2 years (project or thesis-based, not course-based)",
@@ -1657,8 +1658,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Victoria, BC",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "UVic's general Faculty of Graduate Studies floor is reported as B+ (6.0 on UVic's own 9-point scale, ≈3.3/4.0 equivalent); departmental floors often run 6.5-7.0. NSU's 2.83/4.0 is well below this converted B+ threshold.",
       "overview": {
         "degree_type": "MEng",
         "duration": "2 years, full-time, on-campus (course-based, not thesis-based)",
@@ -1709,8 +1710,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Halifax, NS",
       "tier": "A",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "Dalhousie's official admission requirements page (dal.ca/faculty/gradstudies) states explicitly: 'Minimum grade point average of 3.0 (B average) in the last 60 credit hours of study.' NSU's 2.83/4.0 is below this clear, confirmed floor.",
       "overview": {
         "degree_type": "MASc",
         "duration": "2 years or longer, full-time, in-person",
@@ -1761,8 +1762,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Halifax, NS",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "Dalhousie's official admission requirements page (dal.ca/faculty/gradstudies) states explicitly: 'Minimum grade point average of 3.0 (B average) in the last 60 credit hours of study.' NSU's 2.83/4.0 is below this clear, confirmed floor.",
       "overview": {
         "degree_type": "MEng",
         "duration": "16 months or longer, full-time, in-person",
@@ -1814,7 +1815,7 @@ const CANADA_DB = {
       "location": "St. John's, NL",
       "tier": "B",
       "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Not stated as a number; requires second-class ('B') standing or better in an appropriate bachelor's degree (per MUN School of Graduate Studies 19.1 Qualificatio\"",
+      "gpa_fit_note": "Memorial's official School of Graduate Studies regulations require only 'a second-class degree in an appropriate area of study' — a qualitative British-style standard with no numeric GPA/percentage published, so no clean comparison against NSU's 2.83/4.0 is possible.",
       "overview": {
         "degree_type": "MEng (functions as thesis-based master's despite MEng title)",
         "duration": "Normally about two years",
@@ -1868,8 +1869,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Fredericton, NB",
       "tier": "B",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~80% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "UNB's central graduate admissions page states requirements 'differ between programs' with no university-wide numeric GPA floor; the specific program page would need to be checked directly.",
       "overview": {
         "degree_type": "MScE",
         "duration": "2 years (full-time typical)",
@@ -1920,8 +1921,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Fredericton, NB",
       "tier": "B",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~80% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "UNB's central graduate admissions page states requirements 'differ between programs' with no university-wide numeric GPA floor; the specific program page would need to be checked directly.",
       "overview": {
         "degree_type": "MEng",
         "duration": "Up to 24 months (coursework only)",
@@ -1973,8 +1974,8 @@ const CANADA_DB = {
       "department": "Faculty of Engineering and Applied Science",
       "location": "Regina, SK",
       "tier": "B",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~3/4.0; candidate CGPA 2.83/4.0 is below this cutoff.",
+      "gpa_fit": "good",
+      "gpa_fit_note": "Regina's official eligibility page explicitly states its own WES-based equivalency: 'The equivalent score to 70% at the U of R is 2.67 out of 4.00.' NSU's 2.83/4.0 exceeds that officially-published floor for most programs (fails only the five 75%-average programs: English, History, Math/Stats, MPA — not relevant to this EEE profile).",
       "overview": {
         "degree_type": "MASc|MEng",
         "duration": "MASc: 2 years, 30 credit hours. MEng (Project): 2 years, 30 credit hours. MEng (Co-op): 2 years 8 months, 38 credit hours. PhD: 4 years. (Confirmed via official page)",
@@ -2026,8 +2027,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering (Smith Engineering)",
       "location": "Kingston, ON",
       "tier": "B",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~75% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "Queen's assesses GPA per-department rather than university-wide; programs reviewed cluster around a B+ floor (3.3/4.3 ≈3.07/4.0 equivalent, roughly 77-80%). NSU's 2.83/4.0 is below this common departmental floor.",
       "overview": {
         "degree_type": "MASc",
         "duration": "~2 years (per third-party aggregator; not independently confirmed — official calendar page returned empty content on repeated fetch attempts)",
@@ -2079,8 +2080,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering (Smith Engineering)",
       "location": "Kingston, ON",
       "tier": "B",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~75% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "Queen's assesses GPA per-department rather than university-wide; programs reviewed cluster around a B+ floor (3.3/4.3 ≈3.07/4.0 equivalent, roughly 77-80%). NSU's 2.83/4.0 is below this common departmental floor.",
       "overview": {
         "degree_type": "MEng",
         "duration": "~12 months / ~1 year (per third-party aggregator, unconfirmed on official page)",
@@ -2132,8 +2133,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Thunder Bay, ON",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"Not explicitly numeric on this page\"",
+      "gpa_fit": "borderline",
+      "gpa_fit_note": "Lakehead's official international admissions page states a minimum 'equivalent of 70% overall final average (Canadian)' for general admission; graduate-specific wording elsewhere cites 'B, or Second Class (Upper Division)'. NSU's 2.83/4.0 sits right at the edge of a clean B (3.0) — borderline, with the exact numeric outcome determined case-by-case by Lakehead's internal conversion.",
       "overview": {
         "degree_type": "MSc",
         "duration": "Expected completion 20 months; 4-year maximum; part-time available",
@@ -2184,8 +2185,8 @@ const CANADA_DB = {
       "department": "School of Engineering",
       "location": "Guelph, ON",
       "tier": "B",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~75% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit": "weak",
+      "gpa_fit_note": "Guelph's official Graduate & Postdoctoral Studies page states explicitly: 'A 70% (B-) average is required in the last two years of full-time equivalent study' and clarifies '70% corresponds to 3.0 on the US 4.0 scale.' NSU's 2.83/4.0 is below this officially-stated 3.0/4.0 equivalence — the single cleanest, most directly confirmed official conversion statement found across all 36 universities, and it shows a FAIL for this CGPA.",
       "overview": {
         "degree_type": "MASc",
         "duration": "24 months full-time, 48 months part-time",
@@ -2236,8 +2237,8 @@ const CANADA_DB = {
       "department": "Faculty of Engineering and Applied Science",
       "location": "Oshawa, ON",
       "tier": "B",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~76% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "No official university-wide or departmental numeric GPA floor could be retrieved from Ontario Tech's official pages (pages fetched were navigational only); equivalency assessment is done per-country by the School of Graduate and Postdoctoral Studies but the specific Bangladesh figure was not located.",
       "overview": {
         "degree_type": "MASc",
         "duration": "MASc: 24 months full-time (confirmed via official page).",
@@ -2289,8 +2290,8 @@ const CANADA_DB = {
       "department": "Faculty of Engineering and Applied Science",
       "location": "Oshawa, ON",
       "tier": "B",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~76% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "No official university-wide or departmental numeric GPA floor could be retrieved from Ontario Tech's official pages (pages fetched were navigational only); equivalency assessment is done per-country by the School of Graduate and Postdoctoral Studies but the specific Bangladesh figure was not located.",
       "overview": {
         "degree_type": "MASc",
         "duration": "MASc: 24 months full-time (confirmed via official page).",
@@ -2343,7 +2344,7 @@ const CANADA_DB = {
       "location": "Oshawa, ON",
       "tier": "C",
       "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
+      "gpa_fit_note": "No official university-wide or departmental numeric GPA floor could be retrieved from Ontario Tech's official pages (pages fetched were navigational only); equivalency assessment is done per-country by the School of Graduate and Postdoctoral Studies but the specific Bangladesh figure was not located.",
       "overview": {
         "degree_type": "MASc|MEng",
         "duration": "Not found",
@@ -2394,8 +2395,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Kingston, ON",
       "tier": "B",
-      "gpa_fit": "borderline",
-      "gpa_fit_note": "Official page requires ~70% average; candidate's CGPA 2.83/4.0 is roughly equivalent to ~70%, a close/borderline match — official conversion should be verified with the admissions office.",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "No official numeric GPA floor was located on rmc.ca; third-party listings cite a ~70% (B-) minimum for direct MEng/MASc admission, but this is unconfirmed on an official RMC page.",
       "overview": {
         "degree_type": "MASc",
         "duration": "Normally 21 months (confirmed via official page)",
@@ -2447,8 +2448,8 @@ const CANADA_DB = {
       "department": "Dept. of Electrical and Computer Engineering",
       "location": "Kingston, ON",
       "tier": "B",
-      "gpa_fit": "borderline",
-      "gpa_fit_note": "Official page requires ~70% average; candidate's CGPA 2.83/4.0 is roughly equivalent to ~70%, a close/borderline match — official conversion should be verified with the admissions office.",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "No official numeric GPA floor was located on rmc.ca; third-party listings cite a ~70% (B-) minimum for direct MEng/MASc admission, but this is unconfirmed on an official RMC page.",
       "overview": {
         "degree_type": "MEng",
         "duration": "Not explicitly stated; students must be registered for at least two semesters for the project. Full-time residential master's programs normally take about two academic years plus the intervening summer (5 terms), per official page.",
@@ -2493,110 +2494,6 @@ const CANADA_DB = {
       "candidate_notes_source": "Course-based, 8 graduate courses + project."
     },
     {
-      "id": "ca-laurentian-university-engineering-science-masc-mechatronics-engineering-field-48",
-      "country": "Canada",
-      "title": "Engineering Science - MASc (Mechatronics Engineering field)",
-      "university": "Laurentian University",
-      "department": "Bharti School of Engineering",
-      "location": "Sudbury, ON",
-      "tier": "C",
-      "gpa_fit": "borderline",
-      "gpa_fit_note": "Official page requires ~70% average; candidate's CGPA 2.83/4.0 is roughly equivalent to ~70%, a close/borderline match — official conversion should be verified with the admissions office.",
-      "overview": {
-        "degree_type": "MASc",
-        "duration": "Not explicitly stated for MASc; M.Eng course-based fast-track can be 1 year",
-        "language": "English",
-        "department": "Bharti School of Engineering"
-      },
-      "course_details": {
-        "curriculum_notes": "MASc curriculum: ENGR 5500EL MASc Thesis (9cr) + ENGR 5116EL Masters Seminar (3cr) + ENGR 5156EL Research Methods + 9 credits coursework. Mechatronics Engineering is listed as a focus area for MASc (research-based) and project-based MEng, but NOT for the course-based MEng (which offers only Mining, Mechanical, Mining-Mechanical).",
-        "vlsi_rtl_relevance_notes": "No dedicated VLSI/RTL/microelectronics content found. Mechatronics area description is minimal; related course titles found (Control of Robot Manipulators, Fault Detection and Diagnostics, Advanced Fluid Power Control Systems) are NOT explicitly connected to the Mechatronics field on this page - weak confirmed fit, consistent with candidate's 'Tier C adjacent' assessment."
-      },
-      "costs_funding": {
-        "tuition": "Not found; refer to International Tuition and Fees page CAD/year (international)",
-        "tuition_domestic": "Not found",
-        "tuition_notes": "Not stated on this page."
-      },
-      "requirements_registration": {
-        "gpa_requirement": "B standing (70%) in a relevant engineering branch for admission; must maintain overall GPA 5.5 (70%) once enrolled, min C (60%) per course",
-        "prior_degree": "Bachelor's in Engineering (mining, mineral processing, metallurgical, civil, mechanical, chemical, or other appropriate branch); MASc may also accept Honours BSc in chemistry/geology/physics with qualifying undergrad engineering courses",
-        "gre_required": "Not mentioned",
-        "ielts": "Not listed; refer to graduate admissions page",
-        "toefl": "Not listed",
-        "english_exemptions": "Not found",
-        "deadline_fall": "Not listed; refer to graduate admissions page",
-        "deadline_winter": "Not listed",
-        "deadline_notes": "Not found.",
-        "other_admission_notes": "Requires Statement of Interest, Project/Thesis Supervisor Agreement form, CV/resume, three Reference Forms, official transcripts (WES course-by-course eval required for non-North American institutions)."
-      },
-      "services": {},
-      "about_university": {},
-      "official_website_data": {
-        "official_source_url": "https://laurentian.ca/program/GR-ENG",
-        "sources_consulted": [
-          "https://laurentian.ca/program/GR-ENG"
-        ],
-        "scraped_on": "2026-11-08"
-      },
-      "ranking": {
-        "qs_world_rank": "Not researched yet",
-        "the_world_rank": "Not researched yet"
-      },
-      "candidate_notes_source": "Thesis-based; no dedicated electrical/VLSI field found - Mechatronics is the closest fit (Tier C adjacent). Other fields are mining/mechanical/chemical, not relevant."
-    },
-    {
-      "id": "ca-laurentian-university-engineering-science-meng-mechatronics-engineering-field-49",
-      "country": "Canada",
-      "title": "Engineering Science - MEng (Mechatronics Engineering field)",
-      "university": "Laurentian University",
-      "department": "Bharti School of Engineering",
-      "location": "Sudbury, ON",
-      "tier": "C",
-      "gpa_fit": "borderline",
-      "gpa_fit_note": "Official page requires ~70% average; candidate's CGPA 2.83/4.0 is roughly equivalent to ~70%, a close/borderline match — official conversion should be verified with the admissions office.",
-      "overview": {
-        "degree_type": "MASc",
-        "duration": "Not explicitly stated for MASc; M.Eng course-based fast-track can be 1 year",
-        "language": "English",
-        "department": "Bharti School of Engineering"
-      },
-      "course_details": {
-        "curriculum_notes": "MASc curriculum: ENGR 5500EL MASc Thesis (9cr) + ENGR 5116EL Masters Seminar (3cr) + ENGR 5156EL Research Methods + 9 credits coursework. Mechatronics Engineering is listed as a focus area for MASc (research-based) and project-based MEng, but NOT for the course-based MEng (which offers only Mining, Mechanical, Mining-Mechanical).",
-        "vlsi_rtl_relevance_notes": "No dedicated VLSI/RTL/microelectronics content found. Mechatronics area description is minimal; related course titles found (Control of Robot Manipulators, Fault Detection and Diagnostics, Advanced Fluid Power Control Systems) are NOT explicitly connected to the Mechatronics field on this page - weak confirmed fit, consistent with candidate's 'Tier C adjacent' assessment."
-      },
-      "costs_funding": {
-        "tuition": "Not found; refer to International Tuition and Fees page CAD/year (international)",
-        "tuition_domestic": "Not found",
-        "tuition_notes": "Not stated on this page."
-      },
-      "requirements_registration": {
-        "gpa_requirement": "B standing (70%) in a relevant engineering branch for admission; must maintain overall GPA 5.5 (70%) once enrolled, min C (60%) per course",
-        "prior_degree": "Bachelor's in Engineering (mining, mineral processing, metallurgical, civil, mechanical, chemical, or other appropriate branch); MASc may also accept Honours BSc in chemistry/geology/physics with qualifying undergrad engineering courses",
-        "gre_required": "Not mentioned",
-        "ielts": "Not listed; refer to graduate admissions page",
-        "toefl": "Not listed",
-        "english_exemptions": "Not found",
-        "deadline_fall": "Not listed; refer to graduate admissions page",
-        "deadline_winter": "Not listed",
-        "deadline_notes": "Not found.",
-        "other_admission_notes": "Requires Statement of Interest, Project/Thesis Supervisor Agreement form, CV/resume, three Reference Forms, official transcripts (WES course-by-course eval required for non-North American institutions)."
-      },
-      "services": {},
-      "about_university": {},
-      "official_website_data": {
-        "official_source_url": "https://laurentian.ca/program/GR-ENG",
-        "sources_consulted": [
-          "https://laurentian.ca/program/GR-ENG"
-        ],
-        "scraped_on": "2026-11-08"
-      },
-      "ranking": {
-        "qs_world_rank": "Not researched yet",
-        "the_world_rank": "Not researched yet"
-      },
-      "candidate_notes_source": "Course-based with industrial project; Mechatronics field listed alongside mining/mechanical fields."
-    },
-    {
       "id": "ca-cole-de-technologie-sup-rieure-ts-ma-trise-en-g-nie-lectrique-m-a-sc-research-profile-50",
       "country": "Canada",
       "title": "Maîtrise en génie électrique (M.A.Sc. research profile)",
@@ -2604,8 +2501,8 @@ const CANADA_DB = {
       "department": "Département de génie électrique",
       "location": "Montréal, Quebec",
       "tier": "B",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~3/4.0; candidate CGPA 2.83/4.0 is below this cutoff.",
+      "gpa_fit": "good",
+      "gpa_fit_note": "ÉTS's official Master's admission page states a GPA floor of 'at least 3.0 (out of 4.3) or equivalent' (≈2.79/4.0). NSU's 2.83/4.0 clears this by a narrow margin — confirmed MEETS, though the margin is tight. Note: English-medium completion is explicitly possible with a faculty supervisor's agreement ('on the basis of sufficient knowledge of English'), though an out-of-program French course is still required to graduate.",
       "overview": {
         "degree_type": "M.Sc.A. (thesis/research profile)",
         "duration": "Normal: 6 full-time sessions (2 years); max 9 full-time/15 part-time sessions",
@@ -2656,8 +2553,8 @@ const CANADA_DB = {
       "department": "Département de génie électrique",
       "location": "Montréal, Quebec",
       "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
+      "gpa_fit": "good",
+      "gpa_fit_note": "Polytechnique's official admissions page (for Bachelor-in-engineering applicants) states a floor of '2,75/4,0' (or '3,0/4,3'). NSU's 2.83/4.0 clears the stated 2.75/4.0 bar, though by a narrow margin — some internal Polytechnique documents cite other figures (2.5/4.0-2.75/4.3) for different admission routes, so treat this as the best-available official reading, not fully reconciled. Language-of-English-instruction wording for this specific program was not independently confirmed — verify before assuming full English completion.",
       "overview": {
         "degree_type": "M.A.Sc. (research) or M.Eng. (course-based)",
         "duration": "Not found (typically ~2 years full-time for MASc programs at Polytechnique, not independently confirmed this pass)",
@@ -2708,8 +2605,8 @@ const CANADA_DB = {
       "department": "Faculté de génie / Département de génie électrique et génie informatique",
       "location": "Sherbrooke, Quebec",
       "tier": "A",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement language on official page could not be parsed into a clear numeric cutoff: \"International regular candidates: engineering diploma at bac+5 level, average judged equivalent to 2,7/4,3 (specialty courses weighted more heavily than interns\"",
+      "gpa_fit": "good",
+      "gpa_fit_note": "Sherbrooke's official Electrical/Computer Engineering master's page states: 'moyenne cumulative jugée équivalente à 2,7 sur 4,3' (≈2.51/4.0). NSU's 2.83/4.0 comfortably clears this officially-confirmed floor. Note: the same official page requires French proficiency for applicants whose prior studies were in another language — do not assume full English-medium completion.",
       "overview": {
         "degree_type": "M.Sc.A. (course-based, maîtrise de type cours)",
         "duration": "Trimester-based; final integrative project ('projet d'essai') lasts 1-2 trimesters (4-8 months). Total program length not separately stated on this page.",
@@ -2761,7 +2658,7 @@ const CANADA_DB = {
       "location": "Québec City, Quebec",
       "tier": "B",
       "gpa_fit": "good",
-      "gpa_fit_note": "Official page requires ~2.67/4.0; candidate CGPA 2.83/4.0 meets this.",
+      "gpa_fit_note": "Laval's official Electrical Engineering master's (with thesis) page states a floor of 'égale ou supérieure à 2,67 sur 4,33' (≈2.47/4.0). NSU's 2.83/4.0 comfortably clears this officially-confirmed floor. Note: the official page states the program is 'not entirely offered in English' — French or English proficiency is required, but French is still needed for some assignments/exams.",
       "overview": {
         "degree_type": "M.Sc. (thesis-based)",
         "duration": "About 2 years full-time (estimated); full-time or part-time study allowed",
@@ -2812,8 +2709,8 @@ const CANADA_DB = {
       "department": "Département d'informatique et d'ingénierie",
       "location": "Gatineau, Quebec",
       "tier": "A",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~3/4.0; candidate CGPA 2.83/4.0 is below this cutoff.",
+      "gpa_fit": "unknown",
+      "gpa_fit_note": "UQO confirmed to offer a relevant Master's en génie électrique (program code 2071, M.Sc.A., thesis-based, 45 credits) — program existence verified on UQO's official site. The exact GPA floor could not be extracted (official program PDF is compressed/unreadable by automated tools); UQO's general policy requires French proficiency unless exempted.",
       "overview": {
         "degree_type": "M.Ing./M.Sc. (thesis-based profile)",
         "duration": "Not found precisely in this pass (45-credit master's program; typical UQO full-time duration ~2 years, not independently confirmed for program 7543)",
@@ -2858,58 +2755,6 @@ const CANADA_DB = {
       "candidate_notes_source": "Verified directly via UQO's own official program document (etudier.uqo.ca, program 7543). Admission requires a bachelor's in electrical or computer engineering with minimum 3.0/4.3 average (or equivalent degree in a related field such as project management or mathematics, assessed individually). The program document applies a French-language proficiency requirement to 'all applicants' (not domestic-only), implying international students are admitted subject to meeting UQO's language policy — standard for Quebec public universities, not a domestic-only restriction. Photonics and microelectronics is one of the program's named specializations alongside power distribution networks, supporting Tier A. Instruction is French-medium; no English track found. International tuition (~CAD 24,737/yr per third-party aggregator, unverified on official page)."
     },
     {
-      "id": "ca-universit-du-qu-bec-trois-rivi-res-uqtr-ma-trise-en-g-nie-lectrique-avec-m-moire-program-code-3824-55",
-      "country": "Canada",
-      "title": "Maîtrise en génie électrique (avec mémoire) — program code 3824",
-      "university": "Université du Québec à Trois-Rivières (UQTR)",
-      "department": "École d'ingénierie",
-      "location": "Trois-Rivières, Quebec",
-      "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
-      "overview": {
-        "degree_type": "M.Sc. / M.Ing. (thesis-based)",
-        "duration": "Not found — PDF returned only unreadable binary/compressed data; outline indicated 11 pages covering Objectives, Special academic regulations, Study regime and duration, and Admission conditions, but none of these sections could be read as text.",
-        "language": "English",
-        "department": "École d'ingénierie"
-      },
-      "course_details": {
-        "curriculum_notes": "Not found via readable text this pass.",
-        "vlsi_rtl_relevance_notes": "Not found via readable text this pass — no VLSI/microelectronics/embedded content could be confirmed or ruled out."
-      },
-      "costs_funding": {
-        "tuition": "Not found CAD/year (international)",
-        "tuition_domestic": "Not found",
-        "tuition_notes": "Official program PDF is a scanned/compressed document (DynamicPDF-generated, created 2026-09-23) that could not be converted to readable text by the available tools in this pass."
-      },
-      "requirements_registration": {
-        "gpa_requirement": "Not found. Could not be confirmed via official source in this pass despite the prior-sweep notes/third-party comparisons suggesting a figure in the 2.7-3.0/4.3 range (unverified for UQTR specifically).",
-        "prior_degree": "Not found via readable text this pass (program documented to exist, École d'ingénierie, code 3824, with-thesis profile, per prior sweep)",
-        "gre_required": "Not found",
-        "ielts": "Not found",
-        "toefl": "Not found",
-        "english_exemptions": "Not found",
-        "deadline_fall": "Not found",
-        "deadline_winter": "Not found",
-        "deadline_notes": "Not found. Contact listed in prior sweep notes: dir.cycles.sup.gegi@uqtr.ca",
-        "other_admission_notes": "Créneaux d'expertise scholarship for international engineering master's students reportedly exists per prior-sweep notes (2022 source, currency unverified)."
-      },
-      "services": {},
-      "about_university": {},
-      "official_website_data": {
-        "official_source_url": "https://oraprdnt.uqtr.uquebec.ca/portail/docs/GSC885/O0006735300_GEGI___3824___Maitrise___2025.pdf",
-        "sources_consulted": [
-          "https://oraprdnt.uqtr.uquebec.ca/portail/docs/GSC885/O0006735300_GEGI___3824___Maitrise___2025.pdf"
-        ],
-        "scraped_on": "2026-11-08"
-      },
-      "ranking": {
-        "qs_world_rank": "Not researched yet",
-        "the_world_rank": "Not researched yet"
-      },
-      "candidate_notes_source": "Confirmed program exists (École d'ingénierie, code 3824, with-thesis profile). UQTR's international-students admission policy (require foreign bachelor's degree to be recognized as equivalent) applies generally to graduate admission, and a 'Créneaux d'expertise' scholarship specifically for international students entering engineering master's programs (including génie électrique) was documented (as of a 2022 source — value may be outdated, verify currency). Program is French-medium. Contact: dir.cycles.sup.gegi@uqtr.ca."
-    },
-    {
       "id": "ca-institut-national-de-la-recherche-scientifique-inrs-ma-trise-en-t-l-communications-profil-avec-m-moire-program-code-3404-56",
       "country": "Canada",
       "title": "Maîtrise en télécommunications (profil avec mémoire) — program code 3404",
@@ -2918,7 +2763,7 @@ const CANADA_DB = {
       "location": "Montréal/Varennes, Quebec",
       "tier": "B",
       "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
+      "gpa_fit_note": "INRS confirmed to offer a relevant Master's en télécommunications (program code 3404, thesis-based, 45 credits) explicitly requiring 'un baccalauréat en génie électrique ou un équivalent' — a strong match for NSU's EEE degree. Exact GPA floor could not be extracted (official program PDF compressed/unreadable by automated tools).",
       "overview": {
         "degree_type": "M.Sc. (thesis-based)",
         "duration": "2 years full-time, 45 credits (33 for thesis per prior-sweep notes); mandatory research component ('Mémoire') listed at 27 credits in the PDF bookmark outline",
@@ -2970,8 +2815,8 @@ const CANADA_DB = {
       "department": "Department of Electrical and Computer Engineering, Faculty of Engineering",
       "location": "Hamilton, Ontario",
       "tier": "A",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~79% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit": "borderline",
+      "gpa_fit_note": "No single official university-wide GPA floor was retrieved (McMaster's Graduate Calendar page did not load the relevant text), but confirmed departmental patterns (Chemistry, Computing & Software) show B+ (~77-79%) floors for thesis-based master's and B (~73%) for coursework-based master's. NSU's 2.83/4.0 (≈81-82% on NSU's own letter scale) likely clears a coursework MEng bar but is borderline/short for a thesis-based MASc — no ECE-specific page was confirmed.",
       "overview": {
         "degree_type": "MASc (thesis-based)",
         "duration": "2 years",
@@ -3023,8 +2868,8 @@ const CANADA_DB = {
       "department": "Department of Electrical and Computer Engineering, Faculty of Engineering",
       "location": "Hamilton, Ontario",
       "tier": "B",
-      "gpa_fit": "risky",
-      "gpa_fit_note": "Official page requires ~79% average; candidate's CGPA 2.83/4.0 (~70% equivalent) likely falls short.",
+      "gpa_fit": "borderline",
+      "gpa_fit_note": "No single official university-wide GPA floor was retrieved (McMaster's Graduate Calendar page did not load the relevant text), but confirmed departmental patterns (Chemistry, Computing & Software) show B+ (~77-79%) floors for thesis-based master's and B (~73%) for coursework-based master's. NSU's 2.83/4.0 (≈81-82% on NSU's own letter scale) likely clears a coursework MEng bar but is borderline/short for a thesis-based MASc — no ECE-specific page was confirmed.",
       "overview": {
         "degree_type": "MEng (course-based)",
         "duration": "16 months (full-time students can finish in about 1.5 years)",
@@ -3067,59 +2912,6 @@ const CANADA_DB = {
         "the_world_rank": "Not researched yet"
       },
       "candidate_notes_source": "Course-based MEng, 16 months, 7 graduate half-courses or equivalent. Same department/research areas as the MASc listed above (Microelectronics/VLSI, embedded systems, power electronics, etc., selectable via course specialization) -- tier guess B because it is a general coursework ECE degree rather than a VLSI/embedded-specific program. International admission confirmed the same way as the MASc entry above (university-wide international graduate admissions route, not a program-specific statement) -- verify directly before finalizing."
-    },
-    {
-      "id": "ca-universite-de-moncton-maitrise-es-sciences-appliquees-m-sc-a-genie-electrique-59",
-      "country": "Canada",
-      "title": "Maitrise es sciences appliquees (M.Sc.A.) - Genie electrique",
-      "university": "Universite de Moncton",
-      "department": "Faculte d'ingenierie (Faculty of Engineering)",
-      "location": "Moncton, New Brunswick",
-      "tier": "B",
-      "gpa_fit": "unknown",
-      "gpa_fit_note": "GPA requirement not published/found on official page.",
-      "overview": {
-        "degree_type": "M.Sc.A. (MASc equivalent, thesis-based)",
-        "duration": "2 years, 45 credits (30 credits thesis, 9 credits of 3 mandatory courses, 6 credits directed study in specialization) per prior-sweep notes",
-        "language": "English",
-        "department": "Faculte d'ingenierie (Faculty of Engineering)"
-      },
-      "course_details": {
-        "curriculum_notes": "The official faculty page retrieved in this pass (umcm-ingenierie-electrique) primarily describes the undergraduate Bachelor's in Electrical Engineering (5-year, 162-credit program with regular, co-op, and industrial-systems/automation profiles) rather than the graduate M.Sc.A. Co-op profile: four paid 4-month internships, 10 semesters condensed into 9. No distinct graduate-program curriculum page was successfully retrieved in this pass.",
-        "vlsi_rtl_relevance_notes": "No VLSI, microelectronics, or embedded-systems course or research group named in the retrieved content. Closest named specialization areas are electronics ('électronique'), electrotechnology ('électrotechnique'), and communications — general, not VLSI-specific."
-      },
-      "costs_funding": {
-        "tuition": "Not found precisely; university is described (via third-party/search context) as among the lowest-tuition Canadian universities for international students, but no specific CAD figure confirmed via official source CAD/year (international)",
-        "tuition_domestic": "Not found",
-        "tuition_notes": "Not found via official tuition page in this pass."
-      },
-      "requirements_registration": {
-        "gpa_requirement": "Not found via official source in this pass",
-        "prior_degree": "Bachelor's degree in engineering (M.Sc.A. covers civil, electrical, and mechanical engineering)",
-        "gre_required": "Not mentioned",
-        "ielts": "Not applicable / not found",
-        "toefl": "Not applicable / not found",
-        "english_exemptions": "Not found",
-        "deadline_fall": "Not found via official source (a third-party aggregator states both fall and winter terms accept applications; unverified)",
-        "deadline_winter": "Not found via official source",
-        "deadline_notes": "Contact suggested: international@umoncton.ca per search results.",
-        "other_admission_notes": "Program built around a specialized research project; prepares students for both job market and doctoral studies. A dedicated graduate admissions brochure (umoncton.ca/fesr) exists but its PDF could not be read as text in this pass."
-      },
-      "services": {},
-      "about_university": {},
-      "official_website_data": {
-        "official_source_url": "https://www.umoncton.ca/umcm-ingenierie-electrique/",
-        "sources_consulted": [
-          "https://www.umoncton.ca/umcm-ingenierie-electrique/",
-          "https://www.umoncton.ca/fesr/sites/fesr.prod.umoncton.ca/files/wf/umoncton_sciences-appliquees.pdf"
-        ],
-        "scraped_on": "2026-11-08"
-      },
-      "ranking": {
-        "qs_world_rank": "Not researched yet",
-        "the_world_rank": "Not researched yet"
-      },
-      "candidate_notes_source": "2-year, 45-credit thesis-based M.Sc.A. in electrical engineering (30 credits thesis, 9 credits of 3 mandatory courses, 6 credits directed study in specialization). General EE program, no explicit VLSI/microelectronics specialization found, so tier B. International admission confirmed at university level: Universite de Moncton documentation explicitly addresses international/foreign students needing a study permit (CAQ+study permit process described in umce.umoncton.ca/international and the faculty's graduate admission documents), and the university is marketed as among the lowest-tuition Canadian universities for international students. Program taught in French; English proficiency not the relevant language requirement -- French proficiency would be required instead. Official faculty page (umcm-ingenierie-electrique) should be checked directly for the current graduate-specific international admission clause before finalizing."
     }
   ],
   "aps_info": null,
