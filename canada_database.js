@@ -39,7 +39,7 @@ const CANADA_DB = {
         "tuition_notes": "MASc students receive guaranteed departmental funding (Graduate Research Studentship) to complete degree; MEng is fully self-funded. Official tuition schedule at gradstudies.engineering.utoronto.ca/prospective-students/money-matters/ not fully retrieved."
       },
       "requirements_registration": {
-        "gpa_requirement": "Minimum 'Mid-B' average in final year (SGS International Credential Equivalencies tool used for conversion)",
+        "gpa_requirement": "Official ECE dept. page: \"an average equivalent to at least a mid-B in the final year\" (SGS International Credential Equivalencies: mid-B ≈ 3.0/4.0). Final-year-specific, not cumulative CGPA. Source: ece.utoronto.ca/graduates/minimum-admission-requirements/",
         "prior_degree": "Equivalent of a University of Toronto 4-year Bachelor's degree in electrical/computer engineering or related field (CS, math, physics, other engineering)",
         "gre_required": "Not required/not mentioned on ECE department page",
         "ielts": "Not stated on department page; defers to SGS English proficiency options (no numeric IELTS cutoff on ece.utoronto.ca)",
@@ -94,7 +94,7 @@ const CANADA_DB = {
         "tuition_notes": "MEng is fully self-funded - no departmental/faculty/university financial support"
       },
       "requirements_registration": {
-        "gpa_requirement": "Minimum 'Mid-B' average in final year; both final-year and overall GPA considered; meeting minimum does not guarantee admission (letter of intent/references also weighed)",
+        "gpa_requirement": "Official ECE dept. page: \"an average equivalent to at least a mid-B in the final year\" (SGS International Credential Equivalencies: mid-B ≈ 3.0/4.0). Final-year-specific, not cumulative CGPA. Source: ece.utoronto.ca/graduates/minimum-admission-requirements/",
         "prior_degree": "Equivalent of a University of Toronto 4-year Bachelor's degree in electrical/computer engineering or related field",
         "gre_required": "Not required/not mentioned on ECE department page",
         "ielts": "Not stated on department page; defers to SGS English proficiency options (no numeric IELTS cutoff on ece.utoronto.ca)",
@@ -148,7 +148,7 @@ const CANADA_DB = {
         "tuition_notes": "MASc students guaranteed minimum funding package of ~$18,000 CAD/year via Graduate Research Studentship (per department page)"
       },
       "requirements_registration": {
-        "gpa_requirement": "Not found definitively on official ECE pages; third-party sources suggest B+ (78%) range; for PhD, standing equivalent to 83% cited by a third party (unverified)",
+        "gpa_requirement": "Official ECE dept. program page: \"A 75% overall standing or equivalent, in a relevant four-year honours bachelor's degree or equivalent is the minimum requirement for admission to a master's program for applicants educated outside of Canada.\" No Bangladesh-specific carve-out found on the live site. Source: uwaterloo.ca/future-graduate-students (ECE MEng Co-op program page)",
         "prior_degree": "Bachelor's degree in relevant engineering/science field (exact wording not found on official page)",
         "gre_required": "Not mentioned on ECE department page",
         "ielts": "6.5 overall (writing 6.0, speaking 6.0) (official ECE MEng Co-op program page)",
@@ -202,7 +202,7 @@ const CANADA_DB = {
         "tuition_notes": "MEng students are fully self-funded; no departmental/faculty/university financial support provided"
       },
       "requirements_registration": {
-        "gpa_requirement": "Not specified numerically on official pages visited; International Admission Equivalencies page referenced uses minimum 75% overall for Master's programs generally",
+        "gpa_requirement": "Official ECE dept. program page: \"A 75% overall standing or equivalent, in a relevant four-year honours bachelor's degree or equivalent is the minimum requirement for admission to a master's program for applicants educated outside of Canada.\" No Bangladesh-specific carve-out found on the live site. Source: uwaterloo.ca/future-graduate-students (ECE MEng Co-op program page)",
         "prior_degree": "Not explicitly stated on pages visited (relevant bachelor's degree implied)",
         "gre_required": "Not mentioned on ECE department page",
         "ielts": "6.5 overall (writing 6.0, speaking 6.0) (official ECE MEng Co-op program page)",
@@ -256,7 +256,7 @@ const CANADA_DB = {
         "tuition_notes": "Tuition typically rises 2-5% annually; student fees ~$1,203.20/year additional; application fee domestic $120.75, international $168.25"
       },
       "requirements_registration": {
-        "gpa_requirement": "No explicit program-specific numeric cutoff; UBC general minimum overall average in B+ range (76%); program prefers first-class GPA range plus demonstrated research aptitude",
+        "gpa_requirement": "Could not be verified — ece.ubc.ca is behind an active bot-detection wall that blocked both automated and browser verification. Cached snippets suggest a 'first-class range' (~80%) preference, unconfirmed. Recommend checking ece.ubc.ca/graduate/programs/masters-doctoral/admission-information directly.",
         "prior_degree": "UBC-accredited 4-year bachelor's degree in Electrical or Computer Engineering, or closely related field with significant course overlap",
         "gre_required": "Not required; optional submission",
         "ielts": "7.0 overall, no band below 6.0 (official ECE department page, ece.ubc.ca — stricter than the 6.5 general grad-school floor)",
@@ -308,7 +308,7 @@ const CANADA_DB = {
         "tuition_notes": "Additional student fees ~$1,203.20/year; $1,000 deposit to accept offer; tuition may rise annually"
       },
       "requirements_registration": {
-        "gpa_requirement": "Not stated on this page; handled by UBC Engineering professional programs site (not directly retrieved)",
+        "gpa_requirement": "Could not be verified — ece.ubc.ca is behind an active bot-detection wall that blocked both automated and browser verification. Cached snippets suggest a 'first-class range' (~80%) preference, unconfirmed. Recommend checking ece.ubc.ca/graduate/programs/masters-doctoral/admission-information directly.",
         "prior_degree": "Not explicitly stated on this page",
         "gre_required": "Not stated",
         "ielts": "7.0 overall, no band below 6.0 (official ECE department page, ece.ubc.ca — stricter than the 6.5 general grad-school floor)",
@@ -360,7 +360,7 @@ const CANADA_DB = {
         "tuition_notes": "Page did not list tuition; refer to McGill fee estimator."
       },
       "requirements_registration": {
-        "gpa_requirement": "Minimum 3.0 on 4.0 scale (university-level minimum)",
+        "gpa_requirement": "Official ECE dept. page: \"a standing equivalent to a Cumulative Grade Point Average (CGPA) of 3.0 out of 4 or a GPA of 3.2 out of 4.0 for the last two full-time academic years.\" Source: mcgill.ca/ece/graduate/graduate/process",
         "prior_degree": "An eligible Bachelor's degree (specific fields not named on page)",
         "gre_required": "Not mandatory; may be submitted for consideration if already taken (official ECE department page)",
         "ielts": "Overall band score of 7.0, no component below 6.0 (official ECE department page, mcgill.ca/ece)",
@@ -412,7 +412,7 @@ const CANADA_DB = {
         "tuition_notes": "Not listed; check McGill fee estimator."
       },
       "requirements_registration": {
-        "gpa_requirement": "Minimum 3.0 on 4.0 scale",
+        "gpa_requirement": "Official ECE dept. page: \"a standing equivalent to a Cumulative Grade Point Average (CGPA) of 3.0 out of 4 or a GPA of 3.2 out of 4.0 for the last two full-time academic years.\" Source: mcgill.ca/ece/graduate/graduate/process",
         "prior_degree": "An eligible Bachelor's degree (fields not specified)",
         "gre_required": "Not mandatory; may be submitted for consideration if already taken (official ECE department page)",
         "ielts": "Overall band score of 7.0, no component below 6.0 (official ECE department page, mcgill.ca/ece)",
@@ -464,7 +464,7 @@ const CANADA_DB = {
         "tuition_notes": "International tuition significantly higher per Carleton fee estimator (not retrieved)."
       },
       "requirements_registration": {
-        "gpa_requirement": "General minimum: B+ in major subjects, B- or better overall (university-wide minimum; program-specific not separately confirmed)",
+        "gpa_requirement": "Official 2026-27 Carleton Graduate Calendar, ECE Admission tab: \"a bachelor's degree in electrical engineering or a related discipline with a CGPA of B+\" (≈3.3/4.0). Source: calendar.carleton.ca/grad/gradprograms/electricalandcomputerengineering/ — this is the correct departmental figure; a general Bangladesh country-equivalency page (55-60%/65-70%) exists but is NOT what the ECE department itself states.",
         "prior_degree": "Not specified on program page beyond general university minimums",
         "gre_required": "Not found",
         "ielts": "Not found on program/minimum-requirements pages (referred to international admission requirements page, not separately fetched)",
@@ -517,7 +517,7 @@ const CANADA_DB = {
         "tuition_notes": "Tuition depends on student status per page."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not explicitly stated numerically; 'bachelor's degree in engineering or equivalent with high standing'",
+        "gpa_requirement": "Official ECE MASc program page: \"Bachelor's degree in engineering or equivalent with high standing\" — no explicit numeric CGPA stated on this department page. A general Graduate Calendar figure of 3.00/4.30 exists but is not confirmed as this department's own stated bar. Source: concordia.ca/academics/graduate/electrical-engineering-masc.html",
         "prior_degree": "Bachelor's degree in engineering or equivalent",
         "gre_required": "Not mentioned",
         "ielts": "Not listed on this page",
@@ -569,7 +569,7 @@ const CANADA_DB = {
         "tuition_notes": "Not stated on program page."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not explicitly numeric; 'bachelor's degree in engineering or equivalent with high standing'",
+        "gpa_requirement": "Official ECE MASc program page: \"Bachelor's degree in engineering or equivalent with high standing\" — no explicit numeric CGPA stated on this department page. A general Graduate Calendar figure of 3.00/4.30 exists but is not confirmed as this department's own stated bar. Source: concordia.ca/academics/graduate/electrical-engineering-masc.html",
         "prior_degree": "Bachelor's degree in engineering or equivalent",
         "gre_required": "Not mentioned",
         "ielts": "Not listed; referred to separate English proficiency page",
@@ -622,7 +622,7 @@ const CANADA_DB = {
         "tuition_notes": "Official catalog page content could not be retrieved (fetch returned empty/paywalled); figures above are unverified aggregator data."
       },
       "requirements_registration": {
-        "gpa_requirement": "Bachelor's degree with a specialization or major in Electrical/Computer Engineering (or equivalent) with a minimum average of 70% (B), per uOttawa catalogue (via search cache); could not independently re-verify by direct page fetch.",
+        "gpa_requirement": "Official ECE graduate program catalogue: \"a minimum average of 70% (B)\". Source: catalogue.uottawa.ca/en/graduate/master-applied-science-electrical-computer-engineering/",
         "prior_degree": "Bachelor's degree with specialization/major in ECE or equivalent.",
         "gre_required": "Not mentioned",
         "ielts": "Not stated on department page; 'proof of linguistic proficiency may be required', defers to a separate requirements page",
@@ -675,7 +675,7 @@ const CANADA_DB = {
         "tuition_notes": "Page repeatedly failed to load during this research pass (HTTP 402/503 and empty responses). Recommend a separate manual visit to confirm all fields."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not found",
+        "gpa_requirement": "Official ECE graduate program catalogue: \"a minimum average of 70% (B)\". Source: catalogue.uottawa.ca/en/graduate/master-applied-science-electrical-computer-engineering/",
         "prior_degree": "Not found (presumed bachelor's in ECE or related, per general uOttawa engineering graduate norms, but not confirmed on this specific page)",
         "gre_required": "Not found",
         "ielts": "Not stated on department page; 'proof of linguistic proficiency may be required', defers to a separate requirements page",
@@ -727,7 +727,7 @@ const CANADA_DB = {
         "tuition_notes": "Not stated on program-specific page."
       },
       "requirements_registration": {
-        "gpa_requirement": "Minimum 3.0 on 4.0 scale, based on last two years full-time undergrad study (10 full-course equivalents/60 units)",
+        "gpa_requirement": "Official ECE/ESE dept. page: \"A minimum of 3.0 GPA on a 4.0 point system, over the past two years of full-time study.\" Source: grad.ucalgary.ca/future-students/graduate/discover-opportunities/explore-programs/electrical-and-computer-engineering-msc-thesis",
         "prior_degree": "Four-year bachelor's degree or equivalent from recognized institution",
         "gre_required": "'Test scores: None' — explicitly no standardized test required beyond English proficiency (official department page, grad.ucalgary.ca)",
         "ielts": "Not listed on this page; general university minimums apply (not re-confirmed this pass)",
@@ -780,7 +780,7 @@ const CANADA_DB = {
         "tuition_notes": "Page explicitly states MEng is self-funded."
       },
       "requirements_registration": {
-        "gpa_requirement": "Minimum 3.0 on 4.0 scale, over past two years full-time undergrad study (10 full-course equivalents/60 units)",
+        "gpa_requirement": "Official ECE/ESE dept. page: \"A minimum of 3.0 GPA on a 4.0 point system, over the past two years of full-time study.\" Source: grad.ucalgary.ca/future-students/graduate/discover-opportunities/explore-programs/electrical-and-computer-engineering-msc-thesis",
         "prior_degree": "Four-year baccalaureate in electrical and computer engineering or equivalent; mainly software/computer-engineering backgrounds directed to Software Engineering specialization instead",
         "gre_required": "'Test scores: None' — explicitly no standardized test required beyond English proficiency (official department page, grad.ucalgary.ca)",
         "ielts": "Not stated on this page; see Academic Calendar",
@@ -833,7 +833,7 @@ const CANADA_DB = {
         "tuition_notes": "Not stated here."
       },
       "requirements_registration": {
-        "gpa_requirement": "Minimum 3.0 on 4-point scale (MSc/MEng); PhD requires 3.3; based on last 60 units or last two years full-time graded coursework",
+        "gpa_requirement": "Official ECE dept. page: \"an admission GPA of at least 3.0 on the 4-point scale... calculated on the last 60 units of graded coursework.\" Source: ualberta.ca/en/graduate-programs/master-of-science-electrical-and-computer-engineering.html",
         "prior_degree": "Undergraduate degree from recognized institution or equivalent; master's holders eligible only for PhD; doctoral holders ineligible for graduate program",
         "gre_required": "Not required — official department FAQ: 'Is the GRE Test Required? No, we do not require this test.' (ualberta.ca/engineering/electrical-computer-engineering/graduate-studies/faq.html)",
         "ielts": "Overall band score of 7.0, at least 6.0 on each band (official ECE department page, ualberta.ca)",
@@ -885,7 +885,7 @@ const CANADA_DB = {
         "tuition_notes": "Not stated here."
       },
       "requirements_registration": {
-        "gpa_requirement": "Minimum 3.0 on 4-point scale (U of A or equivalent), based on last 60 units or last two full-time years",
+        "gpa_requirement": "Official ECE dept. page: \"an admission GPA of at least 3.0 on the 4-point scale... calculated on the last 60 units of graded coursework.\" Source: ualberta.ca/en/graduate-programs/master-of-science-electrical-and-computer-engineering.html",
         "prior_degree": "Undergraduate degree from recognized institution; master's in ECE/related field eligible only for PhD; doctorate holders ineligible",
         "gre_required": "Not required — official department FAQ: 'Is the GRE Test Required? No, we do not require this test.' (ualberta.ca/engineering/electrical-computer-engineering/graduate-studies/faq.html)",
         "ielts": "Overall band score of 7.0, at least 6.0 on each band (official ECE department page, ualberta.ca)",
@@ -937,7 +937,7 @@ const CANADA_DB = {
         "tuition_notes": "Student fees additional (~$617.36 Fall 2026, $854.96 Winter 2027, $46.75 each Spring/Summer 2027); application fee $125 CAD domestic / $145 CAD international"
       },
       "requirements_registration": {
-        "gpa_requirement": "Cumulative weighted average of at least 70% (USask grading scale) in the last two years of study",
+        "gpa_requirement": "Could not locate a live ECE-specific admission page (engineering.usask.ca was recently redesigned; known/guessed URLs 404). Only the university-wide CGPS general page was reachable, which defers to 'your chosen graduate program' for the actual figure. No confirmed departmental number.",
         "prior_degree": "Relevant bachelor's degree (specific field not itemized on pages visited, though implied Electrical Engineering or related)",
         "gre_required": "Not mentioned",
         "ielts": "Not listed on pages visited; proof of English proficiency 'may be required' for international applicants and non-native speakers; refer to separate requirements page",
@@ -990,7 +990,7 @@ const CANADA_DB = {
         "tuition_notes": "Figures are per-term, not per-year, as stated on official page; student fees additional"
       },
       "requirements_registration": {
-        "gpa_requirement": "Cumulative weighted average of at least 70% (USask grading scale) in the last two years of study",
+        "gpa_requirement": "Could not locate a live ECE-specific admission page (engineering.usask.ca was recently redesigned; known/guessed URLs 404). Only the university-wide CGPS general page was reachable, which defers to 'your chosen graduate program' for the actual figure. No confirmed departmental number.",
         "prior_degree": "Relevant bachelor's degree (field not itemized precisely)",
         "gre_required": "Not mentioned",
         "ielts": "Not listed on pages visited",
@@ -1043,7 +1043,7 @@ const CANADA_DB = {
         "tuition_notes": "Official tuition page is umanitoba.ca/registrar/tuition-fees/graduate (could not be fetched during this pass)."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not found on official department/catalog pages. Third-party aggregators cite 3.0/4.0 (unverified).",
+        "gpa_requirement": "Official ECE dept. catalogue page: \"University's minimum GPA requirement of 3.0 / Department's requirement of 3.5.\" The department's own bar (3.5/4.0) is stricter than the general university floor. Source: catalog.umanitoba.ca/graduate-studies/engineering/electrical-computer-engineering-msc/",
         "prior_degree": "Bachelor's degree in Electrical or Computer Engineering (or equivalent); requires tentative acceptance from an ECE faculty advisor before Faculty of Graduate Studies admission.",
         "gre_required": "Not mentioned",
         "ielts": "Not stated with a number on department catalogue page (references a generic 'English Language Examination')",
@@ -1097,7 +1097,7 @@ const CANADA_DB = {
         "tuition_notes": "Third-party aggregator figure ~6,282 CAD/year appeared but could not be verified or attributed to international vs domestic status."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not found on official pages (third-party aggregator cites 3.0/4.0, unverified)",
+        "gpa_requirement": "Official ECE dept. catalogue page: \"University's minimum GPA requirement of 3.0 / Department's requirement of 3.5.\" The department's own bar (3.5/4.0) is stricter than the general university floor. Source: catalog.umanitoba.ca/graduate-studies/engineering/electrical-computer-engineering-msc/",
         "prior_degree": "Bachelor's degree in Electrical/Computer Engineering or related field.",
         "gre_required": "Not mentioned",
         "ielts": "Not stated with a number on department catalogue page (references a generic 'English Language Examination')",
@@ -1151,7 +1151,7 @@ const CANADA_DB = {
         "tuition_notes": "Not found definitively"
       },
       "requirements_registration": {
-        "gpa_requirement": "78% minimum average (per Western Engineering graduate programs page); Accelerated MESc requires at least 78% cumulative average over 2nd/3rd years; transfer to PhD requires 85% average across MESc courses",
+        "gpa_requirement": "Official ECE dept. page: MEng \"Minimum 70% average in the last two years of study\"; MESc \"Minimum 78% average in the last two years of study\"; PhD requires 78% average in the master's degree. Source: eng.uwo.ca/electrical/graduate/future_students/how-to-apply.html — verdict depends on which specific program (MEng vs MESc/thesis) this entry is.",
         "prior_degree": "Bachelor's degree in engineering (accredited) or similar program meeting the minimum average; Accelerated MESc open to current 3rd-year Western Engineering students following the BESc",
         "gre_required": "Not mentioned on department page",
         "ielts": "Academic IELTS accepted (exact departmental cutoff not isolated on eng.uwo.ca/electrical)",
@@ -1204,7 +1204,7 @@ const CANADA_DB = {
         "tuition_notes": "Not found definitively"
       },
       "requirements_registration": {
-        "gpa_requirement": "70% minimum average (about B- North American average)",
+        "gpa_requirement": "Official ECE dept. page: MEng \"Minimum 70% average in the last two years of study\"; MESc \"Minimum 78% average in the last two years of study\"; PhD requires 78% average in the master's degree. Source: eng.uwo.ca/electrical/graduate/future_students/how-to-apply.html — verdict depends on which specific program (MEng vs MESc/thesis) this entry is.",
         "prior_degree": "Bachelor's degree in engineering from accredited university or similar program",
         "gre_required": "Not mentioned on department page",
         "ielts": "Academic IELTS accepted (exact departmental cutoff not isolated on eng.uwo.ca/electrical)",
@@ -1257,7 +1257,7 @@ const CANADA_DB = {
         "tuition_notes": "Not found - page links to Graduate Assistantships and Graduate Courses Offerings pages not retrieved"
       },
       "requirements_registration": {
-        "gpa_requirement": "Not found on pages visited",
+        "gpa_requirement": "Official Engineering MEng admission-requirements page: \"Min 72% GPA in your undergraduate studies\" (MEng only; no confirmed MASc/PhD-specific figure found). Source: uwindsor.ca/engineering/537/admission-program-requirements",
         "prior_degree": "Not found explicitly on pages visited",
         "gre_required": "Explicitly listed under 'Documents not required to apply': GRE (official page)",
         "ielts": "IELTS 6.5 / Duolingo 120 / UWindsor ELIP Level 3 (official Engineering MEng admission-requirements page)",
@@ -1309,7 +1309,7 @@ const CANADA_DB = {
         "tuition_notes": "Not found definitively"
       },
       "requirements_registration": {
-        "gpa_requirement": "No explicit GPA; undergraduate degree 'in a relevant Engineering discipline with at least a 72% average'; no more than three failed/repeated courses, only one in years 3-4",
+        "gpa_requirement": "Official Engineering MEng admission-requirements page: \"Min 72% GPA in your undergraduate studies\" (MEng only; no confirmed MASc/PhD-specific figure found). Source: uwindsor.ca/engineering/537/admission-program-requirements",
         "prior_degree": "Undergraduate degree in a relevant Engineering discipline",
         "gre_required": "Explicitly listed under 'Documents not required to apply': GRE (official page)",
         "ielts": "IELTS 6.5 / Duolingo 120 / UWindsor ELIP Level 3 (official Engineering MEng admission-requirements page)",
@@ -1362,7 +1362,7 @@ const CANADA_DB = {
         "tuition_notes": "Official TMU graduate tuition/Financing Your Studies page not fetched in this pass; treat all tuition figures as unverified for this specific program."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not explicitly numeric on official page.",
+        "gpa_requirement": "Official ECE program page: MASc/MEng \"Minimum grade point average (GPA) or equivalent of 3.00/4.33 (B) in the last two years\"; PhD \"3.33/4.33 (B+)\". Page states GPA is computed \"using the applicant's own institution's grading scale\" — i.e. NOT a rescale to 4.33. Source: torontomu.ca/graduate/programs/electrical-computer-engineering/",
         "prior_degree": "Completion of a four-year undergraduate (or equivalent) degree from an accredited institution (confirmed via official page).",
         "gre_required": "Not mentioned",
         "ielts": "Not stated with a number on the ECE program page itself",
@@ -1415,7 +1415,7 @@ const CANADA_DB = {
         "tuition_notes": "Official TMU graduate tuition/Financing Your Studies page not fetched in this pass; treat all tuition figures as unverified for this specific program."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not explicitly numeric on official page.",
+        "gpa_requirement": "Official ECE program page: MASc/MEng \"Minimum grade point average (GPA) or equivalent of 3.00/4.33 (B) in the last two years\"; PhD \"3.33/4.33 (B+)\". Page states GPA is computed \"using the applicant's own institution's grading scale\" — i.e. NOT a rescale to 4.33. Source: torontomu.ca/graduate/programs/electrical-computer-engineering/",
         "prior_degree": "Completion of a four-year undergraduate (or equivalent) degree from an accredited institution (confirmed via official page).",
         "gre_required": "Not mentioned",
         "ielts": "Not stated with a number on the ECE program page itself",
@@ -1468,7 +1468,7 @@ const CANADA_DB = {
         "tuition_notes": "Not found definitively"
       },
       "requirements_registration": {
-        "gpa_requirement": "B+ average in last two years of study (minimum; does not guarantee admission)",
+        "gpa_requirement": "Official ECE/CS academic calendar (2026-27 edition): \"at least a B+ average in the last two years of study\" for MSc/MASc; direct-to-PhD requires an A average. Source: yorku.ca/gradstudies/academiccalendar/2026-2027/electrical-engineering-computer-science/",
         "prior_degree": "Honours undergraduate degree or equivalent (typically 4-year full-time) in Electrical, Computer, or Software Engineering from accredited university; must have completed senior-level project course/thesis or equivalent industrial/research experience",
         "gre_required": "Strongly recommended, not mandatory (official page)",
         "ielts": "Overall 7.0 (official ECE/CS academic calendar page, 2026-27 edition)",
@@ -1520,7 +1520,7 @@ const CANADA_DB = {
         "tuition_notes": "Not found - refer to SFU graduate tuition schedule"
       },
       "requirements_registration": {
-        "gpa_requirement": "Cumulative GPA of at least 3.0 (B) normally required; for transfer from M.Eng. to M.A.Sc.: undergraduate CGPA at least 3.3, and M.Eng. CGPA at least 3.5 on at least two courses",
+        "gpa_requirement": "Official SFU Engineering Science graduate admissions page states only a degree-field prerequisite (bachelor's in EE/CE/engineering science or related) — NO numeric GPA found on SFU's own site. A commonly-cited third-party figure of 3.0/4.33 (or 3.33/4.33 on last 60 credits) could not be confirmed on sfu.ca. Source: sfu.ca/fas/study/future-graduates/apply/engineering-science.html",
         "prior_degree": "Bachelor's degree in Electrical Engineering, Computer Engineering, Engineering Science, or related area",
         "gre_required": "'We do not require GRE test.' (official SFU Engineering Science admissions page)",
         "ielts": "Not stated on this page",
@@ -1572,7 +1572,7 @@ const CANADA_DB = {
         "tuition_notes": "Students who finish early may owe additional payment before graduation"
       },
       "requirements_registration": {
-        "gpa_requirement": "Cumulative GPA of at least 3.0 (B) in relevant Bachelor's degree; transfer from M.Eng. to M.A.Sc. requires undergraduate CGPA >= 3.3 and CGPA >= 3.5 on at least two M.Eng. courses",
+        "gpa_requirement": "Official SFU Engineering Science graduate admissions page states only a degree-field prerequisite (bachelor's in EE/CE/engineering science or related) — NO numeric GPA found on SFU's own site. A commonly-cited third-party figure of 3.0/4.33 (or 3.33/4.33 on last 60 credits) could not be confirmed on sfu.ca. Source: sfu.ca/fas/study/future-graduates/apply/engineering-science.html",
         "prior_degree": "Bachelor's degree in Electrical Engineering, Computer Engineering, Engineering Science, or related area from recognized university (or equivalent)",
         "gre_required": "'We do not require GRE test.' (official SFU Engineering Science admissions page)",
         "ielts": "Not mentioned on this page",
@@ -1624,7 +1624,7 @@ const CANADA_DB = {
         "tuition_notes": "Contact ecegsec@uvic.ca for tuition details"
       },
       "requirements_registration": {
-        "gpa_requirement": "Not found on pages visited (refer to UVic graduate calendar)",
+        "gpa_requirement": "Official ECE dept. admissions page states NO fixed numeric GPA cutoff: \"We assess applicants based on their education, work experiences, research statement, references and GPA\" (holistic review, no published floor). Source: uvic.ca/ecs/ece/future/graduate/admissions/index.php",
         "prior_degree": "Not explicitly stated on pages visited",
         "gre_required": "Recommended but not required (official page)",
         "ielts": "At least 6.5, no section below 6.0 (official ECE department page, uvic.ca/ecs/ece)",
@@ -1676,7 +1676,7 @@ const CANADA_DB = {
         "tuition_notes": "Contact ecegsec2@uvic.ca for tuition details"
       },
       "requirements_registration": {
-        "gpa_requirement": "Not found on pages visited",
+        "gpa_requirement": "Official ECE dept. admissions page states NO fixed numeric GPA cutoff: \"We assess applicants based on their education, work experiences, research statement, references and GPA\" (holistic review, no published floor). Source: uvic.ca/ecs/ece/future/graduate/admissions/index.php",
         "prior_degree": "Not explicitly stated on pages visited",
         "gre_required": "Recommended but not required (official page)",
         "ielts": "At least 6.5, no section below 6.0 (official ECE department page, uvic.ca/ecs/ece)",
@@ -1728,7 +1728,7 @@ const CANADA_DB = {
         "tuition_notes": "Not stated on program page."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not found; page refers to Faculty of Graduate Studies minimum requirements (not separately fetched)",
+        "gpa_requirement": "Official Electrical & Computer Engineering dept. graduate-programs page states NO numeric GPA — admission depends on Faculty of Graduate Studies requirements plus a supervising professor's acceptance. Source: dal.ca/faculty/engineering/electrical/programs/JRD-GraduatePrograms/graduate-programs.html",
         "prior_degree": "Not specified on this page",
         "gre_required": "Not mentioned",
         "ielts": "Not listed; referred to international student admission requirements page",
@@ -1780,7 +1780,7 @@ const CANADA_DB = {
         "tuition_notes": "Not stated on program page."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not found; refer to Faculty of Graduate Studies minimum requirements",
+        "gpa_requirement": "Official Electrical & Computer Engineering dept. graduate-programs page states NO numeric GPA — admission depends on Faculty of Graduate Studies requirements plus a supervising professor's acceptance. Source: dal.ca/faculty/engineering/electrical/programs/JRD-GraduatePrograms/graduate-programs.html",
         "prior_degree": "Not specified on this page",
         "gre_required": "Not mentioned",
         "ielts": "Not listed; referred to separate international students page",
@@ -1832,7 +1832,7 @@ const CANADA_DB = {
         "tuition_notes": "Minimum funding support referenced at ~$18,000 (minimum) per MUN engineering graduate FAQ; verify against current fee schedule."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not stated as a number; requires second-class ('B') standing or better in an appropriate bachelor's degree (per MUN School of Graduate Studies 19.1 Qualifications for Admission).",
+        "gpa_requirement": "No ECE-specific admission page with a numeric floor could be located (relevant mun.ca pages returned 404s / navigation-only content). Only a general, unconfirmed-as-departmental 'second-class degree' qualitative standard was found.",
         "prior_degree": "Bachelor's degree (minimum second-class/'B' standing) in an appropriate area of study; PhD applicants need a relevant master's.",
         "gre_required": "Not mentioned",
         "ielts": "Not found on department pages (governed by general MUN School of Graduate Studies English proficiency policy; specific band not located in this pass)",
@@ -1887,7 +1887,7 @@ const CANADA_DB = {
         "tuition_notes": "Not found definitively"
       },
       "requirements_registration": {
-        "gpa_requirement": "Undergraduate degree with minimum average of 80% or First Class standing (per UNB graduate studies page); department page states 'first or second division standing in electrical engineering or related discipline'",
+        "gpa_requirement": "ECE Director of Graduate Studies' own guidance page: \"I recommend that it be 3.0 or higher, or a B, or higher, because these are the limits of our SGS\" — a de facto floor with a case-by-case exception path below it. Source: ece.unb.ca/petersen/dgs",
         "prior_degree": "Bachelor's degree with first or second division standing in electrical engineering or related discipline",
         "gre_required": "'A GRE is not required in this department.' (official page)",
         "ielts": "No specific number stated; 'IELTS One Skill Retake is accepted' (official ECE Director of Graduate Studies page)",
@@ -1939,7 +1939,7 @@ const CANADA_DB = {
         "tuition_notes": "Not found - see UNB Tuition & Fees page"
       },
       "requirements_registration": {
-        "gpa_requirement": "Minimum average of 80% or First Class standing (same general UNB Graduate Studies threshold)",
+        "gpa_requirement": "ECE Director of Graduate Studies' own guidance page: \"I recommend that it be 3.0 or higher, or a B, or higher, because these are the limits of our SGS\" — a de facto floor with a case-by-case exception path below it. Source: ece.unb.ca/petersen/dgs",
         "prior_degree": "Accredited undergraduate degree in relevant discipline",
         "gre_required": "'A GRE is not required in this department.' (official page)",
         "ielts": "No specific number stated; 'IELTS One Skill Retake is accepted' (official ECE Director of Graduate Studies page)",
@@ -1992,7 +1992,7 @@ const CANADA_DB = {
         "tuition_notes": "Official page explicitly defers tuition details to a separate tuition/fees page not captured in this pass."
       },
       "requirements_registration": {
-        "gpa_requirement": "No numeric GPA cutoff stated on official page. Third-party aggregators cite ~70% graduating average and/or 3.0/4.0 GPA (unverified against official page, which does not list this figure).",
+        "gpa_requirement": "Official Electronic Systems Engineering program calendar page states NO numeric GPA at all — just \"must meet Faculty of Graduate Studies and Research entrance requirements and must be admitted by the Electronics Systems Engineering Program.\" A previously-cited '70%=2.67/4.0 WES-based' figure could not be reconfirmed on this department page and appears to be a third-party aggregator figure. Source: uregina.ca/graduate-studies-research/graduate-calendar/all-programs/engg-ese.html",
         "prior_degree": "Four-year bachelor's degree in engineering or equivalent (implied; official page did not state explicit GPA/degree minimum in retrievable content).",
         "gre_required": "Conflicting reports from aggregators — some say required, some say not; not mentioned on official page content retrieved.",
         "ielts": "Not stated on official page; third-party sources most consistently cite IELTS 6.5 (TOEFL iBT cited variably as 70 or 80) — not independently verified against official admissions page.",
@@ -2045,7 +2045,7 @@ const CANADA_DB = {
         "tuition_notes": "Official Queen's academic calendar page content could not be retrieved (empty response) despite multiple attempts."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not confirmed on official page. Third-party aggregators cite 75% / B+ or 'Upper Second Class Standing' for domestic applicants; figures conflict across sources and were not verified against the official Queen's calendar.",
+        "gpa_requirement": "Official ECE MASc admissions page explicitly lists country-specific tiers: domestic \"75% or B+ or Upper Second Class Standing\"; \"India, Bangladesh & Pakistan: First class or 63%\"; \"All others: 80%\". Source: smithengineering.queensu.ca/ece/graduate/masc",
         "prior_degree": "Bachelor's degree in engineering or closely related field (unconfirmed detail from aggregators).",
         "gre_required": "'We do not require the GRE. Please do not send us official GRE scores.' (official page)",
         "ielts": "Minimum of 7.0 on IELTS (official ECE MASc admissions page, smithengineering.queensu.ca)",
@@ -2098,7 +2098,7 @@ const CANADA_DB = {
         "tuition_notes": "Official calendar page content could not be retrieved (empty response)."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not confirmed on official page (empty content on repeated fetches). Aggregators cite domestic requirement of 75%/B+.",
+        "gpa_requirement": "Official ECE MASc admissions page explicitly lists country-specific tiers: domestic \"75% or B+ or Upper Second Class Standing\"; \"India, Bangladesh & Pakistan: First class or 63%\"; \"All others: 80%\". Source: smithengineering.queensu.ca/ece/graduate/masc",
         "prior_degree": "Bachelor's degree in engineering or related field (unconfirmed detail).",
         "gre_required": "'We do not require the GRE. Please do not send us official GRE scores.' (official page)",
         "ielts": "Minimum of 7.0 on IELTS (official ECE MASc admissions page, smithengineering.queensu.ca)",
@@ -2151,7 +2151,7 @@ const CANADA_DB = {
         "tuition_notes": "Not stated on this page."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not explicitly numeric on this page",
+        "gpa_requirement": "Official ECE Master's program page: \"a Bachelor's Degree in Electrical, Computer or Software Engineering (four year program), with at least a second class standing (70%) in their last 20 credits or equivalent.\" Source: lakeheadu.ca/programs/graduate/programs/masters/electrical-and-computer/node/7270",
         "prior_degree": "Four-year bachelor's degree or equivalent from recognized institution",
         "gre_required": "Not mentioned",
         "ielts": "Not listed; multiple pathways to meet English proficiency, refer to Academic Calendar",
@@ -2203,7 +2203,7 @@ const CANADA_DB = {
         "tuition_notes": "Not stated."
       },
       "requirements_registration": {
-        "gpa_requirement": "75% admission average",
+        "gpa_requirement": "Official MEng admission requirements: \"Applicants must be graduates of an honours engineering program with at least a 70% average in the past four full semesters or the last two complete undergraduate years or the equivalent.\" (The Doctoral route separately requires 73%, not applicable to this Master's figure.) Source: calendar.uoguelph.ca/graduate-calendar/graduate-programs/engineering/",
         "prior_degree": "Honours engineering degree (B.Eng or equivalent) with min 75% average in last 4 full-time semesters, OR honours BSc with min 75% in last 4 semesters/last 2 years, with sufficient math/physics/chemistry coursework (may require extra non-credit courses)",
         "gre_required": "Not mentioned",
         "ielts": "6.0 minimum in each band, 6.5 overall",
@@ -2255,7 +2255,7 @@ const CANADA_DB = {
         "tuition_notes": "Official page explicitly defers to a separate tuition/fees page not fetched in this pass."
       },
       "requirements_registration": {
-        "gpa_requirement": "Minimum overall standing of B (3.0 on a 4.3 scale, or 73-76%), with minimum B in the last two full-time years (four semesters); B+ preferred for MASc applicants specifically (confirmed via official page).",
+        "gpa_requirement": "Official ECE Master's program page: \"Minimum overall academic standing of a B (GPA: 3.0 on a 4.3 scale or 73 to 76 per cent), with a minimum B in the last two full-time years... B+ is preferred for MASc applicants.\" Note: the page's own 3.0/4.3≈73-76% equivalence is internally inconsistent with standard conversion tables (3.0/4.3 is closer to ~69.8%). Source: gradstudies.ontariotechu.ca/future_students/programs/masters_programs/electrical_and_computer_engineering/",
         "prior_degree": "Four-year honours undergraduate engineering degree in a relevant field from an accredited engineering program at a Canadian university, or equivalent from a recognized institution (confirmed via official page).",
         "gre_required": "Not mentioned",
         "ielts": "Not listed on this page directly (refers to a separate English language proficiency page); third-party aggregator figures (CAEL 70 min/no sub-score below 60, TOEFL iBT 83) were found but not independently verified against the official English proficiency page.",
@@ -2308,7 +2308,7 @@ const CANADA_DB = {
         "tuition_notes": "Official page explicitly defers to a separate tuition/fees page not fetched in this pass."
       },
       "requirements_registration": {
-        "gpa_requirement": "Minimum overall standing of B (3.0 on a 4.3 scale, or 73-76%), with minimum B in the last two full-time years (four semesters); B+ preferred for MASc applicants specifically (confirmed via official page).",
+        "gpa_requirement": "Official ECE Master's program page: \"Minimum overall academic standing of a B (GPA: 3.0 on a 4.3 scale or 73 to 76 per cent), with a minimum B in the last two full-time years... B+ is preferred for MASc applicants.\" Note: the page's own 3.0/4.3≈73-76% equivalence is internally inconsistent with standard conversion tables (3.0/4.3 is closer to ~69.8%). Source: gradstudies.ontariotechu.ca/future_students/programs/masters_programs/electrical_and_computer_engineering/",
         "prior_degree": "Four-year honours undergraduate engineering degree in a relevant field from an accredited engineering program at a Canadian university, or equivalent from a recognized institution (confirmed via official page).",
         "gre_required": "Not mentioned",
         "ielts": "Not listed on this page directly (refers to a separate English language proficiency page); third-party aggregator figures (CAEL 70 min/no sub-score below 60, TOEFL iBT 83) were found but not independently verified against the official English proficiency page.",
@@ -2361,7 +2361,7 @@ const CANADA_DB = {
         "tuition_notes": ""
       },
       "requirements_registration": {
-        "gpa_requirement": "Not found",
+        "gpa_requirement": "Official ECE Master's program page: \"Minimum overall academic standing of a B (GPA: 3.0 on a 4.3 scale or 73 to 76 per cent), with a minimum B in the last two full-time years... B+ is preferred for MASc applicants.\" Note: the page's own 3.0/4.3≈73-76% equivalence is internally inconsistent with standard conversion tables (3.0/4.3 is closer to ~69.8%). Source: gradstudies.ontariotechu.ca/future_students/programs/masters_programs/electrical_and_computer_engineering/",
         "prior_degree": "Not found",
         "gre_required": "Not found",
         "ielts": "Not found",
@@ -2413,7 +2413,7 @@ const CANADA_DB = {
         "tuition_notes": "Official RMC Academic Fees page is the authoritative source; not retrieved in this pass."
       },
       "requirements_registration": {
-        "gpa_requirement": "No numeric GPA cutoff. Minimum second-class honours required, described on official page as 'a B- or 70% or the GPA equivalent'.",
+        "gpa_requirement": "Official ECE graduate application page: \"at least second class honours (a B- or 70% or the GPA equivalent) in an appropriate field of Engineering or Applied Science.\" Admission is competitive/discretionary; priority given to CAF-sponsored applicants. Source: intranet.rmc-cmr.ca/en/electrical-and-computer-engineering/graduate-application",
         "prior_degree": "Degree from a recognized university in an appropriate Engineering or Applied Science field.",
         "gre_required": "Not mentioned/not required",
         "ielts": "Band 7 considered equivalent to the TOEFL minimum (official ECE graduate application page)",
@@ -2466,7 +2466,7 @@ const CANADA_DB = {
         "tuition_notes": "Page explicitly defers all fee details to the RMC Academic Fees page."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not stated on this page (refers to the companion graduate-application page for the MASc, which cites 'B- or 70% or equivalent' as the general ECE departmental bar).",
+        "gpa_requirement": "Official ECE graduate application page: \"at least second class honours (a B- or 70% or the GPA equivalent) in an appropriate field of Engineering or Applied Science.\" Admission is competitive/discretionary; priority given to CAF-sponsored applicants. Source: intranet.rmc-cmr.ca/en/electrical-and-computer-engineering/graduate-application",
         "prior_degree": "Not explicitly listed on this specific page; implied to mirror MASc requirements (recognized university degree in Engineering/Applied Science).",
         "gre_required": "Not mentioned/not required",
         "ielts": "Band 7 considered equivalent to the TOEFL minimum (official ECE graduate application page)",
@@ -2519,7 +2519,7 @@ const CANADA_DB = {
         "tuition_notes": "Program is 45 credits total (M.Sc.A.: 2 mandatory 0-credit workshops, 1 mandatory 3-credit activity, 12+ credits optional, 30-credit thesis)."
       },
       "requirements_registration": {
-        "gpa_requirement": "Cumulative average of at least 3.0/4.3 (M.Sc.A. thesis profile has no 2.8-3.0 review exception, unlike the M.Ing. project profile)",
+        "gpa_requirement": "Official program page (Maîtrise en génie électrique): \"obtenu avec une moyenne cumulative d'au moins 3,0 (sur 4,3) ou l'équivalent. Le candidat ayant obtenu une moyenne entre 2,8 et 3,0 peut être admis après étude du dossier.\" (≈3.0/4.3, with a 2.8-3.0 case-by-case path). Source: etsmtl.ca/programmes-formations/maitrise-genie-electrique",
         "prior_degree": "Bachelor's or equivalent in electrical, mechanical, automated production, manufacturing, or industrial engineering, or related field",
         "gre_required": "Not mentioned / Not required",
         "ielts": "Not found",
@@ -2571,7 +2571,7 @@ const CANADA_DB = {
         "tuition_notes": "Could not independently verify any tuition figure on polymtl.ca in this pass."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not found on the official page itself this pass; a Polytechnique internal document (moodle.polymtl.ca, undated) cites a general master's minimum average of 2.75/4.0 or 3.0/4.3, but this could not be confirmed as current or electrical-engineering-specific",
+        "gpa_requirement": "Official eligibility-conditions page (English): \"have an undergraduate GPA of at least 2.75/4.0 (or an equivalent grade accepted by Polytechnique Montréal).\" Source: polymtl.ca/admission/en/graduate-studies/read-eligibility-conditions/2-masters-degree",
         "prior_degree": "Undergraduate degree in engineering, or other certification deemed equivalent by Polytechnique Montréal",
         "gre_required": "Not found",
         "ielts": "Not found",
@@ -2623,7 +2623,7 @@ const CANADA_DB = {
         "tuition_notes": "Page links to UdeS scholarship programs but no amounts given directly."
       },
       "requirements_registration": {
-        "gpa_requirement": "International regular candidates: engineering diploma at bac+5 level, average judged equivalent to 2,7/4,3 (specialty courses weighted more heavily than internship/research activities). UdeS graduates: minimum 2,7/4,3 cumulative average.",
+        "gpa_requirement": "Official program/department page (corroborated across 3 usherbrooke.ca pages): \"moyenne cumulative minimale de 2,7 sur 4,3.\" Source: usherbrooke.ca/admission/programme/620/maitrise-en-genie-electrique ; gel.usherbrooke.ca",
         "prior_degree": "Bachelor's/engineering diploma in electrical, computer, robotics engineering, or related engineering field (bac+5 level for international candidates)",
         "gre_required": "Not mentioned",
         "ielts": "Not mentioned on this page",
@@ -2675,7 +2675,7 @@ const CANADA_DB = {
         "tuition_notes": "Page refers to a separate 'Dates limites de dépôt' page for deadlines and presumably a separate tuition page, neither retrieved in this pass."
       },
       "requirements_registration": {
-        "gpa_requirement": "Cumulative average of at least 2.67/4.33, or equivalent",
+        "gpa_requirement": "Official program page (Maîtrise en génie électrique): \"moyenne de cheminement dans le programme ou de diplomation égale ou supérieure à 2,67 sur 4,33, ou l'équivalent.\" Source: ulaval.ca/etudes/programmes/maitrise-en-genie-electrique",
         "prior_degree": "Bachelor's in génie électrique, génie informatique, or génie physique, or equivalent diploma. Other science bachelor's degrees may be admitted but must complete a preparatory program (courses passed at B- / 2.67/4.33 minimum).",
         "gre_required": "Not mentioned",
         "ielts": "Not mentioned",
@@ -2727,7 +2727,7 @@ const CANADA_DB = {
         "tuition_notes": "Direct PDF fetch of 7543.pdf returned only unreadable binary/compressed streams in this pass; information above is drawn from the related program-2071 text surfaced via search, which may differ slightly from program 7543's exact wording."
       },
       "requirements_registration": {
-        "gpa_requirement": "Minimum 3.0/4.3 cumulative average (per the related program 2071 text found via search: 'Être titulaire d'un baccalauréat en génie électrique ou en génie informatique, obtenu avec une moyenne cumulative d'au moins 3,0 (sur 4,3) ou l'équivalent')",
+        "gpa_requirement": "Official program PDF (program 2071): \"obtenu avec une moyenne cumulative d'au moins 3,0 (sur 4,3) ou l'équivalent\" — standard tier; a 2.8-3.0 case-by-case path and a conditional 2.5-2.8 path (with 15 extra credits) also exist, but the standard 3.0/4.3 tier is met directly. Source: etudier.uqo.ca/documents/programmes/PDF/2071.pdf",
         "prior_degree": "Bachelor's in electrical or computer engineering, or equivalent degree in a related field (e.g., project management, mathematics), assessed individually",
         "gre_required": "Not mentioned",
         "ielts": "Not found",
@@ -2780,7 +2780,7 @@ const CANADA_DB = {
         "tuition_notes": "Not found in this pass."
       },
       "requirements_registration": {
-        "gpa_requirement": "Not found as a specific number in readable text this pass",
+        "gpa_requirement": "Official program PDF (program 3404, télécommunications): \"un dossier académique de haute qualité, dont de très bons résultats scolaires d'au moins 3,2 (sur 4,3) ou l'équivalent.\" Source: inrs.ca/wp-content/uploads/3404-Maitrise-en-telecommunications-profil-avec-memoire-description-officielle-03-2026.pdf",
         "prior_degree": "Bachelor's in electrical engineering or equivalent (per prior sweep notes)",
         "gre_required": "Not mentioned",
         "ielts": "Not found",
@@ -2833,7 +2833,7 @@ const CANADA_DB = {
         "tuition_notes": "Program page refers to a separate 'How to Apply' page for tuition; not retrieved in this pass."
       },
       "requirements_registration": {
-        "gpa_requirement": "Anticipated admission range: minimum B+ (77-79%); not stated as a formal GPA cutoff on the program page",
+        "gpa_requirement": "No live ECE-specific admission page with a numeric GPA floor could be located (department pages are JS-rendered without admission-criteria text; Graduate Student Handbook PDFs cover post-admission policy only). A SIBLING program (Computational Science & Engineering, NOT ECE) cites B+/77% thesis and B/73% coursework floors — this is NOT confirmed as ECE's own figure and should not be treated as such.",
         "prior_degree": "Honours Bachelor's Degree (4 year) in Engineering, Sciences, or equivalent",
         "gre_required": "Not mentioned / not required",
         "ielts": "6.5 overall, no section below 5.5 (per ECE's own English Language Requirements page, ece.mcmaster.ca)",
@@ -2886,7 +2886,7 @@ const CANADA_DB = {
         "tuition_notes": "Program page refers to a separate 'How to Apply' page for tuition."
       },
       "requirements_registration": {
-        "gpa_requirement": "Anticipated admission range: minimum B+ (77-79%); not stated as a formal GPA cutoff on the program page",
+        "gpa_requirement": "No live ECE-specific admission page with a numeric GPA floor could be located (department pages are JS-rendered without admission-criteria text; Graduate Student Handbook PDFs cover post-admission policy only). A SIBLING program (Computational Science & Engineering, NOT ECE) cites B+/77% thesis and B/73% coursework floors — this is NOT confirmed as ECE's own figure and should not be treated as such.",
         "prior_degree": "Honours Bachelor's Degree (4 year) in Engineering, Sciences, or equivalent",
         "gre_required": "Not mentioned / not required",
         "ielts": "6.5 overall, no section below 5.5 (per ECE's own English Language Requirements page)",
