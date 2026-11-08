@@ -387,6 +387,126 @@ if (!prog) {
   const officialTag = officialUrl ? `<a class="src-tag official" href="${officialUrl}" target="_blank" rel="noopener">🔗 সোর্স: ইউনিভার্সিটির অফিসিয়াল পেজ</a>` : `<span class="src-tag official" style="opacity:.5;">🔗 অফিসিয়াল সোর্স নেই</span>`;
   const gpaSrcTag = spoUrl ? `<a class="gpa-src-link" href="${spoUrl}" target="_blank" rel="noopener">📄 সোর্স: SPO/PO রেগুলেশন PDF ↗</a>` : (officialUrl ? `<a class="gpa-src-link" href="${officialUrl}" target="_blank" rel="noopener">📄 সোর্স: অফিসিয়াল পেজ ↗</a>` : '');
 
+  // ===== Personalized Fit Analysis =====
+  // Candidate profile (assumed/confirmed by user)
+  const CAND = {
+    cgpaUS: 2.83,
+    germanGrade: 2.76, // modified Bavarian formula, Nmin=2.00 (NSU's own minimum graduating CGPA)
+    ielts: 6.5,
+    workExpYears: 2
+  };
+
+  function collectText(obj){
+    if (!obj) return '';
+    if (typeof obj === 'string') return obj + ' ';
+    if (Array.isArray(obj)) return obj.map(collectText).join(' ');
+    if (typeof obj === 'object') return Object.values(obj).map(collectText).join(' ');
+    return '';
+  }
+
+  const owd = prog.official_website_data || {};
+  const gpaTextPool = [
+    r.gpa_requirement, r.academic_requirements,
+    owd.admission_eligibility && owd.admission_eligibility.minimum_gpa_cutoff,
+    owd.gpa_conversion_benchmark,
+    owd.deep_recheck && owd.deep_recheck.gpa_requirement_verified,
+    owd.verification && collectText(owd.verification.discrepancies)
+  ].filter(Boolean).join(' | ');
+
+  const ieltsTextPool = [
+    r.ielts,
+    owd.language_requirements && owd.language_requirements.ielts,
+    owd.deep_recheck && owd.deep_recheck.language_requirements_verified,
+    owd.gap_fill_pass && collectText(owd.gap_fill_pass.fields_resolved)
+  ].filter(Boolean).join(' | ');
+
+  const workExpTextPool = [
+    r.work_exp_note,
+    owd.admission_eligibility && owd.admission_eligibility.work_experience,
+    owd.deep_recheck && owd.deep_recheck.notes
+  ].filter(Boolean).join(' | ');
+
+  // --- GPA check ---
+  let gpaStatus = 'unknown', gpaDetail = 'এই প্রোগ্রামের জন্য কোনো নির্দিষ্ট GPA cutoff সংখ্যা পাওয়া যায়নি সোর্স ডেটায় — academic_requirements সেকশনে বিস্তারিত পড়ে দেখো।';
+  const gpaNoCutoffRe = /no (?:fixed |hard |numeric |minimum )?(?:gpa|grade)|without admission restriction|zulassungsfrei|no cutoff|aptitude (?:test|assessment)|holistic/i;
+  const gpaNumMatch = gpaTextPool.match(/(?:grade|gpa)[^0-9]{0,25}?([1-4]\.\d)|([1-4]\.\d)\s*(?:or (?:better|higher)|\(german)/i);
+  if (gpaNumMatch) {
+    const cutoff = parseFloat(gpaNumMatch[1] || gpaNumMatch[2]);
+    if (cutoff >= 1.0 && cutoff <= 4.0) {
+      if (CAND.germanGrade <= cutoff + 0.05) {
+        gpaStatus = 'good';
+        gpaDetail = `প্রোগ্রামের cutoff ≈ German ${cutoff.toFixed(1)}, তোমার German grade ≈ ${CAND.germanGrade} — <b>শর্ত পূরণ হচ্ছে ✅</b>`;
+      } else {
+        gpaStatus = 'bad';
+        gpaDetail = `প্রোগ্রামের cutoff ≈ German ${cutoff.toFixed(1)}, তোমার German grade ≈ ${CAND.germanGrade} — <b>cutoff-এর চেয়ে দুর্বল (সংখ্যায়), তবে অনেক প্রোগ্রাম কাজের অভিজ্ঞতা/SOP দিয়ে এটা offset করে বিবেচনা করে।</b>`;
+      }
+    }
+  } else if (gpaNoCutoffRe.test(gpaTextPool)) {
+    gpaStatus = 'good';
+    gpaDetail = 'কোনো হার্ড GPA cutoff নেই — holistic/aptitude-based assessment বা admission-restriction-free, তাই CGPA সংখ্যা দিয়ে বাদ পড়ার ঝুঁকি কম।';
+  }
+
+  // --- IELTS check ---
+  let ieltsStatus = 'unknown', ieltsDetail = 'এই প্রোগ্রামের জন্য নির্দিষ্ট IELTS স্কোর পাওয়া যায়নি — Requirements সেকশনে চেক করো।';
+  const ieltsNumMatch = ieltsTextPool.match(/ielts[^0-9]{0,15}?(\d\.\d|\d)/i);
+  if (ieltsNumMatch) {
+    const req = parseFloat(ieltsNumMatch[1]);
+    if (req > 0 && req <= 9) {
+      if (CAND.ielts >= req) {
+        ieltsStatus = 'good';
+        ieltsDetail = `প্রোগ্রাম চায় IELTS ${req.toFixed(1)}, তোমার ধরে নেওয়া স্কোর 6.5 — <b>শর্ত পূরণ হচ্ছে ✅</b>`;
+      } else {
+        ieltsStatus = 'bad';
+        ieltsDetail = `প্রোগ্রাম চায় IELTS ${req.toFixed(1)}, তোমার ধরে নেওয়া স্কোর 6.5 — <b>কম পড়ছে (${(req-6.5).toFixed(1)} পয়েন্ট), আরেকটু বেশি স্কোর দরকার হতে পারে।</b>`;
+      }
+    }
+  }
+
+  // --- Work experience check ---
+  let workStatus = 'neutral', workDetail = 'এই প্রোগ্রামে কাজের অভিজ্ঞতা সংক্রান্ত নির্দিষ্ট কোনো তথ্য পাওয়া যায়নি।';
+  if (/not (?:mandatory|required)|no work experience|not legally mandatory/i.test(workExpTextPool)) {
+    workDetail = 'কাজের অভিজ্ঞতা বাধ্যতামূলক না, তবে তোমার ২ বছরের RTL/UVM experience SOP-তে শক্তিশালী পয়েন্ট হিসেবে কাজ করবে।';
+    workStatus = 'good';
+  } else if (/required|mandatory|preferred|advantage|strongly recommended|give preference/i.test(workExpTextPool)) {
+    workDetail = 'কাজের অভিজ্ঞতা দরকার/পছন্দনীয় বলে উল্লেখ আছে — তোমার ২ বছরের সরাসরি RTL Design & Verification experience এখানে স্পষ্ট সুবিধা দেবে। ✅';
+    workStatus = 'good';
+  } else {
+    workDetail = 'নির্দিষ্টভাবে উল্লেখ না থাকলেও, বেশিরভাগ জার্মান প্রোগ্রামের হলিস্টিক রিভিউতে প্রাসঙ্গিক ইন্ডাস্ট্রি experience ইতিবাচক হিসেবে গণ্য হয়।';
+  }
+
+  // --- Research paper scenario (always shown, speculative) ---
+  const isResearchHeavy = /research[- ]?(?:oriented|focused|intensive)|thesis-heavy|elite|phd|doctoral track|research master/i.test((prog.title||'') + ' ' + (c.curriculum||'') + ' ' + collectText(owd.curriculum_details));
+
+  const fitAnalysisHtml = `
+    <div class="note-box" style="border-left-color:var(--accent);">
+      <b>🎯 তোমার প্রোফাইল অনুযায়ী বিস্তারিত বিশ্লেষণ</b> <span style="font-size:.76rem;color:var(--muted);">(CGPA 2.83 / German ≈2.76, ধরে নেওয়া IELTS 6.5, 2 বছর RTL/UVM experience)</span>
+      <div style="margin-top:10px;display:grid;gap:8px;">
+        <div style="display:flex;gap:8px;align-items:flex-start;">
+          <span style="font-size:1.1rem;">${gpaStatus==='good'?'✅':gpaStatus==='bad'?'🟠':'⚪'}</span>
+          <div><b>GPA/Grade Requirement:</b> ${gpaDetail}</div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:flex-start;">
+          <span style="font-size:1.1rem;">${ieltsStatus==='good'?'✅':ieltsStatus==='bad'?'🟠':'⚪'}</span>
+          <div><b>IELTS Requirement:</b> ${ieltsDetail}</div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:flex-start;">
+          <span style="font-size:1.1rem;">${workStatus==='good'?'✅':'⚪'}</span>
+          <div><b>কাজের অভিজ্ঞতা:</b> ${workDetail}</div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:flex-start;">
+          <span style="font-size:1.1rem;">📄</span>
+          <div><b>রিসার্চ পেপার (সম্ভাব্য, আগামী ২ মাসে):</b>
+            <ul style="margin:6px 0 0;padding-left:18px;">
+              <li><b>যদি পাবলিশ হয় (৩য়/৪র্থ/৫ম author হলেও):</b> ${isResearchHeavy
+                ? 'এই প্রোগ্রাম research-oriented/elite ধাঁচের — একটা পাবলিকেশন (এমনকি co-author হিসেবেও) application-কে <b>উল্লেখযোগ্যভাবে শক্তিশালী</b> করবে, বিশেষ করে borderline GPA case-এ।'
+                : 'এই প্রোগ্রামে গবেষণাপত্র বাধ্যতামূলক না, তবে SOP/CV-তে একটা অতিরিক্ত ইতিবাচক পয়েন্ট হিসেবে কাজ করবে, বিশেষত committee-based/holistic review-তে।'}</li>
+              <li><b>যদি পাবলিশ না হয়:</b> সমস্যা নেই — এই প্রোগ্রামের মূল weight ট্রান্সক্রিপ্ট + ইন্ডাস্ট্রি experience + SOP-এর উপর; রিসার্চ পেপার ছাড়াই আবেদন করা যাবে, শুধু SOP-তে practical/industry angle-টা জোরালোভাবে তুলে ধরতে হবে।</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>`;
+
   const fitClass = prog.gpa_fit || "unknown";
   const fitTitles = {
     good: "✅ Good fit (যোগ্যতার সাথে দারুন ম্যাচ)",
@@ -413,7 +533,9 @@ if (!prog) {
         <span class="tag" style="background:var(--panel2);border:1px solid var(--border);">${f.tuition && f.tuition !== 'None' ? 'Tuition: ' + f.tuition : 'Tuition Free (০ ইউরো)'}</span>
       </div>
 
-      ${prog.gpa_fit_note ? `<div class="note-box fit"><b>💡 আপনার প্রোফাইল ম্যাচ বিশ্লেষণ:</b> ${prog.gpa_fit_note}</div>` : ""}
+      ${prog.gpa_fit_note ? `<div class="note-box fit"><b>💡 সংক্ষিপ্ত মূল্যায়ন:</b> ${prog.gpa_fit_note}</div>` : ""}
+
+      ${fitAnalysisHtml}
 
       <div class="quick-links">
         ${a.course_website && a.course_website !== 'Not found' ? `<a class="quick-btn" href="${a.course_website.startsWith('http')?a.course_website:'https://'+a.course_website}" target="_blank" rel="noopener">🌐 অফিসিয়াল কোর্স ওয়েবসাইট ↗</a>` : ""}
