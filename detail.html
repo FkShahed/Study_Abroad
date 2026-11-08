@@ -388,10 +388,13 @@ if (!prog) {
   const s = prog.services || {};
   const a = prog.about_university || {};
 
+  const isGermany = !prog.country || prog.country === 'Germany';
   const daadUrl = (a.source_url && a.source_url.startsWith('http')) ? a.source_url : null;
   const officialUrl = (prog.official_website_data && prog.official_website_data.official_source_url) ? prog.official_website_data.official_source_url : null;
   const spoUrl = (prog.official_website_data && prog.official_website_data.official_spo_pdf) ? prog.official_website_data.official_spo_pdf : null;
-  const daadTag = daadUrl ? `<a class="src-tag daad" href="${daadUrl}" target="_blank" rel="noopener">🔗 সোর্স: DAAD পেজ</a>` : `<span class="src-tag daad" style="opacity:.5;">🔗 DAAD সোর্স নেই</span>`;
+  const daadTag = isGermany
+    ? (daadUrl ? `<a class="src-tag daad" href="${daadUrl}" target="_blank" rel="noopener">🔗 সোর্স: DAAD পেজ</a>` : `<span class="src-tag daad" style="opacity:.5;">🔗 DAAD সোর্স নেই</span>`)
+    : (officialUrl ? `<a class="src-tag official" href="${officialUrl}" target="_blank" rel="noopener">🔗 সোর্স: ইউনিভার্সিটির অফিসিয়াল পেজ</a>` : `<span class="src-tag official" style="opacity:.5;">🔗 অফিসিয়াল সোর্স নেই</span>`);
   const officialTag = officialUrl ? `<a class="src-tag official" href="${officialUrl}" target="_blank" rel="noopener">🔗 সোর্স: ইউনিভার্সিটির অফিসিয়াল পেজ</a>` : `<span class="src-tag official" style="opacity:.5;">🔗 অফিসিয়াল সোর্স নেই</span>`;
   const gpaSrcTag = spoUrl ? `<a class="gpa-src-link" href="${spoUrl}" target="_blank" rel="noopener">📄 সোর্স: SPO/PO রেগুলেশন PDF ↗</a>` : (officialUrl ? `<a class="gpa-src-link" href="${officialUrl}" target="_blank" rel="noopener">📄 সোর্স: অফিসিয়াল পেজ ↗</a>` : '');
 
@@ -509,7 +512,9 @@ if (!prog) {
     workDetail = 'কাজের অভিজ্ঞতা দরকার/পছন্দনীয় বলে উল্লেখ আছে — তোমার ২ বছরের সরাসরি RTL Design & Verification experience এখানে স্পষ্ট সুবিধা দেবে। ✅';
     workStatus = 'good';
   } else {
-    workDetail = 'নির্দিষ্টভাবে উল্লেখ না থাকলেও, বেশিরভাগ জার্মান প্রোগ্রামের হলিস্টিক রিভিউতে প্রাসঙ্গিক ইন্ডাস্ট্রি experience ইতিবাচক হিসেবে গণ্য হয়।';
+    workDetail = isGermany
+      ? 'নির্দিষ্টভাবে উল্লেখ না থাকলেও, বেশিরভাগ জার্মান প্রোগ্রামের হলিস্টিক রিভিউতে প্রাসঙ্গিক ইন্ডাস্ট্রি experience ইতিবাচক হিসেবে গণ্য হয়।'
+      : 'নির্দিষ্টভাবে উল্লেখ না থাকলেও, বেশিরভাগ হলিস্টিক রিভিউতে প্রাসঙ্গিক ইন্ডাস্ট্রি experience ইতিবাচক হিসেবে গণ্য হয়।';
   }
 
   // --- Research paper scenario (always shown, speculative) ---
@@ -517,7 +522,7 @@ if (!prog) {
 
   const fitAnalysisHtml = `
     <div class="note-box" style="border-left-color:var(--accent);">
-      <b>🎯 তোমার প্রোফাইল অনুযায়ী বিস্তারিত বিশ্লেষণ</b> <span style="font-size:.76rem;color:var(--muted);">(CGPA 2.83 / German ≈2.76, ধরে নেওয়া IELTS 6.5, 2 বছর RTL/UVM experience)</span>
+      <b>🎯 তোমার প্রোফাইল অনুযায়ী বিস্তারিত বিশ্লেষণ</b> <span style="font-size:.76rem;color:var(--muted);">(CGPA 2.83${isGermany ? ' / German ≈2.76' : ''}, ধরে নেওয়া IELTS 6.5, 2 বছর RTL/UVM experience)</span>
       <div style="margin-top:10px;display:grid;gap:8px;">
         <div style="display:flex;gap:8px;align-items:flex-start;${gpaStatus==='bad'?'background:rgba(240,100,100,.1);border:1px solid rgba(240,100,100,.3);border-radius:8px;padding:8px 10px;':''}">
           <span style="font-size:1.1rem;">${gpaStatus==='good'?'✅':gpaStatus==='bad'?'🔴':'⚪'}</span>
@@ -552,7 +557,7 @@ if (!prog) {
     borderline: "🟡 Borderline",
     risky: "🟠 Risky (কম্পিটিটিভ)",
     weak: "🔴 Weak (উচ্চ সিজিপিএ রিকোয়ার্ড)",
-    unknown: "⚪ unreviewed (DAAD Raw)"
+    unknown: isGermany ? "⚪ unreviewed (DAAD Raw)" : "⚪ unreviewed"
   };
 
   root.innerHTML = `
@@ -578,7 +583,7 @@ if (!prog) {
         <div class="grid-info" style="margin-top:8px;">
           <div class="info-item"><b>QS World Ranking</b><div class="val">${prog.ranking.qs_world_rank}</div></div>
           <div class="info-item"><b>THE World Ranking</b><div class="val">${prog.ranking.the_world_rank}</div></div>
-          <div class="info-item" style="grid-column:1/-1;"><b>Germany-তে অবস্থান</b><div class="val">${prog.ranking.germany_rank_note || 'Not specified'}</div></div>
+          ${isGermany ? `<div class="info-item" style="grid-column:1/-1;"><b>Germany-তে অবস্থান</b><div class="val">${prog.ranking.germany_rank_note || 'Not specified'}</div></div>` : ''}
         </div>
         ${prog.ranking.source_url ? `<div class="src" style="margin-top:8px;">🔗 <a href="${prog.ranking.source_url}" target="_blank" rel="noopener">${prog.ranking.source_url}</a></div>` : ''}
       </div>` : ''}
@@ -589,8 +594,9 @@ if (!prog) {
 
       <div class="quick-links">
         ${a.course_website && a.course_website !== 'Not found' ? `<a class="quick-btn" href="${a.course_website.startsWith('http')?a.course_website:'https://'+a.course_website}" target="_blank" rel="noopener">🌐 অফিসিয়াল কোর্স ওয়েবসাইট ↗</a>` : ""}
-        ${a.source_url && a.source_url.startsWith('http') ? `<a class="quick-btn secondary" href="${a.source_url}" target="_blank" rel="noopener">📄 DAAD অফিসিয়াল সোর্স ↗</a>` : ""}
-        <a class="quick-btn secondary" href="profile.html">👤 আপনার ECTS ম্যাপিং দেখুন</a>
+        ${isGermany && a.source_url && a.source_url.startsWith('http') ? `<a class="quick-btn secondary" href="${a.source_url}" target="_blank" rel="noopener">📄 DAAD অফিসিয়াল সোর্স ↗</a>` : ""}
+        ${!isGermany && officialUrl ? `<a class="quick-btn secondary" href="${officialUrl}" target="_blank" rel="noopener">📄 অফিসিয়াল সোর্স ↗</a>` : ""}
+        ${isGermany ? `<a class="quick-btn secondary" href="profile.html">👤 আপনার ECTS ম্যাপিং দেখুন</a>` : ""}
       </div>
     </div>
 
@@ -653,11 +659,11 @@ if (!prog) {
         <div class="info-item"><b>Submission Portal</b><div class="val">${nf(r.submission_portal)}</div></div>
         <div class="info-item"><b>Minimum GPA Threshold</b><div class="val">${nf(r.gpa_requirement)}${gpaSrcTag}</div></div>
         <div class="info-item"><b>Prerequisite Degree</b><div class="val">${nf(r.prerequisite_degree)}</div></div>
-        <div class="info-item"><b>German Language Req</b><div class="val">${nf(r.german_requirement)}</div></div>
+        ${isGermany ? `<div class="info-item"><b>German Language Req</b><div class="val">${nf(r.german_requirement)}</div></div>` : ""}
         <div class="info-item"><b>IELTS Academic Score</b><div class="val">${nf(r.ielts)}</div></div>
         <div class="info-item"><b>TOEFL iBT Score</b><div class="val">${nf(r.toefl)}</div></div>
         <div class="info-item"><b>GRE / GMAT Requirement</b><div class="val">${nf(r.gre)}</div></div>
-        <div class="info-item"><b>APS Certificate</b><div class="val" style="color:var(--good);">${nf(r.aps_required)}</div></div>
+        ${isGermany ? `<div class="info-item"><b>APS Certificate</b><div class="val" style="color:var(--good);">${nf(r.aps_required)}</div></div>` : ""}
       </div>
       <div style="font-size:.8rem;font-weight:700;color:var(--muted);text-transform:uppercase;margin:14px 0 6px;">সম্পূর্ণ একাডেমিক রিকোয়ারমেন্টস:</div>
       <div class="longbox ${(!r.academic_requirements || r.academic_requirements==='Not found')?'empty':''}">${nf(r.academic_requirements)}</div>
@@ -665,7 +671,7 @@ if (!prog) {
     </div>
 
     <!-- Section: University Deep Info (Directly from University Official Website) -->
-    ${prog.official_website_data ? `
+    ${isGermany && prog.official_website_data ? `
     <div class="section-block" id="sec-official-data" style="border-top:2px solid var(--good);padding-top:20px;margin-bottom:30px;">
       <div class="section-title" style="color:var(--good);"><span><span class="icon">🏛️</span> অফিশিয়াল বিশ্ববিদ্যালয় ওয়েবসাইটের পূর্ণাঙ্গ ভর্তি ও প্রোগ্রাম ডেটা (Official Admission & Program Data)</span>${officialTag}</div>
       
@@ -833,7 +839,20 @@ ${prog.official_website_data.gap_fill_pass ? `
         ${prog.official_website_data.official_spo_pdf ? `<a class="quick-btn" href="${prog.official_website_data.official_spo_pdf}" target="_blank" rel="noopener">📄 অফিশিয়াল পরীক্ষা নীতিমালা (SPO PDF) ↗</a>` : ""}
       </div>
     </div>
-    ` : ""}
+    ` : (!isGermany && officialUrl ? `
+    <div class="section-block" id="sec-official-data" style="border-top:2px solid var(--good);padding-top:20px;margin-bottom:30px;">
+      <div class="section-title" style="color:var(--good);"><span><span class="icon">🏛️</span> অফিসিয়াল সোর্স (University's Own Website)</span>${officialTag}</div>
+      <div class="note-box good" style="font-size:.88rem;line-height:1.7;">এই প্রোগ্রামের সব তথ্য সরাসরি বিশ্ববিদ্যালয়ের নিজের অফিসিয়াল পেজ থেকে সংগ্রহ করা হয়েছে (DAAD-এর মতো কোনো তৃতীয়-পক্ষ ডাটাবেস নেই এই দেশের জন্য)।</div>
+      ${(prog.official_website_data && (prog.official_website_data.sources_consulted||[]).length) ? `
+      <div style="margin-top:10px;font-size:.78rem;">
+        <b>Pages consulted:</b> ${prog.official_website_data.sources_consulted.map(u => '<a href="' + u + '" target="_blank" rel="noopener" style="color:var(--accent);margin-right:8px;display:inline-block;">' + u.replace(/^https?:\/\//,'').slice(0,50) + '...</a>').join('')}
+      </div>` : ""}
+      ${prog.official_website_data && prog.official_website_data.scraped_on ? `<div style="margin-top:8px;font-size:.76rem;color:var(--muted);">সংগ্রহের তারিখ: ${prog.official_website_data.scraped_on}</div>` : ""}
+      <div style="margin-top:14px;">
+        <a class="quick-btn" href="${officialUrl}" target="_blank" rel="noopener">🌐 বিশ্ববিদ্যালয়ের মূল প্রোগ্রাম পেজ ↗</a>
+      </div>
+    </div>
+    ` : "")}
 
     <!-- Section: University Deep Info (Directly from University Official Website) -->
     ${prog.university_deep_info ? `
