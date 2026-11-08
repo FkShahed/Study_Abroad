@@ -438,7 +438,7 @@ if (!prog) {
         gpaDetail = `প্রোগ্রামের cutoff ≈ German ${cutoff.toFixed(1)}, তোমার German grade ≈ ${CAND.germanGrade} — <b>শর্ত পূরণ হচ্ছে ✅</b>`;
       } else {
         gpaStatus = 'bad';
-        gpaDetail = `প্রোগ্রামের cutoff ≈ German ${cutoff.toFixed(1)}, তোমার German grade ≈ ${CAND.germanGrade} — <b>cutoff-এর চেয়ে দুর্বল (সংখ্যায়), তবে অনেক প্রোগ্রাম কাজের অভিজ্ঞতা/SOP দিয়ে এটা offset করে বিবেচনা করে।</b>`;
+        gpaDetail = `প্রোগ্রামের cutoff ≈ German ${cutoff.toFixed(1)}, তোমার German grade ≈ ${CAND.germanGrade} — <b style="color:var(--bad);">cutoff-এর চেয়ে দুর্বল (সংখ্যায়), তবে অনেক প্রোগ্রাম কাজের অভিজ্ঞতা/SOP দিয়ে এটা offset করে বিবেচনা করে।</b>`;
       }
     }
   } else if (gpaNoCutoffRe.test(gpaTextPool)) {
@@ -457,7 +457,7 @@ if (!prog) {
         ieltsDetail = `প্রোগ্রাম চায় IELTS ${req.toFixed(1)}, তোমার ধরে নেওয়া স্কোর 6.5 — <b>শর্ত পূরণ হচ্ছে ✅</b>`;
       } else {
         ieltsStatus = 'bad';
-        ieltsDetail = `প্রোগ্রাম চায় IELTS ${req.toFixed(1)}, তোমার ধরে নেওয়া স্কোর 6.5 — <b>কম পড়ছে (${(req-6.5).toFixed(1)} পয়েন্ট), আরেকটু বেশি স্কোর দরকার হতে পারে।</b>`;
+        ieltsDetail = `প্রোগ্রাম চায় IELTS ${req.toFixed(1)}, তোমার ধরে নেওয়া স্কোর 6.5 — <b style="color:var(--bad);">কম পড়ছে (${(req-6.5).toFixed(1)} পয়েন্ট), আরেকটু বেশি স্কোর দরকার হতে পারে।</b>`;
       }
     }
   }
@@ -481,12 +481,12 @@ if (!prog) {
     <div class="note-box" style="border-left-color:var(--accent);">
       <b>🎯 তোমার প্রোফাইল অনুযায়ী বিস্তারিত বিশ্লেষণ</b> <span style="font-size:.76rem;color:var(--muted);">(CGPA 2.83 / German ≈2.76, ধরে নেওয়া IELTS 6.5, 2 বছর RTL/UVM experience)</span>
       <div style="margin-top:10px;display:grid;gap:8px;">
-        <div style="display:flex;gap:8px;align-items:flex-start;">
-          <span style="font-size:1.1rem;">${gpaStatus==='good'?'✅':gpaStatus==='bad'?'🟠':'⚪'}</span>
+        <div style="display:flex;gap:8px;align-items:flex-start;${gpaStatus==='bad'?'background:rgba(240,100,100,.1);border:1px solid rgba(240,100,100,.3);border-radius:8px;padding:8px 10px;':''}">
+          <span style="font-size:1.1rem;">${gpaStatus==='good'?'✅':gpaStatus==='bad'?'🔴':'⚪'}</span>
           <div><b>GPA/Grade Requirement:</b> ${gpaDetail}</div>
         </div>
-        <div style="display:flex;gap:8px;align-items:flex-start;">
-          <span style="font-size:1.1rem;">${ieltsStatus==='good'?'✅':ieltsStatus==='bad'?'🟠':'⚪'}</span>
+        <div style="display:flex;gap:8px;align-items:flex-start;${ieltsStatus==='bad'?'background:rgba(240,100,100,.1);border:1px solid rgba(240,100,100,.3);border-radius:8px;padding:8px 10px;':''}">
+          <span style="font-size:1.1rem;">${ieltsStatus==='good'?'✅':ieltsStatus==='bad'?'🔴':'⚪'}</span>
           <div><b>IELTS Requirement:</b> ${ieltsDetail}</div>
         </div>
         <div style="display:flex;gap:8px;align-items:flex-start;">
