@@ -363,6 +363,7 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:32px 20px;}
         <option value="">সব কান্ট্রি</option>
         <option value="DE">🇩🇪 Germany</option>
         <option value="CA">🇨🇦 Canada</option>
+        <option value="ES">🇪🇸 Spain</option>
       </select>
     </div>
     <div class="field">
@@ -449,6 +450,7 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:32px 20px;}
 
 <script src="germany_database.js"></script>
 <script src="canada_database.js"></script>
+<script src="spain_database.js"></script>
 <script>
 (function(){
   const saved = localStorage.getItem('study_abroad_theme');
@@ -466,10 +468,11 @@ function toggleTheme(){
 const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate",borderline:"🟡 Borderline",risky:"🟠 Risky",weak:"🔴 Weak fit",unknown:"⚪ unreviewed",unclear:"⚪ Unclear"};
 
 // Combined dataset — every country's database merged into one filterable list
-const countryFlag = {DE:"🇩🇪", CA:"🇨🇦"};
+const countryFlag = {DE:"🇩🇪", CA:"🇨🇦", ES:"🇪🇸"};
 const germanyItems = (typeof GERMANY_DB !== 'undefined' && GERMANY_DB.programs) ? GERMANY_DB.programs.map(p=>({...p, _country:"DE"})) : [];
 const canadaItems = (typeof CANADA_DB !== 'undefined' && CANADA_DB.programs) ? CANADA_DB.programs.map(p=>({...p, _country:"CA"})) : [];
-const ALL_ITEMS = germanyItems.concat(canadaItems);
+const spainItems = (typeof SPAIN_DB !== 'undefined' && SPAIN_DB.programs) ? SPAIN_DB.programs.map(p=>({...p, _country:"ES"})) : [];
+const ALL_ITEMS = germanyItems.concat(canadaItems, spainItems);
 
 function renderCard(item){
   const fit = item.gpa_fit || "unknown";
@@ -496,14 +499,17 @@ function tuitionCategory(p){
   const raw = (p.costs_funding ? p.costs_funding.tuition : (p.tuition || ""));
   const t = raw.toLowerCase();
   if(!raw || t === 'not found' || t.includes('not found')) return "unclear";
-  if(t === 'none' || /no tuition/.test(t) || /^0\s*eur/.test(t)) return "free";
-  // Extract the largest EUR number mentioned (per semester figures)
-  const nums = [...t.matchAll(/([\d]{1,3}(?:,\d{3})*)\s*eur/g)].map(m => parseInt(m[1].replace(/,/g,'')));
+  if(t === 'none' || /no tuition/.test(t) || /^0\s*(eur|cad)/.test(t)) return "free";
+  // Extract the largest EUR/CAD number mentioned (per-semester EUR figures for Germany/Spain; per-year CAD for Canada)
+  const isCAD = /cad/.test(t);
+  const nums = [...t.matchAll(/([\d]{1,3}(?:,\d{3})*)\s*(?:eur|cad)/g)].map(m => parseInt(m[1].replace(/,/g,'')));
   if(!nums.length) return "unclear";
   const maxNum = Math.max(...nums);
   if(maxNum === 0) return "free";
-  if(maxNum < 1000) return "low";
-  if(maxNum <= 3000) return "mid";
+  // Canadian tuition is quoted per YEAR (vs. Germany/Spain's per-SEMESTER figures), so halve it for a comparable per-semester bucket
+  const normalized = isCAD ? maxNum / 2 : maxNum;
+  if(normalized < 1000) return "low";
+  if(normalized <= 3000) return "mid";
   return "high";
 }
 function rankCategory(p){

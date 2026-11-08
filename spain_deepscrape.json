@@ -1,0 +1,788 @@
+[
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech) — interuniversity with UAB, UB, URV, IMB-CNM(CSIC)",
+    "program_title": "Master's degree in Semiconductor Engineering and Microelectronic Design",
+    "official_url": "https://telecos.upc.edu/en/study-programs/masters/masters-degree-in-semiconductor-engineering-and-microelectronic-design",
+    "degree_type": "Master Universitario",
+    "ruct_registered": "unknown",
+    "duration": "1 academic year, 60 ECTS, starts September, face-to-face",
+    "admission_requirements": {
+      "grade_requirement": "Not found on this page — links to UPC's general 'Academic requirements for admission to master's degrees' page (not separately scraped)",
+      "prior_degree": "Not explicitly stated on this page",
+      "entrance_exam": "Not mentioned",
+      "credential_recognition_note": "Non-EU documents must be legalised and carry an apostille; no separate 'homologación' process mentioned on this page",
+      "other": "Intake is 30 places; pre-enrolment currently closed, directs applicants to a 'Request information' form for upcoming periods"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not found on this page",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€1,162 (approximate, excludes other costs)",
+      "non_eu_per_year_eur": "~€2,700 (approximate, excludes other costs)",
+      "notes": "Figures given as totals for the program, not explicitly broken out per year; program is 1 year so effectively annual"
+    },
+    "deadlines": {
+      "main_intake": "September start; pre-enrolment currently closed per page at time of scrape",
+      "notes": "Check 'Request information' form for next cycle"
+    },
+    "curriculum_notes": "Sem 1 (6 ECTS each): Analogue IC Design, Physical Design of Integrated Circuits, SoC Design and Verification, Microelectronic Design, Microelectronic Technologies and Processes, Packaging/Characterisation/Reliability, Semiconductor and Device Manufacturing Facilities, Semiconductor Devices. Sem 2 (4 ECTS each): Advanced IP Core Design, Mixed Signal IP Design, RF IC Design, Power Management Circuits in ASICs, ASIC Design for Highly Secure Systems, Emerging Technologies for Computing, Integrated Photonics, Microsensors, Flexible and Printed Electronics, plus 10 ECTS Master's Thesis.",
+    "vlsi_rtl_relevance_notes": "Extremely high direct relevance — this is effectively a dedicated VLSI/IC design/semiconductor program. Explicit IC design, SoC design & verification, ASIC design, IP core design courses. Strategic research partner: Spanish National Research Council's IMB-CNM (CSIC), described as a leading centre in microelectronic technologies. Coordinated by UPC with UB, UAB, URV. Academic coordinator: Jordi Cosp Vilella. No explicit 'RTL' or lab-session wording found on this page, though SoC Design and Verification strongly implies RTL coursework.",
+    "sources_consulted": [
+      "https://telecos.upc.edu/en/study-programs/masters/masters-degree-in-semiconductor-engineering-and-microelectronic-design"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech)",
+    "program_title": "Master's degree in Electronic Engineering (MEE)",
+    "official_url": "https://upc.edu/en/masters/electronic-engineering-mee",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "1.5 academic years, 90 ECTS, three semesters; starts September and February",
+    "admission_requirements": {
+      "grade_requirement": "Not found on this page — links to separate academic requirements page",
+      "prior_degree": "Bachelor's in Electrical/Electronic Engineering enters core semester directly; Telecommunications/Computer engineering or other related degrees may be placed differently with bridge courses up to 25 ECTS",
+      "entrance_exam": "Not mentioned",
+      "credential_recognition_note": "Non-EU documents 'must be legalised and bear the corresponding apostille'; no separate homologación process named on this page",
+      "other": "40 places in September intake, 20 in February intake"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Yes — CEFR B2 minimum",
+      "ielts": "5.5",
+      "toefl": "PBT >= 567; CBT >= 227; IBT >= 87",
+      "cambridge": "FCE (First Certificate in English)",
+      "exemptions": "TOEIC 750; EOI Level 5 (advanced); UPC's own B2 certificate; or evidence of prior study conducted in English"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€1,743 (approximate total figure for program, excludes other costs — not explicitly per-year)",
+      "non_eu_per_year_eur": "~€2,700 (approximate total figure, excludes other costs)",
+      "notes": "Figures as stated are whole-program approximations, not a clean per-year breakdown"
+    },
+    "deadlines": {
+      "main_intake": "September intake; expected pre-enrolment deadline stated as 09/12/2026 on page (also noted pre-enrolment currently closed — verify live status); February intake also available",
+      "notes": "Information session listed for 02/12/2026, 12:00"
+    },
+    "curriculum_notes": "Core subjects compulsory (35 ECTS), electives (35 ECTS), thesis (20 ECTS). Specializations: Power Electronics; Devices and Microsystems; Integrated Circuits and Systems; Instrumentation and Measurements. Intensification tracks: Microelectronic Design and Embedded Systems and Microprocessor Design (min 15 ECTS); Green Microelectronics (20 ECTS). Competences include designing digital circuits/systems and mixed-signal ICs.",
+    "vlsi_rtl_relevance_notes": "Strong direct fit via the 'Integrated Circuits and Systems' specialization and 'Microelectronic Design and Embedded Systems and Microprocessor Design' intensification track. Individual course names and explicit VLSI/RTL/lab details were on linked course lists not retrieved in this pass.",
+    "sources_consulted": [
+      "https://upc.edu/en/masters/electronic-engineering-mee"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universidad Carlos III de Madrid (UC3M)",
+    "program_title": "Master in Connected Industry 4.0",
+    "official_url": "https://www.uc3m.es/master/connected-industry-4.0",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "1 academic year, 60 ECTS (~400 class hours + ~1,100 hours student activity), fully in English",
+    "admission_requirements": {
+      "grade_requirement": "No numeric cutoff; admission weighted: academic record 50%, other languages 10%, professional experience 20%, motivation/recommendation letters 10%, other 10%",
+      "prior_degree": "Industrial or Telecommunications Engineering (or older equivalents) need no extra experience. Aeronautical/Naval/Computer Engineering grads need >=2 years industry/telecom experience. Related non-engineering degrees (Physics, Maths) need >=5 years experience.",
+      "entrance_exam": "None stated; applicant may be called for a personal interview if necessary",
+      "credential_recognition_note": "No use of the term 'homologación'. Non-EHEA holders must submit diploma + transcript (showing GPA) legalized via diplomatic channels or Hague Apostille; sworn Spanish translations may be required.",
+      "other": "Not found"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Minimum B2, per general UC3M language policy (not program-specific score table on this page)",
+      "ielts": "Not found on this page",
+      "toefl": "Not found on this page",
+      "cambridge": "Not found on this page",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "€4,800 (€80/ECTS x 60 ECTS), plus €450 reservation fee deducted from first payment",
+      "non_eu_per_year_eur": "€7,200 (€120/ECTS x 60 ECTS)",
+      "notes": "Clear EU/non-EU tuition split confirmed directly on official page"
+    },
+    "deadlines": {
+      "main_intake": "Application status listed as CLOSED at time of scrape; scholarship deadline was 31 May 2026",
+      "notes": "Page did not give full admission calendar; re-check for next cycle"
+    },
+    "curriculum_notes": "Modules: Intro to CI 4.0; Cyber-physical systems (incl. advanced automation, industrial/service robotics, intelligent process control); Intelligent networks (5G and Wireless Networking, M2M Communications, AR); Industrial processes/services; Data processing & cybersecurity (incl. Cybersecurity of networks and cyber-physical systems); Seminars; 6 ECTS Internship; 6 ECTS Master's Thesis.",
+    "vlsi_rtl_relevance_notes": "No explicit VLSI, RTL, or embedded-systems hardware coursework or lab facilities mentioned. Relevance is adjacent/industrial-automation and IoT/networking rather than core chip design.",
+    "sources_consulted": [
+      "https://www.uc3m.es/master/connected-industry-4.0"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universidad Pontificia Comillas (ICAI)",
+    "program_title": "Master's Degree in Smart Grids (MSG)",
+    "official_url": "https://www.comillas.edu/en/postgraduate/masters-in-smart-grids/",
+    "degree_type": "Master Universitario (Comillas official master's degree)",
+    "ruct_registered": "unknown",
+    "duration": "1 year (90 ECTS); can also be spread over 2 years combined with MII (Industrial Engineering) or MIT (Telecommunications Engineering) official master's",
+    "admission_requirements": {
+      "grade_requirement": "Not stated — page's requirements section was empty at time of scrape",
+      "prior_degree": "Not stated on this page",
+      "entrance_exam": "Comillas' general admissions FAQ states candidates are selected via entrance examinations due to limited places, plus an interview; not confirmed as specific to this program",
+      "credential_recognition_note": "Not stated / Not found",
+      "other": "Not found"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not stated (program itself confirmed taught in English)",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "€19,474 total (UK/EU), registration fee €4,138.20 + 8 installments of €1,917.00",
+      "non_eu_per_year_eur": "€25,967 total (Rest of world), registration fee €4,136.40 + 8 installments of €2,728.80",
+      "notes": "Private university (Máster Propio/Comillas-style pricing) — tuition is dramatically higher than public Master Universitario programs, consistent with Comillas being a private institution. 10% Comillas Alumni discount available; some 50% scholarships mentioned but not detailed."
+    },
+    "deadlines": {
+      "main_intake": "Registration window stated as 05/10/26 to 12/07/27 (date format ambiguous — likely DD/MM/YY); program start 01/09/2027",
+      "notes": "Confirm exact admissions calendar directly with program office; dates on page may refer to a later cohort than the 2026-27 intake"
+    },
+    "curriculum_notes": "Period 1 (Madrid, 30 ECTS): Fundamentals of Power Systems/Telecom, Regulation & New Business Models, Operation & Planning of Future Distribution Networks, Telecommunications for Smart Grids, Leadership/Change Management. Period 2 (Strathclyde, UK, 30 ECTS): Data Analytics & AI for Energy Systems, Control & Protection of Future Networks, Cyber Security & Data Privacy, Hardware IoT Communications System Design, Power Electronics for Transmission/Distribution Networks, 5G Communications Networks. Period 3 (30 ECTS): company placement + Master Thesis.",
+    "vlsi_rtl_relevance_notes": "Adjacent relevance only — 'Hardware IoT Communications System Design' and 'Power Electronics' courses touch embedded/power-electronics territory, but this is fundamentally a power-systems/smart-grid program, not VLSI/RTL/chip design. Note the program is run jointly with University of Strathclyde (Scotland) for Period 2 — partially taught abroad.",
+    "sources_consulted": [
+      "https://www.comillas.edu/en/postgraduate/masters-in-smart-grids/"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universidad Politécnica de Madrid (UPM)",
+    "program_title": "Master's degree in Wireless Communications (Máster Universitario en Comunicaciones Inalámbricas)",
+    "official_url": "https://www.etsist.upm.es/estudios-ingenieria-sistemas-telecomunicaciones-madrid/masters-ingenieria-madrid/mwc?idioma=EN",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "Not found on this page — candidate data states 60 ECTS (not independently re-confirmed here)",
+    "admission_requirements": {
+      "grade_requirement": "Not found",
+      "prior_degree": "Not found",
+      "entrance_exam": "Not found",
+      "credential_recognition_note": "Not found — this page did not surface any homologación/credential recognition information",
+      "other": "Page points to separate 'Inscripciones' (Applications) menu item and a downloadable study-plan leaflet, neither of which was retrieved in this pass"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not found on this page (program confirmed taught entirely in English: 'Classes are entirely face-to-face, and instruction language is English')",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "Not found",
+      "non_eu_per_year_eur": "Not found",
+      "notes": "Not found on this page; needs a separate UPM fees page lookup"
+    },
+    "deadlines": {
+      "main_intake": "Not found — page references a 'Preregistrations' link not followed in this pass",
+      "notes": "Candidate-list note flagged that admission may have been closed for 2025-26, possibly reopening 2026-27 — unverified here"
+    },
+    "curriculum_notes": "Program covers information theory and channel modeling, antenna technology, RF, access and core networks in cellular systems, and wireless communications for intelligent transport systems. Individual course list not retrieved (only in a downloadable leaflet). Degree validated by Fundación para el Conocimiento madri+d (April 2022); teaching began 2022/2023.",
+    "vlsi_rtl_relevance_notes": "Relevant to RF/wireless hardware but no explicit VLSI/RTL/IC-design coursework surfaced on this page. Likely adjacent (antenna/RF front-end) rather than core digital IC design.",
+    "sources_consulted": [
+      "https://www.etsist.upm.es/estudios-ingenieria-sistemas-telecomunicaciones-madrid/masters-ingenieria-madrid/mwc?idioma=EN"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Autònoma de Barcelona (UAB)",
+    "program_title": "Master's degree in Advanced Nanoscience and Nanotechnology",
+    "official_url": "https://www.uab.cat/web/estudiar/masters-oficials/informacio-general/nanoscience-and-nanotechnology-1096480962610.html?param1=1345914481296",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "Not found — could not be re-confirmed in this pass",
+    "admission_requirements": {
+      "grade_requirement": "Not found",
+      "prior_degree": "Not found",
+      "entrance_exam": "Not found",
+      "credential_recognition_note": "Not found",
+      "other": "IMPORTANT: the live UAB program page returned the message 'This master's degree is no longer offered.' A linked memoria/verification PDF (ddd.uab.cat) could not be parsed as text (compressed PDF stream, extraction failed)."
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not found (candidate list previously cited the memoria document stating 100% English instruction, not independently re-verified here)",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "Not found",
+      "non_eu_per_year_eur": "Not found",
+      "notes": "Not found"
+    },
+    "deadlines": {
+      "main_intake": "Not found",
+      "notes": "Not applicable — program appears discontinued per live page"
+    },
+    "curriculum_notes": "Not found in this pass.",
+    "vlsi_rtl_relevance_notes": "Not verified in this pass. FLAG FOR USER: live UAB page explicitly states this master's degree is no longer offered as of this scrape (2026-11-08). The CNM-CSIC microelectronics-lab link claimed in the candidate list could not be re-confirmed and should be treated as unverified/possibly stale. Recommend removing this program from consideration or searching UAB's current master's catalogue for a replacement/renamed nanoscience program.",
+    "sources_consulted": [
+      "https://www.uab.cat/web/estudiar/masters-oficials/informacio-general/nanoscience-and-nanotechnology-1096480962610.html?param1=1345914481296",
+      "https://ddd.uab.cat/pub/memtit/2014/151558/MemoriaWeb_MUNanocNanotecAv_092024.pdf"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech)",
+    "program_title": "Master's degree in Telecommunications Engineering (MET)",
+    "official_url": "https://upc.edu/en/masters/telecommunications-engineering-met",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "2 academic years, 120 ECTS, starts September (60 places) or February (20 places), afternoons, face-to-face",
+    "admission_requirements": {
+      "grade_requirement": "Not found - links to general UPC academic requirements page",
+      "prior_degree": "Bachelor's in Telecommunications Technologies and Services Engineering, Telecom Science/Technology, Audiovisual Systems, Electronic Systems, Telecommunications Systems, Network Engineering, Electrical Engineering; pre-EHEA telecom/electronic engineering and Engineering Physics also accepted with extra ECTS. Other tech degrees (e.g. CS) may need up to 60 ECTS bridging courses taught in Catalan/Spanish.",
+      "entrance_exam": "Not mentioned",
+      "credential_recognition_note": "Non-EU documents must be legalised and bear an apostille; no separate homologación process named",
+      "other": "Bridging-course amount decided by academic committee case by case"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Yes - CEFR B2",
+      "ielts": "5.5",
+      "toefl": "PBT >= 567; CBT >= 227; IBT >= 87",
+      "cambridge": "FCE",
+      "exemptions": "TOEIC 750; EOI advanced (Level 5); UPC B2 certificate; or a degree/semester taught in English"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€2,122 total approx (excludes other costs, not broken down per year)",
+      "non_eu_per_year_eur": "~€5,400 total approx",
+      "notes": "Program is 2 years; figures appear to be whole-program totals"
+    },
+    "deadlines": {
+      "main_intake": "Pre-enrolment expected deadline written as 09/12/2026 (format ambiguous)",
+      "notes": "Verify live status directly"
+    },
+    "curriculum_notes": "Core: Electronic System Design for Communications, Electronic Instrumentation and Optoelectronics, Telecommunications Systems. Electronics specialization (compulsory): Design of Analogue Microelectronic Circuits, Fundamentals of Semiconductor Devices, Introduction to Measurement Systems, Introduction to Microelectronic Design. Optional: Digital Nanoelectronic Design, High-Level Digital Design, Configurable Digital Electronics, Electronic Measurement Science and Technology, Nanotechnologies and Electronic Devices, Automotive Embedded Systems, Printed Circuit Board Design, Ultrasound Electronics Laboratory.",
+    "vlsi_rtl_relevance_notes": "Strong relevance via the Electronics specialization - Introduction to Microelectronic Design, Digital Nanoelectronic Design, High-Level Digital Design, Configurable Digital Electronics directly touch VLSI/digital IC design; Automotive Embedded Systems is directly embedded-relevant.",
+    "sources_consulted": ["https://upc.edu/en/masters/telecommunications-engineering-met"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech)",
+    "program_title": "Master's degree in Advanced Telecommunication Technologies",
+    "official_url": "https://upc.edu/en/masters/advanced-telecommunication-technologies",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "1 academic year, 60 ECTS, face-to-face, afternoons",
+    "admission_requirements": {
+      "grade_requirement": "Not found",
+      "prior_degree": "Bachelor's in Telecommunications Science and Technology, Audiovisual Systems, Electronic Systems, Telecommunications Systems, or Network Engineering; pre-EHEA Telecommunications Engineering also qualifies",
+      "entrance_exam": "Not mentioned",
+      "credential_recognition_note": "Non-EU documents must be legalised and bear an apostille - explicitly NOT described as homologación",
+      "other": "Intakes: 18 places February, 37 places September"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not specified (no IELTS/TOEFL/Cambridge table found); instruction is in English",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€1,162 (full-year program, excludes other costs)",
+      "non_eu_per_year_eur": "~€2,700",
+      "notes": "Program is 1 year so figures are annual"
+    },
+    "deadlines": {
+      "main_intake": "Expected pre-enrolment deadline 09/12/2026; page noted pre-enrolment currently closed",
+      "notes": "Verify live status"
+    },
+    "curriculum_notes": "15 ECTS compulsory cross-disciplinary (Machine Learning from Data, Software Architecture, Entrepreneurship for World Challenges); 33 ECTS optional; 12 ECTS thesis. Pathways: Integrated Systems; Instrumentation and Sensors; Micro- and Nanotechnologies for Energy Management.",
+    "vlsi_rtl_relevance_notes": "No VLSI course explicitly named. Competencies list mentions 'firmware for embedded electronic systems.' Closest relevant pathway: Integrated Systems / Micro- and Nanotechnologies. Lower direct relevance than MET or MEE.",
+    "sources_consulted": ["https://upc.edu/en/masters/advanced-telecommunication-technologies"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech)",
+    "program_title": "Master's degree in Applied Telecommunications and Engineering Management (MASTEAM)",
+    "official_url": "https://upc.edu/en/masters/applied-telecommunications-and-engineering-management-masteam",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "1 academic year, 60 ECTS, face-to-face, taught in English",
+    "admission_requirements": {
+      "grade_requirement": "No numeric cutoff; assessed via prior qualifications, academic record, CV, motivation letter, 2 recommendation letters",
+      "prior_degree": "Official bachelor's (240 ECTS) or pre-EHEA diploma in telecom/ICT engineering, or official master's in those fields, from EHEA institution. Other EHEA engineering degrees, or non-EHEA telecom/ICT degrees, may be admitted with complementary coursework via validation committee.",
+      "entrance_exam": "None mentioned",
+      "credential_recognition_note": "No 'homologación' terminology used; non-EU documents must be legalised + apostilled; non-EU telecom/ICT degree holders go through a validation committee",
+      "other": "Intakes: 20 places September, 10 February"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Yes - CEFR B2",
+      "ielts": "5.5",
+      "toefl": "PBT >=567; CBT >=227; iBT >=87",
+      "cambridge": "FCE",
+      "exemptions": "TOEIC 750; EOI advanced (Level 5); UPC B2 certificate; native English speaker; or >=1 semester study in English-speaking country/English-taught program"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€1,162 (full program total, excludes other costs)",
+      "non_eu_per_year_eur": "~€2,700",
+      "notes": "1-year program, so totals are effectively annual"
+    },
+    "deadlines": {
+      "main_intake": "Expected pre-enrolment deadline 30/11/2026 (page inconsistent - one section says open, pop-up says closed)",
+      "notes": "Verify live status directly"
+    },
+    "curriculum_notes": "Sem 1 optional (3 ECTS each): ICT-Based Entrepreneurship, Next Generation Wireless Communications and IoT, Sensors and Interfaces, 5G Mobile Network Planning, Body Sensor Nodes, Internet of Things and Ubiquitous IP, Low-Power Systems with Energy Harvesting, Network Support for 5G, Next-Gen Optical Network Infrastructures. Sem 2: Network Engineering, Big Data & Data Mining (6), Network Security Authentication & Authorization, Software Defined Radio, Master's Thesis (12).",
+    "vlsi_rtl_relevance_notes": "Adjacent relevance - Sensors and Interfaces, Low-Power Systems with Energy Harvesting, Body Sensor Nodes touch embedded/low-power hardware, but no dedicated VLSI/IC-design coursework.",
+    "sources_consulted": ["https://upc.edu/en/masters/applied-telecommunications-and-engineering-management-masteam"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech) — Erasmus Mundus with partner EU universities",
+    "program_title": "Erasmus Mundus Master's degree in Communications, Engineering and Data Science (CoDaS)",
+    "official_url": "https://upc.edu/en/masters/erasmus-mundus-communications-engineering-and-data-science-codas",
+    "degree_type": "Master Universitario (Erasmus Mundus Joint Master)",
+    "ruct_registered": "unknown",
+    "duration": "2 academic years, 120 ECTS, starts September",
+    "admission_requirements": {
+      "grade_requirement": "Not found on UPC page",
+      "prior_degree": "Not specified on UPC page",
+      "entrance_exam": "Not mentioned",
+      "credential_recognition_note": "Not mentioned on UPC page",
+      "other": "Pre-enrolment administered via coordinating university Aalto University, not UPC directly; 10 new intake places at UPC"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not stated on this page (instruction confirmed in English)",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "Not found - links to general 'Fees, grants and payment options' page",
+      "non_eu_per_year_eur": "Not found",
+      "notes": "Not retrieved in this pass; consortium-wide Erasmus Mundus fee structure likely applies - check unite-codas-master.eu"
+    },
+    "deadlines": {
+      "main_intake": "Not listed on UPC page; pre-enrolment currently closed per page",
+      "notes": "Check https://www.unite-codas-master.eu/admission.html directly"
+    },
+    "curriculum_notes": "Year 1: basic studies common to consortium universities. Year 2: specialization at each university; at UPC the thesis track is 'Communications, 5G/6G and Internet of Things, and Data Science.' Based at Castelldefels School of Telecommunications and Aerospace Engineering (EETAC). UPC page states curriculum ('Pla d'estudis') not available - links to https://www.unite-codas-master.eu/ for details.",
+    "vlsi_rtl_relevance_notes": "Adjacent - 5G/6G and IoT thesis track touches connected-systems hardware context, but no explicit VLSI/RTL coursework found on the UPC page itself.",
+    "sources_consulted": ["https://upc.edu/en/masters/erasmus-mundus-communications-engineering-and-data-science-codas"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech)",
+    "program_title": "Master's degree in Artificial Intelligence for Connected Industries (AI4CI)",
+    "official_url": "https://upc.edu/en/masters/artificial-intelligence-for-connected-industries-ai4ci",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "2 academic years, 120 ECTS, face-to-face",
+    "admission_requirements": {
+      "grade_requirement": "Not found",
+      "prior_degree": "Direct admission for telecommunications engineering bachelor's. Bridging courses required for Data Engineering, Industrial Electronics and Automatic Control Engineering, Informatics Engineering, Aerospace Systems Engineering, Artificial Intelligence degrees. Others assessed case by case.",
+      "entrance_exam": "Not mentioned",
+      "credential_recognition_note": "Non-EU documents must be legalised and apostilled; no homologación process described",
+      "other": "25 new places, intakes September and February"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not stated on this page; English is language of instruction",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€2,324",
+      "non_eu_per_year_eur": "~€5,400",
+      "notes": "Excludes other costs such as non-teaching fees and degree certificate issuance"
+    },
+    "deadlines": {
+      "main_intake": "Not listed; pre-enrolment currently closed per page",
+      "notes": "Use 'Request information' form for upcoming periods"
+    },
+    "curriculum_notes": "Sem 1 (~30 courses, 3-6 ECTS): Machine Learning, Mobile Communications, Network Architecture, Pattern Recognition and Deep Learning, Performance Evaluation of Connected Systems. Sem 2: Big Data & Data Mining, Distributed and Federated Learning, Network Science, Industry Seminars. Sem 3: Advanced Experimental Projects in Connected Systems, Internet of Things and Ubiquitous IP, Network Support for 5G, Next-Gen Optical Network Infrastructures, Software Engineering. Sem 4: Master's Thesis (30).",
+    "vlsi_rtl_relevance_notes": "Adjacent/IoT-ML focus; no VLSI/RTL hardware design coursework identified. Relevant mainly as connected-industry/IoT context rather than core chip design.",
+    "sources_consulted": ["https://upc.edu/en/masters/artificial-intelligence-for-connected-industries-ai4ci"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech)",
+    "program_title": "Master's degree in Machine Learning and Cybersecurity for Internet-Connected Systems",
+    "official_url": "https://upc.edu/en/masters/machine-learning-and-cybersecurity-for-internet-connected-systems",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "1.5 academic years, 90 ECTS, face-to-face",
+    "admission_requirements": {
+      "grade_requirement": "Not found",
+      "prior_degree": "Direct admission (no bridging) for ICT Systems Engineering, Informatics Engineering, Data Science and Engineering, Telecommunications Systems Engineering, Telecom Technologies and Services Engineering, Network Engineering. Industrial Electronics and Automatic Control, Industrial Technology, Electrical Engineering need up to 18 ECTS bridging. Others assessed by committee.",
+      "entrance_exam": "Not mentioned",
+      "credential_recognition_note": "Non-EU documents must be legalised and apostilled; no homologación mentioned",
+      "other": "30 new intake places"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not stated; English is language of instruction",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€1,743",
+      "non_eu_per_year_eur": "~€4,050",
+      "notes": "Excludes non-teaching academic fees and degree certificate costs"
+    },
+    "deadlines": {
+      "main_intake": "Not listed; pre-enrolment currently closed per page",
+      "notes": "Use request-information form"
+    },
+    "curriculum_notes": "Three semesters of 3-ECTS courses plus 18-ECTS thesis. Topics: machine learning, neural networks, cryptography, network security, malware analysis, IoT connectivity, IoT sensor systems, cyberphysical systems, industrial control system cybersecurity. Compulsory/optional split unclear from page (listed courses exceed 90 ECTS).",
+    "vlsi_rtl_relevance_notes": "No explicit 'embedded systems' term used, but strong IoT/cyberphysical-systems and industrial control cybersecurity focus (IoT Connectivity, IoT Sensor Systems, Cyberphysical Systems) is directly adjacent to embedded hardware/security work.",
+    "sources_consulted": ["https://upc.edu/en/masters/machine-learning-and-cybersecurity-for-internet-connected-systems"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech) — with ICFO, UAB, UB",
+    "program_title": "Master's degree in Photonics",
+    "official_url": "https://upc.edu/en/masters/photonics",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "1 academic year, 60 ECTS, starts September, afternoons, face-to-face",
+    "admission_requirements": {
+      "grade_requirement": "Not specified; admission based on academic record and fit of qualification",
+      "prior_degree": "Official degree (>=180 ECTS) in physics, engineering physics, telecommunications, electrical/mechanical/electronic engineering, optics, or related (nanoscience, nanophotonics, bioengineering). Chemistry/materials science/biology may be considered with bridging courses.",
+      "entrance_exam": "None; personal interview possible 'if necessary'",
+      "credential_recognition_note": "Non-EU documents must be legalised and apostilled; no homologación process described",
+      "other": "35 intake places; virtual info session 02/12/2026 15:00; 2-3 Catalonia Quantum Academy scholarships, call expected March-May 2026"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not stated on this page; links to a language-use policy",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€1,162",
+      "non_eu_per_year_eur": "~€2,700",
+      "notes": "Excludes other costs"
+    },
+    "deadlines": {
+      "main_intake": "Not listed; pre-enrolment currently closed",
+      "notes": "Use 'Request information' form"
+    },
+    "curriculum_notes": "Year 1: 30 ECTS compulsory/optional + 30 ECTS Research Seminar - Beam Propagation and Fourier Optics, Intro to Photonics (Optics/Lasers), Photonics Laboratory, Nanophotonics, Integrated Photonics, Non-Linear Optics, Quantum Optics, Semiconductor Photonics: Applications and Technology, Optoelectronics and Photovoltaic Technology, Photonic Materials and Metamaterials. Year 2: 16-ECTS Master's Thesis.",
+    "vlsi_rtl_relevance_notes": "Device/optoelectronics-adjacent relevance via Semiconductor Photonics and Optoelectronics/Photovoltaic Technology courses; not core digital VLSI/RTL but relevant for photonic-IC or optoelectronic device work.",
+    "sources_consulted": ["https://upc.edu/en/masters/photonics"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech)",
+    "program_title": "Master's degree in Automatic Control and Robotics",
+    "official_url": "https://upc.edu/en/masters/automatic-control-and-robotics",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "2 academic years, 120 ECTS, includes thesis + industrial/research training, face-to-face afternoons",
+    "admission_requirements": {
+      "grade_requirement": "No numeric cutoff; criteria: English level, academic record, degree/university of origin, professional experience",
+      "prior_degree": "Engineering degrees related to automatic control and robotics (industrial, electronic, electrical, mechanical, IT, telecom) and physics/mathematics degrees preferred",
+      "entrance_exam": "None mentioned",
+      "credential_recognition_note": "Non-EU documents must be legalised and apostilled; no homologación process described",
+      "other": "40 new places starting September; 5 places reserved for pre-June admission (grant/visa cases) decided 31 March"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Yes - B2.2 required, may be lowered to B1 in exceptional cases",
+      "ielts": "Not found (specific score not given)",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€2,324",
+      "non_eu_per_year_eur": "~€5,400",
+      "notes": "Program also eligible for Catalunya-La Pedrera Foundation's Masters of Excellence grants"
+    },
+    "deadlines": {
+      "main_intake": "Not listed; pre-enrolment currently closed per page",
+      "notes": "Use request-information form"
+    },
+    "curriculum_notes": "Compulsory subjects cover automatic control systems, robotics and robotised systems, computer vision, computer technology and communication in processing elements, scientific/technological tools, plus free electives and an 18-ECTS optional area in final semester. Study plan link on page was not available.",
+    "vlsi_rtl_relevance_notes": "'Computer technology and communication in processing elements' is the closest reference to embedded systems; competencies include programming software components for control systems. Adjacent relevance to embedded/control hardware, not core VLSI/IC design.",
+    "sources_consulted": ["https://upc.edu/en/masters/automatic-control-and-robotics"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech)",
+    "program_title": "Master's degree in Electric Power Systems and Drives",
+    "official_url": "https://upc.edu/en/masters/electric-power-systems-and-drives",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "1 academic year, 60 ECTS, starts September, face-to-face (morning/afternoon)",
+    "admission_requirements": {
+      "grade_requirement": "No cutoff stated; weights: academic record 40%, competency match with entrance qualification 50%, CV 10%",
+      "prior_degree": "Direct admission: Industrial Technology Engineering, Industrial Technologies and Economic Analysis, Energy Engineering, Electrical Engineering, Industrial Electronics and Automatic Control Engineering, Engineering Physics. Other degrees generally not admitted; committee may allow with up to 15 ECTS bridging.",
+      "entrance_exam": "Not mentioned",
+      "credential_recognition_note": "Non-EU documents must be legalised and apostilled; no homologación process described",
+      "other": "Not found"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not required/specified on this page; English is language of instruction",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€1,162",
+      "non_eu_per_year_eur": "~€2,700",
+      "notes": "Excludes other costs"
+    },
+    "deadlines": {
+      "main_intake": "Not listed; pre-enrolment currently closed",
+      "notes": "Use 'Request information' form"
+    },
+    "curriculum_notes": "Sem 1 (12 courses, 5 ECTS each): Centralised Generation and Electrical Networks, Electrical Energy Conversion, Control and Automation for Efficient Energy Use, Data Science for Energy Systems, Energy Management/Optimisation, Energy Planning, Energy Storage Technologies, Integration of Renewables, Power Electronics and Electrical Machines for Electric Mobility/Industrial Applications, Power Quality, Smart Grids, Wind Energy. Sem 2: Energy Markets, Analysis/Control of Power Electronics-Dominated Power Systems, Control of Electrical Machines and Power Electronics, DC Technology and Systems, High Voltage Technology, Industrial Energy Efficiency, Power Electronics for Renewable Generation, 15-ECTS Smart Electrical Networks Research Project, 15-ECTS Thesis.",
+    "vlsi_rtl_relevance_notes": "Power-electronics adjacent (Control of Electrical Machines and Power Electronics) but not VLSI/RTL/digital IC design. Relevant mainly for power-electronics-focused hardware roles.",
+    "sources_consulted": ["https://upc.edu/en/masters/electric-power-systems-and-drives"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech)",
+    "program_title": "Master's degree in Renewable Energy Engineering",
+    "official_url": "https://upc.edu/en/masters/renewable-energy-engineering",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "2 academic years, 120 ECTS, starts September, face-to-face afternoons, 60 new intake places",
+    "admission_requirements": {
+      "grade_requirement": "Not found",
+      "prior_degree": "Not specified on this page",
+      "entrance_exam": "Not mentioned",
+      "credential_recognition_note": "Non-EU documents must be legalised and apostilled; no homologación process described",
+      "other": "Not found"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Yes - B2 CEFR equivalent required",
+      "ielts": "Not found (no specific score given)",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€2,324",
+      "non_eu_per_year_eur": "~€5,400",
+      "notes": "Excludes other costs"
+    },
+    "deadlines": {
+      "main_intake": "Not listed; pre-enrolment currently closed",
+      "notes": "Use 'Request information' form"
+    },
+    "curriculum_notes": "Sem 1: Renewable Energy Technologies, Energy Storage, Hydrogen Technologies, Integration of Renewables in Electrical Grids. Sem 2: Biomass Energy, Hydraulic and Marine Energy, Renewable Energy Projects, Energy Markets, Sustainable Building Design. Sem 3: Wind Energy, Photovoltaic Solar Energy, Geothermal Energy, Smart Grids, Battery Technologies, 10-ECTS 'Moonshot' project. Sem 4: Power Quality, High Voltage Technology, 30-ECTS Thesis.",
+    "vlsi_rtl_relevance_notes": "Not VLSI/RTL relevant - pure renewable-energy/power-systems program.",
+    "sources_consulted": ["https://upc.edu/en/masters/renewable-energy-engineering"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech)",
+    "program_title": "Master's degree in Aerospace Science and Technology (MAST)",
+    "official_url": "https://upc.edu/en/masters/aerospace-science-and-technology-mast",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "1 academic year, 60 ECTS, face-to-face",
+    "admission_requirements": {
+      "grade_requirement": "Not found",
+      "prior_degree": "Direct admission: Aerospace Engineering or higher aerospace engineering graduates. Industrial Engineering, Physics, or Telecommunications (or higher engineering) graduates may be considered.",
+      "entrance_exam": "None mentioned; admission criteria order: motivation letter, CV, academic record, proof of English, 2 reference letters",
+      "credential_recognition_note": "Foreign degrees evaluated by a committee; non-EU documents must be legalised and apostilled; 'homologation' term not used",
+      "other": "30 new places, intakes September and February"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Yes - B2 CEFR accreditation required",
+      "ielts": "Not found (specific score not given)",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€1,162",
+      "non_eu_per_year_eur": "~€2,700",
+      "notes": "Excludes other costs"
+    },
+    "deadlines": {
+      "main_intake": "Expected pre-enrolment deadline 09/12/2026 (page also notes pre-enrolment may be closed - verify)",
+      "notes": "Check official pre-enrolment page"
+    },
+    "curriculum_notes": "Sem 1: 9 five-credit courses. Sem 2: 7 five-credit courses + 15-credit Master's Thesis. Relevant courses: Analogue and Digital Signal Processing for Aerospace Applications, Test and Instrumentation Systems in Aerospace Applications, Modern Control Systems, Global Navigation Satellite Systems (GNSS) Data Processing.",
+    "vlsi_rtl_relevance_notes": "Adjacent via avionics-related signal processing and instrumentation courses. Competency: 'Design electronic on-board equipment in which microtechnologies play an important role' and knowledge of satellite data bus structure - relevant to embedded/avionics hardware but not core VLSI/RTL IC design.",
+    "sources_consulted": ["https://upc.edu/en/masters/aerospace-science-and-technology-mast"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech)",
+    "program_title": "Master's degree in Engineering Physics",
+    "official_url": "https://upc.edu/en/masters/engineering-physics",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "60 ECTS; 1 academic year if starting September, 1.5 years if starting February",
+    "admission_requirements": {
+      "grade_requirement": "Not found",
+      "prior_degree": "Bachelor's in Physics or Engineering Physics, or a related degree in Engineering or Basic/Applied Sciences",
+      "entrance_exam": "Not mentioned",
+      "credential_recognition_note": "Non-EU documents must be legalised and apostilled; no homologación process described",
+      "other": "20 new places, intakes February and September"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not stated; English is language of instruction",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€1,162",
+      "non_eu_per_year_eur": "~€2,700",
+      "notes": "Excludes other costs"
+    },
+    "deadlines": {
+      "main_intake": "Expected pre-enrolment deadline 09/12/2026, but page also says pre-enrolment currently closed for this master's",
+      "notes": "Check UPC pre-enrolment page for current status"
+    },
+    "curriculum_notes": "Sem 1: Critical Phenomena and Complexity, Project Management, Quantum Matter, Surface Engineering and Microdevices, Atomic and Molecular Physics, Computational Astrophysics, Numerical Methods for Continuous Systems, Physics of Materials. Sem 2: Large Facilities (Synchrotron/Neutron Sources), Characterisation in Biophysics and Materials Science, Complexity in Biological Systems, Machine Learning with Neural Networks, Molecular and Soft Condensed Matter, Pharmaceutical Materials Science, Stochastic Methods, 17-ECTS Master's Thesis.",
+    "vlsi_rtl_relevance_notes": "Page does not mention semiconductors explicitly. Device physics relevance inferred (not stated) via 'Quantum Matter' and 'Surface Engineering and Microdevices' courses, plus general program description referencing device physics/nanoelectronics. Low-to-moderate, inferred relevance only.",
+    "sources_consulted": ["https://upc.edu/en/masters/engineering-physics"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech)",
+    "program_title": "Master's degree in Cybersecurity",
+    "official_url": "https://upc.edu/en/masters/cybersecurity",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "1 academic year, 60 ECTS, starts September, face-to-face",
+    "admission_requirements": {
+      "grade_requirement": "No fixed cutoff; academic information 65% (final undergrad grade, university ranking, performance in CS/telecom/maths subjects), background/experience 35%",
+      "prior_degree": "Telecommunications, audiovisual, electronic, network, informatics engineering degrees and some pre-EHEA equivalents recommended. Other degrees admissible with up to 10 ECTS bridging courses.",
+      "entrance_exam": "None mentioned",
+      "credential_recognition_note": "Non-EU documents must be legalised and apostilled; homologación process not described",
+      "other": "Virtual info session 02/12/2026 10:00"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Yes - B2 required for admission, demonstrated at enrolment",
+      "ielts": "Not found (specific score not given)",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "~€1,162",
+      "non_eu_per_year_eur": "~€2,700",
+      "notes": "Excludes other costs"
+    },
+    "deadlines": {
+      "main_intake": "Not listed; pre-enrolment currently closed",
+      "notes": "Use 'Request information' form"
+    },
+    "curriculum_notes": "Sem 1 (seven 5-ECTS courses): Application Security, Malware, Network Security, Data Protection, Blockchain, Cybersecurity Management. Sem 2: Cybersecurity Use Cases, Data Privacy, Quantum Cryptography, Software-Defined Security, 'Hardware Security in Embedded Systems: Primitives, Weaknesses and Countermeasures' (3 ECTS), plus 12-ECTS Master's Thesis.",
+    "vlsi_rtl_relevance_notes": "Directly relevant via the 'Hardware Security in Embedded Systems: Primitives, Weaknesses and Countermeasures' course - explicit hardware/embedded security content relevant to secure-IP/VLSI security roles.",
+    "sources_consulted": ["https://upc.edu/en/masters/cybersecurity"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universitat Politècnica de Catalunya (UPC BarcelonaTech) — Erasmus Mundus consortium",
+    "program_title": "Erasmus Mundus Master's degree in Data Engineering and Artificial Intelligence (DEAI)",
+    "official_url": "https://upc.edu/en/masters/erasmus-mundus-data-engineering-and-artificial-intelligence-deai",
+    "degree_type": "Master Universitario (Erasmus Mundus Joint Master)",
+    "ruct_registered": "unknown",
+    "duration": "2 academic years, 120 ECTS, starts September",
+    "admission_requirements": {
+      "grade_requirement": "Not found on UPC page",
+      "prior_degree": "Not found on UPC page",
+      "entrance_exam": "Not mentioned",
+      "credential_recognition_note": "Not found/not mentioned on UPC page",
+      "other": "35 new intake places; curriculum details hosted on consortium site deai.ulb.be, not retrieved in this pass"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not stated on UPC page; instruction confirmed in English",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "Not found",
+      "non_eu_per_year_eur": "Not found",
+      "notes": "Not retrieved; UPC page gives no fee figures"
+    },
+    "deadlines": {
+      "main_intake": "Not listed; pre-enrolment currently closed per page",
+      "notes": "Use 'Request information' form; check deai.ulb.be directly"
+    },
+    "curriculum_notes": "UPC page states study plan not available ('curriculum not available'); general description mentions mathematics, statistics, machine learning, data management, computer vision, NLP, distributed systems, cloud computing, and AI ethics.",
+    "vlsi_rtl_relevance_notes": "Not VLSI/RTL relevant - data engineering/AI focus, not hardware.",
+    "sources_consulted": ["https://upc.edu/en/masters/erasmus-mundus-data-engineering-and-artificial-intelligence-deai"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Universidad de Oviedo (UNIOVI)",
+    "program_title": "Master's Degree in Electrical Energy Conversion and Power Systems (EECPS)",
+    "official_url": "https://uniovi.es/en/estudia/masteres/ingenieriayarquitectura/conversionenergia",
+    "degree_type": "Master Universitario",
+    "ruct_registered": true,
+    "duration": "Not found - could not reach live page",
+    "admission_requirements": {
+      "grade_requirement": "Not found",
+      "prior_degree": "Not found",
+      "entrance_exam": "Not found",
+      "credential_recognition_note": "Not found",
+      "other": "SITE UNREACHABLE: two separate WebFetch attempts on the official UNIOVI page both returned a 'Socket is closed' connection error. This matches the caveat already flagged in the original candidate list ('live official page could not be fetched directly during this session'). Could not independently verify any field."
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not found",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "Not found",
+      "non_eu_per_year_eur": "Not found",
+      "notes": "Not found - site unreachable"
+    },
+    "deadlines": {
+      "main_intake": "Not found",
+      "notes": "Not found - site unreachable"
+    },
+    "curriculum_notes": "Not found - site unreachable. Candidate list previously cited a peer-reviewed paper co-authored by UNIOVI's own Dept. of Electrical Engineering describing the program as 'entirely taught in English,' corroborated by aggregator listings, but this was not independently confirmed from the official source in this pass either.",
+    "vlsi_rtl_relevance_notes": "Not verified - power systems/electrical energy conversion focus per candidate list description; not expected to be core VLSI/RTL relevant even if content were retrieved.",
+    "sources_consulted": ["https://uniovi.es/en/estudia/masteres/ingenieriayarquitectura/conversionenergia (unreachable - socket closed, 2 attempts)"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "IE University",
+    "program_title": "Master's in Software Engineering (MSWE)",
+    "official_url": "https://www.ie.edu/school-science-technology/programs/master-software-engineering/",
+    "degree_type": "Máster Propio (private, non-RUCT university title)",
+    "ruct_registered": false,
+    "duration": "10-11 months, full-time, in person, Madrid (news article says 10 months; official program page says 11 months)",
+    "admission_requirements": {
+      "grade_requirement": "Not stated on either the news article or official program page",
+      "prior_degree": "Technical background in Data Science, Software Engineering, Computer Engineering, or Information Technologies, OR demonstrable programming experience/professional experience in related fields regardless of academic background",
+      "entrance_exam": "Not mentioned",
+      "credential_recognition_note": "Not mentioned on either page - no homologación discussion found",
+      "other": "2026-2027 full-time Fall intake starts September 21st per official page; no closing date listed"
+    },
+    "language_requirements": {
+      "english_certificate_required": "Not mentioned on either page; language of study stated as English",
+      "ielts": "Not found",
+      "toefl": "Not found",
+      "cambridge": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "eu_eea_per_year_eur": "Not found - page links to separate 'Admissions & Fees' section not retrieved in this pass",
+      "non_eu_per_year_eur": "Not found",
+      "notes": "As a private Máster Propio, likely priced similarly to Comillas MSG (tens of thousands of EUR) rather than public Master Universitario rates - NOT confirmed, flagged for independent verification"
+    },
+    "deadlines": {
+      "main_intake": "September 21st 2026 (Fall intake), no stated closing date",
+      "notes": "Check Admissions & Fees page directly"
+    },
+    "curriculum_notes": "Organized around three themes: Develop, Manage, Venture - covers conceiving, building, testing, launching, marketing, managing software. Optional specializations: Artificial Intelligence, Cloud Solutions Management, Tech Sales & Consulting, Quantum Computing, Cybersecurity, Aerospace Technology. Optional research-based Capstone Project. Full plan on separate Study Plan page, not retrieved.",
+    "vlsi_rtl_relevance_notes": "Software engineering program, not hardware/RTL - relevant only to embedded-software-adjacent roles, not core VLSI/IC design. Confirms original candidate-list tiering (Tier C).",
+    "sources_consulted": [
+      "https://ie.edu/school-science-technology/news/ie-launches-master-in-software-engineering",
+      "https://www.ie.edu/school-science-technology/programs/master-software-engineering/"
+    ],
+    "scraped_on": "2026-11-08"
+  }
+]

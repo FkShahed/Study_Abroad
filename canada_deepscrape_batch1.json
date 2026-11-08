@@ -1,0 +1,494 @@
+[
+  {
+    "university": "McGill University",
+    "program_title": "Electrical Engineering - M.Sc. (Thesis)",
+    "official_url": "https://www.mcgill.ca/gradapplicants/program/electrical-engineering-msc",
+    "degree_type": "MSc",
+    "duration": "Not found on program page",
+    "admission_requirements": {
+      "gpa_requirement": "Minimum 3.0 on 4.0 scale (university-level minimum)",
+      "prior_degree": "An eligible Bachelor's degree (specific fields not named on page)",
+      "gre_required": "Not mentioned / likely not required",
+      "other": "45 credits, thesis-based. Research areas relevant: Integrated Circuits and Systems; Nano-Electronic Devices and Materials."
+    },
+    "language_requirements": {
+      "ielts": "Not listed on program page",
+      "toefl": "Not listed on program page",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found on program page",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Page did not list tuition; refer to McGill fee estimator."
+    },
+    "deadlines": {
+      "fall": "Applications open Sept 15; deadline Dec 15 (international and domestic)",
+      "winter": "Applications open Feb 15; deadline Aug 1 (international), Oct 15 (domestic)",
+      "notes": "Deadlines subject to change per university."
+    },
+    "curriculum_notes": "Research-intensive thesis program, 45 credits; no standalone VLSI field named.",
+    "vlsi_rtl_relevance_notes": "Research areas list 'Integrated Circuits and Systems' and 'Nano-Electronic Devices and Materials' as closest fits; verify supervisor alignment with VLSI/RTL.",
+    "sources_consulted": ["https://www.mcgill.ca/gradapplicants/program/electrical-engineering-msc"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "McGill University",
+    "program_title": "Electrical Engineering - M.Eng. (Non-Thesis)",
+    "official_url": "https://www.mcgill.ca/gradapplicants/program/electrical-engineering-meng-non-thesis",
+    "degree_type": "MEng",
+    "duration": "Not found on program page",
+    "admission_requirements": {
+      "gpa_requirement": "Minimum 3.0 on 4.0 scale",
+      "prior_degree": "An eligible Bachelor's degree (fields not specified)",
+      "gre_required": "Not mentioned",
+      "other": "45 credits, course-based, non-thesis; breadth across field + depth in specialty area."
+    },
+    "language_requirements": {
+      "ielts": "Not listed on program page",
+      "toefl": "Not listed on program page",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found on program page",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not listed; check McGill fee estimator."
+    },
+    "deadlines": {
+      "fall": "Applications open Sept 15; deadline Dec 15 (international and domestic)",
+      "winter": "Applications open Feb 15; deadline Aug 1 (international), Oct 15 (domestic)",
+      "notes": "Summer intake not offered."
+    },
+    "curriculum_notes": "Course-based 45 credits; no specific course list found on page.",
+    "vlsi_rtl_relevance_notes": "Related research areas: Integrated Circuits and Systems; Nano-Electronic Devices and Materials; keyword 'integrated circuits' appears.",
+    "sources_consulted": ["https://www.mcgill.ca/gradapplicants/program/electrical-engineering-meng-non-thesis"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Carleton University",
+    "program_title": "Electrical and Computer Engineering - MASc/MEng (VLSI Design specialization, Dept. of Electronics)",
+    "official_url": "https://graduate.carleton.ca/program/electrical-and-computer-engineering-masters-programs/",
+    "degree_type": "MASc|MEng",
+    "duration": "1-2 years (MEng); thesis duration not separately stated",
+    "admission_requirements": {
+      "gpa_requirement": "General minimum: B+ in major subjects, B- or better overall (university-wide minimum; program-specific not separately confirmed)",
+      "prior_degree": "Not specified on program page beyond general university minimums",
+      "gre_required": "Not found",
+      "other": "MASc = thesis required; MEng = coursework only, 3 pathways (Coursework, Research Project, Thesis). MEng winter intake restricted to Dept. of Systems and Computer Engineering; no MEng summer intake."
+    },
+    "language_requirements": {
+      "ielts": "Not found on program/minimum-requirements pages (referred to international admission requirements page, not separately fetched)",
+      "toefl": "Not found",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found; page refers to Fee Estimator",
+      "domestic_per_year_cad": "Est. CAD $19,000 total / ~$1,900 per course (10 courses) for non-thesis pathways (Ontario domestic)",
+      "notes": "International tuition significantly higher per Carleton fee estimator (not retrieved)."
+    },
+    "deadlines": {
+      "fall": "Application Deadline: March 1 (single deadline listed, not split by term)",
+      "winter": "Not separately listed",
+      "notes": "Entry terms: Fall, Winter, Summer; MEng Winter restricted to Systems & Computer Eng dept; MEng Summer unavailable."
+    },
+    "curriculum_notes": "VLSI Design is listed as a field of specialization within the Dept. of Electronics; Mechatronics and Embedded Systems also listed as a specialization. No specific course list retrieved (would require visiting department research-areas page, not accessible in this pass).",
+    "vlsi_rtl_relevance_notes": "Explicit 'VLSI Design' specialization field confirmed in Dept. of Electronics (OCIECE); candidate notes mention High-Speed/Low-Power VLSI and VLSI Design Project (fabrication) courses, consistent with page's specialization listing, though exact course titles not independently re-verified this pass.",
+    "sources_consulted": [
+      "https://graduate.carleton.ca/program/electrical-and-computer-engineering-masters-programs/",
+      "https://graduate.carleton.ca/apply-online/minimum-requirements/"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Concordia University",
+    "program_title": "Electrical and Computer Engineering - MASc",
+    "official_url": "https://www.concordia.ca/academics/graduate/electrical-engineering-masc.html",
+    "degree_type": "MASc",
+    "duration": "2 years",
+    "admission_requirements": {
+      "gpa_requirement": "Not explicitly stated numerically; 'bachelor's degree in engineering or equivalent with high standing'",
+      "prior_degree": "Bachelor's degree in engineering or equivalent",
+      "gre_required": "Not mentioned",
+      "other": "45 credits total: min 16 credits coursework (Engineering Courses list, approved by supervisor/GPD) + 29 credits ENGR 8901 (MASc Research and Thesis)."
+    },
+    "language_requirements": {
+      "ielts": "Not listed on this page",
+      "toefl": "Not listed on this page",
+      "exemptions": "Referred to separate English language proficiency page (not fetched)"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found; page refers to tuition/fee estimator",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Tuition depends on student status per page."
+    },
+    "deadlines": {
+      "fall": "July 1 (Canadian residents); March 1 (U.S./international)",
+      "winter": "November 1 (Canadian residents); July 1 (U.S./international)",
+      "notes": "Summer: March 1 (Canadian); November 1 (U.S./international). Note: international deadlines are EARLIER than domestic (e.g., Fall intl = March 1 vs domestic July 1) - unusual pattern, verify directly."
+    },
+    "curriculum_notes": "45 credits: 16 credits coursework + 29 credits thesis (ENGR 8901). Gina Cody School; English-taught.",
+    "vlsi_rtl_relevance_notes": "Page emphasizes 'electrification' and Volt-Age funding; no explicit VLSI/microelectronics mention on this specific MASc overview page (contrast with MEng Concentration D below, which is explicit).",
+    "sources_consulted": ["https://www.concordia.ca/academics/graduate/electrical-engineering-masc.html"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Concordia University",
+    "program_title": "Electrical & Computer Engineering - MEng (Concentration D: Devices, Microelectronics and Electromagnetics)",
+    "official_url": "https://www.concordia.ca/ginacody/electrical-computer-eng/programs/meng.html",
+    "degree_type": "MEng",
+    "duration": "1-2 years, 45 credits",
+    "admission_requirements": {
+      "gpa_requirement": "Not explicitly numeric; 'bachelor's degree in engineering or equivalent with high standing'",
+      "prior_degree": "Bachelor's degree in engineering or equivalent",
+      "gre_required": "Not mentioned",
+      "other": "Same application deadlines/process as MASc (shared Concordia graduate ECE admission)."
+    },
+    "language_requirements": {
+      "ielts": "Not listed; referred to separate English proficiency page",
+      "toefl": "Not listed",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found; refer to tuition/fee estimator",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not stated on program page."
+    },
+    "deadlines": {
+      "fall": "July 1 (Canadian residents); March 1 (U.S./international)",
+      "winter": "November 1 (Canadian residents); July 1 (U.S./international)",
+      "notes": "Summer: March 1 (Canadian); November 1 (U.S./international)."
+    },
+    "curriculum_notes": "45 credits: 5 cr Professional Leadership Skills (E09) + 20 cr from one concentration + 12 cr from listed topic areas + 8 cr Project/Report (ENGR 6971/6981) OR industrial stage (ELEC/COEN 6991, 8 cr).",
+    "vlsi_rtl_relevance_notes": "Concentration D (Devices, Microelectronics and Electromagnetics) confirmed with specific courses: E43 Micro-Devices and Fabrication Processes; E44 Fields, Waves and Optoelectronics; F03 Microelectronic Systems. Direct VLSI/microelectronics fit confirmed via actual course codes, not just description.",
+    "sources_consulted": [
+      "https://www.concordia.ca/ginacody/electrical-computer-eng/programs/meng.html",
+      "https://www.concordia.ca/academics/graduate/electrical-engineering-meng.html"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "University of Calgary",
+    "program_title": "Electrical and Computer Engineering - MSc (Thesis)",
+    "official_url": "https://schulich.ucalgary.ca/electrical-software/programs/graduate",
+    "degree_type": "MSc",
+    "duration": "Not explicitly stated for MSc (program is thesis-based, multi-year)",
+    "admission_requirements": {
+      "gpa_requirement": "Minimum 3.0 on 4.0 scale, based on last two years full-time undergrad study (10 full-course equivalents/60 units)",
+      "prior_degree": "Four-year bachelor's degree or equivalent from recognized institution",
+      "gre_required": "Not mentioned",
+      "other": "Thesis-based research program."
+    },
+    "language_requirements": {
+      "ielts": "Not listed on this page; general university minimums apply (not re-confirmed this pass)",
+      "toefl": "Not listed",
+      "exemptions": "Referred to Academic Calendar"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found; refer to Graduate Tuition and Fee Estimator",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not stated on program-specific page."
+    },
+    "deadlines": {
+      "fall": "September 1 admission: January 31 deadline (Canadians, PR, and international - same deadline, no earlier international cutoff noted)",
+      "winter": "January 1 admission: April 30 deadline",
+      "notes": "Program description page distinct from the general Schulich landing page, which lacked details."
+    },
+    "curriculum_notes": "4-7 courses incl. 3 in specialization area, 2 professional development courses, original thesis with oral defense. Program duration ~20 months expected, 4-year max, part-time available.",
+    "vlsi_rtl_relevance_notes": "Example course topics include 'VLSI and SOC' and multidimensional signal processing. Supervisor Leo Belostotski works in RF and mixed-signal integrated circuits/systems - direct VLSI relevance confirmed.",
+    "sources_consulted": [
+      "https://schulich.ucalgary.ca/electrical-software/programs/graduate",
+      "https://grad.ucalgary.ca/future-students/explore-programs/electrical-computer-engineering-master-science-thesis-based"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "University of Calgary",
+    "program_title": "Electrical and Computer Engineering - MEng (course-based)",
+    "official_url": "https://grad.ucalgary.ca/future-students/explore-programs/electrical-and-computer-engineering-meng-course",
+    "degree_type": "MEng",
+    "duration": "1-2 years full-time; 6 years max; part-time available; internship stream extends to 3 years",
+    "admission_requirements": {
+      "gpa_requirement": "Minimum 3.0 on 4.0 scale, over past two years full-time undergrad study (10 full-course equivalents/60 units)",
+      "prior_degree": "Four-year baccalaureate in electrical and computer engineering or equivalent; mainly software/computer-engineering backgrounds directed to Software Engineering specialization instead",
+      "gre_required": "Not required ('None' listed explicitly)",
+      "other": "Self-funded program; no reference letters or work samples required."
+    },
+    "language_requirements": {
+      "ielts": "Not stated on this page; see Academic Calendar",
+      "toefl": "Not stated",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found; refer to Graduate Tuition and Fee Estimator",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Page explicitly states MEng is self-funded."
+    },
+    "deadlines": {
+      "fall": "September 1 intake: April 1 deadline (international and domestic)",
+      "winter": "January 1 intake: August 1 deadline (international and domestic)",
+      "notes": "Iranian applicants: December 1 (Fall), April 1 (Winter). Rolling admission encouraged - apply early."
+    },
+    "curriculum_notes": "10 courses total. Specializations: Engineering, Energy and Environment (Interdisciplinary) and Software Engineering (8- or 12-month cohort). Optional 8-16 month paid internship available.",
+    "vlsi_rtl_relevance_notes": "Not mentioned on this page; closest fit would be general ECE coursework. No VLSI-specific track identified for the course-based MEng.",
+    "sources_consulted": [
+      "https://grad.ucalgary.ca/future-students/explore-programs/electrical-and-computer-engineering-meng-course",
+      "https://schulich.ucalgary.ca/electrical-software/programs/graduate"
+    ],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "University of Alberta",
+    "program_title": "Electrical and Computer Engineering - MSc (Thesis-based)",
+    "official_url": "https://www.ualberta.ca/en/graduate-programs/electrical-and-computer-engineering.html",
+    "degree_type": "MSc",
+    "duration": "Not explicitly stated for MSc on this page",
+    "admission_requirements": {
+      "gpa_requirement": "Minimum 3.0 on 4-point scale (MSc/MEng); PhD requires 3.3; based on last 60 units or last two years full-time graded coursework",
+      "prior_degree": "Undergraduate degree from recognized institution or equivalent; master's holders eligible only for PhD; doctoral holders ineligible for graduate program",
+      "gre_required": "Not mentioned",
+      "other": "Requires CV and three letters of reference (current U of A students exempt)."
+    },
+    "language_requirements": {
+      "ielts": "Overall band 7.0, minimum 6.0 in each band",
+      "toefl": "iBT 92 overall, min 21 each section (tests before Jan 21 2026); page lists '5 overall, min 4.5 each section' for tests on/after that date - likely a typo/scale change, needs verification",
+      "exemptions": "Other accepted: CAEL overall 70 (min 60 per subtest), PTE Academic 62, CAMBRIDGE 176 (min 169 per subscore)"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found on this page; refer to Faculty of Graduate & Postdoctoral Studies Tuition and Fees page",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not stated here."
+    },
+    "deadlines": {
+      "fall": "Not listed on this page; refer to Apply Now page",
+      "winter": "Not listed",
+      "notes": "Not found."
+    },
+    "curriculum_notes": "12 listed research areas: Biomedical engineering, Communications, Computer engineering, Control systems, Electromagnetics and microwaves, Energy systems, Integrated circuits and systems, Microsystems and nanodevices, Photonics and plasmas, Signal and image processing, Software engineering and intelligent systems, Solid state electronics. Graduate courses listed under ECE subject heading in University Calendar.",
+    "vlsi_rtl_relevance_notes": "'Integrated circuits and systems' and 'Microsystems and nanodevices' and 'Solid state electronics' are explicit research areas directly relevant to VLSI/RTL/microelectronics.",
+    "sources_consulted": ["https://www.ualberta.ca/en/graduate-programs/electrical-and-computer-engineering.html"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "University of Alberta",
+    "program_title": "Master of Engineering (Electrical and Computer Engineering)",
+    "official_url": "https://www.ualberta.ca/en/graduate-programs/master-of-engineering-electrical-and-computer-engineering.html",
+    "degree_type": "MEng",
+    "duration": "Typically 1.5-2 years; max 6 years; min one 4-month full-time term in residence required",
+    "admission_requirements": {
+      "gpa_requirement": "Minimum 3.0 on 4-point scale (U of A or equivalent), based on last 60 units or last two full-time years",
+      "prior_degree": "Undergraduate degree from recognized institution; master's in ECE/related field eligible only for PhD; doctorate holders ineligible",
+      "gre_required": "Not mentioned",
+      "other": "Requires CV, three letters of reference (current U of A students exempt), plus ethics/professional development requirements."
+    },
+    "language_requirements": {
+      "ielts": "Overall band 7.0, min 6.0 in each band",
+      "toefl": "iBT 92 overall, min 21 each section (tests before Jan 21 2026); '5 overall, min 4.5 each section' listed for tests after that date (verify - possibly a scale typo)",
+      "exemptions": "CAEL, PTE Academic, CAMBRIDGE also accepted with own minimums"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found; refer to Faculty of Graduate & Postdoctoral Studies Tuition and Fees page",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not stated here."
+    },
+    "deadlines": {
+      "fall": "Not listed; refer to Apply Now page",
+      "winter": "Not listed",
+      "notes": "Not found."
+    },
+    "curriculum_notes": "Minimum 27.0 units: eight 3-unit graduate courses approved by Associate Chair + 3-unit capstone ECE 910 (Directed Research Project). Additional coursework may be required.",
+    "vlsi_rtl_relevance_notes": "Same 12 department research areas as MSc apply, including Integrated circuits and systems, Microsystems and nanodevices, Solid state electronics - relevant to VLSI/RTL. Embedded systems not separately named; may fall under Computer engineering.",
+    "sources_consulted": ["https://www.ualberta.ca/en/graduate-programs/master-of-engineering-electrical-and-computer-engineering.html"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Dalhousie University",
+    "program_title": "Electrical Engineering - MASc",
+    "official_url": "https://www.dal.ca/study/programs/graduate-professional/electrical-engineering-masc.html",
+    "degree_type": "MASc",
+    "duration": "2 years or longer, full-time, in-person",
+    "admission_requirements": {
+      "gpa_requirement": "Not found; page refers to Faculty of Graduate Studies minimum requirements (not separately fetched)",
+      "prior_degree": "Not specified on this page",
+      "gre_required": "Not mentioned",
+      "other": "Research-focused; faculty collaboration with industry/academia for publication and tech transfer opportunities."
+    },
+    "language_requirements": {
+      "ielts": "Not listed; referred to international student admission requirements page",
+      "toefl": "Not listed",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found; refer to tuition/fee/scholarship page",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not stated on program page."
+    },
+    "deadlines": {
+      "fall": "Not listed (program starts September, January, May)",
+      "winter": "Not listed",
+      "notes": "Specific deadline dates not found; refer to Faculty of Graduate Studies admission pages."
+    },
+    "curriculum_notes": "No specific course list; thesis-based research program. Page mentions careers in semiconductor manufacturing among outcomes but does not confirm a microelectronics research track.",
+    "vlsi_rtl_relevance_notes": "Candidate note claims department research areas explicitly list microelectronics, but this was NOT independently confirmed on the pages visited this pass - could not locate a department research-areas page with that detail. Flag for further verification.",
+    "sources_consulted": ["https://www.dal.ca/study/programs/graduate-professional/electrical-engineering-masc.html"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Dalhousie University",
+    "program_title": "Electrical Engineering - MEng",
+    "official_url": "https://www.dal.ca/study/programs/graduate-professional/electrical-engineering-meng.html",
+    "degree_type": "MEng",
+    "duration": "16 months or longer, full-time, in-person",
+    "admission_requirements": {
+      "gpa_requirement": "Not found; refer to Faculty of Graduate Studies minimum requirements",
+      "prior_degree": "Not specified on this page",
+      "gre_required": "Not mentioned",
+      "other": "Offers Project option (final project presentation) and course-based Professional option."
+    },
+    "language_requirements": {
+      "ielts": "Not listed; referred to separate international students page",
+      "toefl": "Not listed",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found; refer to tuition/scholarships page",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not stated on program page."
+    },
+    "deadlines": {
+      "fall": "Not listed (program starts September, January, May)",
+      "winter": "Not listed",
+      "notes": "Specific deadlines not found on this page."
+    },
+    "curriculum_notes": "Project option vs. course-based Professional option; details not itemized on page. Mentions access to 'cutting-edge research labs.'",
+    "vlsi_rtl_relevance_notes": "Page lists careers in semiconductor manufacturing (among electronics, telecom, computing) as a possible outcome, but no explicit VLSI/microelectronics course or lab named.",
+    "sources_consulted": ["https://www.dal.ca/study/programs/graduate-professional/electrical-engineering-meng.html"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Lakehead University",
+    "program_title": "Electrical and Computer Engineering - MSc Eng",
+    "official_url": "https://www.lakeheadu.ca/programs/graduate/programs/masters/electrical-and-computer-engineering",
+    "degree_type": "MSc",
+    "duration": "Expected completion 20 months; 4-year maximum; part-time available",
+    "admission_requirements": {
+      "gpa_requirement": "Not explicitly numeric on this page",
+      "prior_degree": "Four-year bachelor's degree or equivalent from recognized institution",
+      "gre_required": "Not mentioned",
+      "other": "Two reference letters required. No work samples or other test scores required."
+    },
+    "language_requirements": {
+      "ielts": "Not listed; multiple pathways to meet English proficiency, refer to Academic Calendar",
+      "toefl": "Not listed",
+      "exemptions": "Several accepted criteria per Academic Calendar (not itemized on this page)"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found; refer to Graduate Tuition and Fee Estimator and Graduate Calendar",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not stated on this page."
+    },
+    "deadlines": {
+      "fall": "September 1 admission: January 31 deadline (Canadians, PR, and international - same deadline)",
+      "winter": "January 1 admission: April 30 deadline",
+      "notes": "Note: later attempts to re-verify this page via alternate URL paths returned 404 - confirm link stability before publishing."
+    },
+    "curriculum_notes": "4-7 courses total incl. 3 in specialization area, plus 2 professional development courses and a required original thesis with open oral defense. Example course topics: virtual environments, data mining, intelligent control, VLSI and SOC, multidimensional signal processing.",
+    "vlsi_rtl_relevance_notes": "Explicit course topic 'VLSI and SOC' confirmed. Supervisor Leo Belostotski's research area is RF and mixed-signal integrated circuits and systems - direct VLSI relevance. Supervisor list is paginated; other VLSI-relevant faculty may exist beyond first page (not fully explored).",
+    "sources_consulted": ["https://www.lakeheadu.ca/programs/graduate/programs/masters/electrical-and-computer-engineering"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "University of Guelph",
+    "program_title": "Engineering - MASc (Electrical Engineering field of study)",
+    "official_url": "https://www.uoguelph.ca/engineering/grad/masc-program",
+    "degree_type": "MASc",
+    "duration": "24 months full-time, 48 months part-time",
+    "admission_requirements": {
+      "gpa_requirement": "75% admission average",
+      "prior_degree": "Honours engineering degree (B.Eng or equivalent) with min 75% average in last 4 full-time semesters, OR honours BSc with min 75% in last 4 semesters/last 2 years, with sufficient math/physics/chemistry coursework (may require extra non-credit courses)",
+      "gre_required": "Not mentioned",
+      "other": "WES evaluations NOT accepted for transcripts - grading scale must be included on official transcripts directly."
+    },
+    "language_requirements": {
+      "ielts": "6.0 minimum in each band, 6.5 overall",
+      "toefl": "Not mentioned on this page",
+      "exemptions": "Required if English not first language or degree from non-English-speaking country"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found on this page",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not stated."
+    },
+    "deadlines": {
+      "fall": "Domestic: June 15; International: April 15",
+      "winter": "Domestic: October 1; International: August 15",
+      "notes": "Summer: Domestic Feb 1, International Dec 15. Supporting documents due one month after deadline. International applicants advised to apply 9+ months before start."
+    },
+    "curriculum_notes": "IMPORTANT FINDING: This page's official MASc 'Fields of Study' list is: Biological, Biomedical, Computer, Engineering Systems & Computing, Environmental, Mechanical, Mechatronics, and Water Resources Engineering. 'Electrical Engineering' is NOT listed as a current MASc field of study on this official page (it appears only as an undergraduate major) - this contradicts the candidate note's assumption and should be flagged/re-verified before treating this as a valid VLSI-relevant program.",
+    "vlsi_rtl_relevance_notes": "No Electrical Engineering MASc field found; 'Computer' and 'Engineering Systems & Computing' fields may have embedded/digital-systems relevance but no explicit VLSI/RTL mention found.",
+    "sources_consulted": ["https://www.uoguelph.ca/engineering/grad/masc-program"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Laurentian University",
+    "program_title": "Engineering Science - MASc (Mechatronics Engineering field)",
+    "official_url": "https://laurentian.ca/program/GR-ENG",
+    "degree_type": "MASc",
+    "duration": "Not explicitly stated for MASc; M.Eng course-based fast-track can be 1 year",
+    "admission_requirements": {
+      "gpa_requirement": "B standing (70%) in a relevant engineering branch for admission; must maintain overall GPA 5.5 (70%) once enrolled, min C (60%) per course",
+      "prior_degree": "Bachelor's in Engineering (mining, mineral processing, metallurgical, civil, mechanical, chemical, or other appropriate branch); MASc may also accept Honours BSc in chemistry/geology/physics with qualifying undergrad engineering courses",
+      "gre_required": "Not mentioned",
+      "other": "Requires Statement of Interest, Project/Thesis Supervisor Agreement form, CV/resume, three Reference Forms, official transcripts (WES course-by-course eval required for non-North American institutions)."
+    },
+    "language_requirements": {
+      "ielts": "Not listed; refer to graduate admissions page",
+      "toefl": "Not listed",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found; refer to International Tuition and Fees page",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not stated on this page."
+    },
+    "deadlines": {
+      "fall": "Not listed; refer to graduate admissions page",
+      "winter": "Not listed",
+      "notes": "Not found."
+    },
+    "curriculum_notes": "MASc curriculum: ENGR 5500EL MASc Thesis (9cr) + ENGR 5116EL Masters Seminar (3cr) + ENGR 5156EL Research Methods + 9 credits coursework. Mechatronics Engineering is listed as a focus area for MASc (research-based) and project-based MEng, but NOT for the course-based MEng (which offers only Mining, Mechanical, Mining-Mechanical).",
+    "vlsi_rtl_relevance_notes": "No dedicated VLSI/RTL/microelectronics content found. Mechatronics area description is minimal; related course titles found (Control of Robot Manipulators, Fault Detection and Diagnostics, Advanced Fluid Power Control Systems) are NOT explicitly connected to the Mechatronics field on this page - weak confirmed fit, consistent with candidate's 'Tier C adjacent' assessment.",
+    "sources_consulted": ["https://laurentian.ca/program/GR-ENG"],
+    "scraped_on": "2026-11-08"
+  },
+  {
+    "university": "Laurentian University",
+    "program_title": "Engineering Science - MEng (Mechatronics Engineering field)",
+    "official_url": "https://laurentian.ca/program/GR-ENG",
+    "degree_type": "MEng",
+    "duration": "Course-based fast-track option: 1 year; full/part-time options also available",
+    "admission_requirements": {
+      "gpa_requirement": "B standing (70%); maintain overall GPA 5.5 (70%), min C (60%) per course",
+      "prior_degree": "Bachelor's in Engineering (mining, mineral processing, metallurgical, civil, mechanical, chemical, or other appropriate branch)",
+      "gre_required": "Not mentioned",
+      "other": "Reference Forms NOT required for the course-based MEng (unlike project/thesis programs)."
+    },
+    "language_requirements": {
+      "ielts": "Not listed; refer to graduate admissions page",
+      "toefl": "Not listed",
+      "exemptions": "Not found"
+    },
+    "tuition": {
+      "international_per_year_cad": "Not found; refer to International Tuition and Fees page",
+      "domestic_per_year_cad": "Not found",
+      "notes": "Not stated."
+    },
+    "deadlines": {
+      "fall": "Not listed; refer to graduate admissions page",
+      "winter": "Not listed",
+      "notes": "Not found."
+    },
+    "curriculum_notes": "Course-based MEng: ENGR 5156EL Research Methods (3cr) + 27 credits additional coursework (ten 3-credit courses). Project-based MEng: ENGR 5100EL MEng Project (6cr) + ENGR 5116EL Masters Seminar (3cr) + ENGR 5156EL Research Methods + 18cr coursework. IMPORTANT: Mechatronics field is available for the PROJECT-based MEng but the COURSE-based MEng offers only Mining, Mechanical, and Mining-Mechanical Engineering fields - Mechatronics is NOT available in course-based MEng. Candidate entry should be re-checked against which MEng variant it refers to.",
+    "vlsi_rtl_relevance_notes": "No VLSI/RTL/microelectronics content found; Mechatronics field description minimal and only available in project-based MEng variant.",
+    "sources_consulted": ["https://laurentian.ca/program/GR-ENG"],
+    "scraped_on": "2026-11-08"
+  }
+]

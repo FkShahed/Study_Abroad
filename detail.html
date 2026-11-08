@@ -331,6 +331,7 @@ h1{
 
 <script src="germany_database.js"></script>
 <script src="canada_database.js"></script>
+<script src="spain_database.js"></script>
 <script>
 (function(){
   const saved = localStorage.getItem('study_abroad_theme');
@@ -357,7 +358,8 @@ function nf(v){ return (v===undefined || v===null || v==="" || v==="Not found") 
 // Combined dataset across all countries — same program `id`s stay unique per country database.
 const ALL_PROGRAMS = []
   .concat((typeof GERMANY_DB !== 'undefined' && GERMANY_DB.programs) ? GERMANY_DB.programs : [])
-  .concat((typeof CANADA_DB !== 'undefined' && CANADA_DB.programs) ? CANADA_DB.programs : []);
+  .concat((typeof CANADA_DB !== 'undefined' && CANADA_DB.programs) ? CANADA_DB.programs : [])
+  .concat((typeof SPAIN_DB !== 'undefined' && SPAIN_DB.programs) ? SPAIN_DB.programs : []);
 
 // Single Source of Truth Resolution
 let prog = null;
@@ -464,6 +466,36 @@ if (!prog) {
       } else {
         ieltsStatus = 'bad';
         ieltsDetail = `প্রোগ্রাম চায় IELTS ${req.toFixed(1)}, তোমার ধরে নেওয়া স্কোর 6.5 — <b style="color:var(--bad);">কম পড়ছে (${(req-6.5).toFixed(1)} পয়েন্ট), আরেকটু বেশি স্কোর দরকার হতে পারে।</b>`;
+      }
+    }
+  }
+
+  // --- Non-Germany override: the regex above assumes a German 1.0-4.0 (lower=better) grading scale,
+  // which is meaningless for Canada (4.0/4.33/% scale, higher=better) and Spain (0-10 scale, higher=better).
+  // For those countries, use the gpa_fit/gpa_fit_note already computed per-country in the database build step.
+  if (prog.country && prog.country !== 'Germany') {
+    const fitToStatus = {good:'good', moderate:'good', borderline:'unknown', risky:'bad', weak:'bad', unknown:'unknown'};
+    gpaStatus = fitToStatus[prog.gpa_fit] || 'unknown';
+    gpaDetail = prog.gpa_fit_note || gpaDetail;
+
+    const ielts = r.ielts || '';
+    if (!ielts || /not found/i.test(ielts)) {
+      ieltsStatus = 'unknown';
+      ieltsDetail = 'এই প্রোগ্রামের জন্য নির্দিষ্ট IELTS স্কোর অফিসিয়াল পেজে পাওয়া যায়নি।';
+    } else {
+      const m = ielts.match(/(\d(?:\.\d)?)/);
+      if (m) {
+        const req = parseFloat(m[1]);
+        if (CAND.ielts >= req) {
+          ieltsStatus = 'good';
+          ieltsDetail = `প্রোগ্রাম চায় IELTS ${req.toFixed(1)} (সোর্স: "${ielts}"), তোমার ধরে নেওয়া স্কোর 6.5 — <b>শর্ত পূরণ হচ্ছে ✅</b>`;
+        } else {
+          ieltsStatus = 'bad';
+          ieltsDetail = `প্রোগ্রাম চায় IELTS ${req.toFixed(1)} (সোর্স: "${ielts}"), তোমার ধরে নেওয়া স্কোর 6.5 — <b style="color:var(--bad);">কম পড়ছে।</b>`;
+        }
+      } else {
+        ieltsStatus = 'unknown';
+        ieltsDetail = `সোর্সে লেখা: "${ielts}" — নির্দিষ্ট সংখ্যা parse করা যায়নি, সরাসরি পড়ে দেখো।`;
       }
     }
   }
