@@ -886,15 +886,6 @@ table.curriculum-table tr:last-child td{border-bottom:none;}
     </div>
   </div>
 
-  <!-- Personalized Recommended Programs -->
-  <div class="section">
-    <h2>✅ তোমার বর্তমান প্রোফাইল (CGPA 2.83, Tier A/VLSI-RTL ফোকাস) অনুযায়ী সবচেয়ে উপযুক্ত প্রোগ্রাম</h2>
-    <div class="card">
-      <p style="font-size:.86rem;color:var(--muted);margin:0 0 14px;">নিচের লিস্টটা ডাটাবেসের ২৩৬টা প্রোগ্রাম থেকে স্বয়ংক্রিয়ভাবে filter করা — শুধু <b>Tier A</b> (সরাসরি VLSI/RTL/Microelectronics/Embedded ফোকাসড) এবং <b>GPA Fit: Good বা Moderate</b> (তোমার 2.8-এর আশেপাশের CGPA নিয়ে realistic সম্ভাবনা আছে) এমন প্রোগ্রামগুলোই দেখানো হচ্ছে। Risky/Weak fit এবং Tier B/C/D (কম relevant) বাদ দেওয়া হয়েছে।</p>
-      <div id="recommendedPrograms">লোড হচ্ছে...</div>
-    </div>
-  </div>
-
   <!-- Profile Strategy for Admission -->
   <div class="section">
     <h2>🎯 কম CGPA (2.83) সত্ত্বেও অফার নিশ্চিত করার স্ট্র্যাটেজি</h2>
@@ -908,7 +899,6 @@ table.curriculum-table tr:last-child td{border-bottom:none;}
   </div>
 </div>
 
-<script src="germany_database.js"></script>
 <script>
 (function(){
   const saved = localStorage.getItem('study_abroad_theme');
@@ -923,42 +913,6 @@ function toggleTheme(){
   html.setAttribute('data-theme', next);
   localStorage.setItem('study_abroad_theme', next);
 }
-
-const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate fit"};
-
-function renderRecommended(){
-  const el = document.getElementById('recommendedPrograms');
-  if (typeof GERMANY_DB === 'undefined' || !GERMANY_DB.programs) {
-    el.innerHTML = '<p style="color:var(--muted);">প্রোগ্রাম ডাটা লোড হয়নি।</p>';
-    return;
-  }
-  const fitRank = {good:0, moderate:1};
-  const items = GERMANY_DB.programs
-    .filter(p => p.tier === 'A' && (p.gpa_fit === 'good' || p.gpa_fit === 'moderate'))
-    .sort((a,b) => fitRank[a.gpa_fit] - fitRank[b.gpa_fit] || a.university.localeCompare(b.university));
-
-  if (!items.length) {
-    el.innerHTML = '<p style="color:var(--muted);">কোনো matching প্রোগ্রাম পাওয়া যায়নি।</p>';
-    return;
-  }
-
-  el.innerHTML = `<div style="font-size:.8rem;color:var(--muted);margin-bottom:10px;">${items.length}টা প্রোগ্রাম পাওয়া গেছে — </div>` +
-    items.map(p => {
-      const tuition = (p.costs_funding && p.costs_funding.tuition) || 'N/A';
-      const deadline = (p.requirements_registration && p.requirements_registration.deadline_winter) || 'N/A';
-      return `<a class="rec-card" href="detail.html?id=${p.id}">
-        <div class="rec-uni">${p.university}</div>
-        <div class="rec-title">${p.title}</div>
-        <div class="rec-meta">
-          <span class="rec-fit-${p.gpa_fit}">${fitLabel[p.gpa_fit]}</span>
-          <span>💶 ${tuition}</span>
-          <span>📅 ${deadline}</span>
-        </div>
-      </a>`;
-    }).join('');
-}
-
-renderRecommended();
 </script>
 </body>
 </html>
