@@ -159,6 +159,13 @@ table.curriculum-table tr:last-child td{border-bottom:none;}
 .status-core{background:rgba(91,140,255,.16);color:var(--accent);border:1px solid rgba(91,140,255,.3);}
 .status-vlsi{background:rgba(56,239,125,.16);color:var(--good);border:1px solid rgba(56,239,125,.35);}
 .notice-box{background:rgba(255,183,77,.1);border:1px solid rgba(255,183,77,.35);border-radius:10px;padding:14px 16px;font-size:.86rem;color:var(--warn);margin-top:16px;}
+.rec-card{display:block;background:var(--panel2);border:1px solid var(--border-light);border-radius:var(--radius-sm);padding:14px 16px;margin-bottom:10px;text-decoration:none;color:var(--text);transition:border-color .15s;}
+.rec-card:hover{border-color:var(--border-hover);}
+.rec-uni{color:var(--accent);font-weight:700;font-size:.72rem;text-transform:uppercase;letter-spacing:.03em;}
+.rec-title{font-weight:700;font-size:.95rem;margin:3px 0 8px;}
+.rec-meta{display:flex;gap:10px;flex-wrap:wrap;font-size:.78rem;color:var(--muted);}
+.rec-fit-good{color:var(--good);font-weight:700;}
+.rec-fit-moderate{color:var(--warn);font-weight:700;}
 </style>
 </head>
 <body>
@@ -350,9 +357,18 @@ table.curriculum-table tr:last-child td{border-bottom:none;}
     </div>
   </div>
 
+  <!-- Personalized Recommended Programs -->
+  <div class="section">
+    <h2>✅ তোমার বর্তমান প্রোফাইল (CGPA 2.83, Tier A/VLSI-RTL ফোকাস) অনুযায়ী সবচেয়ে উপযুক্ত প্রোগ্রাম</h2>
+    <div class="card">
+      <p style="font-size:.86rem;color:var(--muted);margin:0 0 14px;">নিচের লিস্টটা ডাটাবেসের ২৩৬টা প্রোগ্রাম থেকে স্বয়ংক্রিয়ভাবে filter করা — শুধু <b>Tier A</b> (সরাসরি VLSI/RTL/Microelectronics/Embedded ফোকাসড) এবং <b>GPA Fit: Good বা Moderate</b> (তোমার 2.8-এর আশেপাশের CGPA নিয়ে realistic সম্ভাবনা আছে) এমন প্রোগ্রামগুলোই দেখানো হচ্ছে। Risky/Weak fit এবং Tier B/C/D (কম relevant) বাদ দেওয়া হয়েছে।</p>
+      <div id="recommendedPrograms">লোড হচ্ছে...</div>
+    </div>
+  </div>
+
   <!-- Profile Strategy for Admission -->
   <div class="section">
-    <h2>🎯 কম CGPA (2.80) সত্ত্বেও অফার নিশ্চিত করার স্ট্র্যাটেজি</h2>
+    <h2>🎯 কম CGPA (2.83) সত্ত্বেও অফার নিশ্চিত করার স্ট্র্যাটেজি</h2>
     <div class="card">
       <ul style="font-size:.88rem;padding-left:20px;margin:0;line-height:1.75;">
         <li><b>NC-Frei & UAS ফোকাস:</b> যে বিশ্ববিদ্যালয়গুলো Zulassungsfrei (Open Admission) এবং Hochschule (University of Applied Sciences) সেগুলোতে অগ্রাধিকার দিন (যেমন: TU Chemnitz, Bremerhaven, BTU Cottbus)।</li>
@@ -363,11 +379,48 @@ table.curriculum-table tr:last-child td{border-bottom:none;}
   </div>
 </div>
 
+<script src="database.js"></script>
 <script>
 function toggleTheme(){
   const html=document.documentElement;
   html.setAttribute('data-theme', html.getAttribute('data-theme')==='light'?'dark':'light');
 }
+
+const fitLabel = {good:"✅ Good fit",moderate:"🟡 Moderate fit"};
+
+function renderRecommended(){
+  const el = document.getElementById('recommendedPrograms');
+  if (typeof DATABASE === 'undefined' || !DATABASE.programs) {
+    el.innerHTML = '<p style="color:var(--muted);">প্রোগ্রাম ডাটা লোড হয়নি।</p>';
+    return;
+  }
+  const fitRank = {good:0, moderate:1};
+  const items = DATABASE.programs
+    .filter(p => p.tier === 'A' && (p.gpa_fit === 'good' || p.gpa_fit === 'moderate'))
+    .sort((a,b) => fitRank[a.gpa_fit] - fitRank[b.gpa_fit] || a.university.localeCompare(b.university));
+
+  if (!items.length) {
+    el.innerHTML = '<p style="color:var(--muted);">কোনো matching প্রোগ্রাম পাওয়া যায়নি।</p>';
+    return;
+  }
+
+  el.innerHTML = `<div style="font-size:.8rem;color:var(--muted);margin-bottom:10px;">${items.length}টা প্রোগ্রাম পাওয়া গেছে — </div>` +
+    items.map(p => {
+      const tuition = (p.costs_funding && p.costs_funding.tuition) || 'N/A';
+      const deadline = (p.requirements_registration && p.requirements_registration.deadline_winter) || 'N/A';
+      return `<a class="rec-card" href="detail.html?id=${p.id}">
+        <div class="rec-uni">${p.university}</div>
+        <div class="rec-title">${p.title}</div>
+        <div class="rec-meta">
+          <span class="rec-fit-${p.gpa_fit}">${fitLabel[p.gpa_fit]}</span>
+          <span>💶 ${tuition}</span>
+          <span>📅 ${deadline}</span>
+        </div>
+      </a>`;
+    }).join('');
+}
+
+renderRecommended();
 </script>
 </body>
 </html>
