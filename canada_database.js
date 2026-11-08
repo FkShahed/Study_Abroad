@@ -36,22 +36,26 @@ const CANADA_DB = {
       "costs_funding": {
         "tuition": "Not confirmed on official ECE pages; third-party listings show conflicting figures (~$34,900-$73,760/yr range across sources, unclear which is MASc vs MEng) - Not found definitively CAD/year (international)",
         "tuition_domestic": "Not confirmed; third-party figures ~$8,448-$15,618/yr - Not found definitively",
-        "tuition_notes": "MASc students receive guaranteed departmental funding (Graduate Research Studentship) to complete degree; MEng is fully self-funded. Official tuition schedule at gradstudies.engineering.utoronto.ca/prospective-students/money-matters/ not fully retrieved."
+        "tuition_notes": "MASc/PhD students receive guaranteed departmental funding; research-stream students received over $12.5M in funding last year; dozens receive NSERC/CIHR/major external awards."
       },
       "requirements_registration": {
         "gpa_requirement": "Official ECE dept. page: \"an average equivalent to at least a mid-B in the final year\" (SGS International Credential Equivalencies: mid-B ≈ 3.0/4.0). Final-year-specific, not cumulative CGPA. Source: ece.utoronto.ca/graduates/minimum-admission-requirements/",
         "prior_degree": "Equivalent of a University of Toronto 4-year Bachelor's degree in electrical/computer engineering or related field (CS, math, physics, other engineering)",
         "gre_required": "Not required/not mentioned on ECE department page",
-        "ielts": "Not stated on department page; defers to SGS English proficiency options (no numeric IELTS cutoff on ece.utoronto.ca)",
+        "ielts": "Not stated on ECE page; defers to SGS English Language Proficiency Testing policy (no fixed numeric cutoff published).",
         "toefl": "Not stated on department page",
         "english_exemptions": "Applicants whose prior degree was taught/examined entirely in English may be exempt per SGS English Language Proficiency Testing page; scores must be no more than 2 years old",
         "deadline_fall": "MEng Fall 2027: International April 15, 2027; Domestic May 31, 2027. MASc/PhD Fall/Winter 2027-28: January 7, 2027 (all applicants). (ece.utoronto.ca)",
         "deadline_winter": "Same single deadline covers Fall/Winter 2027-2028 cycle",
         "deadline_notes": "MEng deadlines differ (see MEng entry); confirm current cycle directly with grad.admissions.ece@utoronto.ca",
-        "other_admission_notes": "Must secure a supervisor before admission; significant research potential expected; meeting minimum GPA does not guarantee admission"
+        "other_admission_notes": "Must secure a supervisor before admission; significant research potential expected; meeting minimum GPA does not guarantee admission",
+        "submission_portal": "SGS online application (grad.admissions.ece@utoronto.ca for inquiries); exact portal name not published."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "grad.admissions.ece@utoronto.ca",
+        "course_website": "https://www.sgs.utoronto.ca/programs/electrical-and-computer-engineering/"
+      },
       "official_website_data": {
         "official_source_url": "https://www.sgs.utoronto.ca/programs/electrical-and-computer-engineering/",
         "sources_consulted": [
@@ -103,10 +107,15 @@ const CANADA_DB = {
         "deadline_fall": "MEng Fall 2027: International April 15, 2027; Domestic May 31, 2027. MASc/PhD Fall/Winter 2027-28: January 7, 2027 (all applicants). (ece.utoronto.ca)",
         "deadline_winter": "MEng Winter 2028: May 31, 2027",
         "deadline_notes": "Dates as published for 2027-2028 cycle; confirm current year dates directly with ECE",
-        "other_admission_notes": "No supervisor required (unlike MASc); 8 fields including Electronics and Computer Engineering; co-op option available"
+        "other_admission_notes": "No supervisor required (unlike MASc); 8 fields including Electronics and Computer Engineering; co-op option available",
+        "submission_portal": "SGS/engineering online application; redirect confirms ece.utoronto.ca/graduates/ as the canonical graduates info page."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "grad.admissions.ece@utoronto.ca",
+        "contact_address": "Dept. of Electrical & Computer Engineering, University of Toronto, Toronto, ON (general university contact used as proxy — department-specific street number not isolated)",
+        "course_website": "https://www.ece.utoronto.ca/graduates/"
+      },
       "official_website_data": {
         "official_source_url": "https://gradstudies.engineering.utoronto.ca/prospective-students/departments/electrical-computer-engineering-graduate-studies-programs-and-degrees/",
         "sources_consulted": [
@@ -157,10 +166,16 @@ const CANADA_DB = {
         "deadline_fall": "February 1 for September admission (ECE MEng Co-op program page; confirm applies to research-stream MASc/PhD separately)",
         "deadline_winter": "Not found",
         "deadline_notes": "Official page refers only to 'advertised deadlines' without listing dates",
-        "other_admission_notes": "Must secure a faculty supervisor before admission for MASc/PhD; admission based on academic record and research ability"
+        "other_admission_notes": "Must secure a faculty supervisor before admission for MASc/PhD; admission based on academic record and research ability",
+        "submission_portal": "University of Waterloo Graduate Studies online application portal: https://grad.apply.uwaterloo.ca/apply/ (research programs contact: ece.researchadmissions@uwaterloo.ca)"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "ece.researchadmissions@uwaterloo.ca (MASc/PhD); general dept: ece-fd@uwaterloo.ca",
+        "contact_phone": "(519) 888-4567",
+        "contact_address": "Dept. of Electrical and Computer Engineering, 200 University Avenue West, Waterloo, ON, Canada N2L 3G1",
+        "course_website": "https://uwaterloo.ca/electrical-computer-engineering/graduate-studies/research-fields/integrated-devices-circuits-and-systems"
+      },
       "official_website_data": {
         "official_source_url": "https://uwaterloo.ca/electrical-computer-engineering/graduate-studies/research-fields/integrated-devices-circuits-and-systems",
         "sources_consulted": [
@@ -193,13 +208,13 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "Core requirement 8 courses (0.5 units each); up to 10 courses including specializations; specializations available with dedicated coursework; Co-op requires WIL 601 before first work term plus Work Term Report.",
+        "curriculum_notes": "MEng (regular): 8 courses (max 10, 0.5 units each), full-time or part-time, avg completion 16 months, optional specialization. MEng Co-op: 8 courses, full-time only, 16-20 months, 1-2 co-op work terms. MEng in Electric Power Engineering: 9 courses, fully online, part-time, typically 3 years (max 5).",
         "vlsi_rtl_relevance_notes": "MEng students can take courses within the Integrated Devices, Circuits and Systems field/specialization (see MASc entry) taught by the same VLSI-active faculty (Gaudet, Sachdev, Barby, Nairn, Levine, Long, Wright), giving a path to VLSI/analog-mixed-signal coursework within a course-based degree."
       },
       "costs_funding": {
         "tuition": "Not confirmed officially; aggregator figures conflict widely (~$15,392 to ~$49,716/yr cited by different third-party sources) - Not found reliably CAD/year (international)",
         "tuition_domestic": "Not confirmed officially - Not found reliably",
-        "tuition_notes": "MEng students are fully self-funded; no departmental/faculty/university financial support provided"
+        "tuition_notes": "MEng students are self-funded (no departmental/faculty financial assistance); Co-op students receive paid co-op term income only."
       },
       "requirements_registration": {
         "gpa_requirement": "Official ECE dept. program page: \"A 75% overall standing or equivalent, in a relevant four-year honours bachelor's degree or equivalent is the minimum requirement for admission to a master's program for applicants educated outside of Canada.\" No Bangladesh-specific carve-out found on the live site. Source: uwaterloo.ca/future-graduate-students (ECE MEng Co-op program page)",
@@ -211,10 +226,17 @@ const CANADA_DB = {
         "deadline_fall": "February 1 for September admission (ECE MEng Co-op program page; confirm applies to research-stream MASc/PhD separately)",
         "deadline_winter": "Not found",
         "deadline_notes": "One official page mentioned October 1 deadline for MEng Co-op May admission of following year; general MEng fall deadlines not located",
-        "other_admission_notes": "No supervisor required for MEng; co-op option (full-time only)"
+        "other_admission_notes": "No supervisor required for MEng; co-op option (full-time only)",
+        "submission_portal": "https://grad.apply.uwaterloo.ca/apply/ (course-based inquiries: ece.mengadmissions@uwaterloo.ca)"
       },
-      "services": {},
-      "about_university": {},
+      "services": {
+        "career_services": "MEng Co-op program explicitly described as building employability/interview skills via paid work terms."
+      },
+      "about_university": {
+        "contact_email": "ece.mengadmissions@uwaterloo.ca",
+        "contact_phone": "(519) 888-4567",
+        "contact_address": "Dept. of Electrical and Computer Engineering, 200 University Avenue West, Waterloo, ON, Canada N2L 3G1"
+      },
       "official_website_data": {
         "official_source_url": "https://uwaterloo.ca/electrical-computer-engineering/graduate-studies/future-students/programs",
         "sources_consulted": [
@@ -247,28 +269,35 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "Coursework plus thesis, research-based; specialization areas include digital system design, VLSI design, and software engineering; research areas include Emerging Micro and Nano Technologies, Computer and Software Systems.",
+        "curriculum_notes": "24 months, in person at UBC Vancouver, coursework + thesis. Specializations: Biomedical Technologies, Communications Systems, Computer and Software Systems, Energy Systems, Micro and Nano Technologies. GRE not required. Graduation rate 97.6%, avg completion 2.7 years.",
         "vlsi_rtl_relevance_notes": "Explicitly mentions 'digital system design, VLSI design' as part of departmental specialization; faculty such as Andre Ivanov list integrated circuits/chip design as research interests - direct VLSI fit."
       },
       "costs_funding": {
-        "tuition": "$10,081.65 (first year, per UBC Grad School page) CAD/year (international)",
+        "tuition": "CAD $10,081.65/year (payable in 3 installments of $3,360.55); plus ~$1,203.20/year student fees. Eligible international students may receive a $3,200 International Tuition Award.",
         "tuition_domestic": "$5,738.52 (first year)",
-        "tuition_notes": "Tuition typically rises 2-5% annually; student fees ~$1,203.20/year additional; application fee domestic $120.75, international $168.25"
+        "tuition_notes": "2023-24 median total funding (first 2 yrs, n=75): $32,575 before tuition / $22,970 net. Median RA $25,000; median TA $6,216; median internal award $2,000; median external award $11,667. RAs granted by individual supervisors."
       },
       "requirements_registration": {
         "gpa_requirement": "Could not be verified — ece.ubc.ca is behind an active bot-detection wall that blocked both automated and browser verification. Cached snippets suggest a 'first-class range' (~80%) preference, unconfirmed. Recommend checking ece.ubc.ca/graduate/programs/masters-doctoral/admission-information directly.",
         "prior_degree": "UBC-accredited 4-year bachelor's degree in Electrical or Computer Engineering, or closely related field with significant course overlap",
         "gre_required": "Not required; optional submission",
-        "ielts": "7.0 overall, no band below 6.0 (official ECE department page, ece.ubc.ca — stricter than the 6.5 general grad-school floor)",
-        "toefl": "100 overall (iBT), no component below 20; institutional TOEFL not accepted (official ECE department page)",
+        "ielts": "IELTS Academic overall 7.0, minimum 6.0 in each band.",
+        "toefl": "TOEFL (120-pt scale, before 21 Jan 2026): overall 100. New 6-pt scale (from 21 Jan 2026): overall 5.0 (4.5 reading, 4.5 writing, 4.0 speaking, 5.0 listening). Duolingo accepted: overall 130.",
         "english_exemptions": "Applicants with a recent degree (within 5 years) from a listed English-speaking country may be exempt; others (including Canadians with foreign degrees) must submit scores",
-        "deadline_fall": "September 2027 intake: application opens Oct 15, 2026; deadline (Canadian & international) Jan 15, 2027; transcript/referee deadline Jan 31, 2027",
+        "deadline_fall": "Sept 2027 intake: applications open 15 Oct 2026; deadline (Canadian & international) 15 Jan 2027; transcript/referee deadline 31 Jan 2027.",
         "deadline_winter": "Not found (program appears to admit primarily Fall)",
         "deadline_notes": "Dates as published for Sept 2027 cycle",
-        "other_admission_notes": "Must indicate faculty supervisor(s) of interest in application"
+        "other_admission_notes": "Must indicate faculty supervisor(s) of interest in application",
+        "submission_portal": "UBC Faculty of Graduate and Postdoctoral Studies online application; requires a UBC Campus-Wide Login (CWL) account."
       },
-      "services": {},
-      "about_university": {},
+      "services": {
+        "part_time_work": "Full-time students with a valid study permit may work on campus unlimited hours and off campus up to 24 hrs/week during academic sessions (per IRCC federal policy).",
+        "career_services": "References UBC Work Learn program and Co-Op placements; recent grad employers include Google, Microsoft, Intel, BC Hydro."
+      },
+      "about_university": {
+        "contact_address": "UBC Faculty of Graduate and Postdoctoral Studies, 170-6371 Crescent Road, Vancouver, BC V6T 1Z2",
+        "course_website": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-applied-science-electrical-computer-engineering"
+      },
       "official_website_data": {
         "official_source_url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-applied-science-electrical-computer-engineering",
         "sources_consulted": [
@@ -299,13 +328,13 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "Course-based with optional project; Micro/Nano Electronic Systems concentration recommended courses: EECE 509 (Advanced Microsystems Design), EECE 573 (Micro and Nano Fabrication Technologies), EECE 580 (Emerging Electronic Materials and Devices), EECE 588 (Analog Integrated Circuit Design). Not every course offered every year.",
+        "curriculum_notes": "Micro/Nano Electronic Systems recommended courses: EECE 509 Advanced Microsystems Design, EECE 573 Micro and Nano Fabrication Technologies, EECE 580 Emerging Electronic Materials and Devices, EECE 588 Analog Integrated Circuit Design (offerings not guaranteed each year). Coursework-based; after 1 term can substitute an engineering project+report for 6 credits of coursework.",
         "vlsi_rtl_relevance_notes": "Strong direct fit - EECE 588 Analog Integrated Circuit Design and EECE 509 Advanced Microsystems Design are core VLSI/IC design coursework within this concentration."
       },
       "costs_funding": {
-        "tuition": "$27,419.34 (first year) CAD/year (international)",
+        "tuition": "CAD $27,419.34/year international (3 installments of $9,139.78); domestic $6,974.94/year. Application fee (international) $168.25; acceptance deposit $1,000; student fees ~$1,203.20/year.",
         "tuition_domestic": "$6,974.94 (first year)",
-        "tuition_notes": "Additional student fees ~$1,203.20/year; $1,000 deposit to accept offer; tuition may rise annually"
+        "tuition_notes": "MEng students generally not eligible for merit-based financial aid; can apply for TA positions in ECE; bursaries/loans possible."
       },
       "requirements_registration": {
         "gpa_requirement": "Could not be verified — ece.ubc.ca is behind an active bot-detection wall that blocked both automated and browser verification. Cached snippets suggest a 'first-class range' (~80%) preference, unconfirmed. Recommend checking ece.ubc.ca/graduate/programs/masters-doctoral/admission-information directly.",
@@ -314,13 +343,19 @@ const CANADA_DB = {
         "ielts": "7.0 overall, no band below 6.0 (official ECE department page, ece.ubc.ca — stricter than the 6.5 general grad-school floor)",
         "toefl": "100 overall (iBT), no component below 20; institutional TOEFL not accepted (official ECE department page)",
         "english_exemptions": "Not found",
-        "deadline_fall": "September 2027 intake: application opens Oct 1, 2026; Canadian and international deadline Dec 12, 2026",
+        "deadline_fall": "Sept 2027 intake: applications open 1 Oct 2026; Canadian & international deadline 12 Dec 2026.",
         "deadline_winter": "Not found",
         "deadline_notes": "Same deadline for domestic and international applicants (unusual - confirmed on official page)",
-        "other_admission_notes": "Coursework-only with optional supervised project; after one term, students may choose a project + report in place of 6 credits of coursework"
+        "other_admission_notes": "Coursework-only with optional supervised project; after one term, students may choose a project + report in place of 6 credits of coursework",
+        "submission_portal": "UBC application (program code VGMMEN-HA); requires CWL account; MEng not administered by Faculty of Grad & Postdoctoral Studies, check UBC Engineering site directly."
       },
-      "services": {},
-      "about_university": {},
+      "services": {
+        "part_time_work": "International students with valid full-time study permit can work on campus unlimited hours, off campus up to 24 hrs/week during academic sessions."
+      },
+      "about_university": {
+        "contact_address": "170-6371 Crescent Road, Vancouver, BC V6T 1Z2",
+        "course_website": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-engineering-electrical-computer-engineering"
+      },
       "official_website_data": {
         "official_source_url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-engineering-electrical-computer-engineering",
         "sources_consulted": [
@@ -351,7 +386,7 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "Research-intensive thesis program, 45 credits; no standalone VLSI field named.",
+        "curriculum_notes": "Thesis-based, research-intensive M.Sc.; research areas include bioelectrical engineering, computational electromagnetics, intelligent systems, integrated circuits and systems, nano-electronic devices/materials, photonic systems, power engineering, software engineering, systems and control, telecommunications/signal processing.",
         "vlsi_rtl_relevance_notes": "Research areas list 'Integrated Circuits and Systems' and 'Nano-Electronic Devices and Materials' as closest fits; verify supervisor alignment with VLSI/RTL."
       },
       "costs_funding": {
@@ -366,13 +401,19 @@ const CANADA_DB = {
         "ielts": "Overall band score of 7.0, no component below 6.0 (official ECE department page, mcgill.ca/ece)",
         "toefl": "iBT overall 100, no component below 20 (official ECE department page)",
         "english_exemptions": "Not found",
-        "deadline_fall": "Applications open Sept 15; deadline Dec 15 (international and domestic)",
+        "deadline_fall": "Applications open Sept 15; international deadline Dec 15; domestic deadline Dec 15.",
         "deadline_winter": "Applications open Feb 15; deadline Aug 1 (international), Oct 15 (domestic)",
         "deadline_notes": "Deadlines subject to change per university.",
-        "other_admission_notes": "45 credits, thesis-based. Research areas relevant: Integrated Circuits and Systems; Nano-Electronic Devices and Materials."
+        "other_admission_notes": "45 credits, thesis-based. Research areas relevant: Integrated Circuits and Systems; Nano-Electronic Devices and Materials.",
+        "submission_portal": "McGill online graduate application ('Apply Now' on mcgill.ca/gradapplicants); minimum admission requirement bachelor's with >=3.0/4.0 GPA.",
+        "deadline_summer": "Winter intake (reference): applications open Feb 15; international deadline Aug 1; domestic deadline Oct 15. Deadlines subject to change."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "grad.ece@mcgill.ca",
+        "contact_address": "James Administration Building, 845 Sherbrooke Street West, Room 400, Montreal, QC H3A 0G4",
+        "course_website": "https://www.mcgill.ca/gradapplicants/program/electrical-engineering-msc"
+      },
       "official_website_data": {
         "official_source_url": "https://www.mcgill.ca/gradapplicants/program/electrical-engineering-msc",
         "sources_consulted": [
@@ -403,7 +444,7 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "Course-based 45 credits; no specific course list found on page.",
+        "curriculum_notes": "Course-based, non-thesis M.Eng.; breadth across field + depth in chosen specialty; minimum admission >=3.0/4.0 GPA.",
         "vlsi_rtl_relevance_notes": "Related research areas: Integrated Circuits and Systems; Nano-Electronic Devices and Materials; keyword 'integrated circuits' appears."
       },
       "costs_funding": {
@@ -418,13 +459,19 @@ const CANADA_DB = {
         "ielts": "Overall band score of 7.0, no component below 6.0 (official ECE department page, mcgill.ca/ece)",
         "toefl": "iBT overall 100, no component below 20 (official ECE department page)",
         "english_exemptions": "Not found",
-        "deadline_fall": "Applications open Sept 15; deadline Dec 15 (international and domestic)",
+        "deadline_fall": "Applications open Sept 15; international deadline Dec 15; domestic deadline Dec 15.",
         "deadline_winter": "Applications open Feb 15; deadline Aug 1 (international), Oct 15 (domestic)",
         "deadline_notes": "Summer intake not offered.",
-        "other_admission_notes": "45 credits, course-based, non-thesis; breadth across field + depth in specialty area."
+        "other_admission_notes": "45 credits, course-based, non-thesis; breadth across field + depth in specialty area.",
+        "submission_portal": "McGill online graduate application (mcgill.ca/gradapplicants).",
+        "deadline_summer": "Winter intake: applications open Feb 15; international deadline Aug 1; domestic deadline Oct 15."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "grad.ece@mcgill.ca",
+        "contact_address": "James Administration Building, 845 Sherbrooke Street West, Room 400, Montreal, QC H3A 0G4",
+        "course_website": "https://www.mcgill.ca/gradapplicants/program/electrical-engineering-meng-non-thesis"
+      },
       "official_website_data": {
         "official_source_url": "https://www.mcgill.ca/gradapplicants/program/electrical-engineering-meng-non-thesis",
         "sources_consulted": [
@@ -461,22 +508,28 @@ const CANADA_DB = {
       "costs_funding": {
         "tuition": "Not found; page refers to Fee Estimator CAD/year (international)",
         "tuition_domestic": "Est. CAD $19,000 total / ~$1,900 per course (10 courses) for non-thesis pathways (Ontario domestic)",
-        "tuition_notes": "International tuition significantly higher per Carleton fee estimator (not retrieved)."
+        "tuition_notes": "Page shows only domestic (Ontario) estimate: ~C$19,000 total coursework tuition, or ~C$1,900/course (10-course pathway); international figure requires the Fee Estimator (not retrieved)."
       },
       "requirements_registration": {
         "gpa_requirement": "Official 2026-27 Carleton Graduate Calendar, ECE Admission tab: \"a bachelor's degree in electrical engineering or a related discipline with a CGPA of B+\" (≈3.3/4.0). Source: calendar.carleton.ca/grad/gradprograms/electricalandcomputerengineering/ — this is the correct departmental figure; a general Bangladesh country-equivalency page (55-60%/65-70%) exists but is NOT what the ECE department itself states.",
         "prior_degree": "Not specified on program page beyond general university minimums",
         "gre_required": "Not found",
-        "ielts": "Not found on program/minimum-requirements pages (referred to international admission requirements page, not separately fetched)",
-        "toefl": "Not found",
+        "ielts": "6.5 overall, minimum 6.0 in each band (official Carleton 'English as a Second Language' page, graduate.carleton.ca/international/english-second-language/ — browser-verified 2026-11-09).",
+        "toefl": "For exams before Jan 21, 2026: 86 overall (20 reading/listening, 22 speaking/writing). For exams on/after Jan 21, 2026: 4.5 overall (min 5.0 writing, 4.5 reading/listening/speaking) (same official page, browser-verified 2026-11-09).",
         "english_exemptions": "Not found",
-        "deadline_fall": "Application Deadline: March 1 (single deadline listed, not split by term)",
+        "deadline_fall": "March 1 application deadline; entry terms Fall, Summer, Winter. MEng Winter intake restricted to Systems & Computer Engineering dept; MEng Summer intake unavailable for course-based programs.",
         "deadline_winter": "Not separately listed",
         "deadline_notes": "Entry terms: Fall, Winter, Summer; MEng Winter restricted to Systems & Computer Eng dept; MEng Summer unavailable.",
-        "other_admission_notes": "MASc = thesis required; MEng = coursework only, 3 pathways (Coursework, Research Project, Thesis). MEng winter intake restricted to Dept. of Systems and Computer Engineering; no MEng summer intake."
+        "other_admission_notes": "MASc = thesis required; MEng = coursework only, 3 pathways (Coursework, Research Project, Thesis). MEng winter intake restricted to Dept. of Systems and Computer Engineering; no MEng summer intake.",
+        "submission_portal": "https://graduate.carleton.ca/apply-online/"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "gradadmineng@carleton.ca (Graduate Administrator, Engineering); graduate.studies@carleton.ca (general)",
+        "contact_phone": "613-520-2525 (Graduate Studies); 613-520-2600 (general university)",
+        "contact_address": "512 Tory Building, 1125 Colonel By Drive, Ottawa, ON, K1S 5B6, Canada",
+        "course_website": "https://graduate.carleton.ca/program/electrical-and-computer-engineering-masters-programs/"
+      },
       "official_website_data": {
         "official_source_url": "https://graduate.carleton.ca/program/electrical-and-computer-engineering-masters-programs/",
         "sources_consulted": [
@@ -508,13 +561,13 @@ const CANADA_DB = {
         "department": "Gina Cody School of Engineering and Computer Science"
       },
       "course_details": {
-        "curriculum_notes": "45 credits: 16 credits coursework + 29 credits thesis (ENGR 8901). Gina Cody School; English-taught.",
+        "curriculum_notes": "Thesis-based MASc, 45 credits, ~2 years; min. 16 credits coursework (chosen with supervisor/GPD approval) + 29 credits ENGR 8901 Research and Thesis; start terms Fall/Winter/Summer; primary campus Sir George Williams (SGW).",
         "vlsi_rtl_relevance_notes": "Page emphasizes 'electrification' and Volt-Age funding; no explicit VLSI/microelectronics mention on this specific MASc overview page (contrast with MEng Concentration D below, which is explicit)."
       },
       "costs_funding": {
         "tuition": "Not found; page refers to tuition/fee estimator CAD/year (international)",
         "tuition_domestic": "Not found",
-        "tuition_notes": "Tuition depends on student status per page."
+        "tuition_notes": "Funding packages generally available to thesis-based students (awards + TA/RA offered at admission, automatic consideration); out-of-province students eligible for $10,000 special funding; Volt-Age program funds electrification research."
       },
       "requirements_registration": {
         "gpa_requirement": "Official ECE MASc program page: \"Bachelor's degree in engineering or equivalent with high standing\" — no explicit numeric CGPA stated on this department page. A general Graduate Calendar figure of 3.00/4.30 exists but is not confirmed as this department's own stated bar. Source: concordia.ca/academics/graduate/electrical-engineering-masc.html",
@@ -523,13 +576,19 @@ const CANADA_DB = {
         "ielts": "Not listed on this page",
         "toefl": "Not listed on this page",
         "english_exemptions": "Referred to separate English language proficiency page (not fetched)",
-        "deadline_fall": "July 1 (Canadian residents); March 1 (U.S./international)",
+        "deadline_fall": "Canadian residents July 1 / international March 1.",
         "deadline_winter": "November 1 (Canadian residents); July 1 (U.S./international)",
         "deadline_notes": "Summer: March 1 (Canadian); November 1 (U.S./international). Note: international deadlines are EARLIER than domestic (e.g., Fall intl = March 1 vs domestic July 1) - unusual pattern, verify directly.",
-        "other_admission_notes": "45 credits total: min 16 credits coursework (Engineering Courses list, approved by supervisor/GPD) + 29 credits ENGR 8901 (MASc Research and Thesis)."
+        "other_admission_notes": "45 credits total: min 16 credits coursework (Engineering Courses list, approved by supervisor/GPD) + 29 credits ENGR 8901 (MASc Research and Thesis).",
+        "submission_portal": "Concordia Graduate Admissions online application ('Apply now').",
+        "deadline_summer": "Summer: Canadian March 1 / international Nov 1 (prior year). Winter: Canadian Nov 1 / international July 1."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_phone": "514-848-2424 (central); 514-848-3717 (emergency)",
+        "contact_address": "Concordia University, Graduate Admissions, Application Centre, P.O. Box 2002, Station H, Montreal, QC, Canada H3G 2V4",
+        "course_website": "https://www.concordia.ca/academics/graduate/electrical-engineering-masc.html"
+      },
       "official_website_data": {
         "official_source_url": "https://www.concordia.ca/academics/graduate/electrical-engineering-masc.html",
         "sources_consulted": [
@@ -578,10 +637,16 @@ const CANADA_DB = {
         "deadline_fall": "July 1 (Canadian residents); March 1 (U.S./international)",
         "deadline_winter": "November 1 (Canadian residents); July 1 (U.S./international)",
         "deadline_notes": "Summer: March 1 (Canadian); November 1 (U.S./international).",
-        "other_admission_notes": "Same application deadlines/process as MASc (shared Concordia graduate ECE admission)."
+        "other_admission_notes": "Same application deadlines/process as MASc (shared Concordia graduate ECE admission).",
+        "submission_portal": "Concordia 'How to apply' page: concordia.ca/gradstudies/future-students/how-to-apply.html"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "reception@ece.concordia.ca",
+        "contact_phone": "514-848-2424, ext. 3100",
+        "contact_address": "Room EV-5.139, 1515 Ste-Catherine St. W. (mailing: 1455 De Maisonneuve Blvd. W., EV-5.139), Montreal, QC H3G 1M8/H3G 2W1",
+        "course_website": "https://www.concordia.ca/ginacody/electrical-computer-eng/programs/meng.html"
+      },
       "official_website_data": {
         "official_source_url": "https://www.concordia.ca/ginacody/electrical-computer-eng/programs/meng.html",
         "sources_consulted": [
@@ -619,14 +684,14 @@ const CANADA_DB = {
       "costs_funding": {
         "tuition": "Not found/reliable — conflicting third-party figures (~31,500-42,660 CAD/year range cited for related MASc/AI concentration programs); could not verify against official fee schedule. CAD/year (international)",
         "tuition_domestic": "Not found",
-        "tuition_notes": "Official catalog page content could not be retrieved (fetch returned empty/paywalled); figures above are unverified aggregator data."
+        "tuition_notes": "Not confirmed on official uOttawa page (fetch blocked, HTTP 402). Third-party aggregators (unverified, flagged as such): Mastersportal ~CAD 42,660/yr; IDP ~CAD 19,196 (2025); Collegedunia ~CAD 17,756/yr. Treat as estimates only, not official."
       },
       "requirements_registration": {
         "gpa_requirement": "Official ECE graduate program catalogue: \"a minimum average of 70% (B)\". Source: catalogue.uottawa.ca/en/graduate/master-applied-science-electrical-computer-engineering/",
         "prior_degree": "Bachelor's degree with specialization/major in ECE or equivalent.",
         "gre_required": "Not mentioned",
-        "ielts": "Not stated on department page; 'proof of linguistic proficiency may be required', defers to a separate requirements page",
-        "toefl": "Not stated on department page",
+        "ielts": "Unverified aggregator figure (Collegedunia): IELTS 6.5 — NOT independently confirmed on uottawa.ca; needs direct browser verification.",
+        "toefl": "Unverified aggregator figure: TOEFL 80 — NOT independently confirmed.",
         "english_exemptions": "Not found",
         "deadline_fall": "Not found/verified",
         "deadline_winter": "Not found",
@@ -718,7 +783,7 @@ const CANADA_DB = {
         "department": "Schulich School of Engineering"
       },
       "course_details": {
-        "curriculum_notes": "4-7 courses incl. 3 in specialization area, 2 professional development courses, original thesis with oral defense. Program duration ~20 months expected, 4-year max, part-time available.",
+        "curriculum_notes": "MSc (Eng, thesis-based) is typically the first step toward a research career; students take courses in electrical/software engineering fundamentals and produce + defend a thesis.",
         "vlsi_rtl_relevance_notes": "Example course topics include 'VLSI and SOC' and multidimensional signal processing. Supervisor Leo Belostotski works in RF and mixed-signal integrated circuits/systems - direct VLSI relevance confirmed."
       },
       "costs_funding": {
@@ -736,10 +801,16 @@ const CANADA_DB = {
         "deadline_fall": "January 31 application deadline for September 1 admission, both domestic and international (official department page)",
         "deadline_winter": "January 1 admission: April 30 deadline",
         "deadline_notes": "Program description page distinct from the general Schulich landing page, which lacked details.",
-        "other_admission_notes": "Thesis-based research program."
+        "other_admission_notes": "Thesis-based research program.",
+        "submission_portal": "grad.ucalgary.ca/future-students/how-apply"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "ese.gradstudies@ucalgary.ca",
+        "contact_phone": "403.220.5806 (grad program administrator)",
+        "contact_address": "2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada",
+        "course_website": "https://schulich.ucalgary.ca/electrical-software/programs/graduate"
+      },
       "official_website_data": {
         "official_source_url": "https://schulich.ucalgary.ca/electrical-software/programs/graduate",
         "sources_consulted": [
@@ -771,28 +842,37 @@ const CANADA_DB = {
         "department": "Schulich School of Engineering"
       },
       "course_details": {
-        "curriculum_notes": "10 courses total. Specializations: Engineering, Energy and Environment (Interdisciplinary) and Software Engineering (8- or 12-month cohort). Optional 8-16 month paid internship available.",
+        "curriculum_notes": "10 courses required; specializations: Engineering Energy and Environment (Interdisciplinary), Software Engineering (8- or 12-month cohort); full-time 1-2 yrs (6-yr max); no supervisor required.",
         "vlsi_rtl_relevance_notes": "Not mentioned on this page; closest fit would be general ECE coursework. No VLSI-specific track identified for the course-based MEng."
       },
       "costs_funding": {
         "tuition": "Not found; refer to Graduate Tuition and Fee Estimator CAD/year (international)",
         "tuition_domestic": "Not found",
-        "tuition_notes": "Page explicitly states MEng is self-funded."
+        "tuition_notes": "MEng is explicitly self-funded ('MEng degrees are self-funded'); refer to Graduate Calendar for awards/financial assistance."
       },
       "requirements_registration": {
         "gpa_requirement": "Official ECE/ESE dept. page: \"A minimum of 3.0 GPA on a 4.0 point system, over the past two years of full-time study.\" Source: grad.ucalgary.ca/future-students/graduate/discover-opportunities/explore-programs/electrical-and-computer-engineering-msc-thesis",
         "prior_degree": "Four-year baccalaureate in electrical and computer engineering or equivalent; mainly software/computer-engineering backgrounds directed to Software Engineering specialization instead",
         "gre_required": "'Test scores: None' — explicitly no standardized test required beyond English proficiency (official department page, grad.ucalgary.ca)",
-        "ielts": "Not stated on this page; see Academic Calendar",
+        "ielts": "No fixed numeric cutoff stated ('Test scores: None' on program page) — English proficiency may be satisfied by other means.",
         "toefl": "Not stated",
         "english_exemptions": "Not found",
-        "deadline_fall": "January 31 application deadline for September 1 admission, both domestic and international (official department page)",
+        "deadline_fall": "September 1 intake: deadline April 1 (both international and domestic).",
         "deadline_winter": "January 1 intake: August 1 deadline (international and domestic)",
         "deadline_notes": "Iranian applicants: December 1 (Fall), April 1 (Winter). Rolling admission encouraged - apply early.",
-        "other_admission_notes": "Self-funded program; no reference letters or work samples required."
+        "other_admission_notes": "Self-funded program; no reference letters or work samples required.",
+        "submission_portal": "grad.ucalgary.ca/future-students/how-apply",
+        "deadline_summer": "January 1 intake: deadline August 1. Rolling admission, fills quickly — early application encouraged."
       },
-      "services": {},
-      "about_university": {},
+      "services": {
+        "career_services": "8-16 month paid internship option available (limited spots); extends program to 3 years if taken."
+      },
+      "about_university": {
+        "contact_email": "meng@ucalgary.ca",
+        "contact_phone": "403.220.2001",
+        "contact_address": "ENC 205, Canadian Natural Resources Limited Engineering Complex, 2500 University Drive NW, Calgary, AB T2N 1N4",
+        "course_website": "https://grad.ucalgary.ca/future-students/explore-programs/electrical-and-computer-engineering-meng-course"
+      },
       "official_website_data": {
         "official_source_url": "https://grad.ucalgary.ca/future-students/explore-programs/electrical-and-computer-engineering-meng-course",
         "sources_consulted": [
@@ -824,28 +904,33 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "12 listed research areas: Biomedical engineering, Communications, Computer engineering, Control systems, Electromagnetics and microwaves, Energy systems, Integrated circuits and systems, Microsystems and nanodevices, Photonics and plasmas, Signal and image processing, Software engineering and intelligent systems, Solid state electronics. Graduate courses listed under ECE subject heading in University Calendar.",
+        "curriculum_notes": "Admission requires GPA >=3.0/4.0; students work with an advisor across 12 research areas.",
         "vlsi_rtl_relevance_notes": "'Integrated circuits and systems' and 'Microsystems and nanodevices' and 'Solid state electronics' are explicit research areas directly relevant to VLSI/RTL/microelectronics."
       },
       "costs_funding": {
         "tuition": "Not found on this page; refer to Faculty of Graduate & Postdoctoral Studies Tuition and Fees page CAD/year (international)",
         "tuition_domestic": "Not found",
-        "tuition_notes": "Not stated here."
+        "tuition_notes": "Financial assistance available on a competitive basis: research assistantships, teaching assistantships, tuition scholarships, various awards."
       },
       "requirements_registration": {
         "gpa_requirement": "Official ECE dept. page: \"an admission GPA of at least 3.0 on the 4-point scale... calculated on the last 60 units of graded coursework.\" Source: ualberta.ca/en/graduate-programs/master-of-science-electrical-and-computer-engineering.html",
         "prior_degree": "Undergraduate degree from recognized institution or equivalent; master's holders eligible only for PhD; doctoral holders ineligible for graduate program",
         "gre_required": "Not required — official department FAQ: 'Is the GRE Test Required? No, we do not require this test.' (ualberta.ca/engineering/electrical-computer-engineering/graduate-studies/faq.html)",
-        "ielts": "Overall band score of 7.0, at least 6.0 on each band (official ECE department page, ualberta.ca)",
-        "toefl": "Tests before Jan 21, 2026: iBT 92, at least 21 per section. Tests on/after Jan 21, 2026: new scale score of 5, at least 4.5 per section (official ECE department page)",
+        "ielts": "Overall band 7.0, minimum 6.0 on each band.",
+        "toefl": "iBT before 21 Jan 2026: 92 overall, min 21 each section. From 21 Jan 2026: new scale shows 5 overall/4.5 each section (unverified against possible typo/scale-transition artifact).",
         "english_exemptions": "Other accepted: CAEL overall 70 (min 60 per subtest), PTE Academic 62, CAMBRIDGE 176 (min 169 per subscore)",
         "deadline_fall": "International applicants: August 1; Canadian applicants: September 1 (official ECE department FAQ page)",
         "deadline_winter": "Not listed",
         "deadline_notes": "Not found.",
-        "other_admission_notes": "Requires CV and three letters of reference (current U of A students exempt)."
+        "other_admission_notes": "Requires CV and three letters of reference (current U of A students exempt).",
+        "submission_portal": "https://www.ualberta.ca/graduate-studies/prospective-students/apply-for-admission/index.html"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "gradinfo@ece.ualberta.ca",
+        "contact_address": "Faculty of Graduate & Postdoctoral Studies, Killam Centre for Advanced Studies, 2-29 Triffo Hall, University of Alberta, Edmonton, AB, Canada T6G 2E1",
+        "course_website": "https://www.ualberta.ca/en/graduate-programs/electrical-and-computer-engineering.html"
+      },
       "official_website_data": {
         "official_source_url": "https://www.ualberta.ca/en/graduate-programs/electrical-and-computer-engineering.html",
         "sources_consulted": [
@@ -876,28 +961,33 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "Minimum 27.0 units: eight 3-unit graduate courses approved by Associate Chair + 3-unit capstone ECE 910 (Directed Research Project). Additional coursework may be required.",
+        "curriculum_notes": "Course-based program, min. 27.0 units; eight 3-unit graduate courses plus capstone ECE 910 Directed Research Project (3 units); min cumulative GPA 3.0 throughout; typical completion 1.5-2 yrs (max 6 yrs).",
         "vlsi_rtl_relevance_notes": "Same 12 department research areas as MSc apply, including Integrated circuits and systems, Microsystems and nanodevices, Solid state electronics - relevant to VLSI/RTL. Embedded systems not separately named; may fall under Computer engineering."
       },
       "costs_funding": {
         "tuition": "Not found; refer to Faculty of Graduate & Postdoctoral Studies Tuition and Fees page CAD/year (international)",
         "tuition_domestic": "Not found",
-        "tuition_notes": "Not stated here."
+        "tuition_notes": "Same competitive funding note as MSc (RA/TA/scholarships, limited for part-time students)."
       },
       "requirements_registration": {
         "gpa_requirement": "Official ECE dept. page: \"an admission GPA of at least 3.0 on the 4-point scale... calculated on the last 60 units of graded coursework.\" Source: ualberta.ca/en/graduate-programs/master-of-science-electrical-and-computer-engineering.html",
         "prior_degree": "Undergraduate degree from recognized institution; master's in ECE/related field eligible only for PhD; doctorate holders ineligible",
         "gre_required": "Not required — official department FAQ: 'Is the GRE Test Required? No, we do not require this test.' (ualberta.ca/engineering/electrical-computer-engineering/graduate-studies/faq.html)",
-        "ielts": "Overall band score of 7.0, at least 6.0 on each band (official ECE department page, ualberta.ca)",
-        "toefl": "Tests before Jan 21, 2026: iBT 92, at least 21 per section. Tests on/after Jan 21, 2026: new scale score of 5, at least 4.5 per section (official ECE department page)",
+        "ielts": "Overall band 7.0, minimum 6.0 on each band.",
+        "toefl": "iBT before 21 Jan 2026: 92 overall, min 21 each section; from 21 Jan 2026 shows 5 overall/4.5 each section (flagged as needing verification).",
         "english_exemptions": "CAEL, PTE Academic, CAMBRIDGE also accepted with own minimums",
         "deadline_fall": "International applicants: August 1; Canadian applicants: September 1 (official ECE department FAQ page)",
         "deadline_winter": "Not listed",
         "deadline_notes": "Not found.",
-        "other_admission_notes": "Requires CV, three letters of reference (current U of A students exempt), plus ethics/professional development requirements."
+        "other_admission_notes": "Requires CV, three letters of reference (current U of A students exempt), plus ethics/professional development requirements.",
+        "submission_portal": "https://www.ualberta.ca/graduate-studies/prospective-students/apply-for-admission/index.html"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "gradinfo@ece.ualberta.ca",
+        "contact_address": "Faculty of Graduate & Postdoctoral Studies, Killam Centre for Advanced Studies, 2-29 Triffo Hall, University of Alberta, Edmonton, AB, Canada T6G 2E1",
+        "course_website": "https://www.ualberta.ca/en/graduate-programs/master-of-engineering-electrical-and-computer-engineering.html"
+      },
       "official_website_data": {
         "official_source_url": "https://www.ualberta.ca/en/graduate-programs/master-of-engineering-electrical-and-computer-engineering.html",
         "sources_consulted": [
@@ -928,13 +1018,13 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "Thesis-based; research areas include communications, digital systems, electronic materials, power systems. Required documents: online application with 3 referees, unofficial PDF transcripts (combined single PDF), certified translations if needed, English test score PDF if required.",
+        "curriculum_notes": "Programs: Postgraduate Diploma, M.Eng., M.Sc. (thesis-based), PhD. Research areas: power systems, electrical machines, image processing, communication systems, VLSI and CAD, biomedical engineering.",
         "vlsi_rtl_relevance_notes": "'VLSI and computer aided design' explicitly listed among active Electrical Engineering research areas at USask (per department research-areas page) - direct VLSI fit, though specific faculty/lab names not retrieved in this pass."
       },
       "costs_funding": {
-        "tuition": "$12,837/year (M.Sc. thesis, international) CAD/year (international)",
+        "tuition": "M.Sc. (thesis): CAD $12,837/academic year (international).",
         "tuition_domestic": "$5,706/year (M.Sc. thesis, Canadian)",
-        "tuition_notes": "Student fees additional (~$617.36 Fall 2026, $854.96 Winter 2027, $46.75 each Spring/Summer 2027); application fee $125 CAD domestic / $145 CAD international"
+        "tuition_notes": "M.Sc. stipends/scholarships ~$14,000-$18,000/yr; TA average $2,500/student/yr; College of Engineering awards average $3,500/student/yr."
       },
       "requirements_registration": {
         "gpa_requirement": "Could not locate a live ECE-specific admission page (engineering.usask.ca was recently redesigned; known/guessed URLs 404). Only the university-wide CGPS general page was reachable, which defers to 'your chosen graduate program' for the actual figure. No confirmed departmental number.",
@@ -943,13 +1033,19 @@ const CANADA_DB = {
         "ielts": "Not listed on pages visited; proof of English proficiency 'may be required' for international applicants and non-native speakers; refer to separate requirements page",
         "toefl": "Not listed on pages visited",
         "english_exemptions": "Test scores valid for 24 months per department page",
-        "deadline_fall": "September start: May 31 domestic, March 31 international",
+        "deadline_fall": "Fall (September) start: domestic deadline May 31; international deadline March 31.",
         "deadline_winter": "January start: Sept 30 domestic, July 31 international; May start: Jan 31 domestic, Nov 30 international",
         "deadline_notes": "Admission outcomes communicated ~2 months after deadline",
-        "other_admission_notes": "Supervisor approval required to apply"
+        "other_admission_notes": "Supervisor approval required to apply",
+        "submission_portal": "apply.usask.ca/RecruitCE/ (application fee: domestic $125, international $145).",
+        "deadline_summer": "Spring (May) start: domestic Jan 31 / international Nov 30. Winter (January) start: domestic Sept 30 / international July 31."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "engr.ECEgradchair@usask.ca; engrgrad.inquiries@usask.ca",
+        "contact_address": "Department of Electrical Engineering, Room 2B60 Engineering Building, 57 Campus Drive, University of Saskatchewan, Saskatoon, SK S7N 5A9",
+        "course_website": "https://programs.usask.ca/grad-studies/electrical-engineering/index.php"
+      },
       "official_website_data": {
         "official_source_url": "https://programs.usask.ca/grad-studies/electrical-engineering/index.php",
         "sources_consulted": [
@@ -985,7 +1081,7 @@ const CANADA_DB = {
         "vlsi_rtl_relevance_notes": "Same departmental 'VLSI and computer aided design' research area listed for the Electrical Engineering graduate program applies to elective coursework availability, though M.Eng. is project-based rather than research-based."
       },
       "costs_funding": {
-        "tuition": "$6,054/term (international) -> ~$24,216/year at 4 terms, or confirm actual term count; recorded as stated: $6,054 CAD/term CAD/year (international)",
+        "tuition": "M.Eng. (project-based): CAD $6,054/term, billed 3x/year (~$18,162/year, international).",
         "tuition_domestic": "$2,691/term (Canadian)",
         "tuition_notes": "Figures are per-term, not per-year, as stated on official page; student fees additional"
       },
@@ -996,13 +1092,21 @@ const CANADA_DB = {
         "ielts": "Not listed on pages visited",
         "toefl": "Not listed on pages visited",
         "english_exemptions": "Test scores valid for 24 months",
-        "deadline_fall": "September start: May 31 domestic, March 31 international",
+        "deadline_fall": "Fall (September) term: international document deadline March 31; final application deadline May 31.",
         "deadline_winter": "January start: Sept 30 domestic, July 31 international; May start: Jan 31 domestic, Nov 30 international",
         "deadline_notes": "Same cycle as M.Sc.",
-        "other_admission_notes": "Supervisor approval required to apply (per general department process)"
+        "other_admission_notes": "Supervisor approval required to apply (per general department process)",
+        "submission_portal": "apply.usask.ca/RecruitCE/",
+        "deadline_summer": "Winter (Jan): domestic Sept 30 / international July 31. Spring (May): domestic Jan 31 / international Nov 30."
       },
-      "services": {},
-      "about_university": {},
+      "services": {
+        "other_support": "Master's/doctoral study-permit applicants do not need a Provincial Attestation Letter; page links to federal study-permit policy."
+      },
+      "about_university": {
+        "contact_email": "engr.ECEgradchair@usask.ca; engrgrad.inquiries@usask.ca",
+        "contact_address": "Department of Electrical Engineering, Room 2B60 Engineering Building, 57 Campus Drive, University of Saskatchewan, Saskatoon, SK S7N 5A9",
+        "course_website": "https://grad.usask.ca/programs/electrical-computer-engineering.php"
+      },
       "official_website_data": {
         "official_source_url": "https://grad.usask.ca/programs/electrical-computer-engineering.php",
         "sources_consulted": [
@@ -1040,7 +1144,7 @@ const CANADA_DB = {
       "costs_funding": {
         "tuition": "Not found (official fee schedule not retrievable; third-party aggregator figure of ~13,820 CAD/year unverified and not clearly labeled international) CAD/year (international)",
         "tuition_domestic": "Not found",
-        "tuition_notes": "Official tuition page is umanitoba.ca/registrar/tuition-fees/graduate (could not be fetched during this pass)."
+        "tuition_notes": "Official UManitoba fee schedule not retrievable this pass (site returned connection errors). Third-party aggregators give conflicting figures (CAD ~13,820/yr, ~22,650/yr) — none reliable enough to record as fact."
       },
       "requirements_registration": {
         "gpa_requirement": "Official ECE dept. catalogue page: \"University's minimum GPA requirement of 3.0 / Department's requirement of 3.5.\" The department's own bar (3.5/4.0) is stricter than the general university floor. Source: catalog.umanitoba.ca/graduate-studies/engineering/electrical-computer-engineering-msc/",
@@ -1142,13 +1246,13 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "4 graduate technical courses (non-technical/professional development courses don't count), research thesis + successful defense, 1 seminar session, public lecture on thesis topic before exam. Streams being consolidated into general ECE field from Sept 2026 per candidate notes.",
+        "curriculum_notes": "6 terms (2 years) to completion: 4 graduate-level technical ECE courses + research thesis + 1 seminar session. Entry terms: September, January, or May.",
         "vlsi_rtl_relevance_notes": "No explicit VLSI mention found; some hardware-related courses exist (ECE 9708 Photonic Integrated Circuits, ECE 9709 RF Engineering for Modern Applications) but not framed as VLSI coursework specifically. Research areas include microsystems/DSP hardware acceleration per candidate notes."
       },
       "costs_funding": {
         "tuition": "Not found on pages visited - see Financial Planning page CAD/year (international)",
         "tuition_domestic": "Not found on pages visited",
-        "tuition_notes": "Not found definitively"
+        "tuition_notes": "ECE dept. page states minimum funding support package of at least $14,200 plus tuition per year for eligible MESc students."
       },
       "requirements_registration": {
         "gpa_requirement": "Official ECE dept. page: MEng \"Minimum 70% average in the last two years of study\"; MESc \"Minimum 78% average in the last two years of study\"; PhD requires 78% average in the master's degree. Source: eng.uwo.ca/electrical/graduate/future_students/how-to-apply.html — verdict depends on which specific program (MEng vs MESc/thesis) this entry is.",
@@ -1162,8 +1266,15 @@ const CANADA_DB = {
         "deadline_notes": "Accelerated MESc application due no later than Aug 1 before 4th year",
         "other_admission_notes": "Eligible research-based students receive minimum $14,200 plus tuition annually in funding (starting Fall 2023)"
       },
-      "services": {},
-      "about_university": {},
+      "services": {
+        "career_services": "Western Engineering Career Services (co-op programs, resume/interview appointments); SGPS Career Development site for grad-wide professional development.",
+        "other_support": "General Western supports: Writing Support Centre, Accessible Education, Human Rights Office, Office of the Ombudsperson."
+      },
+      "about_university": {
+        "contact_email": "ecegrad@uwo.ca",
+        "contact_phone": "519-661-2111 ext. 81257",
+        "contact_address": "Department of Electrical and Computer Engineering, Thompson Engineering Building, Room 279, London, ON N6A 5B9"
+      },
       "official_website_data": {
         "official_source_url": "https://www.eng.uwo.ca/electrical/graduate/current_students/mesc_program.html",
         "sources_consulted": [
@@ -1215,8 +1326,13 @@ const CANADA_DB = {
         "deadline_notes": "Fall is the only offered MEng intake per the official table",
         "other_admission_notes": "MEng students are not funded (funding available only for MESc/PhD)"
       },
-      "services": {},
-      "about_university": {},
+      "services": {
+        "career_services": "Western Engineering Career Services; SGPS Career Development."
+      },
+      "about_university": {
+        "contact_email": "ecegrad@uwo.ca",
+        "contact_address": "Department of Electrical and Computer Engineering, Thompson Engineering Building, Room 279, London, ON N6A 5B9"
+      },
       "official_website_data": {
         "official_source_url": "https://www.eng.uwo.ca/graduate/future-students/Graduate-Degree-Programs/electrical-computer.html",
         "sources_consulted": [
@@ -1260,16 +1376,19 @@ const CANADA_DB = {
         "gpa_requirement": "Official Engineering MEng admission-requirements page: \"Min 72% GPA in your undergraduate studies\" (MEng only; no confirmed MASc/PhD-specific figure found). Source: uwindsor.ca/engineering/537/admission-program-requirements",
         "prior_degree": "Not found explicitly on pages visited",
         "gre_required": "Explicitly listed under 'Documents not required to apply': GRE (official page)",
-        "ielts": "IELTS 6.5 / Duolingo 120 / UWindsor ELIP Level 3 (official Engineering MEng admission-requirements page)",
+        "ielts": "Aggregator sources (not official page) consistently cite IELTS 6.5 overall for ECE grad programs — likely-correct but officially unconfirmed.",
         "toefl": "Not found on pages visited",
         "english_exemptions": "Not found",
         "deadline_fall": "Applications for the Fall term open until May 15 (official page; confirm specific year)",
         "deadline_winter": "Not found",
         "deadline_notes": "Contact gradece@uwindsor.ca for MASc/PhD admissions details",
-        "other_admission_notes": "Research-based, path to PhD available; integrated BASc-MASc option exists (details not retrieved)"
+        "other_admission_notes": "Research-based, path to PhD available; integrated BASc-MASc option exists (details not retrieved)",
+        "submission_portal": "MASc/PhD: contact gradece@uwindsor.ca directly for application route."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "gradece@uwindsor.ca"
+      },
       "official_website_data": {
         "official_source_url": "https://www.uwindsor.ca/engineering/electrical/298/graduate-programs",
         "sources_consulted": [
@@ -1318,10 +1437,13 @@ const CANADA_DB = {
         "deadline_fall": "Applications for the Fall term open until May 15 (official page; confirm specific year)",
         "deadline_winter": "Not found",
         "deadline_notes": "Not found - check University of Windsor Academic Calendar",
-        "other_admission_notes": "CV/resume required; co-op offered in some MEng disciplines (unclear if ECE is one)"
+        "other_admission_notes": "CV/resume required; co-op offered in some MEng disciplines (unclear if ECE is one)",
+        "submission_portal": "uwindsor.ca/engineering/527/how-apply"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "mengprog@uwindsor.ca"
+      },
       "official_website_data": {
         "official_source_url": "https://www.future.uwindsor.ca/program/master-of-engineering-meng/",
         "sources_consulted": [
@@ -1371,10 +1493,16 @@ const CANADA_DB = {
         "deadline_fall": "Not found",
         "deadline_winter": "Not found",
         "deadline_notes": "Not retrievable from content fetched in this pass.",
-        "other_admission_notes": "Official page states admission is competitive: 'it is not possible to offer admission to everyone who applies that meets the minimum entrance requirements.'"
+        "other_admission_notes": "MASc requires two reference letters, full-time only, minimum 3.00/4.33 GPA in last two years, four-year accredited undergrad degree or equivalent.",
+        "submission_portal": "torontomu.ca/graduate/future-students/apply/"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_name": "Dr. Lian Zhao, Graduate Program Director",
+        "contact_email": "l5zhao@torontomu.ca / gradinfo@ee.torontomu.ca / gradhelp@torontomu.ca",
+        "contact_phone": "416-979-5150 (Grad Admissions)",
+        "contact_address": "Graduate Studies Admissions Office, 1 Dundas St. W, 11th floor, Toronto, ON"
+      },
       "official_website_data": {
         "official_source_url": "https://www.torontomu.ca/graduate/programs/electrical-computer-engineering/",
         "sources_consulted": [
@@ -1424,10 +1552,16 @@ const CANADA_DB = {
         "deadline_fall": "Not found",
         "deadline_winter": "Not found",
         "deadline_notes": "Not retrievable from content fetched in this pass.",
-        "other_admission_notes": "Official page states admission is competitive: 'it is not possible to offer admission to everyone who applies that meets the minimum entrance requirements.'"
+        "other_admission_notes": "MEng available full-time or part-time, one reference letter required, focuses on design/engineering practice rather than research.",
+        "submission_portal": "torontomu.ca/graduate/future-students/apply/"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_name": "Dr. Lian Zhao, Graduate Program Director",
+        "contact_email": "l5zhao@torontomu.ca / gradinfo@ee.torontomu.ca / gradhelp@torontomu.ca",
+        "contact_phone": "416-979-5150 (Grad Admissions)",
+        "contact_address": "Graduate Studies Admissions Office, 1 Dundas St. W, 11th floor, Toronto, ON"
+      },
       "official_website_data": {
         "official_source_url": "https://www.torontomu.ca/graduate/programs/electrical-computer-engineering/",
         "sources_consulted": [
@@ -1459,7 +1593,7 @@ const CANADA_DB = {
         "department": "Lassonde School of Engineering, EECS"
       },
       "course_details": {
-        "curriculum_notes": "4 graduate 3-credit courses plus written/defended thesis (typically research with practical demonstration/implementation); at most 1 course shared with undergraduate (EECS 5XXX) counts; thesis supervisor guides course selection.",
+        "curriculum_notes": "Four graduate 3-credit courses + written, defended master's thesis; expected completion within 5 terms (20 months); at most one undergraduate-level EECS 5xxx course may count toward requirements.",
         "vlsi_rtl_relevance_notes": "Page does not mention VLSI/electronics specifically; refers to a separate 'Research Areas' page (not retrieved in this pass) for sub-discipline detail. Candidate notes describe program as '20-month research-intensive thesis program; fields include Computer, Electrical, Software Engineering.' Follow-up on Lassonde EECS faculty pages recommended to confirm VLSI/IC design groups."
       },
       "costs_funding": {
@@ -1471,16 +1605,21 @@ const CANADA_DB = {
         "gpa_requirement": "Official ECE/CS academic calendar (2026-27 edition): \"at least a B+ average in the last two years of study\" for MSc/MASc; direct-to-PhD requires an A average. Source: yorku.ca/gradstudies/academiccalendar/2026-2027/electrical-engineering-computer-science/",
         "prior_degree": "Honours undergraduate degree or equivalent (typically 4-year full-time) in Electrical, Computer, or Software Engineering from accredited university; must have completed senior-level project course/thesis or equivalent industrial/research experience",
         "gre_required": "Strongly recommended, not mandatory (official page)",
-        "ielts": "Overall 7.0 (official ECE/CS academic calendar page, 2026-27 edition)",
-        "toefl": "577 paper-based or 90-91 internet-based (official ECE/CS academic calendar page)",
+        "ielts": "York graduate calendar lists IELTS 7.0 overall for EECS (needs reconfirmation for current year).",
+        "toefl": "TOEFL iBT 90-91 (per official program page).",
         "english_exemptions": "English test scores required only if applicable (i.e., non-exempt applicants)",
-        "deadline_fall": "Applications open Oct 1 - Dec 1",
+        "deadline_fall": "Fall-entry application window: October 1 to December 1 (preceding year).",
         "deadline_winter": "Not given on page",
         "deadline_notes": "No Winter/Summer deadlines listed on this page",
         "other_admission_notes": "Progress Report required each term (due Dec 31, Apr 30, Aug 31)"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_name": "Graduate Program Director: Dr. Hina Tabassum; Graduate Program Coordinator: Ciara Campbell",
+        "contact_email": "eecs-gradasst@yorku.ca",
+        "contact_phone": "(416) 736-2100 ext. 66183",
+        "contact_address": "Graduate Programme in EECS, LAS 1012T, York University, 4700 Keele Street, Toronto, ON M3J 1P3, Canada"
+      },
       "official_website_data": {
         "official_source_url": "https://lassonde.yorku.ca/eecs/academics/electrical-and-computer-engineering-masc/",
         "sources_consulted": [
@@ -1511,7 +1650,7 @@ const CANADA_DB = {
         "department": "School of Engineering Science"
       },
       "course_details": {
-        "curriculum_notes": "30 semester hours total: at least 12 hours coursework (chosen with senior supervisor) plus 18-hour thesis based on independent project with significant research component; at least two oral progress presentations to Supervisory Committee plus thesis defense.",
+        "curriculum_notes": "Thesis option is 30 semester-hours total (12 hrs coursework + 18 hrs thesis), courses chosen with senior supervisor; thesis-in-industry option requires an approved proposal plus 1 day/week on campus; at least 2 progress presentations to Supervisory Committee before defence.",
         "vlsi_rtl_relevance_notes": "Not mentioned on this page; no VLSI or specific research areas listed. Follow-up on ENSC research groups/faculty pages (not retrieved) recommended to confirm VLSI/IC design presence within Engineering Science."
       },
       "costs_funding": {
@@ -1529,7 +1668,8 @@ const CANADA_DB = {
         "deadline_fall": "Opens September 1, closes January 15 for Fall (September) intake (official page)",
         "deadline_winter": "Not stated on this page",
         "deadline_notes": "Not found - this page appears old/not recently updated (references PostScript file format)",
-        "other_admission_notes": "Supervisor required pre-admission (per candidate notes); application forms available via Registrar's Office or online in PostScript/PDF formats (page appears outdated in format description)"
+        "other_admission_notes": "Supervisor required pre-admission (per candidate notes); application forms available via Registrar's Office or online in PostScript/PDF formats (page appears outdated in format description)",
+        "submission_portal": "Application forms via SFU Registrar's Office or online graduate downloads page — no distinct named portal found on program page."
       },
       "services": {},
       "about_university": {},
@@ -1615,7 +1755,7 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "Thesis or project based; minimum course requirements per UVic graduate calendar (not itemized on page). Required documents: two assessment reports (academic/professional references), current resume, statement of intent, post-secondary transcripts.",
+        "curriculum_notes": "Two-year, project- or thesis-based Master's: coursework + seminars + thesis defended via oral examination.",
         "vlsi_rtl_relevance_notes": "Research areas touching electronics/materials and devices: Chris Papadopoulos, Mihai Sima (electronics and energy; materials and devices); electromagnetics/photonics faculty (Levi Smith, Reuven Gordon, Tao Lu, Poman So); Makhsud Saidaminov (solar cells, X-ray detectors, functional materials). No explicit VLSI/IC design mention found."
       },
       "costs_funding": {
@@ -1627,16 +1767,23 @@ const CANADA_DB = {
         "gpa_requirement": "Official ECE dept. admissions page states NO fixed numeric GPA cutoff: \"We assess applicants based on their education, work experiences, research statement, references and GPA\" (holistic review, no published floor). Source: uvic.ca/ecs/ece/future/graduate/admissions/index.php",
         "prior_degree": "Not explicitly stated on pages visited",
         "gre_required": "Recommended but not required (official page)",
-        "ielts": "At least 6.5, no section below 6.0 (official ECE department page, uvic.ca/ecs/ece)",
-        "toefl": "Tests after Jan 21, 2026: at least 4.5, no section below 4.0 (new scale). Tests before: at least 90, no section below 20 (official ECE department page)",
+        "ielts": "University-wide minimum: IELTS Academic overall 6.5, no band below 6.0.",
+        "toefl": "University-wide minimum: TOEFL iBT 90, at least 20 in each of listening/speaking/reading/writing.",
         "english_exemptions": "Not found",
-        "deadline_fall": "September entry: apply by May 31",
+        "deadline_fall": "September entry: May 31.",
         "deadline_winter": "January entry: apply by Sept 30; May entry: apply by Jan 31",
         "deadline_notes": "International applicants advised to start early due to lengthy processing",
-        "other_admission_notes": "Must list a potential supervisor who agrees to supervise and recommend admission"
+        "other_admission_notes": "Must list a potential supervisor who agrees to supervise and recommend admission",
+        "submission_portal": "UVic online application at uvic.ca/application/",
+        "deadline_summer": "May entry: January 31 (also: January entry: September 30)."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_name": "Ashleigh Burns (ECE graduate secretary)",
+        "contact_email": "ecegsec@uvic.ca",
+        "contact_phone": "250-721-8675",
+        "contact_address": "University of Victoria, 3800 Finnerty Road, Victoria, BC V8P 5C2, Canada"
+      },
       "official_website_data": {
         "official_source_url": "https://www.uvic.ca/graduate/programs/graduate-programs/credential-pages/electrical-computer-engineering-cred/electrical-and-computer-engineering-masc.php",
         "sources_consulted": [
@@ -1679,8 +1826,8 @@ const CANADA_DB = {
         "gpa_requirement": "Official ECE dept. admissions page states NO fixed numeric GPA cutoff: \"We assess applicants based on their education, work experiences, research statement, references and GPA\" (holistic review, no published floor). Source: uvic.ca/ecs/ece/future/graduate/admissions/index.php",
         "prior_degree": "Not explicitly stated on pages visited",
         "gre_required": "Recommended but not required (official page)",
-        "ielts": "At least 6.5, no section below 6.0 (official ECE department page, uvic.ca/ecs/ece)",
-        "toefl": "Tests after Jan 21, 2026: at least 4.5, no section below 4.0 (new scale). Tests before: at least 90, no section below 20 (official ECE department page)",
+        "ielts": "University-wide minimum: IELTS 6.5 overall, no band below 6.0.",
+        "toefl": "University-wide minimum: TOEFL iBT 90, 20+ per section.",
         "english_exemptions": "Not found",
         "deadline_fall": "September entry: apply by May 31",
         "deadline_winter": "January entry: apply by Sept 30; May entry: apply by Jan 31",
@@ -1688,7 +1835,11 @@ const CANADA_DB = {
         "other_admission_notes": "Must list a potential supervisor who agrees to supervise and recommend admission; co-op option available per candidate notes"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_name": "Ashleigh Burns (ECE graduate secretary)",
+        "contact_email": "ecegsec@uvic.ca",
+        "contact_phone": "250-721-8675"
+      },
       "official_website_data": {
         "official_source_url": "https://www.uvic.ca/graduate/programs/graduate-programs/credential-pages/electrical-computer-engineering-cred/electrical-and-computer-engineering-meng.php",
         "sources_consulted": [
@@ -1719,13 +1870,13 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "No specific course list; thesis-based research program. Page mentions careers in semiconductor manufacturing among outcomes but does not confirm a microelectronics research track.",
+        "curriculum_notes": "Thesis option: independent research under a supervisor; minimum 2 years, full-time, in person; program starts September, January, or May.",
         "vlsi_rtl_relevance_notes": "Candidate note claims department research areas explicitly list microelectronics, but this was NOT independently confirmed on the pages visited this pass - could not locate a department research-areas page with that detail. Flag for further verification."
       },
       "costs_funding": {
         "tuition": "Not found; refer to tuition/fee/scholarship page CAD/year (international)",
         "tuition_domestic": "Not found",
-        "tuition_notes": "Not stated on program page."
+        "tuition_notes": "Program page links to dal.ca/faculty/gradstudies/finance-your-studies.html for fees — no figure stated there; one third-party figure (CAD ~10,864/yr) found but unverified."
       },
       "requirements_registration": {
         "gpa_requirement": "Official Electrical & Computer Engineering dept. graduate-programs page states NO numeric GPA — admission depends on Faculty of Graduate Studies requirements plus a supervising professor's acceptance. Source: dal.ca/faculty/engineering/electrical/programs/JRD-GraduatePrograms/graduate-programs.html",
@@ -1737,10 +1888,15 @@ const CANADA_DB = {
         "deadline_fall": "September admission: Canadian applicants by June 1, non-Canadian by April 1 (official department page)",
         "deadline_winter": "Not listed",
         "deadline_notes": "Specific deadline dates not found; refer to Faculty of Graduate Studies admission pages.",
-        "other_admission_notes": "Research-focused; faculty collaboration with industry/academia for publication and tech transfer opportunities."
+        "other_admission_notes": "Research-focused; faculty collaboration with industry/academia for publication and tech transfer opportunities.",
+        "submission_portal": "apply.dal.ca/apply/"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_name": "Dr. Dmitry Trukhachev, Graduate Coordinator; Nicole Smith, Graduate Administrator",
+        "contact_email": "Ecegrad.admissions@dal.ca",
+        "contact_phone": "902-494-3996"
+      },
       "official_website_data": {
         "official_source_url": "https://www.dal.ca/study/programs/graduate-professional/electrical-engineering-masc.html",
         "sources_consulted": [
@@ -1789,10 +1945,14 @@ const CANADA_DB = {
         "deadline_fall": "September admission: Canadian applicants by June 1, non-Canadian by April 1 (official department page)",
         "deadline_winter": "Not listed",
         "deadline_notes": "Specific deadlines not found on this page.",
-        "other_admission_notes": "Offers Project option (final project presentation) and course-based Professional option."
+        "other_admission_notes": "Offers Project option (final project presentation) and course-based Professional option.",
+        "submission_portal": "apply.dal.ca/apply/"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "Ecegrad.admissions@dal.ca",
+        "contact_phone": "902-494-3996"
+      },
       "official_website_data": {
         "official_source_url": "https://www.dal.ca/study/programs/graduate-professional/electrical-engineering-meng.html",
         "sources_consulted": [
@@ -1823,7 +1983,7 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "At least four courses, a seminar course, and a thesis (program functions as research/thesis master's despite 'MEng' label).",
+        "curriculum_notes": "Thesis-based MEng: normally 2 years, minimum 4 courses + a seminar course + thesis.",
         "vlsi_rtl_relevance_notes": "Research facilities include Computer-Aided Design Laboratory for Analog and Mixed Signal VLSI Systems and the Centre for Digital Hardware Applications Research; tools cited include Synopsys/Cadence/Xilinx VLSI and FPGA design software and SPICE/PSPICE circuit simulators — direct VLSI relevance confirmed, though no single named 'VLSI' course was found."
       },
       "costs_funding": {
@@ -1833,10 +1993,10 @@ const CANADA_DB = {
       },
       "requirements_registration": {
         "gpa_requirement": "No ECE-specific admission page with a numeric floor could be located (relevant mun.ca pages returned 404s / navigation-only content). Only a general, unconfirmed-as-departmental 'second-class degree' qualitative standard was found.",
-        "prior_degree": "Bachelor's degree (minimum second-class/'B' standing) in an appropriate area of study; PhD applicants need a relevant master's.",
+        "prior_degree": "Normally a 'second-class' undergraduate degree (B- average or equivalent) in an appropriate area from a recognized university.",
         "gre_required": "Not mentioned",
-        "ielts": "Not found on department pages (governed by general MUN School of Graduate Studies English proficiency policy; specific band not located in this pass)",
-        "toefl": "Not found",
+        "ielts": "Third-party sources consistently cite IELTS 6.5 overall (no band below 6.0) — plausible but not confirmed on an official MUN ECE page.",
+        "toefl": "Third-party sources cite TOEFL iBT 80 — plausible but unverified on official page.",
         "english_exemptions": "Not found",
         "deadline_fall": "Conflicting dates found across MUN pages: Dec 1 on one page, Nov 1 on another for Fall (MEng/PhD) admission. Needs direct confirmation with ECE department.",
         "deadline_winter": "Not found",
@@ -1844,7 +2004,10 @@ const CANADA_DB = {
         "other_admission_notes": "Two academic reference letters required."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_name": "Qing Chen (admissions/prospective students contact); Colleen Dalton (current students contact)",
+        "contact_email": "Qing Chen: qc4858@mun.ca; Colleen Dalton: colleen.dalton@mun.ca"
+      },
       "official_website_data": {
         "official_source_url": "https://www.mun.ca/engineering/graduate/programs/electrical-engineering/",
         "sources_consulted": [
@@ -1878,7 +2041,7 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "Research proposal + thesis + approved course program of at least 15 credit hours (min 9 graduate EE credit hours); research areas include Electronics and digital systems, communications, power systems.",
+        "curriculum_notes": "MScE (research-based): research proposal + thesis + minimum 15 credit hours of coursework, at least 9 of which must be graduate-level EE credits. Research areas: power systems, electromagnetic systems, biomedical engineering, communications, control systems, electronics/digital systems, digital image/signal processing.",
         "vlsi_rtl_relevance_notes": "'Electronics and digital systems' research area explicitly lists 'Design of VLSI circuits' alongside embedded system development and fault-tolerant system design - direct VLSI mention, though unclear how tightly integrated into standard MScE track."
       },
       "costs_funding": {
@@ -1890,13 +2053,14 @@ const CANADA_DB = {
         "gpa_requirement": "ECE Director of Graduate Studies' own guidance page: \"I recommend that it be 3.0 or higher, or a B, or higher, because these are the limits of our SGS\" — a de facto floor with a case-by-case exception path below it. Source: ece.unb.ca/petersen/dgs",
         "prior_degree": "Bachelor's degree with first or second division standing in electrical engineering or related discipline",
         "gre_required": "'A GRE is not required in this department.' (official page)",
-        "ielts": "No specific number stated; 'IELTS One Skill Retake is accepted' (official ECE Director of Graduate Studies page)",
-        "toefl": "Paper-based 580 (TWE 4.0); internet-based 94 (writing 25); computer-based 213 (writing 4.0)",
+        "ielts": "Third-party sources cite IELTS 7.0 for ECE grad admission (one lower-figure source gives 6.5) — conflicting, not confirmed officially.",
+        "toefl": "Third-party sources cite TOEFL iBT 94 (department FAQ note: Duolingo and TOEFL Home Edition are NOT accepted for ECE graduate programs).",
         "english_exemptions": "Also accepts MELAB 64 (no section below 59), CAEL CE/Online 80, Duolingo 125 (subscore 105); applies to non-native English speakers",
         "deadline_fall": "Listed as 'Open' (rolling) on department page",
         "deadline_winter": "Not specified separately",
         "deadline_notes": "Confirm with ece-grad@unb.ca",
-        "other_admission_notes": "Min 15 credit hours coursework including at least 9 graduate EE credit hours, plus thesis and research proposal"
+        "other_admission_notes": "Min 15 credit hours coursework including at least 9 graduate EE credit hours, plus thesis and research proposal",
+        "submission_portal": "apply.unb.ca/"
       },
       "services": {},
       "about_university": {},
@@ -1930,7 +2094,7 @@ const CANADA_DB = {
         "department": "Dept. of Electrical and Computer Engineering"
       },
       "course_details": {
-        "curriculum_notes": "30 credit hours of approved graduate coursework; coursework-only, no supervisor required; optional 6-credit EE6000 MEng Project with written document and public presentation.",
+        "curriculum_notes": "MEng (course-based): 30 credit hours of approved graduate coursework, optionally including a 6-credit project course EE6000. No faculty supervisor or research funding provided.",
         "vlsi_rtl_relevance_notes": "Same departmental 'Electronics and digital systems' research area (VLSI circuit design, embedded systems, fault-tolerant systems) informs available elective coursework, though MEng is course-based without research requirement."
       },
       "costs_funding": {
@@ -1948,7 +2112,8 @@ const CANADA_DB = {
         "deadline_fall": "Listed as 'Open' (rolling)",
         "deadline_winter": "Not specified",
         "deadline_notes": "Confirm with ece-grad@unb.ca",
-        "other_admission_notes": "30 credit hours, no supervisor required; optional EE6000 project course"
+        "other_admission_notes": "30 credit hours, no supervisor required; optional EE6000 project course",
+        "submission_portal": "apply.unb.ca/"
       },
       "services": {},
       "about_university": {},
@@ -1987,9 +2152,9 @@ const CANADA_DB = {
         "vlsi_rtl_relevance_notes": "No VLSI mentioned on official page. Micro-electronics/embedded lab with industry-standard microcontrollers, electronics lab, RF lab, and wireless sensor networks lab are cited. Research areas: advanced communication systems, cyber-physical systems, signal processing, smart energy systems. Topics per original candidate notes include RF/communications/power electronics (confirmed general alignment, no explicit VLSI)."
       },
       "costs_funding": {
-        "tuition": "Not found on official page (links out to separate Application Guide/Program Requirements and fee pages not retrieved in this pass). Aggregators cite widely conflicting figures (~13,000-29,700 CAD/year); unverified. CAD/year (international)",
+        "tuition": "Official 2026-27 graduate-wide international range $9,944-$20,486 CAD/year (not ESE-specific); third-party aggregators cite ~$13,128-13,656 CAD/year specifically for MASc/MEng ESE, unverified against program-specific schedule.",
         "tuition_domestic": "Not found",
-        "tuition_notes": "Official page explicitly defers tuition details to a separate tuition/fees page not captured in this pass."
+        "tuition_notes": "FGSR UR Scholars Scholarship can cover full tuition and mandatory fees for qualifying students; TA/RA funding typical for MASc with assigned supervisor."
       },
       "requirements_registration": {
         "gpa_requirement": "Official Electronic Systems Engineering program calendar page states NO numeric GPA at all — just \"must meet Faculty of Graduate Studies and Research entrance requirements and must be admitted by the Electronics Systems Engineering Program.\" A previously-cited '70%=2.67/4.0 WES-based' figure could not be reconfirmed on this department page and appears to be a third-party aggregator figure. Source: uregina.ca/graduate-studies-research/graduate-calendar/all-programs/engg-ese.html",
@@ -2004,7 +2169,9 @@ const CANADA_DB = {
         "other_admission_notes": "All MASc and PhD students must have an identified supervisor from the Electronic Systems Engineering program before admission (per third-party source, common for Canadian research programs, not independently verified via official page in this pass)."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "course_website": "https://www.uregina.ca/academics/programs/engineering/masters-phd-electronic-systems-engineering.html"
+      },
       "official_website_data": {
         "official_source_url": "https://www.uregina.ca/academics/programs/engineering/masters-phd-electronic-systems-engineering.html",
         "sources_consulted": [
@@ -2054,10 +2221,13 @@ const CANADA_DB = {
         "deadline_fall": "International: January 31; Domestic: March 1. Winter applications due August 15 (official page)",
         "deadline_winter": "Not found",
         "deadline_notes": "Not retrievable this pass.",
-        "other_admission_notes": "Research areas include Microelectronics, Electromagnetics, Photonics; students have access to on-campus CMC (Canadian Microelectronics Corporation) facilities for IC fabrication, per candidate list notes — could not independently re-confirm via official page fetch in this pass."
+        "other_admission_notes": "Research areas include Microelectronics, Electromagnetics, Photonics; students have access to on-campus CMC (Canadian Microelectronics Corporation) facilities for IC fabrication, per candidate list notes — could not independently re-confirm via official page fetch in this pass.",
+        "submission_portal": "Queen's School of Graduate Studies and Postdoctoral Affairs (SGSPA) online application portal (apply via queensu.ca/sgspa)."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_address": "Department of Electrical and Computer Engineering, Walter Light Hall, Room 416, Queen's University, Kingston, Ontario, Canada K7L 3N6"
+      },
       "official_website_data": {
         "official_source_url": "https://www.queensu.ca/academic-calendar/graduate-studies/programs-study/electrical-computer-engineering/electrical-computer-engineering-masc/",
         "sources_consulted": [
@@ -2107,10 +2277,13 @@ const CANADA_DB = {
         "deadline_fall": "International: January 31; Domestic: March 1. Winter applications due August 15 (official page)",
         "deadline_winter": "Not found",
         "deadline_notes": "Not retrievable this pass.",
-        "other_admission_notes": "Three MEng options reported by aggregators: course-based, course-based with academic project, course-based with internship — not independently verified."
+        "other_admission_notes": "Three MEng options reported by aggregators: course-based, course-based with academic project, course-based with internship — not independently verified.",
+        "submission_portal": "Queen's SGSPA online application portal."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_address": "Department of Electrical and Computer Engineering, Walter Light Hall, Room 416, Queen's University, Kingston, Ontario, Canada K7L 3N6"
+      },
       "official_website_data": {
         "official_source_url": "https://www.queensu.ca/academic-calendar/graduate-studies/programs-study/electrical-computer-engineering/electrical-computer-engineering-meng/",
         "sources_consulted": [
@@ -2198,9 +2371,9 @@ const CANADA_DB = {
         "vlsi_rtl_relevance_notes": "No Electrical Engineering MASc field found; 'Computer' and 'Engineering Systems & Computing' fields may have embedded/digital-systems relevance but no explicit VLSI/RTL mention found."
       },
       "costs_funding": {
-        "tuition": "Not found on this page CAD/year (international)",
+        "tuition": "Official graduate cost page lists Master of Applied Science programs international rate at $20,512 CAD/year for 2026-27.",
         "tuition_domestic": "Not found",
-        "tuition_notes": "Not stated."
+        "tuition_notes": "Additional compulsory fees ~$800-1,000/semester; UHIP international health insurance $792/year."
       },
       "requirements_registration": {
         "gpa_requirement": "Official MEng admission requirements: \"Applicants must be graduates of an honours engineering program with at least a 70% average in the past four full semesters or the last two complete undergraduate years or the equivalent.\" (The Doctoral route separately requires 73%, not applicable to this Master's figure.) Source: calendar.uoguelph.ca/graduate-calendar/graduate-programs/engineering/",
@@ -2214,7 +2387,10 @@ const CANADA_DB = {
         "deadline_notes": "Summer: Domestic Feb 1, International Dec 15. Supporting documents due one month after deadline. International applicants advised to apply 9+ months before start.",
         "other_admission_notes": "WES evaluations NOT accepted for transcripts - grading scale must be included on official transcripts directly."
       },
-      "services": {},
+      "services": {
+        "accommodation": "International students who submit residence application and deposit by June 1 (for Fall start) are guaranteed on-campus residence; family housing available but not guaranteed. Off-campus shared housing estimated $5,600-8,400/semester.",
+        "other_support": "Contact gradonln@uoguelph.ca for International Students section of Graduate Studies website."
+      },
       "about_university": {},
       "official_website_data": {
         "official_source_url": "https://www.uoguelph.ca/engineering/grad/masc-program",
@@ -2252,7 +2428,7 @@ const CANADA_DB = {
       "costs_funding": {
         "tuition": "Not listed on official program page (refers to separate tuition and fees page). Aggregators most consistently cite ~22,313 CAD/year international; an older source cites 14,586 CAD and a domestic MEng figure of 8,860 CAD — treat as directionally useful but unverified against the official fee schedule. CAD/year (international)",
         "tuition_domestic": "Unconfirmed (~8,860 CAD cited by aggregator for MEng, not specifically MASc)",
-        "tuition_notes": "Official page explicitly defers to a separate tuition/fees page not fetched in this pass."
+        "tuition_notes": "Official tuition figure page exists at registrar.ontariotechu.ca; third-party aggregator cites ~$22,313 CAD/year international, undated/unverified."
       },
       "requirements_registration": {
         "gpa_requirement": "Official ECE Master's program page: \"Minimum overall academic standing of a B (GPA: 3.0 on a 4.3 scale or 73 to 76 per cent), with a minimum B in the last two full-time years... B+ is preferred for MASc applicants.\" Note: the page's own 3.0/4.3≈73-76% equivalence is internally inconsistent with standard conversion tables (3.0/4.3 is closer to ~69.8%). Source: gradstudies.ontariotechu.ca/future_students/programs/masters_programs/electrical_and_computer_engineering/",
@@ -2264,10 +2440,13 @@ const CANADA_DB = {
         "deadline_fall": "Not listed on official page (refers to separate application deadlines page). September, January, and May start dates reported by a third-party aggregator (Studee) — unconfirmed on official page.",
         "deadline_winter": "Same as above (January intake reported by aggregator)",
         "deadline_notes": "Official page refers applicants to a separate deadlines page not fetched in this pass.",
-        "other_admission_notes": "MASc: five courses (15 credits), a 15-credit thesis, and a non-credit seminar course."
+        "other_admission_notes": "MASc: five courses (15 credits), a 15-credit thesis, and a non-credit seminar course.",
+        "submission_portal": "https://gradstudies.ontariotechu.ca/future_students/application_process_and_requirement/index.php"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "General grad contacts via SGPS contacts page (gradstudies.ontariotechu.ca/contact/sgps-contacts.php)."
+      },
       "official_website_data": {
         "official_source_url": "https://gradstudies.ontariotechu.ca/future_students/programs/masters_programs/electrical_and_computer_engineering/index.php",
         "sources_consulted": [
@@ -2317,7 +2496,8 @@ const CANADA_DB = {
         "deadline_fall": "Not listed on official page (refers to separate application deadlines page). September, January, and May start dates reported by a third-party aggregator (Studee) — unconfirmed on official page.",
         "deadline_winter": "Same as above (January intake reported by aggregator)",
         "deadline_notes": "Official page refers applicants to a separate deadlines page not fetched in this pass.",
-        "other_admission_notes": "MASc: five courses (15 credits), a 15-credit thesis, and a non-credit seminar course."
+        "other_admission_notes": "MASc: five courses (15 credits), a 15-credit thesis, and a non-credit seminar course.",
+        "submission_portal": "https://gradstudies.ontariotechu.ca/future_students/application_process_and_requirement/index.php"
       },
       "services": {},
       "about_university": {},
@@ -2370,7 +2550,8 @@ const CANADA_DB = {
         "deadline_fall": "Not found",
         "deadline_winter": "Not found",
         "deadline_notes": "",
-        "other_admission_notes": ""
+        "other_admission_notes": "",
+        "submission_portal": "Ontario Tech Graduate Studies 'Apply now' portal (same as ECE MASc/MEng)."
       },
       "services": {},
       "about_university": {},
@@ -2408,7 +2589,7 @@ const CANADA_DB = {
         "vlsi_rtl_relevance_notes": "No VLSI, circuits, or embedded coursework explicitly listed on official page. Research areas include electromagnetics, antennas, communications, digital signal processing, navigation, power, control, robotics, network security, real-time systems, and human-computer interaction. 'Real-time systems' is the closest match to embedded systems but not explicitly framed as such."
       },
       "costs_funding": {
-        "tuition": "Not listed on official page (defers to RMC Academic Fees page, not fetched this pass). A third-party aggregator (Mastersportal) cites CAD 16,690/year international vs CAD 6,260/year domestic for ECE — unverified against official fee schedule; another aggregator (Yocket) cites ~CAD 19,225/year for the MASc — conflicting figures. CAD/year (international)",
+        "tuition": "RMC Academic Fees page states civilian international Graduate Studies Master's full-time rate as $8,510 CAD per term (~$17,020 CAD/year inferred, not explicitly annualized on the official page).",
         "tuition_domestic": "Not confirmed (aggregator cites CAD 6,260/year, unverified)",
         "tuition_notes": "Official RMC Academic Fees page is the authoritative source; not retrieved in this pass."
       },
@@ -2422,10 +2603,14 @@ const CANADA_DB = {
         "deadline_fall": "Rolling admission, no fixed deadline (official page); priority to CAF-sponsored applicants",
         "deadline_winter": "Same as above",
         "deadline_notes": "Rolling/anytime admissions per official page.",
-        "other_admission_notes": "Six one-term graduate courses plus a thesis; EE502 (Applied Research in Electrical and Computer Engineering) is a required course. Open to both civilian and military applicants per candidate notes, though civilian-specific process details were not located on this page (RMC Academic Fees/Calendar pages referenced but not fetched)."
+        "other_admission_notes": "Six one-term graduate courses plus a thesis; EE502 (Applied Research in Electrical and Computer Engineering) is a required course. Open to both civilian and military applicants per candidate notes, though civilian-specific process details were not located on this page (RMC Academic Fees/Calendar pages referenced but not fetched).",
+        "submission_portal": "RMC Office of Graduate Studies and Research 'Application to Graduate Studies Form': rmc-cmr.ca/en/registrars-office/admission-graduate-studies"
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_name": "Dr. François Chan, Chair of the ECE Graduate Studies Committee",
+        "contact_email": "chan-f@rmc.ca"
+      },
       "official_website_data": {
         "official_source_url": "https://www.rmc-cmr.ca/en/electrical-and-computer-engineering/graduate-application",
         "sources_consulted": [
@@ -2461,7 +2646,7 @@ const CANADA_DB = {
         "vlsi_rtl_relevance_notes": "Not specifically addressed on this page; see MASc entry (same department) for closest general research-area notes (no explicit VLSI/RTL coursework found department-wide in this pass)."
       },
       "costs_funding": {
-        "tuition": "Not listed on official page (refers to separate RMC Academic Fees page, not fetched this pass). CAD/year (international)",
+        "tuition": "Same official RMC Academic Fees figure as MASc: civilian international Graduate Studies Master's rate $8,510 CAD/term (~$17,020/year inferred).",
         "tuition_domestic": "Not found",
         "tuition_notes": "Page explicitly defers all fee details to the RMC Academic Fees page."
       },
@@ -2478,7 +2663,10 @@ const CANADA_DB = {
         "other_admission_notes": "8 lecture courses (8 credits) + a 2-credit project = 10 credits total. All students must complete the zero-credit AI500: Academic Integrity course (or equivalent) by end of first term."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_name": "Dr. François Chan, Chair of the ECE Graduate Studies Committee",
+        "contact_email": "chan-f@rmc.ca"
+      },
       "official_website_data": {
         "official_source_url": "https://www.rmc-cmr.ca/en/registrars-office/graduate-programmes-electrical-engineering-and-computer-engineering",
         "sources_consulted": [
@@ -2528,9 +2716,14 @@ const CANADA_DB = {
         "deadline_fall": "August 1",
         "deadline_winter": "December 1",
         "deadline_notes": "Summer: April 1. Separate international-applicant deadlines exist on a linked page but were not captured in this pass.",
-        "other_admission_notes": "Applicants without the exact required degree may be admitted with equivalent knowledge/training/experience; remedial (propaedeutic) courses may be imposed if preparation judged insufficient."
+        "other_admission_notes": "Applicants without the exact required degree may be admitted with equivalent knowledge/training/experience; remedial (propaedeutic) courses may be imposed if preparation judged insufficient.",
+        "submission_portal": "Demande d'admission portal: etsmtl.ca/programmes-formations/admission"
       },
-      "services": {},
+      "services": {
+        "accommodation": "Résidences universitaires — on-campus student housing (etsmtl.ca/experience-etudiante/campus/residences-universitaires).",
+        "career_services": "Aide emploi et carrière (career/employment aid office).",
+        "other_support": "Vivre à Montréal page for general living/international-student orientation info; general inquiries via Info-ÉTS contact form."
+      },
       "about_university": {},
       "official_website_data": {
         "official_source_url": "https://www.etsmtl.ca/programmes-formations/maitrise-genie-electrique",
@@ -2568,7 +2761,7 @@ const CANADA_DB = {
       "costs_funding": {
         "tuition": "Not found. Third-party aggregator estimates range widely (CAD ~18,000-25,000/yr to CAD ~29,875 total for a different credential) and are NOT verified against the official site — treat as unreliable. CAD/year (international)",
         "tuition_domestic": "Not found",
-        "tuition_notes": "Could not independently verify any tuition figure on polymtl.ca in this pass."
+        "tuition_notes": "Official tuition/financial-aid hub at polymtl.ca/futur/en/node/848; exact génie électrique MASc figure not confirmed as text. Polytechnique offers exemption bursaries reducing differential (international) fees, confirmed for doctoral students; master's-level terms not confirmed."
       },
       "requirements_registration": {
         "gpa_requirement": "Official eligibility-conditions page (English): \"have an undergraduate GPA of at least 2.75/4.0 (or an equivalent grade accepted by Polytechnique Montréal).\" Source: polymtl.ca/admission/en/graduate-studies/read-eligibility-conditions/2-masters-degree",
@@ -2583,7 +2776,9 @@ const CANADA_DB = {
         "other_admission_notes": "Admissibility does not guarantee admission; research master's candidates must also secure a research supervisor's support before being admitted."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_email": "point@polymtl.ca"
+      },
       "official_website_data": {
         "official_source_url": "https://www.polymtl.ca/admission/en/node/110",
         "sources_consulted": [
@@ -2634,8 +2829,13 @@ const CANADA_DB = {
         "deadline_notes": "Other-Canadian-university candidates and dual-degree/international-regular candidates: fall-only admission, March 1 international deadline. No summer admission for any track.",
         "other_admission_notes": "Proof of the diploma required at program start for international candidates; specific disciplinary prerequisites may apply depending on track."
       },
-      "services": {},
-      "about_university": {},
+      "services": {
+        "career_services": "'Stages et développement professionnel' (internships and professional development) listed as a university service for this program."
+      },
+      "about_university": {
+        "contact_email": "info.genie@USherbrooke.ca; info2cycle.genie@usherbrooke.ca (2nd-cycle/master's professor-recommendation form)",
+        "contact_phone": "819 821-7111"
+      },
       "official_website_data": {
         "official_source_url": "https://www.usherbrooke.ca/genie/international/etudier-a-udes/programmes-reguliers/maitrise-de-type-cours/maitrise-de-type-cours-en-genie-electrique",
         "sources_consulted": [
@@ -2672,7 +2872,7 @@ const CANADA_DB = {
       "costs_funding": {
         "tuition": "Not found on this page CAD/year (international)",
         "tuition_domestic": "Not found on this page",
-        "tuition_notes": "Page refers to a separate 'Dates limites de dépôt' page for deadlines and presumably a separate tuition page, neither retrieved in this pass."
+        "tuition_notes": "International students must pay the mandatory group health/hospital insurance plan, ~$900/year. Exact génie-électrique-specific per-credit figure not retrievable as clean text; doctoral-tier reference point: per-credit tuition $103.92 plus supplemental tuition $534.84/credit (not confirmed as the exact master's research-program rate)."
       },
       "requirements_registration": {
         "gpa_requirement": "Official program page (Maîtrise en génie électrique): \"moyenne de cheminement dans le programme ou de diplomation égale ou supérieure à 2,67 sur 4,33, ou l'équivalent.\" Source: ulaval.ca/etudes/programmes/maitrise-en-genie-electrique",
@@ -2775,9 +2975,9 @@ const CANADA_DB = {
         "vlsi_rtl_relevance_notes": "No course explicitly titled VLSI, microelectronics, or embedded systems. Closest matches: TEL262 (Active circuits and microwave systems) and TEL261 (Radiofrequency techniques). Per prior-sweep notes, INRS confirms >60% of its student body is international from ~50 countries, and the institute is graduate/research-only (no undergrad programs) — adjacent to EE/ECE via wireless, optical, and sensor communications and ultrafast photonics."
       },
       "costs_funding": {
-        "tuition": "Not found CAD/year (international)",
+        "tuition": "Official 2026-2027 regular-student fee schedule sets master's tuition at $103.92 CAD/credit plus flat fees, billed over the first three terms (15 credits/term) — this is the REGULAR (Quebec-resident-equivalent) rate; a separate international-students tuition page exists but its 2026-2027 dollar figure was not retrievable as text.",
         "tuition_domestic": "Not found",
-        "tuition_notes": "Not found in this pass."
+        "tuition_notes": "A scholarship can cover flat/lump-sum fees (unclear if open to international students). INRS Foundation offers targeted scholarships and an annual 'exemption bursary' that may waive the international differential fee — applicability to this specific program not confirmed."
       },
       "requirements_registration": {
         "gpa_requirement": "Official program PDF (program 3404, télécommunications): \"un dossier académique de haute qualité, dont de très bons résultats scolaires d'au moins 3,2 (sur 4,3) ou l'équivalent.\" Source: inrs.ca/wp-content/uploads/3404-Maitrise-en-telecommunications-profil-avec-memoire-description-officielle-03-2026.pdf",
@@ -2792,7 +2992,9 @@ const CANADA_DB = {
         "other_admission_notes": "Elective block: choose 4 of a list of TEL-coded 3-credit courses (see curriculum notes). 12 mandatory credits including the required 'Mémoire' research component."
       },
       "services": {},
-      "about_university": {},
+      "about_university": {
+        "contact_phone": "Bureau du registraire: 418-654-2517"
+      },
       "official_website_data": {
         "official_source_url": "https://inrs.ca/wp-content/uploads/3404-Maitrise-en-telecommunications-profil-avec-memoire-description-officielle.pdf",
         "sources_consulted": [
@@ -2842,10 +3044,16 @@ const CANADA_DB = {
         "deadline_fall": "Not found on the program page",
         "deadline_winter": "Not found on the program page",
         "deadline_notes": "Page refers to a separate 'How to Apply' page for deadlines.",
-        "other_admission_notes": "At least four graduate half-courses or equivalent (2+ at 700-level), plus thesis and oral defense. Must present a seminar and register for ECE 790: Graduate Seminars."
+        "other_admission_notes": "At least four graduate half-courses or equivalent (2+ at 700-level), plus thesis and oral defense. Must present a seminar and register for ECE 790: Graduate Seminars.",
+        "submission_portal": "How to Apply page: eng.mcmaster.ca/future-students/future-graduate-students/how-to-apply/"
       },
-      "services": {},
-      "about_university": {},
+      "services": {
+        "career_services": "Graduate Co-op program confirmed: 4-12 months of co-op work experience available for master's/PhD students.",
+        "accommodation": "Program page links out to a general 'Housing & student life' page for incoming graduate students (specific details not captured)."
+      },
+      "about_university": {
+        "contact_phone": "General Faculty of Engineering line: 905-525-9140 (Mon-Fri, 8:30am-4:30pm)."
+      },
       "official_website_data": {
         "official_source_url": "https://www.eng.mcmaster.ca/ece/degree-options/electrical-and-computer-engineering-masc/",
         "sources_consulted": [
@@ -2895,10 +3103,15 @@ const CANADA_DB = {
         "deadline_fall": "Not found on the program page",
         "deadline_winter": "Not found on the program page",
         "deadline_notes": "Page refers to a separate 'How to Apply' page for deadlines.",
-        "other_admission_notes": "Seven graduate half-courses or equivalent (at least four at 700-level, up to two 600-level courses approved by department). Must give a seminar, register for ECE 790, and defend a thesis/report orally (seminar graded Pass/Fail). Co-op option available: 4-12 months of work experience."
+        "other_admission_notes": "Seven graduate half-courses or equivalent (at least four at 700-level, up to two 600-level courses approved by department). Must give a seminar, register for ECE 790, and defend a thesis/report orally (seminar graded Pass/Fail). Co-op option available: 4-12 months of work experience.",
+        "submission_portal": "How to Apply page: eng.mcmaster.ca/future-students/future-graduate-students/how-to-apply/"
       },
-      "services": {},
-      "about_university": {},
+      "services": {
+        "career_services": "Graduate Co-op program (same as MASc entry): 4-12 months co-op for master's students."
+      },
+      "about_university": {
+        "contact_phone": "General Faculty of Engineering line: 905-525-9140."
+      },
       "official_website_data": {
         "official_source_url": "https://eng.mcmaster.ca/?p=24066",
         "sources_consulted": [
