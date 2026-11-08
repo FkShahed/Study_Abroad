@@ -531,7 +531,20 @@ if (!prog) {
         <span class="tag fit-${fitClass}">${fitTitles[fitClass] || fitClass}</span>
         <span class="tag" style="background:var(--panel2);border:1px solid var(--border);">${o.language || 'English'}</span>
         <span class="tag" style="background:var(--panel2);border:1px solid var(--border);">${f.tuition && f.tuition !== 'None' ? 'Tuition: ' + f.tuition : 'Tuition Free (০ ইউরো)'}</span>
+        ${prog.ranking && prog.ranking.qs_world_rank && !/not ranked/i.test(prog.ranking.qs_world_rank) ? `<span class="tag" style="background:rgba(91,140,255,.12);border:1px solid rgba(91,140,255,.3);color:var(--accent);">🌍 QS World: ${prog.ranking.qs_world_rank}</span>` : ""}
+        ${prog.ranking && /not ranked/i.test(prog.ranking.qs_world_rank||'') ? `<span class="tag" style="background:var(--panel2);border:1px solid var(--border);color:var(--muted);">🏫 Applied Sciences (unranked in QS/THE)</span>` : ""}
       </div>
+
+      ${prog.ranking ? `
+      <div class="note-box" style="border-left-color:var(--accent);">
+        <b>🌍 ইউনিভার্সিটি র‍্যাংকিং</b>
+        <div class="grid-info" style="margin-top:8px;">
+          <div class="info-item"><b>QS World Ranking</b><div class="val">${prog.ranking.qs_world_rank}</div></div>
+          <div class="info-item"><b>THE World Ranking</b><div class="val">${prog.ranking.the_world_rank}</div></div>
+          <div class="info-item" style="grid-column:1/-1;"><b>Germany-তে অবস্থান</b><div class="val">${prog.ranking.germany_rank_note || 'Not specified'}</div></div>
+        </div>
+        ${prog.ranking.source_url ? `<div class="src" style="margin-top:8px;">🔗 <a href="${prog.ranking.source_url}" target="_blank" rel="noopener">${prog.ranking.source_url}</a></div>` : ''}
+      </div>` : ''}
 
       ${prog.gpa_fit_note ? `<div class="note-box fit"><b>💡 সংক্ষিপ্ত মূল্যায়ন:</b> ${prog.gpa_fit_note}</div>` : ""}
 

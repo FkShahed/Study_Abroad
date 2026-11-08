@@ -256,6 +256,12 @@ const DATABASE = {
           "Green Manufacturing & Supply Chain Resilience"
         ],
         "career_ecosystem": "Direct access to South German industrial hubs (Rosenheim, Chiemgau, Munich, Salzburg)."
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -504,6 +510,12 @@ const DATABASE = {
           "Mechatronic Actuation & Embedded Control"
         ],
         "career_ecosystem": "Direct access to Saxony Silicon and Automotive Valley (Volkswagen Zwickau, Porsche Leipzig, GlobalFoundries)."
+      },
+      "ranking": {
+        "qs_world_rank": "1001-1200 band (QS World University Rankings, aggregator-reported; not confirmed directly on qs.com)",
+        "the_world_rank": "Older data shows 601-800 band (2020); no confirmed recent THE figure found",
+        "germany_rank_note": "No directly stated Germany-only ordinal found in available sources",
+        "source_url": "https://xuanxiao.org/en/universities/chemnitz-university-of-technology"
       }
     },
     {
@@ -742,6 +754,12 @@ const DATABASE = {
           "Quantum Structures in Electronic Materials"
         ],
         "career_ecosystem": "Direct supplier of semiconductor materials engineers to Silicon Saxony wafer and chip fabs."
+      },
+      "ranking": {
+        "qs_world_rank": "380 (QS World University Rankings 2025, per official university source); later aggregator-only figures (e.g. 487 for 2026) unverified",
+        "the_world_rank": "1001-1200 band (per aggregator; unverified on official THE site)",
+        "germany_rank_note": "21st in Germany (QS World University Rankings 2025, stated directly by the university's own press release)",
+        "source_url": "https://tu-freiberg.de/en/rankings-facts-and-figures"
       }
     },
     {
@@ -981,6 +999,12 @@ const DATABASE = {
           "AI Pattern Recognition in Bio-signals"
         ],
         "career_ecosystem": "Top tier medical hardware and imaging technology pipeline in central Germany."
+      },
+      "ranking": {
+        "qs_world_rank": "Not found (conflicting/unreliable aggregator data; not confirmed on official QS site)",
+        "the_world_rank": "601-800 (THE World University Rankings, 2024-2026 editions)",
+        "germany_rank_note": "One secondary source states ranked 49th nationally in Germany (2025); not confirmed on official THE/QS site",
+        "source_url": "https://www.timeshighereducation.com/world-university-rankings/otto-von-guericke-university-magdeburg"
       }
     },
     {
@@ -1209,6 +1233,12 @@ const DATABASE = {
           "Autonomous Decision Algorithms"
         ],
         "career_ecosystem": "Bavaria automotive innovation triangle (Ingolstadt - Munich - Regensburg)."
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -1434,6 +1464,12 @@ const DATABASE = {
           "Dynamic Modeling & Actuators"
         ],
         "career_ecosystem": "Prominent TU9 engineering university with deep industrial connections across Lower Saxony."
+      },
+      "ranking": {
+        "qs_world_rank": "=433 (QS World University Rankings 2026)",
+        "the_world_rank": "351-400 band (THE World University Rankings 2026)",
+        "germany_rank_note": "No direct 'rank within Germany' ordinal stated; QS trend 481 (2024) -> 426 (2025) -> 433 (2026)",
+        "source_url": "https://www.topuniversities.com/node/294274"
       }
     },
     {
@@ -1586,6 +1622,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -1761,6 +1803,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -1911,6 +1959,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "1201-1400 (QS World University Rankings 2025/2026, per aggregator; later edition 2027 showed 1401+)",
+        "the_world_rank": "601-800 (2025, per aggregator); note - THE may still track data under the former Technische Universität Kaiserslautern rather than the newly merged institution",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source; global band only",
+        "source_url": "https://www.topuniversities.com/universities/technische-universitat-kaiserslautern"
       }
     },
     {
@@ -2132,6 +2186,12 @@ const DATABASE = {
           "Distributed Embedded Automation"
         ],
         "career_ecosystem": "North Rhine-Westphalia (NRW) industrial manufacturing and tech belt."
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — TH Köln is a Fachhochschule; teaching-focused applied-sciences institutions are generally excluded from QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -2348,6 +2408,12 @@ const DATABASE = {
           "Embedded Systems for Robotics"
         ],
         "career_ecosystem": "Ruhr Valley technology and industrial innovation network."
+      },
+      "ranking": {
+        "qs_world_rank": "673 (QS World University Rankings 2026, per aggregator); 2025 reported variably as 801-850/801",
+        "the_world_rank": "401-500 band (THE World University Rankings 2025); 501-600 (2026, per official THE profile)",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source",
+        "source_url": "https://timeshighereducation.com/world-university-rankings/technische-universitat-dortmund"
       }
     },
     {
@@ -2574,6 +2640,12 @@ const DATABASE = {
           "Sensor Fusion & Autonomous Perception"
         ],
         "career_ecosystem": "Seamless pathway into Saxony semiconductor, automation, and automotive hardware industries."
+      },
+      "ranking": {
+        "qs_world_rank": "1001-1200 band (QS World University Rankings, aggregator-reported; not confirmed directly on qs.com)",
+        "the_world_rank": "Older data shows 601-800 band (2020); no confirmed recent THE figure found",
+        "germany_rank_note": "No directly stated Germany-only ordinal found in available sources",
+        "source_url": "https://xuanxiao.org/en/universities/chemnitz-university-of-technology"
       }
     },
     {
@@ -2721,6 +2793,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -2884,6 +2962,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -3041,6 +3125,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -3212,6 +3302,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -3360,6 +3456,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -3520,6 +3622,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "448 (QS 2026, university's own press release)",
+        "the_world_rank": "301-350 (THE 2026, aggregator figure, not an official THE release confirmed)",
+        "germany_rank_note": "No explicit Germany-rank ordinal stated by sources; mid-sized research university, remained in QS top-500 globally for citations/international students.",
+        "source_url": "https://www.uni-bayreuth.de/en/press-release/qs-world-university-ranking-2026"
       }
     },
     {
@@ -3690,6 +3798,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -3857,6 +3971,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; Fachhochschule outside QS/THE scope (distinct from Kiel University/CAU)",
+        "source_url": "Not found"
       }
     },
     {
@@ -4025,6 +4145,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -4189,6 +4315,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -4355,6 +4487,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — small private Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -4511,6 +4649,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — small Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -4668,6 +4812,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "530 (QS 2026)",
+        "the_world_rank": "Not found (specific THE 2026 figure not located in sources)",
+        "germany_rank_note": "No explicit Germany-rank ordinal found in sources; QS 2027 edition reportedly dropped to =581.",
+        "source_url": "https://goingto.university/where-to-study/study-in-germany/bremen; https://www.phdportal.com/universities/40/university-of-bremen.html"
       }
     },
     {
@@ -4822,6 +4972,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=546 (QS 2026)",
+        "the_world_rank": "251-300 (THE 2026, unconfirmed from a primary THE listing — university's own release cites 19th in Germany for THE 2025)",
+        "germany_rank_note": "Ulm University states it was among the top 20 universities in Germany per THE World Ranking 2025 (19th in Germany).",
+        "source_url": "https://uni-ulm.de/en/university-news/news-details/article/unter-den-20-besten-unis-deutschlands-the-ranking-2025; https://yocket.com/universities/university-of-ulm-2942/rankings"
       }
     },
     {
@@ -4987,6 +5143,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Approximately 218-232 (QS World University Rankings 2026; sources disagree between =218 and 232, FAU's own release states 'top 20% worldwide')",
+        "the_world_rank": "201-250 band (THE World University Rankings, per aggregator; also ARWU 201-300)",
+        "germany_rank_note": "FAU states top 10 in Germany in six subjects per QS Subject Rankings 2026; no single confirmed overall Germany ordinal, but is considered a top-15 German research university",
+        "source_url": "https://www.fau.eu/2026/03/news/university/qs-subject-ranking-2026-fau-among-the-top-200-worldwide-in-eight-subjects/"
       }
     },
     {
@@ -5151,6 +5313,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -5315,6 +5483,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=98 (QS World University Rankings 2026)",
+        "the_world_rank": "166 (THE World University Rankings 2026)",
+        "germany_rank_note": "Ranked #5 in Germany overall (per KIT-affiliated Hector School page); top 50 in Europe per QS Europe University Rankings 2026",
+        "source_url": "https://www.kit.edu/kit/english/202601-kit-ranks-among-europes-top-50-universities.php"
       }
     },
     {
@@ -5474,6 +5648,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "851-900 band (QS 2026)",
+        "the_world_rank": "Not found (no THE listing located; one aggregator marks it 'not listed' for THE)",
+        "germany_rank_note": "No explicit Germany-rank ordinal found in sources.",
+        "source_url": "https://www.bachelorsportal.com/universities/135/university-of-rostock.html"
       }
     },
     {
@@ -5635,6 +5815,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -5790,6 +5976,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found / not ranked in QS main table (only appears in QS Sustainability Ranking #1501+)",
+        "the_world_rank": "Reportedly ranked in top 40% worldwide on first THE World University Ranking appearance (exact number/band not confirmed from official THE table)",
+        "germany_rank_note": "No directly stated Germany-specific ordinal found; BTU is a smaller technical university, appears in THE for the first time per its own press release",
+        "source_url": "https://www.b-tu.de/news/artikel/32473-erfolgreiche-btu-premiere-im-the-world-university-ranking"
       }
     },
     {
@@ -5945,6 +6137,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -6175,6 +6373,12 @@ const DATABASE = {
           "MEMS Sensor Interfacing"
         ],
         "career_ecosystem": "Leading German hub for microsystems, cleanroom fabrication, aerospace sensors, and microelectronics."
+      },
+      "ranking": {
+        "qs_world_rank": "530 (QS 2026)",
+        "the_world_rank": "Not found (specific THE 2026 figure not located in sources)",
+        "germany_rank_note": "No explicit Germany-rank ordinal found in sources; QS 2027 edition reportedly dropped to =581.",
+        "source_url": "https://goingto.university/where-to-study/study-in-germany/bremen; https://www.phdportal.com/universities/40/university-of-bremen.html"
       }
     },
     {
@@ -6344,6 +6548,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "1001-1200 band (QS World University Rankings, aggregator-reported; not confirmed directly on qs.com)",
+        "the_world_rank": "Older data shows 601-800 band (2020); no confirmed recent THE figure found",
+        "germany_rank_note": "No directly stated Germany-only ordinal found in available sources",
+        "source_url": "https://xuanxiao.org/en/universities/chemnitz-university-of-technology"
       }
     },
     {
@@ -6507,6 +6717,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences/private university)",
+        "the_world_rank": "Not ranked (Applied Sciences/private university)",
+        "germany_rank_note": "Not applicable - unranked institution; small private Hochschule not covered by QS/THE",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -6687,6 +6903,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found (no confirmed overall QS 2026 figure; sources disagree, one unverified figure of #901 cited without clear context)",
+        "the_world_rank": "Not ranked (one aggregator lists THE as 'not ranked' for this institution)",
+        "germany_rank_note": "QS subject ranking: physics & astronomy in 501-550 band (2026) per topuniversities.com; no overall Germany-rank ordinal confirmed.",
+        "source_url": "https://www.topuniversities.com/node/296574; https://xuanxiao.org/en/universities/carl-von-ossietzky-universitat-oldenburg"
       }
     },
     {
@@ -6848,6 +7070,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=433 (QS World University Rankings 2026)",
+        "the_world_rank": "351-400 band (THE World University Rankings 2026)",
+        "germany_rank_note": "No direct 'rank within Germany' ordinal stated; QS trend 481 (2024) -> 426 (2025) -> 433 (2026)",
+        "source_url": "https://www.topuniversities.com/node/294274"
       }
     },
     {
@@ -7058,6 +7286,12 @@ const DATABASE = {
           "Converter Reliability & Health Monitoring"
         ],
         "career_ecosystem": "Leading European elite consortium for electric mobility, smart grid hardware, and power semiconductor engineering."
+      },
+      "ranking": {
+        "qs_world_rank": "618 (QS World University Rankings 2026)",
+        "the_world_rank": "351-400 band (THE World University Rankings 2026)",
+        "germany_rank_note": "No direct 'rank within Germany' ordinal found; QS trend shows 530 (2024) -> 611 (2025) -> 618 (2026), a declining trajectory",
+        "source_url": "https://yocket.com/universities/university-of-kiel-christian-albrechts-2926/rankings"
       }
     },
     {
@@ -7258,6 +7492,12 @@ const DATABASE = {
           "Advanced Sensor Systems"
         ],
         "career_ecosystem": "Solid industrial placement pipeline across Saxony-Anhalt and neighboring Leipzig/Halle metropolitan area."
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -7484,6 +7724,12 @@ const DATABASE = {
           "Advanced IC Packaging & Verification"
         ],
         "career_ecosystem": "Bavaria semiconductor silicon powerhouse. Immediate co-op, working student (Werkstudent), and thesis opportunities at Infineon Regensburg cleanrooms."
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; despite being a larger technical UAS, no QS/THE listing found",
+        "source_url": "Not found"
       }
     },
     {
@@ -7656,6 +7902,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found (no confirmed overall QS 2026 figure located; aggregators conflicting/unclear)",
+        "the_world_rank": "Not ranked per one aggregator, but not confirmed either way from an official THE listing",
+        "germany_rank_note": "Could not confirm specific QS/THE global figures from reliable sources; ARWU (Shanghai Ranking, a separate system) places it at #801-900 band for reference only.",
+        "source_url": "https://xuanxiao.org/en/universities/university-of-kassel; https://www.shanghairanking.com/institution/university-of-kassel"
       }
     },
     {
@@ -7828,6 +8080,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "310 (QS 2026)",
+        "the_world_rank": "251-300 (THE 2026)",
+        "germany_rank_note": "No explicit Germany-rank ordinal stated; QS 2027 edition reportedly ~270th (newer figure, not 2026).",
+        "source_url": "https://www.uni-stuttgart.de/en/university/news/all/Success-in-the-QS-World-University-Ranking-2026/; https://www.uni-stuttgart.de/en/university/news/all/University-of-Stuttgart-achieves-top-positions-in-the-THE-World-University-Ranking-2026/"
       }
     },
     {
@@ -8008,6 +8266,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -8177,6 +8441,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -8336,6 +8606,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "851-900 band (QS 2026)",
+        "the_world_rank": "Not found (no THE listing located; one aggregator marks it 'not listed' for THE)",
+        "germany_rank_note": "No explicit Germany-rank ordinal found in sources.",
+        "source_url": "https://www.bachelorsportal.com/universities/135/university-of-rostock.html"
       }
     },
     {
@@ -8550,6 +8826,12 @@ const DATABASE = {
           "Semiconductor SPICE Modeling"
         ],
         "career_ecosystem": "Direct path to European semiconductor design houses, EDA companies, and automotive microelectronics R&D."
+      },
+      "ranking": {
+        "qs_world_rank": "Not confirmed (sources disagree: aggregators give 1001-1200 to 1201-1400 depending on edition/source reliability)",
+        "the_world_rank": "501-600 (THE 2026, confirmed via university's own site and THE profile)",
+        "germany_rank_note": "No explicit Germany-rank ordinal stated; university notes its THE subject ranking improved and it sits within top 600 of 2,191 ranked universities globally.",
+        "source_url": "https://www.uni-siegen.de/en/the-ranking; https://www.timeshighereducation.com/world-university-rankings/university-siegen/for-professionals"
       }
     },
     {
@@ -8776,6 +9058,12 @@ const DATABASE = {
           "Wireless Communication Protocols"
         ],
         "career_ecosystem": "Direct access to South German automotive and industrial embedded systems leaders."
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — small Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -8927,6 +9215,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found (conflicting/unreliable aggregator data; not confirmed on official QS site)",
+        "the_world_rank": "601-800 (THE World University Rankings, 2024-2026 editions)",
+        "germany_rank_note": "One secondary source states ranked 49th nationally in Germany (2025); not confirmed on official THE/QS site",
+        "source_url": "https://www.timeshighereducation.com/world-university-rankings/otto-von-guericke-university-magdeburg"
       }
     },
     {
@@ -9164,6 +9458,12 @@ const DATABASE = {
           "Hardware-Software Co-Design"
         ],
         "career_ecosystem": "Frankfurt Rhine-Main high-tech corridor. Includes an integrated 6-month full-time industrial internship, guaranteeing real German industry experience before graduation."
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -9320,6 +9620,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -9542,6 +9848,12 @@ const DATABASE = {
           "Architecture of Digital Systems"
         ],
         "career_ecosystem": "World-renowned academic hub for Electronic Design Automation (EDA), hardware verification, and embedded computing systems."
+      },
+      "ranking": {
+        "qs_world_rank": "1201-1400 (QS World University Rankings 2025/2026, per aggregator; later edition 2027 showed 1401+)",
+        "the_world_rank": "601-800 (2025, per aggregator); note - THE may still track data under the former Technische Universität Kaiserslautern rather than the newly merged institution",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source; global band only",
+        "source_url": "https://www.topuniversities.com/universities/technische-universitat-kaiserslautern"
       }
     },
     {
@@ -9708,6 +10020,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "1001-1200 band (QS World University Rankings, aggregator-reported; not confirmed directly on qs.com)",
+        "the_world_rank": "Older data shows 601-800 band (2020); no confirmed recent THE figure found",
+        "germany_rank_note": "No directly stated Germany-only ordinal found in available sources",
+        "source_url": "https://xuanxiao.org/en/universities/chemnitz-university-of-technology"
       }
     },
     {
@@ -9862,6 +10180,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (small Hochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -10027,6 +10351,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "380 (QS World University Rankings 2025, per official university source); later aggregator-only figures (e.g. 487 for 2026) unverified",
+        "the_world_rank": "1001-1200 band (per aggregator; unverified on official THE site)",
+        "germany_rank_note": "21st in Germany (QS World University Rankings 2025, stated directly by the university's own press release)",
+        "source_url": "https://tu-freiberg.de/en/rankings-facts-and-figures"
       }
     },
     {
@@ -10188,6 +10518,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=98 (QS World University Rankings 2026)",
+        "the_world_rank": "166 (THE World University Rankings 2026)",
+        "germany_rank_note": "Ranked #5 in Germany overall (per KIT-affiliated Hector School page); top 50 in Europe per QS Europe University Rankings 2026",
+        "source_url": "https://www.kit.edu/kit/english/202601-kit-ranks-among-europes-top-50-universities.php"
       }
     },
     {
@@ -10358,6 +10694,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -10526,6 +10868,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -10685,6 +11033,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -10869,6 +11223,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
+        "the_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
+        "germany_rank_note": "Not applicable - unranked institution",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -11052,6 +11412,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
+        "the_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
+        "germany_rank_note": "Not applicable - unranked institution",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -11235,6 +11601,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
+        "the_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
+        "germany_rank_note": "Not applicable - unranked institution",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -11413,6 +11785,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "310 (QS 2026)",
+        "the_world_rank": "251-300 (THE 2026)",
+        "germany_rank_note": "No explicit Germany-rank ordinal stated; QS 2027 edition reportedly ~270th (newer figure, not 2026).",
+        "source_url": "https://www.uni-stuttgart.de/en/university/news/all/Success-in-the-QS-World-University-Ranking-2026/; https://www.uni-stuttgart.de/en/university/news/all/University-of-Stuttgart-achieves-top-positions-in-the-THE-World-University-Ranking-2026/"
       }
     },
     {
@@ -11581,6 +11959,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
+        "the_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
+        "germany_rank_note": "Not applicable - unranked institution",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -11737,6 +12121,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -11903,6 +12293,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not confirmed (sources disagree: aggregators give 1001-1200 to 1201-1400 depending on edition/source reliability)",
+        "the_world_rank": "501-600 (THE 2026, confirmed via university's own site and THE profile)",
+        "germany_rank_note": "No explicit Germany-rank ordinal stated; university notes its THE subject ranking improved and it sits within top 600 of 2,191 ranked universities globally.",
+        "source_url": "https://www.uni-siegen.de/en/the-ranking; https://www.timeshighereducation.com/world-university-rankings/university-siegen/for-professionals"
       }
     },
     {
@@ -12077,6 +12473,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found (no confirmed overall QS 2026 figure; sources disagree, one unverified figure of #901 cited without clear context)",
+        "the_world_rank": "Not ranked (one aggregator lists THE as 'not ranked' for this institution)",
+        "germany_rank_note": "QS subject ranking: physics & astronomy in 501-550 band (2026) per topuniversities.com; no overall Germany-rank ordinal confirmed.",
+        "source_url": "https://www.topuniversities.com/node/296574; https://xuanxiao.org/en/universities/carl-von-ossietzky-universitat-oldenburg"
       }
     },
     {
@@ -12244,6 +12646,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=98 (QS World University Rankings 2026)",
+        "the_world_rank": "166 (THE World University Rankings 2026)",
+        "germany_rank_note": "Ranked #5 in Germany overall (per KIT-affiliated Hector School page); top 50 in Europe per QS Europe University Rankings 2026",
+        "source_url": "https://www.kit.edu/kit/english/202601-kit-ranks-among-europes-top-50-universities.php"
       }
     },
     {
@@ -12414,6 +12822,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=433 (QS World University Rankings 2026)",
+        "the_world_rank": "351-400 band (THE World University Rankings 2026)",
+        "germany_rank_note": "No direct 'rank within Germany' ordinal stated; QS trend 481 (2024) -> 426 (2025) -> 433 (2026)",
+        "source_url": "https://www.topuniversities.com/node/294274"
       }
     },
     {
@@ -12596,6 +13010,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=207 (QS 2026, aggregator-reported; not independently confirmed on qs.com)",
+        "the_world_rank": "89 (THE, per university's 1 Oct 2026 press release, likely newer edition); =92 per Times Higher Education's own profile page for 2026",
+        "germany_rank_note": "University of Bonn states 4th in Germany per its October 2026 THE press release.",
+        "source_url": "https://www.uni-bonn.de/en/news/197-2026; https://www.timeshighereducation.com/world-university-rankings/university-bonn/for-professionals"
       }
     },
     {
@@ -12779,6 +13199,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -12957,6 +13383,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "145 (QS World University Rankings 2026, per multiple aggregators; QS 2025 was 154 or 147 depending on source)",
+        "the_world_rank": "160 (THE World University Rankings 2026, most consistent figure); reliable 2025 figure not confirmed",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source; a TU9 member and one of Germany's leading technical universities",
+        "source_url": "https://topuniversities.com/universities/technische-universitat-berlin-tu-berlin"
       }
     },
     {
@@ -13127,6 +13559,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found / not ranked in QS main table (only appears in QS Sustainability Ranking #1501+)",
+        "the_world_rank": "Reportedly ranked in top 40% worldwide on first THE World University Ranking appearance (exact number/band not confirmed from official THE table)",
+        "germany_rank_note": "No directly stated Germany-specific ordinal found; BTU is a smaller technical university, appears in THE for the first time per its own press release",
+        "source_url": "https://www.b-tu.de/news/artikel/32473-erfolgreiche-btu-premiere-im-the-world-university-ranking"
       }
     },
     {
@@ -13292,6 +13730,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "218 (QS World University Rankings 2026, per aggregator); 234 (2025); university's own release cites 185 for newer 2027 edition",
+        "the_world_rank": "174 (THE World University Rankings 2026, per aggregator); reliable 2025 figure unconfirmed",
+        "germany_rank_note": "Among Germany's top 10 universities, per the university's own press release regarding QS rankings (TU Dresden explicitly states it is 'once again among the top ten universities in Germany')",
+        "source_url": "https://tu-dresden.de/forschung-transfer/news/qs-ranking-2027-tud-gehoert-erneut-zu-den-zehn-besten-universitaeten-deutschlands-und-baut-internationalen-erfolg-weiter-aus"
       }
     },
     {
@@ -13467,6 +13911,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; Fachhochschule outside QS/THE scope (distinct from Kiel University/CAU)",
+        "source_url": "Not found"
       }
     },
     {
@@ -13634,6 +14084,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; private Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -13797,6 +14253,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; private Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -13947,6 +14409,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=98 (QS World University Rankings 2026)",
+        "the_world_rank": "166 (THE World University Rankings 2026)",
+        "germany_rank_note": "Ranked #5 in Germany overall (per KIT-affiliated Hector School page); top 50 in Europe per QS Europe University Rankings 2026",
+        "source_url": "https://www.kit.edu/kit/english/202601-kit-ranks-among-europes-top-50-universities.php"
       }
     },
     {
@@ -14102,6 +14570,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (small private postgraduate institution)",
+        "the_world_rank": "Not ranked (small private postgraduate institution)",
+        "germany_rank_note": "Not applicable - unranked institution; private, non-research-focused continuing-education university",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -14262,6 +14736,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (small private postgraduate institution)",
+        "the_world_rank": "Not ranked (small private postgraduate institution)",
+        "germany_rank_note": "Not applicable - unranked institution; private, non-research-focused continuing-education university",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -14429,6 +14909,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "253 (QS World University Rankings 2026); 241 (2025)",
+        "the_world_rank": "251-300 band (THE World University Rankings 2025 and 2026, per aggregator consensus)",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source; TU9 member",
+        "source_url": "https://yocket.com/universities/darmstadt-university-of-technology-2874/rankings"
       }
     },
     {
@@ -14608,6 +15094,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "696-721 band (2026/2027, sources vary)",
+        "the_world_rank": "501-600 band (2026)",
+        "germany_rank_note": "Specialized technical university; ranked but outside top German universities band; no direct 'rank within Germany' ordinal stated by sources",
+        "source_url": "https://www.topuniversities.com/node/3993267"
       }
     },
     {
@@ -14788,6 +15280,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "1001-1200 band (QS World University Rankings, aggregator-reported; not confirmed directly on qs.com)",
+        "the_world_rank": "Older data shows 601-800 band (2020); no confirmed recent THE figure found",
+        "germany_rank_note": "No directly stated Germany-only ordinal found in available sources",
+        "source_url": "https://xuanxiao.org/en/universities/chemnitz-university-of-technology"
       }
     },
     {
@@ -14968,6 +15466,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Approximately 218-232 (QS World University Rankings 2026; sources disagree between =218 and 232, FAU's own release states 'top 20% worldwide')",
+        "the_world_rank": "201-250 band (THE World University Rankings, per aggregator; also ARWU 201-300)",
+        "germany_rank_note": "FAU states top 10 in Germany in six subjects per QS Subject Rankings 2026; no single confirmed overall Germany ordinal, but is considered a top-15 German research university",
+        "source_url": "https://www.fau.eu/2026/03/news/university/qs-subject-ranking-2026-fau-among-the-top-200-worldwide-in-eight-subjects/"
       }
     },
     {
@@ -15146,6 +15650,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=98 (QS World University Rankings 2026)",
+        "the_world_rank": "166 (THE World University Rankings 2026)",
+        "germany_rank_note": "Ranked #5 in Germany overall (per KIT-affiliated Hector School page); top 50 in Europe per QS Europe University Rankings 2026",
+        "source_url": "https://www.kit.edu/kit/english/202601-kit-ranks-among-europes-top-50-universities.php"
       }
     },
     {
@@ -15318,6 +15828,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -15485,6 +16001,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked in current QS main table; historical/unverified figures cite ~291st (2020) or ~316th from secondary aggregators, and other sources list it as 'Not Ranked'",
+        "the_world_rank": "Not ranked (Applied Sciences university - typical for a Fachhochschule)",
+        "germany_rank_note": "No confirmed official Germany-only ordinal; one unverified source mentions 42nd among Western European Universities (QS), not a Germany-specific figure",
+        "source_url": "https://xuanxiao.org/en/universities/frankfurt-university-of-applied-sciences"
       }
     },
     {
@@ -15667,6 +16189,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
+        "the_world_rank": "Not ranked (private/Applied Sciences-style institution, typically outside QS/THE scope)",
+        "germany_rank_note": "Not applicable - unranked institution",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -15846,6 +16374,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "310 (QS 2026)",
+        "the_world_rank": "251-300 (THE 2026)",
+        "germany_rank_note": "No explicit Germany-rank ordinal stated; QS 2027 edition reportedly ~270th (newer figure, not 2026).",
+        "source_url": "https://www.uni-stuttgart.de/en/university/news/all/Success-in-the-QS-World-University-Ranking-2026/; https://www.uni-stuttgart.de/en/university/news/all/University-of-Stuttgart-achieves-top-positions-in-the-THE-World-University-Ranking-2026/"
       }
     },
     {
@@ -16007,6 +16541,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -16158,6 +16698,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -16318,6 +16864,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "1001-1200 band (QS World University Rankings 2026)",
+        "the_world_rank": "Not confirmed in this search (not verified from official THE table)",
+        "germany_rank_note": "No directly stated Germany-only ordinal found; one aggregator mentioned a national rank of ~45 but this could not be verified against an official source",
+        "source_url": "https://www.topuniversities.com/universities/bielefeld-university"
       }
     },
     {
@@ -16477,6 +17029,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -16634,6 +17192,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -16782,6 +17346,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften); note this is distinct from the much larger research University of Stuttgart, which is QS/THE-ranked",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -16943,6 +17513,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; very small private Fachhochschule, not in QS/THE scope",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -17119,6 +17695,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "696-721 band (2026/2027, sources vary)",
+        "the_world_rank": "501-600 band (2026)",
+        "germany_rank_note": "Specialized technical university; ranked but outside top German universities band; no direct 'rank within Germany' ordinal stated by sources",
+        "source_url": "https://www.topuniversities.com/node/3993267"
       }
     },
     {
@@ -17292,6 +17874,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -17448,6 +18036,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -17610,6 +18204,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -17782,6 +18382,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=98 (QS World University Rankings 2026)",
+        "the_world_rank": "166 (THE World University Rankings 2026)",
+        "germany_rank_note": "Ranked #5 in Germany overall (per KIT-affiliated Hector School page); top 50 in Europe per QS Europe University Rankings 2026",
+        "source_url": "https://www.kit.edu/kit/english/202601-kit-ranks-among-europes-top-50-universities.php"
       }
     },
     {
@@ -17966,6 +18572,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -18143,6 +18755,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; well regarded nationally in Wirtschaftswoche rankings but not covered by QS/THE global research rankings",
+        "source_url": "https://en.wikipedia.org/wiki/HTW_Berlin"
       }
     },
     {
@@ -18316,6 +18934,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; Hochschule Aalen is a teaching-focused Fachhochschule not covered by QS/THE",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -18481,6 +19105,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; Hochschule Aalen is a teaching-focused Fachhochschule not covered by QS/THE",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -18652,6 +19282,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "253 (QS World University Rankings 2026); 241 (2025)",
+        "the_world_rank": "251-300 band (THE World University Rankings 2025 and 2026, per aggregator consensus)",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source; TU9 member",
+        "source_url": "https://yocket.com/universities/darmstadt-university-of-technology-2874/rankings"
       }
     },
     {
@@ -18823,6 +19459,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=546 (QS 2026)",
+        "the_world_rank": "251-300 (THE 2026, unconfirmed from a primary THE listing — university's own release cites 19th in Germany for THE 2025)",
+        "germany_rank_note": "Ulm University states it was among the top 20 universities in Germany per THE World Ranking 2025 (19th in Germany).",
+        "source_url": "https://uni-ulm.de/en/university-news/news-details/article/unter-den-20-besten-unis-deutschlands-the-ranking-2025; https://yocket.com/universities/university-of-ulm-2942/rankings"
       }
     },
     {
@@ -18983,6 +19625,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=546 (QS 2026)",
+        "the_world_rank": "251-300 (THE 2026, unconfirmed from a primary THE listing — university's own release cites 19th in Germany for THE 2025)",
+        "germany_rank_note": "Ulm University states it was among the top 20 universities in Germany per THE World Ranking 2025 (19th in Germany).",
+        "source_url": "https://uni-ulm.de/en/university-news/news-details/article/unter-den-20-besten-unis-deutschlands-the-ranking-2025; https://yocket.com/universities/university-of-ulm-2942/rankings"
       }
     },
     {
@@ -19164,6 +19812,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -19340,6 +19994,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "25 (latest QS edition, published June 2026); 22 (QS World University Rankings 2026 edition proper, per university and aggregator sources)",
+        "the_world_rank": "26 (THE World University Rankings 2025); 27 (2026, per TUM's own press release)",
+        "germany_rank_note": "Consistently ranked the #1 (top) university in Germany in both QS and THE; also cited as the top university in the EU",
+        "source_url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-once-again-named-the-best-university-in-the-eu"
       }
     },
     {
@@ -19496,6 +20156,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found in QS overall ranking (appears only in QS subject rankings, e.g. #501-550 subject band 2025); aggregators disagree, treat overall QS position as unconfirmed/not ranked",
+        "the_world_rank": "1001-1200 (THE 2026)",
+        "germany_rank_note": "Small technical university; no explicit Germany-rank ordinal found in sources.",
+        "source_url": "https://www.timeshighereducation.com/world-university-rankings/technische-universitat-ilmenau; https://topuniversities.com/universities/technische-universitat-ilmenau"
       }
     },
     {
@@ -19655,6 +20321,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "618 (QS World University Rankings 2026)",
+        "the_world_rank": "351-400 band (THE World University Rankings 2026)",
+        "germany_rank_note": "No direct 'rank within Germany' ordinal found; QS trend shows 530 (2024) -> 611 (2025) -> 618 (2026), a declining trajectory",
+        "source_url": "https://yocket.com/universities/university-of-kiel-christian-albrechts-2926/rankings"
       }
     },
     {
@@ -19830,6 +20502,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=395 (QS World University Rankings 2026)",
+        "the_world_rank": "301-350 (THE World University Rankings 2025); 251-300 (2026)",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source; a mid-tier large German research university, well below TU9/elite-cluster universities like TUM, RWTH, Heidelberg, LMU",
+        "source_url": "https://topuniversities.com/node/297475; https://timeshighereducation.com/world-university-rankings/ruhr-university-bochum"
       }
     },
     {
@@ -20003,6 +20681,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=395 (QS World University Rankings 2026)",
+        "the_world_rank": "301-350 (THE World University Rankings 2025); 251-300 (2026)",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source; a mid-tier large German research university, well below TU9/elite-cluster universities like TUM, RWTH, Heidelberg, LMU",
+        "source_url": "https://topuniversities.com/node/297475; https://timeshighereducation.com/world-university-rankings/ruhr-university-bochum"
       }
     },
     {
@@ -20176,6 +20860,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=395 (QS World University Rankings 2026)",
+        "the_world_rank": "301-350 (THE World University Rankings 2025); 251-300 (2026)",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source; a mid-tier large German research university, well below TU9/elite-cluster universities like TUM, RWTH, Heidelberg, LMU",
+        "source_url": "https://topuniversities.com/node/297475; https://timeshighereducation.com/world-university-rankings/ruhr-university-bochum"
       }
     },
     {
@@ -20348,6 +21038,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found (official QS page not located; aggregator-only data unreliable)",
+        "the_world_rank": "501-600 (THE World University Rankings 2025); 601-800 (2026, per official THE profile)",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source; global band only",
+        "source_url": "https://www.timeshighereducation.com/world-university-rankings/paderborn-university"
       }
     },
     {
@@ -20509,6 +21205,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "201 (QS 2026, up from 212 the prior year)",
+        "the_world_rank": "=138 (THE 2026)",
+        "germany_rank_note": "University of Freiburg states 10th in Germany per QS 2026, and 12th in Germany per THE World University Rankings 2026 (per its own press releases).",
+        "source_url": "https://uni-freiburg.de/qs-world-university-rankings-2026-universitaet-freiburg-national-unter-den-zehn-besten-universitaeten/; https://uni-freiburg.de/en/the-world-university-rankings-2026-university-of-freiburg-in-12th-place-nationally/"
       }
     },
     {
@@ -20678,6 +21380,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -20846,6 +21554,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=22 (QS 2026 edition)",
+        "the_world_rank": "27 (THE 2026)",
+        "germany_rank_note": "TUM is #1 in Germany per QS 2026 and #1 in Germany per THE's German-university page for 2026; also top-ranked EU university in QS 2026. (Note: TUM Asia Singapore is a branch/partner campus; ranking reflects the main TUM institution.)",
+        "source_url": "https://www.research-in-bavaria.de/research-news/details/article/qs-rankings-tum-once-again-named-the-best-university-in-the-eu/; https://www.timeshighereducation.com/world-university-rankings/technical-university-munich"
       }
     },
     {
@@ -21017,6 +21731,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=22 (QS 2026 edition)",
+        "the_world_rank": "27 (THE 2026)",
+        "germany_rank_note": "TUM is #1 in Germany per QS 2026 and #1 in Germany per THE's German-university page for 2026; also top-ranked EU university in QS 2026. (Note: TUM Asia Singapore is a branch/partner campus; ranking reflects the main TUM institution.)",
+        "source_url": "https://www.research-in-bavaria.de/research-news/details/article/qs-rankings-tum-once-again-named-the-best-university-in-the-eu/; https://www.timeshighereducation.com/world-university-rankings/technical-university-munich"
       }
     },
     {
@@ -21196,6 +21916,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=395 (QS World University Rankings 2026)",
+        "the_world_rank": "301-350 (THE World University Rankings 2025); 251-300 (2026)",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source; a mid-tier large German research university, well below TU9/elite-cluster universities like TUM, RWTH, Heidelberg, LMU",
+        "source_url": "https://topuniversities.com/node/297475; https://timeshighereducation.com/world-university-rankings/ruhr-university-bochum"
       }
     },
     {
@@ -21363,6 +22089,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "25 (latest QS edition, published June 2026); 22 (QS World University Rankings 2026 edition proper, per university and aggregator sources)",
+        "the_world_rank": "26 (THE World University Rankings 2025); 27 (2026, per TUM's own press release)",
+        "germany_rank_note": "Consistently ranked the #1 (top) university in Germany in both QS and THE; also cited as the top university in the EU",
+        "source_url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-once-again-named-the-best-university-in-the-eu"
       }
     },
     {
@@ -21521,6 +22253,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found in QS overall ranking (appears only in QS subject rankings, e.g. #501-550 subject band 2025); aggregators disagree, treat overall QS position as unconfirmed/not ranked",
+        "the_world_rank": "1001-1200 (THE 2026)",
+        "germany_rank_note": "Small technical university; no explicit Germany-rank ordinal found in sources.",
+        "source_url": "https://www.timeshighereducation.com/world-university-rankings/technische-universitat-ilmenau; https://topuniversities.com/universities/technische-universitat-ilmenau"
       }
     },
     {
@@ -21684,6 +22422,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "201 (QS 2026, up from 212 the prior year)",
+        "the_world_rank": "=138 (THE 2026)",
+        "germany_rank_note": "University of Freiburg states 10th in Germany per QS 2026, and 12th in Germany per THE World University Rankings 2026 (per its own press releases).",
+        "source_url": "https://uni-freiburg.de/qs-world-university-rankings-2026-universitaet-freiburg-national-unter-den-zehn-besten-universitaeten/; https://uni-freiburg.de/en/the-world-university-rankings-2026-university-of-freiburg-in-12th-place-nationally/"
       }
     },
     {
@@ -21851,6 +22595,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found (official QS page not located; aggregator-only data unreliable)",
+        "the_world_rank": "501-600 (THE World University Rankings 2025); 601-800 (2026, per official THE profile)",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source; global band only",
+        "source_url": "https://www.timeshighereducation.com/world-university-rankings/paderborn-university"
       }
     },
     {
@@ -22009,6 +22759,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=546 (QS 2026)",
+        "the_world_rank": "251-300 (THE 2026, unconfirmed from a primary THE listing — university's own release cites 19th in Germany for THE 2025)",
+        "germany_rank_note": "Ulm University states it was among the top 20 universities in Germany per THE World Ranking 2025 (19th in Germany).",
+        "source_url": "https://uni-ulm.de/en/university-news/news-details/article/unter-den-20-besten-unis-deutschlands-the-ranking-2025; https://yocket.com/universities/university-of-ulm-2942/rankings"
       }
     },
     {
@@ -22169,6 +22925,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -22339,6 +23101,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -22505,6 +23273,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — small Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -22683,6 +23457,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -22847,6 +23627,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "618 (QS World University Rankings 2026)",
+        "the_world_rank": "351-400 band (THE World University Rankings 2026)",
+        "germany_rank_note": "No direct 'rank within Germany' ordinal found; QS trend shows 530 (2024) -> 611 (2025) -> 618 (2026), a declining trajectory",
+        "source_url": "https://yocket.com/universities/university-of-kiel-christian-albrechts-2926/rankings"
       }
     },
     {
@@ -23009,6 +23795,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "618 (QS World University Rankings 2026)",
+        "the_world_rank": "351-400 band (THE World University Rankings 2026)",
+        "germany_rank_note": "No direct 'rank within Germany' ordinal found; QS trend shows 530 (2024) -> 611 (2025) -> 618 (2026), a declining trajectory",
+        "source_url": "https://yocket.com/universities/university-of-kiel-christian-albrechts-2926/rankings"
       }
     },
     {
@@ -23171,6 +23963,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "618 (QS World University Rankings 2026)",
+        "the_world_rank": "351-400 band (THE World University Rankings 2026)",
+        "germany_rank_note": "No direct 'rank within Germany' ordinal found; QS trend shows 530 (2024) -> 611 (2025) -> 618 (2026), a declining trajectory",
+        "source_url": "https://yocket.com/universities/university-of-kiel-christian-albrechts-2926/rankings"
       }
     },
     {
@@ -23335,6 +24133,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; well regarded nationally in Wirtschaftswoche rankings but not covered by QS/THE global research rankings",
+        "source_url": "https://en.wikipedia.org/wiki/HTW_Berlin"
       }
     },
     {
@@ -23501,6 +24305,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -23665,6 +24475,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope (distinct from RPTU Kaiserslautern which is a university)",
+        "source_url": "Not found"
       }
     },
     {
@@ -23831,6 +24647,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -24012,6 +24834,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — small Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -24190,6 +25018,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -24352,6 +25186,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -24517,6 +25357,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found (conflicting/unreliable aggregator data; not confirmed on official QS site)",
+        "the_world_rank": "601-800 (THE World University Rankings, 2024-2026 editions)",
+        "germany_rank_note": "One secondary source states ranked 49th nationally in Germany (2025); not confirmed on official THE/QS site",
+        "source_url": "https://www.timeshighereducation.com/world-university-rankings/otto-von-guericke-university-magdeburg"
       }
     },
     {
@@ -24694,6 +25540,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -24848,6 +25700,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked in QS (listed as 'Not Ranked' by aggregators; one unverified aggregator cited #347 which could not be confirmed)",
+        "the_world_rank": "Not ranked (Applied Sciences university - typical for a Technische Hochschule)",
+        "germany_rank_note": "Not applicable - no confirmed QS/THE ordinal; non-QS aggregator (EduRank) places it 177th in Germany, but that is not a QS/THE figure",
+        "source_url": "https://xuanxiao.org/en/universities/deggendorf-institute-of-technology"
       }
     },
     {
@@ -25022,6 +25880,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "1001-1200 band (QS World University Rankings, aggregator-reported; not confirmed directly on qs.com)",
+        "the_world_rank": "Older data shows 601-800 band (2020); no confirmed recent THE figure found",
+        "germany_rank_note": "No directly stated Germany-only ordinal found in available sources",
+        "source_url": "https://xuanxiao.org/en/universities/chemnitz-university-of-technology"
       }
     },
     {
@@ -25212,6 +26076,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found / not ranked in QS main table (only appears in QS Sustainability Ranking #1501+)",
+        "the_world_rank": "Reportedly ranked in top 40% worldwide on first THE World University Ranking appearance (exact number/band not confirmed from official THE table)",
+        "germany_rank_note": "No directly stated Germany-specific ordinal found; BTU is a smaller technical university, appears in THE for the first time per its own press release",
+        "source_url": "https://www.b-tu.de/news/artikel/32473-erfolgreiche-btu-premiere-im-the-world-university-ranking"
       }
     },
     {
@@ -25366,6 +26236,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -25540,6 +26416,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "696-721 band (2026/2027, sources vary)",
+        "the_world_rank": "501-600 band (2026)",
+        "germany_rank_note": "Specialized technical university; ranked but outside top German universities band; no direct 'rank within Germany' ordinal stated by sources",
+        "source_url": "https://www.topuniversities.com/node/3993267"
       }
     },
     {
@@ -25711,6 +26593,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "711-720 (QS 2026)",
+        "the_world_rank": "601-800 (THE 2026)",
+        "germany_rank_note": "Mid-tier German technical university; no source stated an explicit 'rank within Germany' ordinal — figures are global bands only.",
+        "source_url": "https://www.topuniversities.com/universities/technische-universit%C3%A4t-braunschweig; https://www.study.eu/university/technische-universitat-braunschweig"
       }
     },
     {
@@ -25887,6 +26775,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=207 (QS 2026, aggregator-reported; not independently confirmed on qs.com)",
+        "the_world_rank": "89 (THE, per university's 1 Oct 2026 press release, likely newer edition); =92 per Times Higher Education's own profile page for 2026",
+        "germany_rank_note": "University of Bonn states 4th in Germany per its October 2026 THE press release.",
+        "source_url": "https://www.uni-bonn.de/en/news/197-2026; https://www.timeshighereducation.com/world-university-rankings/university-bonn/for-professionals"
       }
     },
     {
@@ -26068,6 +26962,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "218 (QS World University Rankings 2026, per aggregator); 234 (2025); university's own release cites 185 for newer 2027 edition",
+        "the_world_rank": "174 (THE World University Rankings 2026, per aggregator); reliable 2025 figure unconfirmed",
+        "germany_rank_note": "Among Germany's top 10 universities, per the university's own press release regarding QS rankings (TU Dresden explicitly states it is 'once again among the top ten universities in Germany')",
+        "source_url": "https://tu-dresden.de/forschung-transfer/news/qs-ranking-2027-tud-gehoert-erneut-zu-den-zehn-besten-universitaeten-deutschlands-und-baut-internationalen-erfolg-weiter-aus"
       }
     },
     {
@@ -26236,6 +27136,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=98 (QS World University Rankings 2026)",
+        "the_world_rank": "166 (THE World University Rankings 2026)",
+        "germany_rank_note": "Ranked #5 in Germany overall (per KIT-affiliated Hector School page); top 50 in Europe per QS Europe University Rankings 2026",
+        "source_url": "https://www.kit.edu/kit/english/202601-kit-ranks-among-europes-top-50-universities.php"
       }
     },
     {
@@ -26402,6 +27308,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -26581,6 +27493,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Approximately 218-232 (QS World University Rankings 2026; sources disagree between =218 and 232, FAU's own release states 'top 20% worldwide')",
+        "the_world_rank": "201-250 band (THE World University Rankings, per aggregator; also ARWU 201-300)",
+        "germany_rank_note": "FAU states top 10 in Germany in six subjects per QS Subject Rankings 2026; no single confirmed overall Germany ordinal, but is considered a top-15 German research university",
+        "source_url": "https://www.fau.eu/2026/03/news/university/qs-subject-ranking-2026-fau-among-the-top-200-worldwide-in-eight-subjects/"
       }
     },
     {
@@ -26752,6 +27670,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -26913,6 +27837,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked in QS (listed as 'Not Ranked' by aggregators; one unverified aggregator cited #347 which could not be confirmed)",
+        "the_world_rank": "Not ranked (Applied Sciences university - typical for a Technische Hochschule)",
+        "germany_rank_note": "Not applicable - no confirmed QS/THE ordinal; non-QS aggregator (EduRank) places it 177th in Germany, but that is not a QS/THE figure",
+        "source_url": "https://xuanxiao.org/en/universities/deggendorf-institute-of-technology"
       }
     },
     {
@@ -27093,6 +28023,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Approximately 218-232 (QS World University Rankings 2026; sources disagree between =218 and 232, FAU's own release states 'top 20% worldwide')",
+        "the_world_rank": "201-250 band (THE World University Rankings, per aggregator; also ARWU 201-300)",
+        "germany_rank_note": "FAU states top 10 in Germany in six subjects per QS Subject Rankings 2026; no single confirmed overall Germany ordinal, but is considered a top-15 German research university",
+        "source_url": "https://www.fau.eu/2026/03/news/university/qs-subject-ranking-2026-fau-among-the-top-200-worldwide-in-eight-subjects/"
       }
     },
     {
@@ -27268,6 +28204,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -27431,6 +28373,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; HM's own rankings page lists only CHE/U-Multirank, no QS/THE entry found",
+        "source_url": "https://hm.edu/hochschule_muenchen/portraet/rankings-und-preise.en.html"
       }
     },
     {
@@ -27590,6 +28538,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -27760,6 +28714,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -27918,6 +28878,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "25 (latest QS edition, published June 2026); 22 (QS World University Rankings 2026 edition proper, per university and aggregator sources)",
+        "the_world_rank": "26 (THE World University Rankings 2025); 27 (2026, per TUM's own press release)",
+        "germany_rank_note": "Consistently ranked the #1 (top) university in Germany in both QS and THE; also cited as the top university in the EU",
+        "source_url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-once-again-named-the-best-university-in-the-eu"
       }
     },
     {
@@ -28096,6 +29062,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "253 (QS World University Rankings 2026); 241 (2025)",
+        "the_world_rank": "251-300 band (THE World University Rankings 2025 and 2026, per aggregator consensus)",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source; TU9 member",
+        "source_url": "https://yocket.com/universities/darmstadt-university-of-technology-2874/rankings"
       }
     },
     {
@@ -28256,6 +29228,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -28427,6 +29405,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found (no confirmed overall QS 2026 figure located; aggregators conflicting/unclear)",
+        "the_world_rank": "Not ranked per one aggregator, but not confirmed either way from an official THE listing",
+        "germany_rank_note": "Could not confirm specific QS/THE global figures from reliable sources; ARWU (Shanghai Ranking, a separate system) places it at #801-900 band for reference only.",
+        "source_url": "https://xuanxiao.org/en/universities/university-of-kassel; https://www.shanghairanking.com/institution/university-of-kassel"
       }
     },
     {
@@ -28596,6 +29580,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -28770,6 +29760,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -28965,6 +29961,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "218 (QS World University Rankings 2026, per aggregator); 234 (2025); university's own release cites 185 for newer 2027 edition",
+        "the_world_rank": "174 (THE World University Rankings 2026, per aggregator); reliable 2025 figure unconfirmed",
+        "germany_rank_note": "Among Germany's top 10 universities, per the university's own press release regarding QS rankings (TU Dresden explicitly states it is 'once again among the top ten universities in Germany')",
+        "source_url": "https://tu-dresden.de/forschung-transfer/news/qs-ranking-2027-tud-gehoert-erneut-zu-den-zehn-besten-universitaeten-deutschlands-und-baut-internationalen-erfolg-weiter-aus"
       }
     },
     {
@@ -29142,6 +30144,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not confirmed (sources disagree: aggregators give 1001-1200 to 1201-1400 depending on edition/source reliability)",
+        "the_world_rank": "501-600 (THE 2026, confirmed via university's own site and THE profile)",
+        "germany_rank_note": "No explicit Germany-rank ordinal stated; university notes its THE subject ranking improved and it sits within top 600 of 2,191 ranked universities globally.",
+        "source_url": "https://www.uni-siegen.de/en/the-ranking; https://www.timeshighereducation.com/world-university-rankings/university-siegen/for-professionals"
       }
     },
     {
@@ -29297,6 +30305,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked in QS overall World University Rankings table (only ranked by subject: #101-150 in Art & Design, QS WUR by Subject 2025)",
+        "the_world_rank": "Not found / not ranked in THE overall table",
+        "germany_rank_note": "Not applicable for overall rank; recognized nationally/internationally specifically for Art & Design subject ranking, not general institutional ranking",
+        "source_url": "https://topuniversities.com/universities/bauhaus-universitat-weimar"
       }
     },
     {
@@ -29459,6 +30473,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -29621,6 +30641,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (small Hochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -29784,6 +30810,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found / not ranked in QS main table (only appears in QS Sustainability Ranking #1501+)",
+        "the_world_rank": "Reportedly ranked in top 40% worldwide on first THE World University Ranking appearance (exact number/band not confirmed from official THE table)",
+        "germany_rank_note": "No directly stated Germany-specific ordinal found; BTU is a smaller technical university, appears in THE for the first time per its own press release",
+        "source_url": "https://www.b-tu.de/news/artikel/32473-erfolgreiche-btu-premiere-im-the-world-university-ranking"
       }
     },
     {
@@ -29955,6 +30987,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -30126,6 +31164,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=98 (QS World University Rankings 2026)",
+        "the_world_rank": "166 (THE World University Rankings 2026)",
+        "germany_rank_note": "Ranked #5 in Germany overall (per KIT-affiliated Hector School page); top 50 in Europe per QS Europe University Rankings 2026",
+        "source_url": "https://www.kit.edu/kit/english/202601-kit-ranks-among-europes-top-50-universities.php"
       }
     },
     {
@@ -30281,6 +31325,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "=433 (QS World University Rankings 2026)",
+        "the_world_rank": "351-400 band (THE World University Rankings 2026)",
+        "germany_rank_note": "No direct 'rank within Germany' ordinal stated; QS trend 481 (2024) -> 426 (2025) -> 433 (2026)",
+        "source_url": "https://www.topuniversities.com/node/294274"
       }
     },
     {
@@ -30442,6 +31492,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not confirmed (sources disagree: aggregators give 1001-1200 to 1201-1400 depending on edition/source reliability)",
+        "the_world_rank": "501-600 (THE 2026, confirmed via university's own site and THE profile)",
+        "germany_rank_note": "No explicit Germany-rank ordinal stated; university notes its THE subject ranking improved and it sits within top 600 of 2,191 ranked universities globally.",
+        "source_url": "https://www.uni-siegen.de/en/the-ranking; https://www.timeshighereducation.com/world-university-rankings/university-siegen/for-professionals"
       }
     },
     {
@@ -30600,6 +31656,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -30754,6 +31816,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -30918,6 +31986,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -31072,6 +32146,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked in QS (listed as 'Not Ranked' by aggregators; one unverified aggregator cited #347 which could not be confirmed)",
+        "the_world_rank": "Not ranked (Applied Sciences university - typical for a Technische Hochschule)",
+        "germany_rank_note": "Not applicable - no confirmed QS/THE ordinal; non-QS aggregator (EduRank) places it 177th in Germany, but that is not a QS/THE figure",
+        "source_url": "https://xuanxiao.org/en/universities/deggendorf-institute-of-technology"
       }
     },
     {
@@ -31236,6 +32316,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -31394,6 +32480,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; Fachhochschule outside QS/THE scope (distinct from KIT)",
+        "source_url": "Not found"
       }
     },
     {
@@ -31552,6 +32644,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften); note this is distinct from the much larger research University of Stuttgart, which is QS/THE-ranked",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -31713,6 +32811,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (small Hochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -31881,6 +32985,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "530 (QS 2026)",
+        "the_world_rank": "Not found (specific THE 2026 figure not located in sources)",
+        "germany_rank_note": "No explicit Germany-rank ordinal found in sources; QS 2027 edition reportedly dropped to =581.",
+        "source_url": "https://goingto.university/where-to-study/study-in-germany/bremen; https://www.phdportal.com/universities/40/university-of-bremen.html"
       }
     },
     {
@@ -32029,6 +33139,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — THI is a Fachhochschule (University of Applied Sciences), a category QS/THE global rankings do not typically include.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -32188,6 +33304,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -32353,6 +33475,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (typical for Fachhochschulen/Hochschule für angewandte Wissenschaften)",
+        "source_url": "Not found in QS/THE databases"
       }
     },
     {
@@ -32522,6 +33650,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "218 (QS World University Rankings 2026, per aggregator); 234 (2025); university's own release cites 185 for newer 2027 edition",
+        "the_world_rank": "174 (THE World University Rankings 2026, per aggregator); reliable 2025 figure unconfirmed",
+        "germany_rank_note": "Among Germany's top 10 universities, per the university's own press release regarding QS rankings (TU Dresden explicitly states it is 'once again among the top ten universities in Germany')",
+        "source_url": "https://tu-dresden.de/forschung-transfer/news/qs-ranking-2027-tud-gehoert-erneut-zu-den-zehn-besten-universitaeten-deutschlands-und-baut-internationalen-erfolg-weiter-aus"
       }
     },
     {
@@ -32692,6 +33826,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (small specialized university)",
+        "the_world_rank": "Not ranked (small specialized university)",
+        "germany_rank_note": "Not applicable - unranked institution; small university focused on education/social sciences, outside QS/THE coverage",
+        "source_url": "https://topuniversities.com"
       }
     },
     {
@@ -32860,6 +34000,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "673 (QS World University Rankings 2026, per aggregator); 2025 reported variably as 801-850/801",
+        "the_world_rank": "401-500 band (THE World University Rankings 2025); 501-600 (2026, per official THE profile)",
+        "germany_rank_note": "No direct ordinal-within-Germany stated by source",
+        "source_url": "https://timeshighereducation.com/world-university-rankings/technische-universitat-dortmund"
       }
     },
     {
@@ -33019,6 +34165,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -33138,6 +34290,12 @@ const DATABASE = {
         "faculty_institute": "Not found",
         "intake_semester": "Winter",
         "teaching_language": "English, all modules"
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -33301,6 +34459,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "~99-105 (QS World University Rankings, varies by edition)",
+        "the_world_rank": "~90-92 (THE World University Rankings, varies by edition)",
+        "germany_rank_note": "Consistently among the top 5-8 universities in Germany; one of the TU9 (Germany's leading technical universities alliance) and widely regarded as Germany's top engineering school",
+        "source_url": "https://www.topuniversities.com/universities/rwth-aachen-university"
       }
     },
     {
@@ -33463,6 +34627,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not found (conflicting/unreliable aggregator data; not confirmed on official QS site)",
+        "the_world_rank": "601-800 (THE World University Rankings, 2024-2026 editions)",
+        "germany_rank_note": "One secondary source states ranked 49th nationally in Germany (2025); not confirmed on official THE/QS site",
+        "source_url": "https://www.timeshighereducation.com/world-university-rankings/otto-von-guericke-university-magdeburg"
       }
     },
     {
@@ -33633,6 +34803,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable — small Fachhochschule, outside the scope of QS/THE world rankings.",
+        "source_url": "N/A - not present in QS/THE databases"
       }
     },
     {
@@ -33779,6 +34955,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -33942,6 +35124,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution; small Fachhochschule outside QS/THE scope",
+        "source_url": "Not found"
       }
     },
     {
@@ -34105,6 +35293,12 @@ const DATABASE = {
             }
           ]
         }
+      },
+      "ranking": {
+        "qs_world_rank": "Not ranked (Applied Sciences university)",
+        "the_world_rank": "Not ranked (Applied Sciences university)",
+        "germany_rank_note": "Not applicable - unranked institution (Fachhochschule, not in QS/THE scope)",
+        "source_url": "https://topuniversities.com"
       }
     }
   ],
