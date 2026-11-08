@@ -218,17 +218,28 @@ table.curriculum-table tr:last-child td{border-bottom:none;}
     </div>
   </div>
 
-  <!-- Degree Completion Warning -->
+  <!-- Quick Reference: Subject-Area ECTS Breakdown (for checking against any university's prerequisite requirements) -->
   <div class="section">
-    <div class="card" style="border-color:rgba(255,82,82,.4);background:rgba(255,82,82,.05);">
-      <h3 style="margin:0 0 10px;font-size:1.05rem;color:var(--warn);">⚠️ ডিগ্রি স্ট্যাটাস — আপডেট (Grade History অনুযায়ী, 08 Nov 2026 প্রিন্ট)</h3>
-      <p style="font-size:.88rem;margin:0 0 10px;">নতুন Grade History অনুযায়ী ফাইনাল CGPA <b>2.83</b>, মোট পাস করা ক্রেডিট <b>১৩৩.০০</b> — যা NSU-এর ন্যূনতম প্রয়োজনীয় <b>১৩০ ক্রেডিট</b>-এর চেয়ে ৩ বেশি। <b>EEE465</b> (High Voltage Engineering)-এর বদলে elective হিসেবে <b>PBH101</b> (Introduction to Public Health) নেওয়া হয়েছে, তাই EEE465-এর F আর প্রাসঙ্গিক না — এটা dropped/replaced।</p>
-      <p style="font-size:.88rem;margin:0 0 10px;"><b>লক্ষণীয় বিষয়:</b></p>
-      <ul style="font-size:.86rem;padding-left:20px;margin:0;line-height:1.7;">
-        <li><b>EEE498R</b> (Intern/Co-op/Directed Research) — গ্রেড <b>A</b> পেয়ে সম্পূর্ণ হয়েছে (আগে যেটা "Incomplete" ছিল) ✅</li>
-        <li><b>EEE465</b> বাদ দিয়ে এর বদলে <b>PBH101</b> (Introduction to Public Health, গ্রেড D) সম্পন্ন করা হয়েছে ✅</li>
-      </ul>
-      <p style="font-size:.86rem;margin:12px 0 0;color:var(--muted);">👉 <b>করণীয়:</b> জার্মান ইউনিভার্সিটিতে অ্যাপ্লাই করার আগে NSU রেজিস্ট্রার অফিস থেকে একটা অফিসিয়াল "Degree Completion Certificate" সংগ্রহ করো যেটায় স্পষ্ট লেখা থাকবে ডিগ্রি সম্পূর্ণ/awarded — এটা অ্যাপ্লিকেশনের জন্য অপরিহার্য ডকুমেন্ট।</p>
+    <h2>📊 Quick Reference — সাবজেক্ট-এরিয়া অনুযায়ী ECTS ব্রেকডাউন</h2>
+    <div class="card">
+      <p style="font-size:.84rem;color:var(--muted);margin:0 0 14px;">যেকোনো ইউনিভার্সিটির "minimum X ECTS in Mathematics / Electronics / Digital Systems" জাতীয় requirement-এর সাথে মেলানোর জন্য। (১ NSU ক্রেডিট = ১.৫ ECTS, EEE465 বাদ — PBH101 দিয়ে replaced)</p>
+      <table class="curriculum-table">
+        <thead>
+          <tr><th>সাবজেক্ট এরিয়া</th><th>ক্রেডিট</th><th>ECTS</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>🧮 Mathematics (Calculus I-IV, Linear Algebra, Eng. Math, Probability & Stats)</td><td>21.0</td><td><b>31.5</b></td></tr>
+          <tr><td>⚛️ Physics (General Physics I & II + Labs)</td><td>8.0</td><td><b>12.0</b></td></tr>
+          <tr><td>💻 Programming / Computing (CSE115 + Lab)</td><td>4.0</td><td><b>6.0</b></td></tr>
+          <tr><td>🔌 Electrical Circuits & Analog Electronics (EEE141/241/111/311 + Labs, Drawing)</td><td>17.0</td><td><b>25.5</b></td></tr>
+          <tr><td>⚡ Power Systems / Control / EM Theory / Machines (EEE312/342/362/462/363/361 + Labs)</td><td>20.0</td><td><b>30.0</b></td></tr>
+          <tr style="background:rgba(56,239,125,.08);"><td>🖥️ <b>Digital Systems / VLSI / RTL / Signal Processing</b> (EEE211 Digital, EEE221 Signals, EEE321 Comms, EEE411 VLSI Design, EEE413 Verilog HDL)</td><td>15.0</td><td><b>22.5</b></td></tr>
+          <tr><td>🛠️ Design Projects / Capstone / Research (Junior Design, Senior Design I-II, Directed Research)</td><td>4.0</td><td><b>6.0</b></td></tr>
+          <tr><td>📘 General Education (English, History, Political Science, Ethics, Economics, Chemistry, Biology, Geography, Public Health)</td><td>44.0</td><td><b>66.0</b></td></tr>
+          <tr style="border-top:2px solid var(--border);font-weight:700;"><td>মোট (Total Passed)</td><td>133.0</td><td><b>199.5</b></td></tr>
+          <tr style="opacity:.6;font-style:italic;"><td>MAT112 (Waiver, not counted)</td><td>3.0</td><td>—</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 
