@@ -324,10 +324,19 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:32px 20px;}
       <select id="tuitionFilter">
         <option value="">সব</option>
         <option value="free">সম্পূর্ণ Tuition-free</option>
-        <option value="varies">Tuition varies</option>
-        <option value="paid">নির্দিষ্ট amount আছে</option>
-        <option value="risk">Non-EU fee ঝুঁকি (~€1500/sem)</option>
-        <option value="private">Private (উচ্চ টিউশন)</option>
+        <option value="low">কম (semester fee only, &lt;€1000)</option>
+        <option value="mid">মাঝারি (€1000–3000/semester)</option>
+        <option value="high">বেশি (&gt;€3000/semester)</option>
+        <option value="unclear">অস্পষ্ট / জানা যায়নি</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>র‍্যাংকিং</label>
+      <select id="rankFilter">
+        <option value="">সব</option>
+        <option value="top">🏆 Top (QS/THE ≤300)</option>
+        <option value="medium">🥈 Medium (ranked, &gt;300 বা Germany-ভালো)</option>
+        <option value="low">🏫 Unranked (Applied Sciences)</option>
       </select>
     </div>
     <div class="field">
@@ -383,6 +392,7 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:32px 20px;}
         <col class="col-deadline">
         <col class="col-tier">
         <col class="col-fit">
+        <col style="width:9%;">
       </colgroup>
       <thead>
         <tr>
@@ -392,6 +402,7 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:32px 20px;}
           <th>Winter Deadline</th>
           <th>Tier</th>
           <th>GPA Fit</th>
+          <th>QS Rank</th>
         </tr>
       </thead>
       <tbody id="cardsContainer"></tbody>
@@ -443,16 +454,34 @@ function renderCard(item){
     <td class="muted">${(dWinter||"").split('(')[0].trim()}</td>
     <td><span class="tag tier-${item.tier}">Tier ${item.tier}</span></td>
     <td><span class="tag fit-${fit}">${fitLabel[fit]||fit}</span></td>
+    <td class="muted">${item.ranking && item.ranking.qs_world_rank ? item.ranking.qs_world_rank.split('(')[0].trim() : '—'}</td>
   </tr>`;
 }
 
 function tuitionCategory(p){
-  const t = (p.costs_funding ? p.costs_funding.tuition : (p.tuition || "")).toLowerCase();
-  if(t.includes("private") || t.includes("5,") || t.includes("6,") || t.includes("4,")) return "paid";
-  if(t.includes("possibly") || t.includes("check:") || t.includes("varied")) return "risk";
-  if(t.includes("no tuition") || t.includes("none") || t.includes("0")) return "free";
-  if(/\d/.test(t)) return "paid";
-  return "free";
+  const raw = (p.costs_funding ? p.costs_funding.tuition : (p.tuition || ""));
+  const t = raw.toLowerCase();
+  if(!raw || t === 'not found' || t.includes('not found')) return "unclear";
+  if(t === 'none' || /no tuition/.test(t) || /^0\s*eur/.test(t)) return "free";
+  // Extract the largest EUR number mentioned (per semester figures)
+  const nums = [...t.matchAll(/([\d]{1,3}(?:,\d{3})*)\s*eur/g)].map(m => parseInt(m[1].replace(/,/g,'')));
+  if(!nums.length) return "unclear";
+  const maxNum = Math.max(...nums);
+  if(maxNum === 0) return "free";
+  if(maxNum < 1000) return "low";
+  if(maxNum <= 3000) return "mid";
+  return "high";
+}
+function rankCategory(p){
+  const rk = p.ranking;
+  if(!rk) return "low";
+  const qs = (rk.qs_world_rank||'');
+  const the = (rk.the_world_rank||'');
+  if(/not ranked/i.test(qs) && /not ranked|not found/i.test(the)) return "low";
+  const nums = (qs+' '+the).match(/\d+/g);
+  if(!nums || !nums.length) return "medium"; // ranked somewhere but number unclear
+  const best = Math.min(...nums.map(Number));
+  return best <= 300 ? "top" : "medium";
 }
 function langCategory(p){
   const l = (p.overview ? p.overview.language : (p.language || "")).toLowerCase();
@@ -479,6 +508,7 @@ function applyFilters(){
   const tier = document.getElementById('tierFilter').value;
   const fit = document.getElementById('fitFilter').value;
   const tuition = document.getElementById('tuitionFilter').value;
+  const rank = document.getElementById('rankFilter').value;
   const subject = document.getElementById('subjectFilter').value;
   const lang = document.getElementById('langFilter').value;
   const intake = document.getElementById('intakeFilter').value;
@@ -490,12 +520,15 @@ function applyFilters(){
       if(tier && p.tier!==tier) return false;
       if(fit && p.gpa_fit!==fit) return false;
       if(tuition && tuitionCategory(p)!==tuition) return false;
+      if(rank && rankCategory(p)!==rank) return false;
       if(subject && subjectCategory(p)!==subject) return false;
       if(lang && langCategory(p)!==lang) return false;
-      const dWinter = p.requirements_registration ? p.requirements_registration.deadline_winter : (p.deadline_winter||"");
-      const dSummer = p.requirements_registration ? p.requirements_registration.deadline_summer : (p.deadline_summer||"");
-      if(intake==="winter" && !/winter|\d/i.test(dWinter)) return false;
-      if(intake==="summer" && !/summer|\d/i.test(dSummer)) return false;
+      const dWinter = (p.requirements_registration ? p.requirements_registration.deadline_winter : (p.deadline_winter||"")) || "";
+      const dSummer = (p.requirements_registration ? p.requirements_registration.deadline_summer : (p.deadline_summer||"")) || "";
+      const noWinter = /not offered|not found|not listed|not applicable/i.test(dWinter) && !/\d/.test(dWinter);
+      const noSummer = /not offered|not found|not listed|not applicable/i.test(dSummer) && !/\d/.test(dSummer);
+      if(intake==="winter" && noWinter) return false;
+      if(intake==="summer" && noSummer) return false;
       return true;
     });
 
@@ -507,7 +540,7 @@ function applyFilters(){
   document.getElementById('resultCount').textContent = `${items.length} / ${ALL_ITEMS.length} টি মাস্টার্স প্রোগ্রাম (Single Master Database)`;
 }
 
-['searchBox','tierFilter','fitFilter','tuitionFilter','subjectFilter','langFilter','intakeFilter','sortBy'].forEach(id=>{
+['searchBox','tierFilter','fitFilter','tuitionFilter','rankFilter','subjectFilter','langFilter','intakeFilter','sortBy'].forEach(id=>{
   document.getElementById(id).addEventListener('input', applyFilters);
   document.getElementById(id).addEventListener('change', applyFilters);
 });
